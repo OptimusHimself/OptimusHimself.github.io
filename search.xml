@@ -78,8 +78,8 @@
 <div style="page-break-after: always;"></div>]]></content>
   </entry>
   <entry>
-    <title></title>
-    <url>/2024/12/05/Node.js%20%E4%B8%8E%20NPM%E3%80%81NPX%E5%B7%A5%E5%85%B7/</url>
+    <title>Node.js基本概念 I</title>
+    <url>/2024/11/20/Node.js%20%E4%B8%8E%20NPM%E3%80%81NPX%E5%B7%A5%E5%85%B7/</url>
     <content><![CDATA[<h1 id="NPM-及基本指令：npm-init"><a href="#NPM-及基本指令：npm-init" class="headerlink" title="NPM 及基本指令：npm init"></a>NPM 及基本指令：npm init</h1><ul>
 <li>包管理器，用于安装、管理 Node.js 依赖。</li>
 <li>类似 Python 的 pip，管理项目依赖和全局包</li>
