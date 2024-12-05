@@ -77,4 +77,38 @@
 
 <div style="page-break-after: always;"></div>]]></content>
   </entry>
+  <entry>
+    <title></title>
+    <url>/2024/12/05/Node.js%20%E4%B8%8E%20NPM%E3%80%81NPX%E5%B7%A5%E5%85%B7/</url>
+    <content><![CDATA[<h1 id="NPM-及基本指令：npm-init"><a href="#NPM-及基本指令：npm-init" class="headerlink" title="NPM 及基本指令：npm init"></a>NPM 及基本指令：npm init</h1><ul>
+<li>包管理器，用于安装、管理 Node.js 依赖。</li>
+<li>类似 Python 的 pip，管理项目依赖和全局包</li>
+</ul>
+<h2 id="npm-init"><a href="#npm-init" class="headerlink" title="npm init"></a>npm init</h2><h3 id="概念："><a href="#概念：" class="headerlink" title="概念："></a>概念：</h3><h3 id="重要吗？"><a href="#重要吗？" class="headerlink" title="重要吗？"></a>重要吗？</h3><p>创建大项目，需要配置依赖的时候就需要。如果写单独一个js代码，不需要init。就像用CLion新建cpp、c项目。你可以就写一个简单的可执行文件，也可以不配置CMake，单纯写一个sort.c</p>
+<h2 id="包类型以及npm对应参数"><a href="#包类型以及npm对应参数" class="headerlink" title="包类型以及npm对应参数"></a>包类型以及npm对应参数</h2><ol>
+<li><h3 id="dependencies-生产环境需要的包：–save-：npm-install-–save-包名-安装到Dependencies"><a href="#dependencies-生产环境需要的包：–save-：npm-install-–save-包名-安装到Dependencies" class="headerlink" title="dependencies: 生产环境需要的包：–save ：npm install –save [包名]&#x2F;&#x2F;安装到Dependencies{ }"></a>dependencies: 生产环境需要的包：–save ：npm install –save [包名]&#x2F;&#x2F;安装到Dependencies{ }</h3></li>
+<li><h3 id="devDependencies-开发阶段需要，生产环境不需要的包-npm-install-–save-dev-包名-安装到devDependencies"><a href="#devDependencies-开发阶段需要，生产环境不需要的包-npm-install-–save-dev-包名-安装到devDependencies" class="headerlink" title="devDependencies: 开发阶段需要，生产环境不需要的包:npm install –save-dev [包名], 安装到devDependencies{ }"></a>devDependencies: 开发阶段需要，生产环境不需要的包:npm install –save-dev [包名], 安装到devDependencies{ }</h3></li>
+</ol>
+<h3 id="典型的-devDependencies-包括："><a href="#典型的-devDependencies-包括：" class="headerlink" title="典型的 devDependencies 包括："></a>典型的 <code>devDependencies</code> 包括：</h3><ul>
+<li>nodemon</li>
+<li>webpack</li>
+<li>babel</li>
+<li>eslint</li>
+<li>jest 测试框架</li>
+</ul>
+<h1 id="node"><a href="#node" class="headerlink" title="node"></a>node</h1><p><code>node</code> 是 JavaScript 解释器，也是javascript的run time environment</p>
+<h1 id="NPX-Node-Package-Execute"><a href="#NPX-Node-Package-Execute" class="headerlink" title="NPX  Node Package Execute"></a>NPX  Node Package Execute</h1><h2 id="概念和功能"><a href="#概念和功能" class="headerlink" title="概念和功能"></a>概念和功能</h2><ul>
+<li>NPM 5.2+ 内置的包执行工具，可以直接运行未安装的包。</li>
+<li>临时下载并执行包，不需要全局或本地预先安装</li>
+</ul>
+<h3 id="NPX-工作流程"><a href="#NPX-工作流程" class="headerlink" title="NPX 工作流程:"></a>NPX 工作流程:</h3><p>检查本地是否有该包, 如无，临时下载并执行，执行完立即删除</p>
+<h1 id="碎知识"><a href="#碎知识" class="headerlink" title="碎知识"></a>碎知识</h1><h2 id="为什么叫-index-js？"><a href="#为什么叫-index-js？" class="headerlink" title="为什么叫 index.js？"></a>为什么叫 index.js？</h2><p>index” 在这里不是传统的”索引”含义，借鉴了 Web 服务器和文件系统的约定。约定俗成的命名惯例，表示”主要的”、”默认的”</p>
+<p>网页服务器中，index.html 是默认页面</p>
+<h2 id="关于入口点："><a href="#关于入口点：" class="headerlink" title="关于入口点："></a>关于入口点：</h2><ul>
+<li>通常&#x3D;&#x3D;一个项目只有一个主入口点&#x3D;&#x3D;。</li>
+<li>可以有多个脚本，但推荐有一个主入口。&#x3D;&#x3D;复杂项目可能有不同的入口&#x3D;&#x3D;，比如index.js (主应用)，server.js (服务器启动)，<strong>cli.js (命令行工具)</strong></li>
+</ul>
+<h1 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h1><p><a href="https://www.npmjs.cn/">NPM中文网</a></p>
+]]></content>
+  </entry>
 </search>
