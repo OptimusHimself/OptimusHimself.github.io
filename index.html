@@ -14,6 +14,13 @@
 
 
 
+  
+  
+    
+    
+  <script src="/lib/pace/pace.min.js?v=1.0.2"></script>
+  <link href="/lib/pace/pace-theme-center-atom.min.css?v=1.0.2" rel="stylesheet">
+
 
 
 
@@ -266,6 +273,143 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2024/12/07/8051Addressing-md/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Tyrone Opting's Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2024/12/07/8051Addressing-md/" itemprop="url">8051的五种AddressingModes</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2024-12-07T23:19:49+08:00">
+                2024-12-07
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+          Outline：干活满满
+8051 的内部内存和外部内存介绍：大小、用途.以及 SFR, Register bench的介绍
+访问内存的5种方式；每种对应代码规则、应用场景的介绍。若有功能上包含部分，将区分何时用哪种。
+内存的结构、本质：是寄存器？内存Address数 和 内存大小的关系。
+
+一、理解8051微控制器的多种内存结构内部内存1.基本参数： PA: 0 - 255. 共256Byte
+2.分为两部分：
+
+低地址（下游）部分： PA &#x3D; 0 - 127 （00 - 7F）
+上游内存：PA &#x3D; 128 - 255  (80 - FF)
+
+3. SFR special
+          ...
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2024/12/07/8051Addressing-md/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://example.com/2024/12/05/Node.js%20%E4%B8%8E%20NPM%E3%80%81NPX%E5%B7%A5%E5%85%B7/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -471,7 +615,7 @@ devDependencies: 开发阶
         
           
           个人信息
-张文岳&#x2F;男&#x2F;2004 | 手机：19179108485 , 邮箱：&#79;&#112;&#x74;&#105;&#109;&#117;&#115;&#x5a;&#104;&#97;&#110;&#x67;&#x40;&#111;&#117;&#x74;&#108;&#111;&#x6f;&#x6b;&#x2e;&#99;&#111;&#109;
+张文岳&#x2F;男&#x2F;2004 | 手机：19179108485 , 邮箱：&#x4f;&#112;&#x74;&#x69;&#109;&#117;&#115;&#90;&#104;&#x61;&#110;&#x67;&#64;&#111;&#x75;&#116;&#x6c;&#111;&#111;&#x6b;&#x2e;&#99;&#111;&#x6d;
 Blogs：https://optimushimself.github.io/
 Github：https://github.com/OptimusHimself 
 项目意向：软件开发、AI。
@@ -698,7 +842,7 @@ Run server1$ hexo ser
               
                 <a href="/archives/%20%7C%7C%20archive">
               
-                  <span class="site-state-item-count">3</span>
+                  <span class="site-state-item-count">4</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -706,6 +850,15 @@ Run server1$ hexo ser
 
             
 
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                
+                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-name">标签</span>
+                
+              </div>
             
 
           </nav>

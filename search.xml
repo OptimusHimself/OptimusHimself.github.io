@@ -1,28 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/2024/11/20/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
     <title>Tyrone Opting&#39;s Resume</title>
     <url>/2024/11/20/MyResume/</url>
     <content><![CDATA[<h2 id="个人信息"><a href="#个人信息" class="headerlink" title="个人信息"></a>个人信息</h2><ul>
-<li>张文岳&#x2F;男&#x2F;2004 | 手机：19179108485 , 邮箱：<a href="mailto:&#79;&#112;&#x74;&#105;&#109;&#117;&#115;&#x5a;&#104;&#97;&#110;&#x67;&#x40;&#111;&#117;&#x74;&#108;&#111;&#x6f;&#x6b;&#x2e;&#99;&#111;&#109;">&#79;&#112;&#x74;&#105;&#109;&#117;&#115;&#x5a;&#104;&#97;&#110;&#x67;&#x40;&#111;&#117;&#x74;&#108;&#111;&#x6f;&#x6b;&#x2e;&#99;&#111;&#109;</a></li>
+<li>张文岳&#x2F;男&#x2F;2004 | 手机：19179108485 , 邮箱：<a href="mailto:&#x4f;&#112;&#x74;&#x69;&#109;&#117;&#115;&#90;&#104;&#x61;&#110;&#x67;&#64;&#111;&#x75;&#116;&#x6c;&#111;&#111;&#x6b;&#x2e;&#99;&#111;&#x6d;">&#x4f;&#112;&#x74;&#x69;&#109;&#117;&#115;&#90;&#104;&#x61;&#110;&#x67;&#64;&#111;&#x75;&#116;&#x6c;&#111;&#111;&#x6b;&#x2e;&#99;&#111;&#x6d;</a></li>
 <li>Blogs：<a href="https://optimushimself.github.io/">https://optimushimself.github.io/</a></li>
 <li>Github：<a href="https://github.com/OptimusHimself">https://github.com/OptimusHimself</a> </li>
 <li>项目意向：软件开发、AI。</li>
@@ -78,6 +60,24 @@
 <div style="page-break-after: always;"></div>]]></content>
   </entry>
   <entry>
+    <title>Hello World</title>
+    <url>/2024/11/20/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
     <title>Node.js基本概念 I</title>
     <url>/2024/12/05/Node.js%20%E4%B8%8E%20NPM%E3%80%81NPX%E5%B7%A5%E5%85%B7/</url>
     <content><![CDATA[<h1 id="NPM-及基本指令：npm-init"><a href="#NPM-及基本指令：npm-init" class="headerlink" title="NPM 及基本指令：npm init"></a>NPM 及基本指令：npm init</h1><ul>
@@ -110,5 +110,70 @@
 </ul>
 <h1 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h1><p><a href="https://www.npmjs.cn/">NPM中文网</a></p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>8051的五种AddressingModes</title>
+    <url>/2024/12/07/8051Addressing-md/</url>
+    <content><![CDATA[<h1 id="Outline：干活满满"><a href="#Outline：干活满满" class="headerlink" title="Outline：干活满满"></a>Outline：干活满满</h1><ol>
+<li>8051 的内部内存和外部内存介绍：大小、用途.以及 SFR, Register bench的介绍</li>
+<li>访问内存的5种方式；每种对应代码规则、应用场景的介绍。若有功能上包含部分，将区分何时用哪种。</li>
+<li>内存的结构、本质：是寄存器？内存Address数 和 内存大小的关系。</li>
+</ol>
+<h1 id="一、理解8051微控制器的多种内存结构"><a href="#一、理解8051微控制器的多种内存结构" class="headerlink" title="一、理解8051微控制器的多种内存结构"></a>一、理解8051微控制器的多种内存结构</h1><h2 id="内部内存"><a href="#内部内存" class="headerlink" title="内部内存"></a>内部内存</h2><p>1.基本参数： PA: 0 - 255. 共256Byte</p>
+<p>2.分为两部分：</p>
+<ul>
+<li>低地址（下游）部分： PA &#x3D; 0 - 127 （00 - 7F）</li>
+<li>上游内存：PA &#x3D; 128 - 255  (80 - FF)</li>
+</ul>
+<h3 id="3-SFR-special-function-register"><a href="#3-SFR-special-function-register" class="headerlink" title="3. SFR special function register"></a>3. <strong>SFR special function register</strong></h3><ul>
+<li>分布在8051内部内存的高地址区域。 注！不能理解为：高地址区域（80-FF）这128个内存存储单元（寄存器）全都是SFR。 实际上，8051的SFR只有</li>
+<li>什么是SFR，有哪些特别的属性？</li>
+</ul>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<ul>
+<li>常见的SFR有哪些？如何影响8051工作？</li>
+</ul>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h3 id="4-四个寄存器组：register-bench"><a href="#4-四个寄存器组：register-bench" class="headerlink" title="4. 四个寄存器组：register bench"></a><strong>4. 四个寄存器组：register bench</strong></h3><p>位于低地址区域，他们所在地址分别是：00-07，08-0F, 10 - 17, 18 - 1F 共占用16个memory unit。</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h2 id="外部内存"><a href="#外部内存" class="headerlink" title="外部内存"></a>外部内存</h2><p>&nbsp;</p>
+<h1 id="二、Addressing-Mode：语法讲解及常规用法"><a href="#二、Addressing-Mode：语法讲解及常规用法" class="headerlink" title="二、Addressing Mode：语法讲解及常规用法"></a>二、Addressing Mode：语法讲解及常规用法</h1><h3 id="Immediate-memory-addressing-立即寻址模式"><a href="#Immediate-memory-addressing-立即寻址模式" class="headerlink" title="Immediate memory addressing 立即寻址模式"></a>Immediate memory addressing 立即寻址模式</h3><h3 id="Direct-memory-addressing-直接寻址模式"><a href="#Direct-memory-addressing-直接寻址模式" class="headerlink" title="Direct memory addressing 直接寻址模式"></a>Direct memory addressing 直接寻址模式</h3><ul>
+<li>用于直接访问内部内存。</li>
+<li>第二个oprand直接加数字，不需要立即数符号(#)    <code> MOV A, 04</code>; <code>MOV A, 0D3H; </code></li>
+</ul>
+<p> </p>
+<h3 id="Register-direct-memory-addressing-寄存器直接寻址"><a href="#Register-direct-memory-addressing-寄存器直接寻址" class="headerlink" title="Register direct memory addressing 寄存器直接寻址"></a>Register direct memory addressing 寄存器直接寻址</h3><ul>
+<li>访问四个寄存器组中的寄存器数据。</li>
+<li><code>MOV A,R0 </code>    <code>MOV A, R6</code></li>
+</ul>
+<h3 id="Register-Indirect-memory-addressing-寄存器间接寻址"><a href="#Register-Indirect-memory-addressing-寄存器间接寻址" class="headerlink" title="Register Indirect memory addressing 寄存器间接寻址"></a>Register Indirect memory addressing 寄存器间接寻址</h3><ul>
+<li>访问四个寄存器组中的前两个寄存器（R0, R1）存储的数据（不是Numerical number而是作为memory address处理），并且再访问其对应的内存地址，把对应地址中的数据MOV到A，而不是把寄存器R0 &#x2F; R1的数据移到A （不同于第三种）</li>
+<li>语法说明：<code>MOV A,@R0</code>, 假设此时PSW指明第二个（0 - 3）寄存器组（<code>R0R1</code> &#x3D; <code>2‘b10</code>）, 寄存器R0 （对应内存地址10）里的数据是55H。 那么执行这个指令后，会把内存地址55H号的寄存器数据（for example，可能是87）MOV到A。</li>
+<li>这增大了编程的灵活性。虽然访问空间还是局限在内部内存</li>
+</ul>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h1 id="三、微观角度理解内存"><a href="#三、微观角度理解内存" class="headerlink" title="三、微观角度理解内存"></a>三、微观角度理解内存</h1><p>一个memory Unit module有三个端口：</p>
+<ol>
+<li>Control 控制读写，和控制总线相连</li>
+<li>Data  存储数据、传输数据：和数据总线相连</li>
+<li>Address&#x2F;physical location:    地址，unit &#x3D; 1(连续的)，和地址总线相连。</li>
+</ol>
+<p>例子：8051的internal RAM有256个Address （Physical locations）, 256字节的大小。地址总线宽度为8位，而数据总线宽度为4位（一字节&#x3D;4bits）</p>
+<p>理解三个端口的独立性之后就能理解：内存unit的位置和该内存存储单元能存储的字节数量无关联。 当你看到#40H 内存位置存了一个’U’ 字符，或者说存了一个很大的数1234556，然后又看到紧接着的#41H unit存储了一个’S’，你不应该感到惊讶…. 能存多少取决于Data Bus的宽度&lt;size&gt;。</p>
+<p>碎问题：可以把内部内存的基本存储单元理解为寄存器吗（无所谓其实。</p>
+<p>&nbsp;</p>
+<p>总结8051内部的存储器：内部、外部RAM，ROM</p>
+<p>&nbsp;</p>
+<p>TODO: 聊聊特殊功能寄存器的种类、功能：和port, interrupt联系起来。</p>
+<p>学习了这5中内存访问方式，但是看课件上相关的指令也就只有MOV, MOVC, MOVX, 还有其他的和访问内存相关的指令吗？</p>
+]]></content>
+      <tags>
+        <tag>8051 Micro-Controller</tag>
+      </tags>
   </entry>
 </search>
