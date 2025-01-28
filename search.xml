@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>8051的五种AddressingModes</title>
+    <url>/2024/12/07/8051Addressing-md/</url>
+    <content><![CDATA[<h1 id="Outline：干活满满"><a href="#Outline：干活满满" class="headerlink" title="Outline：干活满满"></a>Outline：干活满满</h1><ol>
+<li>8051 的内部内存和外部内存介绍：大小、用途.以及 SFR, Register bench的介绍</li>
+<li>访问内存的5种方式；每种对应代码规则、应用场景的介绍。若有功能上包含部分，将区分何时用哪种。</li>
+<li>内存的结构、本质：是寄存器？内存Address数 和 内存大小的关系。</li>
+</ol>
+<h1 id="一、理解8051微控制器的多种内存结构"><a href="#一、理解8051微控制器的多种内存结构" class="headerlink" title="一、理解8051微控制器的多种内存结构"></a>一、理解8051微控制器的多种内存结构</h1><h2 id="内部内存"><a href="#内部内存" class="headerlink" title="内部内存"></a>内部内存</h2><p>1.基本参数： PA: 0 - 255. 共256Byte</p>
+<p>2.分为两部分：</p>
+<ul>
+<li>低地址（下游）部分： PA &#x3D; 0 - 127 （00 - 7F）</li>
+<li>上游内存：PA &#x3D; 128 - 255  (80 - FF)</li>
+</ul>
+<p> 3. <strong>SFR special function register</strong></p>
+<ul>
+<li>分布在8051内部内存的高地址区域。 注！不能理解为：高地址区域（80-FF）这128个内存存储单元（寄存器）全都是SFR。 实际上，8051的SFR只有</li>
+<li>什么是SFR，有哪些特别的属性？</li>
+</ul>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<ul>
+<li>常见的SFR有哪些？如何影响8051工作？</li>
+</ul>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p> <strong>4. 四个寄存器组：register bench</strong></p>
+<p>位于低地址区域，他们所在地址分别是：00-07，08-0F, 10 - 17, 18 - 1F 共占用16个memory unit。</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h2 id="外部内存"><a href="#外部内存" class="headerlink" title="外部内存"></a>外部内存</h2><p>&nbsp;<br>&nbsp;</p>
+<h1 id="二、Addressing-Mode：语法讲解及常规用法"><a href="#二、Addressing-Mode：语法讲解及常规用法" class="headerlink" title="二、Addressing Mode：语法讲解及常规用法"></a>二、Addressing Mode：语法讲解及常规用法</h1><h3 id="Immediate-memory-addressing-立即寻址模式"><a href="#Immediate-memory-addressing-立即寻址模式" class="headerlink" title="Immediate memory addressing 立即寻址模式"></a>Immediate memory addressing 立即寻址模式</h3><h3 id="Direct-memory-addressing-直接寻址模式"><a href="#Direct-memory-addressing-直接寻址模式" class="headerlink" title="Direct memory addressing 直接寻址模式"></a>Direct memory addressing 直接寻址模式</h3><ul>
+<li>用于直接访问内部内存。</li>
+<li>第二个oprand直接加数字，不需要立即数符号(#)    <code> MOV A, 04</code>; <code>MOV A, 0D3H; </code></li>
+</ul>
+<p> </p>
+<h3 id="Register-direct-memory-addressing-寄存器直接寻址"><a href="#Register-direct-memory-addressing-寄存器直接寻址" class="headerlink" title="Register direct memory addressing 寄存器直接寻址"></a>Register direct memory addressing 寄存器直接寻址</h3><ul>
+<li>访问四个寄存器组中的寄存器数据。</li>
+<li><code>MOV A,R0 </code>    <code>MOV A, R6</code></li>
+</ul>
+<h3 id="Register-Indirect-memory-addressing-寄存器间接寻址"><a href="#Register-Indirect-memory-addressing-寄存器间接寻址" class="headerlink" title="Register Indirect memory addressing 寄存器间接寻址"></a>Register Indirect memory addressing 寄存器间接寻址</h3><ul>
+<li>访问四个寄存器组中的前两个寄存器（R0, R1）存储的数据（不是Numerical number而是作为memory address处理），并且再访问其对应的内存地址，把对应地址中的数据MOV到A，而不是把寄存器R0 &#x2F; R1的数据移到A （不同于第三种）</li>
+<li>语法说明：<code>MOV A,@R0</code>, 假设此时PSW指明第二个（0 - 3）寄存器组（<code>R0R1</code> &#x3D; <code>2‘b10</code>）, 寄存器R0 （对应内存地址10）里的数据是55H。 那么执行这个指令后，会把内存地址55H号的寄存器数据（for example，可能是87）MOV到A。</li>
+<li>这增大了编程的灵活性。虽然访问空间还是局限在内部内存</li>
+</ul>
+<p>&nbsp;</p>
+<h1 id="三、微观角度理解内存"><a href="#三、微观角度理解内存" class="headerlink" title="三、微观角度理解内存"></a>三、微观角度理解内存</h1><p>一个memory Unit module有三个端口：</p>
+<ol>
+<li>Control 控制读写，和控制总线相连</li>
+<li>Data  存储数据、传输数据：和数据总线相连</li>
+<li>Address&#x2F;physical location:    地址，unit &#x3D; 1(连续的)，和地址总线相连。</li>
+</ol>
+<p>例子：8051的internal RAM有256个Address （Physical locations）, 256字节的大小。地址总线宽度为8位，而数据总线宽度为4位（一字节&#x3D;4bits）</p>
+<p>理解三个端口的独立性之后就能理解：内存unit的位置和该内存存储单元能存储的字节数量无关联。 当你看到#40H 内存位置存了一个’U’ 字符，或者说存了一个很大的数1234556，然后又看到紧接着的#41H unit存储了一个’S’，你不应该感到惊讶…. 能存多少取决于Data Bus的宽度&lt;size&gt;。</p>
+<p>碎问题：可以把内部内存的基本存储单元理解为寄存器吗（无所谓其实。</p>
+<p>&nbsp;</p>
+<p>总结8051内部的存储器：内部、外部RAM，ROM</p>
+<p>&nbsp;</p>
+<p>TODO: 聊聊特殊功能寄存器的种类、功能：和port, interrupt联系起来。</p>
+<p>学习了这5中内存访问方式，但是看课件上相关的指令也就只有MOV, MOVC, MOVX, 还有其他的和访问内存相关的指令吗？</p>
+<!--<img=C:\\Users\\Optimus\\Desktop\\MCM\\pics_essay_zwy">
+fsadfds-->]]></content>
+      <tags>
+        <tag>8051 Micro-Controller</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>花书Dive into Deep Learning 入门</title>
+    <url>/2025/01/15/d2l/</url>
+    <content><![CDATA[<h1 id="花书牛在哪？"><a href="#花书牛在哪？" class="headerlink" title="花书牛在哪？"></a>花书牛在哪？</h1><ol>
+<li>大佬写的。名声在，质量就会有保障。</li>
+<li>有代码，有理论, 有例子。你怕学不会？</li>
+<li>开源、配备读者论坛。时刻更新代码。遇到问题很容易在论坛里找到学长们的回答。</li>
+<li>感恩：还配备了文字版的PDF，“Acrobat阅读者”们有福了！就冲着把事情做好的情怀、用那么大心血，这本书一定不会差。</li>
+</ol>
+<h1 id="我们的学习目标？有哪些很酷的事情？（TBC"><a href="#我们的学习目标？有哪些很酷的事情？（TBC" class="headerlink" title="我们的学习目标？有哪些很酷的事情？（TBC"></a>我们的学习目标？有哪些很酷的事情？（TBC</h1><p>&nbsp;</p>
+<p>&nbsp;</p>
+<h1 id="FAQ：第一步，对于一个刚用conda-pip-不熟悉shell指令，不懂网络的零基础零经验小白来说往往是最难的："><a href="#FAQ：第一步，对于一个刚用conda-pip-不熟悉shell指令，不懂网络的零基础零经验小白来说往往是最难的：" class="headerlink" title="FAQ：第一步，对于一个刚用conda, pip, 不熟悉shell指令，不懂网络的零基础零经验小白来说往往是最难的："></a>FAQ：第一步，对于一个刚用conda, pip, 不熟悉shell指令，不懂网络的零基础零经验小白来说往往是最难的：</h1><h2 id="一、先插一嘴，关于下载书本配套的完整代码："><a href="#一、先插一嘴，关于下载书本配套的完整代码：" class="headerlink" title="一、先插一嘴，关于下载书本配套的完整代码："></a>一、先插一嘴，关于下载书本配套的完整代码：</h2><p>虽然online docs上有代码，书上也有代码。但是不一定全。作者给了你一个压缩包，里面是完整的程序，每一章的代码都用.ipynb保存，放入每一章的文件夹。</p>
+<h2 id="二、快来搭建学习环境！！！其实就三步"><a href="#二、快来搭建学习环境！！！其实就三步" class="headerlink" title="二、快来搭建学习环境！！！其实就三步"></a>二、快来搭建学习环境！！！其实就三步</h2><h3 id="第一步，创建并激活环境，使用python-3-9："><a href="#第一步，创建并激活环境，使用python-3-9：" class="headerlink" title="第一步，创建并激活环境，使用python&#x3D;3.9："></a>第一步，创建并激活环境，使用python&#x3D;3.9：</h3><p><code>conda create --name d2l python=3.9</code> 然后输入yes，确认下载、安装。</p>
+<h3 id="第二步：安装d2l依赖：torch-torchvision："><a href="#第二步：安装d2l依赖：torch-torchvision：" class="headerlink" title="第二步：安装d2l依赖：torch torchvision："></a>第二步：安装d2l依赖：torch torchvision：</h3><p><code>pip install torch==1.12.0</code></p>
+<p><code>pip install torchvision==0.13.0</code></p>
+<ul>
+<li>建议：torch torchvision 版本和书上的一样，copy过来就行。pip conda都可以。没必要上官网找指令。不然版本不一致容易出问题。</li>
+</ul>
+<h3 id="第三步：安装d2l包-。（也是pip指令搞定"><a href="#第三步：安装d2l包-。（也是pip指令搞定" class="headerlink" title="第三步：安装d2l包 。（也是pip指令搞定"></a>第三步：安装d2l包 。（也是pip指令搞定</h3><ul>
+<li>前置知识：</li>
+</ul>
+<ol>
+<li>在激活的conda使用pip和conda无区别</li>
+<li>执行“安装torch torchvision指令” 会看机器有没有GPU，然后安装对应版本。 所以，没必要管gpu cpu，版本代数选对了就行。</li>
+</ol>
+<ul>
+<li>中肯的建议：头脑清晰，刚入门别给自己太多要求。</li>
+</ul>
+<ol>
+<li>如果哪一步觉得不对，删掉环境重来吧。<code>conda env remove &quot;your_env_name&quot;</code></li>
+<li>如果网不好。今天就别弄了。先看看怎么<a href="https://blog.csdn.net/m0_61634551/article/details/130867867">配网络代离</a>。或者config其他的镜像源。&#x2F;&#x2F;去百度搜一下</li>
+<li>不需要知道什么是torch  torchvision. 没关系！别管他们。先按部就班，照着书上的说明能跑通安装环境的指令就很牛逼了。</li>
+<li>如果你已经有其他的环境，而且里面带了torch，别管它。重新装一个吧，大不到哪去，初学者别考虑电脑空间。</li>
+</ol>
+<h2 id="第一次，跨过配置环境这座山。然后干很多酷酷的事情："><a href="#第一次，跨过配置环境这座山。然后干很多酷酷的事情：" class="headerlink" title="第一次，跨过配置环境这座山。然后干很多酷酷的事情："></a>第一次，跨过配置环境这座山。然后干很多酷酷的事情：</h2><ul>
+<li>运行d2l notebook里面的所有代码。就是之前从d2l docs HTML Jupyter那一栏下载的zip代码包。</li>
+<li>用jupyter notebook,搭载自己先前配好的d2l无敌环境学习Deep Learning!!!</li>
+</ul>
+<p> </p>
+<h3 id="举一反三，很多想做的事情都知道怎么开始了："><a href="#举一反三，很多想做的事情都知道怎么开始了：" class="headerlink" title="举一反三，很多想做的事情都知道怎么开始了："></a>举一反三，很多想做的事情都知道怎么开始了：</h3><p>创建新的Data Science Conda环境 <code>conda create --name your_env_name python=3.x</code>。</p>
+<p>激活（activate）刚创建好的conda环境，用Pip （or conda）指令，安装你需要的模块。配置完环境后，然后把它添加到Jupyter Notebook的ipython core里，这样你才能在jupyter notebook使用python (virtual) 环境: </p>
+<p><code>python -m ipykernel install --user --name your_envNameInConda --display-name=&quot;Python (nameDisplayedInJuypterNotebook)&quot;</code><br>最后，用jupyter notebook开始你的Data Science Module、理论、Everything in this topic的学习之路！</p>
+<p>&nbsp;</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Node.js基本概念 I (TBC)</title>
+    <url>/2024/12/05/Node.js%20%E4%B8%8E%20NPM%E3%80%81NPX%E5%B7%A5%E5%85%B7/</url>
+    <content><![CDATA[<h1 id="NPM-及基本指令：npm-init"><a href="#NPM-及基本指令：npm-init" class="headerlink" title="NPM 及基本指令：npm init"></a>NPM 及基本指令：npm init</h1><ul>
+<li>包管理器，用于安装、管理 Node.js 依赖。</li>
+<li>类似 Python 的 pip，管理项目依赖和全局包</li>
+</ul>
+<h2 id="npm-init"><a href="#npm-init" class="headerlink" title="npm init"></a>npm init</h2><h3 id="概念："><a href="#概念：" class="headerlink" title="概念："></a>概念：</h3><h3 id="重要吗？"><a href="#重要吗？" class="headerlink" title="重要吗？"></a>重要吗？</h3><p>创建大项目，需要配置依赖的时候就需要。如果写单独一个js代码，不需要init。就像用CLion新建cpp、c项目。你可以就写一个简单的可执行文件，也可以不配置CMake，单纯写一个sort.c</p>
+<h2 id="包类型以及npm对应参数"><a href="#包类型以及npm对应参数" class="headerlink" title="包类型以及npm对应参数"></a>包类型以及npm对应参数</h2><ol>
+<li><h3 id="dependencies-生产环境需要的包：–save-：npm-install-–save-包名-安装到Dependencies"><a href="#dependencies-生产环境需要的包：–save-：npm-install-–save-包名-安装到Dependencies" class="headerlink" title="dependencies: 生产环境需要的包：–save ：npm install –save [包名]&#x2F;&#x2F;安装到Dependencies{ }"></a>dependencies: 生产环境需要的包：–save ：npm install –save [包名]&#x2F;&#x2F;安装到Dependencies{ }</h3></li>
+<li><h3 id="devDependencies-开发阶段需要，生产环境不需要的包-npm-install-–save-dev-包名-安装到devDependencies"><a href="#devDependencies-开发阶段需要，生产环境不需要的包-npm-install-–save-dev-包名-安装到devDependencies" class="headerlink" title="devDependencies: 开发阶段需要，生产环境不需要的包:npm install –save-dev [包名], 安装到devDependencies{ }"></a>devDependencies: 开发阶段需要，生产环境不需要的包:npm install –save-dev [包名], 安装到devDependencies{ }</h3></li>
+</ol>
+<h3 id="典型的-devDependencies-包括："><a href="#典型的-devDependencies-包括：" class="headerlink" title="典型的 devDependencies 包括："></a>典型的 <code>devDependencies</code> 包括：</h3><ul>
+<li>nodemon</li>
+<li>webpack</li>
+<li>babel</li>
+<li>eslint</li>
+<li>jest 测试框架</li>
+</ul>
+<h1 id="node"><a href="#node" class="headerlink" title="node"></a>node</h1><p><code>node</code> 是 JavaScript 解释器，也是javascript的run time environment</p>
+<h1 id="NPX-Node-Package-Execute"><a href="#NPX-Node-Package-Execute" class="headerlink" title="NPX  Node Package Execute"></a>NPX  Node Package Execute</h1><h2 id="概念和功能"><a href="#概念和功能" class="headerlink" title="概念和功能"></a>概念和功能</h2><ul>
+<li>NPM 5.2+ 内置的包执行工具，可以直接运行未安装的包。</li>
+<li>临时下载并执行包，不需要全局或本地预先安装</li>
+</ul>
+<h3 id="NPX-工作流程"><a href="#NPX-工作流程" class="headerlink" title="NPX 工作流程:"></a>NPX 工作流程:</h3><p>检查本地是否有该包, 如无，临时下载并执行，执行完立即删除</p>
+<h1 id="碎知识"><a href="#碎知识" class="headerlink" title="碎知识"></a>碎知识</h1><h2 id="为什么叫-index-js？"><a href="#为什么叫-index-js？" class="headerlink" title="为什么叫 index.js？"></a>为什么叫 index.js？</h2><p>index” 在这里不是传统的”索引”含义，借鉴了 Web 服务器和文件系统的约定。约定俗成的命名惯例，表示”主要的”、”默认的”</p>
+<p>网页服务器中，index.html 是默认页面</p>
+<h2 id="关于入口点："><a href="#关于入口点：" class="headerlink" title="关于入口点："></a>关于入口点：</h2><ul>
+<li>通常&#x3D;&#x3D;一个项目只有一个主入口点&#x3D;&#x3D;。</li>
+<li>可以有多个脚本，但推荐有一个主入口。&#x3D;&#x3D;复杂项目可能有不同的入口&#x3D;&#x3D;，比如index.js (主应用)，server.js (服务器启动)，<strong>cli.js (命令行工具)</strong></li>
+</ul>
+<h1 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h1><p><a href="https://www.npmjs.cn/">NPM中文网</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>博客运营（一）</title>
+    <url>/2025/01/15/%E5%8D%9A%E5%AE%A2%E8%BF%90%E8%90%A5%EF%BC%88%E4%B8%80%EF%BC%89/</url>
+    <content><![CDATA[<h1 id="在哪运营hexo-博客？在哪个路径下、用哪个shell、运行Shell指令"><a href="#在哪运营hexo-博客？在哪个路径下、用哪个shell、运行Shell指令" class="headerlink" title="在哪运营hexo 博客？在哪个路径下、用哪个shell、运行Shell指令"></a>在哪运营hexo 博客？在哪个路径下、用哪个shell、运行Shell指令</h1><p>答：在你的博客文件夹下，右键：git bash here. </p>
+<p>我喜欢git bash shell. 因为它支持: &amp;&amp; 运算符，可以连贯的执行操作。把一连串shell commands视作一个整体。</p>
+<p>很神奇的是，不管在哪打开，只要是&#x2F;Blog路径下，就可以执行和hexo有关的指令。我想是因为把Node添加到了环境变量的缘故。</p>
+<p>&nbsp;</p>
+<h1 id="常用的指令"><a href="#常用的指令" class="headerlink" title="常用的指令"></a>常用的指令</h1><ul>
+<li>新建一篇博客 file.md:  hexo new “Your_blog_title”   &#x2F;&#x2F;执行这行指令会生成一个md文件在_post下。附带了日期。</li>
+<li>hexo new page  Your_blog_name &#x2F;&#x2F;有没有引号都可以。  &#x2F;&#x2F;执行这行指令会生成一个index.md文件在_post&#x2F;Your_blod_name下</li>
+<li>hexo clean. 清理</li>
+</ul>
+<p>&nbsp;</p>
+<h1 id="我发hexo博客的工作流："><a href="#我发hexo博客的工作流：" class="headerlink" title="我发hexo博客的工作流："></a>我发hexo博客的工作流：</h1><p>Step 1：用Joplin写博客。  &#x2F;&#x2F;Joplin简直神器，不多bibi</p>
+<p>Step 2：将写完后的博客导出成md文件：NewPost.md。 &#x2F;&#x2F;Joplin支持导出为markdown。直接导到你的Blog文件夹里。如果有图片：最好导入到_post&#x2F;images. 这样更好管理博客里用的图片路径。</p>
+<p>Step 3：在hexo创建新的博客：hexo new page “Blog_title” . 执行指令会发现_post文件夹下多了一个Blog_tilte.md</p>
+<p>Step 4：把NewPost.md里的内容复制到Blog_title.md.  用VSCode修改：标题、格式、Anything you want。</p>
+<ul>
+<li><input checked disabled type="checkbox"> 为什么要“多此一举”？</li>
+</ul>
+<p>Joplin的文件不是纯文本。直接粘到VScode里的Blog_title.md 可能忽略图片。会把html css元素带进去。</p>
+<p>缺点，每次在joplin上修改了都要重新导出，所以，隔一段时间再发出更省事。</p>
+<p>VScode推荐装md相关插件：Markdonw All in One, Markdown Preview Enhanced. markdownlint</p>
+<p>Step 5：本地浏览博客，检查、做进一步美化。</p>
+<p>hexo clean   </p>
+<p>hexo g &amp;&amp; hexo s</p>
+<p>Step 6: 修改至满意后运行 hexo d. 将本地的博客上传至网站（github Page，…..）。</p>
+<p>&nbsp;</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>21岁，我最可爱的小喆宝</title>
+    <url>/2025/01/27/birthday_love/</url>
+    <content><![CDATA[<p>转眼间，宝贝又大了我“一岁”。这一年，我们一起经历了许多变化：你开启了在杭州的新生活，而我也在大三的忙碌中为未来努力。但无论生活如何匆忙，我们的感情依然如初，甜蜜而温暖。</p>
+<p>今天是你的21岁生日，我的心里满是感激与爱意。感激你一直以来的温柔与体贴，感激你在我最需要的时候给予的鼓励与陪伴。杨宝贝就像清晨的阳光，为我的每一天注入能量。</p>
+<p>此时此刻，我真希望能立刻出现在你身边，搂着你柔软的腰，轻吻你的脸庞，告诉你我有多爱你。</p>
+<div style="display: flex; justify-content: space-around; margin: 0px -;">
+    <img src="/images/l1.jpg" alt="合个影" style="width: 200%;display: block;  border-radius: 20px; height:300px">
+    <img src="/images/r1.jpg" alt="lastbirthday" style="width: 100%; border-radius: 20px;height:300px">
+</div>
+
+
+
+<p>祝我家杨宝贝生日快乐！愿你在新的一岁里，笑容常伴，梦想成真，身体健康，学业顺利。愿我们的爱，如星辰般永恒闪耀。别忘记许愿哟~</p>
+<div style="display: flex; justify-content: space-around; margin: 5px -;">
+    <img src="/images/l2.jpg" alt="我们的笑脸最好看" style="width: 100%; border-radius: 20px;height:300px">
+    <img src="/images/r2.jpg" alt="最萌身高差" style="width: 100%; border-radius: 20px;height:300px">
+</div>
+<div style="text-align: right;">
+    <p style="font-family: 'Pacifico', cursive; font-size: 24px;">
+        “与你在一起的每一秒，都是我最珍贵的时光。”
+    </p>
+    <p>
+        永远爱你，<br>
+        Opting Zhang ❤️<br>
+        2025年1月27日 于江西省南昌市锦江路669号
+    </p>
+    <img src="/images/zwy_signature.png" alt="手写签名" style="width: 150px; float: right; margin-top: 10px;">
+</div>
+]]></content>
+      <tags>
+        <tag>Birthday Celebration</tag>
+      </tags>
+  </entry>
+</search>
