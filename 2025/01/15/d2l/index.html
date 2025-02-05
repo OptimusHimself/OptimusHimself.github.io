@@ -94,7 +94,7 @@
 <meta property="og:description" content="花书牛在哪？ 大佬写的。名声在，质量就会有保障。 有代码，有理论, 有例子。你怕学不会？ 开源、配备读者论坛。时刻更新代码。遇到问题很容易在论坛里找到学长们的回答。 感恩：还配备了文字版的PDF，“Acrobat阅读者”们有福了！就冲着把事情做好的情怀、用那么大心血，这本书一定不会差。  我们的学习目标？有哪些很酷的事情？（TBC&nbsp; &nbsp; FAQ：第一步，对于一个刚用conda,">
 <meta property="og:locale">
 <meta property="article:published_time" content="2025-01-15T12:20:55.000Z">
-<meta property="article:modified_time" content="2025-01-19T08:40:49.012Z">
+<meta property="article:modified_time" content="2025-02-05T16:04:01.871Z">
 <meta property="article:author" content="Tyrone Opting">
 <meta property="article:tag" content="捯饬计算机 各种整活">
 <meta name="twitter:card" content="summary">
@@ -378,9 +378,13 @@
 </ul>
 <p> </p>
 <h3 id="举一反三，很多想做的事情都知道怎么开始了："><a href="#举一反三，很多想做的事情都知道怎么开始了：" class="headerlink" title="举一反三，很多想做的事情都知道怎么开始了："></a>举一反三，很多想做的事情都知道怎么开始了：</h3><p>创建新的Data Science Conda环境 <code>conda create --name your_env_name python=3.x</code>。</p>
-<p>激活（activate）刚创建好的conda环境，用Pip （or conda）指令，安装你需要的模块。配置完环境后，然后把它添加到Jupyter Notebook的ipython core里，这样你才能在jupyter notebook使用python (virtual) 环境: </p>
+<p>激活（activate）<del>刚创建好的</del> 包含了ipykernel python生态环境模块的conda环境(我的是d2l)，用Pip （or conda）指令，安装你需要的模块。配置完环境后，然后把它添加到Jupyter Notebook的ipython core里，这样你才能在jupyter notebook使用python (virtual) 环境: </p>
 <p><code>python -m ipykernel install --user --name your_envNameInConda --display-name=&quot;Python (nameDisplayedInJuypterNotebook)&quot;</code><br>最后，用jupyter notebook开始你的Data Science Module、理论、Everything in this topic的学习之路！</p>
-<p>&nbsp;</p>
+<ul>
+<li>注：调用ipykernel是给jupyter创建一个指向conda环境的指针。如果conda环境改变，相应的jupyter Notebook中的环境也会改变。这方便了很多。</li>
+<li>只有在又ipykernel模块的环境执行 python -m ipykernel才有作用。 Installed kernelspec MathModeling2DataScience_py3125 in %USER_PROFILE%AppData\Roaming\jupyter\kernels\mathmodeling2datascience_py3125</li>
+<li>TODO: 更改jupyter显示的环境名， 删除jupyter环境</li>
+</ul>
 
       
     </div>
