@@ -257,9 +257,34 @@ fsadfds-->]]></content>
 <p>为什么不能设计一个人性化的路径呢？ 学学Unix的路径哲学吧。</p>
 </blockquote>
 <h1 id="应该可以放图片了。damn"><a href="#应该可以放图片了。damn" class="headerlink" title="应该可以放图片了。damn"></a>应该可以放图片了。damn</h1>  
-  <img src="https://github.com/OptimusHimself/picx-images-hosting/raw/master/彗星轨迹.esnsejhpw.webp"  alt="sorry about that">]]></content>
+  <img src="https://github.com/OptimusHimself/picx-images-hosting/raw/master/彗星轨迹.esnsejhpw.webp"  alt="helmet">]]></content>
       <tags>
         <tag>hexo suck, damn it!</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>在hexo博客中插入图片(方案汇总)</title>
+    <url>/2025/03/09/%E5%9C%A8hexo%E5%8D%9A%E5%AE%A2%E4%B8%AD%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E3%80%90%E6%96%B9%E6%A1%88%E6%B1%87%E6%80%BB%E3%80%91/</url>
+    <content><![CDATA[<h1 id="放弃的方案："><a href="#放弃的方案：" class="headerlink" title="放弃的方案："></a>放弃的方案：</h1><h2 id="原生的-hexo-add-on-hexo-asset"><a href="#原生的-hexo-add-on-hexo-asset" class="headerlink" title="原生的 hexo add on: hexo-asset"></a>原生的 hexo add on: hexo-asset</h2><p><code>post_asset_folder: false #true</code></p>
+<ul>
+<li>语法格式恶心，既不是 md 也不是 HTML，自带的一种渲染格式</li>
+<li>尝试多次未成功</li>
+</ul>
+<h1 id="能使用的方案："><a href="#能使用的方案：" class="headerlink" title="能使用的方案："></a>能使用的方案：</h1><h2 id="一、PicX"><a href="#一、PicX" class="headerlink" title="一、PicX"></a>一、PicX</h2><h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><ul>
+<li>gitbub 有一个叫做 picx 的项目, 是一个网站，你可以往它的官网上传（本机的）图，会自动生成一个链接赋值到剪切板上。</li>
+<li>特点：手动在 blog md file 里放 html img 标签； 支持使用 GitHub 图床（own repo，free）等其他图床</li>
+</ul>
+<h2 id="优缺点"><a href="#优缺点" class="headerlink" title="优缺点"></a>优缺点</h2><ul>
+<li>优点： PicX 自动生成图片 url, 完全免费（薅微软 Github 服务器的羊毛）</li>
+<li>不足：无法在写博客粘贴图片的时候自动生成链接。需要手动写 HTML img 标签。图多了有些麻烦，容易找不到链接。<br>Links：<a href="https://picx.xpoet.cn/#/settings">PicX 在线服务</a>； <a href="https://picx-docs.xpoet.cn/usage-guide/get-start.html">官方使用教程</a>；<a href="https://github.com/XPoet/picx">GitHub 仓库地址</a></li>
+</ul>
+<p>e.g. url generate by pix<br><a href="https://github.com/OptimusHimself/picx-images-hosting/raw/master/%E5%BD%97%E6%98%9F%E8%BD%A8%E8%BF%B9.esnsejhpw.webp">https://github.com/OptimusHimself/picx-images-hosting/raw/master/彗星轨迹.esnsejhpw.webp</a><br>e.g. &lt;img&gt; tag<br>&lt;img src&#x3D;”<a href="https://github.com/OptimusHimself/picx-images-hosting/raw/master/%E5%BD%97%E6%98%9F%E8%BD%A8%E8%BF%B9.esnsejhpw.webp">https://github.com/OptimusHimself/picx-images-hosting/raw/master/彗星轨迹.esnsejhpw.webp</a>“ alt&#x3D;”sorry about that”&gt;</p>
+<h3 id="attribute-for-img-tag"><a href="#attribute-for-img-tag" class="headerlink" title="attribute for img tag:"></a>attribute for img tag:</h3><blockquote>
+<p>alt 参数：Specifies an alternate text for an image</p>
+</blockquote>
+]]></content>
+      <tags>
+        <tag>hexo</tag>
       </tags>
   </entry>
 </search>
