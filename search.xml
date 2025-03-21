@@ -1,163 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>8051的五种AddressingModes</title>
-    <url>/2024/12/07/8051Addressing-md/</url>
-    <content><![CDATA[<h1 id="Outline：干活满满"><a href="#Outline：干活满满" class="headerlink" title="Outline：干活满满"></a>Outline：干活满满</h1><ol>
-<li>8051 的内部内存和外部内存介绍：大小、用途.以及 SFR, Register bench的介绍</li>
-<li>访问内存的5种方式；每种对应代码规则、应用场景的介绍。若有功能上包含部分，将区分何时用哪种。</li>
-<li>内存的结构、本质：是寄存器？内存Address数 和 内存大小的关系。</li>
-</ol>
-<h1 id="一、理解8051微控制器的多种内存结构"><a href="#一、理解8051微控制器的多种内存结构" class="headerlink" title="一、理解8051微控制器的多种内存结构"></a>一、理解8051微控制器的多种内存结构</h1><h2 id="内部内存"><a href="#内部内存" class="headerlink" title="内部内存"></a>内部内存</h2><p>1.基本参数： PA: 0 - 255. 共256Byte</p>
-<p>2.分为两部分：</p>
-<ul>
-<li>低地址（下游）部分： PA &#x3D; 0 - 127 （00 - 7F）</li>
-<li>上游内存：PA &#x3D; 128 - 255  (80 - FF)</li>
-</ul>
-<p> 3. <strong>SFR special function register</strong></p>
-<ul>
-<li>分布在8051内部内存的高地址区域。 注！不能理解为：高地址区域（80-FF）这128个内存存储单元（寄存器）全都是SFR。 实际上，8051的SFR只有</li>
-<li>什么是SFR，有哪些特别的属性？</li>
-</ul>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<ul>
-<li>常见的SFR有哪些？如何影响8051工作？</li>
-</ul>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p> <strong>4. 四个寄存器组：register bench</strong></p>
-<p>位于低地址区域，他们所在地址分别是：00-07，08-0F, 10 - 17, 18 - 1F 共占用16个memory unit。</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<h2 id="外部内存"><a href="#外部内存" class="headerlink" title="外部内存"></a>外部内存</h2><p>&nbsp;<br>&nbsp;</p>
-<h1 id="二、Addressing-Mode：语法讲解及常规用法"><a href="#二、Addressing-Mode：语法讲解及常规用法" class="headerlink" title="二、Addressing Mode：语法讲解及常规用法"></a>二、Addressing Mode：语法讲解及常规用法</h1><h3 id="Immediate-memory-addressing-立即寻址模式"><a href="#Immediate-memory-addressing-立即寻址模式" class="headerlink" title="Immediate memory addressing 立即寻址模式"></a>Immediate memory addressing 立即寻址模式</h3><h3 id="Direct-memory-addressing-直接寻址模式"><a href="#Direct-memory-addressing-直接寻址模式" class="headerlink" title="Direct memory addressing 直接寻址模式"></a>Direct memory addressing 直接寻址模式</h3><ul>
-<li>用于直接访问内部内存。</li>
-<li>第二个oprand直接加数字，不需要立即数符号(#)    <code> MOV A, 04</code>; <code>MOV A, 0D3H; </code></li>
-</ul>
-<p> </p>
-<h3 id="Register-direct-memory-addressing-寄存器直接寻址"><a href="#Register-direct-memory-addressing-寄存器直接寻址" class="headerlink" title="Register direct memory addressing 寄存器直接寻址"></a>Register direct memory addressing 寄存器直接寻址</h3><ul>
-<li>访问四个寄存器组中的寄存器数据。</li>
-<li><code>MOV A,R0 </code>    <code>MOV A, R6</code></li>
-</ul>
-<h3 id="Register-Indirect-memory-addressing-寄存器间接寻址"><a href="#Register-Indirect-memory-addressing-寄存器间接寻址" class="headerlink" title="Register Indirect memory addressing 寄存器间接寻址"></a>Register Indirect memory addressing 寄存器间接寻址</h3><ul>
-<li>访问四个寄存器组中的前两个寄存器（R0, R1）存储的数据（不是Numerical number而是作为memory address处理），并且再访问其对应的内存地址，把对应地址中的数据MOV到A，而不是把寄存器R0 &#x2F; R1的数据移到A （不同于第三种）</li>
-<li>语法说明：<code>MOV A,@R0</code>, 假设此时PSW指明第二个（0 - 3）寄存器组（<code>R0R1</code> &#x3D; <code>2‘b10</code>）, 寄存器R0 （对应内存地址10）里的数据是55H。 那么执行这个指令后，会把内存地址55H号的寄存器数据（for example，可能是87）MOV到A。</li>
-<li>这增大了编程的灵活性。虽然访问空间还是局限在内部内存</li>
-</ul>
-<p>&nbsp;</p>
-<h1 id="三、微观角度理解内存"><a href="#三、微观角度理解内存" class="headerlink" title="三、微观角度理解内存"></a>三、微观角度理解内存</h1><p>一个memory Unit module有三个端口：</p>
-<ol>
-<li>Control 控制读写，和控制总线相连</li>
-<li>Data  存储数据、传输数据：和数据总线相连</li>
-<li>Address&#x2F;physical location:    地址，unit &#x3D; 1(连续的)，和地址总线相连。</li>
-</ol>
-<p>例子：8051的internal RAM有256个Address （Physical locations）, 256字节的大小。地址总线宽度为8位，而数据总线宽度为4位（一字节&#x3D;4bits）</p>
-<p>理解三个端口的独立性之后就能理解：内存unit的位置和该内存存储单元能存储的字节数量无关联。 当你看到#40H 内存位置存了一个’U’ 字符，或者说存了一个很大的数1234556，然后又看到紧接着的#41H unit存储了一个’S’，你不应该感到惊讶…. 能存多少取决于Data Bus的宽度&lt;size&gt;。</p>
-<p>碎问题：可以把内部内存的基本存储单元理解为寄存器吗（无所谓其实。</p>
-<p>&nbsp;</p>
-<p>总结8051内部的存储器：内部、外部RAM，ROM</p>
-<p>&nbsp;</p>
-<p>TODO: 聊聊特殊功能寄存器的种类、功能：和port, interrupt联系起来。</p>
-<p>学习了这5中内存访问方式，但是看课件上相关的指令也就只有MOV, MOVC, MOVX, 还有其他的和访问内存相关的指令吗？</p>
-<!--<img=C:\\Users\\Optimus\\Desktop\\MCM\\pics_essay_zwy">
-fsadfds-->]]></content>
-      <tags>
-        <tag>8051 Micro-Controller</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Node.js基本概念 I (TBC)</title>
-    <url>/2024/12/05/Node.js%20%E4%B8%8E%20NPM%E3%80%81NPX%E5%B7%A5%E5%85%B7/</url>
-    <content><![CDATA[<h1 id="NPM-及基本指令：npm-init"><a href="#NPM-及基本指令：npm-init" class="headerlink" title="NPM 及基本指令：npm init"></a>NPM 及基本指令：npm init</h1><ul>
-<li>包管理器，用于安装、管理 Node.js 依赖。</li>
-<li>类似 Python 的 pip，管理项目依赖和全局包</li>
-</ul>
-<h2 id="npm-init"><a href="#npm-init" class="headerlink" title="npm init"></a>npm init</h2><h3 id="概念："><a href="#概念：" class="headerlink" title="概念："></a>概念：</h3><h3 id="重要吗？"><a href="#重要吗？" class="headerlink" title="重要吗？"></a>重要吗？</h3><p>创建大项目，需要配置依赖的时候就需要。如果写单独一个js代码，不需要init。就像用CLion新建cpp、c项目。你可以就写一个简单的可执行文件，也可以不配置CMake，单纯写一个sort.c</p>
-<h2 id="包类型以及npm对应参数"><a href="#包类型以及npm对应参数" class="headerlink" title="包类型以及npm对应参数"></a>包类型以及npm对应参数</h2><ol>
-<li><h3 id="dependencies-生产环境需要的包：–save-：npm-install-–save-包名-安装到Dependencies"><a href="#dependencies-生产环境需要的包：–save-：npm-install-–save-包名-安装到Dependencies" class="headerlink" title="dependencies: 生产环境需要的包：–save ：npm install –save [包名]&#x2F;&#x2F;安装到Dependencies{ }"></a>dependencies: 生产环境需要的包：–save ：npm install –save [包名]&#x2F;&#x2F;安装到Dependencies{ }</h3></li>
-<li><h3 id="devDependencies-开发阶段需要，生产环境不需要的包-npm-install-–save-dev-包名-安装到devDependencies"><a href="#devDependencies-开发阶段需要，生产环境不需要的包-npm-install-–save-dev-包名-安装到devDependencies" class="headerlink" title="devDependencies: 开发阶段需要，生产环境不需要的包:npm install –save-dev [包名], 安装到devDependencies{ }"></a>devDependencies: 开发阶段需要，生产环境不需要的包:npm install –save-dev [包名], 安装到devDependencies{ }</h3></li>
-</ol>
-<h3 id="典型的-devDependencies-包括："><a href="#典型的-devDependencies-包括：" class="headerlink" title="典型的 devDependencies 包括："></a>典型的 <code>devDependencies</code> 包括：</h3><ul>
-<li>nodemon</li>
-<li>webpack</li>
-<li>babel</li>
-<li>eslint</li>
-<li>jest 测试框架</li>
-</ul>
-<h1 id="node"><a href="#node" class="headerlink" title="node"></a>node</h1><p><code>node</code> 是 JavaScript 解释器，也是javascript的run time environment</p>
-<h1 id="NPX-Node-Package-Execute"><a href="#NPX-Node-Package-Execute" class="headerlink" title="NPX  Node Package Execute"></a>NPX  Node Package Execute</h1><h2 id="概念和功能"><a href="#概念和功能" class="headerlink" title="概念和功能"></a>概念和功能</h2><ul>
-<li>NPM 5.2+ 内置的包执行工具，可以直接运行未安装的包。</li>
-<li>临时下载并执行包，不需要全局或本地预先安装</li>
-</ul>
-<h3 id="NPX-工作流程"><a href="#NPX-工作流程" class="headerlink" title="NPX 工作流程:"></a>NPX 工作流程:</h3><p>检查本地是否有该包, 如无，临时下载并执行，执行完立即删除</p>
-<h1 id="碎知识"><a href="#碎知识" class="headerlink" title="碎知识"></a>碎知识</h1><h2 id="为什么叫-index-js？"><a href="#为什么叫-index-js？" class="headerlink" title="为什么叫 index.js？"></a>为什么叫 index.js？</h2><p>index” 在这里不是传统的”索引”含义，借鉴了 Web 服务器和文件系统的约定。约定俗成的命名惯例，表示”主要的”、”默认的”</p>
-<p>网页服务器中，index.html 是默认页面</p>
-<h2 id="关于入口点："><a href="#关于入口点：" class="headerlink" title="关于入口点："></a>关于入口点：</h2><ul>
-<li>通常&#x3D;&#x3D;一个项目只有一个主入口点&#x3D;&#x3D;。</li>
-<li>可以有多个脚本，但推荐有一个主入口。&#x3D;&#x3D;复杂项目可能有不同的入口&#x3D;&#x3D;，比如index.js (主应用)，server.js (服务器启动)，<strong>cli.js (命令行工具)</strong></li>
-</ul>
-<h1 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h1><p><a href="https://www.npmjs.cn/">NPM中文网</a></p>
-]]></content>
-      <tags>
-        <tag>Node</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>hot shit, YAML(Yet Another Markdown Language)</title>
-    <url>/2025/03/02/learnmd/</url>
-    <content><![CDATA[<h1 id="in-VS-Code"><a href="#in-VS-Code" class="headerlink" title="in VS Code"></a>in VS Code</h1><p><a href="https://www.flickr.com/photos/beaurogers/31833779864/in/photolist-Qv3rFw-34mt9F-a9Cmfy-5Ha3Zi-9msKdv-o3hgjr-hWpUte-4WMsJ1-KUQ8N-deshUb-vssBD-6CQci6-8AFCiD-zsJWT-nNfsgB-dPDwZJ-bn9JGn-5HtSXY-6CUhAL-a4UTXB-ugPum-KUPSo-fBLNm-6CUmpy-4WMsc9-8a7D3T-83KJev-6CQ2bK-nNusHJ-a78rQH-nw3NvT-7aq2qf-8wwBso-3nNceh-ugSKP-4mh4kh-bbeeqH-a7biME-q3PtTf-brFpgb-cg38zw-bXMZc-nJPELD-f58Lmo-bXMYG-bz8AAi-bxNtNT-bXMYi-bXMY6-bXMYv"><img src="/.io//image_d2l.png" alt="sorry " title="hi my fist image, this is an underline image discription "></a><br> <img src="/.io//image_d2l.png" alt="what the fuck do you want!"><br><img src="images/l2.jpg" alt="sorry again, no path">    </p>
-<!--  <img src="image_d2l.png" alt="what the fuck do you want!" >  -->
-
-<!-- [![sorry ](image_d2l.png "hi image, this is an underline image discription ")](https://www.flickr.com/photos/beaurogers/31833779864/in/photolist-Qv3rFw-34mt9F-a9Cmfy-5Ha3Zi-9msKdv-o3hgjr-hWpUte-4WMsJ1-KUQ8N-deshUb-vssBD-6CQci6-8AFCiD-zsJWT-nNfsgB-dPDwZJ-bn9JGn-5HtSXY-6CUhAL-a4UTXB-ugPum-KUPSo-fBLNm-6CUmpy-4WMsc9-8a7D3T-83KJev-6CQ2bK-nNusHJ-a78rQH-nw3NvT-7aq2qf-8wwBso-3nNceh-ugSKP-4mh4kh-bbeeqH-a7biME-q3PtTf-brFpgb-cg38zw-bXMZc-nJPELD-f58Lmo-bXMYG-bz8AAi-bxNtNT-bXMYi-bXMY6-bXMYv)
- -->
-
-<!-- 这是注释内容 -->
-
-
-
-
-
-
-<p><br><br><br><br><br>* Without the backslash, this would be a bullet in an unordered list.</p>
-<ul>
-<li>Without the backslash, this would be a bullet in an unordered list.</li>
-</ul>
-<!-- 这是注释内容 -->
-
-
-<p><a href="https://optimushimself.github.io/">image or text,image need a “!” – 感叹号 tips: 这个链接指向我的blog</a></p>
-<!-- 这是注释内容 -->
-
-
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">you know i am a hacker</span><br><span class="line">actually we can write more lines here!!</span><br><span class="line">With Line Number rendered!</span><br></pre></td></tr></table></figure>
-<!-- 这是注释内容 -->
-
-
-<p>Without blank lines this would be a heading.</p>
-<hr>
-<p>Don’t do this<br>Try to put a blank line before…</p>
-<hr>
-<p>…and after a horizontal rule.</p>
-<blockquote>
-<h4 id="The-quarterly-results-look-great"><a href="#The-quarterly-results-look-great" class="headerlink" title="The quarterly results look great!"></a>The quarterly results look great!</h4><ul>
-<li>Revenue was off the chart.</li>
-<li>Profits were higher than ever.</li>
-</ul>
-<p> <em>Everything</em> is going according to <strong>plan</strong>.</p>
-</blockquote>
-<blockquote>
-<h5 id="block-使用”-”-在vscode里编辑、预览效果最好-，Obsidian中不支持block-quoto和unordered-list混用的语法"><a href="#block-使用”-”-在vscode里编辑、预览效果最好-，Obsidian中不支持block-quoto和unordered-list混用的语法" class="headerlink" title="block 使用”&gt;” 在vscode里编辑、预览效果最好 ，Obsidian中不支持block quoto和unordered list混用的语法"></a>block 使用”&gt;” 在vscode里编辑、预览效果最好 ，Obsidian中不支持block quoto和unordered list混用的语法</h5><p>line break</p>
-<blockquote>
-<p>编辑器中都会自动为你生成两个空格来满足md的linebreak语法<br>当然，也可以用&lt;br&gt;</p>
-</blockquote>
-</blockquote>
-]]></content>
-      <tags>
-        <tag>learn md</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>花书Dive into Deep Learning 入门</title>
     <url>/2025/01/15/d2l/</url>
     <content><![CDATA[<h1 id="花书牛在哪？"><a href="#花书牛在哪？" class="headerlink" title="花书牛在哪？"></a>花书牛在哪？</h1><ol>
@@ -200,7 +43,7 @@ fsadfds-->]]></content>
 <p>激活（activate）<del>刚创建好的</del> 包含了ipykernel python生态环境模块的conda环境(我的是d2l)，用Pip （or conda）指令，安装你需要的模块。配置完环境后，然后把它添加到Jupyter Notebook的ipython core里，这样你才能在jupyter notebook使用python (virtual) 环境: </p>
 <p><code>python -m ipykernel install --user --name [jupyter_internal_directory_name] --display-name=&quot;Python (nameDisplayedInJuypterNotebook)&quot;</code><br>最后，用jupyter notebook开始你的Data Science Module、理论、Everything in this topic的学习之路！</p>
 <ul>
-<li>–name 显示在appdata&#x2F;roaming&#x2F;jupyter&#x2F;[name]  并不会根据你输入的名字在conda里面找对应的！！！（想起自己以前认认真真输入一模一样的名字，真的好可爱。 后来在json里看到argument里面的路径，全是d2l，display_name倒是自己设置的。<br><img src="/.io//image_d2l.png" alt="sorry, hexo suck"></li>
+<li>–name 显示在appdata&#x2F;roaming&#x2F;jupyter&#x2F;[name]  并不会根据你输入的名字在conda里面找对应的！！！（想起自己以前认认真真输入一模一样的名字，真的好可爱。 后来在json里看到argument里面的路径，全是d2l，display_name倒是自己设置的。<br><img src="/image_d2l.png" alt="sorry, hexo suck"></li>
 <li>–display-name: 在juypter notebook平台上显示。</li>
 </ul>
 <ul>
@@ -232,7 +75,7 @@ fsadfds-->]]></content>
 <p>Step 3：在hexo创建新的博客：hexo new page “Blog_title” . 执行指令会发现_post文件夹下多了一个Blog_tilte.md</p>
 <p>Step 4：把NewPost.md里的内容复制到Blog_title.md.  用VSCode修改：标题、格式、Anything you want。</p>
 <ul>
-<li><input checked disabled type="checkbox"> 为什么要“多此一举”？</li>
+<li><input checked="" disabled="" type="checkbox"> 为什么要“多此一举”？</li>
 </ul>
 <p>Joplin的文件不是纯文本。直接粘到VScode里的Blog_title.md 可能忽略图片。会把html css元素带进去。</p>
 <p>缺点，每次在joplin上修改了都要重新导出，所以，隔一段时间再发出更省事。</p>
@@ -245,24 +88,6 @@ fsadfds-->]]></content>
 ]]></content>
   </entry>
   <entry>
-    <title>My First Blog Post</title>
-    <url>/2025/03/09/My-First-Blog-Post/</url>
-    <content><![CDATA[<h1 id="怎么new啊"><a href="#怎么new啊" class="headerlink" title="怎么new啊"></a>怎么new啊</h1><p>不管是<code>hexo new &quot;a shit name&quot; </code><br>还是<code>hexo new draft &quot;a shit draft name&quot;  </code></p>
-<ul>
-<li>都会给你扔一个名字一模一样的文件夹出来。很恶心呢。  </li>
-<li>只不过后者在_draft文件夹而不是_post. </li>
-<li>直接hexo publish “a shit draft name”还会告诉你找不到</li>
-</ul>
-<h1 id="Pathhhhhh"><a href="#Pathhhhhh" class="headerlink" title="Pathhhhhh"></a>Pathhhhhh</h1><blockquote>
-<p>为什么不能设计一个人性化的路径呢？ 学学Unix的路径哲学吧。</p>
-</blockquote>
-<h1 id="应该可以放图片了。damn"><a href="#应该可以放图片了。damn" class="headerlink" title="应该可以放图片了。damn"></a>应该可以放图片了。damn</h1>  
-  <img src="https://github.com/OptimusHimself/picx-images-hosting/raw/master/彗星轨迹.esnsejhpw.webp"  alt="helmet">]]></content>
-      <tags>
-        <tag>hexo suck, damn it!</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>在hexo博客中插入图片(方案汇总)</title>
     <url>/2025/03/09/%E5%9C%A8hexo%E5%8D%9A%E5%AE%A2%E4%B8%AD%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E3%80%90%E6%96%B9%E6%A1%88%E6%B1%87%E6%80%BB%E3%80%91/</url>
     <content><![CDATA[<h1 id="放弃的方案："><a href="#放弃的方案：" class="headerlink" title="放弃的方案："></a>放弃的方案：</h1><h2 id="原生的-hexo-add-on-hexo-asset"><a href="#原生的-hexo-add-on-hexo-asset" class="headerlink" title="原生的 hexo add on: hexo-asset"></a>原生的 hexo add on: hexo-asset</h2><p><code>post_asset_folder: false #true</code></p>
@@ -270,7 +95,7 @@ fsadfds-->]]></content>
 <li>语法格式恶心，既不是 md 也不是 HTML，自带的一种渲染格式</li>
 <li>尝试多次未成功</li>
 </ul>
-<h1 id="能使用的方案："><a href="#能使用的方案：" class="headerlink" title="能使用的方案："></a>能使用的方案：</h1><h2 id="一、PicX"><a href="#一、PicX" class="headerlink" title="一、PicX"></a>一、PicX</h2><h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><ul>
+<h1 id="能使用的方案："><a href="#能使用的方案：" class="headerlink" title="能使用的方案："></a>能使用的方案：</h1><h2 id="PicX"><a href="#PicX" class="headerlink" title="PicX"></a>PicX</h2><h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><ul>
 <li>gitbub 有一个叫做 picx 的项目, 是一个网站，你可以往它的官网上传（本机的）图，会自动生成一个链接赋值到剪切板上。</li>
 <li>特点：手动在 blog md file 里放 html img 标签； 支持使用 GitHub 图床（own repo，free）等其他图床</li>
 </ul>
@@ -285,6 +110,34 @@ fsadfds-->]]></content>
 ]]></content>
       <tags>
         <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>论持久战</title>
+    <url>/2025/03/21/%E8%AE%BA%E6%8C%81%E4%B9%85%E6%88%98/</url>
+    <content><![CDATA[<p>从午休后到晚上10点，我全身心投入在模拟通信系统的调制技术的学习中。这是一次伟大的学习过程，因为我学会了“持久”。 我喜欢学习，但我的学习方法不算高效，或者说，在此之前，我没有一个通用的“学习思维”。 我能学好某些知识，归功于我擅长找好的教材、课程，从优质资源中汲取知识。但这只是途径问题，找好的教材是学习的第一步，属于“捷径方法论”。而现在要讨论的是：利用资源和规划时间。因为这一块工作没有做好，会让你在一个领域的开始阶段举步维艰，被那些“懂学习”的人拉开差距。我反思，为什么我作为一个CS专业的学生，到大三了才进入程序设计的全盛、兴趣爆棚的学习状态。慢热，真的好吗？</p>
+<p>拿通信原理这门课来说。要了解通信系统的运作需要很多前置知识：信息论——通信工程里讨论的bit和CS里常说的bit可不是一个概念；还有对通信系统的建模，对信道简单建模。总之，这门课的“原始积累、老本”几乎是0。而学校的教材、课程对于入门小白来说是很难摸得着头脑的。看讲义、课件时，突然蹦出一个你从未见过的公式、符号是很令人头疼的。</p>
+<p>以前，我在学新东西的时候总希望眼前的一切在脑中make sense, 好像有了某般instinct就等同于学会了，可以接下去学了。而要是没有那道“电弧”、通透的感觉，就是没学会。这还不够，不懂学习方法的我还会发脾气：这教材真差劲，不学了！老师讲得真烂，简直就是天书、不听了！于是连续3~4词旷课，等火烧眉毛了再咬着牙学。还有一类情况是，遇到了以前的知识，比方说研究调制信号的spetrum时用到了一点傅里叶变换。一些死扣牛角尖的想法就是，“哎呀，上学期信号与系统里教的傅里叶变换又忘了、我肯定学不下去了，连基础都没有，干脆等几天再学吧，先复习复习傅里叶变换”。可实际上，并没有行动，因为这个想法太空了，复习哪些部分？傅里叶变换那么多性质，真要复习全，三天三夜差不多。有时，你只是脑子里蹦出了知识图谱的一个小标签，就恐吓自己、转移自己的视线。从阿德勒的目的论来看，一切都目的就是不想接触新概念，因为你知道培养自己形成新的概念离不开痛苦、离不开旧思想的碰撞，进而想通过给自己设障达到偷懒、逃避的目的。</p>
+<p>我相信，有不少人也是和我有类似毛病的。只不过我这块特别严重。</p>
+<p>说说我现在的状态。</p>
+<p>上新课听到不懂的不再深究。一方面，你是初学者，你不可能短时间体会这个符号从过去被科学家发明出来，因为什么英文含义被写成这样，你也不可能短时间从只言片语体会到这个公式的来历，你需要练习，研究电路，物理意义你需要看更多的书来联想到更多的知识。另一方面，你真的需要在这个时间点知道那么多吗？正确的做法是，短暂思考后标注问题，问问自己前后的东西能不能自洽，换句话说，书上有没有硬刷错误。对你没看错，我的意思就是，有没有数学上，或者和过去的印象是否匹配。你只需要验证，告诉自己：</p>
+<p>“这大概是对的——这一项加这一项系数没问题，合并同类项等基本运算正确，可能我不知道为什么这么算，但我先接着听。”</p>
+<p>“傅里叶变换我有些不熟悉了……哎不管了，先记着cos(t)转到频域上是两根棍，好像没啥毛病。具体什么含义、为什么做傅里叶变换……老师也没讲、他也不一定讲的清。那我继续看。”</p>
+<p>出现什么新符号、新推演就告诉自己“哦，这有个新符号啊，它叫做……虽然我不知道为什么叫这个抽象玩意儿。”“为什么在通信系统里，做完A operation，就做B。老师说这个方法的优点是……，那就是吧，管他呢”。</p>
+<p>和老师、书本过进度，揭开这个系统的面纱。总之，你要学会减轻自己的思维负担。遇到不懂的东西，立刻告诉自己：“问题不大，没啥大不了的。”难道不是吗？生活中，哪有那么多事儿?</p>
+<p>我相信，好的资料为你拓宽视野，给你一个很好的认知基础，知道学习的路线。很多时候，这足够支撑你“无痛、轻微疼痛”即可入门一个领域。而有些时候，问题稍微复杂了些，每一步都带来很多未知面。这个时候就换一个思维，不要硬刚而是缓下来，换成“持久、不内耗、果断清晰”的思维。我认为，这是一个高效学习者的能力。</p>
+]]></content>
+      <tags>
+        <tag>学习方法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>保研时期的我</title>
+    <url>/2025/03/20/%E4%BF%9D%E7%A0%94%E6%97%B6%E6%9C%9F%E7%9A%84%E6%88%91/</url>
+    <content><![CDATA[<p>保研圈，不乏激烈的竞争。在这个圈子里，我看到了可敬的对手，看到了绿群里的大佬，也坚定了我的梦想。我的愿望是到名校和更好的老师、同学、师兄师姐们交流学习。我相信，只要保研到我的梦校浙大、进入到研究小组中，就一定能进步、学习更多的专业技能。以后就能做更多有价值的事情。<br>但最近，我变得有些紧张，我担心我的简历还不够好，算法题刷得还不够多，没有论文背景，“套磁“也没人肯收我。我一直在攀比，生怕把学习专业课而不是卷所谓的那些算法、论文是在浪费时间。<br>我还纠结自己适合什么专业，能读什么专业。是偏向研究底层的方向（计算机架构、分布式系统、网络）还是前沿的应用方向（软件开发、AI）。对各个行业都略懂一二的我对自己说，都行，哪个要我就去哪儿。但不管在哪个领域，我做的，一定是有挑战性的工作！<br>说回时间分配的事情，我不想太卷课外的那些技术。 专业知识一定是第一位的。先不说以后会不会读通信、计网这块的研究生；我从IoT出来的，别人问我一个通信相关的概念而我却毫无直觉，真觉得丢人——就这还读研。 所以说，如果以后有老师觉得我简历上的研究经历不如别人突出，请看看我的专业课成绩、对专业知识的理解。<br>本科培养出来的，就不应该是什么研究精英，而是一个通识了专业领域各个方面的，有知识的人。路还很长，研究生阶段，你不可能有这样泡馆、看专业书籍、一步步推演理论的时间。<br>对于保研竞争这一块，我相信船到桥头自然直，熬过这一段，你一定会在学习课外知识的时候更有感悟。我还坚信阿德勒心理学，一切都是目的驱动的。潇洒自如、倾听自己的内心吧，真到要你做重大选择的节骨眼上了，你也一定能适应的。</p>
+]]></content>
+      <tags>
+        <tag>日记</tag>
       </tags>
   </entry>
 </search>

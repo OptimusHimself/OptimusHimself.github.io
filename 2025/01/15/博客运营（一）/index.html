@@ -6,6 +6,10 @@
 
 
 <html class="theme-next gemini use-motion" lang="zh-Hans">
+
+<!-- 引入 PJAX -->
+<script src="https://cdn.jsdelivr.net/npm/pjax@0.2.8/pjax.js"></script>
+
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -79,16 +83,16 @@
 <link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
 
 
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-corgi.png?v=5.1.4">
 
 
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-corgi.png?v=5.1.4">
 
 
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
 
 
-  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+  <link rel="mask-icon" href="/images/favicon-corgi.svg?v=5.1.4" color="#222">
 
 
 
@@ -375,7 +379,7 @@
 <p>Step 3：在hexo创建新的博客：hexo new page “Blog_title” . 执行指令会发现_post文件夹下多了一个Blog_tilte.md</p>
 <p>Step 4：把NewPost.md里的内容复制到Blog_title.md.  用VSCode修改：标题、格式、Anything you want。</p>
 <ul>
-<li><input checked disabled type="checkbox"> 为什么要“多此一举”？</li>
+<li><input checked="" disabled="" type="checkbox"> 为什么要“多此一举”？</li>
 </ul>
 <p>Joplin的文件不是纯文本。直接粘到VScode里的Blog_title.md 可能忽略图片。会把html css元素带进去。</p>
 <p>缺点，每次在joplin上修改了都要重新导出，所以，隔一段时间再发出更省事。</p>
@@ -419,8 +423,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2025/03/02/learnmd/" rel="prev" title="hot shit, YAML(Yet Another Markdown Language)">
-                hot shit, YAML(Yet Another Markdown Language) <i class="fa fa-chevron-right"></i>
+              <a href="/2025/03/09/%E5%9C%A8hexo%E5%8D%9A%E5%AE%A2%E4%B8%AD%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E3%80%90%E6%96%B9%E6%A1%88%E6%B1%87%E6%80%BB%E3%80%91/" rel="prev" title="在hexo博客中插入图片(方案汇总)">
+                在hexo博客中插入图片(方案汇总) <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -498,7 +502,7 @@
               
                 <a href="/archives/%7C%7C%20archive">
               
-                  <span class="site-state-item-count">7</span>
+                  <span class="site-state-item-count">5</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -511,7 +515,7 @@
               
               <div class="site-state-item site-state-tags">
                 
-                  <span class="site-state-item-count">5</span>
+                  <span class="site-state-item-count">3</span>
                   <span class="site-state-item-name">标签</span>
                 
               </div>
@@ -587,6 +591,10 @@
 
 
 
+<!-- 添加音乐播放器 -->
+<div class="music-player">
+  <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=2613614543&auto=1&height=66"></iframe>
+</div>
         
 
 
@@ -1080,5 +1088,58 @@
 
   
 
+  
+  
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    // 获取 body 的所有直接子元素
+    var bodyChildren = document.body.children;
+
+    // 初始化 selectors 数组
+    var selectors = ['title']; // 默认包含 title
+
+    // 遍历 body 的直接子元素
+    for (var i = 0; i < bodyChildren.length; i++) {
+      var element = bodyChildren[i];
+
+      // 获取元素的选择器
+      if (element.id) {
+        // 如果有 id，使用 id 作为选择器
+        selectors.push('#' + element.id);
+      } else if (element.className) {
+        // 如果有 class，使用 class 作为选择器
+        var classes = element.className.split(' ');
+        selectors.push('.' + classes[0]); // 只取第一个 class
+      } else {
+        // 否则使用标签名作为选择器
+        selectors.push(element.tagName.toLowerCase());
+      }
+    }
+
+    // 保存音乐播放器的状态
+    var musicPlayer = document.querySelector('.music-player iframe');
+    var musicPlayerSrc = musicPlayer ? musicPlayer.src : null;
+
+    // 初始化 PJAX
+    var pjax = new Pjax({
+      selectors: selectors,
+      cacheBust: false
+    });
+
+    // PJAX 加载完成后的回调
+    document.addEventListener('pjax:complete', function () {
+      console.log('PJAX 加载完成！');
+
+      // 恢复音乐播放器的状态
+      if (musicPlayerSrc) {
+        var newMusicPlayer = document.querySelector('.music-player iframe');
+        if (newMusicPlayer) {
+          newMusicPlayer.src = musicPlayerSrc;
+          console.log('音乐播放器状态已恢复');
+        }
+      }
+    });
+  });
+</script>
 </body>
 </html>
