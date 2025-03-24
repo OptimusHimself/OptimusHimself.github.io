@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>花书Dive into Deep Learning 入门</title>
+    <url>/2025/01/15/d2l/</url>
+    <content><![CDATA[<h1 id="花书牛在哪？"><a href="#花书牛在哪？" class="headerlink" title="花书牛在哪？"></a>花书牛在哪？</h1><ol>
+<li>大佬写的。名声在，质量就会有保障。</li>
+<li>有代码，有理论, 有例子。你怕学不会？</li>
+<li>开源、配备读者论坛。时刻更新代码。遇到问题很容易在论坛里找到学长们的回答。</li>
+<li>感恩：还配备了文字版的PDF，“Acrobat阅读者”们有福了！就冲着把事情做好的情怀、用那么大心血，这本书一定不会差。</li>
+</ol>
+<h1 id="我们的学习目标？有哪些很酷的事情？（TBC"><a href="#我们的学习目标？有哪些很酷的事情？（TBC" class="headerlink" title="我们的学习目标？有哪些很酷的事情？（TBC"></a>我们的学习目标？有哪些很酷的事情？（TBC</h1><p>&nbsp;</p>
+<p>&nbsp;</p>
+<h1 id="FAQ：第一步，对于一个刚用conda-pip-不熟悉shell指令，不懂网络的零基础零经验小白来说往往是最难的："><a href="#FAQ：第一步，对于一个刚用conda-pip-不熟悉shell指令，不懂网络的零基础零经验小白来说往往是最难的：" class="headerlink" title="FAQ：第一步，对于一个刚用conda, pip, 不熟悉shell指令，不懂网络的零基础零经验小白来说往往是最难的："></a>FAQ：第一步，对于一个刚用conda, pip, 不熟悉shell指令，不懂网络的零基础零经验小白来说往往是最难的：</h1><h2 id="一、先插一嘴，关于下载书本配套的完整代码："><a href="#一、先插一嘴，关于下载书本配套的完整代码：" class="headerlink" title="一、先插一嘴，关于下载书本配套的完整代码："></a>一、先插一嘴，关于下载书本配套的完整代码：</h2><p>虽然online docs上有代码，书上也有代码。但是不一定全。作者给了你一个压缩包，里面是完整的程序，每一章的代码都用.ipynb保存，放入每一章的文件夹。</p>
+<h2 id="二、快来搭建学习环境！！！其实就三步"><a href="#二、快来搭建学习环境！！！其实就三步" class="headerlink" title="二、快来搭建学习环境！！！其实就三步"></a>二、快来搭建学习环境！！！其实就三步</h2><h3 id="第一步，创建并激活环境，使用python-3-9："><a href="#第一步，创建并激活环境，使用python-3-9：" class="headerlink" title="第一步，创建并激活环境，使用python&#x3D;3.9："></a>第一步，创建并激活环境，使用python&#x3D;3.9：</h3><p><code>conda create --name d2l python=3.9</code> 然后输入yes，确认下载、安装。</p>
+<h3 id="第二步：安装d2l依赖：torch-torchvision："><a href="#第二步：安装d2l依赖：torch-torchvision：" class="headerlink" title="第二步：安装d2l依赖：torch torchvision："></a>第二步：安装d2l依赖：torch torchvision：</h3><p><code>pip install torch==1.12.0</code></p>
+<p><code>pip install torchvision==0.13.0</code></p>
+<ul>
+<li>建议：torch torchvision 版本和书上的一样，copy过来就行。pip conda都可以。没必要上官网找指令。不然版本不一致容易出问题。</li>
+</ul>
+<h3 id="第三步：安装d2l包-。（也是pip指令搞定"><a href="#第三步：安装d2l包-。（也是pip指令搞定" class="headerlink" title="第三步：安装d2l包 。（也是pip指令搞定"></a>第三步：安装d2l包 。（也是pip指令搞定</h3><ul>
+<li>前置知识：</li>
+</ul>
+<ol>
+<li>在激活的conda使用pip和conda无区别</li>
+<li>执行“安装torch torchvision指令” 会看机器有没有GPU，然后安装对应版本。 所以，没必要管gpu cpu，版本代数选对了就行。</li>
+</ol>
+<ul>
+<li>中肯的建议：头脑清晰，刚入门别给自己太多要求。</li>
+</ul>
+<ol>
+<li>如果哪一步觉得不对，删掉环境重来吧。<code>conda env remove &quot;your_env_name&quot;</code></li>
+<li>如果网不好。今天就别弄了。先看看怎么<a href="https://blog.csdn.net/m0_61634551/article/details/130867867">配网络代离</a>。或者config其他的镜像源。&#x2F;&#x2F;去百度搜一下</li>
+<li>不需要知道什么是torch  torchvision. 没关系！别管他们。先按部就班，照着书上的说明能跑通安装环境的指令就很牛逼了。</li>
+<li>如果你已经有其他的环境，而且里面带了torch，别管它。重新装一个吧，大不到哪去，初学者别考虑电脑空间。</li>
+</ol>
+<h2 id="第一次，跨过配置环境这座山。然后干很多酷酷的事情："><a href="#第一次，跨过配置环境这座山。然后干很多酷酷的事情：" class="headerlink" title="第一次，跨过配置环境这座山。然后干很多酷酷的事情："></a>第一次，跨过配置环境这座山。然后干很多酷酷的事情：</h2><ul>
+<li>运行d2l notebook里面的所有代码。就是之前从d2l docs HTML Jupyter那一栏下载的zip代码包。</li>
+<li>用jupyter notebook,搭载自己先前配好的d2l无敌环境学习Deep Learning!!!</li>
+</ul>
+<p> </p>
+<h3 id="举一反三，很多想做的事情都知道怎么开始了："><a href="#举一反三，很多想做的事情都知道怎么开始了：" class="headerlink" title="举一反三，很多想做的事情都知道怎么开始了："></a>举一反三，很多想做的事情都知道怎么开始了：</h3><p>创建新的Data Science Conda环境 <code>conda create --name your_env_name python=3.x</code>。</p>
+<p>激活（activate）<del>刚创建好的</del> 包含了ipykernel python生态环境模块的conda环境(我的是d2l)，用Pip （or conda）指令，安装你需要的模块。配置完环境后，然后把它添加到Jupyter Notebook的ipython core里，这样你才能在jupyter notebook使用python (virtual) 环境: </p>
+<p><code>python -m ipykernel install --user --name [jupyter_internal_directory_name] --display-name=&quot;Python (nameDisplayedInJuypterNotebook)&quot;</code><br>最后，用jupyter notebook开始你的Data Science Module、理论、Everything in this topic的学习之路！</p>
+<ul>
+<li>–name 显示在appdata&#x2F;roaming&#x2F;jupyter&#x2F;[name]  并不会根据你输入的名字在conda里面找对应的！！！（想起自己以前认认真真输入一模一样的名字，真的好可爱。 后来在json里看到argument里面的路径，全是d2l，display_name倒是自己设置的。<br><img src="/image_d2l.png" alt="sorry, hexo suck"></li>
+<li>–display-name: 在juypter notebook平台上显示。</li>
+</ul>
+<ul>
+<li>注：调用ipykernel是给jupyter创建一个指向conda环境的指针。如果conda环境改变，相应的jupyter Notebook中的环境也会改变。这方便了很多。</li>
+<li>ipykernel的功能：你想要哪一个环境在jupyter使用，就在该python环境安装ipykernel</li>
+<li>TODO: 更改jupyter显示的环境名， 删除jupyter环境</li>
+</ul>
+<h1 id="建议给系统python环境装上jupyter模块"><a href="#建议给系统python环境装上jupyter模块" class="headerlink" title="建议给系统python环境装上jupyter模块"></a>建议给系统python环境装上jupyter模块</h1><ul>
+<li><code>pip install --upgrade pip setuptools</code></li>
+<li><code>pip install jupyter</code><br>这样就可以在系统python环境管理jupyter环境了</li>
+</ul>
+]]></content>
+  </entry>
+  <entry>
+    <title>保研时期的我</title>
+    <url>/2025/03/20/%E4%BF%9D%E7%A0%94%E6%97%B6%E6%9C%9F%E7%9A%84%E6%88%91/</url>
+    <content><![CDATA[<p>保研圈，不乏激烈的竞争。在这个圈子里，我看到了可敬的对手，看到了绿群里的大佬，也坚定了我的梦想。我的愿望是到名校和更好的老师、同学、师兄师姐们交流学习。我相信，只要保研到我的梦校浙大、进入到研究小组中，就一定能进步、学习更多的专业技能。以后就能做更多有价值的事情。<br>但最近，我变得有些紧张，我担心我的简历还不够好，算法题刷得还不够多，没有论文背景，“套磁“也没人肯收我。我一直在攀比，生怕把学习专业课而不是卷所谓的那些算法、论文是在浪费时间。<br>我还纠结自己适合什么专业，能读什么专业。是偏向研究底层的方向（计算机架构、分布式系统、网络）还是前沿的应用方向（软件开发、AI）。对各个行业都略懂一二的我对自己说，都行，哪个要我就去哪儿。但不管在哪个领域，我做的，一定是有挑战性的工作！<br>说回时间分配的事情，我不想太卷课外的那些技术。 专业知识一定是第一位的。先不说以后会不会读通信、计网这块的研究生；我从IoT出来的，别人问我一个通信相关的概念而我却毫无直觉，真觉得丢人——就这还读研。 所以说，如果以后有老师觉得我简历上的研究经历不如别人突出，请看看我的专业课成绩、对专业知识的理解。<br>本科培养出来的，就不应该是什么研究精英，而是一个通识了专业领域各个方面的，有知识的人。路还很长，研究生阶段，你不可能有这样泡馆、看专业书籍、一步步推演理论的时间。<br>对于保研竞争这一块，我相信船到桥头自然直，熬过这一段，你一定会在学习课外知识的时候更有感悟。我还坚信阿德勒心理学，一切都是目的驱动的。潇洒自如、倾听自己的内心吧，真到要你做重大选择的节骨眼上了，你也一定能适应的。</p>
+]]></content>
+      <tags>
+        <tag>日记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>博客运营（一）</title>
+    <url>/2025/01/15/%E5%8D%9A%E5%AE%A2%E8%BF%90%E8%90%A5%EF%BC%88%E4%B8%80%EF%BC%89/</url>
+    <content><![CDATA[<h1 id="在哪运营hexo-博客？在哪个路径下、用哪个shell、运行Shell指令"><a href="#在哪运营hexo-博客？在哪个路径下、用哪个shell、运行Shell指令" class="headerlink" title="在哪运营hexo 博客？在哪个路径下、用哪个shell、运行Shell指令"></a>在哪运营hexo 博客？在哪个路径下、用哪个shell、运行Shell指令</h1><p>答：在你的博客文件夹下，右键：git bash here. </p>
+<p>我喜欢git bash shell. 因为它支持: &amp;&amp; 运算符，可以连贯的执行操作。把一连串shell commands视作一个整体。</p>
+<p>很神奇的是，不管在哪打开，只要是&#x2F;Blog路径下，就可以执行和hexo有关的指令。我想是因为把Node添加到了环境变量的缘故。</p>
+<p>&nbsp;</p>
+<h1 id="常用的指令"><a href="#常用的指令" class="headerlink" title="常用的指令"></a>常用的指令</h1><ul>
+<li>新建一篇博客 file.md:  hexo new “Your_blog_title”   &#x2F;&#x2F;执行这行指令会生成一个md文件在_post下。附带了日期。</li>
+<li>hexo new page  Your_blog_name &#x2F;&#x2F;有没有引号都可以。  &#x2F;&#x2F;执行这行指令会生成一个index.md文件在_post&#x2F;Your_blod_name下</li>
+<li>hexo clean. 清理</li>
+</ul>
+<p>&nbsp;</p>
+<h1 id="我发hexo博客的工作流："><a href="#我发hexo博客的工作流：" class="headerlink" title="我发hexo博客的工作流："></a>我发hexo博客的工作流：</h1><p>Step 1：用Joplin写博客。  &#x2F;&#x2F;Joplin简直神器，不多bibi</p>
+<p>Step 2：将写完后的博客导出成md文件：NewPost.md。 &#x2F;&#x2F;Joplin支持导出为markdown。直接导到你的Blog文件夹里。如果有图片：最好导入到_post&#x2F;images. 这样更好管理博客里用的图片路径。</p>
+<p>Step 3：在hexo创建新的博客：hexo new page “Blog_title” . 执行指令会发现_post文件夹下多了一个Blog_tilte.md</p>
+<p>Step 4：把NewPost.md里的内容复制到Blog_title.md.  用VSCode修改：标题、格式、Anything you want。</p>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> 为什么要“多此一举”？</li>
+</ul>
+<p>Joplin的文件不是纯文本。直接粘到VScode里的Blog_title.md 可能忽略图片。会把html css元素带进去。</p>
+<p>缺点，每次在joplin上修改了都要重新导出，所以，隔一段时间再发出更省事。</p>
+<p>VScode推荐装md相关插件：Markdonw All in One, Markdown Preview Enhanced. markdownlint</p>
+<p>Step 5：本地浏览博客，检查、做进一步美化。</p>
+<p>hexo clean   </p>
+<p>hexo g &amp;&amp; hexo s</p>
+<p>Step 6: 修改至满意后运行 hexo d. 将本地的博客上传至网站（github Page，…..）。</p>
+<p>&nbsp;</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>在hexo博客中插入图片(方案汇总)</title>
+    <url>/2025/03/09/%E5%9C%A8hexo%E5%8D%9A%E5%AE%A2%E4%B8%AD%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E3%80%90%E6%96%B9%E6%A1%88%E6%B1%87%E6%80%BB%E3%80%91/</url>
+    <content><![CDATA[<h1 id="放弃的方案："><a href="#放弃的方案：" class="headerlink" title="放弃的方案："></a>放弃的方案：</h1><h2 id="原生的-hexo-add-on-hexo-asset"><a href="#原生的-hexo-add-on-hexo-asset" class="headerlink" title="原生的 hexo add on: hexo-asset"></a>原生的 hexo add on: hexo-asset</h2><p><code>post_asset_folder: false #true</code></p>
+<ul>
+<li>语法格式恶心，既不是 md 也不是 HTML，自带的一种渲染格式</li>
+<li>尝试多次未成功</li>
+</ul>
+<h1 id="能使用的方案："><a href="#能使用的方案：" class="headerlink" title="能使用的方案："></a>能使用的方案：</h1><h2 id="PicX"><a href="#PicX" class="headerlink" title="PicX"></a>PicX</h2><h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><ul>
+<li>gitbub 有一个叫做 picx 的项目, 是一个网站，你可以往它的官网上传（本机的）图，会自动生成一个链接赋值到剪切板上。</li>
+<li>特点：手动在 blog md file 里放 html img 标签； 支持使用 GitHub 图床（own repo，free）等其他图床</li>
+</ul>
+<h2 id="优缺点"><a href="#优缺点" class="headerlink" title="优缺点"></a>优缺点</h2><ul>
+<li>优点： PicX 自动生成图片 url, 完全免费（薅微软 Github 服务器的羊毛）</li>
+<li>不足：无法在写博客粘贴图片的时候自动生成链接。需要手动写 HTML img 标签。图多了有些麻烦，容易找不到链接。<br>Links：<a href="https://picx.xpoet.cn/#/settings">PicX 在线服务</a>； <a href="https://picx-docs.xpoet.cn/usage-guide/get-start.html">官方使用教程</a>；<a href="https://github.com/XPoet/picx">GitHub 仓库地址</a></li>
+</ul>
+<p>e.g. url generate by pix<br><a href="https://github.com/OptimusHimself/picx-images-hosting/raw/master/%E5%BD%97%E6%98%9F%E8%BD%A8%E8%BF%B9.esnsejhpw.webp">https://github.com/OptimusHimself/picx-images-hosting/raw/master/彗星轨迹.esnsejhpw.webp</a><br>e.g. &lt;img&gt; tag<br>&lt;img src&#x3D;”<a href="https://github.com/OptimusHimself/picx-images-hosting/raw/master/%E5%BD%97%E6%98%9F%E8%BD%A8%E8%BF%B9.esnsejhpw.webp">https://github.com/OptimusHimself/picx-images-hosting/raw/master/彗星轨迹.esnsejhpw.webp</a>“ alt&#x3D;”sorry about that”&gt;</p>
+<h3 id="attribute-for-img-tag"><a href="#attribute-for-img-tag" class="headerlink" title="attribute for img tag:"></a>attribute for img tag:</h3><blockquote>
+<p>alt 参数：Specifies an alternate text for an image</p>
+</blockquote>
+]]></content>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>论持久战</title>
+    <url>/2025/03/21/%E8%AE%BA%E6%8C%81%E4%B9%85%E6%88%98/</url>
+    <content><![CDATA[<p>从午休后到晚上10点，我全身心投入在模拟通信系统的调制技术的学习中。这是一次伟大的学习过程，因为我学会了“持久”。 我喜欢学习，但我的学习方法不算高效，或者说，在此之前，我没有一个通用的“学习思维”。 我能学好某些知识，归功于我擅长找好的教材、课程，从优质资源中汲取知识。但这只是途径问题，找好的教材是学习的第一步，属于“捷径方法论”。而现在要讨论的是：利用资源和规划时间。因为这一块工作没有做好，会让你在一个领域的开始阶段举步维艰，被那些“懂学习”的人拉开差距。我反思，为什么我作为一个CS专业的学生，到大三了才进入程序设计的全盛、兴趣爆棚的学习状态。慢热，真的好吗？</p>
+<p>拿通信原理这门课来说。要了解通信系统的运作需要很多前置知识：信息论——通信工程里讨论的bit和CS里常说的bit可不是一个概念；还有对通信系统的建模，对信道简单建模。总之，这门课的“原始积累、老本”几乎是0。而学校的教材、课程对于入门小白来说是很难摸得着头脑的。看讲义、课件时，突然蹦出一个你从未见过的公式、符号是很令人头疼的。</p>
+<p>以前，我在学新东西的时候总希望眼前的一切在脑中make sense, 好像有了某般instinct就等同于学会了，可以接下去学了。而要是没有那道“电弧”、通透的感觉，就是没学会。这还不够，不懂学习方法的我还会发脾气：这教材真差劲，不学了！老师讲得真烂，简直就是天书、不听了！于是连续3~4词旷课，等火烧眉毛了再咬着牙学。还有一类情况是，遇到了以前的知识，比方说研究调制信号的spetrum时用到了一点傅里叶变换。一些死扣牛角尖的想法就是，“哎呀，上学期信号与系统里教的傅里叶变换又忘了、我肯定学不下去了，连基础都没有，干脆等几天再学吧，先复习复习傅里叶变换”。可实际上，并没有行动，因为这个想法太空了，复习哪些部分？傅里叶变换那么多性质，真要复习全，三天三夜差不多。有时，你只是脑子里蹦出了知识图谱的一个小标签，就恐吓自己、转移自己的视线。从阿德勒的目的论来看，一切都目的就是不想接触新概念，因为你知道培养自己形成新的概念离不开痛苦、离不开旧思想的碰撞，进而想通过给自己设障达到偷懒、逃避的目的。</p>
+<p>我相信，有不少人也是和我有类似毛病的。只不过我这块特别严重。</p>
+<p>说说我现在的状态。</p>
+<p>上新课听到不懂的不再深究。一方面，你是初学者，你不可能短时间体会这个符号从过去被科学家发明出来，因为什么英文含义被写成这样，你也不可能短时间从只言片语体会到这个公式的来历，你需要练习，研究电路，物理意义你需要看更多的书来联想到更多的知识。另一方面，你真的需要在这个时间点知道那么多吗？正确的做法是，短暂思考后标注问题，问问自己前后的东西能不能自洽，换句话说，书上有没有硬刷错误。对你没看错，我的意思就是，有没有数学上，或者和过去的印象是否匹配。你只需要验证，告诉自己：</p>
+<p>“这大概是对的——这一项加这一项系数没问题，合并同类项等基本运算正确，可能我不知道为什么这么算，但我先接着听。”</p>
+<p>“傅里叶变换我有些不熟悉了……哎不管了，先记着cos(t)转到频域上是两根棍，好像没啥毛病。具体什么含义、为什么做傅里叶变换……老师也没讲、他也不一定讲的清。那我继续看。”</p>
+<p>出现什么新符号、新推演就告诉自己“哦，这有个新符号啊，它叫做……虽然我不知道为什么叫这个抽象玩意儿。”“为什么在通信系统里，做完A operation，就做B。老师说这个方法的优点是……，那就是吧，管他呢”。</p>
+<p>和老师、书本过进度，揭开这个系统的面纱。总之，你要学会减轻自己的思维负担。遇到不懂的东西，立刻告诉自己：“问题不大，没啥大不了的。”难道不是吗？生活中，哪有那么多事儿?</p>
+<p>我相信，好的资料为你拓宽视野，给你一个很好的认知基础，知道学习的路线。很多时候，这足够支撑你“无痛、轻微疼痛”即可入门一个领域。而有些时候，问题稍微复杂了些，每一步都带来很多未知面。这个时候就换一个思维，不要硬刚而是缓下来，换成“持久、不内耗、果断清晰”的思维。我认为，这是一个高效学习者的能力。</p>
+]]></content>
+      <tags>
+        <tag>学习方法</tag>
+      </tags>
+  </entry>
+</search>
