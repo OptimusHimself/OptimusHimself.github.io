@@ -115,13 +115,11 @@
 <meta property="og:site_name" content="Tyrone Opting&#39;s Blog">
 <meta property="og:description" content="花书牛在哪？ 大佬写的。名声在，质量就会有保障。 有代码，有理论, 有例子。你怕学不会？ 开源、配备读者论坛。时刻更新代码。遇到问题很容易在论坛里找到学长们的回答。 感恩：还配备了文字版的PDF，“Acrobat阅读者”们有福了！就冲着把事情做好的情怀、用那么大心血，这本书一定不会差。  我们的学习目标？有哪些很酷的事情？（TBC&nbsp; &nbsp; FAQ：第一步，对于一个刚用conda,">
 <meta property="og:locale">
-<meta property="og:image" content="https://optimushimself.github.io/image_d2l.png">
 <meta property="article:published_time" content="2025-01-15T12:20:55.000Z">
-<meta property="article:modified_time" content="2025-03-26T01:25:30.971Z">
+<meta property="article:modified_time" content="2025-03-26T08:20:44.456Z">
 <meta property="article:author" content="Tyrone Opting">
 <meta property="article:tag" content="AI">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://optimushimself.github.io/image_d2l.png">
 
 
 
@@ -489,8 +487,10 @@
 <p>激活（activate）<del>刚创建好的</del> 包含了ipykernel python生态环境模块的conda环境(我的是d2l)，用Pip （or conda）指令，安装你需要的模块。配置完环境后，然后把它添加到Jupyter Notebook的ipython core里，这样你才能在jupyter notebook使用python (virtual) 环境: </p>
 <p><code>python -m ipykernel install --user --name [jupyter_internal_directory_name] --display-name=&quot;Python (nameDisplayedInJuypterNotebook)&quot;</code><br>最后，用jupyter notebook开始你的Data Science Module、理论、Everything in this topic的学习之路！</p>
 <ul>
-<li>–name 显示在appdata&#x2F;roaming&#x2F;jupyter&#x2F;[name]  并不会根据你输入的名字在conda里面找对应的！！！（想起自己以前认认真真输入一模一样的名字，真的好可爱。 后来在json里看到argument里面的路径，全是d2l，display_name倒是自己设置的。<br><img src="/image_d2l.png" alt="sorry, hexo suck"></li>
-<li>–display-name: 在juypter notebook平台上显示。</li>
+<li><p>–name 显示在appdata&#x2F;roaming&#x2F;jupyter&#x2F;[name]  并不会根据你输入的名字在conda里面找对应的！！！（想起自己以前认认真真输入一模一样的名字，真的好可爱。 后来在json里看到argument里面的路径，全是d2l，display_name倒是自己设置的。</p>
+</li>
+<li><p>–display-name: 在juypter notebook平台上显示。</p>
+</li>
 </ul>
 <ul>
 <li>注：调用ipykernel是给jupyter创建一个指向conda环境的指针。如果conda环境改变，相应的jupyter Notebook中的环境也会改变。这方便了很多。</li>
