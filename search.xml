@@ -15,7 +15,27 @@
   <entry>
     <title>Linux Journey</title>
     <url>/2025/04/23/Linux-Journey/</url>
-    <content><![CDATA[]]></content>
+    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>我第一次接触Linux，我和Linux的故事：从装系统、做项目、无数次“入坑”又“弃坑”。最终又成功登上正轨的学习感悟。 总结了优质的学习资源以及使用方法，更重要的：新手应该避开哪些问题。<br>如果你赶时间，直接看TakeAway。给出了一套简洁、无门槛的学习指南<br>不包含：装系统的细节</p>
+<h1 id="我和Linux的故事"><a href="#我和Linux的故事" class="headerlink" title="我和Linux的故事"></a>我和Linux的故事</h1><ul>
+<li>初次接触：</li>
+<li>开始使用：</li>
+<li>弃坑原因：</li>
+<li>发现好书，自信满满。止步于WSL2</li>
+<li></li>
+</ul>
+<h1 id="关于选什么系统"><a href="#关于选什么系统" class="headerlink" title="关于选什么系统"></a>关于选什么系统</h1><p>推荐使用：Zorin</p>
+<p>WSL2为什么不行</p>
+<h1 id="不要做的-应该放下的思绪："><a href="#不要做的-应该放下的思绪：" class="headerlink" title="不要做的&#x2F;应该放下的思绪："></a>不要做的&#x2F;应该放下的思绪：</h1><p>障碍：</p>
+<ol>
+<li>纠结用什么系统</li>
+<li>上手就装炫酷的软件，玩各种配置。</li>
+<li>看不起基础的Text-Fu（文本操作&#x2F;路径导航的功夫）</li>
+</ol>
+<ul>
+<li>追求有挑战的事情，没有一条线路。 这是一个体系，很复杂，信息量很庞大。靠“遇到问题即Chat”是学不好的。你需要慢下来记笔记，专门花时间研究。</li>
+</ul>
+<h1 id="takeaway"><a href="#takeaway" class="headerlink" title="takeaway"></a>takeaway</h1><p>买一台新电脑或者zorin&#x2F;whatever双系统<br>装vsc, 搞定科学上网（clash-verge）<br>跟着linux journey边做记录边实验边学<br>好了</p>
+]]></content>
       <categories>
         <category>学习路线</category>
       </categories>
@@ -26,7 +46,8 @@
   <entry>
     <title>Python Journey</title>
     <url>/2025/04/23/Python-Journey/</url>
-    <content><![CDATA[]]></content>
+    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>python其实是一门很简单易学的语言。 但是很多人依然学着头疼。 考虑到每个人的情况不同，本文主要面向没有太多项目经历但对计算机有了解（知道OOP，学过C&#x2F;Java…）的小白。<br>本文推荐了学习资源，介绍了我入门的过程。分析了导致python学习效果不好的原因（personal）。</p>
+]]></content>
       <categories>
         <category>学习路线</category>
       </categories>
@@ -38,7 +59,16 @@
   <entry>
     <title>Cpp Journey</title>
     <url>/2025/04/23/Cpp-Journey/</url>
-    <content><![CDATA[]]></content>
+    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>本文属于我的“学习路线”系列文章。 介绍了自认为成功且有一定效率的学习方法。 本文会介绍笔者的入门C++的过程（学习时长&amp;成果），推荐一套可靠的方法，分享有用的资源。本文还总结了学习C++容易遇到的问题</p>
+<h1 id="推荐路线，前置基础"><a href="#推荐路线，前置基础" class="headerlink" title="推荐路线，前置基础"></a>推荐路线，前置基础</h1><h1 id="容易遇到的问题-解决"><a href="#容易遇到的问题-解决" class="headerlink" title="容易遇到的问题 &amp; 解决"></a>容易遇到的问题 &amp; 解决</h1><ul>
+<li>搞不清编译器、工具链等概念。听到<code>MSVC</code> <code>Clang</code> <code>Clang++</code> <code>G++</code> <code>GCC</code> <code>MinGW</code>等词汇就一头包，畏畏缩缩。担心自己搞不定</li>
+<li>不知道在哪运行、不会创建文件夹。不懂底层的规则。</li>
+<li>平台&amp;工具： Windows + Visual Studio + 一个记笔记的Editor（VSC&#x2F;Obsidian&#x2F;Joplin…）</li>
+<li>按着Cherno的视频路线，有取舍的学习（实在不想听的&#x2F;与主线关联不大先跳过，听不懂的跳然后Chat</li>
+<li>视频课绝对不是唯一的，但一个好的视频课一定是最好的路线图！</li>
+<li></li>
+</ul>
+<h1 id=""><a href="#" class="headerlink" title=""></a></h1>]]></content>
       <categories>
         <category>学习路线</category>
       </categories>
