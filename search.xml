@@ -161,7 +161,8 @@
 <h1 id="高端科普、社会知识类"><a href="#高端科普、社会知识类" class="headerlink" title="高端科普、社会知识类"></a>高端科普、社会知识类</h1><p>通过读大师的作品，品味伟大的成就，从精品里学习，开阔了你的视野。从精粹中学到的思维方式让你在成事、看热点问题、社会上的宏观问题带来更新颖的思维方式。<br>阅读这类作品，需要结合自身经历思考、留记录</p>
 <h2 id="科学中国人系列杂志"><a href="#科学中国人系列杂志" class="headerlink" title="科学中国人系列杂志"></a>科学中国人系列杂志</h2><p>我的阅读背景：<br>我于2025.3月（大三下），在图书馆的杂志区，接触科学中国人。 这一段时间，我焦虑于保研专业的选择，人工智能革命浪潮加上种种AI的炒作下，好像计算机专业的不去研究AI以后就找不到工作、或者没有实在的薪水。有时在一些众说纷纭的媒体听闻：26岁的某某某在大厂担任AI领军任务；没天赋别碰AI、别取卷算法，种种之类。其实，在我尝试学习Andrej Karpathy的课程后我就对AI有研究自信，但没太火热的兴趣。 我也接受以后不主攻AI。但心里总希望有些支撑我的观点。草草读完，我豁然开朗，研究不分高低贵贱，不要带着功利选择视野；何必走计算机？计算机外也有很多有价值的科研天地；不要基于未经审核的只言片语规划未来。<br>作品评价：中国科学主管，在我国高级知识分子群体（两院院士）有着良好声誉<br>定位：中国科教界热点、大牛人物（科学家、科技型企业家、教学科研单位高层管理人员）故事，最新科研动态<br>每一期都会挑出几位顶级的科学家介绍他们的经历。还会用简短的文字科普新兴的技术。最后一页有精美的图片或者推荐的阅读资料。<br>通过阅读这套杂志，你可以清楚地感受到中国顶流的科研水平，各大高校的成果，你会对研究生、博士生、教授的工作有更清楚的认识。这本书不会介绍基础知识，和你的本科课本不同。但是一定能打开你的视野，给想走科研道路的自己更详细的学业、职业生涯规划。<br>如果你还在纠结留学还是国内读研、不清楚这个世界上有哪些有价值的研究以及想了解我国的科研能力到底什么水平，强烈推荐你看看这套书籍。如果你还未高中毕业，想规划自己未来的研究道路，相信有一定科学基础的你也能从这本书中看到未来的事业。</p>
 <h2 id="脉络-吴军"><a href="#脉络-吴军" class="headerlink" title="脉络  吴军"></a>脉络  吴军</h2><p>大三上学期（国庆假期）<br>历史、社会、未来</p>
-<h2 id="浪潮之巅-吴军"><a href="#浪潮之巅-吴军" class="headerlink" title="浪潮之巅 吴军"></a>浪潮之巅 吴军</h2><h2 id="黑客与画家-保罗·格雷厄姆（YCombinator创始人）"><a href="#黑客与画家-保罗·格雷厄姆（YCombinator创始人）" class="headerlink" title="黑客与画家  保罗·格雷厄姆（YCombinator创始人）"></a>黑客与画家  保罗·格雷厄姆（YCombinator创始人）</h2><p>阮一峰大佬翻译<br>全书分为三部分</p>
+<h2 id="浪潮之巅-吴军"><a href="#浪潮之巅-吴军" class="headerlink" title="浪潮之巅 吴军"></a>浪潮之巅 吴军</h2><h2 id="黑客与画家-保罗·格雷厄姆（YCombinator创始人）"><a href="#黑客与画家-保罗·格雷厄姆（YCombinator创始人）" class="headerlink" title="黑客与画家  保罗·格雷厄姆（YCombinator创始人）"></a>黑客与画家  保罗·格雷厄姆（YCombinator创始人）</h2><p>阮一峰大佬翻译<br>全书分为三部分<br>本书是保罗整理的“散文集”。包含了他对IT行业&#x2F;创业的思考</p>
+<h2 id="Just-For-Fun-只是为了好玩（Linus-Trovalds）"><a href="#Just-For-Fun-只是为了好玩（Linus-Trovalds）" class="headerlink" title="Just For Fun 只是为了好玩（Linus Trovalds）"></a>Just For Fun 只是为了好玩（Linus Trovalds）</h2><p>本书是Linus的个人传记。非常非常有趣。值得你的空闲时间。</p>
 <h1 id="中外小说"><a href="#中外小说" class="headerlink" title="中外小说"></a>中外小说</h1><p>阅读，可以是一种放松的过程。本节记录书本概述&amp;我喜欢的句子。</p>
 <h2 id="夜火车-徐则臣"><a href="#夜火车-徐则臣" class="headerlink" title="夜火车  徐则臣"></a>夜火车  徐则臣</h2><blockquote>
 <p>陈木年和对话</p>
@@ -316,6 +317,73 @@
       </categories>
       <tags>
         <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>不一样的Git教程 —— GIT基础设置</title>
+    <url>/2025/04/19/gitconcepts/</url>
+    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>本文希望科普git的重要概念以更好地帮助你使用git。 看完本篇内容（git基础）你将方便地用git完成个人项目，但想管理团队，还需要更多的知识</p>
+<p>重点： 明白四个stage的概念。明白push, pull, commit, pull request的中文含义<br>非重点： 记指令的语法（因为github desktop完美替代了初学者所需的操作）</p>
+<h2 id="grocery"><a href="#grocery" class="headerlink" title="grocery"></a>grocery</h2>]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>GIT</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>我的A证</title>
+    <url>/2025/04/24/%E6%88%91%E7%9A%84A%E8%AF%81/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>科学上网</title>
+    <url>/2025/04/29/%E7%94%A8%E5%A5%BD%E4%BB%A3%E7%90%86/</url>
+    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>重要内容：代理软件常用功能的解释，常见的使用场景（Linux &#x2F; Windows），<br>不会包含的内容：1.推荐机场 2.代理软件的推荐</p>
+<h1 id="takeaways-important-concepts"><a href="#takeaways-important-concepts" class="headerlink" title="takeaways: important concepts"></a>takeaways: important concepts</h1><h2 id="grossery"><a href="#grossery" class="headerlink" title="grossery"></a>grossery</h2><p>机场<br>VPN<br>代理（软件）</p>
+<h1 id="功能："><a href="#功能：" class="headerlink" title="功能："></a>功能：</h1><ol>
+<li>全局模式</li>
+<li>规则模式</li>
+<li></li>
+</ol>
+<h2 id=""><a href="#" class="headerlink" title=""></a></h2><p>系统代理</p>
+<p>TUN</p>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>Clash Proxy Server</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>ssh入门</title>
+    <url>/2025/04/29/ssh%E5%85%A5%E9%97%A8/</url>
+    <content><![CDATA[<h1 id="take-away-knowledge-concept"><a href="#take-away-knowledge-concept" class="headerlink" title="take away knowledge &amp; concept"></a>take away knowledge &amp; concept</h1><p>对于private repo, 即便是clone,也需要ssh</p>
+<p>ssh-keygen命令生成的<strong>两份文件</strong>：私钥和公钥（.pub）。你要把public key交给github</p>
+<p>每一次 clone &#x2F; push的Authentification过程：<br>github服务器给你的机器发公钥。 你的机器上<code>～/.ssh/</code>路径下存了唯一的私钥与之对应。即完成身份验证。</p>
+<h2 id="glossary"><a href="#glossary" class="headerlink" title="glossary"></a>glossary</h2><p>SSH： secure shell protocal</p>
+<h1 id="github场景-S1：增添新密码"><a href="#github场景-S1：增添新密码" class="headerlink" title="github场景-S1：增添新密码"></a>github场景-S1：增添新密码</h1><ul>
+<li>当你的项目团队有多个成员，你作为项目的owner，需要为你的团队成员设置SSH，这样他们才能在他们的电脑上更新项目（clone, push）</li>
+<li>还有一个情况，你有多台工作本，你需要为每一台机器上添加SSH，并在个人g-hub账户添加public key</li>
+</ul>
+<h2 id="background-and-task"><a href="#background-and-task" class="headerlink" title="background and task:"></a>background and task:</h2><p>linux + Windows 共同运营hexo blog. Add _post to repo, clone on git</p>
+<h2 id="过程记录（）"><a href="#过程记录（）" class="headerlink" title="过程记录（）"></a>过程记录（）</h2><ol>
+<li>最开始用https协议下载private repo代码失败。遂该用ssh。<code>git clone git@github.com:Optimushimeself/blogsource.git</code>自然报错。因为还没在我的github账号中配置本机的SSH。</li>
+<li>ssh-keygen <code>tyrone@Matrix:~/.ssh$ ssh-keygen -t [加密算法] -f [sshfileName]</code> t: type. github使用<code>ed25519</code>。 passphrase口令为空。自然也没关<code>ssh-agent</code>之类的“高级功能”。</li>
+<li>ssh-keygen得到两个文件，.pub后缀是公钥，扔到<code>github-&gt;setting-&gt;SSH&amp;GPG Keys</code></li>
+<li>（不知道是否靠谱）遇到一些代理问题，调成了全局代理，创建<code>~/.ssh/config</code>。重新运行<code>git clone git@github.com:OptimusHimself/blogsource.git</code>，中途谈了一个是否信任（老熟人了），无脑yes，最后成功克隆项目。</li>
+</ol>
+<h2 id="问题-故障记录"><a href="#问题-故障记录" class="headerlink" title="问题&#x2F;故障记录"></a>问题&#x2F;故障记录</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">\\ 网络问题？</span><br><span class="line">Cloning into &#x27;blogsource&#x27;...</span><br><span class="line">kex_exchange_identification: read: Connection reset by peer</span><br><span class="line">Connection reset by 20.205.243.166 port 22</span><br><span class="line">fatal: Could not read from remote repository.</span><br><span class="line"></span><br><span class="line">Please make sure you have the correct access rights</span><br><span class="line">and the repository exists.</span><br></pre></td></tr></table></figure>
+
+<h1 id="github场景-S2：原来的私钥丢失or忘记passphrase"><a href="#github场景-S2：原来的私钥丢失or忘记passphrase" class="headerlink" title="github场景-S2：原来的私钥丢失or忘记passphrase()"></a>github场景-S2：原来的私钥丢失or忘记passphrase()</h1><p>这就是我为什么建议小白们最开始学习没必要设置passphrase,因为你会忘掉。 不过，只要能记得自己github账号的密码，问题都不大～<br>打开github网站，<code>github-&gt;setting-&gt;SSH&amp;GPG Keys</code>删掉你之前创建的钥匙，重新走一遍 <strong>github场景-S1</strong></p>
+<h1 id="使用ssh登陆服务器：传文件，训练模型…"><a href="#使用ssh登陆服务器：传文件，训练模型…" class="headerlink" title="使用ssh登陆服务器：传文件，训练模型…."></a>使用ssh登陆服务器：传文件，训练模型….</h1>]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>SSH</tag>
       </tags>
   </entry>
 </search>
