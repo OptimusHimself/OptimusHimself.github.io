@@ -291,6 +291,40 @@
 <h3 id="高级用法：下载高清视频"><a href="#高级用法：下载高清视频" class="headerlink" title="高级用法：下载高清视频"></a>高级用法：下载高清视频</h3><p>Format(s) 4K 超高清, 1080P 高码率 are missing; you have to become a premium member to download them. Use –cookies-from-browser or –cookies for the authentication.<br>See  <a href="https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp">https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp</a>  for how to manually pass cookies</p>
 <h3 id="下载Bi站所有的视频？（我想薅家庭宽带-酒店网络！"><a href="#下载Bi站所有的视频？（我想薅家庭宽带-酒店网络！" class="headerlink" title="下载Bi站所有的视频？（我想薅家庭宽带&#x2F;酒店网络！"></a>下载Bi站所有的视频？（我想薅家庭宽带&#x2F;酒店网络！</h3><p> TODO</p>
 <h3 id="能否下载高清会员电影？"><a href="#能否下载高清会员电影？" class="headerlink" title="能否下载高清会员电影？"></a>能否下载高清会员电影？</h3><h2 id="不可以"><a href="#不可以" class="headerlink" title=" 不可以"></a> 不可以</h2><h2 id="ytb场景"><a href="#ytb场景" class="headerlink" title="ytb场景"></a>ytb场景</h2><p>除了<code>-r 4M</code> <code>-i</code> 最常用的参数<br>建议带上<code>--proxy &quot;http://127.0.0.1:7897&quot;</code></p>
+<blockquote>
+<p>yt-dlp is downloading as a guest, so it can’t access those higher-quality formats.</p>
+<blockquote>
+<p>使用cookies，让yt-dlp伪装成我们的“registered user”身份。从而下载更高质量的视频</p>
+</blockquote>
+</blockquote>
+<ul>
+<li><code>--cookies-from-brower chrome</code>  一般够了</li>
+<li><ul>
+<li><code>--cookies-from-browser BROWSER[+KEYRING][:PROFILE][::CONTAINER]</code></li>
+</ul>
+</li>
+<li><ul>
+<li><ul>
+<li><code>--cookies-from-browser chrome+gnomekeyring</code> Linux, MacOS有加密，不是明文cookie</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><ul>
+<li><ul>
+<li><code>--cookies-from-browser firefox:default::work-container</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><ul>
+<li><ul>
+<li><code>--cookies-from-browser chrome:Profile 2 </code>很杂的设置了，Chrome,Firefox浏览器可以多重工作状态、用户身份。 看一眼就好</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
 <h3 id="下载单个ytb视频"><a href="#下载单个ytb视频" class="headerlink" title="下载单个ytb视频"></a>下载单个ytb视频</h3><p> <code>-r 5M</code> <code>-i</code>参数即可<br> Optional: <code>--split-chapters</code> </p>
 <h3 id="下载ytb视频List"><a href="#下载ytb视频List" class="headerlink" title="下载ytb视频List"></a>下载ytb视频List</h3><p><code>-r 5M -i --yes-playlist</code></p>
 <h3 id="下载ytb直播"><a href="#下载ytb直播" class="headerlink" title="下载ytb直播"></a>下载ytb直播</h3><p><a href="https://www.youtube.com/watch?v=jfKfPfyJRdk">一直很喜欢一个lofi直播</a><br><code>--proxy &quot;http://127.0.0.1:7897&quot;</code> &#x2F;&#x2F;语法不同于bash. export http_proxy&#x3D;””<br><code>-r 5M</code> <code>-i</code><br><code>--hls-prefer-native</code> <strong>下载直播时</strong>应当用yt-dlp下载器而不是ffmpeg</p>
