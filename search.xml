@@ -1,6 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>AI时代的思考（1）-- 思维和讨论</title>
+    <url>/2025/04/11/AI%E6%97%B6%E4%BB%A3%E7%9A%84%E6%80%9D%E8%80%83%EF%BC%881%EF%BC%89-%E6%80%9D%E7%BB%B4%E5%92%8C%E8%AE%A8%E8%AE%BA/</url>
+    <content><![CDATA[<p>和朋友聊一个经济学问题——为什么美国可以持续向外输出美元，维持巨大的财政赤字。而中国不可以。其实，我期待能和他一步步挖出财政支出和资本收入等核心概念。但聊着聊着，他就回应：“我也是三脚猫功夫，你问问ChatGPT呗”。类似的对话和其他朋友也有过。<br>　　“ChatGPT, DeepSeek”这些大语言模型成为了人们日常聊天的主角。 你问了DeepSeek吗？<br>　　似乎这些LLM是知识的象征，他们的观点都是对的。 的确，通过优质的网页内容、大量的科学数据训练出的LLM不论是表达能力还是专业性、实战性都吊打大部分本科生。<br>　　但是这和聊天有什么关系？我和你聊天的目的是为了得到一个正确的答案吗？我想要的只不过是你的理解，你的解释。<br>　　基于我和你的交情、来来往往的招呼和交流，我可以很轻松地接受你的语言风格——我们曾经一起开车旅行，畅聊中我知道你是一个说话不清不楚大大咧咧的人。基于我对你的认知能力的了解，我很容易接受你对问题的表述——你平常用词就是这个风格，你的知识储备就是说这样的话。<br>　　但是，这些感觉在我和DeepSeek, 豆包这样的“Knowledge Cluster”对话则没有。<br>　　我联想不到我们曾经一起做过的事儿，AI传递给我的message也只不过是那一段干巴巴的文字。的确，我可以让他说得生动，讲得比老师还要好。我也可以很轻松地得到正确答案。但是，这只是短暂的捡起一个不属于你的理解。<br>　　我已经习惯了在课堂上学习知识，习惯了通过和朋友不断探讨得到智慧的果实。我认为，两个人，在对问题的理解从不清晰的状态，经过交流合作、通过传统的查资料和DIY一些小实验来验证自己的想法，最终得出合理自洽的结论结合自己的表述系统科学地解释问题（哪怕和真实情况有出入）——这才是学习本该有的过程。<br>　　AI的确很强大，提升了我们的效率。但思维的产生和锻炼需要时间、需要磨练和沉淀。我们不能因为AI工具越来越“好使”，就丢弃了最开始交流讨论、独立思考的能力。<br>　　未来的人类文明必将到达新高度。我希望那是一个有思维活力的文明，而不是被AI禁锢、思维陈腐、缺乏创意、懒惰的文明。</p>
+]]></content>
+      <categories>
+        <category>生活感悟</category>
+      </categories>
+      <tags>
+        <tag>日记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Cpp Journey</title>
+    <url>/2025/04/23/Cpp-Journey/</url>
+    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>本文属于我的“学习路线”系列文章。 介绍了自认为成功且有一定效率的学习方法。 本文会介绍笔者的入门C++的过程（学习时长&amp;成果），推荐一套可靠的方法，分享有用的资源。本文还总结了学习C++容易遇到的问题</p>
+<h1 id="推荐路线，前置基础"><a href="#推荐路线，前置基础" class="headerlink" title="推荐路线，前置基础"></a>推荐路线，前置基础</h1><h1 id="容易遇到的问题-解决"><a href="#容易遇到的问题-解决" class="headerlink" title="容易遇到的问题 &amp; 解决"></a>容易遇到的问题 &amp; 解决</h1><ul>
+<li>搞不清编译器、工具链等概念。听到<code>MSVC</code> <code>Clang</code> <code>Clang++</code> <code>G++</code> <code>GCC</code> <code>MinGW</code>等词汇就一头包，畏畏缩缩。担心自己搞不定</li>
+<li>不知道在哪运行、不会创建文件夹。不懂底层的规则。</li>
+<li>平台&amp;工具： Windows + Visual Studio + 一个记笔记的Editor（VSC&#x2F;Obsidian&#x2F;Joplin…）</li>
+<li>按着Cherno的视频路线，有取舍的学习（实在不想听的&#x2F;与主线关联不大先跳过，听不懂的跳然后Chat</li>
+<li>视频课绝对不是唯一的，但一个好的视频课一定是最好的路线图！</li>
+<li></li>
+</ul>
+<h1 id=""><a href="#" class="headerlink" title=""></a></h1>]]></content>
+      <categories>
+        <category>学习路线</category>
+      </categories>
+      <tags>
+        <tag>Programming</tag>
+        <tag>C++</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Linux Journey</title>
     <url>/2025/04/23/Linux-Journey/</url>
     <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>我第一次接触Linux，我和Linux的故事：从装系统、做项目、无数次“入坑”又“弃坑”。最终又成功登上正轨的学习感悟。 总结了优质的学习资源以及使用方法，更重要的：新手应该避开哪些问题。<br>如果你赶时间，直接看TakeAway。给出了一套简洁、无门槛的学习指南<br>不包含：装系统的细节</p>
@@ -97,81 +130,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Cpp Journey</title>
-    <url>/2025/04/23/Cpp-Journey/</url>
-    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>本文属于我的“学习路线”系列文章。 介绍了自认为成功且有一定效率的学习方法。 本文会介绍笔者的入门C++的过程（学习时长&amp;成果），推荐一套可靠的方法，分享有用的资源。本文还总结了学习C++容易遇到的问题</p>
-<h1 id="推荐路线，前置基础"><a href="#推荐路线，前置基础" class="headerlink" title="推荐路线，前置基础"></a>推荐路线，前置基础</h1><h1 id="容易遇到的问题-解决"><a href="#容易遇到的问题-解决" class="headerlink" title="容易遇到的问题 &amp; 解决"></a>容易遇到的问题 &amp; 解决</h1><ul>
-<li>搞不清编译器、工具链等概念。听到<code>MSVC</code> <code>Clang</code> <code>Clang++</code> <code>G++</code> <code>GCC</code> <code>MinGW</code>等词汇就一头包，畏畏缩缩。担心自己搞不定</li>
-<li>不知道在哪运行、不会创建文件夹。不懂底层的规则。</li>
-<li>平台&amp;工具： Windows + Visual Studio + 一个记笔记的Editor（VSC&#x2F;Obsidian&#x2F;Joplin…）</li>
-<li>按着Cherno的视频路线，有取舍的学习（实在不想听的&#x2F;与主线关联不大先跳过，听不懂的跳然后Chat</li>
-<li>视频课绝对不是唯一的，但一个好的视频课一定是最好的路线图！</li>
-<li></li>
-</ul>
-<h1 id=""><a href="#" class="headerlink" title=""></a></h1>]]></content>
-      <categories>
-        <category>学习路线</category>
-      </categories>
-      <tags>
-        <tag>Programming</tag>
-        <tag>C++</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>不一样的Git教程 —— GIT基础设置</title>
-    <url>/2025/04/19/gitconcepts/</url>
-    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>本文希望科普git的重要概念以更好地帮助你使用git。 看完本篇内容（git基础）你将方便地用git完成个人项目，但想管理团队，还需要更多的知识</p>
-<p>重点： 明白四个stage的概念。明白push, pull, commit, pull request的中文含义<br>非重点： 记指令的语法（因为github desktop完美替代了初学者所需的操作）</p>
-<h2 id="grocery"><a href="#grocery" class="headerlink" title="grocery"></a>grocery</h2>]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>GIT</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>ssh入门</title>
-    <url>/2025/04/29/ssh%E5%85%A5%E9%97%A8/</url>
-    <content><![CDATA[<h1 id="take-away-knowledge-concept"><a href="#take-away-knowledge-concept" class="headerlink" title="take away knowledge &amp; concept"></a>take away knowledge &amp; concept</h1><p>对于private repo, 即便是clone,也需要ssh</p>
-<p>ssh-keygen命令生成的<strong>两份文件</strong>：私钥和公钥（.pub）。你要把public key交给github</p>
-<p>每一次 clone &#x2F; push的Authentification过程：<br>github服务器给你的机器发公钥。 你的机器上<code>～/.ssh/</code>路径下存了唯一的私钥与之对应。即完成身份验证。</p>
-<h2 id="glossary"><a href="#glossary" class="headerlink" title="glossary"></a>glossary</h2><p>SSH： secure shell protocal</p>
-<h1 id="github场景-S1：增添新密码"><a href="#github场景-S1：增添新密码" class="headerlink" title="github场景-S1：增添新密码"></a>github场景-S1：增添新密码</h1><ul>
-<li>当你的项目团队有多个成员，你作为项目的owner，需要为你的团队成员设置SSH，这样他们才能在他们的电脑上更新项目（clone, push）</li>
-<li>还有一个情况，你有多台工作本，你需要为每一台机器上添加SSH，并在个人g-hub账户添加public key</li>
-</ul>
-<h2 id="background-and-task"><a href="#background-and-task" class="headerlink" title="background and task:"></a>background and task:</h2><p>linux + Windows 共同运营hexo blog. Add _post to repo, clone on git</p>
-<h2 id="过程记录（）"><a href="#过程记录（）" class="headerlink" title="过程记录（）"></a>过程记录（）</h2><ol>
-<li>最开始用https协议下载private repo代码失败。遂该用ssh。<code>git clone git@github.com:Optimushimeself/blogsource.git</code>自然报错。因为还没在我的github账号中配置本机的SSH。</li>
-<li>ssh-keygen <code>tyrone@Matrix:~/.ssh$ ssh-keygen -t [加密算法] -f [sshfileName]</code> t: type. github使用<code>ed25519</code>。 passphrase口令为空。自然也没关<code>ssh-agent</code>之类的“高级功能”。</li>
-<li>ssh-keygen得到两个文件，.pub后缀是公钥，扔到<code>github-&gt;setting-&gt;SSH&amp;GPG Keys</code></li>
-<li>（不知道是否靠谱）遇到一些代理问题，调成了全局代理，创建<code>~/.ssh/config</code>。重新运行<code>git clone git@github.com:OptimusHimself/blogsource.git</code>，中途谈了一个是否信任（老熟人了），无脑yes，最后成功克隆项目。</li>
-</ol>
-<h2 id="问题-故障记录"><a href="#问题-故障记录" class="headerlink" title="问题&#x2F;故障记录"></a>问题&#x2F;故障记录</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">\\ 网络问题？</span><br><span class="line">Cloning into &#x27;blogsource&#x27;...</span><br><span class="line">kex_exchange_identification: read: Connection reset by peer</span><br><span class="line">Connection reset by 20.205.243.166 port 22</span><br><span class="line">fatal: Could not read from remote repository.</span><br><span class="line"></span><br><span class="line">Please make sure you have the correct access rights</span><br><span class="line">and the repository exists.</span><br></pre></td></tr></table></figure>
-
-<h1 id="github场景-S2：原来的私钥丢失or忘记passphrase"><a href="#github场景-S2：原来的私钥丢失or忘记passphrase" class="headerlink" title="github场景-S2：原来的私钥丢失or忘记passphrase()"></a>github场景-S2：原来的私钥丢失or忘记passphrase()</h1><p>这就是我为什么建议小白们最开始学习没必要设置passphrase,因为你会忘掉。 不过，只要能记得自己github账号的密码，问题都不大～<br>打开github网站，<code>github-&gt;setting-&gt;SSH&amp;GPG Keys</code>删掉你之前创建的钥匙，重新走一遍 <strong>github场景-S1</strong></p>
-<h1 id="使用ssh登陆服务器：传文件，训练模型…"><a href="#使用ssh登陆服务器：传文件，训练模型…" class="headerlink" title="使用ssh登陆服务器：传文件，训练模型…."></a>使用ssh登陆服务器：传文件，训练模型….</h1>]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>SSH</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>AI时代的思考（1）-- 思维和讨论</title>
-    <url>/2025/04/11/AI%E6%97%B6%E4%BB%A3%E7%9A%84%E6%80%9D%E8%80%83%EF%BC%881%EF%BC%89-%E6%80%9D%E7%BB%B4%E5%92%8C%E8%AE%A8%E8%AE%BA/</url>
-    <content><![CDATA[<p>和朋友聊一个经济学问题——为什么美国可以持续向外输出美元，维持巨大的财政赤字。而中国不可以。其实，我期待能和他一步步挖出财政支出和资本收入等核心概念。但聊着聊着，他就回应：“我也是三脚猫功夫，你问问ChatGPT呗”。类似的对话和其他朋友也有过。<br>　　“ChatGPT, DeepSeek”这些大语言模型成为了人们日常聊天的主角。 你问了DeepSeek吗？<br>　　似乎这些LLM是知识的象征，他们的观点都是对的。 的确，通过优质的网页内容、大量的科学数据训练出的LLM不论是表达能力还是专业性、实战性都吊打大部分本科生。<br>　　但是这和聊天有什么关系？我和你聊天的目的是为了得到一个正确的答案吗？我想要的只不过是你的理解，你的解释。<br>　　基于我和你的交情、来来往往的招呼和交流，我可以很轻松地接受你的语言风格——我们曾经一起开车旅行，畅聊中我知道你是一个说话不清不楚大大咧咧的人。基于我对你的认知能力的了解，我很容易接受你对问题的表述——你平常用词就是这个风格，你的知识储备就是说这样的话。<br>　　但是，这些感觉在我和DeepSeek, 豆包这样的“Knowledge Cluster”对话则没有。<br>　　我联想不到我们曾经一起做过的事儿，AI传递给我的message也只不过是那一段干巴巴的文字。的确，我可以让他说得生动，讲得比老师还要好。我也可以很轻松地得到正确答案。但是，这只是短暂的捡起一个不属于你的理解。<br>　　我已经习惯了在课堂上学习知识，习惯了通过和朋友不断探讨得到智慧的果实。我认为，两个人，在对问题的理解从不清晰的状态，经过交流合作、通过传统的查资料和DIY一些小实验来验证自己的想法，最终得出合理自洽的结论结合自己的表述系统科学地解释问题（哪怕和真实情况有出入）——这才是学习本该有的过程。<br>　　AI的确很强大，提升了我们的效率。但思维的产生和锻炼需要时间、需要磨练和沉淀。我们不能因为AI工具越来越“好使”，就丢弃了最开始交流讨论、独立思考的能力。<br>　　未来的人类文明必将到达新高度。我希望那是一个有思维活力的文明，而不是被AI禁锢、思维陈腐、缺乏创意、懒惰的文明。</p>
-]]></content>
-      <categories>
-        <category>生活感悟</category>
-      </categories>
-      <tags>
-        <tag>日记</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Python Journey</title>
     <url>/2025/04/23/Python-Journey/</url>
     <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>python其实是一门很简单易学的语言。 但是很多人依然学着头疼。 考虑到每个人的情况不同，本文主要面向没有太多项目经历但对计算机有了解（知道OOP，学过C&#x2F;Java…）的小白。<br>本文推荐了学习资源，介绍了我入门的过程。分析了导致python学习效果不好的原因（personal）。</p>
@@ -182,6 +140,170 @@
       <tags>
         <tag>Programming</tag>
         <tag>Python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>程序员科普：JSON、XML、YAML 三种数据格式的由来、应用与对比</title>
+    <url>/2025/05/19/dance-with-yaml/</url>
+    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>在前后端开发、配置管理、API 通信等领域，我们常常接触到三种主流的数据格式：JSON、XML 和 YAML。虽然它们的目标都是「让数据结构易于存储和传输」，但随着时代发展与技术演进，它们逐渐走上了不同的道路。本文将从历史演变、应用场景出发，结合语法特征，帮你快速理解这三种格式各自的定位与优劣。</p>
+<blockquote>
+<p>YAML ain’t markup language<br>ain’t markup language 度过xml的应该对markup lang都有些畏惧<br>所以，从这个名字就强调了YAML文件阅读友好，语义简洁的特点。</p>
+</blockquote>
+<h2 id="我为什么单独抽时间写一篇关于基础文件格式的科普文？"><a href="#我为什么单独抽时间写一篇关于基础文件格式的科普文？" class="headerlink" title="我为什么单独抽时间写一篇关于基础文件格式的科普文？"></a>我为什么单独抽时间写一篇关于基础<strong>文件格式</strong>的科普文？</h2><blockquote>
+<p>我认为，对于开发者而言，经验取决于你见过多少文件，写过多少代码，开发过多少项目。 从某个更具象的方面来说，则是你对一个文件格式的理解有多深。</p>
+<blockquote>
+<p>比方说，当开发&#x2F;阅读一个Verilog项目，你除了知道源文件的文件格式是.v， 你还知道你当前工作的文件,逻辑上遵循什么结构<strong>而不只是verilog语法本身</strong>，而这就体现工程师软件设计的功底。<br>再比方说， 一个C项目,你看到Makefile,就能想到它的作用. 你拿到一个.xml,你有自己的阅读习惯.</p>
+</blockquote>
+</blockquote>
+<h1 id="Mark-up-Language"><a href="#Mark-up-Language" class="headerlink" title="Mark up Language"></a>Mark up Language</h1><h2 id="简单问题快答"><a href="#简单问题快答" class="headerlink" title="简单问题快答"></a>简单问题快答</h2><ol>
+<li>这个概念哪儿来的？</li>
+</ol>
+<p>Web1.0 为排版而生。说到排版,想到:LaTex, HTML,…..<br>实现上，浏览器底层代码对标记语言文件<strong>按语法规则</strong>解析。</p>
+<ol start="2">
+<li>标记语言长什么样？</li>
+</ol>
+<ul>
+<li>再怎么说,和源代码文件一样,他是一个文本文件. 只不过和纯粹的.txt相比,有规范的语法.</li>
+<li>可以简单的认为，含尖括号语法的就是标记语言。代表: <ul>
+<li>HTML（ Hpyer Text Markup Language ）</li>
+<li>XML （ eXtensible Markup Language ）</li>
+</ul>
+</li>
+</ul>
+<h2 id="瞎编的两个故事"><a href="#瞎编的两个故事" class="headerlink" title="瞎编的两个故事"></a>瞎编的两个故事</h2><p>1.标记语言和HTML,XML的那段历史</p>
+<p>最早的互联网全是静态网页。就是大片的文字放到网上供人们浏览。而没有交互性。<br>标记语言也是在这个行情下诞生的，通过标记的方式，让浏览器渲染出：有排版（居中、左对齐、….）、各种花哨字体、加粗和颜色、在特定位置呈现文字等功能的文字。<br>标记语言什么语法不重要，重点是，浏览器的底层有一个parser为用户呈现完美渲染后的网页</p>
+<ol start="2">
+<li>聊聊<a href="https://daringfireball.net/projects/markdown/basics">Markdown</a>：</li>
+</ol>
+<ul>
+<li>从标记语言的功能上看，Markdown算是标记语言，而且Markdown file 兼容HTML语法，</li>
+<li>从名字上认为Markdown是一种标记语言，也不矛盾。英文上 mark-up 就是用尖括号标签来表注。 mark-down只不过是用更简洁的符号来实现<strong>文本排版、文字强调</strong>等功能。至于名字的由来，估计是作者调皮了一下。</li>
+<li><a href="https://daringfireball.net/projects/markdown/">markdown作者</a>：约翰格鲁伯，perl解析器. （好，上面也说了markdown is a popular markup language….</li>
+</ul>
+<h1 id="一、趣味知识：起源与发展"><a href="#一、趣味知识：起源与发展" class="headerlink" title="一、趣味知识：起源与发展"></a>一、趣味知识：起源与发展</h1><table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>格式</td>
+<td>出现时间</td>
+<td>主要背景与用途</td>
+</tr>
+<tr>
+<td>XML</td>
+<td>1998</td>
+<td>为了解决 HTML 无法表示结构化数据的问题，适合数据存档、文档结构描述。</td>
+</tr>
+<tr>
+<td>JSON</td>
+<td>2001</td>
+<td>JavaScript 中的轻量数据交换格式，随着 AJAX 崛起而成为 Web 首选。</td>
+</tr>
+<tr>
+<td>YAML</td>
+<td>2004</td>
+<td>Yet Another Markup Language，语法更清晰，主要用于配置文件和 DevOps 场景。</td>
+</tr>
+</tbody></table>
+<ol>
+<li><p>XML：曾经的霸主<br>XML最初是为了扩展 HTML 的表达能力，<strong>使得数据能像文档一样有结构、有语义</strong>。由于它高度结构化、支持复杂嵌套、具备数据验证机制（如 DTD&#x2F;XSD），曾一度在 SOAP 协议、早期 Web 服务和企业系统中广泛使用。</p>
+</li>
+<li><p>JSON：现代 Web 的基石<br>随着 JavaScript 和 AJAX 的流行，JSON（JavaScript Object Notation）凭借轻量、直观、<strong>易解析</strong>的优势迅速取代 XML，成为<strong>前后端通信的标准格式</strong>，尤其适用于<strong>API数据传输</strong>。</p>
+</li>
+<li><p>YAML：简洁的配置王者<br>YAML 诞生之初就是为了人类友好，<strong>语法极简、可读性极强</strong>，因此<strong>非常适合写配置文件</strong>。你可以在 Docker、Kubernetes、GitHub Actions 等 DevOps 工具中频繁看到它的身影。</p>
+</li>
+</ol>
+<h1 id="二、语法要点"><a href="#二、语法要点" class="headerlink" title="二、语法要点"></a>二、语法要点</h1><h2 id="文件后缀名"><a href="#文件后缀名" class="headerlink" title="文件后缀名"></a>文件后缀名</h2><h2 id="注释"><a href="#注释" class="headerlink" title="注释"></a>注释</h2><ol>
+<li>XML <!-- 把我注了吧 --></li>
+<li>json无注释</li>
+<li>YAML 使用<code>#</code></li>
+</ol>
+<h2 id="json特点："><a href="#json特点：" class="headerlink" title="json特点："></a>json特点：</h2><p>整体用一个大括号包住，Python键值对。 键用string <code>&quot;&quot;</code>，值可以是：<code>string</code>, <code>list []</code> <code>dictionary</code></p>
+<h2 id="serialization"><a href="#serialization" class="headerlink" title="serialization"></a>serialization</h2>]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>file format</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>ytb-dl使用教程</title>
+    <url>/2025/05/24/ytb-dl%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/</url>
+    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><ul>
+<li>不是给纯小白科普的。如果你不知道github，yt-dlp，可以不看。</li>
+<li>废话不多，更像是一个脚本小子的资料库<br>yt-dlp [选项] – URL [URL]</li>
+</ul>
+<h2 id="My-Setup"><a href="#My-Setup" class="headerlink" title="My Setup"></a>My Setup</h2><ul>
+<li>win11 直接下载了yt-dlp.exe</li>
+<li>开了代理（不开也可以）</li>
+<li>FFmpeg installed</li>
+</ul>
+<h1 id="使用场景"><a href="#使用场景" class="headerlink" title="使用场景"></a>使用场景</h1><p>常用<a href="https://github.com/yt-dlp/yt-dlp/blob/master/README.md">参数</a>总结</p>
+<ul>
+<li><code>-P</code>：指定下载路径。例如：-P ~&#x2F;Downloads 将视频下载到 ~&#x2F;Downloads 目录。</li>
+<li><code>-N</code>：限制同时下载的视频数量。例如：-N 5 同时下载最多 5 个视频。</li>
+<li><code>--yes-playlist</code>：强制下载整个列表，即使 URL 可能指向单个视频（默认行为）。</li>
+<li><code>-i</code>：忽略下载和后处理错误，确保即使某个视频下载失败，其他视频也能继续下载。</li>
+<li><code>-r</code> &#x2F; <code>--limit-rate</code> 调整下载速度。例如：-r 4.2M 限制下载速度为 4.2MB&#x2F;s。</li>
+<li><strong>ffmpeg require</strong></li>
+<li><ul>
+<li><code>--extract-audio</code> 只要音频; 不传值</li>
+</ul>
+</li>
+<li><ul>
+<li><code>--split-chapters</code></li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>p.s. 如果没有ffmpeg,会下载.m4a,.mp4两种文件,其中Mp4没有声音. windows用scoop install ffmpeg 命令安装ffmpeg</p>
+</blockquote>
+<ul>
+<li><code>yt-dlp -U</code> 更新yt-dlp </li>
+<li><code>--audio-quality 3</code> 常设置为0,表示最高音频质量,不压缩. 0 -&gt; 9 音质逐渐下降</li>
+<li>Set Proxy</li>
+<li><ul>
+<li><code>--proxy &quot;&quot;</code>  空字符串 -&gt; Direct Mode（直连，不走代理）</li>
+</ul>
+</li>
+<li><ul>
+<li><code> --proxy &quot;socks5://127.0.0.1:7897&quot;</code> 走代理下载</li>
+</ul>
+</li>
+<li>视频太长，只下载某一段：</li>
+<li><ul>
+<li></li>
+</ul>
+</li>
+</ul>
+<h2 id="bilibili"><a href="#bilibili" class="headerlink" title="bilibili"></a>bilibili</h2><h3 id="下载一个收藏夹的所有歌曲-视频-—-一次成功！"><a href="#下载一个收藏夹的所有歌曲-视频-—-一次成功！" class="headerlink" title="下载一个收藏夹的所有歌曲&#x2F;视频 — 一次成功！"></a>下载一个收藏夹的所有歌曲&#x2F;视频 — 一次成功！</h3><p><code>.\yt-dlp.exe -P ~/Downloads -N 5 --yes-playlist -i -r 1M --no-overwrites -c --no-part https://www.bilibili.com/list/ml3097786028?oid=46656713&quot;&amp;&quot;bvid=BV1rb411n7wh</code></p>
+<p>list就是收藏夹，<a href="https://www.bilibili.com/list/ml3097786028?oid=46656713&bvid=BV1rb411n7wh">这</a>是我bi站“我喜欢听”收藏夹的第一首歌—哥哥的当年情。这个收藏夹下歌曲url的特点是list&#x2F;ml….?前缀一致，<code>oid=</code>的值不同。</p>
+<ul>
+<li>要注意，&amp;要用””框住。解析上的问题</li>
+<li>开了代理中途不要断。 即便开了Rule模式也有可能走了代理。</li>
+<li>yt-dlp很容易受网络环境影响。最好别断梯子或者网络，因为目前的版本不支持重新下载故障视频。</li>
+</ul>
+<h3 id="高级用法：下载高清视频"><a href="#高级用法：下载高清视频" class="headerlink" title="高级用法：下载高清视频"></a>高级用法：下载高清视频</h3><p>Format(s) 4K 超高清, 1080P 高码率 are missing; you have to become a premium member to download them. Use –cookies-from-browser or –cookies for the authentication.<br>See  <a href="https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp">https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp</a>  for how to manually pass cookies</p>
+<h3 id="下载Bi站所有的视频？（我想薅家庭宽带-酒店网络！"><a href="#下载Bi站所有的视频？（我想薅家庭宽带-酒店网络！" class="headerlink" title="下载Bi站所有的视频？（我想薅家庭宽带&#x2F;酒店网络！"></a>下载Bi站所有的视频？（我想薅家庭宽带&#x2F;酒店网络！</h3><p> TODO</p>
+<h3 id="能否下载高清会员电影？"><a href="#能否下载高清会员电影？" class="headerlink" title="能否下载高清会员电影？"></a>能否下载高清会员电影？</h3><h2 id="不可以"><a href="#不可以" class="headerlink" title=" 不可以"></a> 不可以</h2><h2 id="ytb场景"><a href="#ytb场景" class="headerlink" title="ytb场景"></a>ytb场景</h2><p>除了<code>-r 4M</code> <code>-i</code> 最常用的参数<br>建议带上<code>--proxy &quot;http://127.0.0.1:7897&quot;</code></p>
+<h3 id="下载单个ytb视频"><a href="#下载单个ytb视频" class="headerlink" title="下载单个ytb视频"></a>下载单个ytb视频</h3><p> <code>-r 5M</code> <code>-i</code>参数即可<br> Optional: <code>--split-chapters</code> </p>
+<h3 id="下载ytb视频List"><a href="#下载ytb视频List" class="headerlink" title="下载ytb视频List"></a>下载ytb视频List</h3><p><code>-r 5M -i --yes-playlist</code></p>
+<h3 id="下载ytb直播"><a href="#下载ytb直播" class="headerlink" title="下载ytb直播"></a>下载ytb直播</h3><p><a href="https://www.youtube.com/watch?v=jfKfPfyJRdk">一直很喜欢一个lofi直播</a><br><code>--proxy &quot;http://127.0.0.1:7897&quot;</code> &#x2F;&#x2F;语法不同于bash. export http_proxy&#x3D;””<br><code>-r 5M</code> <code>-i</code><br><code>--hls-prefer-native</code> <strong>下载直播时</strong>应当用yt-dlp下载器而不是ffmpeg</p>
+<h1 id="TL-DR"><a href="#TL-DR" class="headerlink" title="TL-DR"></a>TL-DR</h1><p>yt-dlp对Windows支持挺友好的（主要是有Scoop），当然在WSL2、linux必然可以有一样的体验</p>
+<h4 id="gui版本"><a href="#gui版本" class="headerlink" title="gui版本"></a>gui版本</h4><p><a href="https://github.com/kannagi0303/yt-dlp-gui?tab=readme-ov-file">windows系统的yt-dlp前端gui</a><br>这是一位日本开发者设计的软件。我没用过，但是看readme感觉十分小白友好呢~<br>支持中文，可以方便的选择下载路径。<br>而且有很多高级选项：可以下载章节，设置音视频的格式</p>
+<h4 id="支持的网站"><a href="#支持的网站" class="headerlink" title="支持的网站"></a><a href="https://github.com/yt-dlp/yt-dlp/blob/master/supportedsites.md?plain=1">支持的网站</a></h4><p>网易云音乐&#x2F;优酷&#x2F;爱奇艺&#x2F;虎牙视频，一些直播、yellow网站</p>
+]]></content>
+      <categories>
+        <category>教程</category>
+        <category>整活</category>
+      </categories>
+      <tags>
+        <tag>音视频</tag>
       </tags>
   </entry>
   <entry>
@@ -214,6 +336,48 @@
       <tags>
         <tag>日记</tag>
         <tag>SDR入门</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>ssh入门</title>
+    <url>/2025/04/29/ssh%E5%85%A5%E9%97%A8/</url>
+    <content><![CDATA[<h1 id="take-away-knowledge-concept"><a href="#take-away-knowledge-concept" class="headerlink" title="take away knowledge &amp; concept"></a>take away knowledge &amp; concept</h1><p>对于private repo, 即便是clone,也需要ssh</p>
+<p>ssh-keygen命令生成的<strong>两份文件</strong>：私钥和公钥（.pub）。你要把public key交给github</p>
+<p>每一次 clone &#x2F; push的Authentification过程：<br>github服务器给你的机器发公钥。 你的机器上<code>～/.ssh/</code>路径下存了唯一的私钥与之对应。即完成身份验证。</p>
+<h2 id="glossary"><a href="#glossary" class="headerlink" title="glossary"></a>glossary</h2><p>SSH： secure shell protocal</p>
+<h1 id="github场景-S1：增添新密码"><a href="#github场景-S1：增添新密码" class="headerlink" title="github场景-S1：增添新密码"></a>github场景-S1：增添新密码</h1><ul>
+<li>当你的项目团队有多个成员，你作为项目的owner，需要为你的团队成员设置SSH，这样他们才能在他们的电脑上更新项目（clone, push）</li>
+<li>还有一个情况，你有多台工作本，你需要为每一台机器上添加SSH，并在个人g-hub账户添加public key</li>
+</ul>
+<h2 id="background-and-task"><a href="#background-and-task" class="headerlink" title="background and task:"></a>background and task:</h2><p>linux + Windows 共同运营hexo blog. Add _post to repo, clone on git</p>
+<h2 id="过程记录（）"><a href="#过程记录（）" class="headerlink" title="过程记录（）"></a>过程记录（）</h2><ol>
+<li>最开始用https协议下载private repo代码失败。遂该用ssh。<code>git clone git@github.com:Optimushimeself/blogsource.git</code>自然报错。因为还没在我的github账号中配置本机的SSH。</li>
+<li>ssh-keygen <code>tyrone@Matrix:~/.ssh$ ssh-keygen -t [加密算法] -f [sshfileName]</code> t: type. github使用<code>ed25519</code>。 passphrase口令为空。自然也没关<code>ssh-agent</code>之类的“高级功能”。</li>
+<li>ssh-keygen得到两个文件，.pub后缀是公钥，扔到<code>github-&gt;setting-&gt;SSH&amp;GPG Keys</code></li>
+<li>（不知道是否靠谱）遇到一些代理问题，调成了全局代理，创建<code>~/.ssh/config</code>。重新运行<code>git clone git@github.com:OptimusHimself/blogsource.git</code>，中途谈了一个是否信任（老熟人了），无脑yes，最后成功克隆项目。</li>
+</ol>
+<h2 id="问题-故障记录"><a href="#问题-故障记录" class="headerlink" title="问题&#x2F;故障记录"></a>问题&#x2F;故障记录</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">\\ 网络问题？</span><br><span class="line">Cloning into &#x27;blogsource&#x27;...</span><br><span class="line">kex_exchange_identification: read: Connection reset by peer</span><br><span class="line">Connection reset by 20.205.243.166 port 22</span><br><span class="line">fatal: Could not read from remote repository.</span><br><span class="line"></span><br><span class="line">Please make sure you have the correct access rights</span><br><span class="line">and the repository exists.</span><br></pre></td></tr></table></figure>
+
+<h1 id="github场景-S2：原来的私钥丢失or忘记passphrase"><a href="#github场景-S2：原来的私钥丢失or忘记passphrase" class="headerlink" title="github场景-S2：原来的私钥丢失or忘记passphrase()"></a>github场景-S2：原来的私钥丢失or忘记passphrase()</h1><p>这就是我为什么建议小白们最开始学习没必要设置passphrase,因为你会忘掉。 不过，只要能记得自己github账号的密码，问题都不大～<br>打开github网站，<code>github-&gt;setting-&gt;SSH&amp;GPG Keys</code>删掉你之前创建的钥匙，重新走一遍 <strong>github场景-S1</strong></p>
+<h1 id="使用ssh登陆服务器：传文件，训练模型…"><a href="#使用ssh登陆服务器：传文件，训练模型…" class="headerlink" title="使用ssh登陆服务器：传文件，训练模型…."></a>使用ssh登陆服务器：传文件，训练模型….</h1>]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>SSH</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>不一样的Git教程 —— GIT基础设置</title>
+    <url>/2025/04/19/gitconcepts/</url>
+    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>本文希望科普git的重要概念以更好地帮助你使用git。 看完本篇内容（git基础）你将方便地用git完成个人项目，但想管理团队，还需要更多的知识</p>
+<p>重点： 明白四个stage的概念。明白push, pull, commit, pull request的中文含义<br>非重点： 记指令的语法（因为github desktop完美替代了初学者所需的操作）</p>
+<h2 id="grocery"><a href="#grocery" class="headerlink" title="grocery"></a>grocery</h2>]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>GIT</tag>
       </tags>
   </entry>
   <entry>
@@ -265,6 +429,27 @@
       </tags>
   </entry>
   <entry>
+    <title>和仲敖的SDR日记</title>
+    <url>/2025/03/25/%E5%92%8C%E4%BB%B2%E6%95%96%E7%9A%84SDR%E6%97%A5%E8%AE%B0/</url>
+    <content><![CDATA[<p> 下午逃课和仲敖玩SDR，收听了北京汽车广播。在日记里，我想记下几个难忘的瞬间。</p>
+<img src="https://github.com/OptimusHimself/picx-images-hosting/raw/master/radioandsun.webp" alt="BJUT环能楼楼顶的风景" >
+1仲敖问Deepseek北京电台的信息，然后说：切98，98有音乐！  
+
+<p>2 仲敖生病了依然陪我开箱，陪我安装，搞软件。 非常有耐心地陪我读文档、装软件，今天的成功，离不开我这位好朋友。  </p>
+<p>3 争论SDR# 软件上Bandwidth功能的实现原理，我认为是主板给滤波器发送信号调控硬件中的BPF，而仲敖坚持认为是软件对天线收到的所有信号进行处理。我们用一餐饭打赌，仲敖后来输了。    </p>
+<p>4 起初这条懒狗还不愿意陪我拿快递（当时挺失望的，同时也理解他生病的状态）。不过，后来在我的哄骗下还是一块去了。最后，我问他后悔走“那么多”路去拿快递吗？他表示这份体验很值得（我心里美滋滋的，要是没他陪我，我也玩不到那么好）。他甚至还想上京哈高速上玩，到首都机场听飞行员通信的频段。被我劝住了。我们计划清明前夕一块去，顺便下馆子。  </p>
+<p>5 本人手贱，把SDR# 上预设的bandwidth &#x3D; 200,000改成了2,000，结果什么都听不清。两个小白还以为是地方不够空旷，搬到一个新地方（环能楼顶层）去，结果依然啥也听不清。后来我把bandwidth又调回20万。你懂吧，当时我兴奋地扇自己耳光。替四教5层删的，冤枉你了。  </p>
+<p>6 不愧是C++ 代码王，看教程的时候，我总是有很多模棱两可的地方磨磨唧唧的。而身边的实战派总能帮我过滤掉无用信息，有这么一个果断但又不乏耐心的人陪伴，整活成为我的快乐<br>7 爸爸糖的香蕉味吐司挺好吃的。某人硬吹evian阿尔卑斯的水比农夫山泉的好，斥巨资购买。在我看来，骨子里的癖好是无法改变的。当然，和这位北京小哥成为好朋友完全不是看重这些所谓的“品味”。<br>8 守门员出生的仲敖怕天线摔地上，冲过去护着的样子。很可爱也有些滑稽。<br>今天，我们从开箱到听到FM广播。书本上的死知识：抽象的数学符号、老师随手画的频谱出现在我们眼前。我们不清楚为什么2000的带宽听到的消息信息量那么低，而200,000、180,000就正合适，调成300,000噪声就太多了。我们也不懂天线知识，不知道为什么短天线比长天线收听效果差，我们真的不懂EM wave是咋传播的，我们只知道信号是从西边（海淀）传来的，打开羊角天线，指向日落的方向就能听到音乐。<br>希望和仲敖在SDR的世界中收获更多的兴趣和乐趣。也希望在这个小玩意的引领下，DSP，communication theory, wireless communication三大module取得Aplus!</p>
+]]></content>
+      <categories>
+        <category>整活</category>
+      </categories>
+      <tags>
+        <tag>日记</tag>
+        <tag>SDR入门</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>在hexo博客中插入图片(方案汇总)</title>
     <url>/2025/03/09/%E5%9C%A8hexo%E5%8D%9A%E5%AE%A2%E4%B8%AD%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E3%80%90%E6%96%B9%E6%A1%88%E6%B1%87%E6%80%BB%E3%80%91/</url>
     <content><![CDATA[<h1 id="放弃的方案："><a href="#放弃的方案：" class="headerlink" title="放弃的方案："></a>放弃的方案：</h1><h2 id="原生的-hexo-add-on-hexo-asset"><a href="#原生的-hexo-add-on-hexo-asset" class="headerlink" title="原生的 hexo add on: hexo-asset"></a>原生的 hexo add on: hexo-asset</h2><p><code>post_asset_folder: false #true</code></p>
@@ -310,27 +495,6 @@
       </tags>
   </entry>
   <entry>
-    <title>和仲敖的SDR日记</title>
-    <url>/2025/03/25/%E5%92%8C%E4%BB%B2%E6%95%96%E7%9A%84SDR%E6%97%A5%E8%AE%B0/</url>
-    <content><![CDATA[<p> 下午逃课和仲敖玩SDR，收听了北京汽车广播。在日记里，我想记下几个难忘的瞬间。</p>
-<img src="https://github.com/OptimusHimself/picx-images-hosting/raw/master/radioandsun.webp" alt="BJUT环能楼楼顶的风景" >
-1仲敖问Deepseek北京电台的信息，然后说：切98，98有音乐！  
-
-<p>2 仲敖生病了依然陪我开箱，陪我安装，搞软件。 非常有耐心地陪我读文档、装软件，今天的成功，离不开我这位好朋友。  </p>
-<p>3 争论SDR# 软件上Bandwidth功能的实现原理，我认为是主板给滤波器发送信号调控硬件中的BPF，而仲敖坚持认为是软件对天线收到的所有信号进行处理。我们用一餐饭打赌，仲敖后来输了。    </p>
-<p>4 起初这条懒狗还不愿意陪我拿快递（当时挺失望的，同时也理解他生病的状态）。不过，后来在我的哄骗下还是一块去了。最后，我问他后悔走“那么多”路去拿快递吗？他表示这份体验很值得（我心里美滋滋的，要是没他陪我，我也玩不到那么好）。他甚至还想上京哈高速上玩，到首都机场听飞行员通信的频段。被我劝住了。我们计划清明前夕一块去，顺便下馆子。  </p>
-<p>5 本人手贱，把SDR# 上预设的bandwidth &#x3D; 200,000改成了2,000，结果什么都听不清。两个小白还以为是地方不够空旷，搬到一个新地方（环能楼顶层）去，结果依然啥也听不清。后来我把bandwidth又调回20万。你懂吧，当时我兴奋地扇自己耳光。替四教5层删的，冤枉你了。  </p>
-<p>6 不愧是C++ 代码王，看教程的时候，我总是有很多模棱两可的地方磨磨唧唧的。而身边的实战派总能帮我过滤掉无用信息，有这么一个果断但又不乏耐心的人陪伴，整活成为我的快乐<br>7 爸爸糖的香蕉味吐司挺好吃的。某人硬吹evian阿尔卑斯的水比农夫山泉的好，斥巨资购买。在我看来，骨子里的癖好是无法改变的。当然，和这位北京小哥成为好朋友完全不是看重这些所谓的“品味”。<br>8 守门员出生的仲敖怕天线摔地上，冲过去护着的样子。很可爱也有些滑稽。<br>今天，我们从开箱到听到FM广播。书本上的死知识：抽象的数学符号、老师随手画的频谱出现在我们眼前。我们不清楚为什么2000的带宽听到的消息信息量那么低，而200,000、180,000就正合适，调成300,000噪声就太多了。我们也不懂天线知识，不知道为什么短天线比长天线收听效果差，我们真的不懂EM wave是咋传播的，我们只知道信号是从西边（海淀）传来的，打开羊角天线，指向日落的方向就能听到音乐。<br>希望和仲敖在SDR的世界中收获更多的兴趣和乐趣。也希望在这个小玩意的引领下，DSP，communication theory, wireless communication三大module取得Aplus!</p>
-]]></content>
-      <categories>
-        <category>整活</category>
-      </categories>
-      <tags>
-        <tag>日记</tag>
-        <tag>SDR入门</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>科学上网</title>
     <url>/2025/04/29/%E7%94%A8%E5%A5%BD%E4%BB%A3%E7%90%86/</url>
     <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>重要内容：代理软件常用功能的解释，常见的使用场景（Linux &#x2F; Windows），<br>不会包含的内容：1.推荐机场 2.代理软件的推荐</p>
@@ -348,45 +512,6 @@
       </categories>
       <tags>
         <tag>Clash Proxy Server</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Books Recommandation</title>
-    <url>/2025/03/25/%E9%98%85%E8%AF%BB%E6%8E%A8%E8%8D%90/</url>
-    <content><![CDATA[<p>这是一个来自IoT专业。我从读大学之后开始热爱读书、算是对各类书籍都感兴趣。在这之前，很少阅读课外书籍。<br>这份清单涵盖了我阅读过的并且其中的某些片段为我留下了深刻印象、并对我的学习生活、个人修养产生过积极影响的书籍（真的，读书很神奇，你会因为梳理的内容做出很多改变，哪怕有些只有一个月。</p>
-<h1 id="高端科普、社会知识类"><a href="#高端科普、社会知识类" class="headerlink" title="高端科普、社会知识类"></a>高端科普、社会知识类</h1><p>通过读大师的作品，品味伟大的成就，从精品里学习，开阔了你的视野。从精粹中学到的思维方式让你在成事、看热点问题、社会上的宏观问题带来更新颖的思维方式。<br>阅读这类作品，需要结合自身经历思考、留记录</p>
-<h2 id="科学中国人系列杂志"><a href="#科学中国人系列杂志" class="headerlink" title="科学中国人系列杂志"></a>科学中国人系列杂志</h2><p>我的阅读背景：<br>我于2025.3月（大三下），在图书馆的杂志区，接触科学中国人。 这一段时间，我焦虑于保研专业的选择，人工智能革命浪潮加上种种AI的炒作下，好像计算机专业的不去研究AI以后就找不到工作、或者没有实在的薪水。有时在一些众说纷纭的媒体听闻：26岁的某某某在大厂担任AI领军任务；没天赋别碰AI、别取卷算法，种种之类。其实，在我尝试学习Andrej Karpathy的课程后我就对AI有研究自信，但没太火热的兴趣。 我也接受以后不主攻AI。但心里总希望有些支撑我的观点。草草读完，我豁然开朗，研究不分高低贵贱，不要带着功利选择视野；何必走计算机？计算机外也有很多有价值的科研天地；不要基于未经审核的只言片语规划未来。<br>作品评价：中国科学主管，在我国高级知识分子群体（两院院士）有着良好声誉<br>定位：中国科教界热点、大牛人物（科学家、科技型企业家、教学科研单位高层管理人员）故事，最新科研动态<br>每一期都会挑出几位顶级的科学家介绍他们的经历。还会用简短的文字科普新兴的技术。最后一页有精美的图片或者推荐的阅读资料。<br>通过阅读这套杂志，你可以清楚地感受到中国顶流的科研水平，各大高校的成果，你会对研究生、博士生、教授的工作有更清楚的认识。这本书不会介绍基础知识，和你的本科课本不同。但是一定能打开你的视野，给想走科研道路的自己更详细的学业、职业生涯规划。<br>如果你还在纠结留学还是国内读研、不清楚这个世界上有哪些有价值的研究以及想了解我国的科研能力到底什么水平，强烈推荐你看看这套书籍。如果你还未高中毕业，想规划自己未来的研究道路，相信有一定科学基础的你也能从这本书中看到未来的事业。</p>
-<h2 id="脉络-吴军"><a href="#脉络-吴军" class="headerlink" title="脉络  吴军"></a>脉络  吴军</h2><p>大三上学期（国庆假期）<br>历史、社会、未来</p>
-<h2 id="浪潮之巅-吴军"><a href="#浪潮之巅-吴军" class="headerlink" title="浪潮之巅 吴军"></a>浪潮之巅 吴军</h2><p>还没读完，但绝对值得一读。</p>
-<h2 id="黑客与画家-保罗·格雷厄姆（YCombinator创始人）"><a href="#黑客与画家-保罗·格雷厄姆（YCombinator创始人）" class="headerlink" title="黑客与画家  保罗·格雷厄姆（YCombinator创始人）"></a>黑客与画家  保罗·格雷厄姆（YCombinator创始人）</h2><p>阮一峰大佬翻译<br>全书分为三部分<br>本书是保罗整理的“散文集”。包含了他对IT行业&#x2F;创业的思考</p>
-<h2 id="Just-For-Fun-只是为了好玩（Linus-Trovalds）"><a href="#Just-For-Fun-只是为了好玩（Linus-Trovalds）" class="headerlink" title="Just For Fun 只是为了好玩（Linus Trovalds）"></a>Just For Fun 只是为了好玩（Linus Trovalds）</h2><p>本书是Linus的个人传记。非常非常有趣。值得你的空闲时间。</p>
-<h1 id="中外小说、散文"><a href="#中外小说、散文" class="headerlink" title="中外小说、散文"></a>中外小说、散文</h1><p>阅读，可以是一种放松的过程。本节记录书本概述&amp;我喜欢的句子。</p>
-<h2 id="读是一种幸福-梁晓声"><a href="#读是一种幸福-梁晓声" class="headerlink" title="读是一种幸福 梁晓声"></a>读是一种幸福 梁晓声</h2><p>这是梁晓声先生的散文集，是我第一次读到的作品。我喜欢他的文章，那有血有肉的文字读起来没有压力，总是让我感动。<br>记录了他儿时那个年代的故事。有文革背景下的人物。有和他的哥哥、母亲的故事，还有他当父亲有趣的亲子经历。<br>后来，我知道他的代表作，《人世间》超长篇小说；第一次追剧也是这部小说改，剧中的人物正是他的家庭生活的缩影。</p>
-<h2 id="夜火车-徐则臣"><a href="#夜火车-徐则臣" class="headerlink" title="夜火车  徐则臣"></a>夜火车  徐则臣</h2><p>感谢善良勇敢的木年、孝顺有爱的新治；让我在大学这个浮躁的小社会收获滋养，做一个踏实善良的人。</p>
-<blockquote>
-</blockquote>
-<h2 id="海边的卡夫卡-村上春树"><a href="#海边的卡夫卡-村上春树" class="headerlink" title="海边的卡夫卡  村上春树"></a>海边的卡夫卡  村上春树</h2><p>小说的开篇就很有意思，16岁自律男生的独自生存。故事中的情节不断点燃我的探险激情。我也想走出校园，看看这个世界！于是，就有了大二暑假河北秦皇岛的独自旅行。</p>
-<blockquote>
-<p>这往下你必须成为世界上最顽强的十五岁少年，不管怎么样。因为除此之外这世界上没有你赖以存活之路，为此你自己一定要理解真正的顽强是怎么回事。</p>
-<p>如果有意，我可以除掉父亲（以我现在的力气，决非什么难事），也可从记忆中将母亲抹消。可是我无法将两人的遗传因子从身上驱逐干净。如果我想驱逐，只能驱逐我自身。<br>我们大家都在持续失去种种宝贵的东西，这是生存的一个意义。</p>
-</blockquote>
-<h2 id="潮骚-三岛由纪夫"><a href="#潮骚-三岛由纪夫" class="headerlink" title="潮骚 三岛由纪夫"></a>潮骚 三岛由纪夫</h2><p>我欣赏三岛由纪夫那细致的人物刻画能力。用精细的语言雕刻人物的动作、心理、神态。每次重读他的作品，我都会感叹，怎么能有如此强大的表述能力。</p>
-<blockquote>
-<p><em>摘抄</em><br>年轻人感到包围着他的丰饶的大自然与他自身，是一种无上的调和。他觉得自己的深呼吸，是仿造大自然的肉眼看不见的东西的一部分，它深深渗透到年轻人的体内深处。他所听见的潮骚，仿佛是海的巨大的潮流，与他体内沸腾的热血的潮流调和起来了。新治平日并不特别需要音乐，但大自然本身一定充满着音乐的需要。</p>
-<p>新治的身边是广袤的大海，但他并不憧憬纵横四海的虚幻梦想。对渔夫来说，海的概念与农民拥有的土地相近。海是生活的场所，是庄稼地，形状不定的白色穗波代替了稻穗和麦浪在敏感的湛蓝色软土上不停摇摆着。 尽管如此，年轻人结束了这天的捕捞工作，望着白色货轮行驶在水平线上的晚霞前，心里却怀着不可思议的感动。世界张开了在过去难以想象的巨大怀抱，从彼方通近。这未知世界的形象如远雷一般，从天际轰鸣而来，又消逝而去。 在船头甲板上，一只小小的海星已经干瘪了。年轻人坐在船头，将视线挪离晚霞，轻摇了摇扎着白色厚毛巾的头。 </p>
-</blockquote>
-<h1 id="心理学"><a href="#心理学" class="headerlink" title="心理学"></a>心理学</h1><h2 id="亲密关系-Intimate-Relationships-罗兰·米勒"><a href="#亲密关系-Intimate-Relationships-罗兰·米勒" class="headerlink" title="亲密关系 Intimate Relationships 罗兰·米勒"></a>亲密关系 Intimate Relationships 罗兰·米勒</h2><p>与其说这是书，不如说这是一份研究报告。<br>这本书教会了如何有效沟通。不仅是和恋人、亲人，还有和同学朋友讲道理时，也会采取书中的模式——你心平气和地说，我耐心听，我不打断。等你说完了我再说。我听到了你的想法，我陈述你的想法——当我的理解与你的想法一致时，我做到了共情。我认真地道歉，讲道理。</p>
-<p>我认为这本书适合每一个大学生阅读。</p>
-<h2 id="休息力-韩-李时炯"><a href="#休息力-韩-李时炯" class="headerlink" title="休息力  [韩]李时炯"></a><a href="https://book.douban.com/subject/36394549/">休息力</a>  [韩]李时炯</h2><p>本书不同于大多经验类的帖子、脑科学作品，有很多科学元素。从科学原理出发，解释人之所以疲劳、效率低等日常问题还有心理、身体疾病的源头，结合来自仙村康复中心的治疗方案，告诉读者长寿，让大脑保持健康的秘密。教会我们科学地工作。<br>这本书让我产生了保护好的大脑的意识。更高效地调整自己的工作状态，让我更加从容地面对瓶颈期，而不是堕落、沮丧。</p>
-<h1 id="计算机专业入门科普读物"><a href="#计算机专业入门科普读物" class="headerlink" title="计算机专业入门科普读物"></a>计算机专业入门科普读物</h1><h2 id="《CPU通识课》-龙芯中科"><a href="#《CPU通识课》-龙芯中科" class="headerlink" title="《CPU通识课》 龙芯中科"></a>《CPU通识课》 龙芯中科</h2><p>适合CS, IoT，等有对计算机底层知识 how computer work问题感兴趣的童鞋阅读。开阔了商业视野。偏向CPU、ISA简史。</p>
-<h2 id="《普林斯顿大学计算机公开课》"><a href="#《普林斯顿大学计算机公开课》" class="headerlink" title="《普林斯顿大学计算机公开课》"></a>《普林斯顿大学计算机公开课》</h2><p>适合刚进入大学的计算机专业学生阅读。</p>
-<h1 id="通信"><a href="#通信" class="headerlink" title="通信"></a>通信</h1><h2 id="业余无线电-童效勇"><a href="#业余无线电-童效勇" class="headerlink" title="业余无线电 童效勇"></a>业余无线电 童效勇</h2><p>这本书考证必备读物。很棒的HAM入门读物。</p>
-]]></content>
-      <categories>
-        <category>好物推荐</category>
-      </categories>
-      <tags>
-        <tag>资源分享</tag>
       </tags>
   </entry>
   <entry>
@@ -454,6 +579,45 @@
       </categories>
       <tags>
         <tag>Web开发</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Books Recommandation</title>
+    <url>/2025/03/25/%E9%98%85%E8%AF%BB%E6%8E%A8%E8%8D%90/</url>
+    <content><![CDATA[<p>这是一个来自IoT专业。我从读大学之后开始热爱读书、算是对各类书籍都感兴趣。在这之前，很少阅读课外书籍。<br>这份清单涵盖了我阅读过的并且其中的某些片段为我留下了深刻印象、并对我的学习生活、个人修养产生过积极影响的书籍（真的，读书很神奇，你会因为梳理的内容做出很多改变，哪怕有些只有一个月。</p>
+<h1 id="高端科普、社会知识类"><a href="#高端科普、社会知识类" class="headerlink" title="高端科普、社会知识类"></a>高端科普、社会知识类</h1><p>通过读大师的作品，品味伟大的成就，从精品里学习，开阔了你的视野。从精粹中学到的思维方式让你在成事、看热点问题、社会上的宏观问题带来更新颖的思维方式。<br>阅读这类作品，需要结合自身经历思考、留记录</p>
+<h2 id="科学中国人系列杂志"><a href="#科学中国人系列杂志" class="headerlink" title="科学中国人系列杂志"></a>科学中国人系列杂志</h2><p>我的阅读背景：<br>我于2025.3月（大三下），在图书馆的杂志区，接触科学中国人。 这一段时间，我焦虑于保研专业的选择，人工智能革命浪潮加上种种AI的炒作下，好像计算机专业的不去研究AI以后就找不到工作、或者没有实在的薪水。有时在一些众说纷纭的媒体听闻：26岁的某某某在大厂担任AI领军任务；没天赋别碰AI、别取卷算法，种种之类。其实，在我尝试学习Andrej Karpathy的课程后我就对AI有研究自信，但没太火热的兴趣。 我也接受以后不主攻AI。但心里总希望有些支撑我的观点。草草读完，我豁然开朗，研究不分高低贵贱，不要带着功利选择视野；何必走计算机？计算机外也有很多有价值的科研天地；不要基于未经审核的只言片语规划未来。<br>作品评价：中国科学主管，在我国高级知识分子群体（两院院士）有着良好声誉<br>定位：中国科教界热点、大牛人物（科学家、科技型企业家、教学科研单位高层管理人员）故事，最新科研动态<br>每一期都会挑出几位顶级的科学家介绍他们的经历。还会用简短的文字科普新兴的技术。最后一页有精美的图片或者推荐的阅读资料。<br>通过阅读这套杂志，你可以清楚地感受到中国顶流的科研水平，各大高校的成果，你会对研究生、博士生、教授的工作有更清楚的认识。这本书不会介绍基础知识，和你的本科课本不同。但是一定能打开你的视野，给想走科研道路的自己更详细的学业、职业生涯规划。<br>如果你还在纠结留学还是国内读研、不清楚这个世界上有哪些有价值的研究以及想了解我国的科研能力到底什么水平，强烈推荐你看看这套书籍。如果你还未高中毕业，想规划自己未来的研究道路，相信有一定科学基础的你也能从这本书中看到未来的事业。</p>
+<h2 id="脉络-吴军"><a href="#脉络-吴军" class="headerlink" title="脉络  吴军"></a>脉络  吴军</h2><p>大三上学期（国庆假期）<br>历史、社会、未来</p>
+<h2 id="浪潮之巅-吴军"><a href="#浪潮之巅-吴军" class="headerlink" title="浪潮之巅 吴军"></a>浪潮之巅 吴军</h2><p>还没读完，但绝对值得一读。</p>
+<h2 id="黑客与画家-保罗·格雷厄姆（YCombinator创始人）"><a href="#黑客与画家-保罗·格雷厄姆（YCombinator创始人）" class="headerlink" title="黑客与画家  保罗·格雷厄姆（YCombinator创始人）"></a>黑客与画家  保罗·格雷厄姆（YCombinator创始人）</h2><p>阮一峰大佬翻译<br>全书分为三部分<br>本书是保罗整理的“散文集”。包含了他对IT行业&#x2F;创业的思考</p>
+<h2 id="Just-For-Fun-只是为了好玩（Linus-Trovalds）"><a href="#Just-For-Fun-只是为了好玩（Linus-Trovalds）" class="headerlink" title="Just For Fun 只是为了好玩（Linus Trovalds）"></a>Just For Fun 只是为了好玩（Linus Trovalds）</h2><p>本书是Linus的个人传记。非常非常有趣。值得你的空闲时间。</p>
+<h1 id="中外小说、散文"><a href="#中外小说、散文" class="headerlink" title="中外小说、散文"></a>中外小说、散文</h1><p>阅读，可以是一种放松的过程。本节记录书本概述&amp;我喜欢的句子。</p>
+<h2 id="读是一种幸福-梁晓声"><a href="#读是一种幸福-梁晓声" class="headerlink" title="读是一种幸福 梁晓声"></a>读是一种幸福 梁晓声</h2><p>这是梁晓声先生的散文集，是我第一次读到的作品。我喜欢他的文章，那有血有肉的文字读起来没有压力，总是让我感动。<br>记录了他儿时那个年代的故事。有文革背景下的人物。有和他的哥哥、母亲的故事，还有他当父亲有趣的亲子经历。<br>后来，我知道他的代表作，《人世间》超长篇小说；第一次追剧也是这部小说改，剧中的人物正是他的家庭生活的缩影。</p>
+<h2 id="夜火车-徐则臣"><a href="#夜火车-徐则臣" class="headerlink" title="夜火车  徐则臣"></a>夜火车  徐则臣</h2><p>感谢善良勇敢的木年、孝顺有爱的新治；让我在大学这个浮躁的小社会收获滋养，做一个踏实善良的人。</p>
+<blockquote>
+</blockquote>
+<h2 id="海边的卡夫卡-村上春树"><a href="#海边的卡夫卡-村上春树" class="headerlink" title="海边的卡夫卡  村上春树"></a>海边的卡夫卡  村上春树</h2><p>小说的开篇就很有意思，16岁自律男生的独自生存。故事中的情节不断点燃我的探险激情。我也想走出校园，看看这个世界！于是，就有了大二暑假河北秦皇岛的独自旅行。</p>
+<blockquote>
+<p>这往下你必须成为世界上最顽强的十五岁少年，不管怎么样。因为除此之外这世界上没有你赖以存活之路，为此你自己一定要理解真正的顽强是怎么回事。</p>
+<p>如果有意，我可以除掉父亲（以我现在的力气，决非什么难事），也可从记忆中将母亲抹消。可是我无法将两人的遗传因子从身上驱逐干净。如果我想驱逐，只能驱逐我自身。<br>我们大家都在持续失去种种宝贵的东西，这是生存的一个意义。</p>
+</blockquote>
+<h2 id="潮骚-三岛由纪夫"><a href="#潮骚-三岛由纪夫" class="headerlink" title="潮骚 三岛由纪夫"></a>潮骚 三岛由纪夫</h2><p>我欣赏三岛由纪夫那细致的人物刻画能力。用精细的语言雕刻人物的动作、心理、神态。每次重读他的作品，我都会感叹，怎么能有如此强大的表述能力。</p>
+<blockquote>
+<p><em>摘抄</em><br>年轻人感到包围着他的丰饶的大自然与他自身，是一种无上的调和。他觉得自己的深呼吸，是仿造大自然的肉眼看不见的东西的一部分，它深深渗透到年轻人的体内深处。他所听见的潮骚，仿佛是海的巨大的潮流，与他体内沸腾的热血的潮流调和起来了。新治平日并不特别需要音乐，但大自然本身一定充满着音乐的需要。</p>
+<p>新治的身边是广袤的大海，但他并不憧憬纵横四海的虚幻梦想。对渔夫来说，海的概念与农民拥有的土地相近。海是生活的场所，是庄稼地，形状不定的白色穗波代替了稻穗和麦浪在敏感的湛蓝色软土上不停摇摆着。 尽管如此，年轻人结束了这天的捕捞工作，望着白色货轮行驶在水平线上的晚霞前，心里却怀着不可思议的感动。世界张开了在过去难以想象的巨大怀抱，从彼方通近。这未知世界的形象如远雷一般，从天际轰鸣而来，又消逝而去。 在船头甲板上，一只小小的海星已经干瘪了。年轻人坐在船头，将视线挪离晚霞，轻摇了摇扎着白色厚毛巾的头。 </p>
+</blockquote>
+<h1 id="心理学"><a href="#心理学" class="headerlink" title="心理学"></a>心理学</h1><h2 id="亲密关系-Intimate-Relationships-罗兰·米勒"><a href="#亲密关系-Intimate-Relationships-罗兰·米勒" class="headerlink" title="亲密关系 Intimate Relationships 罗兰·米勒"></a>亲密关系 Intimate Relationships 罗兰·米勒</h2><p>与其说这是书，不如说这是一份研究报告。<br>这本书教会了如何有效沟通。不仅是和恋人、亲人，还有和同学朋友讲道理时，也会采取书中的模式——你心平气和地说，我耐心听，我不打断。等你说完了我再说。我听到了你的想法，我陈述你的想法——当我的理解与你的想法一致时，我做到了共情。我认真地道歉，讲道理。</p>
+<p>我认为这本书适合每一个大学生阅读。</p>
+<h2 id="休息力-韩-李时炯"><a href="#休息力-韩-李时炯" class="headerlink" title="休息力  [韩]李时炯"></a><a href="https://book.douban.com/subject/36394549/">休息力</a>  [韩]李时炯</h2><p>本书不同于大多经验类的帖子、脑科学作品，有很多科学元素。从科学原理出发，解释人之所以疲劳、效率低等日常问题还有心理、身体疾病的源头，结合来自仙村康复中心的治疗方案，告诉读者长寿，让大脑保持健康的秘密。教会我们科学地工作。<br>这本书让我产生了保护好的大脑的意识。更高效地调整自己的工作状态，让我更加从容地面对瓶颈期，而不是堕落、沮丧。</p>
+<h1 id="计算机专业入门科普读物"><a href="#计算机专业入门科普读物" class="headerlink" title="计算机专业入门科普读物"></a>计算机专业入门科普读物</h1><h2 id="《CPU通识课》-龙芯中科"><a href="#《CPU通识课》-龙芯中科" class="headerlink" title="《CPU通识课》 龙芯中科"></a>《CPU通识课》 龙芯中科</h2><p>适合CS, IoT，等有对计算机底层知识 how computer work问题感兴趣的童鞋阅读。开阔了商业视野。偏向CPU、ISA简史。</p>
+<h2 id="《普林斯顿大学计算机公开课》"><a href="#《普林斯顿大学计算机公开课》" class="headerlink" title="《普林斯顿大学计算机公开课》"></a>《普林斯顿大学计算机公开课》</h2><p>适合刚进入大学的计算机专业学生阅读。</p>
+<h1 id="通信"><a href="#通信" class="headerlink" title="通信"></a>通信</h1><h2 id="业余无线电-童效勇"><a href="#业余无线电-童效勇" class="headerlink" title="业余无线电 童效勇"></a>业余无线电 童效勇</h2><p>这本书考证必备读物。很棒的HAM入门读物。</p>
+]]></content>
+      <categories>
+        <category>好物推荐</category>
+      </categories>
+      <tags>
+        <tag>资源分享</tag>
       </tags>
   </entry>
 </search>
