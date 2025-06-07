@@ -1,18 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>AI时代的思考（1）-- 思维和讨论</title>
-    <url>/2025/04/11/AI%E6%97%B6%E4%BB%A3%E7%9A%84%E6%80%9D%E8%80%83%EF%BC%881%EF%BC%89-%E6%80%9D%E7%BB%B4%E5%92%8C%E8%AE%A8%E8%AE%BA/</url>
-    <content><![CDATA[<p>和朋友聊一个经济学问题——为什么美国可以持续向外输出美元，维持巨大的财政赤字。而中国不可以。其实，我期待能和他一步步挖出财政支出和资本收入等核心概念。但聊着聊着，他就回应：“我也是三脚猫功夫，你问问ChatGPT呗”。类似的对话和其他朋友也有过。<br>　　“ChatGPT, DeepSeek”这些大语言模型成为了人们日常聊天的主角。 你问了DeepSeek吗？<br>　　似乎这些LLM是知识的象征，他们的观点都是对的。 的确，通过优质的网页内容、大量的科学数据训练出的LLM不论是表达能力还是专业性、实战性都吊打大部分本科生。<br>　　但是这和聊天有什么关系？我和你聊天的目的是为了得到一个正确的答案吗？我想要的只不过是你的理解，你的解释。<br>　　基于我和你的交情、来来往往的招呼和交流，我可以很轻松地接受你的语言风格——我们曾经一起开车旅行，畅聊中我知道你是一个说话不清不楚大大咧咧的人。基于我对你的认知能力的了解，我很容易接受你对问题的表述——你平常用词就是这个风格，你的知识储备就是说这样的话。<br>　　但是，这些感觉在我和DeepSeek, 豆包这样的“Knowledge Cluster”对话则没有。<br>　　我联想不到我们曾经一起做过的事儿，AI传递给我的message也只不过是那一段干巴巴的文字。的确，我可以让他说得生动，讲得比老师还要好。我也可以很轻松地得到正确答案。但是，这只是短暂的捡起一个不属于你的理解。<br>　　我已经习惯了在课堂上学习知识，习惯了通过和朋友不断探讨得到智慧的果实。我认为，两个人，在对问题的理解从不清晰的状态，经过交流合作、通过传统的查资料和DIY一些小实验来验证自己的想法，最终得出合理自洽的结论结合自己的表述系统科学地解释问题（哪怕和真实情况有出入）——这才是学习本该有的过程。<br>　　AI的确很强大，提升了我们的效率。但思维的产生和锻炼需要时间、需要磨练和沉淀。我们不能因为AI工具越来越“好使”，就丢弃了最开始交流讨论、独立思考的能力。<br>　　未来的人类文明必将到达新高度。我希望那是一个有思维活力的文明，而不是被AI禁锢、思维陈腐、缺乏创意、懒惰的文明。</p>
-]]></content>
-      <categories>
-        <category>生活感悟</category>
-      </categories>
-      <tags>
-        <tag>日记</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Cpp Journey</title>
     <url>/2025/04/23/Cpp-Journey/</url>
     <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>本文属于我的“学习路线”系列文章。 介绍了自认为成功且有一定效率的学习方法。 本文会介绍笔者的入门C++的过程（学习时长&amp;成果），推荐一套可靠的方法，分享有用的资源。本文还总结了学习C++容易遇到的问题</p>
@@ -31,6 +19,18 @@
       <tags>
         <tag>Programming</tag>
         <tag>C++</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>AI时代的思考（1）-- 思维和讨论</title>
+    <url>/2025/04/11/AI%E6%97%B6%E4%BB%A3%E7%9A%84%E6%80%9D%E8%80%83%EF%BC%881%EF%BC%89-%E6%80%9D%E7%BB%B4%E5%92%8C%E8%AE%A8%E8%AE%BA/</url>
+    <content><![CDATA[<p>和朋友聊一个经济学问题——为什么美国可以持续向外输出美元，维持巨大的财政赤字。而中国不可以。其实，我期待能和他一步步挖出财政支出和资本收入等核心概念。但聊着聊着，他就回应：“我也是三脚猫功夫，你问问ChatGPT呗”。类似的对话和其他朋友也有过。<br>　　“ChatGPT, DeepSeek”这些大语言模型成为了人们日常聊天的主角。 你问了DeepSeek吗？<br>　　似乎这些LLM是知识的象征，他们的观点都是对的。 的确，通过优质的网页内容、大量的科学数据训练出的LLM不论是表达能力还是专业性、实战性都吊打大部分本科生。<br>　　但是这和聊天有什么关系？我和你聊天的目的是为了得到一个正确的答案吗？我想要的只不过是你的理解，你的解释。<br>　　基于我和你的交情、来来往往的招呼和交流，我可以很轻松地接受你的语言风格——我们曾经一起开车旅行，畅聊中我知道你是一个说话不清不楚大大咧咧的人。基于我对你的认知能力的了解，我很容易接受你对问题的表述——你平常用词就是这个风格，你的知识储备就是说这样的话。<br>　　但是，这些感觉在我和DeepSeek, 豆包这样的“Knowledge Cluster”对话则没有。<br>　　我联想不到我们曾经一起做过的事儿，AI传递给我的message也只不过是那一段干巴巴的文字。的确，我可以让他说得生动，讲得比老师还要好。我也可以很轻松地得到正确答案。但是，这只是短暂的捡起一个不属于你的理解。<br>　　我已经习惯了在课堂上学习知识，习惯了通过和朋友不断探讨得到智慧的果实。我认为，两个人，在对问题的理解从不清晰的状态，经过交流合作、通过传统的查资料和DIY一些小实验来验证自己的想法，最终得出合理自洽的结论结合自己的表述系统科学地解释问题（哪怕和真实情况有出入）——这才是学习本该有的过程。<br>　　AI的确很强大，提升了我们的效率。但思维的产生和锻炼需要时间、需要磨练和沉淀。我们不能因为AI工具越来越“好使”，就丢弃了最开始交流讨论、独立思考的能力。<br>　　未来的人类文明必将到达新高度。我希望那是一个有思维活力的文明，而不是被AI禁锢、思维陈腐、缺乏创意、懒惰的文明。</p>
+]]></content>
+      <categories>
+        <category>生活感悟</category>
+      </categories>
+      <tags>
+        <tag>日记</tag>
       </tags>
   </entry>
   <entry>
@@ -62,6 +62,35 @@
       </categories>
       <tags>
         <tag>Linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Python Journey</title>
+    <url>/2025/04/23/Python-Journey/</url>
+    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>python其实是一门很简单易学的语言。 但是很多人依然学着头疼。 考虑到每个人的情况不同，本文主要面向没有太多项目经历但对计算机有了解（知道OOP，学过C&#x2F;Java…）的小白。<br>本文推荐了学习资源，介绍了我入门的过程。分析了导致python学习效果不好的原因（personal）。</p>
+]]></content>
+      <categories>
+        <category>学习路线</category>
+      </categories>
+      <tags>
+        <tag>Programming</tag>
+        <tag>Python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>WindowsLinux化</title>
+    <url>/2025/06/08/WindowsLinux%E5%8C%96/</url>
+    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>主要记录了编写脚本文件的技术。</p>
+<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>Linux系统运行脚本管理很方便，make install命令就能安装好软件，可以在任位置指使用指令.<br>但Windows就没那么方便了。要手动把脚本添加到Path。 因此，我在D盘新建了一个文件夹mytools，存放所有的常用exe,bat脚本,.cmd,ps1，还可以添加python脚本封装成cmd脚本文件。目前我已经把.yt-dlp.exe, danmuku2ass.cmd（内有python xxx&#x2F;xxx&#x2F;xxx&#x2F;…&#x2F;danmuku2ass.py %* 命令）, 然后在Path环境变量中添加D:\mytools路径，这样就可以在任意位置使用这些脚本了。</p>
+<blockquote>
+<p>当然，使用Scoop包管理器安装的软件（如git, jdk, maven,…）也可以达到在任何路径下运行命令（我会专门出一篇博客介绍scoop</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>整活</tag>
       </tags>
   </entry>
   <entry>
@@ -127,19 +156,6 @@
       </categories>
       <tags>
         <tag>AI</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Python Journey</title>
-    <url>/2025/04/23/Python-Journey/</url>
-    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>python其实是一门很简单易学的语言。 但是很多人依然学着头疼。 考虑到每个人的情况不同，本文主要面向没有太多项目经历但对计算机有了解（知道OOP，学过C&#x2F;Java…）的小白。<br>本文推荐了学习资源，介绍了我入门的过程。分析了导致python学习效果不好的原因（personal）。</p>
-]]></content>
-      <categories>
-        <category>学习路线</category>
-      </categories>
-      <tags>
-        <tag>Programming</tag>
-        <tag>Python</tag>
       </tags>
   </entry>
   <entry>
@@ -232,115 +248,6 @@
       </tags>
   </entry>
   <entry>
-    <title>ytb-dl使用教程</title>
-    <url>/2025/05/24/ytb-dl%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/</url>
-    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><ul>
-<li>不是给纯小白科普的。如果你不知道github，yt-dlp，可以不看。</li>
-<li>废话不多，更像是一个脚本小子的资料库<br>yt-dlp [选项] – URL [URL]</li>
-</ul>
-<h2 id="My-Setup"><a href="#My-Setup" class="headerlink" title="My Setup"></a>My Setup</h2><ul>
-<li>win11 直接下载了yt-dlp.exe</li>
-<li>开了代理（不开也可以）</li>
-<li>FFmpeg installed</li>
-</ul>
-<h1 id="使用场景"><a href="#使用场景" class="headerlink" title="使用场景"></a>使用场景</h1><p>常用<a href="https://github.com/yt-dlp/yt-dlp/blob/master/README.md">参数</a>总结</p>
-<ul>
-<li><code>-P</code>：指定下载路径。例如：-P ~&#x2F;Downloads 将视频下载到 ~&#x2F;Downloads 目录。</li>
-<li><code>-N</code>：限制同时下载的视频数量。例如：-N 5 同时下载最多 5 个视频。</li>
-<li><code>--yes-playlist</code>：强制下载整个列表，即使 URL 可能指向单个视频（默认行为）。</li>
-<li><code>-i</code>：忽略下载和后处理错误，确保即使某个视频下载失败，其他视频也能继续下载。</li>
-<li><code>-r</code> &#x2F; <code>--limit-rate</code> 调整下载速度。例如：-r 4.2M 限制下载速度为 4.2MB&#x2F;s。</li>
-<li><strong>ffmpeg require</strong></li>
-<li><ul>
-<li><code>--extract-audio</code> 只要音频; 不传值</li>
-</ul>
-</li>
-<li><ul>
-<li><code>--split-chapters</code></li>
-</ul>
-</li>
-</ul>
-<blockquote>
-<p>p.s. 如果没有ffmpeg,会下载.m4a,.mp4两种文件,其中Mp4没有声音. windows用scoop install ffmpeg 命令安装ffmpeg</p>
-</blockquote>
-<ul>
-<li><code>yt-dlp -U</code> 更新yt-dlp </li>
-<li><code>--audio-quality 3</code> 常设置为0,表示最高音频质量,不压缩. 0 -&gt; 9 音质逐渐下降</li>
-<li>Set Proxy</li>
-<li><ul>
-<li><code>--proxy &quot;&quot;</code>  空字符串 -&gt; Direct Mode（直连，不走代理）</li>
-</ul>
-</li>
-<li><ul>
-<li><code> --proxy &quot;socks5://127.0.0.1:7897&quot;</code> 走代理下载</li>
-</ul>
-</li>
-<li>视频太长，只下载某一段：</li>
-<li><ul>
-<li></li>
-</ul>
-</li>
-</ul>
-<h2 id="bilibili"><a href="#bilibili" class="headerlink" title="bilibili"></a>bilibili</h2><h3 id="下载一个收藏夹的所有歌曲-视频-—-一次成功！"><a href="#下载一个收藏夹的所有歌曲-视频-—-一次成功！" class="headerlink" title="下载一个收藏夹的所有歌曲&#x2F;视频 — 一次成功！"></a>下载一个收藏夹的所有歌曲&#x2F;视频 — 一次成功！</h3><p><code>.\yt-dlp.exe -P ~/Downloads -N 5 --yes-playlist -i -r 1M --no-overwrites -c --no-part https://www.bilibili.com/list/ml3097786028?oid=46656713&quot;&amp;&quot;bvid=BV1rb411n7wh</code></p>
-<p>list就是收藏夹，<a href="https://www.bilibili.com/list/ml3097786028?oid=46656713&bvid=BV1rb411n7wh">这</a>是我bi站“我喜欢听”收藏夹的第一首歌—哥哥的当年情。这个收藏夹下歌曲url的特点是list&#x2F;ml….?前缀一致，<code>oid=</code>的值不同。</p>
-<ul>
-<li>要注意，&amp;要用””框住。解析上的问题</li>
-<li>开了代理中途不要断。 即便开了Rule模式也有可能走了代理。</li>
-<li>yt-dlp很容易受网络环境影响。最好别断梯子或者网络，因为目前的版本不支持重新下载故障视频。</li>
-</ul>
-<h3 id="高级用法：下载高清视频"><a href="#高级用法：下载高清视频" class="headerlink" title="高级用法：下载高清视频"></a>高级用法：下载高清视频</h3><p>Format(s) 4K 超高清, 1080P 高码率 are missing; you have to become a premium member to download them. Use –cookies-from-browser or –cookies for the authentication.<br>See  <a href="https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp">https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp</a>  for how to manually pass cookies</p>
-<h3 id="下载Bi站所有的视频？（我想薅家庭宽带-酒店网络！"><a href="#下载Bi站所有的视频？（我想薅家庭宽带-酒店网络！" class="headerlink" title="下载Bi站所有的视频？（我想薅家庭宽带&#x2F;酒店网络！"></a>下载Bi站所有的视频？（我想薅家庭宽带&#x2F;酒店网络！</h3><p> TODO</p>
-<h3 id="能否下载高清会员电影？"><a href="#能否下载高清会员电影？" class="headerlink" title="能否下载高清会员电影？"></a>能否下载高清会员电影？</h3><h2 id="不可以"><a href="#不可以" class="headerlink" title=" 不可以"></a> 不可以</h2><h2 id="ytb场景"><a href="#ytb场景" class="headerlink" title="ytb场景"></a>ytb场景</h2><p>除了<code>-r 4M</code> <code>-i</code> 最常用的参数<br>建议带上<code>--proxy &quot;http://127.0.0.1:7897&quot;</code></p>
-<blockquote>
-<p>yt-dlp is downloading as a guest, so it can’t access those higher-quality formats.</p>
-<blockquote>
-<p>使用cookies，让yt-dlp伪装成我们的“registered user”身份。从而下载更高质量的视频</p>
-</blockquote>
-</blockquote>
-<ul>
-<li><code>--cookies-from-brower chrome</code>  一般够了</li>
-<li><ul>
-<li><code>--cookies-from-browser BROWSER[+KEYRING][:PROFILE][::CONTAINER]</code></li>
-</ul>
-</li>
-<li><ul>
-<li><ul>
-<li><code>--cookies-from-browser chrome+gnomekeyring</code> Linux, MacOS有加密，不是明文cookie</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><ul>
-<li><ul>
-<li><code>--cookies-from-browser firefox:default::work-container</code></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><ul>
-<li><ul>
-<li><code>--cookies-from-browser chrome:Profile 2 </code>很杂的设置了，Chrome,Firefox浏览器可以多重工作状态、用户身份。 看一眼就好</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h3 id="下载单个ytb视频"><a href="#下载单个ytb视频" class="headerlink" title="下载单个ytb视频"></a>下载单个ytb视频</h3><p> <code>-r 5M</code> <code>-i</code>参数即可<br> Optional: <code>--split-chapters</code> </p>
-<h3 id="下载ytb视频List"><a href="#下载ytb视频List" class="headerlink" title="下载ytb视频List"></a>下载ytb视频List</h3><p><code>-r 5M -i --yes-playlist</code></p>
-<h3 id="下载ytb直播"><a href="#下载ytb直播" class="headerlink" title="下载ytb直播"></a>下载ytb直播</h3><p><a href="https://www.youtube.com/watch?v=jfKfPfyJRdk">一直很喜欢一个lofi直播</a><br><code>--proxy &quot;http://127.0.0.1:7897&quot;</code> &#x2F;&#x2F;语法不同于bash. export http_proxy&#x3D;””<br><code>-r 5M</code> <code>-i</code><br><code>--hls-prefer-native</code> <strong>下载直播时</strong>应当用yt-dlp下载器而不是ffmpeg</p>
-<h1 id="TL-DR"><a href="#TL-DR" class="headerlink" title="TL-DR"></a>TL-DR</h1><p>yt-dlp对Windows支持挺友好的（主要是有Scoop），当然在WSL2、linux必然可以有一样的体验</p>
-<h4 id="gui版本"><a href="#gui版本" class="headerlink" title="gui版本"></a>gui版本</h4><p><a href="https://github.com/kannagi0303/yt-dlp-gui?tab=readme-ov-file">windows系统的yt-dlp前端gui</a><br>这是一位日本开发者设计的软件。我没用过，但是看readme感觉十分小白友好呢~<br>支持中文，可以方便的选择下载路径。<br>而且有很多高级选项：可以下载章节，设置音视频的格式</p>
-<h4 id="支持的网站"><a href="#支持的网站" class="headerlink" title="支持的网站"></a><a href="https://github.com/yt-dlp/yt-dlp/blob/master/supportedsites.md?plain=1">支持的网站</a></h4><p>网易云音乐&#x2F;优酷&#x2F;爱奇艺&#x2F;虎牙视频，一些直播、yellow网站</p>
-]]></content>
-      <categories>
-        <category>教程</category>
-        <category>整活</category>
-      </categories>
-      <tags>
-        <tag>音视频</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>大兴追音记</title>
     <url>/2025/04/03/daxing/</url>
     <content><![CDATA[<p>本文记录了和<a href="https://github.com/Daydreamer114">WZA</a>的第二次SDR整活儿的经历。蹲在大兴机厂附近的农场收听塔台和机长的对话。</p>
@@ -415,6 +322,176 @@
       </tags>
   </entry>
   <entry>
+    <title>ytb-dl使用教程</title>
+    <url>/2025/05/24/ytb-dl%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/</url>
+    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><ul>
+<li>不是给纯小白科普的。如果你不知道github，yt-dlp，可以不看。</li>
+<li>废话不多，更像是一个脚本小子的资料库<br>yt-dlp [选项] – URL [URL]</li>
+</ul>
+<h2 id="My-Setup"><a href="#My-Setup" class="headerlink" title="My Setup"></a>My Setup</h2><ul>
+<li>win11 直接下载了yt-dlp.exe</li>
+<li>开了代理（不开也可以）</li>
+<li>FFmpeg installed</li>
+</ul>
+<h1 id="使用场景"><a href="#使用场景" class="headerlink" title="使用场景"></a>使用场景</h1><p>常用<a href="https://github.com/yt-dlp/yt-dlp/blob/master/README.md">参数</a>总结</p>
+<blockquote>
+<p>好习惯:在任何下载命令前，先用<code>-F -v</code>看看什么情况。</p>
+</blockquote>
+<ul>
+<li><p>下载路径管理和文件命名</p>
+<ul>
+<li><code>-P</code> ：指定下载路径。例如：-P ~&#x2F;Downloads 将视频下载到 ~&#x2F;Downloads 目录。</li>
+<li><code>-o</code> : 文件名模板</li>
+</ul>
+</li>
+<li><p>下载速度</p>
+<ul>
+<li><code>-N</code> &#x2F; <code>--concurrent-fragments</code>  (default is 1) </li>
+<li><code>-i</code>：忽略下载和后处理错误，确保即使某个视频下载失败，其他视频也能继续下载。</li>
+<li><code>-r</code> &#x2F; <code>--limit-rate</code> 调整下载速度。例如：-r 4.2M 限制下载速度为 4.2MB&#x2F;s。</li>
+</ul>
+</li>
+<li><p>下歌曲（薅羊毛）</p>
+<ul>
+<li><code>--yes-playlist</code>：强制下载整个列表，即使 URL 可能指向单个视频（默认行为）。</li>
+<li><code>--extract-audio</code> 只要音频; 不传值</li>
+<li><code>--split-chapters</code></li>
+</ul>
+</li>
+<li><p>下载电影配字幕</p>
+<ul>
+<li><code>--write-subs</code> </li>
+<li><code>--list-subs</code></li>
+</ul>
+</li>
+<li><blockquote>
+<p>p.s. 如果没有ffmpeg,会下载.m4a,.mp4两种文件,其中Mp4没有声音. windows用scoop install ffmpeg 命令安装ffmpeg</p>
+</blockquote>
+</li>
+<li><p><code>yt-dlp -U</code> 更新yt-dlp </p>
+</li>
+<li><p><code>--audio-quality 3</code> 常设置为0,表示最高音频质量,不压缩. 0 -&gt; 9 音质逐渐下降</p>
+</li>
+<li><p>Set Proxy</p>
+</li>
+<li><ul>
+<li><code>--proxy &quot;&quot;</code>  空字符串 -&gt; Direct Mode（直连，不走代理）</li>
+</ul>
+</li>
+<li><ul>
+<li><code> --proxy &quot;socks5://127.0.0.1:7897&quot;</code> 走代理下载</li>
+</ul>
+</li>
+<li><p>截取 —— 视频太长，只下载某一段：</p>
+</li>
+</ul>
+<h2 id="常用输出文件名模板"><a href="#常用输出文件名模板" class="headerlink" title="常用输出文件名模板"></a>常用输出文件名模板</h2><ul>
+<li>原文1270行左右：# OUTPUT TEMPLATE<br>默认值会把视频id也放过来 -&gt; 输出文件名又臭又长。有些视频的title为了吸引流量也有很多无效信息。</li>
+</ul>
+<p>输出模板有很多参数(field)供选择</p>
+<ul>
+<li><code>-o &quot;%(title)s.%(ext)&quot;</code>  简洁。 不要带<code>%(id)</code></li>
+<li><code>--split-chapters -o &quot;%(title)s - %(chapter)s.%(ext)s&quot;</code>   </li>
+<li><code>-o &quot;%(title)s [%(resolution)s].%(ext)s </code>   加入分辨率<code>%(resolution)s</code></li>
+<li>按up主分类 <code>-o &quot;%(uploader)s/%(title)s.%(ext)s&quot; </code> yt-dlp支持创建不存在的路径。</li>
+</ul>
+<h2 id="print-测试"><a href="#print-测试" class="headerlink" title="print 测试"></a>print 测试</h2><p>支持的字段：<br><code>--print filename</code><br><code>--print chapters</code></p>
+<p><code>--list-subs</code> 查看资源支持的字幕格式</p>
+<ul>
+<li>会列出弹幕的语言和文件类型（lang + format）</li>
+<li>一般bi站就是damuku语言 xml格式 和 ai-zh srt字幕格式</li>
+</ul>
+<h2 id="bilibili场景"><a href="#bilibili场景" class="headerlink" title="bilibili场景"></a>bilibili场景</h2><p>音乐合集方案：<code>-f bestaudio/ba</code> <code>-o &quot;%(title)s.%(ext)s&quot;</code> <code>-P </code></p>
+<ul>
+<li><code>-f bestaudio -o &quot;%(title)s.%(ext)s -P ~/Music/xxx&quot; url</code><br>up主抄家方案：</li>
+</ul>
+<h3 id="下载一个收藏夹的所有歌曲-视频-—-一次成功！"><a href="#下载一个收藏夹的所有歌曲-视频-—-一次成功！" class="headerlink" title="下载一个收藏夹的所有歌曲&#x2F;视频 — 一次成功！"></a>下载一个收藏夹的所有歌曲&#x2F;视频 — 一次成功！</h3><p><code>.\yt-dlp.exe -P ~/Downloads -N 5 --yes-playlist -i -r 1M --no-overwrites -c --no-part https://www.bilibili.com/list/ml3097786028?oid=46656713&quot;&amp;&quot;bvid=BV1rb411n7wh</code></p>
+<p>list就是收藏夹，<a href="https://www.bilibili.com/list/ml3097786028?oid=46656713&bvid=BV1rb411n7wh">这</a>是我bi站“我喜欢听”收藏夹的第一首歌—哥哥的当年情。这个收藏夹下歌曲url的特点是list&#x2F;ml….?前缀一致，<code>oid=</code>的值不同。</p>
+<ul>
+<li>要注意，&amp;要用””框住。解析上的问题</li>
+<li>开了代理中途不要断。 即便开了Rule模式也有可能走了代理。</li>
+<li>yt-dlp很容易受网络环境影响。最好别断梯子或者网络，因为目前的版本不支持重新下载故障视频。</li>
+</ul>
+<h3 id="高级用法：下载高清视频"><a href="#高级用法：下载高清视频" class="headerlink" title="高级用法：下载高清视频"></a>高级用法：下载高清视频</h3><h2 id="yt-dlp并不会以你的账号下载视频，而是访客身份——无法下载较高清晰度的视频、甚至无法下载视频、subtitle。让yt-dlp使用cookies使用浏览器的cookies则可满足更高的要求-获取chrome等浏览器的cookies"><a href="#yt-dlp并不会以你的账号下载视频，而是访客身份——无法下载较高清晰度的视频、甚至无法下载视频、subtitle。让yt-dlp使用cookies使用浏览器的cookies则可满足更高的要求-获取chrome等浏览器的cookies" class="headerlink" title="yt-dlp并不会以你的账号下载视频，而是访客身份——无法下载较高清晰度的视频、甚至无法下载视频、subtitle。让yt-dlp使用cookies使用浏览器的cookies则可满足更高的要求~ &#x2F;&#x2F; 获取chrome等浏览器的cookies"></a>yt-dlp并不会以你的账号下载视频，而是访客身份——无法下载较高清晰度的视频、甚至无法下载视频、subtitle。让yt-dlp使用cookies使用浏览器的cookies则可满足更高的要求~ &#x2F;&#x2F; <a href="https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp">获取chrome等浏览器的cookies</a></h2><h3 id="弹幕-danmaku"><a href="#弹幕-danmaku" class="headerlink" title="弹幕　danmaku"></a>弹幕　danmaku</h3><blockquote>
+<p>damaku 在bi站和日本流行。ytb、netflix无。<br>subtitle 在影视界不指“副标题”。而是字幕的意思，更像caption（插画）的含义。 subtitle常见有youtube自动生成的字幕，up主手动上传的字幕，还有就是弹幕。 </p>
+</blockquote>
+<p>如果要下载subtitle文件：</p>
+<ul>
+<li><code>--write-subs</code><ul>
+<li><code>--sub-lang danmaku / en /zh</code></li>
+</ul>
+</li>
+<li><code>--convert-subs FORMAT</code> (FORMAT currently supported: ass, lrc, srt, vtt). <ul>
+<li>试了ass, vtt都不起作用，还是老老实实下默认的xml吧。可以用<a href="https://github.com/m13253/danmaku2ass">danmaku2ass</a>把xml转换成bilibili弹幕文件格式<code>.ass</code>，再用vlc读取。<br>如果要把弹幕合并到视频里：<code>--embed-subs</code>  &#x2F;&#x2F; <code>--write-subs</code>和<code>--embed-subs</code> 不建议同时用<br>下载自动生成的字幕:</li>
+</ul>
+</li>
+<li><code>--write-auto-subs</code>   <ul>
+<li><code>--sub-lang en/zh/</code> 指定字幕的语言, 适合下载ytb英文资源&#x2F;英文歌曲</li>
+</ul>
+</li>
+<li><code>--embed-subs</code> (only for mp4,webm and mkv videos)</li>
+</ul>
+<h3 id="视频封面："><a href="#视频封面：" class="headerlink" title="视频封面："></a>视频封面：</h3><ul>
+<li><code>--write-thumbnail</code> 会大度下载一个png&#x2F;webp图片文件下来</li>
+<li><code>--embed-thumbnail</code> 把封面嵌入到音频文件。 播放器能看到。 （看你选的资源咯，有些无聊的封面不要也罢</li>
+</ul>
+<h3 id="下载一个up主的全部视频"><a href="#下载一个up主的全部视频" class="headerlink" title="下载一个up主的全部视频"></a>下载一个up主的全部视频</h3><p>拿稚珲君举例吧。 进到个人主页，进到投稿。<code>https://space.bilibili.com/20259914/upload/video</code><br>测试：<code>yt-dlp -F url</code>刚好是44个视频。<br>完整命令： <code>yt-dlp -P ~\Video\xxx -o &quot;%(upload_time)s_(title)s.(ext)s&quot; --download-archive ~\Video\xxx\archive.txt  --playlist-start 6 --playlist-end 12 --embed-thumbnail url</code> </p>
+<h4 id="重要flags说明"><a href="#重要flags说明" class="headerlink" title="重要flags说明:"></a>重要flags说明:</h4><ul>
+<li><code>--download-archive FILE</code> e.g. <code>--download-archive zhj-achieve.txt</code> <ul>
+<li>存档文件里记录网站和id  例：<code>bilibili BV1ZA411e7Ff</code></li>
+<li>如果存档文件已经存在，则不会重复下载txt里的资源。</li>
+</ul>
+</li>
+<li><code>--playlist-start 1 --playlist-end 5</code> 是按照时间倒序来的。最新发布的视频是编号1.</li>
+<li><code>--reverse-playlist</code><br>推荐命名：</li>
+<li><code>%(upload_date)s_%(title)s.%(ext)s</code>  记录up主上传的时间</li>
+</ul>
+<h3 id="下载歌词"><a href="#下载歌词" class="headerlink" title="下载歌词"></a>下载歌词</h3><p>有些时候只想要音频文件，用一个简易的小窗口播放器看歌词</p>
+<p><code>-t mkv</code>或者&#96;&#96;–merge-output-format mkv &#96;<br>因为m4a文件只能封装音频，要用mkv文件封装音频和字幕文件（srt&#x2F;…）</p>
+<p><code>--sub-lang</code> 和 <code>--sub-format</code>指定你要下载的字母语言和格式。 （先用<code>--list-subs</code>看可以下载的字幕格式）<br><code>--embed-subs</code> 合并字幕到mkv文件里。</p>
+<hr>
+<h2 id="ytb场景"><a href="#ytb场景" class="headerlink" title="ytb场景"></a>ytb场景</h2><p>除了<code>-r 4M</code> <code>-i</code> 最常用的参数<br>建议带上<code>--proxy &quot;http://127.0.0.1:7897&quot;</code></p>
+<blockquote>
+<p>yt-dlp is downloading as a guest, so it can’t access those higher-quality formats.</p>
+<blockquote>
+<p>使用cookies，让yt-dlp伪装成我们的“registered user”身份。从而下载更高质量的视频</p>
+</blockquote>
+</blockquote>
+<ul>
+<li><code>--cookies-from-brower chrome</code>  一般够了<ul>
+<li><code>--cookies-from-browser BROWSER[+KEYRING][:PROFILE][::CONTAINER]</code><ul>
+<li><code>--cookies-from-browser chrome+gnomekeyring</code> Linux, MacOS有加密，不是明文cookie</li>
+<li><code>--cookies-from-browser firefox:default::work-container</code> </li>
+<li><code>--cookies-from-browser chrome:Profile 2 </code>很杂的设置了，Chrome,Firefox浏览器可以多重工作状态、用户身份。 看一眼就好</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="下载单个ytb视频"><a href="#下载单个ytb视频" class="headerlink" title="下载单个ytb视频"></a>下载单个ytb视频</h3><p> <code>-r 5M</code> <code>-i</code>参数即可<br> Optional: <code>--split-chapters</code> </p>
+<h3 id="下载ytb视频List"><a href="#下载ytb视频List" class="headerlink" title="下载ytb视频List"></a>下载ytb视频List</h3><p><code>-r 5M -i --yes-playlist</code></p>
+<h3 id="下载ytb直播"><a href="#下载ytb直播" class="headerlink" title="下载ytb直播"></a>下载ytb直播</h3><p><a href="https://www.youtube.com/watch?v=jfKfPfyJRdk">一直很喜欢一个lofi直播</a><br><code>--proxy &quot;http://127.0.0.1:7897&quot;</code> &#x2F;&#x2F;语法不同于bash. export http_proxy&#x3D;””<br><code>-r 5M</code> <code>-i</code><br><code>--hls-prefer-native</code> <strong>下载直播时</strong>应当用yt-dlp下载器而不是ffmpeg</p>
+<h1 id="TL-DR"><a href="#TL-DR" class="headerlink" title="TL-DR"></a>TL-DR</h1><p>yt-dlp对Windows支持挺友好的（主要是有Scoop），当然在WSL2、linux必然可以有一样的体验</p>
+<h2 id="音频格式-和-视频格式"><a href="#音频格式-和-视频格式" class="headerlink" title="音频格式 和 视频格式"></a>音频格式 和 视频格式</h2><p>因为网络环境不同，一个url往往对应很多种下载方案。<br>使用<code>yt-dlp -F &lt;url&gt; </code> 查看有哪些方案.</p>
+<ul>
+<li><code>-f best</code>需要会员</li>
+<li><code>yt-dlp -f audio_id+video_id &lt;url&gt;</code>  通用<ul>
+<li><code> .\yt-dlp.exe -o --print &quot;%(title)s.%(ext)s&quot; -f 30280+100050 https://www.bilibili.com/video/BV1YyZHYvE7c/</code></li>
+</ul>
+</li>
+</ul>
+<h4 id="gui版本"><a href="#gui版本" class="headerlink" title="gui版本"></a>gui版本</h4><p><a href="https://github.com/kannagi0303/yt-dlp-gui?tab=readme-ov-file">windows系统的yt-dlp前端gui</a><br>这是一位日本开发者设计的软件。我没用过，但是看readme感觉十分小白友好呢~<br>支持中文，可以方便的选择下载路径。<br>而且有很多高级选项：可以下载章节，设置音视频的格式</p>
+<h4 id="支持的网站"><a href="#支持的网站" class="headerlink" title="支持的网站"></a><a href="https://github.com/yt-dlp/yt-dlp/blob/master/supportedsites.md?plain=1">支持的网站</a></h4><p>网易云音乐&#x2F;优酷&#x2F;爱奇艺&#x2F;虎牙视频，一些直播、yellow网站</p>
+]]></content>
+      <categories>
+        <category>教程</category>
+        <category>整活</category>
+      </categories>
+      <tags>
+        <tag>音视频</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>保研时期的我</title>
     <url>/2025/03/20/%E4%BF%9D%E7%A0%94%E6%97%B6%E6%9C%9F%E7%9A%84%E6%88%91/</url>
     <content><![CDATA[<p>保研圈，不乏激烈的竞争。在这个圈子里，我看到了可敬的对手，看到了绿群里的大佬，也坚定了我的梦想。我的愿望是到名校和更好的老师、同学、师兄师姐们交流学习。我相信，只要保研到我的梦校浙大、进入到研究小组中，就一定能进步、学习更多的专业技能。以后就能做更多有价值的事情。<br>但最近，我变得有些紧张，我担心我的简历还不够好，算法题刷得还不够多，没有论文背景，“套磁“也没人肯收我。我一直在攀比，生怕把学习专业课而不是卷所谓的那些算法、论文是在浪费时间。<br>我还纠结自己适合什么专业，能读什么专业。是偏向研究底层的方向（计算机架构、分布式系统、网络）还是前沿的应用方向（软件开发、AI）。对各个行业都略懂一二的我对自己说，都行，哪个要我就去哪儿。但不管在哪个领域，我做的，一定是有挑战性的工作！<br>说回时间分配的事情，我不想太卷课外的那些技术。 专业知识一定是第一位的。先不说以后会不会读通信、计网这块的研究生；我从IoT出来的，别人问我一个通信相关的概念而我却毫无直觉，真觉得丢人——就这还读研。 所以说，如果以后有老师觉得我简历上的研究经历不如别人突出，请看看我的专业课成绩、对专业知识的理解。<br>本科培养出来的，就不应该是什么研究精英，而是一个通识了专业领域各个方面的，有知识的人。路还很长，研究生阶段，你不可能有这样泡馆、看专业书籍、一步步推演理论的时间。<br>对于保研竞争这一块，我相信船到桥头自然直，熬过这一段，你一定会在学习课外知识的时候更有感悟。我还坚信阿德勒心理学，一切都是目的驱动的。潇洒自如、倾听自己的内心吧，真到要你做重大选择的节骨眼上了，你也一定能适应的。</p>
@@ -460,6 +537,23 @@
       </categories>
       <tags>
         <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>我的A证</title>
+    <url>/2025/04/24/%E6%88%91%E7%9A%84A%E8%AF%81/</url>
+    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>记录笔者考A证的时间线。还有给新手的建议（不包括复习）<br>以下，中国无线电协会业余电台操作证书叫做操作证。 中国人民共和国无线电台执照叫做（无线）电台执照。</p>
+<h1 id="时间线"><a href="#时间线" class="headerlink" title="时间线"></a>时间线</h1><p>4.19 考试<br>4.24 上网查看，通过了。<br>5.12 拿到操作证。验机、填表、申请电台执照。<br>5.30.执照通过 (其实执照上的有效期是5.22起，北京无线电协会的通知会晚一点儿)<br>6.4 申请邮寄执照<br>6.6 收到啦！BD1BBU   </p>
+<h1 id="Q-A"><a href="#Q-A" class="headerlink" title="Q&amp;A"></a>Q&amp;A</h1><p>达到什么条件才可以“发射”？<br>有操作证，有电台执照。 很好理解，用电台就像开车。 首先，要有驾照（A操作证）。然后你的车要有车牌，就像你用的电台需要一个电台号、执照。就像交通系统的监管对象是路行驶的车而不是驾驶的人。摄像头先抓的是违规的车、再去扣驾驶员的分&#x2F;吊销他的执照。同样地，无线电管理系统也是监视违规的电台，其次再去惩罚操作员。</p>
+<h1 id="tips"><a href="#tips" class="headerlink" title="tips"></a>tips</h1><ul>
+<li>个人认为三天，每天准备4h就够了。</li>
+<li>看到当地无线电协会发的通知里没有自己的名字不要担心是自己没考过。可能那就不是你那波的考试情况。</li>
+<li>出了成绩就可以去验机啦！不要等到拿到操作证再去验机。<br>原因：早点验机，操作证和无线电台执照一起拿。<br>要区分A操作证、执照和其组织的关系。操作证是你当地的协会给你颁发的。而执照的合法单位是中国人民共和国工业和信息化部。前者需要通过考试，后者需要通过考试且拿符合标准的设备到当地无线电协会验机。<br>我傻傻以为操作证上就会有呼号。。结果后面看到一串长长的操作证ID就感觉不对劲。</li>
+</ul>
+]]></content>
+      <tags>
+        <tag>日记</tag>
+        <tag>HAM</tag>
       </tags>
   </entry>
   <entry>
@@ -512,19 +606,14 @@
       </tags>
   </entry>
   <entry>
-    <title>我的A证</title>
-    <url>/2025/04/24/%E6%88%91%E7%9A%84A%E8%AF%81/</url>
-    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>记录笔者考A证的时间线。还有给新手的建议（不包括复习）<br>以下，中国无线电协会业余电台操作证书叫做操作证。 中国人民共和国无线电台执照叫做（无线）电台执照。</p>
-<h1 id="时间线"><a href="#时间线" class="headerlink" title="时间线"></a>时间线</h1><p>4.19 考试<br>4.24 上网查看，通过了。<br>5.12 拿到操作证。验机、填表、申请电台执照。<br>5.xx 拿执照   </p>
-<h1 id="Q-A"><a href="#Q-A" class="headerlink" title="Q&amp;A"></a>Q&amp;A</h1><p>达到什么条件才可以“发射”？<br>有操作证，有电台执照。 很好理解，用电台就像开车。 首先，要有驾照（A操作证）。然后你的车要有车牌，就像你用的电台需要一个电台号、执照。就像交通系统的监管对象是路行驶的车而不是驾驶的人。摄像头先抓的是违规的车、再去扣驾驶员的分&#x2F;吊销他的执照。同样地，无线电管理系统也是监视违规的电台，其次再去惩罚操作员。</p>
-<h1 id="tips"><a href="#tips" class="headerlink" title="tips"></a>tips</h1><ul>
-<li>个人认为三天，每天准备4h就够了。</li>
-<li>看到当地无线电协会发的通知里没有自己的名字不要担心是自己没考过。可能那就不是你那波的考试情况。</li>
-<li>出了成绩就可以去验机啦！不要等到拿到操作证再去验机。<br>原因：早点验机，操作证和无线电台执照一起拿。<br>要区分A操作证、执照和其组织的关系。操作证是你当地的协会给你颁发的。而执照的合法单位是中国人民共和国工业和信息化部。前者需要通过考试，后者需要通过考试且拿符合标准的设备到当地无线电协会验机。<br>我傻傻以为操作证上就会有呼号。。结果后面看到一串长长的操作证ID就感觉不对劲。</li>
-</ul>
+    <title>手台入门教程</title>
+    <url>/2025/06/08/%E6%89%8B%E5%8F%B0%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/</url>
+    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>认识UVK6的按键：F键、菜单键<br>认识菜单的常用功能：存储信道；设置上、下行亚音；设置频差；Scan功能<br>实操：寻找中继台的高效办法，</p>
 ]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
       <tags>
-        <tag>日记</tag>
         <tag>HAM</tag>
       </tags>
   </entry>
@@ -546,28 +635,6 @@
       </categories>
       <tags>
         <tag>Clash Proxy Server</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>论持久战</title>
-    <url>/2025/03/21/%E8%AE%BA%E6%8C%81%E4%B9%85%E6%88%98/</url>
-    <content><![CDATA[<p>从午休后到晚上10点，我全身心投入在模拟通信系统的调制技术的学习中。这是一次伟大的学习过程，因为我学会了“持久”。 我喜欢学习，但我的学习方法不算高效，或者说，在此之前，我没有一个通用的“学习思维”。 我能学好某些知识，归功于我擅长找好的教材、课程，从优质资源中汲取知识。但这只是途径问题，找好的教材是学习的第一步，属于“捷径方法论”。而现在要讨论的是：利用资源和规划时间。因为这一块工作没有做好，会让你在一个领域的开始阶段举步维艰，被那些“懂学习”的人拉开差距。我反思，为什么我作为一个CS专业的学生，到大三了才进入程序设计的全盛、兴趣爆棚的学习状态。慢热，真的好吗？</p>
-<p>拿通信原理这门课来说。要了解通信系统的运作需要很多前置知识：信息论——通信工程里讨论的bit和CS里常说的bit可不是一个概念；还有对通信系统的建模，对信道简单建模。总之，这门课的“原始积累、老本”几乎是0。而学校的教材、课程对于入门小白来说是很难摸得着头脑的。看讲义、课件时，突然蹦出一个你从未见过的公式、符号是很令人头疼的。</p>
-<p>以前，我在学新东西的时候总希望眼前的一切在脑中make sense, 好像有了某般instinct就等同于学会了，可以接下去学了。而要是没有那道“电弧”、通透的感觉，就是没学会。这还不够，不懂学习方法的我还会发脾气：这教材真差劲，不学了！老师讲得真烂，简直就是天书、不听了！于是连续3~4词旷课，等火烧眉毛了再咬着牙学。还有一类情况是，遇到了以前的知识，比方说研究调制信号的spetrum时用到了一点傅里叶变换。一些死扣牛角尖的想法就是，“哎呀，上学期信号与系统里教的傅里叶变换又忘了、我肯定学不下去了，连基础都没有，干脆等几天再学吧，先复习复习傅里叶变换”。可实际上，并没有行动，因为这个想法太空了，复习哪些部分？傅里叶变换那么多性质，真要复习全，三天三夜差不多。有时，你只是脑子里蹦出了知识图谱的一个小标签，就恐吓自己、转移自己的视线。从阿德勒的目的论来看，一切都目的就是不想接触新概念，因为你知道培养自己形成新的概念离不开痛苦、离不开旧思想的碰撞，进而想通过给自己设障达到偷懒、逃避的目的。</p>
-<p>我相信，有不少人也是和我有类似毛病的。只不过我这块特别严重。</p>
-<p>说说我现在的状态。</p>
-<p>上新课听到不懂的不再深究。一方面，你是初学者，你不可能短时间体会这个符号从过去被科学家发明出来，因为什么英文含义被写成这样，你也不可能短时间从只言片语体会到这个公式的来历，你需要练习，研究电路，物理意义你需要看更多的书来联想到更多的知识。另一方面，你真的需要在这个时间点知道那么多吗？正确的做法是，短暂思考后标注问题，问问自己前后的东西能不能自洽，换句话说，书上有没有硬刷错误。对你没看错，我的意思就是，有没有数学上，或者和过去的印象是否匹配。你只需要验证，告诉自己：</p>
-<p>“这大概是对的——这一项加这一项系数没问题，合并同类项等基本运算正确，可能我不知道为什么这么算，但我先接着听。”</p>
-<p>“傅里叶变换我有些不熟悉了……哎不管了，先记着cos(t)转到频域上是两根棍，好像没啥毛病。具体什么含义、为什么做傅里叶变换……老师也没讲、他也不一定讲的清。那我继续看。”</p>
-<p>出现什么新符号、新推演就告诉自己“哦，这有个新符号啊，它叫做……虽然我不知道为什么叫这个抽象玩意儿。”“为什么在通信系统里，做完A operation，就做B。老师说这个方法的优点是……，那就是吧，管他呢”。</p>
-<p>和老师、书本过进度，揭开这个系统的面纱。总之，你要学会减轻自己的思维负担。遇到不懂的东西，立刻告诉自己：“问题不大，没啥大不了的。”难道不是吗？生活中，哪有那么多事儿?</p>
-<p>我相信，好的资料为你拓宽视野，给你一个很好的认知基础，知道学习的路线。很多时候，这足够支撑你“无痛、轻微疼痛”即可入门一个领域。而有些时候，问题稍微复杂了些，每一步都带来很多未知面。这个时候就换一个思维，不要硬刚而是缓下来，换成“持久、不内耗、果断清晰”的思维。我认为，这是一个高效学习者的能力。</p>
-]]></content>
-      <categories>
-        <category>生活感悟</category>
-      </categories>
-      <tags>
-        <tag>学习方法</tag>
       </tags>
   </entry>
   <entry>
@@ -613,6 +680,28 @@
       </categories>
       <tags>
         <tag>Web开发</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>论持久战</title>
+    <url>/2025/03/21/%E8%AE%BA%E6%8C%81%E4%B9%85%E6%88%98/</url>
+    <content><![CDATA[<p>从午休后到晚上10点，我全身心投入在模拟通信系统的调制技术的学习中。这是一次伟大的学习过程，因为我学会了“持久”。 我喜欢学习，但我的学习方法不算高效，或者说，在此之前，我没有一个通用的“学习思维”。 我能学好某些知识，归功于我擅长找好的教材、课程，从优质资源中汲取知识。但这只是途径问题，找好的教材是学习的第一步，属于“捷径方法论”。而现在要讨论的是：利用资源和规划时间。因为这一块工作没有做好，会让你在一个领域的开始阶段举步维艰，被那些“懂学习”的人拉开差距。我反思，为什么我作为一个CS专业的学生，到大三了才进入程序设计的全盛、兴趣爆棚的学习状态。慢热，真的好吗？</p>
+<p>拿通信原理这门课来说。要了解通信系统的运作需要很多前置知识：信息论——通信工程里讨论的bit和CS里常说的bit可不是一个概念；还有对通信系统的建模，对信道简单建模。总之，这门课的“原始积累、老本”几乎是0。而学校的教材、课程对于入门小白来说是很难摸得着头脑的。看讲义、课件时，突然蹦出一个你从未见过的公式、符号是很令人头疼的。</p>
+<p>以前，我在学新东西的时候总希望眼前的一切在脑中make sense, 好像有了某般instinct就等同于学会了，可以接下去学了。而要是没有那道“电弧”、通透的感觉，就是没学会。这还不够，不懂学习方法的我还会发脾气：这教材真差劲，不学了！老师讲得真烂，简直就是天书、不听了！于是连续3~4词旷课，等火烧眉毛了再咬着牙学。还有一类情况是，遇到了以前的知识，比方说研究调制信号的spetrum时用到了一点傅里叶变换。一些死扣牛角尖的想法就是，“哎呀，上学期信号与系统里教的傅里叶变换又忘了、我肯定学不下去了，连基础都没有，干脆等几天再学吧，先复习复习傅里叶变换”。可实际上，并没有行动，因为这个想法太空了，复习哪些部分？傅里叶变换那么多性质，真要复习全，三天三夜差不多。有时，你只是脑子里蹦出了知识图谱的一个小标签，就恐吓自己、转移自己的视线。从阿德勒的目的论来看，一切都目的就是不想接触新概念，因为你知道培养自己形成新的概念离不开痛苦、离不开旧思想的碰撞，进而想通过给自己设障达到偷懒、逃避的目的。</p>
+<p>我相信，有不少人也是和我有类似毛病的。只不过我这块特别严重。</p>
+<p>说说我现在的状态。</p>
+<p>上新课听到不懂的不再深究。一方面，你是初学者，你不可能短时间体会这个符号从过去被科学家发明出来，因为什么英文含义被写成这样，你也不可能短时间从只言片语体会到这个公式的来历，你需要练习，研究电路，物理意义你需要看更多的书来联想到更多的知识。另一方面，你真的需要在这个时间点知道那么多吗？正确的做法是，短暂思考后标注问题，问问自己前后的东西能不能自洽，换句话说，书上有没有硬刷错误。对你没看错，我的意思就是，有没有数学上，或者和过去的印象是否匹配。你只需要验证，告诉自己：</p>
+<p>“这大概是对的——这一项加这一项系数没问题，合并同类项等基本运算正确，可能我不知道为什么这么算，但我先接着听。”</p>
+<p>“傅里叶变换我有些不熟悉了……哎不管了，先记着cos(t)转到频域上是两根棍，好像没啥毛病。具体什么含义、为什么做傅里叶变换……老师也没讲、他也不一定讲的清。那我继续看。”</p>
+<p>出现什么新符号、新推演就告诉自己“哦，这有个新符号啊，它叫做……虽然我不知道为什么叫这个抽象玩意儿。”“为什么在通信系统里，做完A operation，就做B。老师说这个方法的优点是……，那就是吧，管他呢”。</p>
+<p>和老师、书本过进度，揭开这个系统的面纱。总之，你要学会减轻自己的思维负担。遇到不懂的东西，立刻告诉自己：“问题不大，没啥大不了的。”难道不是吗？生活中，哪有那么多事儿?</p>
+<p>我相信，好的资料为你拓宽视野，给你一个很好的认知基础，知道学习的路线。很多时候，这足够支撑你“无痛、轻微疼痛”即可入门一个领域。而有些时候，问题稍微复杂了些，每一步都带来很多未知面。这个时候就换一个思维，不要硬刚而是缓下来，换成“持久、不内耗、果断清晰”的思维。我认为，这是一个高效学习者的能力。</p>
+]]></content>
+      <categories>
+        <category>生活感悟</category>
+      </categories>
+      <tags>
+        <tag>学习方法</tag>
       </tags>
   </entry>
   <entry>

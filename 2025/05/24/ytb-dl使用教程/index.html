@@ -108,15 +108,15 @@
 
 
 
-<meta name="description" content="前言 不是给纯小白科普的。如果你不知道github，yt-dlp，可以不看。 废话不多，更像是一个脚本小子的资料库yt-dlp [选项] – URL [URL]  My Setup win11 直接下载了yt-dlp.exe 开了代理（不开也可以） FFmpeg installed  使用场景常用参数总结  -P：指定下载路径。例如：-P ~&#x2F;Downloads 将视频下载到 ~&amp;#x2">
+<meta name="description" content="前言 不是给纯小白科普的。如果你不知道github，yt-dlp，可以不看。 废话不多，更像是一个脚本小子的资料库yt-dlp [选项] – URL [URL]  My Setup win11 直接下载了yt-dlp.exe 开了代理（不开也可以） FFmpeg installed  使用场景常用参数总结  好习惯:在任何下载命令前，先用-F -v看看什么情况。   下载路径管理和文件命名  -P">
 <meta property="og:type" content="article">
 <meta property="og:title" content="ytb-dl使用教程">
 <meta property="og:url" content="https://optimushimself.github.io/2025/05/24/ytb-dl%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/index.html">
 <meta property="og:site_name" content="Tyrone Opting&#39;s Blog">
-<meta property="og:description" content="前言 不是给纯小白科普的。如果你不知道github，yt-dlp，可以不看。 废话不多，更像是一个脚本小子的资料库yt-dlp [选项] – URL [URL]  My Setup win11 直接下载了yt-dlp.exe 开了代理（不开也可以） FFmpeg installed  使用场景常用参数总结  -P：指定下载路径。例如：-P ~&#x2F;Downloads 将视频下载到 ~&amp;#x2">
+<meta property="og:description" content="前言 不是给纯小白科普的。如果你不知道github，yt-dlp，可以不看。 废话不多，更像是一个脚本小子的资料库yt-dlp [选项] – URL [URL]  My Setup win11 直接下载了yt-dlp.exe 开了代理（不开也可以） FFmpeg installed  使用场景常用参数总结  好习惯:在任何下载命令前，先用-F -v看看什么情况。   下载路径管理和文件命名  -P">
 <meta property="og:locale">
 <meta property="article:published_time" content="2025-05-24T14:41:07.000Z">
-<meta property="article:modified_time" content="2025-05-25T16:28:37.529Z">
+<meta property="article:modified_time" content="2025-06-07T05:39:48.842Z">
 <meta property="article:author" content="Tyrone Opting">
 <meta property="article:tag" content="音视频">
 <meta name="twitter:card" content="summary">
@@ -421,7 +421,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  5.5k
+                  9.7k
                 </span>
               
 
@@ -437,7 +437,7 @@
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
                 <span title="阅读时长">
-                  20 mins.
+                  35 mins.
                 </span>
               
             </div>
@@ -468,29 +468,46 @@
 <li>FFmpeg installed</li>
 </ul>
 <h1 id="使用场景"><a href="#使用场景" class="headerlink" title="使用场景"></a>使用场景</h1><p>常用<a target="_blank" rel="noopener" href="https://github.com/yt-dlp/yt-dlp/blob/master/README.md">参数</a>总结</p>
+<blockquote>
+<p>好习惯:在任何下载命令前，先用<code>-F -v</code>看看什么情况。</p>
+</blockquote>
 <ul>
-<li><code>-P</code>：指定下载路径。例如：-P ~&#x2F;Downloads 将视频下载到 ~&#x2F;Downloads 目录。</li>
-<li><code>-N</code>：限制同时下载的视频数量。例如：-N 5 同时下载最多 5 个视频。</li>
-<li><code>--yes-playlist</code>：强制下载整个列表，即使 URL 可能指向单个视频（默认行为）。</li>
-<li><code>-i</code>：忽略下载和后处理错误，确保即使某个视频下载失败，其他视频也能继续下载。</li>
-<li><code>-r</code> &#x2F; <code>--limit-rate</code> 调整下载速度。例如：-r 4.2M 限制下载速度为 4.2MB&#x2F;s。</li>
-<li><strong>ffmpeg require</strong></li>
-<li><ul>
-<li><code>--extract-audio</code> 只要音频; 不传值</li>
+<li><p>下载路径管理和文件命名</p>
+<ul>
+<li><code>-P</code> ：指定下载路径。例如：-P ~&#x2F;Downloads 将视频下载到 ~&#x2F;Downloads 目录。</li>
+<li><code>-o</code> : 文件名模板</li>
 </ul>
 </li>
-<li><ul>
+<li><p>下载速度</p>
+<ul>
+<li><code>-N</code> &#x2F; <code>--concurrent-fragments</code>  (default is 1) </li>
+<li><code>-i</code>：忽略下载和后处理错误，确保即使某个视频下载失败，其他视频也能继续下载。</li>
+<li><code>-r</code> &#x2F; <code>--limit-rate</code> 调整下载速度。例如：-r 4.2M 限制下载速度为 4.2MB&#x2F;s。</li>
+</ul>
+</li>
+<li><p>下歌曲（薅羊毛）</p>
+<ul>
+<li><code>--yes-playlist</code>：强制下载整个列表，即使 URL 可能指向单个视频（默认行为）。</li>
+<li><code>--extract-audio</code> 只要音频; 不传值</li>
 <li><code>--split-chapters</code></li>
 </ul>
 </li>
+<li><p>下载电影配字幕</p>
+<ul>
+<li><code>--write-subs</code> </li>
+<li><code>--list-subs</code></li>
 </ul>
-<blockquote>
+</li>
+<li><blockquote>
 <p>p.s. 如果没有ffmpeg,会下载.m4a,.mp4两种文件,其中Mp4没有声音. windows用scoop install ffmpeg 命令安装ffmpeg</p>
 </blockquote>
-<ul>
-<li><code>yt-dlp -U</code> 更新yt-dlp </li>
-<li><code>--audio-quality 3</code> 常设置为0,表示最高音频质量,不压缩. 0 -&gt; 9 音质逐渐下降</li>
-<li>Set Proxy</li>
+</li>
+<li><p><code>yt-dlp -U</code> 更新yt-dlp </p>
+</li>
+<li><p><code>--audio-quality 3</code> 常设置为0,表示最高音频质量,不压缩. 0 -&gt; 9 音质逐渐下降</p>
+</li>
+<li><p>Set Proxy</p>
+</li>
 <li><ul>
 <li><code>--proxy &quot;&quot;</code>  空字符串 -&gt; Direct Mode（直连，不走代理）</li>
 </ul>
@@ -499,22 +516,75 @@
 <li><code> --proxy &quot;socks5://127.0.0.1:7897&quot;</code> 走代理下载</li>
 </ul>
 </li>
-<li>视频太长，只下载某一段：</li>
-<li><ul>
-<li></li>
-</ul>
+<li><p>截取 —— 视频太长，只下载某一段：</p>
 </li>
 </ul>
-<h2 id="bilibili"><a href="#bilibili" class="headerlink" title="bilibili"></a>bilibili</h2><h3 id="下载一个收藏夹的所有歌曲-视频-—-一次成功！"><a href="#下载一个收藏夹的所有歌曲-视频-—-一次成功！" class="headerlink" title="下载一个收藏夹的所有歌曲&#x2F;视频 — 一次成功！"></a>下载一个收藏夹的所有歌曲&#x2F;视频 — 一次成功！</h3><p><code>.\yt-dlp.exe -P ~/Downloads -N 5 --yes-playlist -i -r 1M --no-overwrites -c --no-part https://www.bilibili.com/list/ml3097786028?oid=46656713&quot;&amp;&quot;bvid=BV1rb411n7wh</code></p>
+<h2 id="常用输出文件名模板"><a href="#常用输出文件名模板" class="headerlink" title="常用输出文件名模板"></a>常用输出文件名模板</h2><ul>
+<li>原文1270行左右：# OUTPUT TEMPLATE<br>默认值会把视频id也放过来 -&gt; 输出文件名又臭又长。有些视频的title为了吸引流量也有很多无效信息。</li>
+</ul>
+<p>输出模板有很多参数(field)供选择</p>
+<ul>
+<li><code>-o &quot;%(title)s.%(ext)&quot;</code>  简洁。 不要带<code>%(id)</code></li>
+<li><code>--split-chapters -o &quot;%(title)s - %(chapter)s.%(ext)s&quot;</code>   </li>
+<li><code>-o &quot;%(title)s [%(resolution)s].%(ext)s </code>   加入分辨率<code>%(resolution)s</code></li>
+<li>按up主分类 <code>-o &quot;%(uploader)s/%(title)s.%(ext)s&quot; </code> yt-dlp支持创建不存在的路径。</li>
+</ul>
+<h2 id="print-测试"><a href="#print-测试" class="headerlink" title="print 测试"></a>print 测试</h2><p>支持的字段：<br><code>--print filename</code><br><code>--print chapters</code></p>
+<p><code>--list-subs</code> 查看资源支持的字幕格式</p>
+<ul>
+<li>会列出弹幕的语言和文件类型（lang + format）</li>
+<li>一般bi站就是damuku语言 xml格式 和 ai-zh srt字幕格式</li>
+</ul>
+<h2 id="bilibili场景"><a href="#bilibili场景" class="headerlink" title="bilibili场景"></a>bilibili场景</h2><p>音乐合集方案：<code>-f bestaudio/ba</code> <code>-o &quot;%(title)s.%(ext)s&quot;</code> <code>-P </code></p>
+<ul>
+<li><code>-f bestaudio -o &quot;%(title)s.%(ext)s -P ~/Music/xxx&quot; url</code><br>up主抄家方案：</li>
+</ul>
+<h3 id="下载一个收藏夹的所有歌曲-视频-—-一次成功！"><a href="#下载一个收藏夹的所有歌曲-视频-—-一次成功！" class="headerlink" title="下载一个收藏夹的所有歌曲&#x2F;视频 — 一次成功！"></a>下载一个收藏夹的所有歌曲&#x2F;视频 — 一次成功！</h3><p><code>.\yt-dlp.exe -P ~/Downloads -N 5 --yes-playlist -i -r 1M --no-overwrites -c --no-part https://www.bilibili.com/list/ml3097786028?oid=46656713&quot;&amp;&quot;bvid=BV1rb411n7wh</code></p>
 <p>list就是收藏夹，<a target="_blank" rel="noopener" href="https://www.bilibili.com/list/ml3097786028?oid=46656713&bvid=BV1rb411n7wh">这</a>是我bi站“我喜欢听”收藏夹的第一首歌—哥哥的当年情。这个收藏夹下歌曲url的特点是list&#x2F;ml….?前缀一致，<code>oid=</code>的值不同。</p>
 <ul>
 <li>要注意，&amp;要用””框住。解析上的问题</li>
 <li>开了代理中途不要断。 即便开了Rule模式也有可能走了代理。</li>
 <li>yt-dlp很容易受网络环境影响。最好别断梯子或者网络，因为目前的版本不支持重新下载故障视频。</li>
 </ul>
-<h3 id="高级用法：下载高清视频"><a href="#高级用法：下载高清视频" class="headerlink" title="高级用法：下载高清视频"></a>高级用法：下载高清视频</h3><p>Format(s) 4K 超高清, 1080P 高码率 are missing; you have to become a premium member to download them. Use –cookies-from-browser or –cookies for the authentication.<br>See  <a target="_blank" rel="noopener" href="https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp">https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp</a>  for how to manually pass cookies</p>
-<h3 id="下载Bi站所有的视频？（我想薅家庭宽带-酒店网络！"><a href="#下载Bi站所有的视频？（我想薅家庭宽带-酒店网络！" class="headerlink" title="下载Bi站所有的视频？（我想薅家庭宽带&#x2F;酒店网络！"></a>下载Bi站所有的视频？（我想薅家庭宽带&#x2F;酒店网络！</h3><p> TODO</p>
-<h3 id="能否下载高清会员电影？"><a href="#能否下载高清会员电影？" class="headerlink" title="能否下载高清会员电影？"></a>能否下载高清会员电影？</h3><h2 id="不可以"><a href="#不可以" class="headerlink" title=" 不可以"></a> 不可以</h2><h2 id="ytb场景"><a href="#ytb场景" class="headerlink" title="ytb场景"></a>ytb场景</h2><p>除了<code>-r 4M</code> <code>-i</code> 最常用的参数<br>建议带上<code>--proxy &quot;http://127.0.0.1:7897&quot;</code></p>
+<h3 id="高级用法：下载高清视频"><a href="#高级用法：下载高清视频" class="headerlink" title="高级用法：下载高清视频"></a>高级用法：下载高清视频</h3><h2 id="yt-dlp并不会以你的账号下载视频，而是访客身份——无法下载较高清晰度的视频、甚至无法下载视频、subtitle。让yt-dlp使用cookies使用浏览器的cookies则可满足更高的要求-获取chrome等浏览器的cookies"><a href="#yt-dlp并不会以你的账号下载视频，而是访客身份——无法下载较高清晰度的视频、甚至无法下载视频、subtitle。让yt-dlp使用cookies使用浏览器的cookies则可满足更高的要求-获取chrome等浏览器的cookies" class="headerlink" title="yt-dlp并不会以你的账号下载视频，而是访客身份——无法下载较高清晰度的视频、甚至无法下载视频、subtitle。让yt-dlp使用cookies使用浏览器的cookies则可满足更高的要求~ &#x2F;&#x2F; 获取chrome等浏览器的cookies"></a>yt-dlp并不会以你的账号下载视频，而是访客身份——无法下载较高清晰度的视频、甚至无法下载视频、subtitle。让yt-dlp使用cookies使用浏览器的cookies则可满足更高的要求~ &#x2F;&#x2F; <a target="_blank" rel="noopener" href="https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp">获取chrome等浏览器的cookies</a></h2><h3 id="弹幕-danmaku"><a href="#弹幕-danmaku" class="headerlink" title="弹幕　danmaku"></a>弹幕　danmaku</h3><blockquote>
+<p>damaku 在bi站和日本流行。ytb、netflix无。<br>subtitle 在影视界不指“副标题”。而是字幕的意思，更像caption（插画）的含义。 subtitle常见有youtube自动生成的字幕，up主手动上传的字幕，还有就是弹幕。 </p>
+</blockquote>
+<p>如果要下载subtitle文件：</p>
+<ul>
+<li><code>--write-subs</code><ul>
+<li><code>--sub-lang danmaku / en /zh</code></li>
+</ul>
+</li>
+<li><code>--convert-subs FORMAT</code> (FORMAT currently supported: ass, lrc, srt, vtt). <ul>
+<li>试了ass, vtt都不起作用，还是老老实实下默认的xml吧。可以用<a target="_blank" rel="noopener" href="https://github.com/m13253/danmaku2ass">danmaku2ass</a>把xml转换成bilibili弹幕文件格式<code>.ass</code>，再用vlc读取。<br>如果要把弹幕合并到视频里：<code>--embed-subs</code>  &#x2F;&#x2F; <code>--write-subs</code>和<code>--embed-subs</code> 不建议同时用<br>下载自动生成的字幕:</li>
+</ul>
+</li>
+<li><code>--write-auto-subs</code>   <ul>
+<li><code>--sub-lang en/zh/</code> 指定字幕的语言, 适合下载ytb英文资源&#x2F;英文歌曲</li>
+</ul>
+</li>
+<li><code>--embed-subs</code> (only for mp4,webm and mkv videos)</li>
+</ul>
+<h3 id="视频封面："><a href="#视频封面：" class="headerlink" title="视频封面："></a>视频封面：</h3><ul>
+<li><code>--write-thumbnail</code> 会大度下载一个png&#x2F;webp图片文件下来</li>
+<li><code>--embed-thumbnail</code> 把封面嵌入到音频文件。 播放器能看到。 （看你选的资源咯，有些无聊的封面不要也罢</li>
+</ul>
+<h3 id="下载一个up主的全部视频"><a href="#下载一个up主的全部视频" class="headerlink" title="下载一个up主的全部视频"></a>下载一个up主的全部视频</h3><p>拿稚珲君举例吧。 进到个人主页，进到投稿。<code>https://space.bilibili.com/20259914/upload/video</code><br>测试：<code>yt-dlp -F url</code>刚好是44个视频。<br>完整命令： <code>yt-dlp -P ~\Video\xxx -o &quot;%(upload_time)s_(title)s.(ext)s&quot; --download-archive ~\Video\xxx\archive.txt  --playlist-start 6 --playlist-end 12 --embed-thumbnail url</code> </p>
+<h4 id="重要flags说明"><a href="#重要flags说明" class="headerlink" title="重要flags说明:"></a>重要flags说明:</h4><ul>
+<li><code>--download-archive FILE</code> e.g. <code>--download-archive zhj-achieve.txt</code> <ul>
+<li>存档文件里记录网站和id  例：<code>bilibili BV1ZA411e7Ff</code></li>
+<li>如果存档文件已经存在，则不会重复下载txt里的资源。</li>
+</ul>
+</li>
+<li><code>--playlist-start 1 --playlist-end 5</code> 是按照时间倒序来的。最新发布的视频是编号1.</li>
+<li><code>--reverse-playlist</code><br>推荐命名：</li>
+<li><code>%(upload_date)s_%(title)s.%(ext)s</code>  记录up主上传的时间</li>
+</ul>
+<h3 id="下载歌词"><a href="#下载歌词" class="headerlink" title="下载歌词"></a>下载歌词</h3><p>有些时候只想要音频文件，用一个简易的小窗口播放器看歌词</p>
+<p><code>-t mkv</code>或者&#96;&#96;–merge-output-format mkv &#96;<br>因为m4a文件只能封装音频，要用mkv文件封装音频和字幕文件（srt&#x2F;…）</p>
+<p><code>--sub-lang</code> 和 <code>--sub-format</code>指定你要下载的字母语言和格式。 （先用<code>--list-subs</code>看可以下载的字幕格式）<br><code>--embed-subs</code> 合并字幕到mkv文件里。</p>
+<hr>
+<h2 id="ytb场景"><a href="#ytb场景" class="headerlink" title="ytb场景"></a>ytb场景</h2><p>除了<code>-r 4M</code> <code>-i</code> 最常用的参数<br>建议带上<code>--proxy &quot;http://127.0.0.1:7897&quot;</code></p>
 <blockquote>
 <p>yt-dlp is downloading as a guest, so it can’t access those higher-quality formats.</p>
 <blockquote>
@@ -522,27 +592,10 @@
 </blockquote>
 </blockquote>
 <ul>
-<li><code>--cookies-from-brower chrome</code>  一般够了</li>
-<li><ul>
-<li><code>--cookies-from-browser BROWSER[+KEYRING][:PROFILE][::CONTAINER]</code></li>
-</ul>
-</li>
-<li><ul>
-<li><ul>
+<li><code>--cookies-from-brower chrome</code>  一般够了<ul>
+<li><code>--cookies-from-browser BROWSER[+KEYRING][:PROFILE][::CONTAINER]</code><ul>
 <li><code>--cookies-from-browser chrome+gnomekeyring</code> Linux, MacOS有加密，不是明文cookie</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><ul>
-<li><ul>
-<li><code>--cookies-from-browser firefox:default::work-container</code></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><ul>
-<li><ul>
+<li><code>--cookies-from-browser firefox:default::work-container</code> </li>
 <li><code>--cookies-from-browser chrome:Profile 2 </code>很杂的设置了，Chrome,Firefox浏览器可以多重工作状态、用户身份。 看一眼就好</li>
 </ul>
 </li>
@@ -553,6 +606,14 @@
 <h3 id="下载ytb视频List"><a href="#下载ytb视频List" class="headerlink" title="下载ytb视频List"></a>下载ytb视频List</h3><p><code>-r 5M -i --yes-playlist</code></p>
 <h3 id="下载ytb直播"><a href="#下载ytb直播" class="headerlink" title="下载ytb直播"></a>下载ytb直播</h3><p><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=jfKfPfyJRdk">一直很喜欢一个lofi直播</a><br><code>--proxy &quot;http://127.0.0.1:7897&quot;</code> &#x2F;&#x2F;语法不同于bash. export http_proxy&#x3D;””<br><code>-r 5M</code> <code>-i</code><br><code>--hls-prefer-native</code> <strong>下载直播时</strong>应当用yt-dlp下载器而不是ffmpeg</p>
 <h1 id="TL-DR"><a href="#TL-DR" class="headerlink" title="TL-DR"></a>TL-DR</h1><p>yt-dlp对Windows支持挺友好的（主要是有Scoop），当然在WSL2、linux必然可以有一样的体验</p>
+<h2 id="音频格式-和-视频格式"><a href="#音频格式-和-视频格式" class="headerlink" title="音频格式 和 视频格式"></a>音频格式 和 视频格式</h2><p>因为网络环境不同，一个url往往对应很多种下载方案。<br>使用<code>yt-dlp -F &lt;url&gt; </code> 查看有哪些方案.</p>
+<ul>
+<li><code>-f best</code>需要会员</li>
+<li><code>yt-dlp -f audio_id+video_id &lt;url&gt;</code>  通用<ul>
+<li><code> .\yt-dlp.exe -o --print &quot;%(title)s.%(ext)s&quot; -f 30280+100050 https://www.bilibili.com/video/BV1YyZHYvE7c/</code></li>
+</ul>
+</li>
+</ul>
 <h4 id="gui版本"><a href="#gui版本" class="headerlink" title="gui版本"></a>gui版本</h4><p><a target="_blank" rel="noopener" href="https://github.com/kannagi0303/yt-dlp-gui?tab=readme-ov-file">windows系统的yt-dlp前端gui</a><br>这是一位日本开发者设计的软件。我没用过，但是看readme感觉十分小白友好呢~<br>支持中文，可以方便的选择下载路径。<br>而且有很多高级选项：可以下载章节，设置音视频的格式</p>
 <h4 id="支持的网站"><a href="#支持的网站" class="headerlink" title="支持的网站"></a><a target="_blank" rel="noopener" href="https://github.com/yt-dlp/yt-dlp/blob/master/supportedsites.md?plain=1">支持的网站</a></h4><p>网易云音乐&#x2F;优酷&#x2F;爱奇艺&#x2F;虎牙视频，一些直播、yellow网站</p>
 
@@ -594,6 +655,10 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2025/06/08/WindowsLinux%E5%8C%96/" rel="prev" title="WindowsLinux化">
+                WindowsLinux化 <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -674,7 +739,7 @@
               
                 <a href="/archives/%7C%7C%20archive">
               
-                  <span class="site-state-item-count">19</span>
+                  <span class="site-state-item-count">21</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -696,7 +761,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">17</span>
+                  <span class="site-state-item-count">18</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -729,7 +794,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%89%8D%E8%A8%80"><span class="nav-text">前言</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#My-Setup"><span class="nav-text">My Setup</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%BD%BF%E7%94%A8%E5%9C%BA%E6%99%AF"><span class="nav-text">使用场景</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#bilibili"><span class="nav-text">bilibili</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%8B%E8%BD%BD%E4%B8%80%E4%B8%AA%E6%94%B6%E8%97%8F%E5%A4%B9%E7%9A%84%E6%89%80%E6%9C%89%E6%AD%8C%E6%9B%B2-%E8%A7%86%E9%A2%91-%E2%80%94-%E4%B8%80%E6%AC%A1%E6%88%90%E5%8A%9F%EF%BC%81"><span class="nav-text">下载一个收藏夹的所有歌曲&#x2F;视频 — 一次成功！</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%AB%98%E7%BA%A7%E7%94%A8%E6%B3%95%EF%BC%9A%E4%B8%8B%E8%BD%BD%E9%AB%98%E6%B8%85%E8%A7%86%E9%A2%91"><span class="nav-text">高级用法：下载高清视频</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%8B%E8%BD%BDBi%E7%AB%99%E6%89%80%E6%9C%89%E7%9A%84%E8%A7%86%E9%A2%91%EF%BC%9F%EF%BC%88%E6%88%91%E6%83%B3%E8%96%85%E5%AE%B6%E5%BA%AD%E5%AE%BD%E5%B8%A6-%E9%85%92%E5%BA%97%E7%BD%91%E7%BB%9C%EF%BC%81"><span class="nav-text">下载Bi站所有的视频？（我想薅家庭宽带&#x2F;酒店网络！</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%83%BD%E5%90%A6%E4%B8%8B%E8%BD%BD%E9%AB%98%E6%B8%85%E4%BC%9A%E5%91%98%E7%94%B5%E5%BD%B1%EF%BC%9F"><span class="nav-text">能否下载高清会员电影？</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%8D%E5%8F%AF%E4%BB%A5"><span class="nav-text"> 不可以</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#ytb%E5%9C%BA%E6%99%AF"><span class="nav-text">ytb场景</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%8B%E8%BD%BD%E5%8D%95%E4%B8%AAytb%E8%A7%86%E9%A2%91"><span class="nav-text">下载单个ytb视频</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%8B%E8%BD%BDytb%E8%A7%86%E9%A2%91List"><span class="nav-text">下载ytb视频List</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%8B%E8%BD%BDytb%E7%9B%B4%E6%92%AD"><span class="nav-text">下载ytb直播</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#TL-DR"><span class="nav-text">TL-DR</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#gui%E7%89%88%E6%9C%AC"><span class="nav-text">gui版本</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%94%AF%E6%8C%81%E7%9A%84%E7%BD%91%E7%AB%99"><span class="nav-text">支持的网站</span></a></li></ol></li></ol></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%89%8D%E8%A8%80"><span class="nav-text">前言</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#My-Setup"><span class="nav-text">My Setup</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%BD%BF%E7%94%A8%E5%9C%BA%E6%99%AF"><span class="nav-text">使用场景</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%B8%B8%E7%94%A8%E8%BE%93%E5%87%BA%E6%96%87%E4%BB%B6%E5%90%8D%E6%A8%A1%E6%9D%BF"><span class="nav-text">常用输出文件名模板</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#print-%E6%B5%8B%E8%AF%95"><span class="nav-text">print 测试</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#bilibili%E5%9C%BA%E6%99%AF"><span class="nav-text">bilibili场景</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%8B%E8%BD%BD%E4%B8%80%E4%B8%AA%E6%94%B6%E8%97%8F%E5%A4%B9%E7%9A%84%E6%89%80%E6%9C%89%E6%AD%8C%E6%9B%B2-%E8%A7%86%E9%A2%91-%E2%80%94-%E4%B8%80%E6%AC%A1%E6%88%90%E5%8A%9F%EF%BC%81"><span class="nav-text">下载一个收藏夹的所有歌曲&#x2F;视频 — 一次成功！</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%AB%98%E7%BA%A7%E7%94%A8%E6%B3%95%EF%BC%9A%E4%B8%8B%E8%BD%BD%E9%AB%98%E6%B8%85%E8%A7%86%E9%A2%91"><span class="nav-text">高级用法：下载高清视频</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#yt-dlp%E5%B9%B6%E4%B8%8D%E4%BC%9A%E4%BB%A5%E4%BD%A0%E7%9A%84%E8%B4%A6%E5%8F%B7%E4%B8%8B%E8%BD%BD%E8%A7%86%E9%A2%91%EF%BC%8C%E8%80%8C%E6%98%AF%E8%AE%BF%E5%AE%A2%E8%BA%AB%E4%BB%BD%E2%80%94%E2%80%94%E6%97%A0%E6%B3%95%E4%B8%8B%E8%BD%BD%E8%BE%83%E9%AB%98%E6%B8%85%E6%99%B0%E5%BA%A6%E7%9A%84%E8%A7%86%E9%A2%91%E3%80%81%E7%94%9A%E8%87%B3%E6%97%A0%E6%B3%95%E4%B8%8B%E8%BD%BD%E8%A7%86%E9%A2%91%E3%80%81subtitle%E3%80%82%E8%AE%A9yt-dlp%E4%BD%BF%E7%94%A8cookies%E4%BD%BF%E7%94%A8%E6%B5%8F%E8%A7%88%E5%99%A8%E7%9A%84cookies%E5%88%99%E5%8F%AF%E6%BB%A1%E8%B6%B3%E6%9B%B4%E9%AB%98%E7%9A%84%E8%A6%81%E6%B1%82-%E8%8E%B7%E5%8F%96chrome%E7%AD%89%E6%B5%8F%E8%A7%88%E5%99%A8%E7%9A%84cookies"><span class="nav-text">yt-dlp并不会以你的账号下载视频，而是访客身份——无法下载较高清晰度的视频、甚至无法下载视频、subtitle。让yt-dlp使用cookies使用浏览器的cookies则可满足更高的要求~ &#x2F;&#x2F; 获取chrome等浏览器的cookies</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BC%B9%E5%B9%95-danmaku"><span class="nav-text">弹幕　danmaku</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%A7%86%E9%A2%91%E5%B0%81%E9%9D%A2%EF%BC%9A"><span class="nav-text">视频封面：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%8B%E8%BD%BD%E4%B8%80%E4%B8%AAup%E4%B8%BB%E7%9A%84%E5%85%A8%E9%83%A8%E8%A7%86%E9%A2%91"><span class="nav-text">下载一个up主的全部视频</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%87%8D%E8%A6%81flags%E8%AF%B4%E6%98%8E"><span class="nav-text">重要flags说明:</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%8B%E8%BD%BD%E6%AD%8C%E8%AF%8D"><span class="nav-text">下载歌词</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#ytb%E5%9C%BA%E6%99%AF"><span class="nav-text">ytb场景</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%8B%E8%BD%BD%E5%8D%95%E4%B8%AAytb%E8%A7%86%E9%A2%91"><span class="nav-text">下载单个ytb视频</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%8B%E8%BD%BDytb%E8%A7%86%E9%A2%91List"><span class="nav-text">下载ytb视频List</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%8B%E8%BD%BDytb%E7%9B%B4%E6%92%AD"><span class="nav-text">下载ytb直播</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#TL-DR"><span class="nav-text">TL-DR</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%9F%B3%E9%A2%91%E6%A0%BC%E5%BC%8F-%E5%92%8C-%E8%A7%86%E9%A2%91%E6%A0%BC%E5%BC%8F"><span class="nav-text">音频格式 和 视频格式</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#gui%E7%89%88%E6%9C%AC"><span class="nav-text">gui版本</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%94%AF%E6%8C%81%E7%9A%84%E7%BD%91%E7%AB%99"><span class="nav-text">支持的网站</span></a></li></ol></li></ol></li></ol></li></ol></div>
             
 
           </div>
