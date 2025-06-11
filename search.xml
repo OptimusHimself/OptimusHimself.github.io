@@ -13,40 +13,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Cpp Journey</title>
-    <url>/2025/04/23/Cpp-Journey/</url>
-    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>本文属于我的“学习路线”系列文章。 介绍了自认为成功且有一定效率的学习方法。 本文会介绍笔者的入门C++的过程（学习时长&amp;成果），推荐一套可靠的方法，分享有用的资源。本文还总结了学习C++容易遇到的问题</p>
-<h1 id="推荐路线，前置基础"><a href="#推荐路线，前置基础" class="headerlink" title="推荐路线，前置基础"></a>推荐路线，前置基础</h1><h1 id="容易遇到的问题-解决"><a href="#容易遇到的问题-解决" class="headerlink" title="容易遇到的问题 &amp; 解决"></a>容易遇到的问题 &amp; 解决</h1><ul>
-<li>搞不清编译器、工具链等概念。听到<code>MSVC</code> <code>Clang</code> <code>Clang++</code> <code>G++</code> <code>GCC</code> <code>MinGW</code>等词汇就一头包，畏畏缩缩。担心自己搞不定</li>
-<li>不知道在哪运行、不会创建文件夹。不懂底层的规则。</li>
-<li>平台&amp;工具： Windows + Visual Studio + 一个记笔记的Editor（VSC&#x2F;Obsidian&#x2F;Joplin…）</li>
-<li>按着Cherno的视频路线，有取舍的学习（实在不想听的&#x2F;与主线关联不大先跳过，听不懂的跳然后Chat</li>
-<li>视频课绝对不是唯一的，但一个好的视频课一定是最好的路线图！</li>
-<li></li>
-</ul>
-<h1 id=""><a href="#" class="headerlink" title=""></a></h1>]]></content>
-      <categories>
-        <category>学习路线</category>
-      </categories>
-      <tags>
-        <tag>Programming</tag>
-        <tag>C++</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Python Journey</title>
-    <url>/2025/04/23/Python-Journey/</url>
-    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>python其实是一门很简单易学的语言。 但是很多人依然学着头疼。 考虑到每个人的情况不同，本文主要面向没有太多项目经历但对计算机有了解（知道OOP，学过C&#x2F;Java…）的小白。<br>本文推荐了学习资源，介绍了我入门的过程。分析了导致python学习效果不好的原因（personal）。</p>
-]]></content>
-      <categories>
-        <category>学习路线</category>
-      </categories>
-      <tags>
-        <tag>Programming</tag>
-        <tag>Python</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Linux Journey</title>
     <url>/2025/04/23/Linux-Journey/</url>
     <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>我第一次接触Linux，我和Linux的故事：从装系统、做项目、无数次“入坑”又“弃坑”。最终又成功登上正轨的学习感悟。 总结了优质的学习资源以及使用方法，更重要的：新手应该避开哪些问题。<br>如果你赶时间，直接看TakeAway。给出了一套简洁、无门槛的学习指南<br>不包含：装系统的细节</p>
@@ -75,6 +41,27 @@
       </categories>
       <tags>
         <tag>Linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Cpp Journey</title>
+    <url>/2025/04/23/Cpp-Journey/</url>
+    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>本文属于我的“学习路线”系列文章。 介绍了自认为成功且有一定效率的学习方法。 本文会介绍笔者的入门C++的过程（学习时长&amp;成果），推荐一套可靠的方法，分享有用的资源。本文还总结了学习C++容易遇到的问题</p>
+<h1 id="推荐路线，前置基础"><a href="#推荐路线，前置基础" class="headerlink" title="推荐路线，前置基础"></a>推荐路线，前置基础</h1><h1 id="容易遇到的问题-解决"><a href="#容易遇到的问题-解决" class="headerlink" title="容易遇到的问题 &amp; 解决"></a>容易遇到的问题 &amp; 解决</h1><ul>
+<li>搞不清编译器、工具链等概念。听到<code>MSVC</code> <code>Clang</code> <code>Clang++</code> <code>G++</code> <code>GCC</code> <code>MinGW</code>等词汇就一头包，畏畏缩缩。担心自己搞不定</li>
+<li>不知道在哪运行、不会创建文件夹。不懂底层的规则。</li>
+<li>平台&amp;工具： Windows + Visual Studio + 一个记笔记的Editor（VSC&#x2F;Obsidian&#x2F;Joplin…）</li>
+<li>按着Cherno的视频路线，有取舍的学习（实在不想听的&#x2F;与主线关联不大先跳过，听不懂的跳然后Chat</li>
+<li>视频课绝对不是唯一的，但一个好的视频课一定是最好的路线图！</li>
+<li></li>
+</ul>
+<h1 id=""><a href="#" class="headerlink" title=""></a></h1>]]></content>
+      <categories>
+        <category>学习路线</category>
+      </categories>
+      <tags>
+        <tag>Programming</tag>
+        <tag>C++</tag>
       </tags>
   </entry>
   <entry>
@@ -175,22 +162,6 @@
       </tags>
   </entry>
   <entry>
-    <title>WindowsLinux化</title>
-    <url>/2025/06/08/WindowsLinux%E5%8C%96/</url>
-    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>主要记录了编写脚本文件的技术。</p>
-<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>Linux系统运行脚本管理很方便，make install命令就能安装好软件，可以在任位置指使用指令.<br>但Windows就没那么方便了。要手动把脚本添加到Path。 因此，我在D盘新建了一个文件夹mytools，存放所有的常用exe,bat脚本,.cmd,ps1，还可以添加python脚本封装成cmd脚本文件。目前我已经把.yt-dlp.exe, danmuku2ass.cmd（内有python xxx&#x2F;xxx&#x2F;xxx&#x2F;…&#x2F;danmuku2ass.py %* 命令）, 然后在Path环境变量中添加D:\mytools路径，这样就可以在任意位置使用这些脚本了。</p>
-<blockquote>
-<p>当然，使用Scoop包管理器安装的软件（如git, jdk, maven,…）也可以达到在任何路径下运行命令（我会专门出一篇博客介绍scoop</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>整活</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>程序员科普：JSON、XML、YAML 三种数据格式的由来、应用与对比</title>
     <url>/2025/05/19/dance-with-yaml/</url>
     <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>在前后端开发、配置管理、API 通信等领域，我们常常接触到三种主流的数据格式：JSON、XML 和 YAML。虽然它们的目标都是「让数据结构易于存储和传输」，但随着时代发展与技术演进，它们逐渐走上了不同的道路。本文将从历史演变、应用场景出发，结合语法特征，帮你快速理解这三种格式各自的定位与优劣。</p>
@@ -280,6 +251,48 @@
       </tags>
   </entry>
   <entry>
+    <title>Python Journey</title>
+    <url>/2025/04/23/Python-Journey/</url>
+    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>python其实是一门很简单易学的语言。 但是很多人依然学着头疼。 考虑到每个人的情况不同，本文主要面向没有太多项目经历但对计算机有了解（知道OOP，学过C&#x2F;Java…）的小白。<br>本文推荐了学习资源，介绍了我入门的过程。分析了导致python学习效果不好的原因（personal）。</p>
+]]></content>
+      <categories>
+        <category>学习路线</category>
+      </categories>
+      <tags>
+        <tag>Programming</tag>
+        <tag>Python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>不一样的Git教程 —— GIT基础设置</title>
+    <url>/2025/04/19/gitconcepts/</url>
+    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>本文希望科普git的重要概念以更好地帮助你使用git。 看完本篇内容（git基础）你将方便地用git完成个人项目，但想管理团队，还需要更多的知识</p>
+<p>重点： 明白四个stage的概念。明白push, pull, commit, pull request的中文含义<br>非重点： 记指令的语法（因为github desktop完美替代了初学者所需的操作）</p>
+<h2 id="grocery"><a href="#grocery" class="headerlink" title="grocery"></a>grocery</h2>]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>GIT</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>WindowsLinux化</title>
+    <url>/2025/06/08/WindowsLinux%E5%8C%96/</url>
+    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>主要记录了编写脚本文件的技术。</p>
+<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>Linux系统运行脚本管理很方便，make install命令就能安装好软件，可以在任位置指使用指令.<br>但Windows就没那么方便了。要手动把脚本添加到Path。 因此，我在D盘新建了一个文件夹mytools，存放所有的常用exe,bat脚本,.cmd,ps1，还可以添加python脚本封装成cmd脚本文件。目前我已经把.yt-dlp.exe, danmuku2ass.cmd（内有python xxx&#x2F;xxx&#x2F;xxx&#x2F;…&#x2F;danmuku2ass.py %* 命令）, 然后在Path环境变量中添加D:\mytools路径，这样就可以在任意位置使用这些脚本了。</p>
+<blockquote>
+<p>当然，使用Scoop包管理器安装的软件（如git, jdk, maven,…）也可以达到在任何路径下运行命令（我会专门出一篇博客介绍scoop</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>整活</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>ssh入门</title>
     <url>/2025/04/29/ssh%E5%85%A5%E9%97%A8/</url>
     <content><![CDATA[<h1 id="take-away-knowledge-concept"><a href="#take-away-knowledge-concept" class="headerlink" title="take away knowledge &amp; concept"></a>take away knowledge &amp; concept</h1><p>对于private repo, 即便是clone,也需要ssh</p>
@@ -306,19 +319,6 @@
       </categories>
       <tags>
         <tag>SSH</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>不一样的Git教程 —— GIT基础设置</title>
-    <url>/2025/04/19/gitconcepts/</url>
-    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>本文希望科普git的重要概念以更好地帮助你使用git。 看完本篇内容（git基础）你将方便地用git完成个人项目，但想管理团队，还需要更多的知识</p>
-<p>重点： 明白四个stage的概念。明白push, pull, commit, pull request的中文含义<br>非重点： 记指令的语法（因为github desktop完美替代了初学者所需的操作）</p>
-<h2 id="grocery"><a href="#grocery" class="headerlink" title="grocery"></a>grocery</h2>]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>GIT</tag>
       </tags>
   </entry>
   <entry>
@@ -504,25 +504,33 @@
       </tags>
   </entry>
   <entry>
-    <title>在hexo博客中插入图片(方案汇总)</title>
-    <url>/2025/03/09/%E5%9C%A8hexo%E5%8D%9A%E5%AE%A2%E4%B8%AD%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E3%80%90%E6%96%B9%E6%A1%88%E6%B1%87%E6%80%BB%E3%80%91/</url>
-    <content><![CDATA[<h1 id="放弃的方案："><a href="#放弃的方案：" class="headerlink" title="放弃的方案："></a>放弃的方案：</h1><h2 id="原生的-hexo-add-on-hexo-asset"><a href="#原生的-hexo-add-on-hexo-asset" class="headerlink" title="原生的 hexo add on: hexo-asset"></a>原生的 hexo add on: hexo-asset</h2><p><code>post_asset_folder: false #true</code></p>
+    <title>博客运营（一）</title>
+    <url>/2025/01/15/%E5%8D%9A%E5%AE%A2%E8%BF%90%E8%90%A5%EF%BC%88%E4%B8%80%EF%BC%89/</url>
+    <content><![CDATA[<h1 id="在哪运营hexo-博客？在哪个路径下、用哪个shell、运行Shell指令"><a href="#在哪运营hexo-博客？在哪个路径下、用哪个shell、运行Shell指令" class="headerlink" title="在哪运营hexo 博客？在哪个路径下、用哪个shell、运行Shell指令"></a>在哪运营hexo 博客？在哪个路径下、用哪个shell、运行Shell指令</h1><p>答：在你的博客文件夹下，右键：git bash here. </p>
+<p>我喜欢git bash shell. 因为它支持: &amp;&amp; 运算符，可以连贯的执行操作。把一连串shell commands视作一个整体。</p>
+<p>很神奇的是，不管在哪打开，只要是&#x2F;Blog路径下，就可以执行和hexo有关的指令。我想是因为把Node添加到了环境变量的缘故。</p>
+<p>&nbsp;</p>
+<h1 id="常用的指令"><a href="#常用的指令" class="headerlink" title="常用的指令"></a>常用的指令</h1><ul>
+<li>新建一篇博客 file.md:  hexo new “Your_blog_title”   &#x2F;&#x2F;执行这行指令会生成一个md文件在_post下。附带了日期。</li>
+<li>hexo new page  Your_blog_name &#x2F;&#x2F;有没有引号都可以。  &#x2F;&#x2F;执行这行指令会生成一个index.md文件在_post&#x2F;Your_blod_name下</li>
+<li>hexo clean. 清理</li>
+</ul>
+<p>&nbsp;</p>
+<h1 id="我发hexo博客的工作流："><a href="#我发hexo博客的工作流：" class="headerlink" title="我发hexo博客的工作流："></a>我发hexo博客的工作流：</h1><p>Step 1：用Joplin写博客。  &#x2F;&#x2F;Joplin简直神器，不多bibi</p>
+<p>Step 2：将写完后的博客导出成md文件：NewPost.md。 &#x2F;&#x2F;Joplin支持导出为markdown。直接导到你的Blog文件夹里。如果有图片：最好导入到_post&#x2F;images. 这样更好管理博客里用的图片路径。</p>
+<p>Step 3：在hexo创建新的博客：hexo new page “Blog_title” . 执行指令会发现_post文件夹下多了一个Blog_tilte.md</p>
+<p>Step 4：把NewPost.md里的内容复制到Blog_title.md.  用VSCode修改：标题、格式、Anything you want。</p>
 <ul>
-<li>语法格式恶心，既不是 md 也不是 HTML，自带的一种渲染格式</li>
-<li>尝试多次未成功</li>
+<li><input checked="" disabled="" type="checkbox"> 为什么要“多此一举”？</li>
 </ul>
-<h1 id="能使用的方案："><a href="#能使用的方案：" class="headerlink" title="能使用的方案："></a>能使用的方案：</h1><h2 id="PicX"><a href="#PicX" class="headerlink" title="PicX"></a>PicX</h2><h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><ul>
-<li>gitbub 有一个叫做 picx 的项目, 是一个网站，你可以往它的官网上传（本机的）图，会自动生成一个链接赋值到剪切板上。</li>
-<li>特点：手动在 blog md file 里放 html img 标签； 支持使用 GitHub 图床（own repo，free）等其他图床</li>
-</ul>
-<h3 id="优缺点"><a href="#优缺点" class="headerlink" title="优缺点"></a>优缺点</h3><ul>
-<li>优点： PicX 自动生成图片 url, 完全免费（薅微软 Github 服务器的羊毛）</li>
-<li>不足：无法在写博客粘贴图片的时候自动生成链接。需要手动写 HTML img 标签。图多了有些麻烦，容易找不到链接。<br>Links：<a href="https://picx.xpoet.cn/#/settings">PicX 在线服务</a>； <a href="https://picx-docs.xpoet.cn/usage-guide/get-start.html">官方使用教程</a>；<a href="https://github.com/XPoet/picx">GitHub 仓库地址</a></li>
-</ul>
-<p>e.g. url generate by pix<br><a href="https://github.com/OptimusHimself/picx-images-hosting/raw/master/%E5%BD%97%E6%98%9F%E8%BD%A8%E8%BF%B9.esnsejhpw.webp">https://github.com/OptimusHimself/picx-images-hosting/raw/master/彗星轨迹.esnsejhpw.webp</a><br>e.g. &lt;img&gt; tag<br>&lt;img src&#x3D;”<a href="https://github.com/OptimusHimself/picx-images-hosting/raw/master/%E5%BD%97%E6%98%9F%E8%BD%A8%E8%BF%B9.esnsejhpw.webp">https://github.com/OptimusHimself/picx-images-hosting/raw/master/彗星轨迹.esnsejhpw.webp</a>“ alt&#x3D;”sorry about that”&gt;</p>
-<blockquote>
-<p>img alt 参数：Specifies an alternate text for an image</p>
-</blockquote>
+<p>Joplin的文件不是纯文本。直接粘到VScode里的Blog_title.md 可能忽略图片。会把html css元素带进去。</p>
+<p>缺点，每次在joplin上修改了都要重新导出，所以，隔一段时间再发出更省事。</p>
+<p>VScode推荐装md相关插件：Markdonw All in One, Markdown Preview Enhanced. markdownlint</p>
+<p>Step 5：本地浏览博客，检查、做进一步美化。</p>
+<p>hexo clean   </p>
+<p>hexo g &amp;&amp; hexo s</p>
+<p>Step 6: 修改至满意后运行 hexo d. 将本地的博客上传至网站（github Page，…..）。</p>
+<p>&nbsp;</p>
 ]]></content>
       <categories>
         <category>教程</category>
@@ -568,57 +576,6 @@
 ]]></content>
       <tags>
         <tag>日记</tag>
-        <tag>HAM</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>博客运营（一）</title>
-    <url>/2025/01/15/%E5%8D%9A%E5%AE%A2%E8%BF%90%E8%90%A5%EF%BC%88%E4%B8%80%EF%BC%89/</url>
-    <content><![CDATA[<h1 id="在哪运营hexo-博客？在哪个路径下、用哪个shell、运行Shell指令"><a href="#在哪运营hexo-博客？在哪个路径下、用哪个shell、运行Shell指令" class="headerlink" title="在哪运营hexo 博客？在哪个路径下、用哪个shell、运行Shell指令"></a>在哪运营hexo 博客？在哪个路径下、用哪个shell、运行Shell指令</h1><p>答：在你的博客文件夹下，右键：git bash here. </p>
-<p>我喜欢git bash shell. 因为它支持: &amp;&amp; 运算符，可以连贯的执行操作。把一连串shell commands视作一个整体。</p>
-<p>很神奇的是，不管在哪打开，只要是&#x2F;Blog路径下，就可以执行和hexo有关的指令。我想是因为把Node添加到了环境变量的缘故。</p>
-<p>&nbsp;</p>
-<h1 id="常用的指令"><a href="#常用的指令" class="headerlink" title="常用的指令"></a>常用的指令</h1><ul>
-<li>新建一篇博客 file.md:  hexo new “Your_blog_title”   &#x2F;&#x2F;执行这行指令会生成一个md文件在_post下。附带了日期。</li>
-<li>hexo new page  Your_blog_name &#x2F;&#x2F;有没有引号都可以。  &#x2F;&#x2F;执行这行指令会生成一个index.md文件在_post&#x2F;Your_blod_name下</li>
-<li>hexo clean. 清理</li>
-</ul>
-<p>&nbsp;</p>
-<h1 id="我发hexo博客的工作流："><a href="#我发hexo博客的工作流：" class="headerlink" title="我发hexo博客的工作流："></a>我发hexo博客的工作流：</h1><p>Step 1：用Joplin写博客。  &#x2F;&#x2F;Joplin简直神器，不多bibi</p>
-<p>Step 2：将写完后的博客导出成md文件：NewPost.md。 &#x2F;&#x2F;Joplin支持导出为markdown。直接导到你的Blog文件夹里。如果有图片：最好导入到_post&#x2F;images. 这样更好管理博客里用的图片路径。</p>
-<p>Step 3：在hexo创建新的博客：hexo new page “Blog_title” . 执行指令会发现_post文件夹下多了一个Blog_tilte.md</p>
-<p>Step 4：把NewPost.md里的内容复制到Blog_title.md.  用VSCode修改：标题、格式、Anything you want。</p>
-<ul>
-<li><input checked="" disabled="" type="checkbox"> 为什么要“多此一举”？</li>
-</ul>
-<p>Joplin的文件不是纯文本。直接粘到VScode里的Blog_title.md 可能忽略图片。会把html css元素带进去。</p>
-<p>缺点，每次在joplin上修改了都要重新导出，所以，隔一段时间再发出更省事。</p>
-<p>VScode推荐装md相关插件：Markdonw All in One, Markdown Preview Enhanced. markdownlint</p>
-<p>Step 5：本地浏览博客，检查、做进一步美化。</p>
-<p>hexo clean   </p>
-<p>hexo g &amp;&amp; hexo s</p>
-<p>Step 6: 修改至满意后运行 hexo d. 将本地的博客上传至网站（github Page，…..）。</p>
-<p>&nbsp;</p>
-]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>手台入门教程</title>
-    <url>/2025/06/08/%E6%89%8B%E5%8F%B0%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/</url>
-    <content><![CDATA[<blockquote>
-<p>令我印象最深刻的经历，就是用Scan扫到中继的信号，听友台们的信号。在不知道亚音、频差的情况下傻乎乎的念：CQ CQ CQ, 这里是BD1BBU呼叫。Bravo Delta One Bravo Bravo Uniform 请求插入。 然后每一个人理我。 ——好家伙，啥都不会就干中继了🤣</p>
-</blockquote>
-<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>认识UVK6的按键：F键、菜单键<br>认识菜单的常用功能：存储信道；设置上、下行亚音；设置频差；Scan功能<br>实操：寻找中继台的高效办法，</p>
-]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
         <tag>HAM</tag>
       </tags>
   </entry>
@@ -688,28 +645,6 @@
       </tags>
   </entry>
   <entry>
-    <title>论持久战</title>
-    <url>/2025/03/21/%E8%AE%BA%E6%8C%81%E4%B9%85%E6%88%98/</url>
-    <content><![CDATA[<p>从午休后到晚上10点，我全身心投入在模拟通信系统的调制技术的学习中。这是一次伟大的学习过程，因为我学会了“持久”。 我喜欢学习，但我的学习方法不算高效，或者说，在此之前，我没有一个通用的“学习思维”。 我能学好某些知识，归功于我擅长找好的教材、课程，从优质资源中汲取知识。但这只是途径问题，找好的教材是学习的第一步，属于“捷径方法论”。而现在要讨论的是：利用资源和规划时间。因为这一块工作没有做好，会让你在一个领域的开始阶段举步维艰，被那些“懂学习”的人拉开差距。我反思，为什么我作为一个CS专业的学生，到大三了才进入程序设计的全盛、兴趣爆棚的学习状态。慢热，真的好吗？</p>
-<p>拿通信原理这门课来说。要了解通信系统的运作需要很多前置知识：信息论——通信工程里讨论的bit和CS里常说的bit可不是一个概念；还有对通信系统的建模，对信道简单建模。总之，这门课的“原始积累、老本”几乎是0。而学校的教材、课程对于入门小白来说是很难摸得着头脑的。看讲义、课件时，突然蹦出一个你从未见过的公式、符号是很令人头疼的。</p>
-<p>以前，我在学新东西的时候总希望眼前的一切在脑中make sense, 好像有了某般instinct就等同于学会了，可以接下去学了。而要是没有那道“电弧”、通透的感觉，就是没学会。这还不够，不懂学习方法的我还会发脾气：这教材真差劲，不学了！老师讲得真烂，简直就是天书、不听了！于是连续3~4词旷课，等火烧眉毛了再咬着牙学。还有一类情况是，遇到了以前的知识，比方说研究调制信号的spetrum时用到了一点傅里叶变换。一些死扣牛角尖的想法就是，“哎呀，上学期信号与系统里教的傅里叶变换又忘了、我肯定学不下去了，连基础都没有，干脆等几天再学吧，先复习复习傅里叶变换”。可实际上，并没有行动，因为这个想法太空了，复习哪些部分？傅里叶变换那么多性质，真要复习全，三天三夜差不多。有时，你只是脑子里蹦出了知识图谱的一个小标签，就恐吓自己、转移自己的视线。从阿德勒的目的论来看，一切都目的就是不想接触新概念，因为你知道培养自己形成新的概念离不开痛苦、离不开旧思想的碰撞，进而想通过给自己设障达到偷懒、逃避的目的。</p>
-<p>我相信，有不少人也是和我有类似毛病的。只不过我这块特别严重。</p>
-<p>说说我现在的状态。</p>
-<p>上新课听到不懂的不再深究。一方面，你是初学者，你不可能短时间体会这个符号从过去被科学家发明出来，因为什么英文含义被写成这样，你也不可能短时间从只言片语体会到这个公式的来历，你需要练习，研究电路，物理意义你需要看更多的书来联想到更多的知识。另一方面，你真的需要在这个时间点知道那么多吗？正确的做法是，短暂思考后标注问题，问问自己前后的东西能不能自洽，换句话说，书上有没有硬刷错误。对你没看错，我的意思就是，有没有数学上，或者和过去的印象是否匹配。你只需要验证，告诉自己：</p>
-<p>“这大概是对的——这一项加这一项系数没问题，合并同类项等基本运算正确，可能我不知道为什么这么算，但我先接着听。”</p>
-<p>“傅里叶变换我有些不熟悉了……哎不管了，先记着cos(t)转到频域上是两根棍，好像没啥毛病。具体什么含义、为什么做傅里叶变换……老师也没讲、他也不一定讲的清。那我继续看。”</p>
-<p>出现什么新符号、新推演就告诉自己“哦，这有个新符号啊，它叫做……虽然我不知道为什么叫这个抽象玩意儿。”“为什么在通信系统里，做完A operation，就做B。老师说这个方法的优点是……，那就是吧，管他呢”。</p>
-<p>和老师、书本过进度，揭开这个系统的面纱。总之，你要学会减轻自己的思维负担。遇到不懂的东西，立刻告诉自己：“问题不大，没啥大不了的。”难道不是吗？生活中，哪有那么多事儿?</p>
-<p>我相信，好的资料为你拓宽视野，给你一个很好的认知基础，知道学习的路线。很多时候，这足够支撑你“无痛、轻微疼痛”即可入门一个领域。而有些时候，问题稍微复杂了些，每一步都带来很多未知面。这个时候就换一个思维，不要硬刚而是缓下来，换成“持久、不内耗、果断清晰”的思维。我认为，这是一个高效学习者的能力。</p>
-]]></content>
-      <categories>
-        <category>生活感悟</category>
-      </categories>
-      <tags>
-        <tag>学习方法</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Books Recommandation</title>
     <url>/2025/03/25/%E9%98%85%E8%AF%BB%E6%8E%A8%E8%8D%90/</url>
     <content><![CDATA[<p>这是一个来自IoT专业。我从读大学之后开始热爱读书、算是对各类书籍都感兴趣。在这之前，很少阅读课外书籍。<br>这份清单涵盖了我阅读过的并且其中的某些片段为我留下了深刻印象、并对我的学习生活、个人修养产生过积极影响的书籍（真的，读书很神奇，你会因为梳理的内容做出很多改变，哪怕有些只有一个月。</p>
@@ -746,6 +681,71 @@
       </categories>
       <tags>
         <tag>资源分享</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>论持久战</title>
+    <url>/2025/03/21/%E8%AE%BA%E6%8C%81%E4%B9%85%E6%88%98/</url>
+    <content><![CDATA[<p>从午休后到晚上10点，我全身心投入在模拟通信系统的调制技术的学习中。这是一次伟大的学习过程，因为我学会了“持久”。 我喜欢学习，但我的学习方法不算高效，或者说，在此之前，我没有一个通用的“学习思维”。 我能学好某些知识，归功于我擅长找好的教材、课程，从优质资源中汲取知识。但这只是途径问题，找好的教材是学习的第一步，属于“捷径方法论”。而现在要讨论的是：利用资源和规划时间。因为这一块工作没有做好，会让你在一个领域的开始阶段举步维艰，被那些“懂学习”的人拉开差距。我反思，为什么我作为一个CS专业的学生，到大三了才进入程序设计的全盛、兴趣爆棚的学习状态。慢热，真的好吗？</p>
+<p>拿通信原理这门课来说。要了解通信系统的运作需要很多前置知识：信息论——通信工程里讨论的bit和CS里常说的bit可不是一个概念；还有对通信系统的建模，对信道简单建模。总之，这门课的“原始积累、老本”几乎是0。而学校的教材、课程对于入门小白来说是很难摸得着头脑的。看讲义、课件时，突然蹦出一个你从未见过的公式、符号是很令人头疼的。</p>
+<p>以前，我在学新东西的时候总希望眼前的一切在脑中make sense, 好像有了某般instinct就等同于学会了，可以接下去学了。而要是没有那道“电弧”、通透的感觉，就是没学会。这还不够，不懂学习方法的我还会发脾气：这教材真差劲，不学了！老师讲得真烂，简直就是天书、不听了！于是连续3~4词旷课，等火烧眉毛了再咬着牙学。还有一类情况是，遇到了以前的知识，比方说研究调制信号的spetrum时用到了一点傅里叶变换。一些死扣牛角尖的想法就是，“哎呀，上学期信号与系统里教的傅里叶变换又忘了、我肯定学不下去了，连基础都没有，干脆等几天再学吧，先复习复习傅里叶变换”。可实际上，并没有行动，因为这个想法太空了，复习哪些部分？傅里叶变换那么多性质，真要复习全，三天三夜差不多。有时，你只是脑子里蹦出了知识图谱的一个小标签，就恐吓自己、转移自己的视线。从阿德勒的目的论来看，一切都目的就是不想接触新概念，因为你知道培养自己形成新的概念离不开痛苦、离不开旧思想的碰撞，进而想通过给自己设障达到偷懒、逃避的目的。</p>
+<p>我相信，有不少人也是和我有类似毛病的。只不过我这块特别严重。</p>
+<p>说说我现在的状态。</p>
+<p>上新课听到不懂的不再深究。一方面，你是初学者，你不可能短时间体会这个符号从过去被科学家发明出来，因为什么英文含义被写成这样，你也不可能短时间从只言片语体会到这个公式的来历，你需要练习，研究电路，物理意义你需要看更多的书来联想到更多的知识。另一方面，你真的需要在这个时间点知道那么多吗？正确的做法是，短暂思考后标注问题，问问自己前后的东西能不能自洽，换句话说，书上有没有硬刷错误。对你没看错，我的意思就是，有没有数学上，或者和过去的印象是否匹配。你只需要验证，告诉自己：</p>
+<p>“这大概是对的——这一项加这一项系数没问题，合并同类项等基本运算正确，可能我不知道为什么这么算，但我先接着听。”</p>
+<p>“傅里叶变换我有些不熟悉了……哎不管了，先记着cos(t)转到频域上是两根棍，好像没啥毛病。具体什么含义、为什么做傅里叶变换……老师也没讲、他也不一定讲的清。那我继续看。”</p>
+<p>出现什么新符号、新推演就告诉自己“哦，这有个新符号啊，它叫做……虽然我不知道为什么叫这个抽象玩意儿。”“为什么在通信系统里，做完A operation，就做B。老师说这个方法的优点是……，那就是吧，管他呢”。</p>
+<p>和老师、书本过进度，揭开这个系统的面纱。总之，你要学会减轻自己的思维负担。遇到不懂的东西，立刻告诉自己：“问题不大，没啥大不了的。”难道不是吗？生活中，哪有那么多事儿?</p>
+<p>我相信，好的资料为你拓宽视野，给你一个很好的认知基础，知道学习的路线。很多时候，这足够支撑你“无痛、轻微疼痛”即可入门一个领域。而有些时候，问题稍微复杂了些，每一步都带来很多未知面。这个时候就换一个思维，不要硬刚而是缓下来，换成“持久、不内耗、果断清晰”的思维。我认为，这是一个高效学习者的能力。</p>
+]]></content>
+      <categories>
+        <category>生活感悟</category>
+      </categories>
+      <tags>
+        <tag>学习方法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>手台入门教程</title>
+    <url>/2025/06/08/%E6%89%8B%E5%8F%B0%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/</url>
+    <content><![CDATA[<blockquote>
+<p>令我印象最深刻的经历，就是用Scan扫到中继的信号，听友台们的信号。在不知道亚音、频差的情况下傻乎乎的念：CQ CQ CQ, 这里是BD1BBU呼叫。Bravo Delta One Bravo Bravo Uniform 请求插入。 然后每一个人理我。 ——好家伙，啥都不会就干中继了🤣</p>
+</blockquote>
+<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>认识UVK6的按键：F键、菜单键<br>认识菜单的常用功能：存储信道；设置上、下行亚音；设置频差；Scan功能<br>实操：寻找中继台的高效办法，</p>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>HAM</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>在hexo博客中插入图片(方案汇总)</title>
+    <url>/2025/03/09/%E5%9C%A8hexo%E5%8D%9A%E5%AE%A2%E4%B8%AD%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E3%80%90%E6%96%B9%E6%A1%88%E6%B1%87%E6%80%BB%E3%80%91/</url>
+    <content><![CDATA[<h1 id="放弃的方案："><a href="#放弃的方案：" class="headerlink" title="放弃的方案："></a>放弃的方案：</h1><h2 id="原生的-hexo-add-on-hexo-asset"><a href="#原生的-hexo-add-on-hexo-asset" class="headerlink" title="原生的 hexo add on: hexo-asset"></a>原生的 hexo add on: hexo-asset</h2><p><code>post_asset_folder: false #true</code></p>
+<ul>
+<li>语法格式恶心，既不是 md 也不是 HTML，自带的一种渲染格式</li>
+<li>尝试多次未成功</li>
+</ul>
+<h1 id="能使用的方案："><a href="#能使用的方案：" class="headerlink" title="能使用的方案："></a>能使用的方案：</h1><h2 id="PicX"><a href="#PicX" class="headerlink" title="PicX"></a>PicX</h2><h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><ul>
+<li>gitbub 有一个叫做 picx 的项目, 是一个网站，你可以往它的官网上传（本机的）图，会自动生成一个链接赋值到剪切板上。</li>
+<li>特点：手动在 blog md file 里放 html img 标签； 支持使用 GitHub 图床（own repo，free）等其他图床</li>
+</ul>
+<h3 id="优缺点"><a href="#优缺点" class="headerlink" title="优缺点"></a>优缺点</h3><ul>
+<li>优点： PicX 自动生成图片 url, 完全免费（薅微软 Github 服务器的羊毛）</li>
+<li>不足：无法在写博客粘贴图片的时候自动生成链接。需要手动写 HTML img 标签。图多了有些麻烦，容易找不到链接。<br>Links：<a href="https://picx.xpoet.cn/#/settings">PicX 在线服务</a>； <a href="https://picx-docs.xpoet.cn/usage-guide/get-start.html">官方使用教程</a>；<a href="https://github.com/XPoet/picx">GitHub 仓库地址</a></li>
+</ul>
+<p>e.g. url generate by pix<br><a href="https://github.com/OptimusHimself/picx-images-hosting/raw/master/%E5%BD%97%E6%98%9F%E8%BD%A8%E8%BF%B9.esnsejhpw.webp">https://github.com/OptimusHimself/picx-images-hosting/raw/master/彗星轨迹.esnsejhpw.webp</a><br>e.g. &lt;img&gt; tag<br>&lt;img src&#x3D;”<a href="https://github.com/OptimusHimself/picx-images-hosting/raw/master/%E5%BD%97%E6%98%9F%E8%BD%A8%E8%BF%B9.esnsejhpw.webp">https://github.com/OptimusHimself/picx-images-hosting/raw/master/彗星轨迹.esnsejhpw.webp</a>“ alt&#x3D;”sorry about that”&gt;</p>
+<blockquote>
+<p>img alt 参数：Specifies an alternate text for an image</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
       </tags>
   </entry>
 </search>
