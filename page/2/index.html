@@ -1,2805 +1,969 @@
+
+
 <!DOCTYPE html>
+<html lang="zh-CN" data-default-color-scheme=dark>
 
 
-
-  
-
-
-<html class="theme-next gemini use-motion" lang="zh-Hans">
 
 <head>
-  <meta charset="UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
-<meta name="theme-color" content="#222">
+  <meta charset="UTF-8">
 
-
-
-  
-  
-    
-    
-  <script src="/lib/pace/pace.min.js?v=1.0.2"></script>
-  <link href="/lib/pace/pace-theme-center-atom.min.css?v=1.0.2" rel="stylesheet">
-
-
-
-
-
-
-
-<meta http-equiv="Cache-Control" content="no-transform" />
-<meta http-equiv="Cache-Control" content="no-siteapp" />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
-
-
-
-
-  
-  
-  
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/favicon/apple-touch-icon-corgi.png">
+  <link rel="icon" href="/img/favicon-corgi.png">
   
 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
   
-
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
   
-
+  <meta name="theme-color" content="#2f4154">
+  <meta name="author" content="Tyrone Opting">
+  <meta name="keywords" content="捯饬计算机 各种整活">
   
-
-  
-
-  
-
-  
-
-
-
-
-
-
-  
-
-<link href="[object Object]" rel="stylesheet" type="text/css" />
-
-<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
-
-
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-corgi.png?v=5.1.4">
-
-
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-corgi.png?v=5.1.4">
-
-
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
-
-
-  <link rel="mask-icon" href="/images/favicon-corgi.svg?v=5.1.4" color="#222">
-
-
-
-
-
-  <meta name="keywords" content="CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC" />
-
-
-
-
-
-
-
-
-
-
-<meta name="description" content="本站是Tyrone Opting的技术分享博客。内容涵盖：计算机体系结构、安卓整活、装机、各种系统整活WinToGo">
+    <meta name="description" content="本站是Tyrone Opting的技术分享博客。内容涵盖：计算机体系结构、安卓整活、装机、各种系统整活WinToGo">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Tyrone Opting&#39;s Blog">
+<meta property="og:title" content="砺爪集">
 <meta property="og:url" content="https://optimushimself.github.io/page/2/index.html">
-<meta property="og:site_name" content="Tyrone Opting&#39;s Blog">
+<meta property="og:site_name" content="砺爪集">
 <meta property="og:description" content="本站是Tyrone Opting的技术分享博客。内容涵盖：计算机体系结构、安卓整活、装机、各种系统整活WinToGo">
-<meta property="og:locale">
+<meta property="og:locale" content="zh_CN">
 <meta property="article:author" content="Tyrone Opting">
 <meta property="article:tag" content="捯饬计算机 各种整活">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:card" content="summary_large_image">
+  
+  
+  
+  <title>砺爪集</title>
 
-
-
-<script type="text/javascript" id="hexo.configurations">
-  var NexT = window.NexT || {};
-  var CONFIG = {
-    root: '',
-    scheme: 'Gemini',
-    version: '5.1.4',
-    sidebar: {"position":"left","display":"post","offset":12,"b2t":true,"scrollpercent":true,"onmobile":false},
-    fancybox: true,
-    tabs: true,
-    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
-    duoshuo: {
-      userId: '0',
-      author: '博主'
-    },
-    algolia: {
-      applicationID: '',
-      apiKey: '',
-      indexName: '',
-      hits: {"per_page":10},
-      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
-    }
-  };
-</script>
-
-
-
-  <link rel="canonical" href="https://OptimusHimself.github.io/page/2/"/>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
 
 
 
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <title>Tyrone Opting's Blog</title>
+<!-- 主题依赖的图标库，不要自行修改 -->
+<!-- Do not modify the link that theme dependent icons -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/c/font_1749284_5i9bdhy70f8.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/c/font_1736178_k526ubmyhba.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+
+  <link id="highlight-css" rel="stylesheet" href="/css/highlight.css" />
+  
+    <link id="highlight-css-dark" rel="stylesheet" href="/css/highlight-dark.css" />
   
 
 
 
+  
+<link rel="stylesheet" href="https://cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.7.0/style.min.css">
 
 
 
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    Fluid.ctx = Object.assign({}, Fluid.ctx)
+    var CONFIG = {"hostname":"optimushimself.github.io","root":"/","version":"1.9.8","typing":{"enable":true,"typeSpeed":50,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":"❡"},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false},"umami":{"src":null,"website_id":null,"domains":null,"start_time":"2024-01-01T00:00:00.000Z","token":null,"api_server":null}},"search_path":"/local-search.xml","include_content_in_search":true};
+
+    if (CONFIG.web_analytics.follow_dnt) {
+      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
+    }
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+  
 
 
+  
 <meta name="generator" content="Hexo 7.3.0"></head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
 
-  
-  
-    
+<body>
   
 
-  <div class="container sidebar-position-left 
-  page-home">
-    <div class="headband"></div>
-
-    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><div class="site-brand-wrapper">
-  <div class="site-meta ">
+  <header>
     
 
-    <div class="custom-logo-site-title">
-      <a href="/"  class="brand" rel="start">
-        <span class="logo-line-before"><i></i></span>
-        <span class="site-title">Tyrone Opting's Blog</span>
-        <span class="logo-line-after"><i></i></span>
-      </a>
-    </div>
-      
-        <p class="site-subtitle">ALL IN AI</p>
-      
-  </div>
+<div class="header-inner" style="height: 100vh;">
+  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <strong>ALL IN AI</strong>
+    </a>
 
-  <div class="site-nav-toggle">
-    <button>
-      <span class="btn-bar"></span>
-      <span class="btn-bar"></span>
-      <span class="btn-bar"></span>
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
     </button>
-  </div>
-</div>
 
-<nav class="site-nav">
-  
-
-  
-    <ul id="menu" class="menu">
-      
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
         
-        <li class="menu-item menu-item-home">
-          <a href="/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
-            
-            首页
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-about">
-          <a href="/about/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-fa fa-user"></i> <br />
-            
-            关于
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-tags">
-          <a href="/tags/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
-            
-            标签
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-categories">
-          <a href="/categories/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
-            
-            分类
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-archives">
-          <a href="/archives/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
-            
-            归档
-          </a>
-        </li>
-      
-
-      
-        <li class="menu-item menu-item-search">
           
-            <a href="javascript:;" class="popup-trigger">
           
-            
-              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
-            
-            搜索
-          </a>
-        </li>
-      
-    </ul>
-  
-
-  
-    <div class="site-search">
-      
-  <div class="popup search-popup local-search-popup">
-  <div class="local-search-header clearfix">
-    <span class="search-icon">
-      <i class="fa fa-search"></i>
-    </span>
-    <span class="popup-btn-close">
-      <i class="fa fa-times-circle"></i>
-    </span>
-    <div class="local-search-input-wrapper">
-      <input autocomplete="off"
-             placeholder="搜索..." spellcheck="false"
-             type="text" id="local-search-input">
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/" target="_self">
+                <i class="iconfont icon-home-fill"></i>
+                <span>首页</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/" target="_self">
+                <i class="iconfont icon-archive-fill"></i>
+                <span>归档</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/" target="_self">
+                <i class="iconfont icon-category-fill"></i>
+                <span>分类</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/" target="_self">
+                <i class="iconfont icon-tags-fill"></i>
+                <span>标签</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/" target="_self">
+                <i class="iconfont icon-user-fill"></i>
+                <span>关于</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/links/" target="_self">
+                <i class="iconfont icon-link-fill"></i>
+                <span>友链</span>
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              <i class="iconfont icon-search"></i>
+            </a>
+          </li>
+          
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">
+              <i class="iconfont icon-dark" id="color-toggle-icon"></i>
+            </a>
+          </li>
+        
+      </ul>
     </div>
   </div>
-  <div id="local-search-result"></div>
-</div>
-
-
-
-    </div>
-  
 </nav>
 
-
-
- </div>
-    </header>
-
-    <main id="main" class="main">
-      <div class="main-inner">
-        <div class="content-wrap">
-          <div id="content" class="content">
-            
-  <section id="posts" class="posts-expand">
-    
-      
-
   
 
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://OptimusHimself.github.io/2025/04/23/Linux-Journey/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/sidebarAVATAR-runwiththewind.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Tyrone Opting's Blog">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2025/04/23/Linux-Journey/" itemprop="url">Linux Journey</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2025-04-23T21:52:47+08:00">
-                2025-04-23
-              </time>
-            
-
-            
-
-            
-          </span>
-
+<div id="banner" class="banner" parallax=true
+     style="background: url('/img/banner_img/giantsky.png') no-repeat center center; background-size: cover;">
+  <div class="full-bg-img">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+      <div class="banner-text text-center fade-in-up">
+        <div class="h2">
           
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/" itemprop="url" rel="index">
-                    <span itemprop="name">学习路线</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
+            <span id="subtitle" data-typed-text="世上无难事，只要肯登攀"></span>
           
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-            <div class="post-wordcount">
-              
-                
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-file-word-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">字数统计&#58;</span>
-                
-                <span title="字数统计">
-                  1k
-                </span>
-              
-
-              
-                <span class="post-meta-divider">|</span>
-              
-
-              
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-clock-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
-                
-                <span title="阅读时长">
-                  4 mins.
-                </span>
-              
-            </div>
-          
-
-          
-
         </div>
-      </header>
-    
 
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
         
-          
-          摘要我第一次接触Linux，我和Linux的故事：从装系统、做项目、无数次“入坑”又“弃坑”。最终又成功登上正轨的学习感悟。 总结了优质的学习资源以及使用方法，更重要的：新手应该避开哪些问题。如果你赶时间，直接看TakeAway。给出了一套简洁、无门槛的学习指南不包含：装系统的细节
-我和Linux的故事
-初次接触：
-开始使用：
-弃坑原因：
-发现好书，自信满满。止步于WSL2
+      </div>
 
-
-关于选什么系统推荐使用：Zorin
-WSL2为什么不行
-不要做的&#x2F;应该放下的思绪：障碍：
-
-纠结用什么系统
-上手就装炫酷的软件，玩各种配置。
-看不起基础的Text-Fu（文本操作&#x2F;路径导航的功夫）
-
-          ...
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2025/04/23/Linux-Journey/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
+      
+        <div class="scroll-down-bar">
+          <i class="iconfont icon-arrowdown"></i>
+        </div>
       
     </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
   </div>
-  
-  
-  
-  </article>
+</div>
 
+</div>
 
+  </header>
+
+  <main>
     
+      <div class="container nopadding-x-md">
+        <div id="board"
+          style="margin-top: 0">
+          
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-10 m-auto">
+                
+
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h2 class="index-header">
+        
+        <a href="/2025/04/29/%E7%94%A8%E5%A5%BD%E4%BB%A3%E7%90%86/" target="_self">
+          科学上网
+        </a>
+      </h2>
+
       
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://OptimusHimself.github.io/2025/04/19/gitconcepts/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/sidebarAVATAR-runwiththewind.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Tyrone Opting's Blog">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2025/04/19/gitconcepts/" itemprop="url">不一样的Git教程 —— GIT基础设置</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2025-04-19T16:00:00+08:00">
-                2025-04-19
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E6%95%99%E7%A8%8B/" itemprop="url" rel="index">
-                    <span itemprop="name">教程</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-            <div class="post-wordcount">
-              
-                
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-file-word-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">字数统计&#58;</span>
-                
-                <span title="字数统计">
-                  344
-                </span>
-              
-
-              
-                <span class="post-meta-divider">|</span>
-              
-
-              
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-clock-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
-                
-                <span title="阅读时长">
-                  1 mins.
-                </span>
-              
-            </div>
-          
-
-          
-
+      <a class="index-excerpt index-excerpt__noimg" href="/2025/04/29/%E7%94%A8%E5%A5%BD%E4%BB%A3%E7%90%86/" target="_self">
+        <div>
+          摘要重要内容：代理软件常用功能的解释，常见的使用场景（Linux &#x2F; Windows），整活常见涉及到的Proxy命令不会包含的内容：1.推荐机场 2.代理软件的推荐 takeaways: important conceptsgrossery机场VPN代理（软件） 功能 全局模式 规则模式   系统代理 TUN 不同Shell的代理配置命令PowerShell123$env:http_p
         </div>
-      </header>
-    
+      </a>
 
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
+      <div class="index-btm post-metas">
         
-          
-          摘要本文希望科普git的重要概念以更好地帮助你使用git。 看完本篇内容（git基础）你将方便地用git完成个人项目，但想管理团队，还需要更多的知识
-重点： 明白四个stage的概念。明白push, pull, commit, pull request的中文含义非重点： 记指令的语法（因为github desktop完美替代了初学者所需的操作）
-grocery
-          
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2025/04/19/gitconcepts/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2025-04-29 22:00" pubdate>
+              2025-04-29
+            </time>
           </div>
-          <!--/noindex-->
         
-      
-    </div>
+        
+          <div class="post-meta mr-3 d-flex align-items-center">
+            <i class="iconfont icon-category"></i>
+            
+
+<span class="category-chains">
+  
+  
     
+      <span class="category-chain">
+        
+  <a href="/categories/%E6%95%99%E7%A8%8B/" class="category-chain-item">教程</a>
+  
+  
+
+      </span>
     
-    
+  
+</span>
 
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
+          </div>
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/Clash-Proxy-Server/">#Clash Proxy Server</a>
+            
+          </div>
+        
+      </div>
+    </article>
   </div>
-  
-  
-  
-  </article>
 
-
+  <div class="row mx-auto index-card">
     
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h2 class="index-header">
+        
+        <a href="/2025/04/24/%E6%88%91%E7%9A%84A%E8%AF%81/" target="_self">
+          我的A证
+        </a>
+      </h2>
+
       
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://OptimusHimself.github.io/2025/04/11/AI%E6%97%B6%E4%BB%A3%E7%9A%84%E6%80%9D%E8%80%83%EF%BC%881%EF%BC%89-%E6%80%9D%E7%BB%B4%E5%92%8C%E8%AE%A8%E8%AE%BA/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/sidebarAVATAR-runwiththewind.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Tyrone Opting's Blog">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2025/04/11/AI%E6%97%B6%E4%BB%A3%E7%9A%84%E6%80%9D%E8%80%83%EF%BC%881%EF%BC%89-%E6%80%9D%E7%BB%B4%E5%92%8C%E8%AE%A8%E8%AE%BA/" itemprop="url">AI时代的思考（1）-- 思维和讨论</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2025-04-11T10:54:45+08:00">
-                2025-04-11
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E7%94%9F%E6%B4%BB%E6%84%9F%E6%82%9F/" itemprop="url" rel="index">
-                    <span itemprop="name">生活感悟</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-            <div class="post-wordcount">
-              
-                
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-file-word-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">字数统计&#58;</span>
-                
-                <span title="字数统计">
-                  925
-                </span>
-              
-
-              
-                <span class="post-meta-divider">|</span>
-              
-
-              
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-clock-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
-                
-                <span title="阅读时长">
-                  3 mins.
-                </span>
-              
-            </div>
-          
-
-          
-
+      <a class="index-excerpt index-excerpt__noimg" href="/2025/04/24/%E6%88%91%E7%9A%84A%E8%AF%81/" target="_self">
+        <div>
+          摘要记录笔者考A证的时间线。还有给新手的建议（不包括复习）以下，中国无线电协会业余电台操作证书叫做操作证。 中国人民共和国无线电台执照叫做（无线）电台执照。 时间线4.19 考试4.24 上网查看，通过了。5.12 拿到操作证。验机、填表、申请电台执照。5.30.执照通过 (其实执照上的有效期是5.22起，北京无线电协会的通知会晚一点儿)6.4 申请邮寄执照6.6 终于拿到邮寄的执照啦！（今天
         </div>
-      </header>
-    
+      </a>
 
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
+      <div class="index-btm post-metas">
         
-          
-          和朋友聊一个经济学问题——为什么美国可以持续向外输出美元，维持巨大的财政赤字。而中国不可以。其实，我期待能和他一步步挖出财政支出和资本收入等核心概念。但聊着聊着，他就回应：“我也是三脚猫功夫，你问问ChatGPT呗”。类似的对话和其他朋友也有过。　　“ChatGPT, DeepSeek”这些大语言模型成为了人们日常聊天的主角。 你问了DeepSeek吗？　　似乎这些LLM是知识的象征，他们的观点都是对的。 的确，通过优质的网页内容、大量的科学数据训练出的LLM不论是表达能力还是专业性、实战性都吊打大部分本科生。　　但是这和聊天有什么关系？我和你聊天的目的是为了得到一个正确的答案吗？我想要的只不
-          ...
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2025/04/11/AI%E6%97%B6%E4%BB%A3%E7%9A%84%E6%80%9D%E8%80%83%EF%BC%881%EF%BC%89-%E6%80%9D%E7%BB%B4%E5%92%8C%E8%AE%A8%E8%AE%BA/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2025-04-24 23:38" pubdate>
+              2025-04-24
+            </time>
           </div>
-          <!--/noindex-->
         
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/%E6%97%A5%E8%AE%B0/">#日记</a>
+            
+              <a href="/tags/HAM/">#HAM</a>
+            
+          </div>
+        
+      </div>
+    </article>
   </div>
-  
-  
-  
-  </article>
 
-
+  <div class="row mx-auto index-card">
     
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h2 class="index-header">
+        
+        <a href="/2025/04/23/Python-Journey/" target="_self">
+          Python Journey
+        </a>
+      </h2>
+
       
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://OptimusHimself.github.io/2025/04/03/daxing/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/sidebarAVATAR-runwiththewind.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Tyrone Opting's Blog">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2025/04/03/daxing/" itemprop="url">大兴追音记</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2025-04-03T00:24:25+08:00">
-                2025-04-03
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E6%95%B4%E6%B4%BB/" itemprop="url" rel="index">
-                    <span itemprop="name">整活</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-            <div class="post-wordcount">
-              
-                
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-file-word-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">字数统计&#58;</span>
-                
-                <span title="字数统计">
-                  1.6k
-                </span>
-              
-
-              
-                <span class="post-meta-divider">|</span>
-              
-
-              
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-clock-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
-                
-                <span title="阅读时长">
-                  6 mins.
-                </span>
-              
-            </div>
-          
-
-          
-
+      <a class="index-excerpt index-excerpt__noimg" href="/2025/04/23/Python-Journey/" target="_self">
+        <div>
+          摘要python其实是一门很简单易学的语言。 但是很多人依然学着头疼。 考虑到每个人的情况不同，本文主要面向没有太多项目经历但对计算机有了解（知道OOP，学过C&#x2F;Java…）的小白。本文推荐了学习资源，介绍了我入门的过程。分析了导致python学习效果不好的原因（personal）。
         </div>
-      </header>
-    
+      </a>
 
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
+      <div class="index-btm post-metas">
         
-          
-          本文记录了和WZA的第二次SDR整活儿的经历。蹲在大兴机厂附近的农场收听塔台和机长的对话。
-
-从SDR入手，我们就用它收听了汽车电台并计划在清明假期前一天，去机场听听电波。  
-
-d2sk
-Wireless &amp; SDRRF Gain:在监听飞机通信时，合理调整RF增益（射频增益） 和其他参数可以显著改善音质
-降白噪  
-我们常光顾的频段：  
-为什么要不停的换频段  
-带宽的选择：我们花了很长时间设置带宽，DeepSeek推荐的25000Hz噪音太多了。后来用11000Hz的带宽收听。
-dBFSdBFS（Decibels relative to Full Scale，全量程分贝）是用来
-          ...
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2025/04/03/daxing/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2025-04-23 21:54" pubdate>
+              2025-04-23
+            </time>
           </div>
-          <!--/noindex-->
         
-      
-    </div>
+        
+          <div class="post-meta mr-3 d-flex align-items-center">
+            <i class="iconfont icon-category"></i>
+            
+
+<span class="category-chains">
+  
+  
     
+      <span class="category-chain">
+        
+  <a href="/categories/%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/" class="category-chain-item">学习路线</a>
+  
+  
+
+      </span>
     
-    
+  
+</span>
 
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
+          </div>
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/Programming/">#Programming</a>
+            
+              <a href="/tags/Python/">#Python</a>
+            
+          </div>
+        
+      </div>
+    </article>
   </div>
-  
-  
-  
-  </article>
 
-
+  <div class="row mx-auto index-card">
     
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h2 class="index-header">
+        
+        <a href="/2025/04/23/Cpp-Journey/" target="_self">
+          Cpp Journey
+        </a>
+      </h2>
+
       
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://OptimusHimself.github.io/2025/03/25/%E5%92%8C%E4%BB%B2%E6%95%96%E7%9A%84SDR%E6%97%A5%E8%AE%B0/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/sidebarAVATAR-runwiththewind.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Tyrone Opting's Blog">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2025/03/25/%E5%92%8C%E4%BB%B2%E6%95%96%E7%9A%84SDR%E6%97%A5%E8%AE%B0/" itemprop="url">和仲敖的SDR日记</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2025-03-25T20:40:40+08:00">
-                2025-03-25
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E6%95%B4%E6%B4%BB/" itemprop="url" rel="index">
-                    <span itemprop="name">整活</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-            <div class="post-wordcount">
-              
-                
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-file-word-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">字数统计&#58;</span>
-                
-                <span title="字数统计">
-                  1.2k
-                </span>
-              
-
-              
-                <span class="post-meta-divider">|</span>
-              
-
-              
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-clock-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
-                
-                <span title="阅读时长">
-                  5 mins.
-                </span>
-              
-            </div>
-          
-
-          
-
+      <a class="index-excerpt index-excerpt__noimg" href="/2025/04/23/Cpp-Journey/" target="_self">
+        <div>
+          摘要本文属于我的“学习路线”系列文章。 介绍了自认为成功且有一定效率的学习方法。 本文会介绍笔者的入门C++的过程（学习时长&amp;成果），推荐一套可靠的方法，分享有用的资源。本文还总结了学习C++容易遇到的问题 推荐路线，前置基础容易遇到的问题 &amp; 解决 搞不清编译器、工具链等概念。听到MSVC Clang Clang++ G++ GCC MinGW等词汇就一头包，畏畏缩缩。担心自己搞
         </div>
-      </header>
-    
+      </a>
 
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
+      <div class="index-btm post-metas">
         
-          
-           下午逃课和仲敖玩SDR，收听了北京汽车广播。在日记里，我想记下几个难忘的瞬间。
-
-1仲敖问Deepseek北京电台的信息，然后说：切98，98有音乐！  
-
-2 仲敖生病了依然陪我开箱，陪我安装，搞软件。 非常有耐心地陪我读文档、装软件，今天的成功，离不开我这位好朋友。  
-3 争论SDR# 软件上Bandwidth功能的实现原理，我认为是主板给滤波器发送信号调控硬件中的BPF，而仲敖坚持认为是软件对天线收到的所有信号进行处理。我们用一餐饭打赌，仲敖后来输了。    
-4 起初这条懒狗还不愿意陪我拿快递（当时挺失望的，同时也理解他生病的状态）。不过，后来在我的哄骗下还是一块去了。最后，我问他
-          ...
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2025/03/25/%E5%92%8C%E4%BB%B2%E6%95%96%E7%9A%84SDR%E6%97%A5%E8%AE%B0/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2025-04-23 21:53" pubdate>
+              2025-04-23
+            </time>
           </div>
-          <!--/noindex-->
         
-      
-    </div>
+        
+          <div class="post-meta mr-3 d-flex align-items-center">
+            <i class="iconfont icon-category"></i>
+            
+
+<span class="category-chains">
+  
+  
     
+      <span class="category-chain">
+        
+  <a href="/categories/%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/" class="category-chain-item">学习路线</a>
+  
+  
+
+      </span>
     
-    
+  
+</span>
 
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
+          </div>
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/Programming/">#Programming</a>
+            
+              <a href="/tags/C/">#C++</a>
+            
+          </div>
+        
+      </div>
+    </article>
   </div>
-  
-  
-  
-  </article>
 
-
+  <div class="row mx-auto index-card">
     
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h2 class="index-header">
+        
+        <a href="/2025/04/23/Linux-Journey/" target="_self">
+          Linux Journey
+        </a>
+      </h2>
+
       
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://OptimusHimself.github.io/2025/03/25/%E9%98%85%E8%AF%BB%E6%8E%A8%E8%8D%90/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/sidebarAVATAR-runwiththewind.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Tyrone Opting's Blog">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2025/03/25/%E9%98%85%E8%AF%BB%E6%8E%A8%E8%8D%90/" itemprop="url">Books Recommandation</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2025-03-25T00:00:00+08:00">
-                2025-03-25
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E5%A5%BD%E7%89%A9%E6%8E%A8%E8%8D%90/" itemprop="url" rel="index">
-                    <span itemprop="name">好物推荐</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-            <div class="post-wordcount">
-              
-                
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-file-word-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">字数统计&#58;</span>
-                
-                <span title="字数统计">
-                  4.9k
-                </span>
-              
-
-              
-                <span class="post-meta-divider">|</span>
-              
-
-              
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-clock-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
-                
-                <span title="阅读时长">
-                  18 mins.
-                </span>
-              
-            </div>
-          
-
-          
-
+      <a class="index-excerpt index-excerpt__noimg" href="/2025/04/23/Linux-Journey/" target="_self">
+        <div>
+          摘要我第一次接触Linux，我和Linux的故事：从装系统、做项目、无数次“入坑”又“弃坑”。最终又成功登上正轨的学习感悟。 总结了优质的学习资源以及使用方法，更重要的：新手应该避开哪些问题。如果你赶时间，直接看TakeAway。给出了一套简洁、无门槛的学习指南不包含：装系统的细节 我和Linux的故事 初次接触： 开始使用： 弃坑原因： 发现好书，自信满满。止步于WSL2   关于选什么系统推荐
         </div>
-      </header>
-    
+      </a>
 
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
+      <div class="index-btm post-metas">
         
-          
-          这是一个来自IoT专业。我从读大学之后开始热爱读书、算是对各类书籍都感兴趣。在这之前，很少阅读课外书籍。这份清单涵盖了我阅读过的并且其中的某些片段为我留下了深刻印象、并对我的学习生活、个人修养产生过积极影响的书籍（真的，读书很神奇，你会因为梳理的内容做出很多改变，哪怕有些只有一个月。
-高端科普、社会知识类通过读大师的作品，品味伟大的成就，从精品里学习，开阔了你的视野。从精粹中学到的思维方式让你在成事、看热点问题、社会上的宏观问题带来更新颖的思维方式。阅读这类作品，需要结合自身经历思考、留记录
-科学中国人系列杂志我的阅读背景：我于2025.3月（大三下），在图书馆的杂志区，接触科学中国人。 这一
-          ...
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2025/03/25/%E9%98%85%E8%AF%BB%E6%8E%A8%E8%8D%90/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2025-04-23 21:52" pubdate>
+              2025-04-23
+            </time>
           </div>
-          <!--/noindex-->
         
-      
-    </div>
+        
+          <div class="post-meta mr-3 d-flex align-items-center">
+            <i class="iconfont icon-category"></i>
+            
+
+<span class="category-chains">
+  
+  
     
+      <span class="category-chain">
+        
+  <a href="/categories/%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/" class="category-chain-item">学习路线</a>
+  
+  
+
+      </span>
     
-    
+  
+</span>
 
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
+          </div>
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/Linux/">#Linux</a>
+            
+          </div>
+        
+      </div>
+    </article>
   </div>
-  
-  
-  
-  </article>
 
-
+  <div class="row mx-auto index-card">
     
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h2 class="index-header">
+        
+        <a href="/2025/04/19/gitconcepts/" target="_self">
+          不一样的Git教程 —— GIT基础设置
+        </a>
+      </h2>
+
       
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://OptimusHimself.github.io/2025/03/21/%E8%AE%BA%E6%8C%81%E4%B9%85%E6%88%98/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/sidebarAVATAR-runwiththewind.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Tyrone Opting's Blog">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2025/03/21/%E8%AE%BA%E6%8C%81%E4%B9%85%E6%88%98/" itemprop="url">论持久战</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2025-03-21T00:00:00+08:00">
-                2025-03-21
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E7%94%9F%E6%B4%BB%E6%84%9F%E6%82%9F/" itemprop="url" rel="index">
-                    <span itemprop="name">生活感悟</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-            <div class="post-wordcount">
-              
-                
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-file-word-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">字数统计&#58;</span>
-                
-                <span title="字数统计">
-                  1.7k
-                </span>
-              
-
-              
-                <span class="post-meta-divider">|</span>
-              
-
-              
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-clock-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
-                
-                <span title="阅读时长">
-                  6 mins.
-                </span>
-              
-            </div>
-          
-
-          
-
+      <a class="index-excerpt index-excerpt__noimg" href="/2025/04/19/gitconcepts/" target="_self">
+        <div>
+          摘要本文希望科普git的重要概念以更好地帮助你使用git。 看完本篇内容（git基础）你将方便地用git完成个人项目，但想管理团队，还需要更多的知识 重点： 明白四个stage的概念。明白push, pull, commit, pull request的中文含义非重点： 记指令的语法（因为github desktop完美替代了初学者所需的操作） grocery
         </div>
-      </header>
-    
+      </a>
 
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
+      <div class="index-btm post-metas">
         
-          
-          从午休后到晚上10点，我全身心投入在模拟通信系统的调制技术的学习中。这是一次伟大的学习过程，因为我学会了“持久”。 我喜欢学习，但我的学习方法不算高效，或者说，在此之前，我没有一个通用的“学习思维”。 我能学好某些知识，归功于我擅长找好的教材、课程，从优质资源中汲取知识。但这只是途径问题，找好的教材是学习的第一步，属于“捷径方法论”。而现在要讨论的是：利用资源和规划时间。因为这一块工作没有做好，会让你在一个领域的开始阶段举步维艰，被那些“懂学习”的人拉开差距。我反思，为什么我作为一个CS专业的学生，到大三了才进入程序设计的全盛、兴趣爆棚的学习状态。慢热，真的好吗？
-拿通信原理这门课来说。要了解
-          ...
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2025/03/21/%E8%AE%BA%E6%8C%81%E4%B9%85%E6%88%98/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2025-04-19 16:00" pubdate>
+              2025-04-19
+            </time>
           </div>
-          <!--/noindex-->
         
-      
-    </div>
+        
+          <div class="post-meta mr-3 d-flex align-items-center">
+            <i class="iconfont icon-category"></i>
+            
+
+<span class="category-chains">
+  
+  
     
+      <span class="category-chain">
+        
+  <a href="/categories/%E6%95%99%E7%A8%8B/" class="category-chain-item">教程</a>
+  
+  
+
+      </span>
     
-    
+  
+</span>
 
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
+          </div>
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/GIT/">#GIT</a>
+            
+          </div>
+        
+      </div>
+    </article>
   </div>
-  
-  
-  
-  </article>
 
-
+  <div class="row mx-auto index-card">
     
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h2 class="index-header">
+        
+        <a href="/2025/04/11/AI%E6%97%B6%E4%BB%A3%E7%9A%84%E6%80%9D%E8%80%83%EF%BC%881%EF%BC%89-%E6%80%9D%E7%BB%B4%E5%92%8C%E8%AE%A8%E8%AE%BA/" target="_self">
+          AI时代的思考（1）-- 思维和讨论
+        </a>
+      </h2>
+
       
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://OptimusHimself.github.io/2025/03/20/%E4%BF%9D%E7%A0%94%E6%97%B6%E6%9C%9F%E7%9A%84%E6%88%91/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/sidebarAVATAR-runwiththewind.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Tyrone Opting's Blog">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2025/03/20/%E4%BF%9D%E7%A0%94%E6%97%B6%E6%9C%9F%E7%9A%84%E6%88%91/" itemprop="url">保研时期的我</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2025-03-20T00:00:00+08:00">
-                2025-03-20
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E7%94%9F%E6%B4%BB%E6%84%9F%E6%82%9F/" itemprop="url" rel="index">
-                    <span itemprop="name">生活感悟</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-            <div class="post-wordcount">
-              
-                
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-file-word-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">字数统计&#58;</span>
-                
-                <span title="字数统计">
-                  703
-                </span>
-              
-
-              
-                <span class="post-meta-divider">|</span>
-              
-
-              
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-clock-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
-                
-                <span title="阅读时长">
-                  3 mins.
-                </span>
-              
-            </div>
-          
-
-          
-
+      <a class="index-excerpt index-excerpt__noimg" href="/2025/04/11/AI%E6%97%B6%E4%BB%A3%E7%9A%84%E6%80%9D%E8%80%83%EF%BC%881%EF%BC%89-%E6%80%9D%E7%BB%B4%E5%92%8C%E8%AE%A8%E8%AE%BA/" target="_self">
+        <div>
+          和朋友聊一个经济学问题——为什么美国可以持续向外输出美元，维持巨大的财政赤字。而中国不可以。其实，我期待能和他一步步挖出财政支出和资本收入等核心概念。但聊着聊着，他就回应：“我也是三脚猫功夫，你问问ChatGPT呗”。类似的对话和其他朋友也有过。　　“ChatGPT, DeepSeek”这些大语言模型成为了人们日常聊天的主角。 你问了DeepSeek吗？　　似乎这些LLM是知识的象征，他们的观点都
         </div>
-      </header>
-    
+      </a>
 
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
+      <div class="index-btm post-metas">
         
-          
-          保研圈，不乏激烈的竞争。在这个圈子里，我看到了可敬的对手，看到了绿群里的大佬，也坚定了我的梦想。我的愿望是到名校和更好的老师、同学、师兄师姐们交流学习。我相信，只要保研到我的梦校浙大、进入到研究小组中，就一定能进步、学习更多的专业技能。以后就能做更多有价值的事情。但最近，我变得有些紧张，我担心我的简历还不够好，算法题刷得还不够多，没有论文背景，“套磁“也没人肯收我。我一直在攀比，生怕把学习专业课而不是卷所谓的那些算法、论文是在浪费时间。我还纠结自己适合什么专业，能读什么专业。是偏向研究底层的方向（计算机架构、分布式系统、网络）还是前沿的应用方向（软件开发、AI）。对各个行业都略懂一二的我对自己
-          ...
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2025/03/20/%E4%BF%9D%E7%A0%94%E6%97%B6%E6%9C%9F%E7%9A%84%E6%88%91/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2025-04-11 10:54" pubdate>
+              2025-04-11
+            </time>
           </div>
-          <!--/noindex-->
         
-      
-    </div>
+        
+          <div class="post-meta mr-3 d-flex align-items-center">
+            <i class="iconfont icon-category"></i>
+            
+
+<span class="category-chains">
+  
+  
     
+      <span class="category-chain">
+        
+  <a href="/categories/%E7%94%9F%E6%B4%BB%E6%84%9F%E6%82%9F/" class="category-chain-item">生活感悟</a>
+  
+  
+
+      </span>
     
-    
+  
+</span>
 
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
+          </div>
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/%E6%97%A5%E8%AE%B0/">#日记</a>
+            
+          </div>
+        
+      </div>
+    </article>
   </div>
-  
-  
-  
-  </article>
 
-
+  <div class="row mx-auto index-card">
     
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h2 class="index-header">
+        
+        <a href="/2025/04/03/daxing/" target="_self">
+          大兴追音记
+        </a>
+      </h2>
+
       
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://OptimusHimself.github.io/2025/03/09/%E5%9C%A8hexo%E5%8D%9A%E5%AE%A2%E4%B8%AD%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E3%80%90%E6%96%B9%E6%A1%88%E6%B1%87%E6%80%BB%E3%80%91/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/sidebarAVATAR-runwiththewind.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Tyrone Opting's Blog">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2025/03/09/%E5%9C%A8hexo%E5%8D%9A%E5%AE%A2%E4%B8%AD%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E3%80%90%E6%96%B9%E6%A1%88%E6%B1%87%E6%80%BB%E3%80%91/" itemprop="url">在hexo博客中插入图片(方案汇总)</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2025-03-09T19:36:41+08:00">
-                2025-03-09
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E6%95%99%E7%A8%8B/" itemprop="url" rel="index">
-                    <span itemprop="name">教程</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-            <div class="post-wordcount">
-              
-                
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-file-word-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">字数统计&#58;</span>
-                
-                <span title="字数统计">
-                  1.8k
-                </span>
-              
-
-              
-                <span class="post-meta-divider">|</span>
-              
-
-              
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-clock-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
-                
-                <span title="阅读时长">
-                  7 mins.
-                </span>
-              
-            </div>
-          
-
-          
-
+      <a class="index-excerpt index-excerpt__noimg" href="/2025/04/03/daxing/" target="_self">
+        <div>
+          本文记录了和WZA的第二次SDR整活儿的经历。蹲在大兴机厂附近的农场收听塔台和机长的对话。  从SDR入手，我们就用它收听了汽车电台并计划在清明假期前一天，去机场听听电波。    d2sk Wireless &amp; SDRRF Gain:在监听飞机通信时，合理调整RF增益（射频增益） 和其他参数可以显著改善音质 降白噪   我们常光顾的频段：   为什么要不停的换频段   带宽的选择：我们花了
         </div>
-      </header>
-    
+      </a>
 
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
+      <div class="index-btm post-metas">
         
-          
-          放弃的方案：原生的 hexo add on: hexo-assetpost_asset_folder: false #true
-
-语法格式恶心，既不是 md 也不是 HTML，自带的一种渲染格式
-尝试多次未成功
-
-能使用的方案：PicX简介
-gitbub 有一个叫做 picx 的项目, 是一个网站，你可以往它的官网上传（本机的）图，会自动生成一个链接赋值到剪切板上。
-特点：手动在 blog md file 里放 html img 标签； 支持使用 GitHub 图床（own repo，free）等其他图床
-
-优缺点
-优点： PicX 自动生成图片 url, 完全免费（薅微软 Github 服务
-          ...
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2025/03/09/%E5%9C%A8hexo%E5%8D%9A%E5%AE%A2%E4%B8%AD%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E3%80%90%E6%96%B9%E6%A1%88%E6%B1%87%E6%80%BB%E3%80%91/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2025-04-03 00:24" pubdate>
+              2025-04-03
+            </time>
           </div>
-          <!--/noindex-->
         
-      
-    </div>
+        
+          <div class="post-meta mr-3 d-flex align-items-center">
+            <i class="iconfont icon-category"></i>
+            
+
+<span class="category-chains">
+  
+  
     
+      <span class="category-chain">
+        
+  <a href="/categories/%E6%95%B4%E6%B4%BB/" class="category-chain-item">整活</a>
+  
+  
+
+      </span>
     
-    
+  
+</span>
 
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
+          </div>
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/%E6%97%A5%E8%AE%B0/">#日记</a>
+            
+              <a href="/tags/SDR%E5%85%A5%E9%97%A8/">#SDR入门</a>
+            
+          </div>
+        
+      </div>
+    </article>
   </div>
-  
-  
-  
-  </article>
 
-
+  <div class="row mx-auto index-card">
     
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h2 class="index-header">
+        
+        <a href="/2025/03/25/%E5%92%8C%E4%BB%B2%E6%95%96%E7%9A%84SDR%E6%97%A5%E8%AE%B0/" target="_self">
+          和仲敖的SDR日记
+        </a>
+      </h2>
+
       
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://OptimusHimself.github.io/2025/01/15/%E5%8D%9A%E5%AE%A2%E8%BF%90%E8%90%A5%EF%BC%88%E4%B8%80%EF%BC%89/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/sidebarAVATAR-runwiththewind.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Tyrone Opting's Blog">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2025/01/15/%E5%8D%9A%E5%AE%A2%E8%BF%90%E8%90%A5%EF%BC%88%E4%B8%80%EF%BC%89/" itemprop="url">博客运营（一）</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2025-01-15T20:46:12+08:00">
-                2025-01-15
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E6%95%99%E7%A8%8B/" itemprop="url" rel="index">
-                    <span itemprop="name">教程</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-            <div class="post-wordcount">
-              
-                
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-file-word-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">字数统计&#58;</span>
-                
-                <span title="字数统计">
-                  1.7k
-                </span>
-              
-
-              
-                <span class="post-meta-divider">|</span>
-              
-
-              
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-clock-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
-                
-                <span title="阅读时长">
-                  6 mins.
-                </span>
-              
-            </div>
-          
-
-          
-
+      <a class="index-excerpt index-excerpt__noimg" href="/2025/03/25/%E5%92%8C%E4%BB%B2%E6%95%96%E7%9A%84SDR%E6%97%A5%E8%AE%B0/" target="_self">
+        <div>
+          下午逃课和仲敖玩SDR，收听了北京汽车广播。在日记里，我想记下几个难忘的瞬间。  1仲敖问Deepseek北京电台的信息，然后说：切98，98有音乐！    2 仲敖生病了依然陪我开箱，陪我安装，搞软件。 非常有耐心地陪我读文档、装软件，今天的成功，离不开我这位好朋友。   3 争论SDR# 软件上Bandwidth功能的实现原理，我认为是主板给滤波器发送信号调控硬件中的BPF，而仲敖坚持认为是
         </div>
-      </header>
-    
+      </a>
 
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
+      <div class="index-btm post-metas">
         
-          
-          在哪运营hexo 博客？在哪个路径下、用哪个shell、运行Shell指令答：在你的博客文件夹下，右键：git bash here. 
-我喜欢git bash shell. 因为它支持: &amp;&amp; 运算符，可以连贯的执行操作。把一连串shell commands视作一个整体。
-很神奇的是，不管在哪打开，只要是&#x2F;Blog路径下，就可以执行和hexo有关的指令。我想是因为把Node添加到了环境变量的缘故。
-&nbsp;
-常用的指令
-新建一篇博客 file.md:  hexo new “Your_blog_title”   &#x2F;&#x2F;执行这行指令会生成一个md文件
-          ...
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2025/01/15/%E5%8D%9A%E5%AE%A2%E8%BF%90%E8%90%A5%EF%BC%88%E4%B8%80%EF%BC%89/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2025-03-25 20:40" pubdate>
+              2025-03-25
+            </time>
           </div>
-          <!--/noindex-->
         
-      
-    </div>
+        
+          <div class="post-meta mr-3 d-flex align-items-center">
+            <i class="iconfont icon-category"></i>
+            
+
+<span class="category-chains">
+  
+  
     
+      <span class="category-chain">
+        
+  <a href="/categories/%E6%95%B4%E6%B4%BB/" class="category-chain-item">整活</a>
+  
+  
+
+      </span>
     
-    
+  
+</span>
 
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
+          </div>
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/%E6%97%A5%E8%AE%B0/">#日记</a>
+            
+              <a href="/tags/SDR%E5%85%A5%E9%97%A8/">#SDR入门</a>
+            
+          </div>
+        
+      </div>
+    </article>
   </div>
-  
-  
-  
-  </article>
 
-
+  <div class="row mx-auto index-card">
     
-  </section>
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h2 class="index-header">
+        
+        <a href="/2025/03/25/%E9%98%85%E8%AF%BB%E6%8E%A8%E8%8D%90/" target="_self">
+          Books Recommandation
+        </a>
+      </h2>
 
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2025/03/25/%E9%98%85%E8%AF%BB%E6%8E%A8%E8%8D%90/" target="_self">
+        <div>
+          这是一个来自IoT专业。我从读大学之后开始热爱读书、算是对各类书籍都感兴趣。在这之前，很少阅读课外书籍。这份清单涵盖了我阅读过的并且其中的某些片段为我留下了深刻印象、并对我的学习生活、个人修养产生过积极影响的书籍（真的，读书很神奇，你会因为梳理的内容做出很多改变，哪怕有些只有一个月。 高端科普、社会知识类通过读大师的作品，品味伟大的成就，从精品里学习，开阔了你的视野。从精粹中学到的思维方式让你在成
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2025-03-25 00:00" pubdate>
+              2025-03-25
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3 d-flex align-items-center">
+            <i class="iconfont icon-category"></i>
+            
+
+<span class="category-chains">
   
-  <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/">&lt;i class&#x3D;&quot;fa fa-angle-left&quot;&gt;&lt;&#x2F;i&gt;</a><a class="page-number" href="/">1</a><span class="page-number current">2</span><a class="page-number" href="/page/3/">3</a><a class="extend next" rel="next" href="/page/3/">&lt;i class&#x3D;&quot;fa fa-angle-right&quot;&gt;&lt;&#x2F;i&gt;</a>
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/%E5%A5%BD%E7%89%A9%E6%8E%A8%E8%8D%90/" class="category-chain-item">好物推荐</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+          </div>
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB/">#资源分享</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+
+
+  <nav aria-label="navigation">
+    <span class="pagination" id="pagination">
+      <a class="extend prev" rel="prev" href="/"><i class="iconfont icon-arrowleft"></i></a><a class="page-number" href="/">1</a><span class="page-number current">2</span><a class="page-number" href="/page/3/#board">3</a><a class="extend next" rel="next" href="/page/3/#board"><i class="iconfont icon-arrowright"></i></a>
+    </span>
   </nav>
 
 
 
+              </div>
+            </div>
           </div>
-          
-
-
-          
-
         </div>
-        
-          
-  
-  <div class="sidebar-toggle">
-    <div class="sidebar-toggle-line-wrap">
-      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+      </div>
+    
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v" for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
     </div>
   </div>
+</div>
 
-  <aside id="sidebar" class="sidebar">
     
-    <div class="sidebar-inner">
 
-      
+    
+  </main>
 
-      
-
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
-        <div class="site-overview">
-          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-            
-              <img class="site-author-image" itemprop="image"
-                src="/images/sidebarAVATAR-runwiththewind.jpg"
-                alt="" />
-            
-              <p class="site-author-name" itemprop="name"></p>
-              <p class="site-description motion-element" itemprop="description"></p>
-          </div>
-
-          <nav class="site-state motion-element">
-
-            
-              <div class="site-state-item site-state-posts">
-              
-                <a href="/archives/%7C%7C%20archive">
-              
-                  <span class="site-state-item-count">21</span>
-                  <span class="site-state-item-name">日志</span>
-                </a>
-              </div>
-            
-
-            
-              
-              
-              <div class="site-state-item site-state-categories">
-                <a href="/categories/index.html">
-                  <span class="site-state-item-count">6</span>
-                  <span class="site-state-item-name">分类</span>
-                </a>
-              </div>
-            
-
-            
-              
-              
-              <div class="site-state-item site-state-tags">
-                <a href="/tags/index.html">
-                  <span class="site-state-item-count">18</span>
-                  <span class="site-state-item-name">标签</span>
-                </a>
-              </div>
-            
-
-          </nav>
-
-          
-
-          
-
-          
-          
-
-          
-          
-
-          
-
-        </div>
-      </section>
-
-      
-
-      
-        <div class="back-to-top">
-          <i class="fa fa-arrow-up"></i>
-          
-            <span id="scrollpercent"><span>0</span>%</span>
-          
-        </div>
-      
-
+  <footer>
+    <div class="footer-inner">
+  
+    <div class="footer-content">
+       <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
     </div>
-  </aside>
-
-
-        
-      </div>
-    </main>
-
-    <footer id="footer" class="footer">
-      <div class="footer-inner">
-        <div class="copyright">&copy; 2024 &mdash; <span itemprop="copyrightYear">2025</span>
-  <span class="with-love">
-    <i class="fa fa-fa fa-heart"></i>
-  </span>
-  <span class="author" itemprop="copyrightHolder">Tyrone Opting</span>
-
+  
+  
   
 </div>
 
+  </footer>
 
-  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
-
-
-
-  <span class="post-meta-divider">|</span>
-
-
-
-  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Gemini</a></div>
-
-
-
-
-
-<!-- 不蒜子统计:header/footer not head.swig -->
-<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-        
-
-
-
-
-
-
-
-        
-      </div>
-    </footer>
-
-    
-
-    
-
-  </div>
-
+  <!-- Scripts -->
   
-
-<script type="text/javascript">
-  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
-    window.Promise = null;
-  }
-</script>
-
-
-
-
-
-
-
-
-
-  
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
-  
-
-
-  
-
-
-  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
-
-  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
-
-
-
-  
-  
-
-
-  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
-
-  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
-
-
-
-  
-
-  
-
-
-  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
-
-
-
-  
-
-
-  
-
-
-
-
-	
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-  <script type="text/javascript">
-    // Popup Window;
-    var isfetched = false;
-    var isXml = true;
-    // Search DB path;
-    var search_path = "search.xml";
-    if (search_path.length === 0) {
-      search_path = "search.xml";
-    } else if (/json$/i.test(search_path)) {
-      isXml = false;
-    }
-    var path = "/" + search_path;
-    // monitor main search box;
-
-    var onPopupClose = function (e) {
-      $('.popup').hide();
-      $('#local-search-input').val('');
-      $('.search-result-list').remove();
-      $('#no-result').remove();
-      $(".local-search-pop-overlay").remove();
-      $('body').css('overflow', '');
-    }
-
-    function proceedsearch() {
-      $("body")
-        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
-        .css('overflow', 'hidden');
-      $('.search-popup-overlay').click(onPopupClose);
-      $('.popup').toggle();
-      var $localSearchInput = $('#local-search-input');
-      $localSearchInput.attr("autocapitalize", "none");
-      $localSearchInput.attr("autocorrect", "off");
-      $localSearchInput.focus();
-    }
-
-    // search function;
-    var searchFunc = function(path, search_id, content_id) {
-      'use strict';
-
-      // start loading animation
-      $("body")
-        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
-          '<div id="search-loading-icon">' +
-          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
-          '</div>' +
-          '</div>')
-        .css('overflow', 'hidden');
-      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
-
-      $.ajax({
-        url: path,
-        dataType: isXml ? "xml" : "json",
-        async: true,
-        success: function(res) {
-          // get the contents from search data
-          isfetched = true;
-          $('.popup').detach().appendTo('.header-inner');
-          var datas = isXml ? $("entry", res).map(function() {
-            return {
-              title: $("title", this).text(),
-              content: $("content",this).text(),
-              url: $("url" , this).text()
-            };
-          }).get() : res;
-          var input = document.getElementById(search_id);
-          var resultContent = document.getElementById(content_id);
-          var inputEventFunction = function() {
-            var searchText = input.value.trim().toLowerCase();
-            var keywords = searchText.split(/[\s\-]+/);
-            if (keywords.length > 1) {
-              keywords.push(searchText);
-            }
-            var resultItems = [];
-            if (searchText.length > 0) {
-              // perform local searching
-              datas.forEach(function(data) {
-                var isMatch = false;
-                var hitCount = 0;
-                var searchTextCount = 0;
-                var title = data.title.trim();
-                var titleInLowerCase = title.toLowerCase();
-                var content = data.content.trim().replace(/<[^>]+>/g,"");
-                var contentInLowerCase = content.toLowerCase();
-                var articleUrl = decodeURIComponent(data.url);
-                var indexOfTitle = [];
-                var indexOfContent = [];
-                // only match articles with not empty titles
-                if(title != '') {
-                  keywords.forEach(function(keyword) {
-                    function getIndexByWord(word, text, caseSensitive) {
-                      var wordLen = word.length;
-                      if (wordLen === 0) {
-                        return [];
-                      }
-                      var startPosition = 0, position = [], index = [];
-                      if (!caseSensitive) {
-                        text = text.toLowerCase();
-                        word = word.toLowerCase();
-                      }
-                      while ((position = text.indexOf(word, startPosition)) > -1) {
-                        index.push({position: position, word: word});
-                        startPosition = position + wordLen;
-                      }
-                      return index;
-                    }
-
-                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
-                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
-                  });
-                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
-                    isMatch = true;
-                    hitCount = indexOfTitle.length + indexOfContent.length;
-                  }
-                }
-
-                // show search results
-
-                if (isMatch) {
-                  // sort index by position of keyword
-
-                  [indexOfTitle, indexOfContent].forEach(function (index) {
-                    index.sort(function (itemLeft, itemRight) {
-                      if (itemRight.position !== itemLeft.position) {
-                        return itemRight.position - itemLeft.position;
-                      } else {
-                        return itemLeft.word.length - itemRight.word.length;
-                      }
-                    });
-                  });
-
-                  // merge hits into slices
-
-                  function mergeIntoSlice(text, start, end, index) {
-                    var item = index[index.length - 1];
-                    var position = item.position;
-                    var word = item.word;
-                    var hits = [];
-                    var searchTextCountInSlice = 0;
-                    while (position + word.length <= end && index.length != 0) {
-                      if (word === searchText) {
-                        searchTextCountInSlice++;
-                      }
-                      hits.push({position: position, length: word.length});
-                      var wordEnd = position + word.length;
-
-                      // move to next position of hit
-
-                      index.pop();
-                      while (index.length != 0) {
-                        item = index[index.length - 1];
-                        position = item.position;
-                        word = item.word;
-                        if (wordEnd > position) {
-                          index.pop();
-                        } else {
-                          break;
-                        }
-                      }
-                    }
-                    searchTextCount += searchTextCountInSlice;
-                    return {
-                      hits: hits,
-                      start: start,
-                      end: end,
-                      searchTextCount: searchTextCountInSlice
-                    };
-                  }
-
-                  var slicesOfTitle = [];
-                  if (indexOfTitle.length != 0) {
-                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
-                  }
-
-                  var slicesOfContent = [];
-                  while (indexOfContent.length != 0) {
-                    var item = indexOfContent[indexOfContent.length - 1];
-                    var position = item.position;
-                    var word = item.word;
-                    // cut out 100 characters
-                    var start = position - 20;
-                    var end = position + 80;
-                    if(start < 0){
-                      start = 0;
-                    }
-                    if (end < position + word.length) {
-                      end = position + word.length;
-                    }
-                    if(end > content.length){
-                      end = content.length;
-                    }
-                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
-                  }
-
-                  // sort slices in content by search text's count and hits' count
-
-                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
-                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
-                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
-                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
-                      return sliceRight.hits.length - sliceLeft.hits.length;
-                    } else {
-                      return sliceLeft.start - sliceRight.start;
-                    }
-                  });
-
-                  // select top N slices in content
-
-                  var upperBound = parseInt('1');
-                  if (upperBound >= 0) {
-                    slicesOfContent = slicesOfContent.slice(0, upperBound);
-                  }
-
-                  // highlight title and content
-
-                  function highlightKeyword(text, slice) {
-                    var result = '';
-                    var prevEnd = slice.start;
-                    slice.hits.forEach(function (hit) {
-                      result += text.substring(prevEnd, hit.position);
-                      var end = hit.position + hit.length;
-                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
-                      prevEnd = end;
-                    });
-                    result += text.substring(prevEnd, slice.end);
-                    return result;
-                  }
-
-                  var resultItem = '';
-
-                  if (slicesOfTitle.length != 0) {
-                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
-                  } else {
-                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
-                  }
-
-                  slicesOfContent.forEach(function (slice) {
-                    resultItem += "<a href='" + articleUrl + "'>" +
-                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
-                      "...</p>" + "</a>";
-                  });
-
-                  resultItem += "</li>";
-                  resultItems.push({
-                    item: resultItem,
-                    searchTextCount: searchTextCount,
-                    hitCount: hitCount,
-                    id: resultItems.length
-                  });
-                }
-              })
-            };
-            if (keywords.length === 1 && keywords[0] === "") {
-              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
-            } else if (resultItems.length === 0) {
-              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
-            } else {
-              resultItems.sort(function (resultLeft, resultRight) {
-                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
-                  return resultRight.searchTextCount - resultLeft.searchTextCount;
-                } else if (resultLeft.hitCount !== resultRight.hitCount) {
-                  return resultRight.hitCount - resultLeft.hitCount;
-                } else {
-                  return resultRight.id - resultLeft.id;
-                }
-              });
-              var searchResultList = '<ul class=\"search-result-list\">';
-              resultItems.forEach(function (result) {
-                searchResultList += result.item;
-              })
-              searchResultList += "</ul>";
-              resultContent.innerHTML = searchResultList;
-            }
-          }
-
-          if ('auto' === '') {
-            input.addEventListener('input', inputEventFunction);
-          } else {
-            $('.search-icon').click(inputEventFunction);
-            input.addEventListener('keypress', function (event) {
-              if (event.keyCode === 13) {
-                inputEventFunction();
-              }
-            });
-          }
-
-          // remove loading animation
-          $(".local-search-pop-overlay").remove();
-          $('body').css('overflow', '');
-
-          proceedsearch();
-        }
-      });
-    }
-
-    // handle and trigger popup window;
-    $('.popup-trigger').click(function(e) {
-      e.stopPropagation();
-      if (isfetched === false) {
-        searchFunc(path, 'local-search-input', 'local-search-result');
-      } else {
-        proceedsearch();
-      };
-    });
-
-    $('.popup-btn-close').click(onPopupClose);
-    $('.popup').click(function(e){
-      e.stopPropagation();
-    });
-    $(document).on('keyup', function (event) {
-      var shouldDismissSearchPopup = event.which === 27 &&
-        $('.search-popup').is(':visible');
-      if (shouldDismissSearchPopup) {
-        onPopupClose();
+  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://lib.baomitu.com/jquery/3.6.4/jquery.min.js" ></script>
+<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+
+  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var subtitle = document.getElementById('subtitle');
+      if (!subtitle || !typing) {
+        return;
       }
-    });
+      var text = subtitle.getAttribute('data-typed-text');
+      
+        typing(text);
+      
+    })(window, document);
   </script>
 
 
 
 
+  
+    <script  src="/js/img-lazyload.js" ></script>
+  
+
+
+
+
+  <script  src="/js/local-search.js" ></script>
+
+
+
+
+
+<!-- 主题的启动项，将它保持在最底部 -->
+<!-- the boot of the theme, keep it at the bottom -->
+<script  src="/js/boot.js" ></script>
+
 
   
 
-  
-
-  
-<script>
-(function(){
-    var bp = document.createElement('script');
-    var curProtocol = window.location.protocol.split(':')[0];
-    if (curProtocol === 'https') {
-        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
-    }
-    else {
-        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
-    }
-    var s = document.getElementsByTagName("script")[0];
-    s.parentNode.insertBefore(bp, s);
-})();
-</script>
-
-
-  
-  
-
-  
-
-  
-
-  
-
-  
-
+  <noscript>
+    <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
+  </noscript>
 </body>
 </html>

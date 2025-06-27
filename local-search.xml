@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>考前突击方案</title>
+    <link href="/2025/06/27/%E8%80%83%E5%89%8D%E7%AA%81%E5%87%BB%E6%96%B9%E6%A1%88/"/>
+    <url>/2025/06/27/%E8%80%83%E5%89%8D%E7%AA%81%E5%87%BB%E6%96%B9%E6%A1%88/</url>
+    
+    <content type="html"><![CDATA[<p>回顾我的高效学习方法。 一个学期啥都没学，却能及格。</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>学习方法</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>博客新主题-Fluid入门体验</title>
+    <link href="/2025/06/27/%E5%8D%9A%E5%AE%A2%E6%96%B0%E4%B8%BB%E9%A2%98-Fluid%E5%85%A5%E9%97%A8%E4%BD%93%E9%AA%8C/"/>
+    <url>/2025/06/27/%E5%8D%9A%E5%AE%A2%E6%96%B0%E4%B8%BB%E9%A2%98-Fluid%E5%85%A5%E9%97%A8%E4%BD%93%E9%AA%8C/</url>
+    
+    <content type="html"><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>安装、更新与卸载。 &amp; 配置<br>特色功能：</p><ul><li>index_img</li><li>打字机 &amp; slogan</li><li>背景图</li></ul><p>文章：</p><ul><li>LaTex</li><li>Mermaid</li><li>组图</li></ul><h1 id="index-img"><a href="#index-img" class="headerlink" title="index_img"></a>index_img</h1><p>可以给首页的每一条博客插入一个图片。在Fluid中被定义为<code>index_img</code>属性。 需要放在front-matter<br>fluid所有的图片的相对路径在<code>hexo-theme-fluid/source/</code>下。<br>所以<code>index_img</code>应该填的值应该以<code>/img</code>开头。例如<code>img/example.jpg</code> </p><blockquote><p>感觉这挺麻烦的。 不仅要在<code>hexo-theme-fluid/source/</code>这个奇怪的路径下管理资源。<br>当 default_index_img 和 index_img 都为空时，该文章在首页将不显示图片。 default_index_img在_config.fluid.yml设置<br>所有的图片路径都是相对于<code>hexo-theme-fluid/source/</code>, md语法：<img src="/PATH" alt="NAME"></p></blockquote><p>文章页顶部大图</p><h1 id="slogan"><a href="#slogan" class="headerlink" title="slogan"></a>slogan</h1><p>进入友链页，打字机的默认输出是：友链。 但是可以改成其他的内容，比如:<em>桃李春风一杯酒</em><br>还有关于页，我们也可以把冰冷的输出“关于”。改成“A Foodie, A Hacker, A Ganster”</p><h1 id="背景图"><a href="#背景图" class="headerlink" title="背景图"></a>背景图</h1><p>友链页、关于页、标题页、分类页的默认背景都是Fluid的默认图片：Tower. 能不能把他们换成一个系列的呢？比如全套的漫威英雄？或者钢铁侠的机甲。</p><h1 id="边角料"><a href="#边角料" class="headerlink" title="边角料"></a>边角料</h1><h2 id="整体字体"><a href="#整体字体" class="headerlink" title="整体字体"></a>整体字体</h2><p>默认字体太丑了。 我喜欢落霞孤鹜，思源宋体也不错。</p><h2 id="footer"><a href="#footer" class="headerlink" title="footer"></a>footer</h2><p>默认是Hexo love Fluid<br>可以把Hexo 和 Fluid改掉（如果你有女朋友，你女朋友刚好也有一个Blog嘿嘿</p><h2 id="首页更多icons"><a href="#首页更多icons" class="headerlink" title="首页更多icons"></a>首页更多icons</h2><h2 id=""><a href="#" class="headerlink" title=""></a></h2>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>计网学习笔记</title>
+    <link href="/2025/06/16/%E8%AE%A1%E7%BD%91%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    <url>/2025/06/16/%E8%AE%A1%E7%BD%91%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
+    
+    <content type="html"><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>屎一样的笔记。</p><blockquote><p>我希望这辈子能挖到一个21世纪的网络漏洞。</p></blockquote><h1 id="DHCP服务器"><a href="#DHCP服务器" class="headerlink" title="DHCP服务器"></a>DHCP服务器</h1><p>为什么host广播用的<code>DHCPDISCOVER包</code>，能被DHCP服务器收到并处理，为什么<code>源IP</code>必须是<code>0.0.0.0</code> <code>目的IP</code>必须是<code>255.255.255.255</code>？</p><h2 id="特殊IP地址"><a href="#特殊IP地址" class="headerlink" title="特殊IP地址"></a>特殊IP地址</h2><p>DHCPDISCOVER广播包会被<strong>同一网段上所有主机的IP协议栈</strong>接收，<strong>但只有运行着DHCP服务器软件并监听UDP端口67的主机</strong>才会在UDP&#x2F;应用层处理这个请求并做出响应。其他主机的UDP层会因为端口67未被使用而丢弃该数据报。0.0.0.0和255.255.255.255保证了广播能被发送并被所有IP栈接收，而端口67则确保了只有DHCP服务器应用会处理它。</p><p>其他非DHCP主机不会运行67进程，自然也不会对<code>DHCPDISCOVER包</code>进行处理</p><h1 id="“NIC-“-“网卡”"><a href="#“NIC-“-“网卡”" class="headerlink" title="“NIC “ “网卡”"></a>“NIC “ “网卡”</h1><p>链路层的主体部分是在网络适配器中实现的。网络适配器有时也称为网络接口卡</p><h2 id="PCI-PCIe"><a href="#PCI-PCIe" class="headerlink" title="PCI &amp; PCIe"></a>PCI &amp; PCIe</h2><h2 id="PCI-Peripheral-Component-Interconnect-传统总线协议"><a href="#PCI-Peripheral-Component-Interconnect-传统总线协议" class="headerlink" title="PCI Peripheral Component Interconnect- 传统总线协议"></a>PCI Peripheral Component Interconnect<br>- 传统总线协议</h2><p>PCIe Peripheral Component Interconnect Express </p><ul><li>快速外设组件互连高速串行标准</li><li>Express有快速、高速传输的含义</li><li>两个都是总线协议。 由于对总线传输速度的需求增大，PCI被速度更快的PCIe替代。</li></ul><p>以前经常问的问题：DHCP服务器</p><p>说说我脑中的DHCP Server</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>复习笔记</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>计网</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>二进制</title>
+    <link href="/2025/06/15/binary/"/>
+    <url>/2025/06/15/binary/</url>
+    
+    <content type="html"><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><h2 id="有些碎片知识老是忘，放在blog里吧！-求反码的十进制数-大端序、小端序"><a href="#有些碎片知识老是忘，放在blog里吧！-求反码的十进制数-大端序、小端序" class="headerlink" title="有些碎片知识老是忘，放在blog里吧！- 求反码的十进制数- 大端序、小端序"></a>有些碎片知识老是忘，放在blog里吧！<br>- 求反码的十进制数<br>- 大端序、小端序</h2><h1 id="2’s-complement"><a href="#2’s-complement" class="headerlink" title="2’s complement"></a>2’s complement</h1><h2 id="场景"><a href="#场景" class="headerlink" title="场景"></a>场景</h2><p>给出1打头的2’s complement，问你是负多少<br>首先，我起码知道是负的，但老想不起来该怎么<strong>算“负多少”</strong>这个问题</p><h2 id="方法："><a href="#方法：" class="headerlink" title="方法："></a>方法：</h2><p>记住2’s complement转换成<strong>“多少”的规则</strong></p><p><strong>全部反码，得到一个0大头的数。</strong></p><p><strong>将这个正数 “+1”，你就得到了 “多少”  (多少&#x3D;&#x3D;&#x3D;你要的结果)</strong></p><h1 id="端序"><a href="#端序" class="headerlink" title="端序"></a>端序</h1>]]></content>
+    
+    
+    <categories>
+      
+      <category>复习笔记</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>二进制</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>手台入门教程</title>
+    <link href="/2025/06/08/%E6%89%8B%E5%8F%B0%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/"/>
+    <url>/2025/06/08/%E6%89%8B%E5%8F%B0%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/</url>
+    
+    <content type="html"><![CDATA[<blockquote><p>令我印象最深刻的经历，就是用Scan扫到中继的信号，听友台们的信号。在不知道亚音、频差的情况下傻乎乎的念：CQ CQ CQ, 这里是BD1BBU呼叫。Bravo Delta One Bravo Bravo Uniform 请求插入。 然后每一个人理我。 ——好家伙，啥都不会就干中继了🤣</p></blockquote><h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>认识UVK6的按键：F键、菜单键<br>认识菜单的常用功能：存储信道；设置上、下行亚音；设置频差；Scan功能<br>实操：寻找中继台的高效办法，</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>教程</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>HAM</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>WindowsLinux化</title>
+    <link href="/2025/06/08/WindowsLinux%E5%8C%96/"/>
+    <url>/2025/06/08/WindowsLinux%E5%8C%96/</url>
+    
+    <content type="html"><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>主要记录了编写脚本文件的技术。</p><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>Linux系统运行脚本管理很方便，make install命令就能安装好软件，可以在任位置指使用指令.<br>但Windows就没那么方便了。要手动把脚本添加到Path。 因此，我在D盘新建了一个文件夹mytools，存放所有的常用exe,bat脚本,.cmd,ps1，还可以添加python脚本封装成cmd脚本文件。目前我已经把.yt-dlp.exe, danmuku2ass.cmd（内有python xxx&#x2F;xxx&#x2F;xxx&#x2F;…&#x2F;danmuku2ass.py %* 命令）, 然后在Path环境变量中添加D:\mytools路径，这样就可以在任意位置使用这些脚本了。</p><blockquote><p>当然，使用Scoop包管理器安装的软件（如git, jdk, maven,…）也可以达到在任何路径下运行命令（我会专门出一篇博客介绍scoop</p></blockquote>]]></content>
+    
+    
+    <categories>
+      
+      <category>教程</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>整活</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>ytb-dl使用教程</title>
+    <link href="/2025/05/24/ytb-dl%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/"/>
+    <url>/2025/05/24/ytb-dl%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/</url>
+    
+    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><ul><li>不是给纯小白科普的。如果你不知道github，yt-dlp，可以不看。</li><li>废话不多，更像是一个脚本小子的资料库<br>yt-dlp [选项] – URL [URL]</li></ul><h2 id="My-Setup"><a href="#My-Setup" class="headerlink" title="My Setup"></a>My Setup</h2><ul><li>win11 直接下载了yt-dlp.exe</li><li>开了代理（不开也可以）</li><li>FFmpeg installed</li></ul><h1 id="使用场景"><a href="#使用场景" class="headerlink" title="使用场景"></a>使用场景</h1><p>常用<a href="https://github.com/yt-dlp/yt-dlp/blob/master/README.md">参数</a>总结</p><blockquote><p>好习惯:在任何下载命令前，先用<code>-F -v</code>看看什么情况。</p></blockquote><ul><li><p>下载路径管理和文件命名</p><ul><li><code>-P</code> ：指定下载路径。例如：-P ~&#x2F;Downloads 将视频下载到 ~&#x2F;Downloads 目录。</li><li><code>-o</code> : 文件名模板</li></ul></li><li><p>下载速度</p><ul><li><code>-N</code> &#x2F; <code>--concurrent-fragments</code>  (default is 1) </li><li><code>-i</code>：忽略下载和后处理错误，确保即使某个视频下载失败，其他视频也能继续下载。</li><li><code>-r</code> &#x2F; <code>--limit-rate</code> 调整下载速度。例如：-r 4.2M 限制下载速度为 4.2MB&#x2F;s。</li></ul></li><li><p>下歌曲（薅羊毛）</p><ul><li><code>--yes-playlist</code>：强制下载整个列表，即使 URL 可能指向单个视频（默认行为）。</li><li><code>--extract-audio</code> 只要音频; 不传值</li><li><code>--split-chapters</code></li></ul></li><li><p>下载电影配字幕</p><ul><li><code>--write-subs</code> </li><li><code>--list-subs</code></li></ul></li><li><blockquote><p>p.s. 如果没有ffmpeg,会下载.m4a,.mp4两种文件,其中Mp4没有声音. windows用scoop install ffmpeg 命令安装ffmpeg</p></blockquote></li><li><p><code>yt-dlp -U</code> 更新yt-dlp </p></li><li><p><code>--audio-quality 3</code> 常设置为0,表示最高音频质量,不压缩. 0 -&gt; 9 音质逐渐下降</p></li><li><p>Set Proxy</p></li><li><ul><li><code>--proxy &quot;&quot;</code>  空字符串 -&gt; Direct Mode（直连，不走代理）</li></ul></li><li><ul><li><code> --proxy &quot;socks5://127.0.0.1:7897&quot;</code> 走代理下载</li></ul></li><li><p>截取 —— 视频太长，只下载某一段：</p></li></ul><h2 id="常用输出文件名模板"><a href="#常用输出文件名模板" class="headerlink" title="常用输出文件名模板"></a>常用输出文件名模板</h2><ul><li>原文1270行左右：# OUTPUT TEMPLATE<br>默认值会把视频id也放过来 -&gt; 输出文件名又臭又长。有些视频的title为了吸引流量也有很多无效信息。</li></ul><p>输出模板有很多参数(field)供选择</p><ul><li><code>-o &quot;%(title)s.%(ext)&quot;</code>  简洁。 不要带<code>%(id)</code></li><li><code>--split-chapters -o &quot;%(title)s - %(chapter)s.%(ext)s&quot;</code>   </li><li><code>-o &quot;%(title)s [%(resolution)s].%(ext)s </code>   加入分辨率<code>%(resolution)s</code></li><li>按up主分类 <code>-o &quot;%(uploader)s/%(title)s.%(ext)s&quot; </code> yt-dlp支持创建不存在的路径。</li></ul><h2 id="print-测试"><a href="#print-测试" class="headerlink" title="print 测试"></a>print 测试</h2><p>支持的字段：<br><code>--print filename</code><br><code>--print chapters</code></p><p><code>--list-subs</code> 查看资源支持的字幕格式</p><ul><li>会列出弹幕的语言和文件类型（lang + format）</li><li>一般bi站就是damuku语言 xml格式 和 ai-zh srt字幕格式</li></ul><h2 id="bilibili场景"><a href="#bilibili场景" class="headerlink" title="bilibili场景"></a>bilibili场景</h2><p>音乐合集方案：<code>-f bestaudio/ba</code> <code>-o &quot;%(title)s.%(ext)s&quot;</code> <code>-P </code></p><ul><li><code>-f bestaudio -o &quot;%(title)s.%(ext)s -P ~/Music/xxx&quot; url</code><br>up主抄家方案：</li></ul><h3 id="下载一个收藏夹的所有歌曲-视频-—-一次成功！"><a href="#下载一个收藏夹的所有歌曲-视频-—-一次成功！" class="headerlink" title="下载一个收藏夹的所有歌曲&#x2F;视频 — 一次成功！"></a>下载一个收藏夹的所有歌曲&#x2F;视频 — 一次成功！</h3><p><code>.\yt-dlp.exe -P ~/Downloads -N 5 --yes-playlist -i -r 1M --no-overwrites -c --no-part https://www.bilibili.com/list/ml3097786028?oid=46656713&quot;&amp;&quot;bvid=BV1rb411n7wh</code></p><p>list就是收藏夹，<a href="https://www.bilibili.com/list/ml3097786028?oid=46656713&bvid=BV1rb411n7wh">这</a>是我bi站“我喜欢听”收藏夹的第一首歌—哥哥的当年情。这个收藏夹下歌曲url的特点是list&#x2F;ml….?前缀一致，<code>oid=</code>的值不同。</p><ul><li>要注意，&amp;要用””框住。解析上的问题</li><li>开了代理中途不要断。 即便开了Rule模式也有可能走了代理。</li><li>yt-dlp很容易受网络环境影响。最好别断梯子或者网络，因为目前的版本不支持重新下载故障视频。</li></ul><h3 id="高级用法：下载高清视频"><a href="#高级用法：下载高清视频" class="headerlink" title="高级用法：下载高清视频"></a>高级用法：下载高清视频</h3><h2 id="yt-dlp并不会以你的账号下载视频，而是访客身份——无法下载较高清晰度的视频、甚至无法下载视频、subtitle。让yt-dlp使用cookies使用浏览器的cookies则可满足更高的要求-获取chrome等浏览器的cookies"><a href="#yt-dlp并不会以你的账号下载视频，而是访客身份——无法下载较高清晰度的视频、甚至无法下载视频、subtitle。让yt-dlp使用cookies使用浏览器的cookies则可满足更高的要求-获取chrome等浏览器的cookies" class="headerlink" title="yt-dlp并不会以你的账号下载视频，而是访客身份——无法下载较高清晰度的视频、甚至无法下载视频、subtitle。让yt-dlp使用cookies使用浏览器的cookies则可满足更高的要求~ &#x2F;&#x2F; 获取chrome等浏览器的cookies"></a>yt-dlp并不会以你的账号下载视频，而是访客身份——无法下载较高清晰度的视频、甚至无法下载视频、subtitle。让yt-dlp使用cookies使用浏览器的cookies则可满足更高的要求~ &#x2F;&#x2F; <a href="https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp">获取chrome等浏览器的cookies</a></h2><h3 id="弹幕-danmaku"><a href="#弹幕-danmaku" class="headerlink" title="弹幕　danmaku"></a>弹幕　danmaku</h3><blockquote><p>damaku 在bi站和日本流行。ytb、netflix无。<br>subtitle 在影视界不指“副标题”。而是字幕的意思，更像caption（插画）的含义。 subtitle常见有youtube自动生成的字幕，up主手动上传的字幕，还有就是弹幕。 </p></blockquote><p>如果要下载subtitle文件：</p><ul><li><code>--write-subs</code><ul><li><code>--sub-lang danmaku / en /zh</code></li></ul></li><li><code>--convert-subs FORMAT</code> (FORMAT currently supported: ass, lrc, srt, vtt). <ul><li>试了ass, vtt都不起作用，还是老老实实下默认的xml吧。可以用<a href="https://github.com/m13253/danmaku2ass">danmaku2ass</a>把xml转换成bilibili弹幕文件格式<code>.ass</code>，再用vlc读取。<br>如果要把弹幕合并到视频里：<code>--embed-subs</code>  &#x2F;&#x2F; <code>--write-subs</code>和<code>--embed-subs</code> 不建议同时用<br>下载自动生成的字幕:</li></ul></li><li><code>--write-auto-subs</code>   <ul><li><code>--sub-lang en/zh/</code> 指定字幕的语言, 适合下载ytb英文资源&#x2F;英文歌曲</li></ul></li><li><code>--embed-subs</code> (only for mp4,webm and mkv videos)</li></ul><h3 id="视频封面："><a href="#视频封面：" class="headerlink" title="视频封面："></a>视频封面：</h3><ul><li><code>--write-thumbnail</code> 会大度下载一个png&#x2F;webp图片文件下来</li><li><code>--embed-thumbnail</code> 把封面嵌入到音频文件。 播放器能看到。 （看你选的资源咯，有些无聊的封面不要也罢</li></ul><h3 id="下载一个up主的全部视频"><a href="#下载一个up主的全部视频" class="headerlink" title="下载一个up主的全部视频"></a>下载一个up主的全部视频</h3><p>拿稚珲君举例吧。 进到个人主页，进到投稿。<code>https://space.bilibili.com/20259914/upload/video</code><br>测试：<code>yt-dlp -F url</code>刚好是44个视频。<br>完整命令： <code>yt-dlp -P ~\Video\xxx -o &quot;%(upload_time)s_(title)s.(ext)s&quot; --download-archive ~\Video\xxx\archive.txt  --playlist-start 6 --playlist-end 12 --embed-thumbnail url</code> </p><h4 id="重要flags说明"><a href="#重要flags说明" class="headerlink" title="重要flags说明:"></a>重要flags说明:</h4><ul><li><code>--download-archive FILE</code> e.g. <code>--download-archive zhj-achieve.txt</code> <ul><li>存档文件里记录网站和id  例：<code>bilibili BV1ZA411e7Ff</code></li><li>如果存档文件已经存在，则不会重复下载txt里的资源。</li></ul></li><li><code>--playlist-start 1 --playlist-end 5</code> 是按照时间倒序来的。最新发布的视频是编号1.</li><li><code>--reverse-playlist</code><br>推荐命名：</li><li><code>%(upload_date)s_%(title)s.%(ext)s</code>  记录up主上传的时间</li></ul><h3 id="下载歌词"><a href="#下载歌词" class="headerlink" title="下载歌词"></a>下载歌词</h3><p>有些时候只想要音频文件，用一个简易的小窗口播放器看歌词</p><p><code>-t mkv</code>或者&#96;&#96;–merge-output-format mkv &#96;<br>因为m4a文件只能封装音频，要用mkv文件封装音频和字幕文件（srt&#x2F;…）</p><p><code>--sub-lang</code> 和 <code>--sub-format</code>指定你要下载的字母语言和格式。 （先用<code>--list-subs</code>看可以下载的字幕格式）<br><code>--embed-subs</code> 合并字幕到mkv文件里。</p><hr><h2 id="ytb场景"><a href="#ytb场景" class="headerlink" title="ytb场景"></a>ytb场景</h2><p>除了<code>-r 4M</code> <code>-i</code> 最常用的参数<br>建议带上<code>--proxy &quot;http://127.0.0.1:7897&quot;</code></p><blockquote><p>yt-dlp is downloading as a guest, so it can’t access those higher-quality formats.</p><blockquote><p>使用cookies，让yt-dlp伪装成我们的“registered user”身份。从而下载更高质量的视频</p></blockquote></blockquote><ul><li><code>--cookies-from-brower chrome</code>  一般够了<ul><li><code>--cookies-from-browser BROWSER[+KEYRING][:PROFILE][::CONTAINER]</code><ul><li><code>--cookies-from-browser chrome+gnomekeyring</code> Linux, MacOS有加密，不是明文cookie</li><li><code>--cookies-from-browser firefox:default::work-container</code> </li><li><code>--cookies-from-browser chrome:Profile 2 </code>很杂的设置了，Chrome,Firefox浏览器可以多重工作状态、用户身份。 看一眼就好</li></ul></li></ul></li></ul><h3 id="下载单个ytb视频"><a href="#下载单个ytb视频" class="headerlink" title="下载单个ytb视频"></a>下载单个ytb视频</h3><p> <code>-r 5M</code> <code>-i</code>参数即可<br> Optional: <code>--split-chapters</code> </p><h3 id="下载ytb视频List"><a href="#下载ytb视频List" class="headerlink" title="下载ytb视频List"></a>下载ytb视频List</h3><p><code>-r 5M -i --yes-playlist</code></p><h3 id="下载ytb直播"><a href="#下载ytb直播" class="headerlink" title="下载ytb直播"></a>下载ytb直播</h3><p><a href="https://www.youtube.com/watch?v=jfKfPfyJRdk">一直很喜欢一个lofi直播</a><br><code>--proxy &quot;http://127.0.0.1:7897&quot;</code> &#x2F;&#x2F;语法不同于bash. export http_proxy&#x3D;””<br><code>-r 5M</code> <code>-i</code><br><code>--hls-prefer-native</code> <strong>下载直播时</strong>应当用yt-dlp下载器而不是ffmpeg</p><h1 id="TL-DR"><a href="#TL-DR" class="headerlink" title="TL-DR"></a>TL-DR</h1><p>yt-dlp对Windows支持挺友好的（主要是有Scoop），当然在WSL2、linux必然可以有一样的体验</p><h2 id="音频格式-和-视频格式"><a href="#音频格式-和-视频格式" class="headerlink" title="音频格式 和 视频格式"></a>音频格式 和 视频格式</h2><p>因为网络环境不同，一个url往往对应很多种下载方案。<br>使用<code>yt-dlp -F &lt;url&gt; </code> 查看有哪些方案.</p><ul><li><code>-f best</code>需要会员</li><li><code>yt-dlp -f audio_id+video_id &lt;url&gt;</code>  通用<ul><li><code> .\yt-dlp.exe -o --print &quot;%(title)s.%(ext)s&quot; -f 30280+100050 https://www.bilibili.com/video/BV1YyZHYvE7c/</code></li></ul></li></ul><h4 id="gui版本"><a href="#gui版本" class="headerlink" title="gui版本"></a>gui版本</h4><p><a href="https://github.com/kannagi0303/yt-dlp-gui?tab=readme-ov-file">windows系统的yt-dlp前端gui</a><br>这是一位日本开发者设计的软件。我没用过，但是看readme感觉十分小白友好呢~<br>支持中文，可以方便的选择下载路径。<br>而且有很多高级选项：可以下载章节，设置音视频的格式</p><h4 id="支持的网站"><a href="#支持的网站" class="headerlink" title="支持的网站"></a><a href="https://github.com/yt-dlp/yt-dlp/blob/master/supportedsites.md?plain=1">支持的网站</a></h4><p>网易云音乐&#x2F;优酷&#x2F;爱奇艺&#x2F;虎牙视频，一些直播、yellow网站</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>教程</category>
+      
+      <category>整活</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>音视频</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>程序员科普：JSON、XML、YAML 三种数据格式的由来、应用与对比</title>
+    <link href="/2025/05/19/dance-with-yaml/"/>
+    <url>/2025/05/19/dance-with-yaml/</url>
+    
+    <content type="html"><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>在前后端开发、配置管理、API 通信等领域，我们常常接触到三种主流的数据格式：JSON、XML 和 YAML。虽然它们的目标都是「让数据结构易于存储和传输」，但随着时代发展与技术演进，它们逐渐走上了不同的道路。本文将从历史演变、应用场景出发，结合语法特征，帮你快速理解这三种格式各自的定位与优劣。</p><blockquote><p>YAML ain’t markup language<br>ain’t markup language 度过xml的应该对markup lang都有些畏惧<br>所以，从这个名字就强调了YAML文件阅读友好，语义简洁的特点。</p></blockquote><h2 id="我为什么单独抽时间写一篇关于基础文件格式的科普文？"><a href="#我为什么单独抽时间写一篇关于基础文件格式的科普文？" class="headerlink" title="我为什么单独抽时间写一篇关于基础文件格式的科普文？"></a>我为什么单独抽时间写一篇关于基础<strong>文件格式</strong>的科普文？</h2><blockquote><p>我认为，对于开发者而言，经验取决于你见过多少文件，写过多少代码，开发过多少项目。 从某个更具象的方面来说，则是你对一个文件格式的理解有多深。</p><blockquote><p>比方说，当开发&#x2F;阅读一个Verilog项目，你除了知道源文件的文件格式是.v， 你还知道你当前工作的文件,逻辑上遵循什么结构<strong>而不只是verilog语法本身</strong>，而这就体现工程师软件设计的功底。<br>再比方说， 一个C项目,你看到Makefile,就能想到它的作用. 你拿到一个.xml,你有自己的阅读习惯.</p></blockquote></blockquote><h1 id="Mark-up-Language"><a href="#Mark-up-Language" class="headerlink" title="Mark up Language"></a>Mark up Language</h1><h2 id="简单问题快答"><a href="#简单问题快答" class="headerlink" title="简单问题快答"></a>简单问题快答</h2><ol><li>这个概念哪儿来的？</li></ol><p>Web1.0 为排版而生。说到排版,想到:LaTex, HTML,…..<br>实现上，浏览器底层代码对标记语言文件<strong>按语法规则</strong>解析。</p><ol start="2"><li>标记语言长什么样？</li></ol><ul><li>再怎么说,和源代码文件一样,他是一个文本文件. 只不过和纯粹的.txt相比,有规范的语法.</li><li>可以简单的认为，含尖括号语法的就是标记语言。代表: <ul><li>HTML（ Hpyer Text Markup Language ）</li><li>XML （ eXtensible Markup Language ）</li></ul></li></ul><h2 id="瞎编的两个故事"><a href="#瞎编的两个故事" class="headerlink" title="瞎编的两个故事"></a>瞎编的两个故事</h2><p>1.标记语言和HTML,XML的那段历史</p><p>最早的互联网全是静态网页。就是大片的文字放到网上供人们浏览。而没有交互性。<br>标记语言也是在这个行情下诞生的，通过标记的方式，让浏览器渲染出：有排版（居中、左对齐、….）、各种花哨字体、加粗和颜色、在特定位置呈现文字等功能的文字。<br>标记语言什么语法不重要，重点是，浏览器的底层有一个parser为用户呈现完美渲染后的网页</p><ol start="2"><li>聊聊<a href="https://daringfireball.net/projects/markdown/basics">Markdown</a>：</li></ol><ul><li>从标记语言的功能上看，Markdown算是标记语言，而且Markdown file 兼容HTML语法，</li><li>从名字上认为Markdown是一种标记语言，也不矛盾。英文上 mark-up 就是用尖括号标签来表注。 mark-down只不过是用更简洁的符号来实现<strong>文本排版、文字强调</strong>等功能。至于名字的由来，估计是作者调皮了一下。</li><li><a href="https://daringfireball.net/projects/markdown/">markdown作者</a>：约翰格鲁伯，perl解析器. （好，上面也说了markdown is a popular markup language….</li></ul><h1 id="一、趣味知识：起源与发展"><a href="#一、趣味知识：起源与发展" class="headerlink" title="一、趣味知识：起源与发展"></a>一、趣味知识：起源与发展</h1><table><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td>格式</td><td>出现时间</td><td>主要背景与用途</td></tr><tr><td>XML</td><td>1998</td><td>为了解决 HTML 无法表示结构化数据的问题，适合数据存档、文档结构描述。</td></tr><tr><td>JSON</td><td>2001</td><td>JavaScript 中的轻量数据交换格式，随着 AJAX 崛起而成为 Web 首选。</td></tr><tr><td>YAML</td><td>2004</td><td>Yet Another Markup Language，语法更清晰，主要用于配置文件和 DevOps 场景。</td></tr></tbody></table><ol><li><p>XML：曾经的霸主<br>XML最初是为了扩展 HTML 的表达能力，<strong>使得数据能像文档一样有结构、有语义</strong>。由于它高度结构化、支持复杂嵌套、具备数据验证机制（如 DTD&#x2F;XSD），曾一度在 SOAP 协议、早期 Web 服务和企业系统中广泛使用。</p></li><li><p>JSON：现代 Web 的基石<br>随着 JavaScript 和 AJAX 的流行，JSON（JavaScript Object Notation）凭借轻量、直观、<strong>易解析</strong>的优势迅速取代 XML，成为<strong>前后端通信的标准格式</strong>，尤其适用于<strong>API数据传输</strong>。</p></li><li><p>YAML：简洁的配置王者<br>YAML 诞生之初就是为了人类友好，<strong>语法极简、可读性极强</strong>，因此<strong>非常适合写配置文件</strong>。你可以在 Docker、Kubernetes、GitHub Actions 等 DevOps 工具中频繁看到它的身影。</p></li></ol><h1 id="二、语法要点"><a href="#二、语法要点" class="headerlink" title="二、语法要点"></a>二、语法要点</h1><h2 id="文件后缀名"><a href="#文件后缀名" class="headerlink" title="文件后缀名"></a>文件后缀名</h2><h2 id="注释"><a href="#注释" class="headerlink" title="注释"></a>注释</h2><ol><li>XML <!-- 把我注了吧 --></li><li>json无注释</li><li>YAML 使用<code>#</code></li></ol><h2 id="json特点："><a href="#json特点：" class="headerlink" title="json特点："></a>json特点：</h2><p>整体用一个大括号包住，Python键值对。 键用string <code>&quot;&quot;</code>，值可以是：<code>string</code>, <code>list []</code> <code>dictionary</code></p><h2 id="serialization"><a href="#serialization" class="headerlink" title="serialization"></a>serialization</h2>]]></content>
+    
+    
+    <categories>
+      
+      <category>教程</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>file format</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>认识前后端</title>
+    <link href="/2025/05/16/%E8%AE%A4%E8%AF%86%E5%89%8D%E5%90%8E%E7%AB%AF/"/>
+    <url>/2025/05/16/%E8%AE%A4%E8%AF%86%E5%89%8D%E5%90%8E%E7%AB%AF/</url>
+    
+    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>我总是听到前端、后端、还有前后端<strong>分离</strong>。但说实话，从来没有好好体会这些词语的含义。<br>我希望能讲清楚哪些东西让人产生误解。（前后端这两个词就很容易产生误解。</p><h1 id="前端、后端Q-A-————-吃瓜小白常见疑惑解答"><a href="#前端、后端Q-A-————-吃瓜小白常见疑惑解答" class="headerlink" title="前端、后端Q&amp;A ———— 吃瓜小白常见疑惑解答"></a>前端、后端Q&amp;A ———— 吃瓜小白常见疑惑解答</h1><h2 id="粘点没用的东西：和Deepseek的对话，我给的Prmopt"><a href="#粘点没用的东西：和Deepseek的对话，我给的Prmopt" class="headerlink" title="粘点没用的东西：和Deepseek的对话，我给的Prmopt:"></a>粘点没用的东西：和Deepseek的对话，我给的Prmopt:</h2><blockquote><p>下面是一场和你的技术探讨：<br>我们来聊聊前后端的概念。 前后端的概念在Web开发中兴起。<br>常见误解1：把Clinet-Server架构混一块：前端就是用户端&#x2F;浏览器端（Client）。 后端就是服务器端。<br>常见误解2：——技术层面：前端就是CSS, HTML等内容信息，让页面长什么样、有什么内容。后端就是Python, Java这种语言，用来管理数据库、对用户发送的请求做出响应。至于用户的请求如何发送给服务器对应的这一块技术 ，他会说既不是前端也不是后端。<br>正确理解：<br>1.前端 后端是两个进程。 所以，后端和前端的实现可以有很多种类，这也是为什么小白在初接触web技术会产生困惑：以为前端就是死的，描述性、标注性代码。后端就很”活“。<br>2. 技术上来看，前端和后端既不是什么浏览器技术、也不是什么服务器端的技术。 他们是用来描述一个互联网公司的技术栈。和你用户端、浏览器端没有关系！ 前端技术——互联网公司什么技术将用户的输入转化成某个个格式的请求。 后端技术 ——如何将前端发送过来的特定格式的用户数据存储起来，如何响应某种请求。<br>至于CSS, JS, HTML。 我们不会说它是前端技术还是后端技术。他们只是构成网页源码的基本元素。很多框架也基于他们改进。不会出现在技术栈选型的讨论中</p></blockquote><p>我真想把Deepseek的回答全部粘贴进来…..但我知道这毫无意义。</p><hr><p>这是两个逻辑层，他们干的事情、他们的目标都不同。</p><p>小白（脑子很混乱）：</p><ol><li>“前，摆在前面的。后，藏在后面看不见的。欧~我懂了，前端就是你在浏览器前看到的，后端就是服务器里的程序。懂了，前端就是浏览器上就是看到的HTML网页。”。很含糊的认知……</li><li>前端和后端关注的问题</li><li>前端和后端的关键动作</li><li>前后端<strong>技术的代码实现</strong>是什么样？前端就是CSS&#x2F;HTML? 后端就是Java,JavaScript?</li><li>前后端的技术：语言、框架？</li><li>感觉前后端运行在不同的设备上。服务器和客户端主机。</li><li>以为前端就只包含动态信息的处理, Svelte, Next.js Expressjs, ….。后端技术只管业务逻辑、数据持久化 Spring-boot&#x2F;Django; SQL&#x2F;MongoDB 。</li></ol><p>解释：</p><ol><li>早期Web开发中，前端进程几乎只能运行在浏览器中。而前端技术栈确实有一层领域：呈现层(关注内容结构和视觉表现)就是HTML,CSS相关的技术。确实容易误会成所谓的前端代码、前端技术就是HTML,CSS。 但用户体验还包含一个层面！是前端技术栈很重要的一环：将用户行为（点击、输入）序列化为结构化请求（如JSON over HTTP）</li><li>Front-End:如何高效采集输入 &amp; 呈现输出. 后端关注业务逻辑与数据完整性。</li><li>前端进程：一方面，将用户行为（点击、输入）序列化为结构化请求（如JSON over HTTP）。另一方面，将服务器发送过来的响应数据（JSON格式）<strong>反序列化</strong>并渲染为可视化界面（HTML网页元素）； 后端进程：验证&#x2F;清洗前端传入的数据。执行计算、数据库操作等核心逻辑。返回结构化响应（如JSON&#x2F;Protobuf）。</li><li>不不不。前端可以是浏览器、移动端App、桌面应用甚至命令行工具。</li><li>前端框架(专注于序列化、代表性技术)：多基于JS：React, Svelte</li><li>浏览器（PWA）、手机（React Native）、物联网设备（车载UI）、城市物联网传感器设备。微服务、Serverless、边缘计算（如Cloudflare Workers）。</li><li>运营一个互联网公司比你想象得复杂！不只是你日常体验到的。工程师讨论前端技术栈的技术选型，包括以下层面：交互逻辑层(状态管理、数据绑定、组件化e.g. React&#x2F;Vue&#x2F;Svelte);呈现层、通信层（Axios, Websocket）、构建层（代码优化、依赖管理、部署打包，e.g.Webpack,Vite）、通信层(请求格式化、连接管理、错误处理,e.g.Axios、GraphQL Client、WebSocket)。 后端技术栈领域还包括：运维层部署(监控、扩缩容,e.g. Docker&#x2F;K8s、CI&#x2F;CD)、协议层（通信协议标准化,e.g.HTTP&#x2F;gRPC&#x2F;WebSocket）,业务逻辑层(Spring Boot&#x2F;Django),数据层（数据持久化与高速访问,e.g.SQL&#x2F;NoSQL、Redis…）<br>p.s. 虽然构建层、通信层说的Axios，Vite技术第一次听，也不知道是干什么的。但是他们是Github上的爆火项目。</li></ol><p>由于这只是出于好奇心的科普文，水平、阅历有限。关于前端、后端各个层的作用、更专业的实战领域暂且放下。</p><h2 id="说说前后端分离"><a href="#说说前后端分离" class="headerlink" title="说说前后端分离"></a>说说前后端分离</h2><p>至此，我们搞懂了前后端进程做什么事情。大咖们聊前后端技术栈覆盖涵盖的几个层面。高级的前端工程师除了聊交互逻辑层，还会关注一下好看的呈现层技术、硬核的通信层、构建层。 高级的后端工程师除了写Java、数据库，还要懂点通信协议，搞搞运维。<br>那再聊聊软件架构吧！<br>这也是一个一听中文就要冒火的词，前端、后端的功能&#x2F;行为&#x2F;技术栈不是分得很清楚了嘛，本身就是“隔开的”呀。</p><p>前后端分离是技术革新带来的现象。以前的JSP技术，后端的响应里要写HTML标签（你敢信？）。就是说，后端工程师要懂前端的知识，e.g.前端—呈现层的HTML语法。 粗略概括“前后端分离”的开发场景：出现了前端工程师和后端工程师的工种。互联网公司的程序员们的分工更明确了。</p><h2 id="聊聊JS生态"><a href="#聊聊JS生态" class="headerlink" title="聊聊JS生态"></a>聊聊JS生态</h2><h2 id="一个很烦人的词：全栈"><a href="#一个很烦人的词：全栈" class="headerlink" title="一个很烦人的词：全栈"></a>一个很烦人的词：全栈</h2><p>全栈。可以这么拆分理解：一个技术&#x2F;语言 涵盖了整个业务。哪都有这门语言。<br>经典的是：Web开发领域 MERN&#x2F;MEVN–技术栈架构：MongoDB + Express + React&#x2F;Vue + Node.js。而我们也长讨论全栈的好处：1. 语言统一（减少上下文切换）2. 生态协同（如共享npm包）</p><p>Java在Web开发领域也有一套技术栈，但是没那么流行。</p><p>全栈还有泛化的含义：包含公司整个业务，而不是某一段过程。<br>DevOps全栈：涵盖开发→部署→监控（如AWS + Kubernetes + CI&#x2F;CD）<br>数据全栈：从数据采集（前端埋点）到分析（Python&#x2F;Pandas）再到可视化（D3.js）</p><p>全栈一次还在招聘中出现过，全栈工程师。形容多面手，了解整个流程但不一定都精通。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>教程</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Web开发</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>ssh入门</title>
+    <link href="/2025/04/29/ssh%E5%85%A5%E9%97%A8/"/>
+    <url>/2025/04/29/ssh%E5%85%A5%E9%97%A8/</url>
+    
+    <content type="html"><![CDATA[<h1 id="take-away-knowledge-concept"><a href="#take-away-knowledge-concept" class="headerlink" title="take away knowledge &amp; concept"></a>take away knowledge &amp; concept</h1><p>对于private repo, 即便是clone,也需要ssh</p><p>ssh-keygen命令生成的<strong>两份文件</strong>：私钥和公钥（.pub）。你要把public key交给github</p><p>每一次 clone &#x2F; push的Authentification过程：<br>github服务器给你的机器发公钥。 你的机器上<code>～/.ssh/</code>路径下存了唯一的私钥与之对应。即完成身份验证。</p><h2 id="glossary"><a href="#glossary" class="headerlink" title="glossary"></a>glossary</h2><p>SSH： secure shell protocal</p><h1 id="github场景-S1：增添新密码"><a href="#github场景-S1：增添新密码" class="headerlink" title="github场景-S1：增添新密码"></a>github场景-S1：增添新密码</h1><ul><li>当你的项目团队有多个成员，你作为项目的owner，需要为你的团队成员设置SSH，这样他们才能在他们的电脑上更新项目（clone, push）</li><li>还有一个情况，你有多台工作本，你需要为每一台机器上添加SSH，并在个人g-hub账户添加public key</li></ul><h2 id="background-and-task"><a href="#background-and-task" class="headerlink" title="background and task:"></a>background and task:</h2><p>linux + Windows 共同运营hexo blog. Add _post to repo, clone on git</p><h2 id="过程记录（）"><a href="#过程记录（）" class="headerlink" title="过程记录（）"></a>过程记录（）</h2><ol><li>最开始用https协议下载private repo代码失败。遂该用ssh。<code>git clone git@github.com:Optimushimeself/blogsource.git</code>自然报错。因为还没在我的github账号中配置本机的SSH。</li><li>ssh-keygen <code>tyrone@Matrix:~/.ssh$ ssh-keygen -t [加密算法] -f [sshfileName]</code> t: type. github使用<code>ed25519</code>。 passphrase口令为空。自然也没关<code>ssh-agent</code>之类的“高级功能”。</li><li>ssh-keygen得到两个文件，.pub后缀是公钥，扔到<code>github-&gt;setting-&gt;SSH&amp;GPG Keys</code></li><li>（不知道是否靠谱）遇到一些代理问题，调成了全局代理，创建<code>~/.ssh/config</code>。重新运行<code>git clone git@github.com:OptimusHimself/blogsource.git</code>，中途谈了一个是否信任（老熟人了），无脑yes，最后成功克隆项目。</li></ol><h2 id="问题-故障记录"><a href="#问题-故障记录" class="headerlink" title="问题&#x2F;故障记录"></a>问题&#x2F;故障记录</h2><figure class="highlight livecodeserver"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs livecodeserver">\\ 网络问题？<br>Cloning <span class="hljs-keyword">into</span> <span class="hljs-string">&#x27;blogsource&#x27;</span>...<br>kex_exchange_identification: <span class="hljs-built_in">read</span>: Connection reset <span class="hljs-keyword">by</span> peer<br>Connection reset <span class="hljs-keyword">by</span> <span class="hljs-number">20.205</span><span class="hljs-number">.243</span><span class="hljs-number">.166</span> port <span class="hljs-number">22</span><br>fatal: Could <span class="hljs-keyword">not</span> <span class="hljs-built_in">read</span> <span class="hljs-built_in">from</span> remote repository.<br><br>Please make sure you have <span class="hljs-keyword">the</span> correct access rights<br><span class="hljs-keyword">and</span> <span class="hljs-keyword">the</span> repository exists.<br></code></pre></td></tr></table></figure><h1 id="github场景-S2：原来的私钥丢失or忘记passphrase"><a href="#github场景-S2：原来的私钥丢失or忘记passphrase" class="headerlink" title="github场景-S2：原来的私钥丢失or忘记passphrase()"></a>github场景-S2：原来的私钥丢失or忘记passphrase()</h1><p>这就是我为什么建议小白们最开始学习没必要设置passphrase,因为你会忘掉。 不过，只要能记得自己github账号的密码，问题都不大～<br>打开github网站，<code>github-&gt;setting-&gt;SSH&amp;GPG Keys</code>删掉你之前创建的钥匙，重新走一遍 <strong>github场景-S1</strong></p><h1 id="使用ssh登陆服务器：传文件，训练模型…"><a href="#使用ssh登陆服务器：传文件，训练模型…" class="headerlink" title="使用ssh登陆服务器：传文件，训练模型…."></a>使用ssh登陆服务器：传文件，训练模型….</h1>]]></content>
+    
+    
+    <categories>
+      
+      <category>教程</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>SSH</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>科学上网</title>
+    <link href="/2025/04/29/%E7%94%A8%E5%A5%BD%E4%BB%A3%E7%90%86/"/>
+    <url>/2025/04/29/%E7%94%A8%E5%A5%BD%E4%BB%A3%E7%90%86/</url>
+    
+    <content type="html"><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>重要内容：代理软件常用功能的解释，常见的使用场景（Linux &#x2F; Windows），<br>整活常见涉及到的Proxy命令<br>不会包含的内容：1.推荐机场 2.代理软件的推荐</p><h1 id="takeaways-important-concepts"><a href="#takeaways-important-concepts" class="headerlink" title="takeaways: important concepts"></a>takeaways: important concepts</h1><h2 id="grossery"><a href="#grossery" class="headerlink" title="grossery"></a>grossery</h2><p>机场<br>VPN<br>代理（软件）</p><h1 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h1><ol><li>全局模式</li><li>规则模式</li><li></li></ol><h2 id=""><a href="#" class="headerlink" title=""></a></h2><p>系统代理</p><p>TUN</p><h1 id="不同Shell的代理配置命令"><a href="#不同Shell的代理配置命令" class="headerlink" title="不同Shell的代理配置命令"></a>不同Shell的代理配置命令</h1><h2 id="PowerShell"><a href="#PowerShell" class="headerlink" title="PowerShell"></a>PowerShell</h2><figure class="highlight elixir"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs elixir"><span class="hljs-variable">$env</span><span class="hljs-symbol">:http_proxy=<span class="hljs-string">&quot;http://127.0.0.1:7890&quot;</span></span><br><span class="hljs-variable">$env</span><span class="hljs-symbol">:https_proxy=<span class="hljs-string">&quot;http://127.0.0.1:7890&quot;</span></span><br><span class="hljs-variable">$env</span><span class="hljs-symbol">:all_proxy=<span class="hljs-string">&quot;socks5://127.0.0.1:7890&quot;</span></span><br></code></pre></td></tr></table></figure><h2 id="Bash-Git-Bash"><a href="#Bash-Git-Bash" class="headerlink" title="Bash&#x2F; Git Bash"></a>Bash&#x2F; Git Bash</h2><figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs routeros"><span class="hljs-built_in">export</span> <span class="hljs-attribute">http_proxy</span>=http://127.0.0.1:7890<br><span class="hljs-built_in">export</span> <span class="hljs-attribute">https_proxy</span>=http://127.0.0.1:7890<br><span class="hljs-built_in">export</span> <span class="hljs-attribute">all_proxy</span>=socks5://127.0.0.1:7890<br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+    <categories>
+      
+      <category>教程</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Clash Proxy Server</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>我的A证</title>
+    <link href="/2025/04/24/%E6%88%91%E7%9A%84A%E8%AF%81/"/>
+    <url>/2025/04/24/%E6%88%91%E7%9A%84A%E8%AF%81/</url>
+    
+    <content type="html"><![CDATA[<img src="https://github.com/OptimusHimself/picx-images-hosting/raw/master/执照.8ojy22apde.jpg" alt="A证"  /><h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>记录笔者考A证的时间线。还有给新手的建议（不包括复习）<br>以下，中国无线电协会业余电台操作证书叫做操作证。 中国人民共和国无线电台执照叫做（无线）电台执照。</p><h1 id="时间线"><a href="#时间线" class="headerlink" title="时间线"></a>时间线</h1><p>4.19 考试<br>4.24 上网查看，通过了。<br>5.12 拿到操作证。验机、填表、申请电台执照。<br>5.30.执照通过 (其实执照上的有效期是5.22起，北京无线电协会的通知会晚一点儿)<br>6.4 申请邮寄执照<br>6.6 终于拿到邮寄的执照啦！（今天是我生日！）<code>BD1BBU</code></p><h1 id="Q-A"><a href="#Q-A" class="headerlink" title="Q&amp;A"></a>Q&amp;A</h1><p>达到什么条件才可以“发射”？<br>有操作证，有电台执照。 很好理解，用电台就像开车。 首先，要有驾照（A操作证）。然后你的车要有车牌，就像你用的电台需要一个电台号、执照。就像交通系统的监管对象是路行驶的车而不是驾驶的人。摄像头先抓的是违规的车、再去扣驾驶员的分&#x2F;吊销他的执照。同样地，无线电管理系统也是监视违规的电台，其次再去惩罚操作员。</p><h1 id="tips"><a href="#tips" class="headerlink" title="tips"></a>tips</h1><ul><li>个人认为三天，每天准备4h就够了。</li><li>看到当地无线电协会发的通知里没有自己的名字不要担心是自己没考过。可能那就不是你那波的考试情况。</li><li>出了成绩就可以去验机啦！不要等到拿到操作证再去验机。<br>原因：早点验机，操作证和无线电台执照一起拿。<br>要区分A操作证、执照和其组织的关系。操作证是你当地的协会给你颁发的。而执照的合法单位是中国人民共和国工业和信息化部。前者需要通过考试，后者需要通过考试且拿符合标准的设备到当地无线电协会验机。<br>我傻傻以为操作证上就会有呼号。。结果后面看到一串长长的操作证ID就感觉不对劲。</li></ul>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>日记</tag>
+      
+      <tag>HAM</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Python Journey</title>
+    <link href="/2025/04/23/Python-Journey/"/>
+    <url>/2025/04/23/Python-Journey/</url>
+    
+    <content type="html"><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>python其实是一门很简单易学的语言。 但是很多人依然学着头疼。 考虑到每个人的情况不同，本文主要面向没有太多项目经历但对计算机有了解（知道OOP，学过C&#x2F;Java…）的小白。<br>本文推荐了学习资源，介绍了我入门的过程。分析了导致python学习效果不好的原因（personal）。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>学习路线</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Programming</tag>
+      
+      <tag>Python</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Cpp Journey</title>
+    <link href="/2025/04/23/Cpp-Journey/"/>
+    <url>/2025/04/23/Cpp-Journey/</url>
+    
+    <content type="html"><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>本文属于我的“学习路线”系列文章。 介绍了自认为成功且有一定效率的学习方法。 本文会介绍笔者的入门C++的过程（学习时长&amp;成果），推荐一套可靠的方法，分享有用的资源。本文还总结了学习C++容易遇到的问题</p><h1 id="推荐路线，前置基础"><a href="#推荐路线，前置基础" class="headerlink" title="推荐路线，前置基础"></a>推荐路线，前置基础</h1><h1 id="容易遇到的问题-解决"><a href="#容易遇到的问题-解决" class="headerlink" title="容易遇到的问题 &amp; 解决"></a>容易遇到的问题 &amp; 解决</h1><ul><li>搞不清编译器、工具链等概念。听到<code>MSVC</code> <code>Clang</code> <code>Clang++</code> <code>G++</code> <code>GCC</code> <code>MinGW</code>等词汇就一头包，畏畏缩缩。担心自己搞不定</li><li>不知道在哪运行、不会创建文件夹。不懂底层的规则。</li><li>平台&amp;工具： Windows + Visual Studio + 一个记笔记的Editor（VSC&#x2F;Obsidian&#x2F;Joplin…）</li><li>按着Cherno的视频路线，有取舍的学习（实在不想听的&#x2F;与主线关联不大先跳过，听不懂的跳然后Chat</li><li>视频课绝对不是唯一的，但一个好的视频课一定是最好的路线图！</li><li></li></ul><h1 id=""><a href="#" class="headerlink" title=""></a></h1>]]></content>
+    
+    
+    <categories>
+      
+      <category>学习路线</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Programming</tag>
+      
+      <tag>C++</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Linux Journey</title>
+    <link href="/2025/04/23/Linux-Journey/"/>
+    <url>/2025/04/23/Linux-Journey/</url>
+    
+    <content type="html"><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>我第一次接触Linux，我和Linux的故事：从装系统、做项目、无数次“入坑”又“弃坑”。最终又成功登上正轨的学习感悟。 总结了优质的学习资源以及使用方法，更重要的：新手应该避开哪些问题。<br>如果你赶时间，直接看TakeAway。给出了一套简洁、无门槛的学习指南<br>不包含：装系统的细节</p><h1 id="我和Linux的故事"><a href="#我和Linux的故事" class="headerlink" title="我和Linux的故事"></a>我和Linux的故事</h1><ul><li>初次接触：</li><li>开始使用：</li><li>弃坑原因：</li><li>发现好书，自信满满。止步于WSL2</li><li></li></ul><h1 id="关于选什么系统"><a href="#关于选什么系统" class="headerlink" title="关于选什么系统"></a>关于选什么系统</h1><p>推荐使用：Zorin</p><p>WSL2为什么不行</p><h1 id="不要做的-应该放下的思绪："><a href="#不要做的-应该放下的思绪：" class="headerlink" title="不要做的&#x2F;应该放下的思绪："></a>不要做的&#x2F;应该放下的思绪：</h1><p>障碍：</p><ol><li>纠结用什么系统</li><li>上手就装炫酷的软件，玩各种配置。</li><li>看不起基础的Text-Fu（文本操作&#x2F;路径导航的功夫）</li></ol><ul><li>追求有挑战的事情，没有一条线路。 这是一个体系，很复杂，信息量很庞大。靠“遇到问题即Chat”是学不好的。你需要慢下来记笔记，专门花时间研究。</li></ul><h1 id="takeaway"><a href="#takeaway" class="headerlink" title="takeaway"></a>takeaway</h1><p>买一台新电脑或者zorin&#x2F;whatever双系统<br>装vsc, 搞定科学上网（clash-verge）<br>跟着linux journey边做记录边实验边学<br>好了</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>学习路线</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Linux</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>不一样的Git教程 —— GIT基础设置</title>
+    <link href="/2025/04/19/gitconcepts/"/>
+    <url>/2025/04/19/gitconcepts/</url>
+    
+    <content type="html"><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>本文希望科普git的重要概念以更好地帮助你使用git。 看完本篇内容（git基础）你将方便地用git完成个人项目，但想管理团队，还需要更多的知识</p><p>重点： 明白四个stage的概念。明白push, pull, commit, pull request的中文含义<br>非重点： 记指令的语法（因为github desktop完美替代了初学者所需的操作）</p><h2 id="grocery"><a href="#grocery" class="headerlink" title="grocery"></a>grocery</h2>]]></content>
+    
+    
+    <categories>
+      
+      <category>教程</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>GIT</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>AI时代的思考（1）-- 思维和讨论</title>
+    <link href="/2025/04/11/AI%E6%97%B6%E4%BB%A3%E7%9A%84%E6%80%9D%E8%80%83%EF%BC%881%EF%BC%89-%E6%80%9D%E7%BB%B4%E5%92%8C%E8%AE%A8%E8%AE%BA/"/>
+    <url>/2025/04/11/AI%E6%97%B6%E4%BB%A3%E7%9A%84%E6%80%9D%E8%80%83%EF%BC%881%EF%BC%89-%E6%80%9D%E7%BB%B4%E5%92%8C%E8%AE%A8%E8%AE%BA/</url>
+    
+    <content type="html"><![CDATA[<p>和朋友聊一个经济学问题——为什么美国可以持续向外输出美元，维持巨大的财政赤字。而中国不可以。其实，我期待能和他一步步挖出财政支出和资本收入等核心概念。但聊着聊着，他就回应：“我也是三脚猫功夫，你问问ChatGPT呗”。类似的对话和其他朋友也有过。<br>　　“ChatGPT, DeepSeek”这些大语言模型成为了人们日常聊天的主角。 你问了DeepSeek吗？<br>　　似乎这些LLM是知识的象征，他们的观点都是对的。 的确，通过优质的网页内容、大量的科学数据训练出的LLM不论是表达能力还是专业性、实战性都吊打大部分本科生。<br>　　但是这和聊天有什么关系？我和你聊天的目的是为了得到一个正确的答案吗？我想要的只不过是你的理解，你的解释。<br>　　基于我和你的交情、来来往往的招呼和交流，我可以很轻松地接受你的语言风格——我们曾经一起开车旅行，畅聊中我知道你是一个说话不清不楚大大咧咧的人。基于我对你的认知能力的了解，我很容易接受你对问题的表述——你平常用词就是这个风格，你的知识储备就是说这样的话。<br>　　但是，这些感觉在我和DeepSeek, 豆包这样的“Knowledge Cluster”对话则没有。<br>　　我联想不到我们曾经一起做过的事儿，AI传递给我的message也只不过是那一段干巴巴的文字。的确，我可以让他说得生动，讲得比老师还要好。我也可以很轻松地得到正确答案。但是，这只是短暂的捡起一个不属于你的理解。<br>　　我已经习惯了在课堂上学习知识，习惯了通过和朋友不断探讨得到智慧的果实。我认为，两个人，在对问题的理解从不清晰的状态，经过交流合作、通过传统的查资料和DIY一些小实验来验证自己的想法，最终得出合理自洽的结论结合自己的表述系统科学地解释问题（哪怕和真实情况有出入）——这才是学习本该有的过程。<br>　　AI的确很强大，提升了我们的效率。但思维的产生和锻炼需要时间、需要磨练和沉淀。我们不能因为AI工具越来越“好使”，就丢弃了最开始交流讨论、独立思考的能力。<br>　　未来的人类文明必将到达新高度。我希望那是一个有思维活力的文明，而不是被AI禁锢、思维陈腐、缺乏创意、懒惰的文明。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>生活感悟</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>日记</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>大兴追音记</title>
+    <link href="/2025/04/03/daxing/"/>
+    <url>/2025/04/03/daxing/</url>
+    
+    <content type="html"><![CDATA[<p>本文记录了和<a href="https://github.com/Daydreamer114">WZA</a>的第二次SDR整活儿的经历。蹲在大兴机厂附近的农场收听塔台和机长的对话。</p><img src="https://github.com/OptimusHimself/picx-images-hosting/raw/master/landing.8l0b7r1ro1.jpg" alt="daxing airport">从SDR入手，我们就用它收听了汽车电台并计划在清明假期前一天，去机场听听电波。  <p><a href="https://chat.deepseek.com/a/chat/s/3b69e504-22ff-4657-ab10-91f73dda7f10">d2sk</a></p><h1 id="Wireless-SDR"><a href="#Wireless-SDR" class="headerlink" title="Wireless &amp; SDR"></a>Wireless &amp; SDR</h1><h2 id="RF-Gain"><a href="#RF-Gain" class="headerlink" title="RF Gain:"></a>RF Gain:</h2><p>在监听飞机通信时，合理调整<strong>RF增益（射频增益）</strong> 和其他参数可以显著改善音质</p><p>降白噪  </p><p>我们常光顾的频段：  </p><p>为什么要不停的换频段  </p><p>带宽的选择：<br>我们花了很长时间设置带宽，DeepSeek推荐的25000Hz噪音太多了。后来用11000Hz的带宽收听。</p><h2 id="dBFS"><a href="#dBFS" class="headerlink" title="dBFS"></a>dBFS</h2><p><strong>dBFS</strong>（Decibels relative to Full Scale，全量程分贝）是用来表示信号强度的<strong>相对电平单位</strong>，它描述的是当前信号幅度相对于ADC（模数转换器）的<strong>最大可量化电平</strong>的比例关系。</p><h3 id="dBFS的物理意义"><a href="#dBFS的物理意义" class="headerlink" title="dBFS的物理意义"></a><strong>dBFS的物理意义</strong></h3><ul><li><strong>参考点（0 dBFS）</strong>：代表ADC能处理的最大信号电平（即数字信号的满量程值），超过这个值会发生<strong>削波（Clipping）</strong>，导致信号失真。</li><li><strong>负值（如-80 dBFS）</strong>：表示当前信号比满量程低多少分贝</li></ul><h1 id="Misc"><a href="#Misc" class="headerlink" title="Misc"></a>Misc</h1><p>选地址的挑战： 我们要选一个离机厂近、能停车、最好人不多的地方。经验丰富的Driver Wang不一会儿就搜到了一个附近的农场。</p><p>飞机的声音：在空中的某一位置，从起飞到头顶上方的某个阶段，开始听到飞机的轰鸣声。但是掠过一段距离后，又听不到。不知道是什么原理  </p><p>机场周围的声音  </p><p>巡逻的车子  </p><p>机厂附近独有的快乐： 每隔3分钟就能看到一架飞机从头顶飞过的感觉。  </p><h1 id="民航知识"><a href="#民航知识" class="headerlink" title="民航知识"></a>民航知识</h1>]]></content>
+    
+    
+    <categories>
+      
+      <category>整活</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>日记</tag>
+      
+      <tag>SDR入门</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>和仲敖的SDR日记</title>
+    <link href="/2025/03/25/%E5%92%8C%E4%BB%B2%E6%95%96%E7%9A%84SDR%E6%97%A5%E8%AE%B0/"/>
+    <url>/2025/03/25/%E5%92%8C%E4%BB%B2%E6%95%96%E7%9A%84SDR%E6%97%A5%E8%AE%B0/</url>
+    
+    <content type="html"><![CDATA[<p> 下午逃课和仲敖玩SDR，收听了北京汽车广播。在日记里，我想记下几个难忘的瞬间。</p><img src="https://github.com/OptimusHimself/picx-images-hosting/raw/master/radioandsun.webp" alt="BJUT环能楼楼顶的风景" >1仲敖问Deepseek北京电台的信息，然后说：切98，98有音乐！  <p>2 仲敖生病了依然陪我开箱，陪我安装，搞软件。 非常有耐心地陪我读文档、装软件，今天的成功，离不开我这位好朋友。  </p><p>3 争论SDR# 软件上Bandwidth功能的实现原理，我认为是主板给滤波器发送信号调控硬件中的BPF，而仲敖坚持认为是软件对天线收到的所有信号进行处理。我们用一餐饭打赌，仲敖后来输了。    </p><p>4 起初这条懒狗还不愿意陪我拿快递（当时挺失望的，同时也理解他生病的状态）。不过，后来在我的哄骗下还是一块去了。最后，我问他后悔走“那么多”路去拿快递吗？他表示这份体验很值得（我心里美滋滋的，要是没他陪我，我也玩不到那么好）。他甚至还想上京哈高速上玩，到首都机场听飞行员通信的频段。被我劝住了。我们计划清明前夕一块去，顺便下馆子。  </p><p>5 本人手贱，把SDR# 上预设的bandwidth &#x3D; 200,000改成了2,000，结果什么都听不清。两个小白还以为是地方不够空旷，搬到一个新地方（环能楼顶层）去，结果依然啥也听不清。后来我把bandwidth又调回20万。你懂吧，当时我兴奋地扇自己耳光。替四教5层删的，冤枉你了。  </p><p>6 不愧是C++ 代码王，看教程的时候，我总是有很多模棱两可的地方磨磨唧唧的。而身边的实战派总能帮我过滤掉无用信息，有这么一个果断但又不乏耐心的人陪伴，整活成为我的快乐<br>7 爸爸糖的香蕉味吐司挺好吃的。某人硬吹evian阿尔卑斯的水比农夫山泉的好，斥巨资购买。在我看来，骨子里的癖好是无法改变的。当然，和这位北京小哥成为好朋友完全不是看重这些所谓的“品味”。<br>8 守门员出生的仲敖怕天线摔地上，冲过去护着的样子。很可爱也有些滑稽。<br>今天，我们从开箱到听到FM广播。书本上的死知识：抽象的数学符号、老师随手画的频谱出现在我们眼前。我们不清楚为什么2000的带宽听到的消息信息量那么低，而200,000、180,000就正合适，调成300,000噪声就太多了。我们也不懂天线知识，不知道为什么短天线比长天线收听效果差，我们真的不懂EM wave是咋传播的，我们只知道信号是从西边（海淀）传来的，打开羊角天线，指向日落的方向就能听到音乐。<br>希望和仲敖在SDR的世界中收获更多的兴趣和乐趣。也希望在这个小玩意的引领下，DSP，communication theory, wireless communication三大module取得Aplus!</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>整活</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>日记</tag>
+      
+      <tag>SDR入门</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Books Recommandation</title>
+    <link href="/2025/03/25/%E9%98%85%E8%AF%BB%E6%8E%A8%E8%8D%90/"/>
+    <url>/2025/03/25/%E9%98%85%E8%AF%BB%E6%8E%A8%E8%8D%90/</url>
+    
+    <content type="html"><![CDATA[<p>这是一个来自IoT专业。我从读大学之后开始热爱读书、算是对各类书籍都感兴趣。在这之前，很少阅读课外书籍。<br>这份清单涵盖了我阅读过的并且其中的某些片段为我留下了深刻印象、并对我的学习生活、个人修养产生过积极影响的书籍（真的，读书很神奇，你会因为梳理的内容做出很多改变，哪怕有些只有一个月。</p><h1 id="高端科普、社会知识类"><a href="#高端科普、社会知识类" class="headerlink" title="高端科普、社会知识类"></a>高端科普、社会知识类</h1><p>通过读大师的作品，品味伟大的成就，从精品里学习，开阔了你的视野。从精粹中学到的思维方式让你在成事、看热点问题、社会上的宏观问题带来更新颖的思维方式。<br>阅读这类作品，需要结合自身经历思考、留记录</p><h2 id="科学中国人系列杂志"><a href="#科学中国人系列杂志" class="headerlink" title="科学中国人系列杂志"></a>科学中国人系列杂志</h2><p>我的阅读背景：<br>我于2025.3月（大三下），在图书馆的杂志区，接触科学中国人。 这一段时间，我焦虑于保研专业的选择，人工智能革命浪潮加上种种AI的炒作下，好像计算机专业的不去研究AI以后就找不到工作、或者没有实在的薪水。有时在一些众说纷纭的媒体听闻：26岁的某某某在大厂担任AI领军任务；没天赋别碰AI、别取卷算法，种种之类。其实，在我尝试学习Andrej Karpathy的课程后我就对AI有研究自信，但没太火热的兴趣。 我也接受以后不主攻AI。但心里总希望有些支撑我的观点。草草读完，我豁然开朗，研究不分高低贵贱，不要带着功利选择视野；何必走计算机？计算机外也有很多有价值的科研天地；不要基于未经审核的只言片语规划未来。<br>作品评价：中国科学主管，在我国高级知识分子群体（两院院士）有着良好声誉<br>定位：中国科教界热点、大牛人物（科学家、科技型企业家、教学科研单位高层管理人员）故事，最新科研动态<br>每一期都会挑出几位顶级的科学家介绍他们的经历。还会用简短的文字科普新兴的技术。最后一页有精美的图片或者推荐的阅读资料。<br>通过阅读这套杂志，你可以清楚地感受到中国顶流的科研水平，各大高校的成果，你会对研究生、博士生、教授的工作有更清楚的认识。这本书不会介绍基础知识，和你的本科课本不同。但是一定能打开你的视野，给想走科研道路的自己更详细的学业、职业生涯规划。<br>如果你还在纠结留学还是国内读研、不清楚这个世界上有哪些有价值的研究以及想了解我国的科研能力到底什么水平，强烈推荐你看看这套书籍。如果你还未高中毕业，想规划自己未来的研究道路，相信有一定科学基础的你也能从这本书中看到未来的事业。</p><h2 id="脉络-吴军"><a href="#脉络-吴军" class="headerlink" title="脉络  吴军"></a>脉络  吴军</h2><p>大三上学期（国庆假期）<br>历史、社会、未来</p><h2 id="浪潮之巅-吴军"><a href="#浪潮之巅-吴军" class="headerlink" title="浪潮之巅 吴军"></a>浪潮之巅 吴军</h2><p>还没读完，但绝对值得一读。</p><h2 id="黑客与画家-保罗·格雷厄姆（YCombinator创始人）"><a href="#黑客与画家-保罗·格雷厄姆（YCombinator创始人）" class="headerlink" title="黑客与画家  保罗·格雷厄姆（YCombinator创始人）"></a>黑客与画家  保罗·格雷厄姆（YCombinator创始人）</h2><p>阮一峰大佬翻译<br>全书分为三部分<br>本书是保罗整理的“散文集”。包含了他对IT行业&#x2F;创业的思考</p><h2 id="Just-For-Fun-只是为了好玩（Linus-Trovalds）"><a href="#Just-For-Fun-只是为了好玩（Linus-Trovalds）" class="headerlink" title="Just For Fun 只是为了好玩（Linus Trovalds）"></a>Just For Fun 只是为了好玩（Linus Trovalds）</h2><p>本书是Linus的个人传记。非常非常有趣。值得你的空闲时间。</p><h1 id="中外小说、散文"><a href="#中外小说、散文" class="headerlink" title="中外小说、散文"></a>中外小说、散文</h1><p>阅读，可以是一种放松的过程。本节记录书本概述&amp;我喜欢的句子。</p><h2 id="读是一种幸福-梁晓声"><a href="#读是一种幸福-梁晓声" class="headerlink" title="读是一种幸福 梁晓声"></a>读是一种幸福 梁晓声</h2><p>这是梁晓声先生的散文集，是我第一次读到的作品。我喜欢他的文章，那有血有肉的文字读起来没有压力，总是让我感动。<br>记录了他儿时那个年代的故事。有文革背景下的人物。有和他的哥哥、母亲的故事，还有他当父亲有趣的亲子经历。<br>后来，我知道他的代表作，《人世间》超长篇小说；第一次追剧也是这部小说改，剧中的人物正是他的家庭生活的缩影。</p><h2 id="夜火车-徐则臣"><a href="#夜火车-徐则臣" class="headerlink" title="夜火车  徐则臣"></a>夜火车  徐则臣</h2><p>感谢善良勇敢的木年、孝顺有爱的新治；让我在大学这个浮躁的小社会收获滋养，做一个踏实善良的人。</p><blockquote></blockquote><h2 id="海边的卡夫卡-村上春树"><a href="#海边的卡夫卡-村上春树" class="headerlink" title="海边的卡夫卡  村上春树"></a>海边的卡夫卡  村上春树</h2><p>小说的开篇就很有意思，16岁自律男生的独自生存。故事中的情节不断点燃我的探险激情。我也想走出校园，看看这个世界！于是，就有了大二暑假河北秦皇岛的独自旅行。</p><blockquote><p>这往下你必须成为世界上最顽强的十五岁少年，不管怎么样。因为除此之外这世界上没有你赖以存活之路，为此你自己一定要理解真正的顽强是怎么回事。</p><p>如果有意，我可以除掉父亲（以我现在的力气，决非什么难事），也可从记忆中将母亲抹消。可是我无法将两人的遗传因子从身上驱逐干净。如果我想驱逐，只能驱逐我自身。<br>我们大家都在持续失去种种宝贵的东西，这是生存的一个意义。</p></blockquote><h2 id="潮骚-三岛由纪夫"><a href="#潮骚-三岛由纪夫" class="headerlink" title="潮骚 三岛由纪夫"></a>潮骚 三岛由纪夫</h2><p>我欣赏三岛由纪夫那细致的人物刻画能力。用精细的语言雕刻人物的动作、心理、神态。每次重读他的作品，我都会感叹，怎么能有如此强大的表述能力。</p><blockquote><p><em>摘抄</em><br>年轻人感到包围着他的丰饶的大自然与他自身，是一种无上的调和。他觉得自己的深呼吸，是仿造大自然的肉眼看不见的东西的一部分，它深深渗透到年轻人的体内深处。他所听见的潮骚，仿佛是海的巨大的潮流，与他体内沸腾的热血的潮流调和起来了。新治平日并不特别需要音乐，但大自然本身一定充满着音乐的需要。</p><p>新治的身边是广袤的大海，但他并不憧憬纵横四海的虚幻梦想。对渔夫来说，海的概念与农民拥有的土地相近。海是生活的场所，是庄稼地，形状不定的白色穗波代替了稻穗和麦浪在敏感的湛蓝色软土上不停摇摆着。 尽管如此，年轻人结束了这天的捕捞工作，望着白色货轮行驶在水平线上的晚霞前，心里却怀着不可思议的感动。世界张开了在过去难以想象的巨大怀抱，从彼方通近。这未知世界的形象如远雷一般，从天际轰鸣而来，又消逝而去。 在船头甲板上，一只小小的海星已经干瘪了。年轻人坐在船头，将视线挪离晚霞，轻摇了摇扎着白色厚毛巾的头。 </p></blockquote><h1 id="心理学"><a href="#心理学" class="headerlink" title="心理学"></a>心理学</h1><h2 id="亲密关系-Intimate-Relationships-罗兰·米勒"><a href="#亲密关系-Intimate-Relationships-罗兰·米勒" class="headerlink" title="亲密关系 Intimate Relationships 罗兰·米勒"></a>亲密关系 Intimate Relationships 罗兰·米勒</h2><p>与其说这是书，不如说这是一份研究报告。<br>这本书教会了如何有效沟通。不仅是和恋人、亲人，还有和同学朋友讲道理时，也会采取书中的模式——你心平气和地说，我耐心听，我不打断。等你说完了我再说。我听到了你的想法，我陈述你的想法——当我的理解与你的想法一致时，我做到了共情。我认真地道歉，讲道理。</p><p>我认为这本书适合每一个大学生阅读。</p><h2 id="休息力-韩-李时炯"><a href="#休息力-韩-李时炯" class="headerlink" title="休息力  [韩]李时炯"></a><a href="https://book.douban.com/subject/36394549/">休息力</a>  [韩]李时炯</h2><p>本书不同于大多经验类的帖子、脑科学作品，有很多科学元素。从科学原理出发，解释人之所以疲劳、效率低等日常问题还有心理、身体疾病的源头，结合来自仙村康复中心的治疗方案，告诉读者长寿，让大脑保持健康的秘密。教会我们科学地工作。<br>这本书让我产生了保护好的大脑的意识。更高效地调整自己的工作状态，让我更加从容地面对瓶颈期，而不是堕落、沮丧。</p><h1 id="计算机专业入门科普读物"><a href="#计算机专业入门科普读物" class="headerlink" title="计算机专业入门科普读物"></a>计算机专业入门科普读物</h1><h2 id="《CPU通识课》-龙芯中科"><a href="#《CPU通识课》-龙芯中科" class="headerlink" title="《CPU通识课》 龙芯中科"></a>《CPU通识课》 龙芯中科</h2><p>适合CS, IoT，等有对计算机底层知识 how computer work问题感兴趣的童鞋阅读。开阔了商业视野。偏向CPU、ISA简史。</p><h2 id="《普林斯顿大学计算机公开课》"><a href="#《普林斯顿大学计算机公开课》" class="headerlink" title="《普林斯顿大学计算机公开课》"></a>《普林斯顿大学计算机公开课》</h2><p>适合刚进入大学的计算机专业学生阅读。</p><h1 id="通信"><a href="#通信" class="headerlink" title="通信"></a>通信</h1><h2 id="业余无线电-童效勇"><a href="#业余无线电-童效勇" class="headerlink" title="业余无线电 童效勇"></a>业余无线电 童效勇</h2><p>这本书考证必备读物。很棒的HAM入门读物。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>好物推荐</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>资源分享</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>论持久战</title>
+    <link href="/2025/03/21/%E8%AE%BA%E6%8C%81%E4%B9%85%E6%88%98/"/>
+    <url>/2025/03/21/%E8%AE%BA%E6%8C%81%E4%B9%85%E6%88%98/</url>
+    
+    <content type="html"><![CDATA[<p>从午休后到晚上10点，我全身心投入在模拟通信系统的调制技术的学习中。这是一次伟大的学习过程，因为我学会了“持久”。 我喜欢学习，但我的学习方法不算高效，或者说，在此之前，我没有一个通用的“学习思维”。 我能学好某些知识，归功于我擅长找好的教材、课程，从优质资源中汲取知识。但这只是途径问题，找好的教材是学习的第一步，属于“捷径方法论”。而现在要讨论的是：利用资源和规划时间。因为这一块工作没有做好，会让你在一个领域的开始阶段举步维艰，被那些“懂学习”的人拉开差距。我反思，为什么我作为一个CS专业的学生，到大三了才进入程序设计的全盛、兴趣爆棚的学习状态。慢热，真的好吗？</p><p>拿通信原理这门课来说。要了解通信系统的运作需要很多前置知识：信息论——通信工程里讨论的bit和CS里常说的bit可不是一个概念；还有对通信系统的建模，对信道简单建模。总之，这门课的“原始积累、老本”几乎是0。而学校的教材、课程对于入门小白来说是很难摸得着头脑的。看讲义、课件时，突然蹦出一个你从未见过的公式、符号是很令人头疼的。</p><p>以前，我在学新东西的时候总希望眼前的一切在脑中make sense, 好像有了某般instinct就等同于学会了，可以接下去学了。而要是没有那道“电弧”、通透的感觉，就是没学会。这还不够，不懂学习方法的我还会发脾气：这教材真差劲，不学了！老师讲得真烂，简直就是天书、不听了！于是连续3~4词旷课，等火烧眉毛了再咬着牙学。还有一类情况是，遇到了以前的知识，比方说研究调制信号的spetrum时用到了一点傅里叶变换。一些死扣牛角尖的想法就是，“哎呀，上学期信号与系统里教的傅里叶变换又忘了、我肯定学不下去了，连基础都没有，干脆等几天再学吧，先复习复习傅里叶变换”。可实际上，并没有行动，因为这个想法太空了，复习哪些部分？傅里叶变换那么多性质，真要复习全，三天三夜差不多。有时，你只是脑子里蹦出了知识图谱的一个小标签，就恐吓自己、转移自己的视线。从阿德勒的目的论来看，一切都目的就是不想接触新概念，因为你知道培养自己形成新的概念离不开痛苦、离不开旧思想的碰撞，进而想通过给自己设障达到偷懒、逃避的目的。</p><p>我相信，有不少人也是和我有类似毛病的。只不过我这块特别严重。</p><p>说说我现在的状态。</p><p>上新课听到不懂的不再深究。一方面，你是初学者，你不可能短时间体会这个符号从过去被科学家发明出来，因为什么英文含义被写成这样，你也不可能短时间从只言片语体会到这个公式的来历，你需要练习，研究电路，物理意义你需要看更多的书来联想到更多的知识。另一方面，你真的需要在这个时间点知道那么多吗？正确的做法是，短暂思考后标注问题，问问自己前后的东西能不能自洽，换句话说，书上有没有硬刷错误。对你没看错，我的意思就是，有没有数学上，或者和过去的印象是否匹配。你只需要验证，告诉自己：</p><p>“这大概是对的——这一项加这一项系数没问题，合并同类项等基本运算正确，可能我不知道为什么这么算，但我先接着听。”</p><p>“傅里叶变换我有些不熟悉了……哎不管了，先记着cos(t)转到频域上是两根棍，好像没啥毛病。具体什么含义、为什么做傅里叶变换……老师也没讲、他也不一定讲的清。那我继续看。”</p><p>出现什么新符号、新推演就告诉自己“哦，这有个新符号啊，它叫做……虽然我不知道为什么叫这个抽象玩意儿。”“为什么在通信系统里，做完A operation，就做B。老师说这个方法的优点是……，那就是吧，管他呢”。</p><p>和老师、书本过进度，揭开这个系统的面纱。总之，你要学会减轻自己的思维负担。遇到不懂的东西，立刻告诉自己：“问题不大，没啥大不了的。”难道不是吗？生活中，哪有那么多事儿?</p><p>我相信，好的资料为你拓宽视野，给你一个很好的认知基础，知道学习的路线。很多时候，这足够支撑你“无痛、轻微疼痛”即可入门一个领域。而有些时候，问题稍微复杂了些，每一步都带来很多未知面。这个时候就换一个思维，不要硬刚而是缓下来，换成“持久、不内耗、果断清晰”的思维。我认为，这是一个高效学习者的能力。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>生活感悟</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>学习方法</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>保研时期的我</title>
+    <link href="/2025/03/20/%E4%BF%9D%E7%A0%94%E6%97%B6%E6%9C%9F%E7%9A%84%E6%88%91/"/>
+    <url>/2025/03/20/%E4%BF%9D%E7%A0%94%E6%97%B6%E6%9C%9F%E7%9A%84%E6%88%91/</url>
+    
+    <content type="html"><![CDATA[<p>保研圈，不乏激烈的竞争。在这个圈子里，我看到了可敬的对手，看到了绿群里的大佬，也坚定了我的梦想。我的愿望是到名校和更好的老师、同学、师兄师姐们交流学习。我相信，只要保研到我的梦校浙大、进入到研究小组中，就一定能进步、学习更多的专业技能。以后就能做更多有价值的事情。<br>但最近，我变得有些紧张，我担心我的简历还不够好，算法题刷得还不够多，没有论文背景，“套磁“也没人肯收我。我一直在攀比，生怕把学习专业课而不是卷所谓的那些算法、论文是在浪费时间。<br>我还纠结自己适合什么专业，能读什么专业。是偏向研究底层的方向（计算机架构、分布式系统、网络）还是前沿的应用方向（软件开发、AI）。对各个行业都略懂一二的我对自己说，都行，哪个要我就去哪儿。但不管在哪个领域，我做的，一定是有挑战性的工作！<br>说回时间分配的事情，我不想太卷课外的那些技术。 专业知识一定是第一位的。先不说以后会不会读通信、计网这块的研究生；我从IoT出来的，别人问我一个通信相关的概念而我却毫无直觉，真觉得丢人——就这还读研。 所以说，如果以后有老师觉得我简历上的研究经历不如别人突出，请看看我的专业课成绩、对专业知识的理解。<br>本科培养出来的，就不应该是什么研究精英，而是一个通识了专业领域各个方面的，有知识的人。路还很长，研究生阶段，你不可能有这样泡馆、看专业书籍、一步步推演理论的时间。<br>对于保研竞争这一块，我相信船到桥头自然直，熬过这一段，你一定会在学习课外知识的时候更有感悟。我还坚信阿德勒心理学，一切都是目的驱动的。潇洒自如、倾听自己的内心吧，真到要你做重大选择的节骨眼上了，你也一定能适应的。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>生活感悟</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>日记</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>在hexo博客中插入图片(方案汇总)</title>
+    <link href="/2025/03/09/%E5%9C%A8hexo%E5%8D%9A%E5%AE%A2%E4%B8%AD%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E3%80%90%E6%96%B9%E6%A1%88%E6%B1%87%E6%80%BB%E3%80%91/"/>
+    <url>/2025/03/09/%E5%9C%A8hexo%E5%8D%9A%E5%AE%A2%E4%B8%AD%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E3%80%90%E6%96%B9%E6%A1%88%E6%B1%87%E6%80%BB%E3%80%91/</url>
+    
+    <content type="html"><![CDATA[<h1 id="放弃的方案："><a href="#放弃的方案：" class="headerlink" title="放弃的方案："></a>放弃的方案：</h1><h2 id="原生的-hexo-add-on-hexo-asset"><a href="#原生的-hexo-add-on-hexo-asset" class="headerlink" title="原生的 hexo add on: hexo-asset"></a>原生的 hexo add on: hexo-asset</h2><p><code>post_asset_folder: false #true</code></p><ul><li>语法格式恶心，既不是 md 也不是 HTML，自带的一种渲染格式</li><li>尝试多次未成功</li></ul><h1 id="能使用的方案："><a href="#能使用的方案：" class="headerlink" title="能使用的方案："></a>能使用的方案：</h1><h2 id="PicX"><a href="#PicX" class="headerlink" title="PicX"></a>PicX</h2><h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><ul><li>gitbub 有一个叫做 picx 的项目, 是一个网站，你可以往它的官网上传（本机的）图，会自动生成一个链接赋值到剪切板上。</li><li>特点：手动在 blog md file 里放 html img 标签； 支持使用 GitHub 图床（own repo，free）等其他图床</li></ul><h3 id="优缺点"><a href="#优缺点" class="headerlink" title="优缺点"></a>优缺点</h3><ul><li>优点： PicX 自动生成图片 url, 完全免费（薅微软 Github 服务器的羊毛）</li><li>不足：无法在写博客粘贴图片的时候自动生成链接。需要手动写 HTML img 标签。图多了有些麻烦，容易找不到链接。<br>Links：<a href="https://picx.xpoet.cn/#/settings">PicX 在线服务</a>； <a href="https://picx-docs.xpoet.cn/usage-guide/get-start.html">官方使用教程</a>；<a href="https://github.com/XPoet/picx">GitHub 仓库地址</a></li></ul><p>e.g. url generate by pix<br><a href="https://github.com/OptimusHimself/picx-images-hosting/raw/master/%E5%BD%97%E6%98%9F%E8%BD%A8%E8%BF%B9.esnsejhpw.webp">https://github.com/OptimusHimself/picx-images-hosting/raw/master/彗星轨迹.esnsejhpw.webp</a><br>e.g. &lt;img&gt; tag<br>&lt;img src&#x3D;”<a href="https://github.com/OptimusHimself/picx-images-hosting/raw/master/%E5%BD%97%E6%98%9F%E8%BD%A8%E8%BF%B9.esnsejhpw.webp">https://github.com/OptimusHimself/picx-images-hosting/raw/master/彗星轨迹.esnsejhpw.webp</a>“ alt&#x3D;”sorry about that”&gt;</p><blockquote><p>img alt 参数：Specifies an alternate text for an image</p></blockquote>]]></content>
+    
+    
+    <categories>
+      
+      <category>教程</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>hexo</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>博客运营（一）</title>
+    <link href="/2025/01/15/%E5%8D%9A%E5%AE%A2%E8%BF%90%E8%90%A5%EF%BC%88%E4%B8%80%EF%BC%89/"/>
+    <url>/2025/01/15/%E5%8D%9A%E5%AE%A2%E8%BF%90%E8%90%A5%EF%BC%88%E4%B8%80%EF%BC%89/</url>
+    
+    <content type="html"><![CDATA[<h1 id="在哪运营hexo-博客？在哪个路径下、用哪个shell、运行Shell指令"><a href="#在哪运营hexo-博客？在哪个路径下、用哪个shell、运行Shell指令" class="headerlink" title="在哪运营hexo 博客？在哪个路径下、用哪个shell、运行Shell指令"></a>在哪运营hexo 博客？在哪个路径下、用哪个shell、运行Shell指令</h1><p>答：在你的博客文件夹下，右键：git bash here. </p><p>我喜欢git bash shell. 因为它支持: &amp;&amp; 运算符，可以连贯的执行操作。把一连串shell commands视作一个整体。</p><p>很神奇的是，不管在哪打开，只要是&#x2F;Blog路径下，就可以执行和hexo有关的指令。我想是因为把Node添加到了环境变量的缘故。</p><p>&nbsp;</p><h1 id="常用的指令"><a href="#常用的指令" class="headerlink" title="常用的指令"></a>常用的指令</h1><ul><li>新建一篇博客 file.md:  hexo new “Your_blog_title”   &#x2F;&#x2F;执行这行指令会生成一个md文件在_post下。附带了日期。</li><li>hexo new page  Your_blog_name &#x2F;&#x2F;有没有引号都可以。  &#x2F;&#x2F;执行这行指令会生成一个index.md文件在_post&#x2F;Your_blod_name下</li><li>hexo clean. 清理</li></ul><p>&nbsp;</p><h1 id="我发hexo博客的工作流："><a href="#我发hexo博客的工作流：" class="headerlink" title="我发hexo博客的工作流："></a>我发hexo博客的工作流：</h1><p>Step 1：用Joplin写博客。  &#x2F;&#x2F;Joplin简直神器，不多bibi</p><p>Step 2：将写完后的博客导出成md文件：NewPost.md。 &#x2F;&#x2F;Joplin支持导出为markdown。直接导到你的Blog文件夹里。如果有图片：最好导入到_post&#x2F;images. 这样更好管理博客里用的图片路径。</p><p>Step 3：在hexo创建新的博客：hexo new page “Blog_title” . 执行指令会发现_post文件夹下多了一个Blog_tilte.md</p><p>Step 4：把NewPost.md里的内容复制到Blog_title.md.  用VSCode修改：标题、格式、Anything you want。</p><ul><li><input checked="" disabled="" type="checkbox"> 为什么要“多此一举”？</li></ul><p>Joplin的文件不是纯文本。直接粘到VScode里的Blog_title.md 可能忽略图片。会把html css元素带进去。</p><p>缺点，每次在joplin上修改了都要重新导出，所以，隔一段时间再发出更省事。</p><p>VScode推荐装md相关插件：Markdonw All in One, Markdown Preview Enhanced. markdownlint</p><p>Step 5：本地浏览博客，检查、做进一步美化。</p><p>hexo clean   </p><p>hexo g &amp;&amp; hexo s</p><p>Step 6: 修改至满意后运行 hexo d. 将本地的博客上传至网站（github Page，…..）。</p><p>&nbsp;</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>教程</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>hexo</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>花书Dive into Deep Learning 入门</title>
+    <link href="/2025/01/15/d2l/"/>
+    <url>/2025/01/15/d2l/</url>
+    
+    <content type="html"><![CDATA[<h1 id="花书牛在哪？"><a href="#花书牛在哪？" class="headerlink" title="花书牛在哪？"></a>花书牛在哪？</h1><ol><li>大佬写的。名声在，质量就会有保障。</li><li>有代码，有理论, 有例子。你怕学不会？</li><li>开源、配备读者论坛。时刻更新代码。遇到问题很容易在论坛里找到学长们的回答。</li><li>感恩：还配备了文字版的PDF，“Acrobat阅读者”们有福了！就冲着把事情做好的情怀、用那么大心血，这本书一定不会差。</li></ol><h1 id="我们的学习目标？有哪些很酷的事情？（TBC"><a href="#我们的学习目标？有哪些很酷的事情？（TBC" class="headerlink" title="我们的学习目标？有哪些很酷的事情？（TBC"></a>我们的学习目标？有哪些很酷的事情？（TBC</h1><p>&nbsp;</p><p>&nbsp;</p><h1 id="FAQ：第一步，对于一个刚用conda-pip-不熟悉shell指令，不懂网络的零基础零经验小白来说往往是最难的："><a href="#FAQ：第一步，对于一个刚用conda-pip-不熟悉shell指令，不懂网络的零基础零经验小白来说往往是最难的：" class="headerlink" title="FAQ：第一步，对于一个刚用conda, pip, 不熟悉shell指令，不懂网络的零基础零经验小白来说往往是最难的："></a>FAQ：第一步，对于一个刚用conda, pip, 不熟悉shell指令，不懂网络的零基础零经验小白来说往往是最难的：</h1><h2 id="一、先插一嘴，关于下载书本配套的完整代码："><a href="#一、先插一嘴，关于下载书本配套的完整代码：" class="headerlink" title="一、先插一嘴，关于下载书本配套的完整代码："></a>一、先插一嘴，关于下载书本配套的完整代码：</h2><p>虽然online docs上有代码，书上也有代码。但是不一定全。作者给了你一个压缩包，里面是完整的程序，每一章的代码都用.ipynb保存，放入每一章的文件夹。</p><h2 id="二、快来搭建学习环境！！！其实就三步"><a href="#二、快来搭建学习环境！！！其实就三步" class="headerlink" title="二、快来搭建学习环境！！！其实就三步"></a>二、快来搭建学习环境！！！其实就三步</h2><h3 id="第一步，创建并激活环境，使用python-3-9："><a href="#第一步，创建并激活环境，使用python-3-9：" class="headerlink" title="第一步，创建并激活环境，使用python&#x3D;3.9："></a>第一步，创建并激活环境，使用python&#x3D;3.9：</h3><p><code>conda create --name d2l python=3.9</code> 然后输入yes，确认下载、安装。</p><h3 id="第二步：安装d2l依赖：torch-torchvision："><a href="#第二步：安装d2l依赖：torch-torchvision：" class="headerlink" title="第二步：安装d2l依赖：torch torchvision："></a>第二步：安装d2l依赖：torch torchvision：</h3><p><code>pip install torch==1.12.0</code></p><p><code>pip install torchvision==0.13.0</code></p><ul><li>建议：torch torchvision 版本和书上的一样，copy过来就行。pip conda都可以。没必要上官网找指令。不然版本不一致容易出问题。</li></ul><h3 id="第三步：安装d2l包-。（也是pip指令搞定"><a href="#第三步：安装d2l包-。（也是pip指令搞定" class="headerlink" title="第三步：安装d2l包 。（也是pip指令搞定"></a>第三步：安装d2l包 。（也是pip指令搞定</h3><ul><li>前置知识：</li></ul><ol><li>在激活的conda使用pip和conda无区别</li><li>执行“安装torch torchvision指令” 会看机器有没有GPU，然后安装对应版本。 所以，没必要管gpu cpu，版本代数选对了就行。</li></ol><ul><li>中肯的建议：头脑清晰，刚入门别给自己太多要求。</li></ul><ol><li>如果哪一步觉得不对，删掉环境重来吧。<code>conda env remove &quot;your_env_name&quot;</code></li><li>如果网不好。今天就别弄了。先看看怎么<a href="https://blog.csdn.net/m0_61634551/article/details/130867867">配网络代离</a>。或者config其他的镜像源。&#x2F;&#x2F;去百度搜一下</li><li>不需要知道什么是torch  torchvision. 没关系！别管他们。先按部就班，照着书上的说明能跑通安装环境的指令就很牛逼了。</li><li>如果你已经有其他的环境，而且里面带了torch，别管它。重新装一个吧，大不到哪去，初学者别考虑电脑空间。</li></ol><h2 id="第一次，跨过配置环境这座山。然后干很多酷酷的事情："><a href="#第一次，跨过配置环境这座山。然后干很多酷酷的事情：" class="headerlink" title="第一次，跨过配置环境这座山。然后干很多酷酷的事情："></a>第一次，跨过配置环境这座山。然后干很多酷酷的事情：</h2><ul><li>运行d2l notebook里面的所有代码。就是之前从d2l docs HTML Jupyter那一栏下载的zip代码包。</li><li>用jupyter notebook,搭载自己先前配好的d2l无敌环境学习Deep Learning!!!</li></ul><p> </p><h3 id="举一反三，很多想做的事情都知道怎么开始了："><a href="#举一反三，很多想做的事情都知道怎么开始了：" class="headerlink" title="举一反三，很多想做的事情都知道怎么开始了："></a>举一反三，很多想做的事情都知道怎么开始了：</h3><p>创建新的Data Science Conda环境 <code>conda create --name your_env_name python=3.x</code>。</p><p>激活（activate）<del>刚创建好的</del> 包含了ipykernel python生态环境模块的conda环境(我的是d2l)，用Pip （or conda）指令，安装你需要的模块。配置完环境后，然后把它添加到Jupyter Notebook的ipython core里，这样你才能在jupyter notebook使用python (virtual) 环境: </p><p><code>python -m ipykernel install --user --name [jupyter_internal_directory_name] --display-name=&quot;Python (nameDisplayedInJuypterNotebook)&quot;</code><br>最后，用jupyter notebook开始你的Data Science Module、理论、Everything in this topic的学习之路！</p><ul><li><p>–name 显示在appdata&#x2F;roaming&#x2F;jupyter&#x2F;[name]  并不会根据你输入的名字在conda里面找对应的！！！（想起自己以前认认真真输入一模一样的名字，真的好可爱。 后来在json里看到argument里面的路径，全是d2l，display_name倒是自己设置的。</p></li><li><p>–display-name: 在juypter notebook平台上显示。</p></li></ul><ul><li>注：调用ipykernel是给jupyter创建一个指向conda环境的指针。如果conda环境改变，相应的jupyter Notebook中的环境也会改变。这方便了很多。</li><li>ipykernel的功能：你想要哪一个环境在jupyter使用，就在该python环境安装ipykernel</li><li>TODO: 更改jupyter显示的环境名， 删除jupyter环境</li></ul><h1 id="建议给系统python环境装上jupyter模块"><a href="#建议给系统python环境装上jupyter模块" class="headerlink" title="建议给系统python环境装上jupyter模块"></a>建议给系统python环境装上jupyter模块</h1><ul><li><code>pip install --upgrade pip setuptools</code></li><li><code>pip install jupyter</code><br>这样就可以在系统python环境管理jupyter环境了</li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>教程</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>AI</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  
+</search>
