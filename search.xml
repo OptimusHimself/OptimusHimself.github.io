@@ -34,6 +34,35 @@
       </tags>
   </entry>
   <entry>
+    <title>WindowsLinux化</title>
+    <url>/2025/06/08/WindowsLinux%E5%8C%96/</url>
+    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>主要记录了编写脚本文件的技术。</p>
+<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>Linux系统运行脚本管理很方便，make install命令就能安装好软件，可以在任位置指使用指令.<br>但Windows就没那么方便了。要手动把脚本添加到Path。 因此，我在D盘新建了一个文件夹mytools，存放所有的常用exe,bat脚本,.cmd,ps1，还可以添加python脚本封装成cmd脚本文件。目前我已经把.yt-dlp.exe, danmuku2ass.cmd（内有python xxx&#x2F;xxx&#x2F;xxx&#x2F;…&#x2F;danmuku2ass.py %* 命令）, 然后在Path环境变量中添加D:\mytools路径，这样就可以在任意位置使用这些脚本了。</p>
+<blockquote>
+<p>当然，使用Scoop包管理器安装的软件（如git, jdk, maven,…）也可以达到在任何路径下运行命令（我会专门出一篇博客介绍scoop</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>整活</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Python Journey</title>
+    <url>/2025/04/23/Python-Journey/</url>
+    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>python其实是一门很简单易学的语言。 但是很多人依然学着头疼。 考虑到每个人的情况不同，本文主要面向没有太多项目经历但对计算机有了解（知道OOP，学过C&#x2F;Java…）的小白。<br>本文推荐了学习资源，介绍了我入门的过程。分析了导致python学习效果不好的原因（personal）。</p>
+]]></content>
+      <categories>
+        <category>学习路线</category>
+      </categories>
+      <tags>
+        <tag>Programming</tag>
+        <tag>Python</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Linux Journey</title>
     <url>/2025/04/23/Linux-Journey/</url>
     <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>我第一次接触Linux，我和Linux的故事：从装系统、做项目、无数次“入坑”又“弃坑”。最终又成功登上正轨的学习感悟。 总结了优质的学习资源以及使用方法，更重要的：新手应该避开哪些问题。<br>如果你赶时间，直接看TakeAway。给出了一套简洁、无门槛的学习指南<br>不包含：装系统的细节</p>
@@ -65,18 +94,68 @@
       </tags>
   </entry>
   <entry>
-    <title>二进制</title>
-    <url>/2025/06/15/binary/</url>
-    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><h2 id="有些碎片知识老是忘，放在blog里吧！-求反码的十进制数-大端序、小端序"><a href="#有些碎片知识老是忘，放在blog里吧！-求反码的十进制数-大端序、小端序" class="headerlink" title="有些碎片知识老是忘，放在blog里吧！- 求反码的十进制数- 大端序、小端序"></a>有些碎片知识老是忘，放在blog里吧！<br>- 求反码的十进制数<br>- 大端序、小端序</h2><h1 id="2’s-complement"><a href="#2’s-complement" class="headerlink" title="2’s complement"></a>2’s complement</h1><h2 id="场景"><a href="#场景" class="headerlink" title="场景"></a>场景</h2><p>给出1打头的2’s complement，问你是负多少<br>首先，我起码知道是负的，但老想不起来该怎么<strong>算“负多少”</strong>这个问题</p>
-<h2 id="方法："><a href="#方法：" class="headerlink" title="方法："></a>方法：</h2><p>记住2’s complement转换成<strong>“多少”的规则</strong></p>
-<p><strong>全部反码，得到一个0大头的数。</strong></p>
-<p><strong>将这个正数 “+1”，你就得到了 “多少”  (多少&#x3D;&#x3D;&#x3D;你要的结果)</strong></p>
-<h1 id="端序"><a href="#端序" class="headerlink" title="端序"></a>端序</h1>]]></content>
+    <title>花书Dive into Deep Learning 入门</title>
+    <url>/2025/01/15/d2l/</url>
+    <content><![CDATA[<h1 id="花书牛在哪？"><a href="#花书牛在哪？" class="headerlink" title="花书牛在哪？"></a>花书牛在哪？</h1><ol>
+<li>大佬写的。名声在，质量就会有保障。</li>
+<li>有代码，有理论, 有例子。你怕学不会？</li>
+<li>开源、配备读者论坛。时刻更新代码。遇到问题很容易在论坛里找到学长们的回答。</li>
+<li>感恩：还配备了文字版的PDF，“Acrobat阅读者”们有福了！就冲着把事情做好的情怀、用那么大心血，这本书一定不会差。</li>
+</ol>
+<h1 id="我们的学习目标？有哪些很酷的事情？（TBC"><a href="#我们的学习目标？有哪些很酷的事情？（TBC" class="headerlink" title="我们的学习目标？有哪些很酷的事情？（TBC"></a>我们的学习目标？有哪些很酷的事情？（TBC</h1><p>&nbsp;</p>
+<p>&nbsp;</p>
+<h1 id="FAQ：第一步，对于一个刚用conda-pip-不熟悉shell指令，不懂网络的零基础零经验小白来说往往是最难的："><a href="#FAQ：第一步，对于一个刚用conda-pip-不熟悉shell指令，不懂网络的零基础零经验小白来说往往是最难的：" class="headerlink" title="FAQ：第一步，对于一个刚用conda, pip, 不熟悉shell指令，不懂网络的零基础零经验小白来说往往是最难的："></a>FAQ：第一步，对于一个刚用conda, pip, 不熟悉shell指令，不懂网络的零基础零经验小白来说往往是最难的：</h1><h2 id="一、先插一嘴，关于下载书本配套的完整代码："><a href="#一、先插一嘴，关于下载书本配套的完整代码：" class="headerlink" title="一、先插一嘴，关于下载书本配套的完整代码："></a>一、先插一嘴，关于下载书本配套的完整代码：</h2><p>虽然online docs上有代码，书上也有代码。但是不一定全。作者给了你一个压缩包，里面是完整的程序，每一章的代码都用.ipynb保存，放入每一章的文件夹。</p>
+<h2 id="二、快来搭建学习环境！！！其实就三步"><a href="#二、快来搭建学习环境！！！其实就三步" class="headerlink" title="二、快来搭建学习环境！！！其实就三步"></a>二、快来搭建学习环境！！！其实就三步</h2><h3 id="第一步，创建并激活环境，使用python-3-9："><a href="#第一步，创建并激活环境，使用python-3-9：" class="headerlink" title="第一步，创建并激活环境，使用python&#x3D;3.9："></a>第一步，创建并激活环境，使用python&#x3D;3.9：</h3><p><code>conda create --name d2l python=3.9</code> 然后输入yes，确认下载、安装。</p>
+<h3 id="第二步：安装d2l依赖：torch-torchvision："><a href="#第二步：安装d2l依赖：torch-torchvision：" class="headerlink" title="第二步：安装d2l依赖：torch torchvision："></a>第二步：安装d2l依赖：torch torchvision：</h3><p><code>pip install torch==1.12.0</code></p>
+<p><code>pip install torchvision==0.13.0</code></p>
+<ul>
+<li>建议：torch torchvision 版本和书上的一样，copy过来就行。pip conda都可以。没必要上官网找指令。不然版本不一致容易出问题。</li>
+</ul>
+<h3 id="第三步：安装d2l包-。（也是pip指令搞定"><a href="#第三步：安装d2l包-。（也是pip指令搞定" class="headerlink" title="第三步：安装d2l包 。（也是pip指令搞定"></a>第三步：安装d2l包 。（也是pip指令搞定</h3><ul>
+<li>前置知识：</li>
+</ul>
+<ol>
+<li>在激活的conda使用pip和conda无区别</li>
+<li>执行“安装torch torchvision指令” 会看机器有没有GPU，然后安装对应版本。 所以，没必要管gpu cpu，版本代数选对了就行。</li>
+</ol>
+<ul>
+<li>中肯的建议：头脑清晰，刚入门别给自己太多要求。</li>
+</ul>
+<ol>
+<li>如果哪一步觉得不对，删掉环境重来吧。<code>conda env remove &quot;your_env_name&quot;</code></li>
+<li>如果网不好。今天就别弄了。先看看怎么<a href="https://blog.csdn.net/m0_61634551/article/details/130867867">配网络代离</a>。或者config其他的镜像源。&#x2F;&#x2F;去百度搜一下</li>
+<li>不需要知道什么是torch  torchvision. 没关系！别管他们。先按部就班，照着书上的说明能跑通安装环境的指令就很牛逼了。</li>
+<li>如果你已经有其他的环境，而且里面带了torch，别管它。重新装一个吧，大不到哪去，初学者别考虑电脑空间。</li>
+</ol>
+<h2 id="第一次，跨过配置环境这座山。然后干很多酷酷的事情："><a href="#第一次，跨过配置环境这座山。然后干很多酷酷的事情：" class="headerlink" title="第一次，跨过配置环境这座山。然后干很多酷酷的事情："></a>第一次，跨过配置环境这座山。然后干很多酷酷的事情：</h2><ul>
+<li>运行d2l notebook里面的所有代码。就是之前从d2l docs HTML Jupyter那一栏下载的zip代码包。</li>
+<li>用jupyter notebook,搭载自己先前配好的d2l无敌环境学习Deep Learning!!!</li>
+</ul>
+<p> </p>
+<h3 id="举一反三，很多想做的事情都知道怎么开始了："><a href="#举一反三，很多想做的事情都知道怎么开始了：" class="headerlink" title="举一反三，很多想做的事情都知道怎么开始了："></a>举一反三，很多想做的事情都知道怎么开始了：</h3><p>创建新的Data Science Conda环境 <code>conda create --name your_env_name python=3.x</code>。</p>
+<p>激活（activate）<del>刚创建好的</del> 包含了ipykernel python生态环境模块的conda环境(我的是d2l)，用Pip （or conda）指令，安装你需要的模块。配置完环境后，然后把它添加到Jupyter Notebook的ipython core里，这样你才能在jupyter notebook使用python (virtual) 环境: </p>
+<p><code>python -m ipykernel install --user --name [jupyter_internal_directory_name] --display-name=&quot;Python (nameDisplayedInJuypterNotebook)&quot;</code><br>最后，用jupyter notebook开始你的Data Science Module、理论、Everything in this topic的学习之路！</p>
+<ul>
+<li><p>–name 显示在appdata&#x2F;roaming&#x2F;jupyter&#x2F;[name]  并不会根据你输入的名字在conda里面找对应的！！！（想起自己以前认认真真输入一模一样的名字，真的好可爱。 后来在json里看到argument里面的路径，全是d2l，display_name倒是自己设置的。</p>
+</li>
+<li><p>–display-name: 在juypter notebook平台上显示。</p>
+</li>
+</ul>
+<ul>
+<li>注：调用ipykernel是给jupyter创建一个指向conda环境的指针。如果conda环境改变，相应的jupyter Notebook中的环境也会改变。这方便了很多。</li>
+<li>ipykernel的功能：你想要哪一个环境在jupyter使用，就在该python环境安装ipykernel</li>
+<li>TODO: 更改jupyter显示的环境名， 删除jupyter环境</li>
+</ul>
+<h1 id="建议给系统python环境装上jupyter模块"><a href="#建议给系统python环境装上jupyter模块" class="headerlink" title="建议给系统python环境装上jupyter模块"></a>建议给系统python环境装上jupyter模块</h1><ul>
+<li><code>pip install --upgrade pip setuptools</code></li>
+<li><code>pip install jupyter</code><br>这样就可以在系统python环境管理jupyter环境了</li>
+</ul>
+]]></content>
       <categories>
-        <category>复习笔记</category>
+        <category>教程</category>
       </categories>
       <tags>
-        <tag>二进制</tag>
+        <tag>AI</tag>
       </tags>
   </entry>
   <entry>
@@ -169,87 +248,6 @@
       </tags>
   </entry>
   <entry>
-    <title>WindowsLinux化</title>
-    <url>/2025/06/08/WindowsLinux%E5%8C%96/</url>
-    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>主要记录了编写脚本文件的技术。</p>
-<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>Linux系统运行脚本管理很方便，make install命令就能安装好软件，可以在任位置指使用指令.<br>但Windows就没那么方便了。要手动把脚本添加到Path。 因此，我在D盘新建了一个文件夹mytools，存放所有的常用exe,bat脚本,.cmd,ps1，还可以添加python脚本封装成cmd脚本文件。目前我已经把.yt-dlp.exe, danmuku2ass.cmd（内有python xxx&#x2F;xxx&#x2F;xxx&#x2F;…&#x2F;danmuku2ass.py %* 命令）, 然后在Path环境变量中添加D:\mytools路径，这样就可以在任意位置使用这些脚本了。</p>
-<blockquote>
-<p>当然，使用Scoop包管理器安装的软件（如git, jdk, maven,…）也可以达到在任何路径下运行命令（我会专门出一篇博客介绍scoop</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>整活</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>花书Dive into Deep Learning 入门</title>
-    <url>/2025/01/15/d2l/</url>
-    <content><![CDATA[<h1 id="花书牛在哪？"><a href="#花书牛在哪？" class="headerlink" title="花书牛在哪？"></a>花书牛在哪？</h1><ol>
-<li>大佬写的。名声在，质量就会有保障。</li>
-<li>有代码，有理论, 有例子。你怕学不会？</li>
-<li>开源、配备读者论坛。时刻更新代码。遇到问题很容易在论坛里找到学长们的回答。</li>
-<li>感恩：还配备了文字版的PDF，“Acrobat阅读者”们有福了！就冲着把事情做好的情怀、用那么大心血，这本书一定不会差。</li>
-</ol>
-<h1 id="我们的学习目标？有哪些很酷的事情？（TBC"><a href="#我们的学习目标？有哪些很酷的事情？（TBC" class="headerlink" title="我们的学习目标？有哪些很酷的事情？（TBC"></a>我们的学习目标？有哪些很酷的事情？（TBC</h1><p>&nbsp;</p>
-<p>&nbsp;</p>
-<h1 id="FAQ：第一步，对于一个刚用conda-pip-不熟悉shell指令，不懂网络的零基础零经验小白来说往往是最难的："><a href="#FAQ：第一步，对于一个刚用conda-pip-不熟悉shell指令，不懂网络的零基础零经验小白来说往往是最难的：" class="headerlink" title="FAQ：第一步，对于一个刚用conda, pip, 不熟悉shell指令，不懂网络的零基础零经验小白来说往往是最难的："></a>FAQ：第一步，对于一个刚用conda, pip, 不熟悉shell指令，不懂网络的零基础零经验小白来说往往是最难的：</h1><h2 id="一、先插一嘴，关于下载书本配套的完整代码："><a href="#一、先插一嘴，关于下载书本配套的完整代码：" class="headerlink" title="一、先插一嘴，关于下载书本配套的完整代码："></a>一、先插一嘴，关于下载书本配套的完整代码：</h2><p>虽然online docs上有代码，书上也有代码。但是不一定全。作者给了你一个压缩包，里面是完整的程序，每一章的代码都用.ipynb保存，放入每一章的文件夹。</p>
-<h2 id="二、快来搭建学习环境！！！其实就三步"><a href="#二、快来搭建学习环境！！！其实就三步" class="headerlink" title="二、快来搭建学习环境！！！其实就三步"></a>二、快来搭建学习环境！！！其实就三步</h2><h3 id="第一步，创建并激活环境，使用python-3-9："><a href="#第一步，创建并激活环境，使用python-3-9：" class="headerlink" title="第一步，创建并激活环境，使用python&#x3D;3.9："></a>第一步，创建并激活环境，使用python&#x3D;3.9：</h3><p><code>conda create --name d2l python=3.9</code> 然后输入yes，确认下载、安装。</p>
-<h3 id="第二步：安装d2l依赖：torch-torchvision："><a href="#第二步：安装d2l依赖：torch-torchvision：" class="headerlink" title="第二步：安装d2l依赖：torch torchvision："></a>第二步：安装d2l依赖：torch torchvision：</h3><p><code>pip install torch==1.12.0</code></p>
-<p><code>pip install torchvision==0.13.0</code></p>
-<ul>
-<li>建议：torch torchvision 版本和书上的一样，copy过来就行。pip conda都可以。没必要上官网找指令。不然版本不一致容易出问题。</li>
-</ul>
-<h3 id="第三步：安装d2l包-。（也是pip指令搞定"><a href="#第三步：安装d2l包-。（也是pip指令搞定" class="headerlink" title="第三步：安装d2l包 。（也是pip指令搞定"></a>第三步：安装d2l包 。（也是pip指令搞定</h3><ul>
-<li>前置知识：</li>
-</ul>
-<ol>
-<li>在激活的conda使用pip和conda无区别</li>
-<li>执行“安装torch torchvision指令” 会看机器有没有GPU，然后安装对应版本。 所以，没必要管gpu cpu，版本代数选对了就行。</li>
-</ol>
-<ul>
-<li>中肯的建议：头脑清晰，刚入门别给自己太多要求。</li>
-</ul>
-<ol>
-<li>如果哪一步觉得不对，删掉环境重来吧。<code>conda env remove &quot;your_env_name&quot;</code></li>
-<li>如果网不好。今天就别弄了。先看看怎么<a href="https://blog.csdn.net/m0_61634551/article/details/130867867">配网络代离</a>。或者config其他的镜像源。&#x2F;&#x2F;去百度搜一下</li>
-<li>不需要知道什么是torch  torchvision. 没关系！别管他们。先按部就班，照着书上的说明能跑通安装环境的指令就很牛逼了。</li>
-<li>如果你已经有其他的环境，而且里面带了torch，别管它。重新装一个吧，大不到哪去，初学者别考虑电脑空间。</li>
-</ol>
-<h2 id="第一次，跨过配置环境这座山。然后干很多酷酷的事情："><a href="#第一次，跨过配置环境这座山。然后干很多酷酷的事情：" class="headerlink" title="第一次，跨过配置环境这座山。然后干很多酷酷的事情："></a>第一次，跨过配置环境这座山。然后干很多酷酷的事情：</h2><ul>
-<li>运行d2l notebook里面的所有代码。就是之前从d2l docs HTML Jupyter那一栏下载的zip代码包。</li>
-<li>用jupyter notebook,搭载自己先前配好的d2l无敌环境学习Deep Learning!!!</li>
-</ul>
-<p> </p>
-<h3 id="举一反三，很多想做的事情都知道怎么开始了："><a href="#举一反三，很多想做的事情都知道怎么开始了：" class="headerlink" title="举一反三，很多想做的事情都知道怎么开始了："></a>举一反三，很多想做的事情都知道怎么开始了：</h3><p>创建新的Data Science Conda环境 <code>conda create --name your_env_name python=3.x</code>。</p>
-<p>激活（activate）<del>刚创建好的</del> 包含了ipykernel python生态环境模块的conda环境(我的是d2l)，用Pip （or conda）指令，安装你需要的模块。配置完环境后，然后把它添加到Jupyter Notebook的ipython core里，这样你才能在jupyter notebook使用python (virtual) 环境: </p>
-<p><code>python -m ipykernel install --user --name [jupyter_internal_directory_name] --display-name=&quot;Python (nameDisplayedInJuypterNotebook)&quot;</code><br>最后，用jupyter notebook开始你的Data Science Module、理论、Everything in this topic的学习之路！</p>
-<ul>
-<li><p>–name 显示在appdata&#x2F;roaming&#x2F;jupyter&#x2F;[name]  并不会根据你输入的名字在conda里面找对应的！！！（想起自己以前认认真真输入一模一样的名字，真的好可爱。 后来在json里看到argument里面的路径，全是d2l，display_name倒是自己设置的。</p>
-</li>
-<li><p>–display-name: 在juypter notebook平台上显示。</p>
-</li>
-</ul>
-<ul>
-<li>注：调用ipykernel是给jupyter创建一个指向conda环境的指针。如果conda环境改变，相应的jupyter Notebook中的环境也会改变。这方便了很多。</li>
-<li>ipykernel的功能：你想要哪一个环境在jupyter使用，就在该python环境安装ipykernel</li>
-<li>TODO: 更改jupyter显示的环境名， 删除jupyter环境</li>
-</ul>
-<h1 id="建议给系统python环境装上jupyter模块"><a href="#建议给系统python环境装上jupyter模块" class="headerlink" title="建议给系统python环境装上jupyter模块"></a>建议给系统python环境装上jupyter模块</h1><ul>
-<li><code>pip install --upgrade pip setuptools</code></li>
-<li><code>pip install jupyter</code><br>这样就可以在系统python环境管理jupyter环境了</li>
-</ul>
-]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>大兴追音记</title>
     <url>/2025/04/03/daxing/</url>
     <content><![CDATA[<p>本文记录了和<a href="https://github.com/Daydreamer114">WZA</a>的第二次SDR整活儿的经历。蹲在大兴机厂附近的农场收听塔台和机长的对话。</p>
@@ -292,48 +290,6 @@
       </categories>
       <tags>
         <tag>GIT</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>ssh入门</title>
-    <url>/2025/04/29/ssh%E5%85%A5%E9%97%A8/</url>
-    <content><![CDATA[<h1 id="take-away-knowledge-concept"><a href="#take-away-knowledge-concept" class="headerlink" title="take away knowledge &amp; concept"></a>take away knowledge &amp; concept</h1><p>对于private repo, 即便是clone,也需要ssh</p>
-<p>ssh-keygen命令生成的<strong>两份文件</strong>：私钥和公钥（.pub）。你要把public key交给github</p>
-<p>每一次 clone &#x2F; push的Authentification过程：<br>github服务器给你的机器发公钥。 你的机器上<code>～/.ssh/</code>路径下存了唯一的私钥与之对应。即完成身份验证。</p>
-<h2 id="glossary"><a href="#glossary" class="headerlink" title="glossary"></a>glossary</h2><p>SSH： secure shell protocal</p>
-<h1 id="github场景-S1：增添新密码"><a href="#github场景-S1：增添新密码" class="headerlink" title="github场景-S1：增添新密码"></a>github场景-S1：增添新密码</h1><ul>
-<li>当你的项目团队有多个成员，你作为项目的owner，需要为你的团队成员设置SSH，这样他们才能在他们的电脑上更新项目（clone, push）</li>
-<li>还有一个情况，你有多台工作本，你需要为每一台机器上添加SSH，并在个人g-hub账户添加public key</li>
-</ul>
-<h2 id="background-and-task"><a href="#background-and-task" class="headerlink" title="background and task:"></a>background and task:</h2><p>linux + Windows 共同运营hexo blog. Add _post to repo, clone on git</p>
-<h2 id="过程记录（）"><a href="#过程记录（）" class="headerlink" title="过程记录（）"></a>过程记录（）</h2><ol>
-<li>最开始用https协议下载private repo代码失败。遂该用ssh。<code>git clone git@github.com:Optimushimeself/blogsource.git</code>自然报错。因为还没在我的github账号中配置本机的SSH。</li>
-<li>ssh-keygen <code>tyrone@Matrix:~/.ssh$ ssh-keygen -t [加密算法] -f [sshfileName]</code> t: type. github使用<code>ed25519</code>。 passphrase口令为空。自然也没关<code>ssh-agent</code>之类的“高级功能”。</li>
-<li>ssh-keygen得到两个文件，.pub后缀是公钥，扔到<code>github-&gt;setting-&gt;SSH&amp;GPG Keys</code></li>
-<li>（不知道是否靠谱）遇到一些代理问题，调成了全局代理，创建<code>~/.ssh/config</code>。重新运行<code>git clone git@github.com:OptimusHimself/blogsource.git</code>，中途谈了一个是否信任（老熟人了），无脑yes，最后成功克隆项目。</li>
-</ol>
-<h2 id="问题-故障记录"><a href="#问题-故障记录" class="headerlink" title="问题&#x2F;故障记录"></a>问题&#x2F;故障记录</h2><figure class="highlight livecodeserver"><table><tr><td class="code"><pre><code class="hljs livecodeserver">\\ 网络问题？<br>Cloning <span class="hljs-keyword">into</span> <span class="hljs-string">&#x27;blogsource&#x27;</span>...<br>kex_exchange_identification: <span class="hljs-built_in">read</span>: Connection reset <span class="hljs-keyword">by</span> peer<br>Connection reset <span class="hljs-keyword">by</span> <span class="hljs-number">20.205</span><span class="hljs-number">.243</span><span class="hljs-number">.166</span> port <span class="hljs-number">22</span><br>fatal: Could <span class="hljs-keyword">not</span> <span class="hljs-built_in">read</span> <span class="hljs-built_in">from</span> remote repository.<br><br>Please make sure you have <span class="hljs-keyword">the</span> correct access rights<br><span class="hljs-keyword">and</span> <span class="hljs-keyword">the</span> repository exists.<br></code></pre></td></tr></table></figure>
-
-<h1 id="github场景-S2：原来的私钥丢失or忘记passphrase"><a href="#github场景-S2：原来的私钥丢失or忘记passphrase" class="headerlink" title="github场景-S2：原来的私钥丢失or忘记passphrase()"></a>github场景-S2：原来的私钥丢失or忘记passphrase()</h1><p>这就是我为什么建议小白们最开始学习没必要设置passphrase,因为你会忘掉。 不过，只要能记得自己github账号的密码，问题都不大～<br>打开github网站，<code>github-&gt;setting-&gt;SSH&amp;GPG Keys</code>删掉你之前创建的钥匙，重新走一遍 <strong>github场景-S1</strong></p>
-<h1 id="使用ssh登陆服务器：传文件，训练模型…"><a href="#使用ssh登陆服务器：传文件，训练模型…" class="headerlink" title="使用ssh登陆服务器：传文件，训练模型…."></a>使用ssh登陆服务器：传文件，训练模型….</h1>]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>SSH</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Python Journey</title>
-    <url>/2025/04/23/Python-Journey/</url>
-    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>python其实是一门很简单易学的语言。 但是很多人依然学着头疼。 考虑到每个人的情况不同，本文主要面向没有太多项目经历但对计算机有了解（知道OOP，学过C&#x2F;Java…）的小白。<br>本文推荐了学习资源，介绍了我入门的过程。分析了导致python学习效果不好的原因（personal）。</p>
-]]></content>
-      <categories>
-        <category>学习路线</category>
-      </categories>
-      <tags>
-        <tag>Programming</tag>
-        <tag>Python</tag>
       </tags>
   </entry>
   <entry>
@@ -507,6 +463,35 @@
       </tags>
   </entry>
   <entry>
+    <title>ssh入门</title>
+    <url>/2025/04/29/ssh%E5%85%A5%E9%97%A8/</url>
+    <content><![CDATA[<h1 id="take-away-knowledge-concept"><a href="#take-away-knowledge-concept" class="headerlink" title="take away knowledge &amp; concept"></a>take away knowledge &amp; concept</h1><p>对于private repo, 即便是clone,也需要ssh</p>
+<p>ssh-keygen命令生成的<strong>两份文件</strong>：私钥和公钥（.pub）。你要把public key交给github</p>
+<p>每一次 clone &#x2F; push的Authentification过程：<br>github服务器给你的机器发公钥。 你的机器上<code>～/.ssh/</code>路径下存了唯一的私钥与之对应。即完成身份验证。</p>
+<h2 id="glossary"><a href="#glossary" class="headerlink" title="glossary"></a>glossary</h2><p>SSH： secure shell protocal</p>
+<h1 id="github场景-S1：增添新密码"><a href="#github场景-S1：增添新密码" class="headerlink" title="github场景-S1：增添新密码"></a>github场景-S1：增添新密码</h1><ul>
+<li>当你的项目团队有多个成员，你作为项目的owner，需要为你的团队成员设置SSH，这样他们才能在他们的电脑上更新项目（clone, push）</li>
+<li>还有一个情况，你有多台工作本，你需要为每一台机器上添加SSH，并在个人g-hub账户添加public key</li>
+</ul>
+<h2 id="background-and-task"><a href="#background-and-task" class="headerlink" title="background and task:"></a>background and task:</h2><p>linux + Windows 共同运营hexo blog. Add _post to repo, clone on git</p>
+<h2 id="过程记录（）"><a href="#过程记录（）" class="headerlink" title="过程记录（）"></a>过程记录（）</h2><ol>
+<li>最开始用https协议下载private repo代码失败。遂该用ssh。<code>git clone git@github.com:Optimushimeself/blogsource.git</code>自然报错。因为还没在我的github账号中配置本机的SSH。</li>
+<li>ssh-keygen <code>tyrone@Matrix:~/.ssh$ ssh-keygen -t [加密算法] -f [sshfileName]</code> t: type. github使用<code>ed25519</code>。 passphrase口令为空。自然也没关<code>ssh-agent</code>之类的“高级功能”。</li>
+<li>ssh-keygen得到两个文件，.pub后缀是公钥，扔到<code>github-&gt;setting-&gt;SSH&amp;GPG Keys</code></li>
+<li>（不知道是否靠谱）遇到一些代理问题，调成了全局代理，创建<code>~/.ssh/config</code>。重新运行<code>git clone git@github.com:OptimusHimself/blogsource.git</code>，中途谈了一个是否信任（老熟人了），无脑yes，最后成功克隆项目。</li>
+</ol>
+<h2 id="问题-故障记录"><a href="#问题-故障记录" class="headerlink" title="问题&#x2F;故障记录"></a>问题&#x2F;故障记录</h2><figure class="highlight livecodeserver"><table><tr><td class="code"><pre><code class="hljs livecodeserver">\\ 网络问题？<br>Cloning <span class="hljs-keyword">into</span> <span class="hljs-string">&#x27;blogsource&#x27;</span>...<br>kex_exchange_identification: <span class="hljs-built_in">read</span>: Connection reset <span class="hljs-keyword">by</span> peer<br>Connection reset <span class="hljs-keyword">by</span> <span class="hljs-number">20.205</span><span class="hljs-number">.243</span><span class="hljs-number">.166</span> port <span class="hljs-number">22</span><br>fatal: Could <span class="hljs-keyword">not</span> <span class="hljs-built_in">read</span> <span class="hljs-built_in">from</span> remote repository.<br><br>Please make sure you have <span class="hljs-keyword">the</span> correct access rights<br><span class="hljs-keyword">and</span> <span class="hljs-keyword">the</span> repository exists.<br></code></pre></td></tr></table></figure>
+
+<h1 id="github场景-S2：原来的私钥丢失or忘记passphrase"><a href="#github场景-S2：原来的私钥丢失or忘记passphrase" class="headerlink" title="github场景-S2：原来的私钥丢失or忘记passphrase()"></a>github场景-S2：原来的私钥丢失or忘记passphrase()</h1><p>这就是我为什么建议小白们最开始学习没必要设置passphrase,因为你会忘掉。 不过，只要能记得自己github账号的密码，问题都不大～<br>打开github网站，<code>github-&gt;setting-&gt;SSH&amp;GPG Keys</code>删掉你之前创建的钥匙，重新走一遍 <strong>github场景-S1</strong></p>
+<h1 id="使用ssh登陆服务器：传文件，训练模型…"><a href="#使用ssh登陆服务器：传文件，训练模型…" class="headerlink" title="使用ssh登陆服务器：传文件，训练模型…."></a>使用ssh登陆服务器：传文件，训练模型….</h1>]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>SSH</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>博客新主题-Fluid入门体验</title>
     <url>/2025/06/27/%E5%8D%9A%E5%AE%A2%E6%96%B0%E4%B8%BB%E9%A2%98-Fluid%E5%85%A5%E9%97%A8%E4%BD%93%E9%AA%8C/</url>
     <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>安装、更新与卸载。 &amp; 配置<br>特色功能：</p>
@@ -539,13 +524,27 @@
 <blockquote>
 <p>感觉这挺麻烦的。 不仅要在<code>hexo-theme-fluid/source/</code>这个奇怪的路径下管理资源。<br>当 default_index_img 和 index_img 都为空时，该文章在首页将不显示图片。 default_index_img在_config.fluid.yml设置<br>所有的图片路径都是相对于<code>hexo-theme-fluid/source/</code>, md语法：<code>![NAME](PATH)</code></p>
 </blockquote>
-<p>文章页顶部大图</p>
+<h3 id="目前的图片管理方案："><a href="#目前的图片管理方案：" class="headerlink" title="目前的图片管理方案："></a>目前的图片管理方案：</h3><p>只会</p>
 <h2 id="banner-img"><a href="#banner-img" class="headerlink" title="banner_img"></a>banner_img</h2><p>英语中 banner的意思是：</p>
-<h1 id="slogan"><a href="#slogan" class="headerlink" title="slogan"></a>slogan</h1><p>进入友链页，打字机的默认输出是：友链。 但是可以改成其他的内容，比如:<em>桃李春风一杯酒</em><br>还有关于页，我们也可以把冰冷的输出“关于”。改成“A Foodie, A Hacker, A Ganster”</p>
+<p>文章页顶部大图</p>
+<h1 id="slogan"><a href="#slogan" class="headerlink" title="slogan"></a>slogan</h1><p>进入友链页，打字机的默认输出是：友链。 但是可以改成其他的内容，比如:<em>春风桃李一杯酒</em><br>还有关于页，我们也可以把冰冷的输出“关于”。改成“A Foodie, A Hacker, A Ganster”</p>
+<p>设置友链打字机输出：<br>_config.fluid.yml 找到links的配置，添加属性：<code>subtitle</code>，值 “桃李春风一杯酒”<br>设置友链打字机输出：<br>about 的 index.md，frontend添加subtitle属性</p>
 <h1 id="背景图"><a href="#背景图" class="headerlink" title="背景图"></a>背景图</h1><p>友链页、关于页、标题页、分类页的默认背景都是Fluid的默认图片：Tower. 能不能把他们换成一个系列的呢？比如全套的漫威英雄？或者钢铁侠的机甲。</p>
 <h1 id="边角料"><a href="#边角料" class="headerlink" title="边角料"></a>边角料</h1><h2 id="整体字体"><a href="#整体字体" class="headerlink" title="整体字体"></a>整体字体</h2><p>默认字体太丑了。 我喜欢落霞孤鹜，思源宋体也不错。</p>
 <h2 id="footer"><a href="#footer" class="headerlink" title="footer"></a>footer</h2><p>默认是Hexo love Fluid<br>可以把Hexo 和 Fluid改掉（如果你有女朋友，你女朋友刚好也有一个Blog嘿嘿</p>
 <h2 id="首页更多icons"><a href="#首页更多icons" class="headerlink" title="首页更多icons"></a>首页更多icons</h2><h2 id=""><a href="#" class="headerlink" title=""></a></h2>]]></content>
+  </entry>
+  <entry>
+    <title>保研时期的我</title>
+    <url>/2025/03/20/%E4%BF%9D%E7%A0%94%E6%97%B6%E6%9C%9F%E7%9A%84%E6%88%91/</url>
+    <content><![CDATA[<p>保研圈，不乏激烈的竞争。在这个圈子里，我看到了可敬的对手，看到了绿群里的大佬，也坚定了我的梦想。我的愿望是到名校和更好的老师、同学、师兄师姐们交流学习。我相信，只要保研到我的梦校浙大、进入到研究小组中，就一定能进步、学习更多的专业技能。以后就能做更多有价值的事情。<br>但最近，我变得有些紧张，我担心我的简历还不够好，算法题刷得还不够多，没有论文背景，“套磁“也没人肯收我。我一直在攀比，生怕把学习专业课而不是卷所谓的那些算法、论文是在浪费时间。<br>我还纠结自己适合什么专业，能读什么专业。是偏向研究底层的方向（计算机架构、分布式系统、网络）还是前沿的应用方向（软件开发、AI）。对各个行业都略懂一二的我对自己说，都行，哪个要我就去哪儿。但不管在哪个领域，我做的，一定是有挑战性的工作！<br>说回时间分配的事情，我不想太卷课外的那些技术。 专业知识一定是第一位的。先不说以后会不会读通信、计网这块的研究生；我从IoT出来的，别人问我一个通信相关的概念而我却毫无直觉，真觉得丢人——就这还读研。 所以说，如果以后有老师觉得我简历上的研究经历不如别人突出，请看看我的专业课成绩、对专业知识的理解。<br>本科培养出来的，就不应该是什么研究精英，而是一个通识了专业领域各个方面的，有知识的人。路还很长，研究生阶段，你不可能有这样泡馆、看专业书籍、一步步推演理论的时间。<br>对于保研竞争这一块，我相信船到桥头自然直，熬过这一段，你一定会在学习课外知识的时候更有感悟。我还坚信阿德勒心理学，一切都是目的驱动的。潇洒自如、倾听自己的内心吧，真到要你做重大选择的节骨眼上了，你也一定能适应的。</p>
+]]></content>
+      <categories>
+        <category>生活感悟</category>
+      </categories>
+      <tags>
+        <tag>日记</tag>
+      </tags>
   </entry>
   <entry>
     <title>博客运营（一）</title>
@@ -584,6 +583,21 @@
       </tags>
   </entry>
   <entry>
+    <title>二进制</title>
+    <url>/2025/06/15/binary/</url>
+    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><h2 id="有些碎片知识老是忘，放在blog里吧！-求反码的十进制数-大端序、小端序"><a href="#有些碎片知识老是忘，放在blog里吧！-求反码的十进制数-大端序、小端序" class="headerlink" title="有些碎片知识老是忘，放在blog里吧！- 求反码的十进制数- 大端序、小端序"></a>有些碎片知识老是忘，放在blog里吧！<br>- 求反码的十进制数<br>- 大端序、小端序</h2><h1 id="2’s-complement"><a href="#2’s-complement" class="headerlink" title="2’s complement"></a>2’s complement</h1><h2 id="场景"><a href="#场景" class="headerlink" title="场景"></a>场景</h2><p>给出1打头的2’s complement，问你是负多少<br>首先，我起码知道是负的，但老想不起来该怎么<strong>算“负多少”</strong>这个问题</p>
+<h2 id="方法："><a href="#方法：" class="headerlink" title="方法："></a>方法：</h2><p>记住2’s complement转换成<strong>“多少”的规则</strong></p>
+<p><strong>全部反码，得到一个0大头的数。</strong></p>
+<p><strong>将这个正数 “+1”，你就得到了 “多少”  (多少&#x3D;&#x3D;&#x3D;你要的结果)</strong></p>
+<h1 id="端序"><a href="#端序" class="headerlink" title="端序"></a>端序</h1>]]></content>
+      <categories>
+        <category>复习笔记</category>
+      </categories>
+      <tags>
+        <tag>二进制</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>和仲敖的SDR日记</title>
     <url>/2025/03/25/%E5%92%8C%E4%BB%B2%E6%95%96%E7%9A%84SDR%E6%97%A5%E8%AE%B0/</url>
     <content><![CDATA[<p> 下午逃课和仲敖玩SDR，收听了北京汽车广播。在日记里，我想记下几个难忘的瞬间。</p>
@@ -605,15 +619,22 @@
       </tags>
   </entry>
   <entry>
-    <title>保研时期的我</title>
-    <url>/2025/03/20/%E4%BF%9D%E7%A0%94%E6%97%B6%E6%9C%9F%E7%9A%84%E6%88%91/</url>
-    <content><![CDATA[<p>保研圈，不乏激烈的竞争。在这个圈子里，我看到了可敬的对手，看到了绿群里的大佬，也坚定了我的梦想。我的愿望是到名校和更好的老师、同学、师兄师姐们交流学习。我相信，只要保研到我的梦校浙大、进入到研究小组中，就一定能进步、学习更多的专业技能。以后就能做更多有价值的事情。<br>但最近，我变得有些紧张，我担心我的简历还不够好，算法题刷得还不够多，没有论文背景，“套磁“也没人肯收我。我一直在攀比，生怕把学习专业课而不是卷所谓的那些算法、论文是在浪费时间。<br>我还纠结自己适合什么专业，能读什么专业。是偏向研究底层的方向（计算机架构、分布式系统、网络）还是前沿的应用方向（软件开发、AI）。对各个行业都略懂一二的我对自己说，都行，哪个要我就去哪儿。但不管在哪个领域，我做的，一定是有挑战性的工作！<br>说回时间分配的事情，我不想太卷课外的那些技术。 专业知识一定是第一位的。先不说以后会不会读通信、计网这块的研究生；我从IoT出来的，别人问我一个通信相关的概念而我却毫无直觉，真觉得丢人——就这还读研。 所以说，如果以后有老师觉得我简历上的研究经历不如别人突出，请看看我的专业课成绩、对专业知识的理解。<br>本科培养出来的，就不应该是什么研究精英，而是一个通识了专业领域各个方面的，有知识的人。路还很长，研究生阶段，你不可能有这样泡馆、看专业书籍、一步步推演理论的时间。<br>对于保研竞争这一块，我相信船到桥头自然直，熬过这一段，你一定会在学习课外知识的时候更有感悟。我还坚信阿德勒心理学，一切都是目的驱动的。潇洒自如、倾听自己的内心吧，真到要你做重大选择的节骨眼上了，你也一定能适应的。</p>
+    <title>我的A证</title>
+    <url>/2025/04/24/%E6%88%91%E7%9A%84A%E8%AF%81/</url>
+    <content><![CDATA[<img src="https://github.com/OptimusHimself/picx-images-hosting/raw/master/执照.8ojy22apde.jpg" alt="A证"  />
+
+<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>记录笔者考A证的时间线。还有给新手的建议（不包括复习）<br>以下，中国无线电协会业余电台操作证书叫做操作证。 中国人民共和国无线电台执照叫做（无线）电台执照。</p>
+<h1 id="时间线"><a href="#时间线" class="headerlink" title="时间线"></a>时间线</h1><p>4.19 考试<br>4.24 上网查看，通过了。<br>5.12 拿到操作证。验机、填表、申请电台执照。<br>5.30.执照通过 (其实执照上的有效期是5.22起，北京无线电协会的通知会晚一点儿)<br>6.4 申请邮寄执照<br>6.6 终于拿到邮寄的执照啦！（今天是我生日！）<code>BD1BBU</code></p>
+<h1 id="Q-A"><a href="#Q-A" class="headerlink" title="Q&amp;A"></a>Q&amp;A</h1><p>达到什么条件才可以“发射”？<br>有操作证，有电台执照。 很好理解，用电台就像开车。 首先，要有驾照（A操作证）。然后你的车要有车牌，就像你用的电台需要一个电台号、执照。就像交通系统的监管对象是路行驶的车而不是驾驶的人。摄像头先抓的是违规的车、再去扣驾驶员的分&#x2F;吊销他的执照。同样地，无线电管理系统也是监视违规的电台，其次再去惩罚操作员。</p>
+<h1 id="tips"><a href="#tips" class="headerlink" title="tips"></a>tips</h1><ul>
+<li>个人认为三天，每天准备4h就够了。</li>
+<li>看到当地无线电协会发的通知里没有自己的名字不要担心是自己没考过。可能那就不是你那波的考试情况。</li>
+<li>出了成绩就可以去验机啦！不要等到拿到操作证再去验机。<br>原因：早点验机，操作证和无线电台执照一起拿。<br>要区分A操作证、执照和其组织的关系。操作证是你当地的协会给你颁发的。而执照的合法单位是中国人民共和国工业和信息化部。前者需要通过考试，后者需要通过考试且拿符合标准的设备到当地无线电协会验机。<br>我傻傻以为操作证上就会有呼号。。结果后面看到一串长长的操作证ID就感觉不对劲。</li>
+</ul>
 ]]></content>
-      <categories>
-        <category>生活感悟</category>
-      </categories>
       <tags>
         <tag>日记</tag>
+        <tag>HAM</tag>
       </tags>
   </entry>
   <entry>
@@ -645,37 +666,26 @@
       </tags>
   </entry>
   <entry>
-    <title>手台入门教程</title>
-    <url>/2025/06/08/%E6%89%8B%E5%8F%B0%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/</url>
-    <content><![CDATA[<blockquote>
-<p>令我印象最深刻的经历，就是用Scan扫到中继的信号，听友台们的信号。在不知道亚音、频差的情况下傻乎乎的念：CQ CQ CQ, 这里是BD1BBU呼叫。Bravo Delta One Bravo Bravo Uniform 请求插入。 然后每一个人理我。 ——好家伙，啥都不会就干中继了🤣</p>
-</blockquote>
-<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>认识UVK6的按键：F键、菜单键<br>认识菜单的常用功能：存储信道；设置上、下行亚音；设置频差；Scan功能<br>实操：寻找中继台的高效办法，</p>
-]]></content>
+    <title>科学上网</title>
+    <url>/2025/04/29/%E7%94%A8%E5%A5%BD%E4%BB%A3%E7%90%86/</url>
+    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>重要内容：代理软件常用功能的解释，常见的使用场景（Linux &#x2F; Windows），<br>整活常见涉及到的Proxy命令<br>不会包含的内容：1.推荐机场 2.代理软件的推荐</p>
+<h1 id="takeaways-important-concepts"><a href="#takeaways-important-concepts" class="headerlink" title="takeaways: important concepts"></a>takeaways: important concepts</h1><h2 id="grossery"><a href="#grossery" class="headerlink" title="grossery"></a>grossery</h2><p>机场<br>VPN<br>代理（软件）</p>
+<h1 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h1><ol>
+<li>全局模式</li>
+<li>规则模式</li>
+<li></li>
+</ol>
+<h2 id=""><a href="#" class="headerlink" title=""></a></h2><p>系统代理</p>
+<p>TUN</p>
+<h1 id="不同Shell的代理配置命令"><a href="#不同Shell的代理配置命令" class="headerlink" title="不同Shell的代理配置命令"></a>不同Shell的代理配置命令</h1><h2 id="PowerShell"><a href="#PowerShell" class="headerlink" title="PowerShell"></a>PowerShell</h2><figure class="highlight elixir"><table><tr><td class="code"><pre><code class="hljs elixir"><span class="hljs-variable">$env</span><span class="hljs-symbol">:http_proxy=<span class="hljs-string">&quot;http://127.0.0.1:7890&quot;</span></span><br><span class="hljs-variable">$env</span><span class="hljs-symbol">:https_proxy=<span class="hljs-string">&quot;http://127.0.0.1:7890&quot;</span></span><br><span class="hljs-variable">$env</span><span class="hljs-symbol">:all_proxy=<span class="hljs-string">&quot;socks5://127.0.0.1:7890&quot;</span></span><br></code></pre></td></tr></table></figure>
+
+
+<h2 id="Bash-Git-Bash"><a href="#Bash-Git-Bash" class="headerlink" title="Bash&#x2F; Git Bash"></a>Bash&#x2F; Git Bash</h2><figure class="highlight routeros"><table><tr><td class="code"><pre><code class="hljs routeros"><span class="hljs-built_in">export</span> <span class="hljs-attribute">http_proxy</span>=http://127.0.0.1:7890<br><span class="hljs-built_in">export</span> <span class="hljs-attribute">https_proxy</span>=http://127.0.0.1:7890<br><span class="hljs-built_in">export</span> <span class="hljs-attribute">all_proxy</span>=socks5://127.0.0.1:7890<br></code></pre></td></tr></table></figure>]]></content>
       <categories>
         <category>教程</category>
       </categories>
       <tags>
-        <tag>HAM</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>我的A证</title>
-    <url>/2025/04/24/%E6%88%91%E7%9A%84A%E8%AF%81/</url>
-    <content><![CDATA[<img src="https://github.com/OptimusHimself/picx-images-hosting/raw/master/执照.8ojy22apde.jpg" alt="A证"  />
-
-<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>记录笔者考A证的时间线。还有给新手的建议（不包括复习）<br>以下，中国无线电协会业余电台操作证书叫做操作证。 中国人民共和国无线电台执照叫做（无线）电台执照。</p>
-<h1 id="时间线"><a href="#时间线" class="headerlink" title="时间线"></a>时间线</h1><p>4.19 考试<br>4.24 上网查看，通过了。<br>5.12 拿到操作证。验机、填表、申请电台执照。<br>5.30.执照通过 (其实执照上的有效期是5.22起，北京无线电协会的通知会晚一点儿)<br>6.4 申请邮寄执照<br>6.6 终于拿到邮寄的执照啦！（今天是我生日！）<code>BD1BBU</code></p>
-<h1 id="Q-A"><a href="#Q-A" class="headerlink" title="Q&amp;A"></a>Q&amp;A</h1><p>达到什么条件才可以“发射”？<br>有操作证，有电台执照。 很好理解，用电台就像开车。 首先，要有驾照（A操作证）。然后你的车要有车牌，就像你用的电台需要一个电台号、执照。就像交通系统的监管对象是路行驶的车而不是驾驶的人。摄像头先抓的是违规的车、再去扣驾驶员的分&#x2F;吊销他的执照。同样地，无线电管理系统也是监视违规的电台，其次再去惩罚操作员。</p>
-<h1 id="tips"><a href="#tips" class="headerlink" title="tips"></a>tips</h1><ul>
-<li>个人认为三天，每天准备4h就够了。</li>
-<li>看到当地无线电协会发的通知里没有自己的名字不要担心是自己没考过。可能那就不是你那波的考试情况。</li>
-<li>出了成绩就可以去验机啦！不要等到拿到操作证再去验机。<br>原因：早点验机，操作证和无线电台执照一起拿。<br>要区分A操作证、执照和其组织的关系。操作证是你当地的协会给你颁发的。而执照的合法单位是中国人民共和国工业和信息化部。前者需要通过考试，后者需要通过考试且拿符合标准的设备到当地无线电协会验机。<br>我傻傻以为操作证上就会有呼号。。结果后面看到一串长长的操作证ID就感觉不对劲。</li>
-</ul>
-]]></content>
-      <tags>
-        <tag>日记</tag>
-        <tag>HAM</tag>
+        <tag>Clash Proxy Server</tag>
       </tags>
   </entry>
   <entry>
@@ -776,26 +786,18 @@
       </tags>
   </entry>
   <entry>
-    <title>科学上网</title>
-    <url>/2025/04/29/%E7%94%A8%E5%A5%BD%E4%BB%A3%E7%90%86/</url>
-    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>重要内容：代理软件常用功能的解释，常见的使用场景（Linux &#x2F; Windows），<br>整活常见涉及到的Proxy命令<br>不会包含的内容：1.推荐机场 2.代理软件的推荐</p>
-<h1 id="takeaways-important-concepts"><a href="#takeaways-important-concepts" class="headerlink" title="takeaways: important concepts"></a>takeaways: important concepts</h1><h2 id="grossery"><a href="#grossery" class="headerlink" title="grossery"></a>grossery</h2><p>机场<br>VPN<br>代理（软件）</p>
-<h1 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h1><ol>
-<li>全局模式</li>
-<li>规则模式</li>
-<li></li>
-</ol>
-<h2 id=""><a href="#" class="headerlink" title=""></a></h2><p>系统代理</p>
-<p>TUN</p>
-<h1 id="不同Shell的代理配置命令"><a href="#不同Shell的代理配置命令" class="headerlink" title="不同Shell的代理配置命令"></a>不同Shell的代理配置命令</h1><h2 id="PowerShell"><a href="#PowerShell" class="headerlink" title="PowerShell"></a>PowerShell</h2><figure class="highlight elixir"><table><tr><td class="code"><pre><code class="hljs elixir"><span class="hljs-variable">$env</span><span class="hljs-symbol">:http_proxy=<span class="hljs-string">&quot;http://127.0.0.1:7890&quot;</span></span><br><span class="hljs-variable">$env</span><span class="hljs-symbol">:https_proxy=<span class="hljs-string">&quot;http://127.0.0.1:7890&quot;</span></span><br><span class="hljs-variable">$env</span><span class="hljs-symbol">:all_proxy=<span class="hljs-string">&quot;socks5://127.0.0.1:7890&quot;</span></span><br></code></pre></td></tr></table></figure>
-
-
-<h2 id="Bash-Git-Bash"><a href="#Bash-Git-Bash" class="headerlink" title="Bash&#x2F; Git Bash"></a>Bash&#x2F; Git Bash</h2><figure class="highlight routeros"><table><tr><td class="code"><pre><code class="hljs routeros"><span class="hljs-built_in">export</span> <span class="hljs-attribute">http_proxy</span>=http://127.0.0.1:7890<br><span class="hljs-built_in">export</span> <span class="hljs-attribute">https_proxy</span>=http://127.0.0.1:7890<br><span class="hljs-built_in">export</span> <span class="hljs-attribute">all_proxy</span>=socks5://127.0.0.1:7890<br></code></pre></td></tr></table></figure>]]></content>
+    <title>手台入门教程</title>
+    <url>/2025/06/08/%E6%89%8B%E5%8F%B0%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/</url>
+    <content><![CDATA[<blockquote>
+<p>令我印象最深刻的经历，就是用Scan扫到中继的信号，听友台们的信号。在不知道亚音、频差的情况下傻乎乎的念：CQ CQ CQ, 这里是BD1BBU呼叫。Bravo Delta One Bravo Bravo Uniform 请求插入。 然后每一个人理我。 ——好家伙，啥都不会就干中继了🤣</p>
+</blockquote>
+<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>认识UVK6的按键：F键、菜单键<br>认识菜单的常用功能：存储信道；设置上、下行亚音；设置频差；Scan功能<br>实操：寻找中继台的高效办法，</p>
+]]></content>
       <categories>
         <category>教程</category>
       </categories>
       <tags>
-        <tag>Clash Proxy Server</tag>
+        <tag>HAM</tag>
       </tags>
   </entry>
   <entry>
