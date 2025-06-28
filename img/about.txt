@@ -1,0 +1,12 @@
+尽量用jpg
+文件夹命名不要 带复数
+
+
+除了默认方案的图片没有放入路径。我自己搜集的所有图片都有明确的路径：
+专门存放 好看的头像（avatar），横幅图片（banner image）, favicon， 索引图片（index_img）
+甚至还有Qrcode文件夹....还有好图素材文件夹用作备份。博客默认不会索引该文件夹内的图片
+
+每个文件夹下存放了多套方案
+未来想用的头像暂时不想换也会放进avatar收藏起来； /favicon也是一个道理；/banner_img更不用说了
+avatar 子文件夹 others 是友链的favicon图片。 我不想变我blog网站的favicon
+
