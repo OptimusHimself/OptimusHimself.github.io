@@ -4,11 +4,178 @@
   
   
   <entry>
+    <title>约定式提交</title>
+    <link href="/2025/07/07/%E7%BA%A6%E5%AE%9A%E5%BC%8F%E6%8F%90%E4%BA%A4/"/>
+    <url>/2025/07/07/%E7%BA%A6%E5%AE%9A%E5%BC%8F%E6%8F%90%E4%BA%A4/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>ADB教程</title>
+    <link href="/2025/07/07/ADB%E6%95%99%E7%A8%8B/"/>
+    <url>/2025/07/07/ADB%E6%95%99%E7%A8%8B/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    <categories>
+      
+      <category>命令集</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>ADB</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>git常用命令</title>
+    <link href="/2025/07/05/git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
+    <url>/2025/07/05/git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>uv常用命令</title>
+    <link href="/2025/07/05/uv/"/>
+    <url>/2025/07/05/uv/</url>
+    
+    <content type="html"><![CDATA[<p>从此，我在linux, windows都用UV管理虚拟环境。 1. 快。 2.目录简洁。 3. 指令简单<br>记录一下，UV可以用scoop安装。</p><p>当前目录创建虚拟环境<br><code>uv venv [venvName]</code>我一般喜欢用<code>.venv</code></p><p>激活虚拟环境<br><code>source .venv/Script/activate</code></p><p>linux是<code>source .venv/bin/activate</code></p><p>在虚拟环境安装依赖xxx<br><code>uv pip install xxx</code></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>技术手册</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>uv</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>ffmpeg常用命令</title>
+    <link href="/2025/07/04/ffmpeg%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
+    <url>/2025/07/04/ffmpeg%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
+    
+    <content type="html"><![CDATA[<ol><li><p>简单的剪辑，一刀切</p></li><li><p>插入英文字幕</p></li><li><p>为视频、音频文件插入thumbnail（封面）</p></li><li><p>合并音视频文件</p></li><li><p>剪辑<br>ffmpeg -i inputfile.mp4 -c copy -t xx:xx:xx -o outputname.mp4</p></li></ol><p>常用参数：<br>-t 00:01:30：保留从开头到 1 分 30 秒的内容（按你的需求调整时间）<br>-c copy：直接复制流，无需重新编码（速度极快，质量无损）<br>-i 指定输入文件<br>-o output 指定输出文件</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>技术手册</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>ffmpeg</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>unzip命令</title>
+    <link href="/2025/07/04/unzip%E5%91%BD%E4%BB%A4/"/>
+    <url>/2025/07/04/unzip%E5%91%BD%E4%BB%A4/</url>
+    
+    <content type="html"><![CDATA[<h1 id="Windows-powershell"><a href="#Windows-powershell" class="headerlink" title="Windows - powershell"></a>Windows - powershell</h1><p>Expand-Archieve</p><ul><li>Destination-Path</li></ul><h1 id="Linux-Bash"><a href="#Linux-Bash" class="headerlink" title="Linux - Bash"></a>Linux - Bash</h1><h2 id="tar"><a href="#tar" class="headerlink" title="tar"></a>tar</h2>]]></content>
+    
+    
+    <categories>
+      
+      <category>技术手册</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>archieve</tag>
+      
+      <tag>files</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>保研心得</title>
+    <link href="/2025/07/01/%E4%BF%9D%E7%A0%94%E5%BF%83%E5%BE%97/"/>
+    <url>/2025/07/01/%E4%BF%9D%E7%A0%94%E5%BF%83%E5%BE%97/</url>
+    
+    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>其实这篇文章里的很多内容不适合公开。 因为说话是要负责任的嘛。</p><p>想通过这篇文章回答很多曾经的焦虑，对比自己的成长。</p><h1 id="回忆录"><a href="#回忆录" class="headerlink" title="回忆录"></a>回忆录</h1><h2 id="惊艳我的团队-实验室"><a href="#惊艳我的团队-实验室" class="headerlink" title="惊艳我的团队&#x2F;实验室"></a>惊艳我的团队&#x2F;实验室</h2><p>UESTC mobile<br>BNU AI阵容很强，很多海归<br>SYSU AI阵容很强<br>XJTU<br>西北工大</p><h2 id="痛点"><a href="#痛点" class="headerlink" title="痛点"></a>痛点</h2><p>没有提前联系导师。申请BNU的AI需要在志愿中指明导师。显然，这需要你和教授提前联系。不然成功率很低。 我在报名截至的前一天还没有和导师邮件联系。</p><p>（中山CS）直博要两封专家推荐信。 副教授以上而且要计算机相关学科。高数老师还不行。临时准备很难受的。</p><h1 id="感慨"><a href="#感慨" class="headerlink" title="感慨"></a>感慨</h1><h2 id="文书"><a href="#文书" class="headerlink" title="文书"></a>文书</h2><p>从一开始我就对自己很不抱自信。看了绿裙里的一些帖子，觉得自己不会被xxx…xxx…xxx接收。准备也是徒劳。<br>慢慢的看了师资介绍里的专家们，燃起了读研的冲动。又认真地准备材料<br>其实，保研夏令营就是一种磨砺。 这是一个很宝贵的锻炼机会。 端平心态，认真准备每一个投递。</p><h2 id="选专业"><a href="#选专业" class="headerlink" title="选专业"></a>选专业</h2><p>一开始有很多方向可以报。 到后来隐约觉得“摇摆不定”不好。 到最后：有书读就行，只要能做，就有意义。  </p><p>我想很多同学和我一样，热爱技术，但在本科并没有在某一个方向取得特别突出的成绩或者某个方向了解得尤为深入。 大部分本科生无法对一个领域的研究现状有全面的认识。 所以，会有“啥都能报，啥都能做”的感觉。 我认为这才是正常本科生应该有的状态。说实话，绝大多数学校（双非、211）在本科并不会让学生花太多时间研究一个课题，就算有也是在大四毕设阶段。 大一到大三主要还是学知识、通识教育。 如果在大一到大三这三年没进入课题组搞科研，很难肯定自己的科研水平如何。</p><p>所以，结论是：不必太纠结于方向。 如果你觉得某个方向符合你的口味，就报。<br>以下是我和白耀辉教授交流的总结：</p><ul><li>不只有热门专业（大部分老师在研究的、经常出现的关键词）具有研究价值。很多时候你认为没有价值、很抽象的keyword, field。只是因为你没有做进去，你不了解。 而那些你以为你会感兴趣的，当你从事相关研究的时候，你发现他其实很枯燥。 甚至非常卷，因为专业壁垒低，谁都能快速入门。<ul><li>拿CV方向为例。</li></ul></li><li>不只有热门专业好找工作。 一个方向你做得好，照样会有大厂的xxx实验室重金聘请你。前提是你研究成果很多。</li><li>去一个好学校有助于你找工作。 <ul><li>实际上，在一个双非学校不代表没有前途。在保研、逛学校的过程中，我看到了很多用心“经营”夏令营的学校。 我还看到很多双非院校，请到了很优秀的老师，发表了很多有价值的成果。 虽然大多数好学生不一定会选择双非学校读研。但我认为，人才是可以培养的：当你有一个不放弃你的好导师加上学院提供的经济支持。 双非也能出高手。 之后再用点老师的人脉，照样可以去很优秀的企业。 还是那句话：你在研究生干出的成果，和你学校的title同等重要。</li></ul></li></ul><p>当然，也有部分同学有梦想的职业，于是读研也往同一个方向投。比如我的好朋友就希望以后从事游戏设计，读研就常关注数字媒体专业、计算机图形学。 </p><h1 id="最后：Advice-for-“大一就想baoyan”"><a href="#最后：Advice-for-“大一就想baoyan”" class="headerlink" title="最后：Advice for “大一就想baoyan”"></a>最后：Advice for “大一就想baoyan”</h1><ul><li>看绿裙的帖子。 知道哪些奖有重量级，哪些则是水奖</li><li>卯足了劲考第一，不要问为什么。</li><li>学有余力水篇文章出来。很多985研&#x2F;直博很看重论文&#x2F;软著&#x2F;专利成果。</li></ul><h2 id="如果你是高中生"><a href="#如果你是高中生" class="headerlink" title="如果你是高中生"></a>如果你是高中生</h2><ul><li>专心听讲。考一个好大学&#x2F;读一个好专业 -&gt; 有一个好title<ul><li>当你能到一个好大学，你直接联系你的任课老师，读他的研究生。省巨多事情</li></ul></li></ul>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>jyy课堂笔记</title>
+    <link href="/2025/06/30/jyy%E8%AF%BE%E5%A0%82%E7%AC%94%E8%AE%B0/"/>
+    <url>/2025/06/30/jyy%E8%AF%BE%E5%A0%82%E7%AC%94%E8%AE%B0/</url>
+    
+    <content type="html"><![CDATA[<p>jyy的课件做得很好。但是听jyy的课我从不看标题。 只听他的内容，因为他懂的太多了，即便有标题，他也时常即兴起来拓展了很多偏离标题但是启发我的内容。</p><p>听jyy的课不止能获取新知识、听到高效的学习方法。 他的课堂有一种长者的关怀，我从中吸收正能量。原本对很多事情感到不自信、畏惧开始。在补充完正能量后，又对计算机知识充满热情。我想，即便我本科毕业后、从事研究生、博士生的研究工作，遇到瓶颈时也可以拿出他最新的视频看一看、学一学。</p><p>第一节课jyy用大量的例子鼓励我们使用AI，尤其是在学习他的OS课程中。谈到Academic Integrity他还说了一个不一样的观点：我们可以在遇到问题时使用AI。 但你不能把整个问题丢给他。这门课的Policy是让学生学到技能。当你意识到这一点，监督自己使用AI的方式，你就做到了“学术诚信”。 ————我醒悟到曾经用偷懒，把全部问题丢给AI快速取得分数的愚蠢。我不仅没有学到这门课的知识，也浪费了探索AI prompt的机会。</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>人生规划</title>
+    <link href="/2025/06/30/%E4%BA%BA%E7%94%9F%E8%A7%84%E5%88%92/"/>
+    <url>/2025/06/30/%E4%BA%BA%E7%94%9F%E8%A7%84%E5%88%92/</url>
+    
+    <content type="html"><![CDATA[<p>近况介绍：<br>从6.20考完期末到今天差不多有两周的时间。 我没有成为大三下想象中的：“学各种感兴趣的知识、DIY&#x2F;复刻有趣的项目”。而是整天开着微信，关注各个高校的保研信息。这没错，当务之急确实是找到未来的研究方向。我也逐渐适应了上午下午关注保研申请、晚上放松&#x2F;学习知识的工作模式。</p><p>虽然有事忙，但我还是相比以前放松了很多。可以说在申请读研的事上不总是100%投入。 我看了很多改变我对自己的认识的内容，包括南大jyy2025的OS课程，诺伯特·维纳写的控制论，鬼灭之刃无限列车篇的最后一集、游郭篇的最后一集，回顾精彩的战斗场景、炎柱说的话， zhan哥对学历的看法-回应网上讽刺学历无用的言论；也和一些正能量的老师同学亲人交流了自己的情况和未来的规划。这些杂乱的内容和我没劲的生活联系在一起。才有了这篇博客。</p><p>我忽然意识到，即便我投入了很多时间在学习技术而非游戏、恋爱、逛街、刷手机这些所谓不正经的事业。 我依然认为自己是一个没有目标的人。 或者说，自己不擅长调动自己的毅力——只在有意思的东西面前投入时间，而没有长远的规划。</p><h1 id="读研、博-职业规划"><a href="#读研、博-职业规划" class="headerlink" title="读研、博&amp;职业规划"></a>读研、博&amp;职业规划</h1><p>读博是必然。打造自己的技术壁垒从而获取能显著提升人生物质层面舒适度的薪资<br>假如我成功保研HUST<br>我要积极参加学术会议。 多多去听正能量的人的发言。</p><p>我想研究一套AI和硬件交互的协议。 AI可以安全地管理所有的硬件。就像钢铁侠的JARVIS一样。 有生之年如果能见证贾维斯的诞生，也是圆梦了。</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>考前突击方案</title>
     <link href="/2025/06/27/%E8%80%83%E5%89%8D%E7%AA%81%E5%87%BB%E6%96%B9%E6%A1%88/"/>
     <url>/2025/06/27/%E8%80%83%E5%89%8D%E7%AA%81%E5%87%BB%E6%96%B9%E6%A1%88/</url>
     
-    <content type="html"><![CDATA[<p>回顾我的高效学习方法。 一个学期啥都没学，却能及格。</p>]]></content>
+    <content type="html"><![CDATA[<p>趁着刚经历完考前突击，总结几点经验（方法+误区）。实现：对一门即便学期内没怎么去上课的学科，也能在最后通过高效的方法取得不错的成绩。</p><p>发现物联网工程（其他工科类的专业应该也一样）。大一大二很多零零碎碎的基础课，瞎学。进入大三后，很多专业课内容相互关联。为彼此提供基础。因此，常常学得一头雾水。或者说，再有了其他学科的基础会得到更大的启发。因此，把所有课程留到最后学未尝不是坏事。平时可以多关注兴趣、做科研而专业课的学习则集中在期末，把相关的知识一网打尽，即高效也能产出综合性强的结论，岂不美哉？<br>所以这其实更像一份大三大四的学习方案。<br>例子：DSP，SS，CT，WS都是通信原理领域的重要学科。主题涉及傅里叶变换(时频转换),xxx transform， information theory等。可以说，你不学一门也能学另一门。但是你如果有一门学得很吃力，那么换一门依然会面对学不透的问题。因为你缺失了知识背景。</p><p>省流：整体方案很简单：</p><ol><li>明确<strong>要用的资源</strong>： 课件&#x2F;书本为主（90%） 其他教材为辅。 AI是你的好朋友，多讨论。</li><li>明确<strong>工具</strong>：各个工具使用场景<br>最后，投入时间学就完了</li></ol><h1 id="资源"><a href="#资源" class="headerlink" title="资源"></a>资源</h1><p>如果学校发了一本好教材。完全可以扔掉教辅。</p><p>高效的学习不在于你抄了多少笔记，看了多少网页，问了多少AI，读了多少本书。 而是给你一个课件，你能<strong>静下心来看，在草稿纸上涂画</strong>。<strong>试图不借助询问他人&#x2F;AI，自己理解书本的意思</strong>。 是你能<strong>从有限的文本中，挖出多少自己定义的概念</strong></p><h1 id="“提前复习”的“提前”"><a href="#“提前复习”的“提前”" class="headerlink" title="“提前复习”的“提前”"></a>“提前复习”的“提前”</h1><p>吃过了亏后，我明白了提前复习的意义：不只是怕来不及。而是留出更多深入学习一门学科的时间。整理笔记&#x2F;blog的时间。<br>大三下期末周的惨案：</p><ol><li><p>考完无线系统，次日即CA。但考完WS的我无心学习，在看漫威。 后面早起复习CA。有三道大题不会。也没多少时间。这是大三下最大的事故。<br>这告诉我们：提前量很重要，你不能指望自己有用不完的精力。 你要考虑到：考完每一场自己需要放松的时间。</p></li><li><p>复习时间太少了。 2周复习6门科目（在这之前在写小组作业。其中有很多门都没有踏踏实实地学过一遍（听课+所有作业&#x2F;lab&#x2F;quiz有把握）。如数据库、CT、DSP、CA、CN、WS。 我期望的复习状态是：下午能游个泳、晚上能写个博客留下有用的知识。能留出时间昨晚该做的题目，而不是打印出来却没时间看。</p></li><li><p>学习WS noise一章。一直用的word记录<br>吭哧吭哧几个小时过去了也才学了一半的课件，大量时间浪费在编辑公式和Ctrl + F搜索。用纸🖊就不存在这样的事故。</p></li></ol><h1 id="草稿本-黑笔"><a href="#草稿本-黑笔" class="headerlink" title="草稿本+黑笔"></a>草稿本+黑笔</h1><p>这是最快，<strong>最有效</strong>的推进度的方案！真的！</p><p>使用草稿本书写取代在电脑上写（如Word）。我曾喜欢把课件里的重要内容各种highlight, copy&amp;paste, retyping. 但事实证明这<strong>不如写纸上记得深刻</strong>，也不如写纸上方便（查阅、查找、反复编辑）<br>尤其是推导一些公式的时候。 注意：公式往往是最重要的内容。 记住，基于电子的复制粘贴虽然便利了信息的收集，但记忆这类工作，往往要<strong>Get Hands Dirty</strong></p><h2 id="想留下精美笔记怎么办？"><a href="#想留下精美笔记怎么办？" class="headerlink" title="想留下精美笔记怎么办？"></a>想留下精美笔记怎么办？</h2><p>番外篇<br>之所以有时想用Word，Joplin这些软件记录课件的内容和自己的心得，是想留下学懂知识的愉快的回忆，保留当时的骄傲感。也有助于之后的复习~。但是，记笔记取决于你是否为自己准备了充分的复习时间。保证当天的进度</p><p><strong>复盘</strong>的时间很重要。 比推进度更加重要。当你意识到自己有一些模棱两可的知识、公式。那就是需要复盘了。 你需要一张新的纸，把知识串起来。重要的推导也不能省略。<br>例<br>在复习CT时（其实是第一次学）。我的复盘过程是：用手机备忘录整理相关联的章节。把零零散散的Chap11 Chap12 Chap13 …. Chap21 划归到各个板块。 每个板块提出的重要理论（比如如何保证xxx）、工程方法（接收机模型）、还有例题。<br>还有WS，会把出现过的和某一个术语<strong>相关的几个模型&#x2F;图像放在一起比对</strong>。 比如多种接收机模型，pro版本。画在一张纸上。你就能精准掌握Receiver的概念。同理Receiver，还有噪声模型。</p><h1 id="练题！"><a href="#练题！" class="headerlink" title="练题！"></a>练题！</h1><p>课本&#x2F;课件例题 &gt; 原题 &gt;&gt; 纯看理论、不做题</p><p>例题和原题真的很重要。 尤其要掌握书本上的例题、 推导过程。  </p><p>一个好的做题方案是<strong>使用VSC + jupyter + Copilot</strong>。 用python帮你算还能留下各个变量。 这个过程还能培养命名习惯。</p>]]></content>
     
     
     
@@ -40,7 +207,7 @@
     <link href="/2025/06/16/%E8%AE%A1%E7%BD%91%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     <url>/2025/06/16/%E8%AE%A1%E7%BD%91%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
     
-    <content type="html"><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>屎一样的笔记。</p><blockquote><p>我希望这辈子能挖到一个21世纪的网络漏洞。</p></blockquote><h1 id="DHCP服务器"><a href="#DHCP服务器" class="headerlink" title="DHCP服务器"></a>DHCP服务器</h1><p>为什么host广播用的<code>DHCPDISCOVER包</code>，能被DHCP服务器收到并处理，为什么<code>源IP</code>必须是<code>0.0.0.0</code> <code>目的IP</code>必须是<code>255.255.255.255</code>？</p><h2 id="特殊IP地址"><a href="#特殊IP地址" class="headerlink" title="特殊IP地址"></a>特殊IP地址</h2><p>DHCPDISCOVER广播包会被<strong>同一网段上所有主机的IP协议栈</strong>接收，<strong>但只有运行着DHCP服务器软件并监听UDP端口67的主机</strong>才会在UDP&#x2F;应用层处理这个请求并做出响应。其他主机的UDP层会因为端口67未被使用而丢弃该数据报。0.0.0.0和255.255.255.255保证了广播能被发送并被所有IP栈接收，而端口67则确保了只有DHCP服务器应用会处理它。</p><p>其他非DHCP主机不会运行67进程，自然也不会对<code>DHCPDISCOVER包</code>进行处理</p><h1 id="“NIC-“-“网卡”"><a href="#“NIC-“-“网卡”" class="headerlink" title="“NIC “ “网卡”"></a>“NIC “ “网卡”</h1><p>链路层的主体部分是在网络适配器中实现的。网络适配器有时也称为网络接口卡</p><h2 id="PCI-PCIe"><a href="#PCI-PCIe" class="headerlink" title="PCI &amp; PCIe"></a>PCI &amp; PCIe</h2><h2 id="PCI-Peripheral-Component-Interconnect-传统总线协议"><a href="#PCI-Peripheral-Component-Interconnect-传统总线协议" class="headerlink" title="PCI Peripheral Component Interconnect- 传统总线协议"></a>PCI Peripheral Component Interconnect<br>- 传统总线协议</h2><p>PCIe Peripheral Component Interconnect Express </p><ul><li>快速外设组件互连高速串行标准</li><li>Express有快速、高速传输的含义</li><li>两个都是总线协议。 由于对总线传输速度的需求增大，PCI被速度更快的PCIe替代。</li></ul><p>以前经常问的问题：DHCP服务器</p><p>说说我脑中的DHCP Server</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>屎一样的笔记。</p><blockquote><p>我希望这辈子能挖到一个21世纪的网络漏洞。</p></blockquote><h1 id="DHCP服务器"><a href="#DHCP服务器" class="headerlink" title="DHCP服务器"></a>DHCP服务器</h1><p>为什么host广播用的<code>DHCPDISCOVER包</code>，能被DHCP服务器收到并处理，为什么<code>源IP</code>必须是<code>0.0.0.0</code> <code>目的IP</code>必须是<code>255.255.255.255</code>？</p><h2 id="特殊IP地址"><a href="#特殊IP地址" class="headerlink" title="特殊IP地址"></a>特殊IP地址</h2><p>DHCPDISCOVER广播包会被<strong>同一网段上所有主机的IP协议栈</strong>接收，<strong>但只有运行着DHCP服务器软件并监听UDP端口67的主机</strong>才会在UDP&#x2F;应用层处理这个请求并做出响应。其他主机的UDP层会因为端口67未被使用而丢弃该数据报。0.0.0.0和255.255.255.255保证了广播能被发送并被所有IP栈接收，而端口67则确保了只有DHCP服务器应用会处理它。</p><p>其他非DHCP主机不会运行67进程，自然也不会对<code>DHCPDISCOVER包</code>进行处理</p><h1 id="“NIC-“-“网卡”"><a href="#“NIC-“-“网卡”" class="headerlink" title="“NIC “ “网卡”"></a>“NIC “ “网卡”</h1><p>链路层的主体部分是在网络适配器中实现的。网络适配器有时也称为网络接口卡</p><h2 id="PCI-PCIe"><a href="#PCI-PCIe" class="headerlink" title="PCI &amp; PCIe"></a>PCI &amp; PCIe</h2><p>PCI Peripheral Component Interconnect  </p><ul><li>传统总线协议</li><li>PCIe Peripheral Component Interconnect Express </li><li>快速外设组件互连高速串行标准</li><li>Express有快速、高速传输的含义</li><li>两个都是总线协议。 由于对总线传输速度的需求增大，PCI被速度更快的PCIe替代。</li></ul><p>以前经常问的问题：DHCP服务器</p><p>说说我脑中的DHCP Server</p>]]></content>
     
     
     <categories>
@@ -65,7 +232,7 @@
     <link href="/2025/06/15/binary/"/>
     <url>/2025/06/15/binary/</url>
     
-    <content type="html"><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><h2 id="有些碎片知识老是忘，放在blog里吧！-求反码的十进制数-大端序、小端序"><a href="#有些碎片知识老是忘，放在blog里吧！-求反码的十进制数-大端序、小端序" class="headerlink" title="有些碎片知识老是忘，放在blog里吧！- 求反码的十进制数- 大端序、小端序"></a>有些碎片知识老是忘，放在blog里吧！<br>- 求反码的十进制数<br>- 大端序、小端序</h2><h1 id="2’s-complement"><a href="#2’s-complement" class="headerlink" title="2’s complement"></a>2’s complement</h1><h2 id="场景"><a href="#场景" class="headerlink" title="场景"></a>场景</h2><p>给出1打头的2’s complement，问你是负多少<br>首先，我起码知道是负的，但老想不起来该怎么<strong>算“负多少”</strong>这个问题</p><h2 id="方法："><a href="#方法：" class="headerlink" title="方法："></a>方法：</h2><p>记住2’s complement转换成<strong>“多少”的规则</strong></p><p><strong>全部反码，得到一个0大头的数。</strong></p><p><strong>将这个正数 “+1”，你就得到了 “多少”  (多少&#x3D;&#x3D;&#x3D;你要的结果)</strong></p><h1 id="端序"><a href="#端序" class="headerlink" title="端序"></a>端序</h1>]]></content>
+    <content type="html"><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>有些碎片知识老是忘，放在blog里吧！</p><ul><li>求反码的十进制数</li><li>大端序、小端序</li><li></li></ul><h1 id="2’s-complement"><a href="#2’s-complement" class="headerlink" title="2’s complement"></a>2’s complement</h1><h2 id="场景"><a href="#场景" class="headerlink" title="场景"></a>场景</h2><p>给出1打头的2’s complement，问你是负多少<br>首先，我起码知道是负的，但老想不起来该怎么<strong>算“负多少”</strong>这个问题</p><h2 id="方法："><a href="#方法：" class="headerlink" title="方法："></a>方法：</h2><p>记住2’s complement转换成<strong>“多少”的规则</strong></p><p><strong>全部反码，得到一个0大头的数。</strong></p><p><strong>将这个正数 “+1”，你就得到了 “多少”  (多少&#x3D;&#x3D;&#x3D;你要的结果)</strong></p><h1 id="端序"><a href="#端序" class="headerlink" title="端序"></a>端序</h1>]]></content>
     
     
     <categories>
@@ -242,7 +409,7 @@
     <link href="/2025/04/29/%E7%94%A8%E5%A5%BD%E4%BB%A3%E7%90%86/"/>
     <url>/2025/04/29/%E7%94%A8%E5%A5%BD%E4%BB%A3%E7%90%86/</url>
     
-    <content type="html"><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>重要内容：代理软件常用功能的解释，常见的使用场景（Linux &#x2F; Windows），<br>整活常见涉及到的Proxy命令<br>不会包含的内容：1.推荐机场 2.代理软件的推荐</p><h1 id="takeaways-important-concepts"><a href="#takeaways-important-concepts" class="headerlink" title="takeaways: important concepts"></a>takeaways: important concepts</h1><h2 id="grossery"><a href="#grossery" class="headerlink" title="grossery"></a>grossery</h2><p>机场<br>VPN<br>代理（软件）</p><h1 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h1><ol><li>全局模式</li><li>规则模式</li><li></li></ol><h2 id=""><a href="#" class="headerlink" title=""></a></h2><p>系统代理</p><p>TUN</p><h1 id="不同Shell的代理配置命令"><a href="#不同Shell的代理配置命令" class="headerlink" title="不同Shell的代理配置命令"></a>不同Shell的代理配置命令</h1><h2 id="PowerShell"><a href="#PowerShell" class="headerlink" title="PowerShell"></a>PowerShell</h2><figure class="highlight elixir"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs elixir"><span class="hljs-variable">$env</span><span class="hljs-symbol">:http_proxy=<span class="hljs-string">&quot;http://127.0.0.1:7890&quot;</span></span><br><span class="hljs-variable">$env</span><span class="hljs-symbol">:https_proxy=<span class="hljs-string">&quot;http://127.0.0.1:7890&quot;</span></span><br><span class="hljs-variable">$env</span><span class="hljs-symbol">:all_proxy=<span class="hljs-string">&quot;socks5://127.0.0.1:7890&quot;</span></span><br></code></pre></td></tr></table></figure><h2 id="Bash-Git-Bash"><a href="#Bash-Git-Bash" class="headerlink" title="Bash&#x2F; Git Bash"></a>Bash&#x2F; Git Bash</h2><figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs routeros"><span class="hljs-built_in">export</span> <span class="hljs-attribute">http_proxy</span>=http://127.0.0.1:7890<br><span class="hljs-built_in">export</span> <span class="hljs-attribute">https_proxy</span>=http://127.0.0.1:7890<br><span class="hljs-built_in">export</span> <span class="hljs-attribute">all_proxy</span>=socks5://127.0.0.1:7890<br></code></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>重要内容：<strong>代理软件常用功能</strong>的解释，整活常见涉及到的Proxy命令<br>不会包含的内容：1.推荐机场 2.代理软件的推荐</p><p>介绍代理软件功能以clash for windows为例。 </p><h1 id="功能介绍"><a href="#功能介绍" class="headerlink" title="功能介绍"></a>功能介绍</h1><ol><li>全局模式</li><li>规则模式</li><li>minxin</li></ol><h2 id="容易搞混的词"><a href="#容易搞混的词" class="headerlink" title="容易搞混的词"></a>容易搞混的词</h2><p>以为开了系统代理就等于切成了全局模式</p><p>系统代理：当开启该功能时，Clash 会修改操作系统的全局代理设置（Windows 系统中的 Internet 选项 或 网络设置），将所有网络流量（HTTP&#x2F;HTTPS&#x2F;SOCKS）通过 Clash 配置的代理规则进行转发<br>好处：git bash、docker 不再需要自己配http_proxy等环境变量。<br>为什么叫 “System” Proxy？<br>这里的 “System” 强调代理设置是作用于操作系统层面，而非仅限某个应用（如浏览器扩展或应用内代理）。这是与局部代理（如浏览器插件、应用内置代理）的核心区别。<br>TUN</p><h1 id="不同Shell的代理配置命令"><a href="#不同Shell的代理配置命令" class="headerlink" title="不同Shell的代理配置命令"></a>不同Shell的代理配置命令</h1><h2 id="PowerShell"><a href="#PowerShell" class="headerlink" title="PowerShell"></a>PowerShell</h2><figure class="highlight elixir"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs elixir"><span class="hljs-variable">$env</span><span class="hljs-symbol">:http_proxy=<span class="hljs-string">&quot;http://127.0.0.1:7890&quot;</span></span><br><span class="hljs-variable">$env</span><span class="hljs-symbol">:https_proxy=<span class="hljs-string">&quot;http://127.0.0.1:7890&quot;</span></span><br><span class="hljs-variable">$env</span><span class="hljs-symbol">:all_proxy=<span class="hljs-string">&quot;socks5://127.0.0.1:7890&quot;</span></span><br></code></pre></td></tr></table></figure><h2 id="Bash-Git-Bash"><a href="#Bash-Git-Bash" class="headerlink" title="Bash&#x2F; Git Bash"></a>Bash&#x2F; Git Bash</h2><figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs routeros"><span class="hljs-built_in">export</span> <span class="hljs-attribute">http_proxy</span>=http://127.0.0.1:7890<br><span class="hljs-built_in">export</span> <span class="hljs-attribute">https_proxy</span>=http://127.0.0.1:7890<br><span class="hljs-built_in">export</span> <span class="hljs-attribute">all_proxy</span>=socks5://127.0.0.1:7890<br></code></pre></td></tr></table></figure>]]></content>
     
     
     <categories>
@@ -471,7 +638,7 @@
     <link href="/2025/03/25/%E9%98%85%E8%AF%BB%E6%8E%A8%E8%8D%90/"/>
     <url>/2025/03/25/%E9%98%85%E8%AF%BB%E6%8E%A8%E8%8D%90/</url>
     
-    <content type="html"><![CDATA[<p>这是一个来自IoT专业。我从读大学之后开始热爱读书、算是对各类书籍都感兴趣。在这之前，很少阅读课外书籍。<br>这份清单涵盖了我阅读过的并且其中的某些片段为我留下了深刻印象、并对我的学习生活、个人修养产生过积极影响的书籍（真的，读书很神奇，你会因为梳理的内容做出很多改变，哪怕有些只有一个月。</p><h1 id="高端科普、社会知识类"><a href="#高端科普、社会知识类" class="headerlink" title="高端科普、社会知识类"></a>高端科普、社会知识类</h1><p>通过读大师的作品，品味伟大的成就，从精品里学习，开阔了你的视野。从精粹中学到的思维方式让你在成事、看热点问题、社会上的宏观问题带来更新颖的思维方式。<br>阅读这类作品，需要结合自身经历思考、留记录</p><h2 id="科学中国人系列杂志"><a href="#科学中国人系列杂志" class="headerlink" title="科学中国人系列杂志"></a>科学中国人系列杂志</h2><p>我的阅读背景：<br>我于2025.3月（大三下），在图书馆的杂志区，接触科学中国人。 这一段时间，我焦虑于保研专业的选择，人工智能革命浪潮加上种种AI的炒作下，好像计算机专业的不去研究AI以后就找不到工作、或者没有实在的薪水。有时在一些众说纷纭的媒体听闻：26岁的某某某在大厂担任AI领军任务；没天赋别碰AI、别取卷算法，种种之类。其实，在我尝试学习Andrej Karpathy的课程后我就对AI有研究自信，但没太火热的兴趣。 我也接受以后不主攻AI。但心里总希望有些支撑我的观点。草草读完，我豁然开朗，研究不分高低贵贱，不要带着功利选择视野；何必走计算机？计算机外也有很多有价值的科研天地；不要基于未经审核的只言片语规划未来。<br>作品评价：中国科学主管，在我国高级知识分子群体（两院院士）有着良好声誉<br>定位：中国科教界热点、大牛人物（科学家、科技型企业家、教学科研单位高层管理人员）故事，最新科研动态<br>每一期都会挑出几位顶级的科学家介绍他们的经历。还会用简短的文字科普新兴的技术。最后一页有精美的图片或者推荐的阅读资料。<br>通过阅读这套杂志，你可以清楚地感受到中国顶流的科研水平，各大高校的成果，你会对研究生、博士生、教授的工作有更清楚的认识。这本书不会介绍基础知识，和你的本科课本不同。但是一定能打开你的视野，给想走科研道路的自己更详细的学业、职业生涯规划。<br>如果你还在纠结留学还是国内读研、不清楚这个世界上有哪些有价值的研究以及想了解我国的科研能力到底什么水平，强烈推荐你看看这套书籍。如果你还未高中毕业，想规划自己未来的研究道路，相信有一定科学基础的你也能从这本书中看到未来的事业。</p><h2 id="脉络-吴军"><a href="#脉络-吴军" class="headerlink" title="脉络  吴军"></a>脉络  吴军</h2><p>大三上学期（国庆假期）<br>历史、社会、未来</p><h2 id="浪潮之巅-吴军"><a href="#浪潮之巅-吴军" class="headerlink" title="浪潮之巅 吴军"></a>浪潮之巅 吴军</h2><p>还没读完，但绝对值得一读。</p><h2 id="黑客与画家-保罗·格雷厄姆（YCombinator创始人）"><a href="#黑客与画家-保罗·格雷厄姆（YCombinator创始人）" class="headerlink" title="黑客与画家  保罗·格雷厄姆（YCombinator创始人）"></a>黑客与画家  保罗·格雷厄姆（YCombinator创始人）</h2><p>阮一峰大佬翻译<br>全书分为三部分<br>本书是保罗整理的“散文集”。包含了他对IT行业&#x2F;创业的思考</p><h2 id="Just-For-Fun-只是为了好玩（Linus-Trovalds）"><a href="#Just-For-Fun-只是为了好玩（Linus-Trovalds）" class="headerlink" title="Just For Fun 只是为了好玩（Linus Trovalds）"></a>Just For Fun 只是为了好玩（Linus Trovalds）</h2><p>本书是Linus的个人传记。非常非常有趣。值得你的空闲时间。</p><h1 id="中外小说、散文"><a href="#中外小说、散文" class="headerlink" title="中外小说、散文"></a>中外小说、散文</h1><p>阅读，可以是一种放松的过程。本节记录书本概述&amp;我喜欢的句子。</p><h2 id="读是一种幸福-梁晓声"><a href="#读是一种幸福-梁晓声" class="headerlink" title="读是一种幸福 梁晓声"></a>读是一种幸福 梁晓声</h2><p>这是梁晓声先生的散文集，是我第一次读到的作品。我喜欢他的文章，那有血有肉的文字读起来没有压力，总是让我感动。<br>记录了他儿时那个年代的故事。有文革背景下的人物。有和他的哥哥、母亲的故事，还有他当父亲有趣的亲子经历。<br>后来，我知道他的代表作，《人世间》超长篇小说；第一次追剧也是这部小说改，剧中的人物正是他的家庭生活的缩影。</p><h2 id="夜火车-徐则臣"><a href="#夜火车-徐则臣" class="headerlink" title="夜火车  徐则臣"></a>夜火车  徐则臣</h2><p>感谢善良勇敢的木年、孝顺有爱的新治；让我在大学这个浮躁的小社会收获滋养，做一个踏实善良的人。</p><blockquote></blockquote><h2 id="海边的卡夫卡-村上春树"><a href="#海边的卡夫卡-村上春树" class="headerlink" title="海边的卡夫卡  村上春树"></a>海边的卡夫卡  村上春树</h2><p>小说的开篇就很有意思，16岁自律男生的独自生存。故事中的情节不断点燃我的探险激情。我也想走出校园，看看这个世界！于是，就有了大二暑假河北秦皇岛的独自旅行。</p><blockquote><p>这往下你必须成为世界上最顽强的十五岁少年，不管怎么样。因为除此之外这世界上没有你赖以存活之路，为此你自己一定要理解真正的顽强是怎么回事。</p><p>如果有意，我可以除掉父亲（以我现在的力气，决非什么难事），也可从记忆中将母亲抹消。可是我无法将两人的遗传因子从身上驱逐干净。如果我想驱逐，只能驱逐我自身。<br>我们大家都在持续失去种种宝贵的东西，这是生存的一个意义。</p></blockquote><h2 id="潮骚-三岛由纪夫"><a href="#潮骚-三岛由纪夫" class="headerlink" title="潮骚 三岛由纪夫"></a>潮骚 三岛由纪夫</h2><p>我欣赏三岛由纪夫那细致的人物刻画能力。用精细的语言雕刻人物的动作、心理、神态。每次重读他的作品，我都会感叹，怎么能有如此强大的表述能力。</p><blockquote><p><em>摘抄</em><br>年轻人感到包围着他的丰饶的大自然与他自身，是一种无上的调和。他觉得自己的深呼吸，是仿造大自然的肉眼看不见的东西的一部分，它深深渗透到年轻人的体内深处。他所听见的潮骚，仿佛是海的巨大的潮流，与他体内沸腾的热血的潮流调和起来了。新治平日并不特别需要音乐，但大自然本身一定充满着音乐的需要。</p><p>新治的身边是广袤的大海，但他并不憧憬纵横四海的虚幻梦想。对渔夫来说，海的概念与农民拥有的土地相近。海是生活的场所，是庄稼地，形状不定的白色穗波代替了稻穗和麦浪在敏感的湛蓝色软土上不停摇摆着。 尽管如此，年轻人结束了这天的捕捞工作，望着白色货轮行驶在水平线上的晚霞前，心里却怀着不可思议的感动。世界张开了在过去难以想象的巨大怀抱，从彼方通近。这未知世界的形象如远雷一般，从天际轰鸣而来，又消逝而去。 在船头甲板上，一只小小的海星已经干瘪了。年轻人坐在船头，将视线挪离晚霞，轻摇了摇扎着白色厚毛巾的头。 </p></blockquote><h1 id="心理学"><a href="#心理学" class="headerlink" title="心理学"></a>心理学</h1><h2 id="亲密关系-Intimate-Relationships-罗兰·米勒"><a href="#亲密关系-Intimate-Relationships-罗兰·米勒" class="headerlink" title="亲密关系 Intimate Relationships 罗兰·米勒"></a>亲密关系 Intimate Relationships 罗兰·米勒</h2><p>与其说这是书，不如说这是一份研究报告。<br>这本书教会了如何有效沟通。不仅是和恋人、亲人，还有和同学朋友讲道理时，也会采取书中的模式——你心平气和地说，我耐心听，我不打断。等你说完了我再说。我听到了你的想法，我陈述你的想法——当我的理解与你的想法一致时，我做到了共情。我认真地道歉，讲道理。</p><p>我认为这本书适合每一个大学生阅读。</p><h2 id="休息力-韩-李时炯"><a href="#休息力-韩-李时炯" class="headerlink" title="休息力  [韩]李时炯"></a><a href="https://book.douban.com/subject/36394549/">休息力</a>  [韩]李时炯</h2><p>本书不同于大多经验类的帖子、脑科学作品，有很多科学元素。从科学原理出发，解释人之所以疲劳、效率低等日常问题还有心理、身体疾病的源头，结合来自仙村康复中心的治疗方案，告诉读者长寿，让大脑保持健康的秘密。教会我们科学地工作。<br>这本书让我产生了保护好的大脑的意识。更高效地调整自己的工作状态，让我更加从容地面对瓶颈期，而不是堕落、沮丧。</p><h1 id="计算机专业入门科普读物"><a href="#计算机专业入门科普读物" class="headerlink" title="计算机专业入门科普读物"></a>计算机专业入门科普读物</h1><h2 id="《CPU通识课》-龙芯中科"><a href="#《CPU通识课》-龙芯中科" class="headerlink" title="《CPU通识课》 龙芯中科"></a>《CPU通识课》 龙芯中科</h2><p>适合CS, IoT，等有对计算机底层知识 how computer work问题感兴趣的童鞋阅读。开阔了商业视野。偏向CPU、ISA简史。</p><h2 id="《普林斯顿大学计算机公开课》"><a href="#《普林斯顿大学计算机公开课》" class="headerlink" title="《普林斯顿大学计算机公开课》"></a>《普林斯顿大学计算机公开课》</h2><p>适合刚进入大学的计算机专业学生阅读。</p><h1 id="通信"><a href="#通信" class="headerlink" title="通信"></a>通信</h1><h2 id="业余无线电-童效勇"><a href="#业余无线电-童效勇" class="headerlink" title="业余无线电 童效勇"></a>业余无线电 童效勇</h2><p>这本书考证必备读物。很棒的HAM入门读物。</p>]]></content>
+    <content type="html"><![CDATA[<p>这是一个来自IoT专业理工男整理的书单。我从读大学之后开始热爱读书、算是对各类书籍都感兴趣。在这之前，很少阅读课外书籍。这份清单涵盖了我阅读过的并且其中的某些片段为我留下了深刻印象、并对我的学习生活、个人修养产生过积极影响的书籍（真的，读书很神奇，你会因为梳理的内容做出很多改变，哪怕有些只有一个月。<br>AI时代获取信息变得容易，但是读书依然不可替代。<br>我为每本书留下了一些摘抄或者感想，可以当作这本书的精彩部分。 之后会有专门的分区记录每一本书的读后感。</p><h1 id="高端科普、社会知识类"><a href="#高端科普、社会知识类" class="headerlink" title="高端科普、社会知识类"></a>高端科普、社会知识类</h1><p>通过读大师的作品，品味伟大的成就，从精品里学习，开阔了你的视野。从精粹中学到的思维方式让你在成事、看热点问题、社会上的宏观问题带来更新颖的思维方式。<br>阅读这类作品，需要结合自身经历思考、留记录</p><h2 id="科学中国人系列杂志"><a href="#科学中国人系列杂志" class="headerlink" title="科学中国人系列杂志"></a>科学中国人系列杂志</h2><p>我的阅读背景：<br>我于2025.3月（大三下），在图书馆的杂志区，接触科学中国人。 这一段时间，我焦虑于保研专业的选择，人工智能革命浪潮加上种种AI的炒作下，好像计算机专业的不去研究AI以后就找不到工作、或者没有实在的薪水。有时在一些众说纷纭的媒体听闻：26岁的某某某在大厂担任AI领军任务；没天赋别碰AI、别取卷算法，种种之类。其实，在我尝试学习Andrej Karpathy的课程后我就对AI有研究自信，但没太火热的兴趣。 我也接受以后不主攻AI。但心里总希望有些支撑我的观点。草草读完，我豁然开朗，研究不分高低贵贱，不要带着功利选择视野；何必走计算机？计算机外也有很多有价值的科研天地；不要基于未经审核的只言片语规划未来。<br>作品评价：中国科学主管，在我国高级知识分子群体（两院院士）有着良好声誉<br>定位：中国科教界热点、大牛人物（科学家、科技型企业家、教学科研单位高层管理人员）故事，最新科研动态<br>每一期都会挑出几位顶级的科学家介绍他们的经历。还会用简短的文字科普新兴的技术。最后一页有精美的图片或者推荐的阅读资料。<br>通过阅读这套杂志，你可以清楚地感受到中国顶流的科研水平，各大高校的成果，你会对研究生、博士生、教授的工作有更清楚的认识。这本书不会介绍基础知识，和你的本科课本不同。但是一定能打开你的视野，给想走科研道路的自己更详细的学业、职业生涯规划。<br>如果你还在纠结留学还是国内读研、不清楚这个世界上有哪些有价值的研究以及想了解我国的科研能力到底什么水平，强烈推荐你看看这套书籍。如果你还未高中毕业，想规划自己未来的研究道路，相信有一定科学基础的你也能从这本书中看到未来的事业。</p><h2 id="脉络-吴军"><a href="#脉络-吴军" class="headerlink" title="脉络  吴军"></a>脉络  吴军</h2><p>大三上学期（国庆假期）<br>历史、社会、未来</p><h2 id="浪潮之巅-吴军"><a href="#浪潮之巅-吴军" class="headerlink" title="浪潮之巅 吴军"></a>浪潮之巅 吴军</h2><p>还没读完，但绝对值得一读。</p><h2 id="黑客与画家-保罗·格雷厄姆（YCombinator创始人）"><a href="#黑客与画家-保罗·格雷厄姆（YCombinator创始人）" class="headerlink" title="黑客与画家  保罗·格雷厄姆（YCombinator创始人）"></a>黑客与画家  保罗·格雷厄姆（YCombinator创始人）</h2><p>阮一峰大佬翻译<br>全书分为三部分<br>本书是保罗整理的“散文集”。包含了他对IT行业&#x2F;创业的思考</p><h2 id="Just-For-Fun-只是为了好玩（Linus-Trovalds）"><a href="#Just-For-Fun-只是为了好玩（Linus-Trovalds）" class="headerlink" title="Just For Fun 只是为了好玩（Linus Trovalds）"></a>Just For Fun 只是为了好玩（Linus Trovalds）</h2><p>本书是Linus的个人传记。非常非常有趣。值得你的空闲时间。</p><h1 id="中外小说、散文"><a href="#中外小说、散文" class="headerlink" title="中外小说、散文"></a>中外小说、散文</h1><p>阅读，可以是一种放松的过程。本节记录书本概述&amp;我喜欢的句子。</p><h2 id="读是一种幸福-梁晓声"><a href="#读是一种幸福-梁晓声" class="headerlink" title="读是一种幸福 梁晓声"></a>读是一种幸福 梁晓声</h2><p>这是梁晓声先生的散文集，是我第一次读到的作品。我喜欢他的文章，那有血有肉的文字读起来没有压力，总是让我感动。<br>记录了他儿时那个年代的故事。有文革背景下的人物。有和他的哥哥、母亲的故事，还有他当父亲有趣的亲子经历。<br>后来，我知道他的代表作，《人世间》超长篇小说；第一次追剧也是这部小说改，剧中的人物正是他的家庭生活的缩影。</p><h2 id="夜火车-徐则臣"><a href="#夜火车-徐则臣" class="headerlink" title="夜火车  徐则臣"></a>夜火车  徐则臣</h2><p>感谢善良勇敢的木年、孝顺有爱的新治；让我在大学这个浮躁的小社会收获滋养，做一个踏实善良的人。</p><blockquote></blockquote><h2 id="海边的卡夫卡-村上春树"><a href="#海边的卡夫卡-村上春树" class="headerlink" title="海边的卡夫卡  村上春树"></a>海边的卡夫卡  村上春树</h2><p>小说的开篇就很有意思，16岁自律男生的独自生存。故事中的情节不断点燃我的探险激情。我也想走出校园，看看这个世界！于是，就有了大二暑假河北秦皇岛的独自旅行。</p><blockquote><p>这往下你必须成为世界上最顽强的十五岁少年，不管怎么样。因为除此之外这世界上没有你赖以存活之路，为此你自己一定要理解真正的顽强是怎么回事。</p><p>如果有意，我可以除掉父亲（以我现在的力气，决非什么难事），也可从记忆中将母亲抹消。可是我无法将两人的遗传因子从身上驱逐干净。如果我想驱逐，只能驱逐我自身。<br>我们大家都在持续失去种种宝贵的东西，这是生存的一个意义。</p></blockquote><h2 id="潮骚-三岛由纪夫"><a href="#潮骚-三岛由纪夫" class="headerlink" title="潮骚 三岛由纪夫"></a>潮骚 三岛由纪夫</h2><p>我欣赏三岛由纪夫那细致的人物刻画能力。用精细的语言雕刻人物的动作、心理、神态。每次重读他的作品，我都会感叹，怎么能有如此强大的表述能力。</p><blockquote><p><em>摘抄</em><br>年轻人感到包围着他的丰饶的大自然与他自身，是一种无上的调和。他觉得自己的深呼吸，是仿造大自然的肉眼看不见的东西的一部分，它深深渗透到年轻人的体内深处。他所听见的潮骚，仿佛是海的巨大的潮流，与他体内沸腾的热血的潮流调和起来了。新治平日并不特别需要音乐，但大自然本身一定充满着音乐的需要。</p><p>新治的身边是广袤的大海，但他并不憧憬纵横四海的虚幻梦想。对渔夫来说，海的概念与农民拥有的土地相近。海是生活的场所，是庄稼地，形状不定的白色穗波代替了稻穗和麦浪在敏感的湛蓝色软土上不停摇摆着。 尽管如此，年轻人结束了这天的捕捞工作，望着白色货轮行驶在水平线上的晚霞前，心里却怀着不可思议的感动。世界张开了在过去难以想象的巨大怀抱，从彼方通近。这未知世界的形象如远雷一般，从天际轰鸣而来，又消逝而去。 在船头甲板上，一只小小的海星已经干瘪了。年轻人坐在船头，将视线挪离晚霞，轻摇了摇扎着白色厚毛巾的头。 </p></blockquote><h1 id="心理学"><a href="#心理学" class="headerlink" title="心理学"></a>心理学</h1><h2 id="亲密关系-Intimate-Relationships-罗兰·米勒"><a href="#亲密关系-Intimate-Relationships-罗兰·米勒" class="headerlink" title="亲密关系 Intimate Relationships 罗兰·米勒"></a><a href="https://book.douban.com/subject/36787449/">亲密关系</a> Intimate Relationships 罗兰·米勒</h2><p>与其说这是书，不如说这是一份研究报告。<br>这本书教会了如何有效沟通。不仅是和恋人、亲人，还有和同学朋友讲道理时，也会采取书中的模式——你心平气和地说，我耐心听，我不打断。等你说完了我再说。我听到了你的想法，我陈述你的想法——当我的理解与你的想法一致时，我做到了共情。我认真地道歉，讲道理。</p><p>我认为这本书适合每一个大学生阅读。</p><h2 id="休息力-韩-李时炯"><a href="#休息力-韩-李时炯" class="headerlink" title="休息力  [韩]李时炯"></a><a href="https://book.douban.com/subject/36394549/">休息力</a>  [韩]李时炯</h2><p>本书不同于大多经验类的帖子、脑科学作品，有很多科学元素。从科学原理出发，解释人之所以疲劳、效率低等日常问题还有心理、身体疾病的源头，结合来自仙村康复中心的治疗方案，告诉读者长寿，让大脑保持健康的秘密。教会我们科学地工作。<br>这本书让我产生了保护好的大脑的意识。更高效地调整自己的工作状态，让我更加从容地面对瓶颈期，而不是堕落、沮丧。</p><h1 id="计算机专业入门科普读物"><a href="#计算机专业入门科普读物" class="headerlink" title="计算机专业入门科普读物"></a>计算机专业入门科普读物</h1><h2 id="《CPU通识课》-龙芯中科"><a href="#《CPU通识课》-龙芯中科" class="headerlink" title="《CPU通识课》 龙芯中科"></a>《CPU通识课》 龙芯中科</h2><p>适合CS, IoT，等有对计算机底层知识 how computer work问题感兴趣的童鞋阅读。开阔了商业视野。偏向CPU、ISA简史。</p><h2 id="《普林斯顿大学计算机公开课》"><a href="#《普林斯顿大学计算机公开课》" class="headerlink" title="《普林斯顿大学计算机公开课》"></a>《普林斯顿大学计算机公开课》</h2><p>适合刚进入大学的计算机专业学生阅读。</p><h2 id="《控制论》-by-Norbert-Wiener"><a href="#《控制论》-by-Norbert-Wiener" class="headerlink" title="《控制论》 by Norbert Wiener"></a><a href="https://book.douban.com/subject/2356843/">《控制论》</a> by Norbert Wiener</h2><p>全名：Cybernetics or Control and Communication in the Animal and the Machine<br>首先，作者一定可以刷新你对神童的定义。<br>什么是控制论？<br>通信的理论。 非线性、目的论的思考方式。</p><p>控制论给后世带来的影响：<br>在天才维纳提出控制论后，产生很多新学科。把控制论的通信思想、哲学思考方式用在其他学科，如心理学、生物科学，延伸出了新的研究方向。<br>控制论是信息时代的理论，计算机网络，网络安全的英文名也采用cyber前缀</p><h1 id="通信"><a href="#通信" class="headerlink" title="通信"></a>通信</h1><h2 id="业余无线电-童效勇"><a href="#业余无线电-童效勇" class="headerlink" title="业余无线电 童效勇"></a>业余无线电 童效勇</h2><p>这本书考证必备读物。很棒的HAM入门读物。</p>]]></content>
     
     
     <categories>
@@ -546,7 +713,7 @@
     <link href="/2025/03/09/%E5%9C%A8hexo%E5%8D%9A%E5%AE%A2%E4%B8%AD%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E3%80%90%E6%96%B9%E6%A1%88%E6%B1%87%E6%80%BB%E3%80%91/"/>
     <url>/2025/03/09/%E5%9C%A8hexo%E5%8D%9A%E5%AE%A2%E4%B8%AD%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E3%80%90%E6%96%B9%E6%A1%88%E6%B1%87%E6%80%BB%E3%80%91/</url>
     
-    <content type="html"><![CDATA[<h1 id="放弃的方案："><a href="#放弃的方案：" class="headerlink" title="放弃的方案："></a>放弃的方案：</h1><h2 id="原生的-hexo-add-on-hexo-asset"><a href="#原生的-hexo-add-on-hexo-asset" class="headerlink" title="原生的 hexo add on: hexo-asset"></a>原生的 hexo add on: hexo-asset</h2><p><code>post_asset_folder: false #true</code></p><ul><li>语法格式恶心，既不是 md 也不是 HTML，自带的一种渲染格式</li><li>尝试多次未成功</li></ul><h1 id="能使用的方案："><a href="#能使用的方案：" class="headerlink" title="能使用的方案："></a>能使用的方案：</h1><h2 id="PicX"><a href="#PicX" class="headerlink" title="PicX"></a>PicX</h2><h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><ul><li>gitbub 有一个叫做 picx 的项目, 是一个网站，你可以往它的官网上传（本机的）图，会自动生成一个链接赋值到剪切板上。</li><li>特点：手动在 blog md file 里放 html img 标签； 支持使用 GitHub 图床（own repo，free）等其他图床</li></ul><h3 id="优缺点"><a href="#优缺点" class="headerlink" title="优缺点"></a>优缺点</h3><ul><li>优点： PicX 自动生成图片 url, 完全免费（薅微软 Github 服务器的羊毛）</li><li>不足：无法在写博客粘贴图片的时候自动生成链接。需要手动写 HTML img 标签。图多了有些麻烦，容易找不到链接。<br>Links：<a href="https://picx.xpoet.cn/#/settings">PicX 在线服务</a>； <a href="https://picx-docs.xpoet.cn/usage-guide/get-start.html">官方使用教程</a>；<a href="https://github.com/XPoet/picx">GitHub 仓库地址</a></li></ul><p>e.g. url generate by pix<br><a href="https://github.com/OptimusHimself/picx-images-hosting/raw/master/%E5%BD%97%E6%98%9F%E8%BD%A8%E8%BF%B9.esnsejhpw.webp">https://github.com/OptimusHimself/picx-images-hosting/raw/master/彗星轨迹.esnsejhpw.webp</a><br>e.g. &lt;img&gt; tag<br>&lt;img src&#x3D;”<a href="https://github.com/OptimusHimself/picx-images-hosting/raw/master/%E5%BD%97%E6%98%9F%E8%BD%A8%E8%BF%B9.esnsejhpw.webp">https://github.com/OptimusHimself/picx-images-hosting/raw/master/彗星轨迹.esnsejhpw.webp</a>“ alt&#x3D;”sorry about that”&gt;</p><blockquote><p>img alt 参数：Specifies an alternate text for an image</p></blockquote>]]></content>
+    <content type="html"><![CDATA[<h1 id="放弃的方案："><a href="#放弃的方案：" class="headerlink" title="放弃的方案："></a>放弃的方案：</h1><h2 id="原生的-hexo-add-on-hexo-asset"><a href="#原生的-hexo-add-on-hexo-asset" class="headerlink" title="原生的 hexo add on: hexo-asset"></a>原生的 hexo add on: hexo-asset</h2><p><code>post_asset_folder: false #true</code></p><ul><li>语法格式恶心，既不是 md 也不是 HTML，自带的一种渲染格式</li><li>尝试多次未成功</li></ul><h1 id="能使用的方案："><a href="#能使用的方案：" class="headerlink" title="能使用的方案："></a>能使用的方案：</h1><h2 id="PicX-GitHub作图床"><a href="#PicX-GitHub作图床" class="headerlink" title="PicX GitHub作图床"></a>PicX GitHub作图床</h2><h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><ul><li>gitbub 有一个叫做 picx 的项目, 是一个网站，你可以往它的官网上传（本机的）图，会自动生成一个链接赋值到剪切板上。</li><li>特点：手动在 blog md file 里放 html img 标签； 支持使用 GitHub 图床（own repo，free）等其他图床</li></ul><h3 id="优缺点"><a href="#优缺点" class="headerlink" title="优缺点"></a>优缺点</h3><ul><li>优点： PicX 自动生成图片 url, 完全免费（薅微软 Github 服务器的羊毛）</li><li>不足：无法在写博客粘贴图片的时候自动生成链接。需要手动写 HTML img 标签。图多了有些麻烦，容易找不到链接。<br>Links：<a href="https://picx.xpoet.cn/#/settings">PicX 在线服务</a>； <a href="https://picx-docs.xpoet.cn/usage-guide/get-start.html">官方使用教程</a>；<a href="https://github.com/XPoet/picx">GitHub 仓库地址</a></li></ul><p>e.g. url generate by pix<br><a href="https://github.com/OptimusHimself/picx-images-hosting/raw/master/%E5%BD%97%E6%98%9F%E8%BD%A8%E8%BF%B9.esnsejhpw.webp">https://github.com/OptimusHimself/picx-images-hosting/raw/master/彗星轨迹.esnsejhpw.webp</a><br>e.g. &lt;img&gt; tag<br>&lt;img src&#x3D;”<a href="https://github.com/OptimusHimself/picx-images-hosting/raw/master/%E5%BD%97%E6%98%9F%E8%BD%A8%E8%BF%B9.esnsejhpw.webp">https://github.com/OptimusHimself/picx-images-hosting/raw/master/彗星轨迹.esnsejhpw.webp</a>“ alt&#x3D;”sorry about that”&gt;</p><blockquote><p>img alt 参数：Specifies an alternate text for an image</p></blockquote><h2 id="外国图床"><a href="#外国图床" class="headerlink" title="外国图床"></a>外国图床</h2><p><a href="https://postimages.org/">postimage</a><br><a href="https://sm.ms/">sm.ms</a> </p>]]></content>
     
     
     <categories>
