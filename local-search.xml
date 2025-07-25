@@ -98,7 +98,7 @@
     <link href="/2025/07/05/uv/"/>
     <url>/2025/07/05/uv/</url>
     
-    <content type="html"><![CDATA[<p>从此，我在linux, windows都用UV管理虚拟环境。 1. 快。 2.目录简洁。 3. 指令简单<br>记录一下，UV可以用scoop安装。</p><p>当前目录创建虚拟环境<br><code>uv venv [venvName]</code>我一般喜欢用<code>.venv</code></p><p>激活虚拟环境<br><code>source .venv/Script/activate</code></p><p>linux是<code>source .venv/bin/activate</code></p><p>在虚拟环境安装依赖xxx<br><code>uv pip install xxx</code></p>]]></content>
+    <content type="html"><![CDATA[<p>从此，我在linux, windows都用UV管理虚拟环境。 1. 快。 2.目录简洁。 3. 指令简单<br>记录一下，UV可以用scoop安装。</p><h1 id="常用case"><a href="#常用case" class="headerlink" title="常用case"></a>常用case</h1><h2 id="自己搭建项目：创venv"><a href="#自己搭建项目：创venv" class="headerlink" title="自己搭建项目：创venv"></a>自己搭建项目：创venv</h2><p>当前目录创建虚拟环境<br><code>uv venv [venvName]</code>我一般喜欢用<code>.venv</code></p><p>激活虚拟环境<br><code>source .venv/Script/activate</code></p><p>linux是<code>source .venv/bin/activate</code></p><p>在虚拟环境安装依赖xxx<br><code>uv pip install xxx</code></p><h2 id="复刻别人的环境"><a href="#复刻别人的环境" class="headerlink" title="复刻别人的环境"></a>复刻别人的环境</h2><p>克隆项目会发现里面有uv.lock文件或者requirements.txt文件<br>虽然也可以通过通用的创venv的方式配环境。但<code>uv sync</code>才是uv的奥义之处。</p><p>使用<code>uv sync</code>的好处：<br>通过<code>uv lock</code>自动帮你匹配适应requirements.txt里头的依赖的python版本。而不是自己瞎蒙一个python版本</p>]]></content>
     
     
     <categories>
