@@ -29,7 +29,7 @@
 <meta property="og:description" content="从此，我在linux, windows都用UV管理虚拟环境。 1. 快。 2.目录简洁。 3. 指令简单记录一下，UV可以用scoop安装。 当前目录创建虚拟环境uv venv [venvName]我一般喜欢用.venv 激活虚拟环境source .venv&#x2F;Script&#x2F;activate linux是source .venv&#x2F;bin&#x2F;activate 在虚拟环境安装依赖xxxuv pip ins">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2025-07-05T04:14:01.000Z">
-<meta property="article:modified_time" content="2025-07-07T07:44:31.834Z">
+<meta property="article:modified_time" content="2025-07-12T23:31:10.457Z">
 <meta property="article:author" content="Tyrone Opting">
 <meta property="article:tag" content="uv">
 <meta name="twitter:card" content="summary_large_image">
@@ -318,7 +318,7 @@
     
       <span class="category-chain">
         
-  <a href="/categories/%E6%8A%80%E6%9C%AF%E6%89%8B%E5%86%8C/" class="category-chain-item">技术手册</a>
+  <a href="/categories/%E5%91%BD%E4%BB%A4%E9%9B%86/" class="category-chain-item">命令集</a>
   
   
 
@@ -458,6 +458,12 @@
 
 
   
+
+
+  
+  
+
+
 
 
 
@@ -650,6 +656,49 @@
 
 
   <script>Fluid.plugins.imageCaption();</script>
+
+  
+      <script>
+        if (!window.MathJax) {
+          window.MathJax = {
+            tex    : {
+              inlineMath: { '[+]': [['$', '$']] }
+            },
+            loader : {
+              load: ['ui/lazy']
+            },
+            options: {
+              renderActions: {
+                insertedScript: [200, () => {
+                  document.querySelectorAll('mjx-container').forEach(node => {
+                    let target = node.parentNode;
+                    if (target.nodeName.toLowerCase() === 'li') {
+                      target.parentNode.classList.add('has-jax');
+                    }
+                  });
+                }, '', false]
+              }
+            }
+          };
+        } else {
+          MathJax.startup.document.state(0);
+          MathJax.texReset();
+          MathJax.typeset();
+          MathJax.typesetPromise();
+        }
+
+        Fluid.events.registerRefreshCallback(function() {
+          if ('MathJax' in window && MathJax.startup.document && typeof MathJax.startup.document.state === 'function') {
+            MathJax.startup.document.state(0);
+            MathJax.texReset();
+            MathJax.typeset();
+            MathJax.typesetPromise();
+          }
+        });
+      </script>
+    
+
+  <script  src="https://lib.baomitu.com/mathjax/3.2.2/es5/tex-mml-chtml.js" ></script>
 
   <script  src="/js/local-search.js" ></script>
 

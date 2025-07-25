@@ -29,7 +29,7 @@
 <meta property="og:description" content="前言 不是给纯小白科普的。如果你不知道github，yt-dlp，可以不看。 废话不多，更像是一个脚本小子的资料库yt-dlp [选项] – URL [URL]  My Setup win11 直接下载了yt-dlp.exe 开了代理（不开也可以） FFmpeg installed  使用场景常用参数总结  好习惯:在任何下载命令前，先用-F -v看看什么情况。   下载路径管理和文件命名  -P">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2025-05-24T14:41:07.000Z">
-<meta property="article:modified_time" content="2025-06-07T05:39:48.842Z">
+<meta property="article:modified_time" content="2025-07-14T16:03:49.790Z">
 <meta property="article:author" content="Tyrone Opting">
 <meta property="article:tag" content="音视频">
 <meta name="twitter:card" content="summary_large_image">
@@ -326,7 +326,8 @@
 <ul>
 <li><code>--yes-playlist</code>：强制下载整个列表，即使 URL 可能指向单个视频（默认行为）。</li>
 <li><code>--extract-audio</code> 只要音频; 不传值</li>
-<li><code>--split-chapters</code></li>
+<li><code>--split-chapters</code> </li>
+<li><code>--download-sections</code> 下载特定章节:<code>--download-sections 37-39</code></li>
 </ul>
 </li>
 <li><p>下载电影配字幕</p>
@@ -366,7 +367,7 @@
 <li><code>-o &quot;%(title)s [%(resolution)s].%(ext)s </code>   加入分辨率<code>%(resolution)s</code></li>
 <li>按up主分类 <code>-o &quot;%(uploader)s/%(title)s.%(ext)s&quot; </code> yt-dlp支持创建不存在的路径。</li>
 </ul>
-<h2 id="print-测试"><a href="#print-测试" class="headerlink" title="print 测试"></a>print 测试</h2><p>支持的字段：<br><code>--print filename</code><br><code>--print chapters</code></p>
+<h2 id="print-测试"><a href="#print-测试" class="headerlink" title="print 测试"></a>print 测试</h2><p>支持的字段：<br><code>--print filename</code><br><code>--print chapters</code><br><code>--flat-chapters</code> 查看有哪些chapter </p>
 <p><code>--list-subs</code> 查看资源支持的字幕格式</p>
 <ul>
 <li>会列出弹幕的语言和文件类型（lang + format）</li>
@@ -376,6 +377,7 @@
 <ul>
 <li><code>-f bestaudio -o &quot;%(title)s.%(ext)s -P ~/Music/xxx&quot; url</code><br>up主抄家方案：</li>
 </ul>
+<h2 id="playlist"><a href="#playlist" class="headerlink" title="playlist"></a>playlist</h2><p>–playlist-items 4-40 选择下载index</p>
 <h3 id="下载一个收藏夹的所有歌曲-视频-—-一次成功！"><a href="#下载一个收藏夹的所有歌曲-视频-—-一次成功！" class="headerlink" title="下载一个收藏夹的所有歌曲&#x2F;视频 — 一次成功！"></a>下载一个收藏夹的所有歌曲&#x2F;视频 — 一次成功！</h3><p><code>.\yt-dlp.exe -P ~/Downloads -N 5 --yes-playlist -i -r 1M --no-overwrites -c --no-part https://www.bilibili.com/list/ml3097786028?oid=46656713&quot;&amp;&quot;bvid=BV1rb411n7wh</code></p>
 <p>list就是收藏夹，<a target="_blank" rel="noopener" href="https://www.bilibili.com/list/ml3097786028?oid=46656713&bvid=BV1rb411n7wh">这</a>是我bi站“我喜欢听”收藏夹的第一首歌—哥哥的当年情。这个收藏夹下歌曲url的特点是list&#x2F;ml….?前缀一致，<code>oid=</code>的值不同。</p>
 <ul>
@@ -476,7 +478,7 @@
   
     <span>></span>
     
-  <a href="/categories/%E6%95%99%E7%A8%8B/%E6%95%B4%E6%B4%BB/" class="category-chain-item">整活</a>
+  <a href="/categories/%E6%95%99%E7%A8%8B/%E5%91%BD%E4%BB%A4%E9%9B%86/" class="category-chain-item">命令集</a>
   
   
 
@@ -618,6 +620,12 @@
 
 
   
+
+
+  
+  
+
+
 
 
 
@@ -810,6 +818,49 @@
 
 
   <script>Fluid.plugins.imageCaption();</script>
+
+  
+      <script>
+        if (!window.MathJax) {
+          window.MathJax = {
+            tex    : {
+              inlineMath: { '[+]': [['$', '$']] }
+            },
+            loader : {
+              load: ['ui/lazy']
+            },
+            options: {
+              renderActions: {
+                insertedScript: [200, () => {
+                  document.querySelectorAll('mjx-container').forEach(node => {
+                    let target = node.parentNode;
+                    if (target.nodeName.toLowerCase() === 'li') {
+                      target.parentNode.classList.add('has-jax');
+                    }
+                  });
+                }, '', false]
+              }
+            }
+          };
+        } else {
+          MathJax.startup.document.state(0);
+          MathJax.texReset();
+          MathJax.typeset();
+          MathJax.typesetPromise();
+        }
+
+        Fluid.events.registerRefreshCallback(function() {
+          if ('MathJax' in window && MathJax.startup.document && typeof MathJax.startup.document.state === 'function') {
+            MathJax.startup.document.state(0);
+            MathJax.texReset();
+            MathJax.typeset();
+            MathJax.typesetPromise();
+          }
+        });
+      </script>
+    
+
+  <script  src="https://lib.baomitu.com/mathjax/3.2.2/es5/tex-mml-chtml.js" ></script>
 
   <script  src="/js/local-search.js" ></script>
 

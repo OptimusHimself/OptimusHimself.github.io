@@ -1,6 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>ADB教程</title>
+    <url>/2025/07/07/ADB%E6%95%99%E7%A8%8B/</url>
+    <content><![CDATA[<h1 id="常用功能"><a href="#常用功能" class="headerlink" title="常用功能"></a>常用功能</h1><h2 id="刷机领域"><a href="#刷机领域" class="headerlink" title="刷机领域"></a>刷机领域</h2><ul>
+<li>进入fastboot mode</li>
+</ul>
+<h2 id="玩机领域"><a href="#玩机领域" class="headerlink" title="玩机领域"></a>玩机领域</h2>]]></content>
+      <categories>
+        <category>命令集</category>
+      </categories>
+      <tags>
+        <tag>ADB</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>AI时代的思考（1）-- 思维和讨论</title>
+    <url>/2025/04/11/AI%E6%97%B6%E4%BB%A3%E7%9A%84%E6%80%9D%E8%80%83%EF%BC%881%EF%BC%89-%E6%80%9D%E7%BB%B4%E5%92%8C%E8%AE%A8%E8%AE%BA/</url>
+    <content><![CDATA[<p>和朋友聊一个经济学问题——为什么美国可以持续向外输出美元，维持巨大的财政赤字。而中国不可以。其实，我期待能和他一步步挖出财政支出和资本收入等核心概念。但聊着聊着，他就回应：“我也是三脚猫功夫，你问问ChatGPT呗”。类似的对话和其他朋友也有过。<br>　　“ChatGPT, DeepSeek”这些大语言模型成为了人们日常聊天的主角。 你问了DeepSeek吗？<br>　　似乎这些LLM是知识的象征，他们的观点都是对的。 的确，通过优质的网页内容、大量的科学数据训练出的LLM不论是表达能力还是专业性、实战性都吊打大部分本科生。<br>　　但是这和聊天有什么关系？我和你聊天的目的是为了得到一个正确的答案吗？我想要的只不过是你的理解，你的解释。<br>　　基于我和你的交情、来来往往的招呼和交流，我可以很轻松地接受你的语言风格——我们曾经一起开车旅行，畅聊中我知道你是一个说话不清不楚大大咧咧的人。基于我对你的认知能力的了解，我很容易接受你对问题的表述——你平常用词就是这个风格，你的知识储备就是说这样的话。<br>　　但是，这些感觉在我和DeepSeek, 豆包这样的“Knowledge Cluster”对话则没有。<br>　　我联想不到我们曾经一起做过的事儿，AI传递给我的message也只不过是那一段干巴巴的文字。的确，我可以让他说得生动，讲得比老师还要好。我也可以很轻松地得到正确答案。但是，这只是短暂的捡起一个不属于你的理解。<br>　　我已经习惯了在课堂上学习知识，习惯了通过和朋友不断探讨得到智慧的果实。我认为，两个人，在对问题的理解从不清晰的状态，经过交流合作、通过传统的查资料和DIY一些小实验来验证自己的想法，最终得出合理自洽的结论结合自己的表述系统科学地解释问题（哪怕和真实情况有出入）——这才是学习本该有的过程。<br>　　AI的确很强大，提升了我们的效率。但思维的产生和锻炼需要时间、需要磨练和沉淀。我们不能因为AI工具越来越“好使”，就丢弃了最开始交流讨论、独立思考的能力。<br>　　未来的人类文明必将到达新高度。我希望那是一个有思维活力的文明，而不是被AI禁锢、思维陈腐、缺乏创意、懒惰的文明。</p>
+]]></content>
+      <categories>
+        <category>生活感悟</category>
+      </categories>
+      <tags>
+        <tag>日记</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Linux Journey</title>
     <url>/2025/04/23/Linux-Journey/</url>
     <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>我第一次接触Linux，我和Linux的故事：从装系统、做项目、无数次“入坑”又“弃坑”。最终又成功登上正轨的学习感悟。 总结了优质的学习资源以及使用方法，更重要的：新手应该避开哪些问题。<br>如果你赶时间，直接看TakeAway。给出了一套简洁、无门槛的学习指南<br>不包含：装系统的细节</p>
@@ -50,18 +76,6 @@
       <tags>
         <tag>Programming</tag>
         <tag>C++</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>AI时代的思考（1）-- 思维和讨论</title>
-    <url>/2025/04/11/AI%E6%97%B6%E4%BB%A3%E7%9A%84%E6%80%9D%E8%80%83%EF%BC%881%EF%BC%89-%E6%80%9D%E7%BB%B4%E5%92%8C%E8%AE%A8%E8%AE%BA/</url>
-    <content><![CDATA[<p>和朋友聊一个经济学问题——为什么美国可以持续向外输出美元，维持巨大的财政赤字。而中国不可以。其实，我期待能和他一步步挖出财政支出和资本收入等核心概念。但聊着聊着，他就回应：“我也是三脚猫功夫，你问问ChatGPT呗”。类似的对话和其他朋友也有过。<br>　　“ChatGPT, DeepSeek”这些大语言模型成为了人们日常聊天的主角。 你问了DeepSeek吗？<br>　　似乎这些LLM是知识的象征，他们的观点都是对的。 的确，通过优质的网页内容、大量的科学数据训练出的LLM不论是表达能力还是专业性、实战性都吊打大部分本科生。<br>　　但是这和聊天有什么关系？我和你聊天的目的是为了得到一个正确的答案吗？我想要的只不过是你的理解，你的解释。<br>　　基于我和你的交情、来来往往的招呼和交流，我可以很轻松地接受你的语言风格——我们曾经一起开车旅行，畅聊中我知道你是一个说话不清不楚大大咧咧的人。基于我对你的认知能力的了解，我很容易接受你对问题的表述——你平常用词就是这个风格，你的知识储备就是说这样的话。<br>　　但是，这些感觉在我和DeepSeek, 豆包这样的“Knowledge Cluster”对话则没有。<br>　　我联想不到我们曾经一起做过的事儿，AI传递给我的message也只不过是那一段干巴巴的文字。的确，我可以让他说得生动，讲得比老师还要好。我也可以很轻松地得到正确答案。但是，这只是短暂的捡起一个不属于你的理解。<br>　　我已经习惯了在课堂上学习知识，习惯了通过和朋友不断探讨得到智慧的果实。我认为，两个人，在对问题的理解从不清晰的状态，经过交流合作、通过传统的查资料和DIY一些小实验来验证自己的想法，最终得出合理自洽的结论结合自己的表述系统科学地解释问题（哪怕和真实情况有出入）——这才是学习本该有的过程。<br>　　AI的确很强大，提升了我们的效率。但思维的产生和锻炼需要时间、需要磨练和沉淀。我们不能因为AI工具越来越“好使”，就丢弃了最开始交流讨论、独立思考的能力。<br>　　未来的人类文明必将到达新高度。我希望那是一个有思维活力的文明，而不是被AI禁锢、思维陈腐、缺乏创意、懒惰的文明。</p>
-]]></content>
-      <categories>
-        <category>生活感悟</category>
-      </categories>
-      <tags>
-        <tag>日记</tag>
       </tags>
   </entry>
   <entry>
@@ -126,17 +140,99 @@
       </tags>
   </entry>
   <entry>
-    <title>不一样的Git教程 —— GIT基础设置</title>
-    <url>/2025/04/19/gitconcepts/</url>
-    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>本文希望科普git的重要概念以更好地帮助你使用git。 看完本篇内容（git基础）你将方便地用git完成个人项目，但想管理团队，还需要更多的知识</p>
-<p>重点： 明白四个stage的概念。明白push, pull, commit, pull request的中文含义<br>非重点： 记指令的语法（因为github desktop完美替代了初学者所需的操作）</p>
-<h2 id="grocery"><a href="#grocery" class="headerlink" title="grocery"></a>grocery</h2>]]></content>
+    <title>ffmpeg常用命令</title>
+    <url>/2025/07/04/ffmpeg%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
+    <content><![CDATA[<ol>
+<li><p>简单的剪辑，一刀切</p>
+</li>
+<li><p>插入英文字幕</p>
+</li>
+<li><p>为视频、音频文件插入thumbnail（封面）</p>
+</li>
+<li><p>合并音视频文件</p>
+</li>
+<li><p>剪辑<br>ffmpeg -i inputfile.mp4 -c copy -t xx:xx:xx -o outputname.mp4</p>
+</li>
+</ol>
+<p>常用参数：<br>-t 00:01:30：保留从开头到 1 分 30 秒的内容（按你的需求调整时间）<br>-c copy：直接复制流，无需重新编码（速度极快，质量无损）<br>-i 指定输入文件<br>-o output 指定输出文件</p>
+]]></content>
+      <categories>
+        <category>技术手册</category>
+      </categories>
+      <tags>
+        <tag>ffmpeg</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>花书Dive into Deep Learning 入门</title>
+    <url>/2025/01/15/d2l/</url>
+    <content><![CDATA[<h1 id="花书牛在哪？"><a href="#花书牛在哪？" class="headerlink" title="花书牛在哪？"></a>花书牛在哪？</h1><ol>
+<li>大佬写的。名声在，质量就会有保障。</li>
+<li>有代码，有理论, 有例子。你怕学不会？</li>
+<li>开源、配备读者论坛。时刻更新代码。遇到问题很容易在论坛里找到学长们的回答。</li>
+<li>感恩：还配备了文字版的PDF，“Acrobat阅读者”们有福了！就冲着把事情做好的情怀、用那么大心血，这本书一定不会差。</li>
+</ol>
+<h1 id="我们的学习目标？有哪些很酷的事情？（TBC"><a href="#我们的学习目标？有哪些很酷的事情？（TBC" class="headerlink" title="我们的学习目标？有哪些很酷的事情？（TBC"></a>我们的学习目标？有哪些很酷的事情？（TBC</h1><p>&nbsp;</p>
+<p>&nbsp;</p>
+<h1 id="FAQ：第一步，对于一个刚用conda-pip-不熟悉shell指令，不懂网络的零基础零经验小白来说往往是最难的："><a href="#FAQ：第一步，对于一个刚用conda-pip-不熟悉shell指令，不懂网络的零基础零经验小白来说往往是最难的：" class="headerlink" title="FAQ：第一步，对于一个刚用conda, pip, 不熟悉shell指令，不懂网络的零基础零经验小白来说往往是最难的："></a>FAQ：第一步，对于一个刚用conda, pip, 不熟悉shell指令，不懂网络的零基础零经验小白来说往往是最难的：</h1><h2 id="一、先插一嘴，关于下载书本配套的完整代码："><a href="#一、先插一嘴，关于下载书本配套的完整代码：" class="headerlink" title="一、先插一嘴，关于下载书本配套的完整代码："></a>一、先插一嘴，关于下载书本配套的完整代码：</h2><p>虽然online docs上有代码，书上也有代码。但是不一定全。作者给了你一个压缩包，里面是完整的程序，每一章的代码都用.ipynb保存，放入每一章的文件夹。</p>
+<h2 id="二、快来搭建学习环境！！！其实就三步"><a href="#二、快来搭建学习环境！！！其实就三步" class="headerlink" title="二、快来搭建学习环境！！！其实就三步"></a>二、快来搭建学习环境！！！其实就三步</h2><h3 id="第一步，创建并激活环境，使用python-3-9："><a href="#第一步，创建并激活环境，使用python-3-9：" class="headerlink" title="第一步，创建并激活环境，使用python&#x3D;3.9："></a>第一步，创建并激活环境，使用python&#x3D;3.9：</h3><p><code>conda create --name d2l python=3.9</code> 然后输入yes，确认下载、安装。</p>
+<h3 id="第二步：安装d2l依赖：torch-torchvision："><a href="#第二步：安装d2l依赖：torch-torchvision：" class="headerlink" title="第二步：安装d2l依赖：torch torchvision："></a>第二步：安装d2l依赖：torch torchvision：</h3><p><code>pip install torch==1.12.0</code></p>
+<p><code>pip install torchvision==0.13.0</code></p>
+<ul>
+<li>建议：torch torchvision 版本和书上的一样，copy过来就行。pip conda都可以。没必要上官网找指令。不然版本不一致容易出问题。</li>
+</ul>
+<h3 id="第三步：安装d2l包-。（也是pip指令搞定"><a href="#第三步：安装d2l包-。（也是pip指令搞定" class="headerlink" title="第三步：安装d2l包 。（也是pip指令搞定"></a>第三步：安装d2l包 。（也是pip指令搞定</h3><ul>
+<li>前置知识：</li>
+</ul>
+<ol>
+<li>在激活的conda使用pip和conda无区别</li>
+<li>执行“安装torch torchvision指令” 会看机器有没有GPU，然后安装对应版本。 所以，没必要管gpu cpu，版本代数选对了就行。</li>
+</ol>
+<ul>
+<li>中肯的建议：头脑清晰，刚入门别给自己太多要求。</li>
+</ul>
+<ol>
+<li>如果哪一步觉得不对，删掉环境重来吧。<code>conda env remove &quot;your_env_name&quot;</code></li>
+<li>如果网不好。今天就别弄了。先看看怎么<a href="https://blog.csdn.net/m0_61634551/article/details/130867867">配网络代离</a>。或者config其他的镜像源。&#x2F;&#x2F;去百度搜一下</li>
+<li>不需要知道什么是torch  torchvision. 没关系！别管他们。先按部就班，照着书上的说明能跑通安装环境的指令就很牛逼了。</li>
+<li>如果你已经有其他的环境，而且里面带了torch，别管它。重新装一个吧，大不到哪去，初学者别考虑电脑空间。</li>
+</ol>
+<h2 id="第一次，跨过配置环境这座山。然后干很多酷酷的事情："><a href="#第一次，跨过配置环境这座山。然后干很多酷酷的事情：" class="headerlink" title="第一次，跨过配置环境这座山。然后干很多酷酷的事情："></a>第一次，跨过配置环境这座山。然后干很多酷酷的事情：</h2><ul>
+<li>运行d2l notebook里面的所有代码。就是之前从d2l docs HTML Jupyter那一栏下载的zip代码包。</li>
+<li>用jupyter notebook,搭载自己先前配好的d2l无敌环境学习Deep Learning!!!</li>
+</ul>
+<p> </p>
+<h3 id="举一反三，很多想做的事情都知道怎么开始了："><a href="#举一反三，很多想做的事情都知道怎么开始了：" class="headerlink" title="举一反三，很多想做的事情都知道怎么开始了："></a>举一反三，很多想做的事情都知道怎么开始了：</h3><p>创建新的Data Science Conda环境 <code>conda create --name your_env_name python=3.x</code>。</p>
+<p>激活（activate）<del>刚创建好的</del> 包含了ipykernel python生态环境模块的conda环境(我的是d2l)，用Pip （or conda）指令，安装你需要的模块。配置完环境后，然后把它添加到Jupyter Notebook的ipython core里，这样你才能在jupyter notebook使用python (virtual) 环境: </p>
+<p><code>python -m ipykernel install --user --name [jupyter_internal_directory_name] --display-name=&quot;Python (nameDisplayedInJuypterNotebook)&quot;</code><br>最后，用jupyter notebook开始你的Data Science Module、理论、Everything in this topic的学习之路！</p>
+<ul>
+<li><p>–name 显示在appdata&#x2F;roaming&#x2F;jupyter&#x2F;[name]  并不会根据你输入的名字在conda里面找对应的！！！（想起自己以前认认真真输入一模一样的名字，真的好可爱。 后来在json里看到argument里面的路径，全是d2l，display_name倒是自己设置的。</p>
+</li>
+<li><p>–display-name: 在juypter notebook平台上显示。</p>
+</li>
+</ul>
+<ul>
+<li>注：调用ipykernel是给jupyter创建一个指向conda环境的指针。如果conda环境改变，相应的jupyter Notebook中的环境也会改变。这方便了很多。</li>
+<li>ipykernel的功能：你想要哪一个环境在jupyter使用，就在该python环境安装ipykernel</li>
+<li>TODO: 更改jupyter显示的环境名， 删除jupyter环境</li>
+</ul>
+<h1 id="建议给系统python环境装上jupyter模块"><a href="#建议给系统python环境装上jupyter模块" class="headerlink" title="建议给系统python环境装上jupyter模块"></a>建议给系统python环境装上jupyter模块</h1><ul>
+<li><code>pip install --upgrade pip setuptools</code></li>
+<li><code>pip install jupyter</code><br>这样就可以在系统python环境管理jupyter环境了</li>
+</ul>
+]]></content>
       <categories>
         <category>教程</category>
       </categories>
       <tags>
-        <tag>GIT</tag>
+        <tag>AI</tag>
       </tags>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/2025/07/19/how-to-type-formula/</url>
+    <content><![CDATA[<p>$$<br>\sum_{i&#x3D;1}^{n}(X_i - \bar{X})^2 &#x3D; \sum_{i&#x3D;1}^{n}(X_i - \mu)^2 - n(\bar{X} - \mu)^2<br>$$</p>
+]]></content>
   </entry>
   <entry>
     <title>二进制</title>
@@ -157,6 +253,61 @@
       </categories>
       <tags>
         <tag>二进制</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>jyy课堂笔记</title>
+    <url>/2025/06/30/jyy%E8%AF%BE%E5%A0%82%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<p>jyy的课件做得很好。但是听jyy的课我从不看标题。 只听他的内容，因为他懂的太多了，即便有标题，他也时常即兴起来拓展了很多偏离标题但是启发我的内容。</p>
+<p>听jyy的课不止能获取新知识、听到高效的学习方法。 他的课堂有一种长者的关怀，我从中吸收正能量。原本对很多事情感到不自信、畏惧开始。在补充完正能量后，又对计算机知识充满热情。我想，即便我本科毕业后、从事研究生、博士生的研究工作，遇到瓶颈时也可以拿出他最新的视频看一看、学一学。</p>
+<p>第一节课jyy用大量的例子鼓励我们使用AI，尤其是在学习他的OS课程中。谈到Academic Integrity他还说了一个不一样的观点：我们可以在遇到问题时使用AI。 但你不能把整个问题丢给他。这门课的Policy是让学生学到技能。当你意识到这一点，监督自己使用AI的方式，你就做到了“学术诚信”。 ————我醒悟到曾经用偷懒，把全部问题丢给AI快速取得分数的愚蠢。我不仅没有学到这门课的知识，也浪费了探索AI prompt的机会。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>git常用命令</title>
+    <url>/2025/07/05/git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>不一样的Git教程 —— GIT基础设置</title>
+    <url>/2025/04/19/gitconcepts/</url>
+    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>本文希望科普git的重要概念以更好地帮助你使用git。 看完本篇内容（git基础）你将方便地用git完成个人项目，但想管理团队，还需要更多的知识</p>
+<p>重点： 明白四个stage的概念。明白push, pull, commit, pull request的中文含义<br>非重点： 记指令的语法（因为github desktop完美替代了初学者所需的操作）</p>
+<h2 id="grocery"><a href="#grocery" class="headerlink" title="grocery"></a>grocery</h2>]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>GIT</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>ssh入门</title>
+    <url>/2025/04/29/ssh%E5%85%A5%E9%97%A8/</url>
+    <content><![CDATA[<h1 id="take-away-knowledge-concept"><a href="#take-away-knowledge-concept" class="headerlink" title="take away knowledge &amp; concept"></a>take away knowledge &amp; concept</h1><p>对于private repo, 即便是clone,也需要ssh</p>
+<p>ssh-keygen命令生成的<strong>两份文件</strong>：私钥和公钥（.pub）。你要把public key交给github</p>
+<p>每一次 clone &#x2F; push的Authentification过程：<br>github服务器给你的机器发公钥。 你的机器上<code>～/.ssh/</code>路径下存了唯一的私钥与之对应。即完成身份验证。</p>
+<h2 id="glossary"><a href="#glossary" class="headerlink" title="glossary"></a>glossary</h2><p>SSH： secure shell protocal</p>
+<h1 id="github场景-S1：增添新密码"><a href="#github场景-S1：增添新密码" class="headerlink" title="github场景-S1：增添新密码"></a>github场景-S1：增添新密码</h1><ul>
+<li>当你的项目团队有多个成员，你作为项目的owner，需要为你的团队成员设置SSH，这样他们才能在他们的电脑上更新项目（clone, push）</li>
+<li>还有一个情况，你有多台工作本，你需要为每一台机器上添加SSH，并在个人g-hub账户添加public key</li>
+</ul>
+<h2 id="background-and-task"><a href="#background-and-task" class="headerlink" title="background and task:"></a>background and task:</h2><p>linux + Windows 共同运营hexo blog. Add _post to repo, clone on git</p>
+<h2 id="过程记录（）"><a href="#过程记录（）" class="headerlink" title="过程记录（）"></a>过程记录（）</h2><ol>
+<li>最开始用https协议下载private repo代码失败。遂该用ssh。<code>git clone git@github.com:Optimushimeself/blogsource.git</code>自然报错。因为还没在我的github账号中配置本机的SSH。</li>
+<li>ssh-keygen <code>tyrone@Matrix:~/.ssh$ ssh-keygen -t [加密算法] -f [sshfileName]</code> t: type. github使用<code>ed25519</code>。 passphrase口令为空。自然也没关<code>ssh-agent</code>之类的“高级功能”。</li>
+<li>ssh-keygen得到两个文件，.pub后缀是公钥，扔到<code>github-&gt;setting-&gt;SSH&amp;GPG Keys</code></li>
+<li>（不知道是否靠谱）遇到一些代理问题，调成了全局代理，创建<code>~/.ssh/config</code>。重新运行<code>git clone git@github.com:OptimusHimself/blogsource.git</code>，中途谈了一个是否信任（老熟人了），无脑yes，最后成功克隆项目。</li>
+</ol>
+<h2 id="问题-故障记录"><a href="#问题-故障记录" class="headerlink" title="问题&#x2F;故障记录"></a>问题&#x2F;故障记录</h2><figure class="highlight livecodeserver"><table><tr><td class="code"><pre><code class="hljs livecodeserver">\\ 网络问题？<br>Cloning <span class="hljs-keyword">into</span> <span class="hljs-string">&#x27;blogsource&#x27;</span>...<br>kex_exchange_identification: <span class="hljs-built_in">read</span>: Connection reset <span class="hljs-keyword">by</span> peer<br>Connection reset <span class="hljs-keyword">by</span> <span class="hljs-number">20.205</span><span class="hljs-number">.243</span><span class="hljs-number">.166</span> port <span class="hljs-number">22</span><br>fatal: Could <span class="hljs-keyword">not</span> <span class="hljs-built_in">read</span> <span class="hljs-built_in">from</span> remote repository.<br><br>Please make sure you have <span class="hljs-keyword">the</span> correct access rights<br><span class="hljs-keyword">and</span> <span class="hljs-keyword">the</span> repository exists.<br></code></pre></td></tr></table></figure>
+
+<h1 id="github场景-S2：原来的私钥丢失or忘记passphrase"><a href="#github场景-S2：原来的私钥丢失or忘记passphrase" class="headerlink" title="github场景-S2：原来的私钥丢失or忘记passphrase()"></a>github场景-S2：原来的私钥丢失or忘记passphrase()</h1><p>这就是我为什么建议小白们最开始学习没必要设置passphrase,因为你会忘掉。 不过，只要能记得自己github账号的密码，问题都不大～<br>打开github网站，<code>github-&gt;setting-&gt;SSH&amp;GPG Keys</code>删掉你之前创建的钥匙，重新走一遍 <strong>github场景-S1</strong></p>
+<h1 id="使用ssh登陆服务器：传文件，训练模型…"><a href="#使用ssh登陆服务器：传文件，训练模型…" class="headerlink" title="使用ssh登陆服务器：传文件，训练模型…."></a>使用ssh登陆服务器：传文件，训练模型….</h1>]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>SSH</tag>
       </tags>
   </entry>
   <entry>
@@ -249,69 +400,131 @@
       </tags>
   </entry>
   <entry>
-    <title>花书Dive into Deep Learning 入门</title>
-    <url>/2025/01/15/d2l/</url>
-    <content><![CDATA[<h1 id="花书牛在哪？"><a href="#花书牛在哪？" class="headerlink" title="花书牛在哪？"></a>花书牛在哪？</h1><ol>
-<li>大佬写的。名声在，质量就会有保障。</li>
-<li>有代码，有理论, 有例子。你怕学不会？</li>
-<li>开源、配备读者论坛。时刻更新代码。遇到问题很容易在论坛里找到学长们的回答。</li>
-<li>感恩：还配备了文字版的PDF，“Acrobat阅读者”们有福了！就冲着把事情做好的情怀、用那么大心血，这本书一定不会差。</li>
-</ol>
-<h1 id="我们的学习目标？有哪些很酷的事情？（TBC"><a href="#我们的学习目标？有哪些很酷的事情？（TBC" class="headerlink" title="我们的学习目标？有哪些很酷的事情？（TBC"></a>我们的学习目标？有哪些很酷的事情？（TBC</h1><p>&nbsp;</p>
-<p>&nbsp;</p>
-<h1 id="FAQ：第一步，对于一个刚用conda-pip-不熟悉shell指令，不懂网络的零基础零经验小白来说往往是最难的："><a href="#FAQ：第一步，对于一个刚用conda-pip-不熟悉shell指令，不懂网络的零基础零经验小白来说往往是最难的：" class="headerlink" title="FAQ：第一步，对于一个刚用conda, pip, 不熟悉shell指令，不懂网络的零基础零经验小白来说往往是最难的："></a>FAQ：第一步，对于一个刚用conda, pip, 不熟悉shell指令，不懂网络的零基础零经验小白来说往往是最难的：</h1><h2 id="一、先插一嘴，关于下载书本配套的完整代码："><a href="#一、先插一嘴，关于下载书本配套的完整代码：" class="headerlink" title="一、先插一嘴，关于下载书本配套的完整代码："></a>一、先插一嘴，关于下载书本配套的完整代码：</h2><p>虽然online docs上有代码，书上也有代码。但是不一定全。作者给了你一个压缩包，里面是完整的程序，每一章的代码都用.ipynb保存，放入每一章的文件夹。</p>
-<h2 id="二、快来搭建学习环境！！！其实就三步"><a href="#二、快来搭建学习环境！！！其实就三步" class="headerlink" title="二、快来搭建学习环境！！！其实就三步"></a>二、快来搭建学习环境！！！其实就三步</h2><h3 id="第一步，创建并激活环境，使用python-3-9："><a href="#第一步，创建并激活环境，使用python-3-9：" class="headerlink" title="第一步，创建并激活环境，使用python&#x3D;3.9："></a>第一步，创建并激活环境，使用python&#x3D;3.9：</h3><p><code>conda create --name d2l python=3.9</code> 然后输入yes，确认下载、安装。</p>
-<h3 id="第二步：安装d2l依赖：torch-torchvision："><a href="#第二步：安装d2l依赖：torch-torchvision：" class="headerlink" title="第二步：安装d2l依赖：torch torchvision："></a>第二步：安装d2l依赖：torch torchvision：</h3><p><code>pip install torch==1.12.0</code></p>
-<p><code>pip install torchvision==0.13.0</code></p>
-<ul>
-<li>建议：torch torchvision 版本和书上的一样，copy过来就行。pip conda都可以。没必要上官网找指令。不然版本不一致容易出问题。</li>
-</ul>
-<h3 id="第三步：安装d2l包-。（也是pip指令搞定"><a href="#第三步：安装d2l包-。（也是pip指令搞定" class="headerlink" title="第三步：安装d2l包 。（也是pip指令搞定"></a>第三步：安装d2l包 。（也是pip指令搞定</h3><ul>
-<li>前置知识：</li>
-</ul>
-<ol>
-<li>在激活的conda使用pip和conda无区别</li>
-<li>执行“安装torch torchvision指令” 会看机器有没有GPU，然后安装对应版本。 所以，没必要管gpu cpu，版本代数选对了就行。</li>
-</ol>
-<ul>
-<li>中肯的建议：头脑清晰，刚入门别给自己太多要求。</li>
-</ul>
-<ol>
-<li>如果哪一步觉得不对，删掉环境重来吧。<code>conda env remove &quot;your_env_name&quot;</code></li>
-<li>如果网不好。今天就别弄了。先看看怎么<a href="https://blog.csdn.net/m0_61634551/article/details/130867867">配网络代离</a>。或者config其他的镜像源。&#x2F;&#x2F;去百度搜一下</li>
-<li>不需要知道什么是torch  torchvision. 没关系！别管他们。先按部就班，照着书上的说明能跑通安装环境的指令就很牛逼了。</li>
-<li>如果你已经有其他的环境，而且里面带了torch，别管它。重新装一个吧，大不到哪去，初学者别考虑电脑空间。</li>
-</ol>
-<h2 id="第一次，跨过配置环境这座山。然后干很多酷酷的事情："><a href="#第一次，跨过配置环境这座山。然后干很多酷酷的事情：" class="headerlink" title="第一次，跨过配置环境这座山。然后干很多酷酷的事情："></a>第一次，跨过配置环境这座山。然后干很多酷酷的事情：</h2><ul>
-<li>运行d2l notebook里面的所有代码。就是之前从d2l docs HTML Jupyter那一栏下载的zip代码包。</li>
-<li>用jupyter notebook,搭载自己先前配好的d2l无敌环境学习Deep Learning!!!</li>
-</ul>
-<p> </p>
-<h3 id="举一反三，很多想做的事情都知道怎么开始了："><a href="#举一反三，很多想做的事情都知道怎么开始了：" class="headerlink" title="举一反三，很多想做的事情都知道怎么开始了："></a>举一反三，很多想做的事情都知道怎么开始了：</h3><p>创建新的Data Science Conda环境 <code>conda create --name your_env_name python=3.x</code>。</p>
-<p>激活（activate）<del>刚创建好的</del> 包含了ipykernel python生态环境模块的conda环境(我的是d2l)，用Pip （or conda）指令，安装你需要的模块。配置完环境后，然后把它添加到Jupyter Notebook的ipython core里，这样你才能在jupyter notebook使用python (virtual) 环境: </p>
-<p><code>python -m ipykernel install --user --name [jupyter_internal_directory_name] --display-name=&quot;Python (nameDisplayedInJuypterNotebook)&quot;</code><br>最后，用jupyter notebook开始你的Data Science Module、理论、Everything in this topic的学习之路！</p>
-<ul>
-<li><p>–name 显示在appdata&#x2F;roaming&#x2F;jupyter&#x2F;[name]  并不会根据你输入的名字在conda里面找对应的！！！（想起自己以前认认真真输入一模一样的名字，真的好可爱。 后来在json里看到argument里面的路径，全是d2l，display_name倒是自己设置的。</p>
-</li>
-<li><p>–display-name: 在juypter notebook平台上显示。</p>
-</li>
-</ul>
-<ul>
-<li>注：调用ipykernel是给jupyter创建一个指向conda环境的指针。如果conda环境改变，相应的jupyter Notebook中的环境也会改变。这方便了很多。</li>
-<li>ipykernel的功能：你想要哪一个环境在jupyter使用，就在该python环境安装ipykernel</li>
-<li>TODO: 更改jupyter显示的环境名， 删除jupyter环境</li>
-</ul>
-<h1 id="建议给系统python环境装上jupyter模块"><a href="#建议给系统python环境装上jupyter模块" class="headerlink" title="建议给系统python环境装上jupyter模块"></a>建议给系统python环境装上jupyter模块</h1><ul>
-<li><code>pip install --upgrade pip setuptools</code></li>
-<li><code>pip install jupyter</code><br>这样就可以在系统python环境管理jupyter环境了</li>
-</ul>
+    <title>uv常用命令</title>
+    <url>/2025/07/05/uv/</url>
+    <content><![CDATA[<p>从此，我在linux, windows都用UV管理虚拟环境。 1. 快。 2.目录简洁。 3. 指令简单<br>记录一下，UV可以用scoop安装。</p>
+<p>当前目录创建虚拟环境<br><code>uv venv [venvName]</code>我一般喜欢用<code>.venv</code></p>
+<p>激活虚拟环境<br><code>source .venv/Script/activate</code></p>
+<p>linux是<code>source .venv/bin/activate</code></p>
+<p>在虚拟环境安装依赖xxx<br><code>uv pip install xxx</code></p>
 ]]></content>
       <categories>
-        <category>教程</category>
+        <category>命令集</category>
       </categories>
       <tags>
-        <tag>AI</tag>
+        <tag>uv</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>unzip命令</title>
+    <url>/2025/07/04/unzip%E5%91%BD%E4%BB%A4/</url>
+    <content><![CDATA[<h1 id="Windows-powershell"><a href="#Windows-powershell" class="headerlink" title="Windows - powershell"></a>Windows - powershell</h1><p>Expand-Archieve</p>
+<ul>
+<li>Destination-Path</li>
+</ul>
+<h1 id="Linux-Bash"><a href="#Linux-Bash" class="headerlink" title="Linux - Bash"></a>Linux - Bash</h1><h2 id="tar"><a href="#tar" class="headerlink" title="tar"></a>tar</h2>]]></content>
+      <categories>
+        <category>命令集</category>
+      </categories>
+      <tags>
+        <tag>archieve</tag>
+        <tag>files</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>保研心得</title>
+    <url>/2025/07/01/%E4%BF%9D%E7%A0%94%E5%BF%83%E5%BE%97/</url>
+    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>其实这篇文章里的很多内容不适合公开。 因为说话是要负责任的嘛。</p>
+<p>想通过这篇文章回答很多曾经的焦虑，对比自己的成长。</p>
+<h1 id="回忆录"><a href="#回忆录" class="headerlink" title="回忆录"></a>回忆录</h1><h2 id="惊艳我的团队-实验室"><a href="#惊艳我的团队-实验室" class="headerlink" title="惊艳我的团队&#x2F;实验室"></a>惊艳我的团队&#x2F;实验室</h2><p>UESTC mobile<br>BNU AI阵容很强，很多海归<br>SYSU AI阵容很强<br>XJTU<br>西北工大</p>
+<h2 id="痛点"><a href="#痛点" class="headerlink" title="痛点"></a>痛点</h2><p>没有提前联系导师。申请BNU的AI需要在志愿中指明导师。显然，这需要你和教授提前联系。不然成功率很低。 我在报名截至的前一天还没有和导师邮件联系。</p>
+<p>（中山CS）直博要两封专家推荐信。 副教授以上而且要计算机相关学科。高数老师还不行。临时准备很难受的。</p>
+<h1 id="感慨"><a href="#感慨" class="headerlink" title="感慨"></a>感慨</h1><h2 id="文书"><a href="#文书" class="headerlink" title="文书"></a>文书</h2><p>从一开始我就对自己很不抱自信。看了绿裙里的一些帖子，觉得自己不会被xxx…xxx…xxx接收。准备也是徒劳。<br>慢慢的看了师资介绍里的专家们，燃起了读研的冲动。又认真地准备材料<br>其实，保研夏令营就是一种磨砺。 这是一个很宝贵的锻炼机会。 端平心态，认真准备每一个投递。</p>
+<h2 id="选专业"><a href="#选专业" class="headerlink" title="选专业"></a>选专业</h2><p>一开始有很多方向可以报。 到后来隐约觉得“摇摆不定”不好。 到最后：有书读就行，只要能做，就有意义。  </p>
+<p>我想很多同学和我一样，热爱技术，但在本科并没有在某一个方向取得特别突出的成绩或者某个方向了解得尤为深入。 大部分本科生无法对一个领域的研究现状有全面的认识。 所以，会有“啥都能报，啥都能做”的感觉。 我认为这才是正常本科生应该有的状态。说实话，绝大多数学校（双非、211）在本科并不会让学生花太多时间研究一个课题，就算有也是在大四毕设阶段。 大一到大三主要还是学知识、通识教育。 如果在大一到大三这三年没进入课题组搞科研，很难肯定自己的科研水平如何。</p>
+<p>所以，结论是：不必太纠结于方向。 如果你觉得某个方向符合你的口味，就报。<br>以下是我和白耀辉教授交流的总结：</p>
+<ul>
+<li>不只有热门专业（大部分老师在研究的、经常出现的关键词）具有研究价值。很多时候你认为没有价值、很抽象的keyword, field。只是因为你没有做进去，你不了解。 而那些你以为你会感兴趣的，当你从事相关研究的时候，你发现他其实很枯燥。 甚至非常卷，因为专业壁垒低，谁都能快速入门。<ul>
+<li>拿CV方向为例。</li>
+</ul>
+</li>
+<li>不只有热门专业好找工作。 一个方向你做得好，照样会有大厂的xxx实验室重金聘请你。前提是你研究成果很多。</li>
+<li>去一个好学校有助于你找工作。 <ul>
+<li>实际上，在一个双非学校不代表没有前途。在保研、逛学校的过程中，我看到了很多用心“经营”夏令营的学校。 我还看到很多双非院校，请到了很优秀的老师，发表了很多有价值的成果。 虽然大多数好学生不一定会选择双非学校读研。但我认为，人才是可以培养的：当你有一个不放弃你的好导师加上学院提供的经济支持。 双非也能出高手。 之后再用点老师的人脉，照样可以去很优秀的企业。 还是那句话：你在研究生干出的成果，和你学校的title同等重要。</li>
+</ul>
+</li>
+</ul>
+<p>当然，也有部分同学有梦想的职业，于是读研也往同一个方向投。比如我的好朋友就希望以后从事游戏设计，读研就常关注数字媒体专业、计算机图形学。 </p>
+<h1 id="最后：Advice-for-“大一就想baoyan”"><a href="#最后：Advice-for-“大一就想baoyan”" class="headerlink" title="最后：Advice for “大一就想baoyan”"></a>最后：Advice for “大一就想baoyan”</h1><ul>
+<li>看绿裙的帖子。 知道哪些奖有重量级，哪些则是水奖</li>
+<li>卯足了劲考第一，不要问为什么。</li>
+<li>学有余力水篇文章出来。很多985研&#x2F;直博很看重论文&#x2F;软著&#x2F;专利成果。</li>
+</ul>
+<h2 id="如果你是高中生"><a href="#如果你是高中生" class="headerlink" title="如果你是高中生"></a>如果你是高中生</h2><ul>
+<li>专心听讲。考一个好大学&#x2F;读一个好专业 -&gt; 有一个好title<ul>
+<li>当你能到一个好大学，你直接联系你的任课老师，读他的研究生。省巨多事情</li>
+</ul>
+</li>
+</ul>
+]]></content>
+  </entry>
+  <entry>
+    <title>刷机心得</title>
+    <url>/2025/07/25/%E5%88%B7%E6%9C%BA%E5%BF%83%E5%BE%97/</url>
+    <content><![CDATA[<h1 id="梳理1-Ace-3-Pro的“刷机”方案"><a href="#梳理1-Ace-3-Pro的“刷机”方案" class="headerlink" title="梳理1+ Ace 3 Pro的“刷机”方案"></a>梳理1+ Ace 3 Pro的“刷机”方案</h1><h2 id="重要说明"><a href="#重要说明" class="headerlink" title="重要说明"></a>重要说明</h2><ul>
+<li><p>这里说的刷机：只做到了利用 “KenerlSU Hook” 得到设备 Root 权限——当然也是当下比较常见的语意。<br><strong>并没有换第三方ROM</strong>，如 <a href="https://wiki.lineageos.org/devices/">Lineage OS</a>。原因：在我发现 boot.img 的版本和设备型号 &#x2F; ROM 不匹配会让手机变砖后，我决定<strong>拿完 root 就老实</strong>。 </p>
+</li>
+<li><p>Root 方案: KernelSU, 性质都一样（使用LSPosed管理权限）          &#x2F;&#x2F; Magisk尝试了，可能是ColorOS版本太新，Magisk还不支持</p>
+</li>
+<li><p>系统：安卓14及以上。原厂ROM（Color OS 15） 内核版本Linux6 + &#x2F;&#x2F;意味着不能支持“Recovery&#x2F;TWRP” Root方案</p>
+</li>
+</ul>
+<h2 id="第一步：解BL锁。"><a href="#第一步：解BL锁。" class="headerlink" title="第一步：解BL锁。"></a>第一步：解BL锁。</h2><p> 之后会讲BL锁是什么以及为什么必须解开</p>
+<blockquote>
+<p>这一步的关键角色： 一个能解BL的手机。 一台有ADB工具的电脑（其实手机也可以），一根数据线。</p>
+<blockquote>
+<p>tips: 大侠阿木的刷机工具箱就相当于是对ADB的用户友好的封装。而且集成了很多有用的功能。可以说刷机小白必备。而且，（我猜）这款工具适用于其他能解BL锁的手机</p>
+</blockquote>
+</blockquote>
+<p>解BL锁有两种做法，步骤都很简单。</p>
+<ol>
+<li>使用大侠阿木的工具箱。 一键解锁。</li>
+<li>使用ADB命令。 自己网上查：xxx设备 解BL锁。</li>
+</ol>
+<p>额外说明：</p>
+<ul>
+<li>解BL锁本身不难。只要设备能解BL锁。 </li>
+<li>第一步成功的标志：重启手机，你可以看到第一个页面（启动页面）出现类似：device unlocked, orange mode之类字样。</li>
+</ul>
+<h2 id="第二步：-magisk打补丁-Hook"><a href="#第二步：-magisk打补丁-Hook" class="headerlink" title="第二步： magisk打补丁&#x2F;Hook"></a>第二步： magisk打补丁&#x2F;Hook</h2><blockquote>
+<p>关键角色：同样，一台有ADB工具的电脑。 当前系统的ROM（.zip格式）。解了BL锁的手机并安装magisk</p>
+</blockquote>
+<p>流程&#x2F;原理： </p>
+<ol>
+<li>下载当前设备ROM</li>
+<li>从中得到boot.img（未修改）。 </li>
+<li>用magisk修改boot.img。 </li>
+<li>ADB环节：用ADB工具将修改过的boot.img刷入另一个启动分区。并设置设备从该分区启动。</li>
+</ol>
+<p>P.S. KernelSU&#x2F;Magisk等等 Root方案 使用大侠阿木的工具箱都可以一键搞定<br>tips： </p>
+<ol>
+<li>下载ROM一定要仔细比对是不是和当前系统完全一致。 不只是大版本号，后面的数字、字符串也要一样！！相信我！</li>
+<li>下载的ROM是zip格式。里面不一定带有boot.img。 你需要用到payload-dumper. 具体怎么用去读文档。 </li>
+<li>因为KernelSU在Android OS运行，你需要boot.img上传到手机上。 打开magisk,选中放boot.img的路径。 你应该可以在相同路径下得到要给修补后的boot.img</li>
+<li>useful commands：<br>查看当前启动分区：<code>fastboot getvar current-slot</code><br>把修补后的boot.img刷写到另一个分区 <code>fastboot flash boot_a kernerlSU-patched-boot.img</code><br>修改默认boot分区： <code>fastboot --set-active=a</code></li>
+</ol>
+<p>说明<br>如果成功了，打开Magisk(面具App)，显示“已激活”。说明root成功。接下来就是安装一些模块让root隐身。让应用程序检查不出设备root的痕迹。</p>
+<h2 id="第二步：但是KernelSU"><a href="#第二步：但是KernelSU" class="headerlink" title="第二步：但是KernelSU"></a>第二步：但是KernelSU</h2><blockquote>
+</blockquote>
+<p>for 小白：1+工具箱一键搞定。<br>步骤&#x2F;原理：</p>
+<h2 id="第三步：-KernelSU安装Zygisk等模块，更好的隐藏root"><a href="#第三步：-KernelSU安装Zygisk等模块，更好的隐藏root" class="headerlink" title="第三步： KernelSU安装Zygisk等模块，更好的隐藏root"></a>第三步： KernelSU安装Zygisk等模块，更好的隐藏root</h2><h2 id="菜逼的唠嗑"><a href="#菜逼的唠嗑" class="headerlink" title="菜逼的唠嗑"></a>菜逼的唠嗑</h2><p>所谓的组合键是用来进入fastboot模式的。完全可以用ADB来实现<br><code>adb devices</code><br><code>adb reboot bootloader</code><br><code>fastboot devices</code>  可以看到成功进入fastboot mode</p>
+<p>聊聊KernelSU：个人感觉比Magisk强大，易于使用。 因为在工具箱使用中发现Magisk root并不成功。而KernelSU一键解决了</p>
+<p>你常听到的boot, recovery mode, fastboot mode, TWRP:<br>似乎是Android 8 之后就开始采用“boot_a boot_b”滚动更新的方案了。 当你的手机系统（color OS 14）发布新版本(Color OS 15)。他会在a分区保留当前的Color OS 14的boot.img, 把Color OS 15的boot.img下载到b分区。 当你确认更新系统，install Color OS 15, 下一次启动将使用boot_b分区</p>
+<p>给新手的建议：<br>刷机这事吧，难也不难。教程一堆，10年前就有很多前辈玩得明明白白了。 但碎片化严重，大堆专业术语，没搞明白原理很可能看着手机变砖。<br>关键是要搞清楚你的设备获取root权限的原理。 KernelSU， magisk的原理。这篇博客并没有用心的介绍每个技术名词的百科。 一方面是自己的知识深度和表达能力的限制。另一方面是想留给各位探索。 个人认为：整活多少伴随一段知识积累的过程。</p>
+<p>担心变砖？<br>没有必要因为这份顾虑阻碍了前进。<br>就算变砖了也一定能修好的。相信我，不难。你可以试试下载正确版本的ROM，把boot.img刷到boot_a, boot_b. （fastboot flash boot_a boot_b IMG-PATH）</p>
+<p>不要随便更新系统，除非看到有人把LSPosed做好了</p>
+<h2 id="Resources"><a href="#Resources" class="headerlink" title="Resources"></a>Resources</h2><p><a href="https://optool.daxiaamu.com/optool/">https://optool.daxiaamu.com/optool/</a>   一加全能工具箱(PC端使用)<br><a href="https://yun.daxiaamu.com/OnePlus_Roms/">https://yun.daxiaamu.com/OnePlus_Roms/</a> 我目前知道的官方ROM的唯一渠道<br><a href="https://github.com/ssut/payload-dumper-go">https://github.com/ssut/payload-dumper-go</a>  An android OTA payload dumper written in Go.<br>KernelSU<br>LSPosed </p>
+]]></content>
   </entry>
   <entry>
     <title>博客新主题-Fluid入门体验</title>
@@ -355,33 +568,14 @@
 <h2 id="首页更多icons"><a href="#首页更多icons" class="headerlink" title="首页更多icons"></a>首页更多icons</h2><h2 id=""><a href="#" class="headerlink" title=""></a></h2>]]></content>
   </entry>
   <entry>
-    <title>ssh入门</title>
-    <url>/2025/04/29/ssh%E5%85%A5%E9%97%A8/</url>
-    <content><![CDATA[<h1 id="take-away-knowledge-concept"><a href="#take-away-knowledge-concept" class="headerlink" title="take away knowledge &amp; concept"></a>take away knowledge &amp; concept</h1><p>对于private repo, 即便是clone,也需要ssh</p>
-<p>ssh-keygen命令生成的<strong>两份文件</strong>：私钥和公钥（.pub）。你要把public key交给github</p>
-<p>每一次 clone &#x2F; push的Authentification过程：<br>github服务器给你的机器发公钥。 你的机器上<code>～/.ssh/</code>路径下存了唯一的私钥与之对应。即完成身份验证。</p>
-<h2 id="glossary"><a href="#glossary" class="headerlink" title="glossary"></a>glossary</h2><p>SSH： secure shell protocal</p>
-<h1 id="github场景-S1：增添新密码"><a href="#github场景-S1：增添新密码" class="headerlink" title="github场景-S1：增添新密码"></a>github场景-S1：增添新密码</h1><ul>
-<li>当你的项目团队有多个成员，你作为项目的owner，需要为你的团队成员设置SSH，这样他们才能在他们的电脑上更新项目（clone, push）</li>
-<li>还有一个情况，你有多台工作本，你需要为每一台机器上添加SSH，并在个人g-hub账户添加public key</li>
-</ul>
-<h2 id="background-and-task"><a href="#background-and-task" class="headerlink" title="background and task:"></a>background and task:</h2><p>linux + Windows 共同运营hexo blog. Add _post to repo, clone on git</p>
-<h2 id="过程记录（）"><a href="#过程记录（）" class="headerlink" title="过程记录（）"></a>过程记录（）</h2><ol>
-<li>最开始用https协议下载private repo代码失败。遂该用ssh。<code>git clone git@github.com:Optimushimeself/blogsource.git</code>自然报错。因为还没在我的github账号中配置本机的SSH。</li>
-<li>ssh-keygen <code>tyrone@Matrix:~/.ssh$ ssh-keygen -t [加密算法] -f [sshfileName]</code> t: type. github使用<code>ed25519</code>。 passphrase口令为空。自然也没关<code>ssh-agent</code>之类的“高级功能”。</li>
-<li>ssh-keygen得到两个文件，.pub后缀是公钥，扔到<code>github-&gt;setting-&gt;SSH&amp;GPG Keys</code></li>
-<li>（不知道是否靠谱）遇到一些代理问题，调成了全局代理，创建<code>~/.ssh/config</code>。重新运行<code>git clone git@github.com:OptimusHimself/blogsource.git</code>，中途谈了一个是否信任（老熟人了），无脑yes，最后成功克隆项目。</li>
-</ol>
-<h2 id="问题-故障记录"><a href="#问题-故障记录" class="headerlink" title="问题&#x2F;故障记录"></a>问题&#x2F;故障记录</h2><figure class="highlight livecodeserver"><table><tr><td class="code"><pre><code class="hljs livecodeserver">\\ 网络问题？<br>Cloning <span class="hljs-keyword">into</span> <span class="hljs-string">&#x27;blogsource&#x27;</span>...<br>kex_exchange_identification: <span class="hljs-built_in">read</span>: Connection reset <span class="hljs-keyword">by</span> peer<br>Connection reset <span class="hljs-keyword">by</span> <span class="hljs-number">20.205</span><span class="hljs-number">.243</span><span class="hljs-number">.166</span> port <span class="hljs-number">22</span><br>fatal: Could <span class="hljs-keyword">not</span> <span class="hljs-built_in">read</span> <span class="hljs-built_in">from</span> remote repository.<br><br>Please make sure you have <span class="hljs-keyword">the</span> correct access rights<br><span class="hljs-keyword">and</span> <span class="hljs-keyword">the</span> repository exists.<br></code></pre></td></tr></table></figure>
-
-<h1 id="github场景-S2：原来的私钥丢失or忘记passphrase"><a href="#github场景-S2：原来的私钥丢失or忘记passphrase" class="headerlink" title="github场景-S2：原来的私钥丢失or忘记passphrase()"></a>github场景-S2：原来的私钥丢失or忘记passphrase()</h1><p>这就是我为什么建议小白们最开始学习没必要设置passphrase,因为你会忘掉。 不过，只要能记得自己github账号的密码，问题都不大～<br>打开github网站，<code>github-&gt;setting-&gt;SSH&amp;GPG Keys</code>删掉你之前创建的钥匙，重新走一遍 <strong>github场景-S1</strong></p>
-<h1 id="使用ssh登陆服务器：传文件，训练模型…"><a href="#使用ssh登陆服务器：传文件，训练模型…" class="headerlink" title="使用ssh登陆服务器：传文件，训练模型…."></a>使用ssh登陆服务器：传文件，训练模型….</h1>]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>SSH</tag>
-      </tags>
+    <title>人生规划</title>
+    <url>/2025/06/30/%E4%BA%BA%E7%94%9F%E8%A7%84%E5%88%92/</url>
+    <content><![CDATA[<p>近况介绍：<br>从6.20考完期末到今天差不多有两周的时间。 我没有成为大三下想象中的：“学各种感兴趣的知识、DIY&#x2F;复刻有趣的项目”。而是整天开着微信，关注各个高校的保研信息。这没错，当务之急确实是找到未来的研究方向。我也逐渐适应了上午下午关注保研申请、晚上放松&#x2F;学习知识的工作模式。</p>
+<p>虽然有事忙，但我还是相比以前放松了很多。可以说在申请读研的事上不总是100%投入。 我看了很多改变我对自己的认识的内容，包括南大jyy2025的OS课程，诺伯特·维纳写的控制论，鬼灭之刃无限列车篇的最后一集、游郭篇的最后一集，回顾精彩的战斗场景、炎柱说的话， zhan哥对学历的看法-回应网上讽刺学历无用的言论；也和一些正能量的老师同学亲人交流了自己的情况和未来的规划。这些杂乱的内容和我没劲的生活联系在一起。才有了这篇博客。</p>
+<p>我忽然意识到，即便我投入了很多时间在学习技术而非游戏、恋爱、逛街、刷手机这些所谓不正经的事业。 我依然认为自己是一个没有目标的人。 或者说，自己不擅长调动自己的毅力——只在有意思的东西面前投入时间，而没有长远的规划。</p>
+<h1 id="读研、博-职业规划"><a href="#读研、博-职业规划" class="headerlink" title="读研、博&amp;职业规划"></a>读研、博&amp;职业规划</h1><p>读博是必然。打造自己的技术壁垒从而获取能显著提升人生物质层面舒适度的薪资<br>假如我成功保研HUST<br>我要积极参加学术会议。 多多去听正能量的人的发言。</p>
+<p>我想研究一套AI和硬件交互的协议。 AI可以安全地管理所有的硬件。就像钢铁侠的JARVIS一样。 有生之年如果能见证贾维斯的诞生，也是圆梦了。</p>
+]]></content>
   </entry>
   <entry>
     <title>保研时期的我</title>
@@ -393,90 +587,6 @@
       </categories>
       <tags>
         <tag>日记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>和仲敖的SDR日记</title>
-    <url>/2025/03/25/%E5%92%8C%E4%BB%B2%E6%95%96%E7%9A%84SDR%E6%97%A5%E8%AE%B0/</url>
-    <content><![CDATA[<p> 下午逃课和仲敖玩SDR，收听了北京汽车广播。在日记里，我想记下几个难忘的瞬间。</p>
-<img src="https://github.com/OptimusHimself/picx-images-hosting/raw/master/radioandsun.webp" alt="BJUT环能楼楼顶的风景" >
-1仲敖问Deepseek北京电台的信息，然后说：切98，98有音乐！  
-
-<p>2 仲敖生病了依然陪我开箱，陪我安装，搞软件。 非常有耐心地陪我读文档、装软件，今天的成功，离不开我这位好朋友。  </p>
-<p>3 争论SDR# 软件上Bandwidth功能的实现原理，我认为是主板给滤波器发送信号调控硬件中的BPF，而仲敖坚持认为是软件对天线收到的所有信号进行处理。我们用一餐饭打赌，仲敖后来输了。    </p>
-<p>4 起初这条懒狗还不愿意陪我拿快递（当时挺失望的，同时也理解他生病的状态）。不过，后来在我的哄骗下还是一块去了。最后，我问他后悔走“那么多”路去拿快递吗？他表示这份体验很值得（我心里美滋滋的，要是没他陪我，我也玩不到那么好）。他甚至还想上京哈高速上玩，到首都机场听飞行员通信的频段。被我劝住了。我们计划清明前夕一块去，顺便下馆子。  </p>
-<p>5 本人手贱，把SDR# 上预设的bandwidth &#x3D; 200,000改成了2,000，结果什么都听不清。两个小白还以为是地方不够空旷，搬到一个新地方（环能楼顶层）去，结果依然啥也听不清。后来我把bandwidth又调回20万。你懂吧，当时我兴奋地扇自己耳光。替四教5层删的，冤枉你了。  </p>
-<p>6 不愧是C++ 代码王，看教程的时候，我总是有很多模棱两可的地方磨磨唧唧的。而身边的实战派总能帮我过滤掉无用信息，有这么一个果断但又不乏耐心的人陪伴，整活成为我的快乐<br>7 爸爸糖的香蕉味吐司挺好吃的。某人硬吹evian阿尔卑斯的水比农夫山泉的好，斥巨资购买。在我看来，骨子里的癖好是无法改变的。当然，和这位北京小哥成为好朋友完全不是看重这些所谓的“品味”。<br>8 守门员出生的仲敖怕天线摔地上，冲过去护着的样子。很可爱也有些滑稽。<br>今天，我们从开箱到听到FM广播。书本上的死知识：抽象的数学符号、老师随手画的频谱出现在我们眼前。我们不清楚为什么2000的带宽听到的消息信息量那么低，而200,000、180,000就正合适，调成300,000噪声就太多了。我们也不懂天线知识，不知道为什么短天线比长天线收听效果差，我们真的不懂EM wave是咋传播的，我们只知道信号是从西边（海淀）传来的，打开羊角天线，指向日落的方向就能听到音乐。<br>希望和仲敖在SDR的世界中收获更多的兴趣和乐趣。也希望在这个小玩意的引领下，DSP，communication theory, wireless communication三大module取得Aplus!</p>
-]]></content>
-      <categories>
-        <category>整活</category>
-      </categories>
-      <tags>
-        <tag>日记</tag>
-        <tag>SDR入门</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>我的A证</title>
-    <url>/2025/04/24/%E6%88%91%E7%9A%84A%E8%AF%81/</url>
-    <content><![CDATA[<img src="https://github.com/OptimusHimself/picx-images-hosting/raw/master/执照.8ojy22apde.jpg" alt="A证"  />
-
-<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>记录笔者考A证的时间线。还有给新手的建议（不包括复习）<br>以下，中国无线电协会业余电台操作证书叫做操作证。 中国人民共和国无线电台执照叫做（无线）电台执照。</p>
-<h1 id="时间线"><a href="#时间线" class="headerlink" title="时间线"></a>时间线</h1><p>4.19 考试<br>4.24 上网查看，通过了。<br>5.12 拿到操作证。验机、填表、申请电台执照。<br>5.30.执照通过 (其实执照上的有效期是5.22起，北京无线电协会的通知会晚一点儿)<br>6.4 申请邮寄执照<br>6.6 终于拿到邮寄的执照啦！（今天是我生日！）<code>BD1BBU</code></p>
-<h1 id="Q-A"><a href="#Q-A" class="headerlink" title="Q&amp;A"></a>Q&amp;A</h1><p>达到什么条件才可以“发射”？<br>有操作证，有电台执照。 很好理解，用电台就像开车。 首先，要有驾照（A操作证）。然后你的车要有车牌，就像你用的电台需要一个电台号、执照。就像交通系统的监管对象是路行驶的车而不是驾驶的人。摄像头先抓的是违规的车、再去扣驾驶员的分&#x2F;吊销他的执照。同样地，无线电管理系统也是监视违规的电台，其次再去惩罚操作员。</p>
-<h1 id="tips"><a href="#tips" class="headerlink" title="tips"></a>tips</h1><ul>
-<li>个人认为三天，每天准备4h就够了。</li>
-<li>看到当地无线电协会发的通知里没有自己的名字不要担心是自己没考过。可能那就不是你那波的考试情况。</li>
-<li>出了成绩就可以去验机啦！不要等到拿到操作证再去验机。<br>原因：早点验机，操作证和无线电台执照一起拿。<br>要区分A操作证、执照和其组织的关系。操作证是你当地的协会给你颁发的。而执照的合法单位是中国人民共和国工业和信息化部。前者需要通过考试，后者需要通过考试且拿符合标准的设备到当地无线电协会验机。<br>我傻傻以为操作证上就会有呼号。。结果后面看到一串长长的操作证ID就感觉不对劲。</li>
-</ul>
-]]></content>
-      <tags>
-        <tag>日记</tag>
-        <tag>HAM</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>手台入门教程</title>
-    <url>/2025/06/08/%E6%89%8B%E5%8F%B0%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/</url>
-    <content><![CDATA[<blockquote>
-<p>令我印象最深刻的经历，就是用Scan扫到中继的信号，听友台们的信号。在不知道亚音、频差的情况下傻乎乎的念：CQ CQ CQ, 这里是BD1BBU呼叫。Bravo Delta One Bravo Bravo Uniform 请求插入。 然后每一个人理我。 ——好家伙，啥都不会就干中继了🤣</p>
-</blockquote>
-<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>认识UVK6的按键：F键、菜单键<br>认识菜单的常用功能：存储信道；设置上、下行亚音；设置频差；Scan功能<br>实操：寻找中继台的高效办法，</p>
-]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>HAM</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>在hexo博客中插入图片(方案汇总)</title>
-    <url>/2025/03/09/%E5%9C%A8hexo%E5%8D%9A%E5%AE%A2%E4%B8%AD%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E3%80%90%E6%96%B9%E6%A1%88%E6%B1%87%E6%80%BB%E3%80%91/</url>
-    <content><![CDATA[<h1 id="放弃的方案："><a href="#放弃的方案：" class="headerlink" title="放弃的方案："></a>放弃的方案：</h1><h2 id="原生的-hexo-add-on-hexo-asset"><a href="#原生的-hexo-add-on-hexo-asset" class="headerlink" title="原生的 hexo add on: hexo-asset"></a>原生的 hexo add on: hexo-asset</h2><p><code>post_asset_folder: false #true</code></p>
-<ul>
-<li>语法格式恶心，既不是 md 也不是 HTML，自带的一种渲染格式</li>
-<li>尝试多次未成功</li>
-</ul>
-<h1 id="能使用的方案："><a href="#能使用的方案：" class="headerlink" title="能使用的方案："></a>能使用的方案：</h1><h2 id="PicX-GitHub作图床"><a href="#PicX-GitHub作图床" class="headerlink" title="PicX GitHub作图床"></a>PicX GitHub作图床</h2><h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><ul>
-<li>gitbub 有一个叫做 picx 的项目, 是一个网站，你可以往它的官网上传（本机的）图，会自动生成一个链接赋值到剪切板上。</li>
-<li>特点：手动在 blog md file 里放 html img 标签； 支持使用 GitHub 图床（own repo，free）等其他图床</li>
-</ul>
-<h3 id="优缺点"><a href="#优缺点" class="headerlink" title="优缺点"></a>优缺点</h3><ul>
-<li>优点： PicX 自动生成图片 url, 完全免费（薅微软 Github 服务器的羊毛）</li>
-<li>不足：无法在写博客粘贴图片的时候自动生成链接。需要手动写 HTML img 标签。图多了有些麻烦，容易找不到链接。<br>Links：<a href="https://picx.xpoet.cn/#/settings">PicX 在线服务</a>； <a href="https://picx-docs.xpoet.cn/usage-guide/get-start.html">官方使用教程</a>；<a href="https://github.com/XPoet/picx">GitHub 仓库地址</a></li>
-</ul>
-<p>e.g. url generate by pix<br><a href="https://github.com/OptimusHimself/picx-images-hosting/raw/master/%E5%BD%97%E6%98%9F%E8%BD%A8%E8%BF%B9.esnsejhpw.webp">https://github.com/OptimusHimself/picx-images-hosting/raw/master/彗星轨迹.esnsejhpw.webp</a><br>e.g. &lt;img&gt; tag<br>&lt;img src&#x3D;”<a href="https://github.com/OptimusHimself/picx-images-hosting/raw/master/%E5%BD%97%E6%98%9F%E8%BD%A8%E8%BF%B9.esnsejhpw.webp">https://github.com/OptimusHimself/picx-images-hosting/raw/master/彗星轨迹.esnsejhpw.webp</a>“ alt&#x3D;”sorry about that”&gt;</p>
-<blockquote>
-<p>img alt 参数：Specifies an alternate text for an image</p>
-</blockquote>
-<h2 id="外国图床"><a href="#外国图床" class="headerlink" title="外国图床"></a>外国图床</h2><p><a href="https://postimages.org/">postimage</a><br><a href="https://sm.ms/">sm.ms</a> </p>
-]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
       </tags>
   </entry>
   <entry>
@@ -513,7 +623,8 @@
 <ul>
 <li><code>--yes-playlist</code>：强制下载整个列表，即使 URL 可能指向单个视频（默认行为）。</li>
 <li><code>--extract-audio</code> 只要音频; 不传值</li>
-<li><code>--split-chapters</code></li>
+<li><code>--split-chapters</code> </li>
+<li><code>--download-sections</code> 下载特定章节:<code>--download-sections 37-39</code></li>
 </ul>
 </li>
 <li><p>下载电影配字幕</p>
@@ -553,7 +664,7 @@
 <li><code>-o &quot;%(title)s [%(resolution)s].%(ext)s </code>   加入分辨率<code>%(resolution)s</code></li>
 <li>按up主分类 <code>-o &quot;%(uploader)s/%(title)s.%(ext)s&quot; </code> yt-dlp支持创建不存在的路径。</li>
 </ul>
-<h2 id="print-测试"><a href="#print-测试" class="headerlink" title="print 测试"></a>print 测试</h2><p>支持的字段：<br><code>--print filename</code><br><code>--print chapters</code></p>
+<h2 id="print-测试"><a href="#print-测试" class="headerlink" title="print 测试"></a>print 测试</h2><p>支持的字段：<br><code>--print filename</code><br><code>--print chapters</code><br><code>--flat-chapters</code> 查看有哪些chapter </p>
 <p><code>--list-subs</code> 查看资源支持的字幕格式</p>
 <ul>
 <li>会列出弹幕的语言和文件类型（lang + format）</li>
@@ -563,6 +674,7 @@
 <ul>
 <li><code>-f bestaudio -o &quot;%(title)s.%(ext)s -P ~/Music/xxx&quot; url</code><br>up主抄家方案：</li>
 </ul>
+<h2 id="playlist"><a href="#playlist" class="headerlink" title="playlist"></a>playlist</h2><p>–playlist-items 4-40 选择下载index</p>
 <h3 id="下载一个收藏夹的所有歌曲-视频-—-一次成功！"><a href="#下载一个收藏夹的所有歌曲-视频-—-一次成功！" class="headerlink" title="下载一个收藏夹的所有歌曲&#x2F;视频 — 一次成功！"></a>下载一个收藏夹的所有歌曲&#x2F;视频 — 一次成功！</h3><p><code>.\yt-dlp.exe -P ~/Downloads -N 5 --yes-playlist -i -r 1M --no-overwrites -c --no-part https://www.bilibili.com/list/ml3097786028?oid=46656713&quot;&amp;&quot;bvid=BV1rb411n7wh</code></p>
 <p>list就是收藏夹，<a href="https://www.bilibili.com/list/ml3097786028?oid=46656713&bvid=BV1rb411n7wh">这</a>是我bi站“我喜欢听”收藏夹的第一首歌—哥哥的当年情。这个收藏夹下歌曲url的特点是list&#x2F;ml….?前缀一致，<code>oid=</code>的值不同。</p>
 <ul>
@@ -643,7 +755,7 @@
 ]]></content>
       <categories>
         <category>教程</category>
-        <category>整活</category>
+        <category>命令集</category>
       </categories>
       <tags>
         <tag>音视频</tag>
@@ -686,6 +798,40 @@
       </tags>
   </entry>
   <entry>
+    <title>我的A证</title>
+    <url>/2025/04/24/%E6%88%91%E7%9A%84A%E8%AF%81/</url>
+    <content><![CDATA[<img src="https://github.com/OptimusHimself/picx-images-hosting/raw/master/执照.8ojy22apde.jpg" alt="A证"  />
+
+<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>记录笔者考A证的时间线。还有给新手的建议（不包括复习）<br>以下，中国无线电协会业余电台操作证书叫做操作证。 中国人民共和国无线电台执照叫做（无线）电台执照。</p>
+<h1 id="时间线"><a href="#时间线" class="headerlink" title="时间线"></a>时间线</h1><p>4.19 考试<br>4.24 上网查看，通过了。<br>5.12 拿到操作证。验机、填表、申请电台执照。<br>5.30.执照通过 (其实执照上的有效期是5.22起，北京无线电协会的通知会晚一点儿)<br>6.4 申请邮寄执照<br>6.6 终于拿到邮寄的执照啦！（今天是我生日！）<code>BD1BBU</code></p>
+<h1 id="Q-A"><a href="#Q-A" class="headerlink" title="Q&amp;A"></a>Q&amp;A</h1><p>达到什么条件才可以“发射”？<br>有操作证，有电台执照。 很好理解，用电台就像开车。 首先，要有驾照（A操作证）。然后你的车要有车牌，就像你用的电台需要一个电台号、执照。就像交通系统的监管对象是路行驶的车而不是驾驶的人。摄像头先抓的是违规的车、再去扣驾驶员的分&#x2F;吊销他的执照。同样地，无线电管理系统也是监视违规的电台，其次再去惩罚操作员。</p>
+<h1 id="tips"><a href="#tips" class="headerlink" title="tips"></a>tips</h1><ul>
+<li>个人认为三天，每天准备4h就够了。</li>
+<li>看到当地无线电协会发的通知里没有自己的名字不要担心是自己没考过。可能那就不是你那波的考试情况。</li>
+<li>出了成绩就可以去验机啦！不要等到拿到操作证再去验机。<br>原因：早点验机，操作证和无线电台执照一起拿。<br>要区分A操作证、执照和其组织的关系。操作证是你当地的协会给你颁发的。而执照的合法单位是中国人民共和国工业和信息化部。前者需要通过考试，后者需要通过考试且拿符合标准的设备到当地无线电协会验机。<br>我傻傻以为操作证上就会有呼号。。结果后面看到一串长长的操作证ID就感觉不对劲。</li>
+</ul>
+]]></content>
+      <tags>
+        <tag>日记</tag>
+        <tag>HAM</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>手台入门教程</title>
+    <url>/2025/06/08/%E6%89%8B%E5%8F%B0%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/</url>
+    <content><![CDATA[<blockquote>
+<p>令我印象最深刻的经历，就是用Scan扫到中继的信号，听友台们的信号。在不知道亚音、频差的情况下傻乎乎的念：CQ CQ CQ, 这里是BD1BBU呼叫。Bravo Delta One Bravo Bravo Uniform 请求插入。 然后每一个人理我。 ——好家伙，啥都不会就干中继了🤣</p>
+</blockquote>
+<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>认识UVK6的按键：F键、菜单键<br>认识菜单的常用功能：存储信道；设置上、下行亚音；设置频差；Scan功能<br>实操：寻找中继台的高效办法，</p>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>HAM</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>科学上网</title>
     <url>/2025/04/29/%E7%94%A8%E5%A5%BD%E4%BB%A3%E7%90%86/</url>
     <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>重要内容：<strong>代理软件常用功能</strong>的解释，整活常见涉及到的Proxy命令<br>不会包含的内容：1.推荐机场 2.代理软件的推荐</p>
@@ -709,25 +855,32 @@
       </tags>
   </entry>
   <entry>
-    <title>论持久战</title>
-    <url>/2025/03/21/%E8%AE%BA%E6%8C%81%E4%B9%85%E6%88%98/</url>
-    <content><![CDATA[<p>从午休后到晚上10点，我全身心投入在模拟通信系统的调制技术的学习中。这是一次伟大的学习过程，因为我学会了“持久”。 我喜欢学习，但我的学习方法不算高效，或者说，在此之前，我没有一个通用的“学习思维”。 我能学好某些知识，归功于我擅长找好的教材、课程，从优质资源中汲取知识。但这只是途径问题，找好的教材是学习的第一步，属于“捷径方法论”。而现在要讨论的是：利用资源和规划时间。因为这一块工作没有做好，会让你在一个领域的开始阶段举步维艰，被那些“懂学习”的人拉开差距。我反思，为什么我作为一个CS专业的学生，到大三了才进入程序设计的全盛、兴趣爆棚的学习状态。慢热，真的好吗？</p>
-<p>拿通信原理这门课来说。要了解通信系统的运作需要很多前置知识：信息论——通信工程里讨论的bit和CS里常说的bit可不是一个概念；还有对通信系统的建模，对信道简单建模。总之，这门课的“原始积累、老本”几乎是0。而学校的教材、课程对于入门小白来说是很难摸得着头脑的。看讲义、课件时，突然蹦出一个你从未见过的公式、符号是很令人头疼的。</p>
-<p>以前，我在学新东西的时候总希望眼前的一切在脑中make sense, 好像有了某般instinct就等同于学会了，可以接下去学了。而要是没有那道“电弧”、通透的感觉，就是没学会。这还不够，不懂学习方法的我还会发脾气：这教材真差劲，不学了！老师讲得真烂，简直就是天书、不听了！于是连续3~4词旷课，等火烧眉毛了再咬着牙学。还有一类情况是，遇到了以前的知识，比方说研究调制信号的spetrum时用到了一点傅里叶变换。一些死扣牛角尖的想法就是，“哎呀，上学期信号与系统里教的傅里叶变换又忘了、我肯定学不下去了，连基础都没有，干脆等几天再学吧，先复习复习傅里叶变换”。可实际上，并没有行动，因为这个想法太空了，复习哪些部分？傅里叶变换那么多性质，真要复习全，三天三夜差不多。有时，你只是脑子里蹦出了知识图谱的一个小标签，就恐吓自己、转移自己的视线。从阿德勒的目的论来看，一切都目的就是不想接触新概念，因为你知道培养自己形成新的概念离不开痛苦、离不开旧思想的碰撞，进而想通过给自己设障达到偷懒、逃避的目的。</p>
-<p>我相信，有不少人也是和我有类似毛病的。只不过我这块特别严重。</p>
-<p>说说我现在的状态。</p>
-<p>上新课听到不懂的不再深究。一方面，你是初学者，你不可能短时间体会这个符号从过去被科学家发明出来，因为什么英文含义被写成这样，你也不可能短时间从只言片语体会到这个公式的来历，你需要练习，研究电路，物理意义你需要看更多的书来联想到更多的知识。另一方面，你真的需要在这个时间点知道那么多吗？正确的做法是，短暂思考后标注问题，问问自己前后的东西能不能自洽，换句话说，书上有没有硬刷错误。对你没看错，我的意思就是，有没有数学上，或者和过去的印象是否匹配。你只需要验证，告诉自己：</p>
-<p>“这大概是对的——这一项加这一项系数没问题，合并同类项等基本运算正确，可能我不知道为什么这么算，但我先接着听。”</p>
-<p>“傅里叶变换我有些不熟悉了……哎不管了，先记着cos(t)转到频域上是两根棍，好像没啥毛病。具体什么含义、为什么做傅里叶变换……老师也没讲、他也不一定讲的清。那我继续看。”</p>
-<p>出现什么新符号、新推演就告诉自己“哦，这有个新符号啊，它叫做……虽然我不知道为什么叫这个抽象玩意儿。”“为什么在通信系统里，做完A operation，就做B。老师说这个方法的优点是……，那就是吧，管他呢”。</p>
-<p>和老师、书本过进度，揭开这个系统的面纱。总之，你要学会减轻自己的思维负担。遇到不懂的东西，立刻告诉自己：“问题不大，没啥大不了的。”难道不是吗？生活中，哪有那么多事儿?</p>
-<p>我相信，好的资料为你拓宽视野，给你一个很好的认知基础，知道学习的路线。很多时候，这足够支撑你“无痛、轻微疼痛”即可入门一个领域。而有些时候，问题稍微复杂了些，每一步都带来很多未知面。这个时候就换一个思维，不要硬刚而是缓下来，换成“持久、不内耗、果断清晰”的思维。我认为，这是一个高效学习者的能力。</p>
+    <title>在hexo博客中插入图片(方案汇总)</title>
+    <url>/2025/03/09/%E5%9C%A8hexo%E5%8D%9A%E5%AE%A2%E4%B8%AD%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E3%80%90%E6%96%B9%E6%A1%88%E6%B1%87%E6%80%BB%E3%80%91/</url>
+    <content><![CDATA[<h1 id="放弃的方案："><a href="#放弃的方案：" class="headerlink" title="放弃的方案："></a>放弃的方案：</h1><h2 id="原生的-hexo-add-on-hexo-asset"><a href="#原生的-hexo-add-on-hexo-asset" class="headerlink" title="原生的 hexo add on: hexo-asset"></a>原生的 hexo add on: hexo-asset</h2><p><code>post_asset_folder: false #true</code></p>
+<ul>
+<li>语法格式恶心，既不是 md 也不是 HTML，自带的一种渲染格式</li>
+<li>尝试多次未成功</li>
+</ul>
+<h1 id="能使用的方案："><a href="#能使用的方案：" class="headerlink" title="能使用的方案："></a>能使用的方案：</h1><h2 id="PicX-GitHub作图床"><a href="#PicX-GitHub作图床" class="headerlink" title="PicX GitHub作图床"></a>PicX GitHub作图床</h2><h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><ul>
+<li>gitbub 有一个叫做 picx 的项目, 是一个网站，你可以往它的官网上传（本机的）图，会自动生成一个链接赋值到剪切板上。</li>
+<li>特点：手动在 blog md file 里放 html img 标签； 支持使用 GitHub 图床（own repo，free）等其他图床</li>
+</ul>
+<h3 id="优缺点"><a href="#优缺点" class="headerlink" title="优缺点"></a>优缺点</h3><ul>
+<li>优点： PicX 自动生成图片 url, 完全免费（薅微软 Github 服务器的羊毛）</li>
+<li>不足：无法在写博客粘贴图片的时候自动生成链接。需要手动写 HTML img 标签。图多了有些麻烦，容易找不到链接。<br>Links：<a href="https://picx.xpoet.cn/#/settings">PicX 在线服务</a>； <a href="https://picx-docs.xpoet.cn/usage-guide/get-start.html">官方使用教程</a>；<a href="https://github.com/XPoet/picx">GitHub 仓库地址</a></li>
+</ul>
+<p>e.g. url generate by pix<br><a href="https://github.com/OptimusHimself/picx-images-hosting/raw/master/%E5%BD%97%E6%98%9F%E8%BD%A8%E8%BF%B9.esnsejhpw.webp">https://github.com/OptimusHimself/picx-images-hosting/raw/master/彗星轨迹.esnsejhpw.webp</a><br>e.g. &lt;img&gt; tag<br>&lt;img src&#x3D;”<a href="https://github.com/OptimusHimself/picx-images-hosting/raw/master/%E5%BD%97%E6%98%9F%E8%BD%A8%E8%BF%B9.esnsejhpw.webp">https://github.com/OptimusHimself/picx-images-hosting/raw/master/彗星轨迹.esnsejhpw.webp</a>“ alt&#x3D;”sorry about that”&gt;</p>
+<blockquote>
+<p>img alt 参数：Specifies an alternate text for an image</p>
+</blockquote>
+<h2 id="外国图床"><a href="#外国图床" class="headerlink" title="外国图床"></a>外国图床</h2><p><a href="https://postimages.org/">postimage</a><br><a href="https://sm.ms/">sm.ms</a> </p>
 ]]></content>
       <categories>
-        <category>生活感悟</category>
+        <category>教程</category>
       </categories>
       <tags>
-        <tag>学习方法</tag>
+        <tag>hexo</tag>
       </tags>
   </entry>
   <entry>
@@ -762,6 +915,61 @@
       <tags>
         <tag>学习方法</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>和仲敖的SDR日记</title>
+    <url>/2025/03/25/%E5%92%8C%E4%BB%B2%E6%95%96%E7%9A%84SDR%E6%97%A5%E8%AE%B0/</url>
+    <content><![CDATA[<p> 下午逃课和仲敖玩SDR，收听了北京汽车广播。在日记里，我想记下几个难忘的瞬间。</p>
+<img src="https://github.com/OptimusHimself/picx-images-hosting/raw/master/radioandsun.webp" alt="BJUT环能楼楼顶的风景" >
+1仲敖问Deepseek北京电台的信息，然后说：切98，98有音乐！  
+
+<p>2 仲敖生病了依然陪我开箱，陪我安装，搞软件。 非常有耐心地陪我读文档、装软件，今天的成功，离不开我这位好朋友。  </p>
+<p>3 争论SDR# 软件上Bandwidth功能的实现原理，我认为是主板给滤波器发送信号调控硬件中的BPF，而仲敖坚持认为是软件对天线收到的所有信号进行处理。我们用一餐饭打赌，仲敖后来输了。    </p>
+<p>4 起初这条懒狗还不愿意陪我拿快递（当时挺失望的，同时也理解他生病的状态）。不过，后来在我的哄骗下还是一块去了。最后，我问他后悔走“那么多”路去拿快递吗？他表示这份体验很值得（我心里美滋滋的，要是没他陪我，我也玩不到那么好）。他甚至还想上京哈高速上玩，到首都机场听飞行员通信的频段。被我劝住了。我们计划清明前夕一块去，顺便下馆子。  </p>
+<p>5 本人手贱，把SDR# 上预设的bandwidth &#x3D; 200,000改成了2,000，结果什么都听不清。两个小白还以为是地方不够空旷，搬到一个新地方（环能楼顶层）去，结果依然啥也听不清。后来我把bandwidth又调回20万。你懂吧，当时我兴奋地扇自己耳光。替四教5层删的，冤枉你了。  </p>
+<p>6 不愧是C++ 代码王，看教程的时候，我总是有很多模棱两可的地方磨磨唧唧的。而身边的实战派总能帮我过滤掉无用信息，有这么一个果断但又不乏耐心的人陪伴，整活成为我的快乐<br>7 爸爸糖的香蕉味吐司挺好吃的。某人硬吹evian阿尔卑斯的水比农夫山泉的好，斥巨资购买。在我看来，骨子里的癖好是无法改变的。当然，和这位北京小哥成为好朋友完全不是看重这些所谓的“品味”。<br>8 守门员出生的仲敖怕天线摔地上，冲过去护着的样子。很可爱也有些滑稽。<br>今天，我们从开箱到听到FM广播。书本上的死知识：抽象的数学符号、老师随手画的频谱出现在我们眼前。我们不清楚为什么2000的带宽听到的消息信息量那么低，而200,000、180,000就正合适，调成300,000噪声就太多了。我们也不懂天线知识，不知道为什么短天线比长天线收听效果差，我们真的不懂EM wave是咋传播的，我们只知道信号是从西边（海淀）传来的，打开羊角天线，指向日落的方向就能听到音乐。<br>希望和仲敖在SDR的世界中收获更多的兴趣和乐趣。也希望在这个小玩意的引领下，DSP，communication theory, wireless communication三大module取得Aplus!</p>
+]]></content>
+      <categories>
+        <category>整活</category>
+      </categories>
+      <tags>
+        <tag>日记</tag>
+        <tag>SDR入门</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>论持久战</title>
+    <url>/2025/03/21/%E8%AE%BA%E6%8C%81%E4%B9%85%E6%88%98/</url>
+    <content><![CDATA[<p>从午休后到晚上10点，我全身心投入在模拟通信系统的调制技术的学习中。这是一次伟大的学习过程，因为我学会了“持久”。 我喜欢学习，但我的学习方法不算高效，或者说，在此之前，我没有一个通用的“学习思维”。 我能学好某些知识，归功于我擅长找好的教材、课程，从优质资源中汲取知识。但这只是途径问题，找好的教材是学习的第一步，属于“捷径方法论”。而现在要讨论的是：利用资源和规划时间。因为这一块工作没有做好，会让你在一个领域的开始阶段举步维艰，被那些“懂学习”的人拉开差距。我反思，为什么我作为一个CS专业的学生，到大三了才进入程序设计的全盛、兴趣爆棚的学习状态。慢热，真的好吗？</p>
+<p>拿通信原理这门课来说。要了解通信系统的运作需要很多前置知识：信息论——通信工程里讨论的bit和CS里常说的bit可不是一个概念；还有对通信系统的建模，对信道简单建模。总之，这门课的“原始积累、老本”几乎是0。而学校的教材、课程对于入门小白来说是很难摸得着头脑的。看讲义、课件时，突然蹦出一个你从未见过的公式、符号是很令人头疼的。</p>
+<p>以前，我在学新东西的时候总希望眼前的一切在脑中make sense, 好像有了某般instinct就等同于学会了，可以接下去学了。而要是没有那道“电弧”、通透的感觉，就是没学会。这还不够，不懂学习方法的我还会发脾气：这教材真差劲，不学了！老师讲得真烂，简直就是天书、不听了！于是连续3~4词旷课，等火烧眉毛了再咬着牙学。还有一类情况是，遇到了以前的知识，比方说研究调制信号的spetrum时用到了一点傅里叶变换。一些死扣牛角尖的想法就是，“哎呀，上学期信号与系统里教的傅里叶变换又忘了、我肯定学不下去了，连基础都没有，干脆等几天再学吧，先复习复习傅里叶变换”。可实际上，并没有行动，因为这个想法太空了，复习哪些部分？傅里叶变换那么多性质，真要复习全，三天三夜差不多。有时，你只是脑子里蹦出了知识图谱的一个小标签，就恐吓自己、转移自己的视线。从阿德勒的目的论来看，一切都目的就是不想接触新概念，因为你知道培养自己形成新的概念离不开痛苦、离不开旧思想的碰撞，进而想通过给自己设障达到偷懒、逃避的目的。</p>
+<p>我相信，有不少人也是和我有类似毛病的。只不过我这块特别严重。</p>
+<p>说说我现在的状态。</p>
+<p>上新课听到不懂的不再深究。一方面，你是初学者，你不可能短时间体会这个符号从过去被科学家发明出来，因为什么英文含义被写成这样，你也不可能短时间从只言片语体会到这个公式的来历，你需要练习，研究电路，物理意义你需要看更多的书来联想到更多的知识。另一方面，你真的需要在这个时间点知道那么多吗？正确的做法是，短暂思考后标注问题，问问自己前后的东西能不能自洽，换句话说，书上有没有硬刷错误。对你没看错，我的意思就是，有没有数学上，或者和过去的印象是否匹配。你只需要验证，告诉自己：</p>
+<p>“这大概是对的——这一项加这一项系数没问题，合并同类项等基本运算正确，可能我不知道为什么这么算，但我先接着听。”</p>
+<p>“傅里叶变换我有些不熟悉了……哎不管了，先记着cos(t)转到频域上是两根棍，好像没啥毛病。具体什么含义、为什么做傅里叶变换……老师也没讲、他也不一定讲的清。那我继续看。”</p>
+<p>出现什么新符号、新推演就告诉自己“哦，这有个新符号啊，它叫做……虽然我不知道为什么叫这个抽象玩意儿。”“为什么在通信系统里，做完A operation，就做B。老师说这个方法的优点是……，那就是吧，管他呢”。</p>
+<p>和老师、书本过进度，揭开这个系统的面纱。总之，你要学会减轻自己的思维负担。遇到不懂的东西，立刻告诉自己：“问题不大，没啥大不了的。”难道不是吗？生活中，哪有那么多事儿?</p>
+<p>我相信，好的资料为你拓宽视野，给你一个很好的认知基础，知道学习的路线。很多时候，这足够支撑你“无痛、轻微疼痛”即可入门一个领域。而有些时候，问题稍微复杂了些，每一步都带来很多未知面。这个时候就换一个思维，不要硬刚而是缓下来，换成“持久、不内耗、果断清晰”的思维。我认为，这是一个高效学习者的能力。</p>
+]]></content>
+      <categories>
+        <category>生活感悟</category>
+      </categories>
+      <tags>
+        <tag>学习方法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>约定式提交</title>
+    <url>/2025/07/07/%E7%BA%A6%E5%AE%9A%E5%BC%8F%E6%8F%90%E4%BA%A4/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>爆改乐视电视</title>
+    <url>/2025/07/12/%E7%88%86%E6%94%B9%E4%B9%90%E8%A7%86%E7%94%B5%E8%A7%86/</url>
+    <content><![CDATA[<p>3 音量减， 音量加， 频道减， 频道加</p>
+<p><a href="https://www.znds.com/tv-1068755-1-1.html">开发者模式按键</a></p>
+]]></content>
   </entry>
   <entry>
     <title>认识前后端</title>
@@ -809,35 +1017,6 @@
       </tags>
   </entry>
   <entry>
-    <title>计网学习笔记</title>
-    <url>/2025/06/16/%E8%AE%A1%E7%BD%91%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>屎一样的笔记。</p>
-<blockquote>
-<p>我希望这辈子能挖到一个21世纪的网络漏洞。</p>
-</blockquote>
-<h1 id="DHCP服务器"><a href="#DHCP服务器" class="headerlink" title="DHCP服务器"></a>DHCP服务器</h1><p>为什么host广播用的<code>DHCPDISCOVER包</code>，能被DHCP服务器收到并处理，为什么<code>源IP</code>必须是<code>0.0.0.0</code> <code>目的IP</code>必须是<code>255.255.255.255</code>？</p>
-<h2 id="特殊IP地址"><a href="#特殊IP地址" class="headerlink" title="特殊IP地址"></a>特殊IP地址</h2><p>DHCPDISCOVER广播包会被<strong>同一网段上所有主机的IP协议栈</strong>接收，<strong>但只有运行着DHCP服务器软件并监听UDP端口67的主机</strong>才会在UDP&#x2F;应用层处理这个请求并做出响应。其他主机的UDP层会因为端口67未被使用而丢弃该数据报。0.0.0.0和255.255.255.255保证了广播能被发送并被所有IP栈接收，而端口67则确保了只有DHCP服务器应用会处理它。</p>
-<p>其他非DHCP主机不会运行67进程，自然也不会对<code>DHCPDISCOVER包</code>进行处理</p>
-<h1 id="“NIC-“-“网卡”"><a href="#“NIC-“-“网卡”" class="headerlink" title="“NIC “ “网卡”"></a>“NIC “ “网卡”</h1><p>链路层的主体部分是在网络适配器中实现的。网络适配器有时也称为网络接口卡</p>
-<h2 id="PCI-PCIe"><a href="#PCI-PCIe" class="headerlink" title="PCI &amp; PCIe"></a>PCI &amp; PCIe</h2><p>PCI Peripheral Component Interconnect  </p>
-<ul>
-<li>传统总线协议</li>
-<li>PCIe Peripheral Component Interconnect Express </li>
-<li>快速外设组件互连高速串行标准</li>
-<li>Express有快速、高速传输的含义</li>
-<li>两个都是总线协议。 由于对总线传输速度的需求增大，PCI被速度更快的PCIe替代。</li>
-</ul>
-<p>以前经常问的问题：DHCP服务器</p>
-<p>说说我脑中的DHCP Server</p>
-]]></content>
-      <categories>
-        <category>复习笔记</category>
-      </categories>
-      <tags>
-        <tag>计网</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Books Recommandation</title>
     <url>/2025/03/25/%E9%98%85%E8%AF%BB%E6%8E%A8%E8%8D%90/</url>
     <content><![CDATA[<p>这是一个来自IoT专业理工男整理的书单。我从读大学之后开始热爱读书、算是对各类书籍都感兴趣。在这之前，很少阅读课外书籍。这份清单涵盖了我阅读过的并且其中的某些片段为我留下了深刻印象、并对我的学习生活、个人修养产生过积极影响的书籍（真的，读书很神奇，你会因为梳理的内容做出很多改变，哪怕有些只有一个月。<br>AI时代获取信息变得容易，但是读书依然不可替代。<br>我为每本书留下了一些摘抄或者感想，可以当作这本书的精彩部分。 之后会有专门的分区记录每一本书的读后感。</p>
@@ -879,135 +1058,32 @@
       </tags>
   </entry>
   <entry>
-    <title>jyy课堂笔记</title>
-    <url>/2025/06/30/jyy%E8%AF%BE%E5%A0%82%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<p>jyy的课件做得很好。但是听jyy的课我从不看标题。 只听他的内容，因为他懂的太多了，即便有标题，他也时常即兴起来拓展了很多偏离标题但是启发我的内容。</p>
-<p>听jyy的课不止能获取新知识、听到高效的学习方法。 他的课堂有一种长者的关怀，我从中吸收正能量。原本对很多事情感到不自信、畏惧开始。在补充完正能量后，又对计算机知识充满热情。我想，即便我本科毕业后、从事研究生、博士生的研究工作，遇到瓶颈时也可以拿出他最新的视频看一看、学一学。</p>
-<p>第一节课jyy用大量的例子鼓励我们使用AI，尤其是在学习他的OS课程中。谈到Academic Integrity他还说了一个不一样的观点：我们可以在遇到问题时使用AI。 但你不能把整个问题丢给他。这门课的Policy是让学生学到技能。当你意识到这一点，监督自己使用AI的方式，你就做到了“学术诚信”。 ————我醒悟到曾经用偷懒，把全部问题丢给AI快速取得分数的愚蠢。我不仅没有学到这门课的知识，也浪费了探索AI prompt的机会。</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>人生规划</title>
-    <url>/2025/06/30/%E4%BA%BA%E7%94%9F%E8%A7%84%E5%88%92/</url>
-    <content><![CDATA[<p>近况介绍：<br>从6.20考完期末到今天差不多有两周的时间。 我没有成为大三下想象中的：“学各种感兴趣的知识、DIY&#x2F;复刻有趣的项目”。而是整天开着微信，关注各个高校的保研信息。这没错，当务之急确实是找到未来的研究方向。我也逐渐适应了上午下午关注保研申请、晚上放松&#x2F;学习知识的工作模式。</p>
-<p>虽然有事忙，但我还是相比以前放松了很多。可以说在申请读研的事上不总是100%投入。 我看了很多改变我对自己的认识的内容，包括南大jyy2025的OS课程，诺伯特·维纳写的控制论，鬼灭之刃无限列车篇的最后一集、游郭篇的最后一集，回顾精彩的战斗场景、炎柱说的话， zhan哥对学历的看法-回应网上讽刺学历无用的言论；也和一些正能量的老师同学亲人交流了自己的情况和未来的规划。这些杂乱的内容和我没劲的生活联系在一起。才有了这篇博客。</p>
-<p>我忽然意识到，即便我投入了很多时间在学习技术而非游戏、恋爱、逛街、刷手机这些所谓不正经的事业。 我依然认为自己是一个没有目标的人。 或者说，自己不擅长调动自己的毅力——只在有意思的东西面前投入时间，而没有长远的规划。</p>
-<h1 id="读研、博-职业规划"><a href="#读研、博-职业规划" class="headerlink" title="读研、博&amp;职业规划"></a>读研、博&amp;职业规划</h1><p>读博是必然。打造自己的技术壁垒从而获取能显著提升人生物质层面舒适度的薪资<br>假如我成功保研HUST<br>我要积极参加学术会议。 多多去听正能量的人的发言。</p>
-<p>我想研究一套AI和硬件交互的协议。 AI可以安全地管理所有的硬件。就像钢铁侠的JARVIS一样。 有生之年如果能见证贾维斯的诞生，也是圆梦了。</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>ADB教程</title>
-    <url>/2025/07/07/ADB%E6%95%99%E7%A8%8B/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>命令集</category>
-      </categories>
-      <tags>
-        <tag>ADB</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>ffmpeg常用命令</title>
-    <url>/2025/07/04/ffmpeg%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
-    <content><![CDATA[<ol>
-<li><p>简单的剪辑，一刀切</p>
-</li>
-<li><p>插入英文字幕</p>
-</li>
-<li><p>为视频、音频文件插入thumbnail（封面）</p>
-</li>
-<li><p>合并音视频文件</p>
-</li>
-<li><p>剪辑<br>ffmpeg -i inputfile.mp4 -c copy -t xx:xx:xx -o outputname.mp4</p>
-</li>
-</ol>
-<p>常用参数：<br>-t 00:01:30：保留从开头到 1 分 30 秒的内容（按你的需求调整时间）<br>-c copy：直接复制流，无需重新编码（速度极快，质量无损）<br>-i 指定输入文件<br>-o output 指定输出文件</p>
-]]></content>
-      <categories>
-        <category>技术手册</category>
-      </categories>
-      <tags>
-        <tag>ffmpeg</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>git常用命令</title>
-    <url>/2025/07/05/git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>unzip命令</title>
-    <url>/2025/07/04/unzip%E5%91%BD%E4%BB%A4/</url>
-    <content><![CDATA[<h1 id="Windows-powershell"><a href="#Windows-powershell" class="headerlink" title="Windows - powershell"></a>Windows - powershell</h1><p>Expand-Archieve</p>
+    <title>计网学习笔记</title>
+    <url>/2025/06/16/%E8%AE%A1%E7%BD%91%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>屎一样的笔记。</p>
+<blockquote>
+<p>我希望这辈子能挖到一个21世纪的网络漏洞。</p>
+</blockquote>
+<h1 id="DHCP服务器"><a href="#DHCP服务器" class="headerlink" title="DHCP服务器"></a>DHCP服务器</h1><p>为什么host广播用的<code>DHCPDISCOVER包</code>，能被DHCP服务器收到并处理，为什么<code>源IP</code>必须是<code>0.0.0.0</code> <code>目的IP</code>必须是<code>255.255.255.255</code>？</p>
+<h2 id="特殊IP地址"><a href="#特殊IP地址" class="headerlink" title="特殊IP地址"></a>特殊IP地址</h2><p>DHCPDISCOVER广播包会被<strong>同一网段上所有主机的IP协议栈</strong>接收，<strong>但只有运行着DHCP服务器软件并监听UDP端口67的主机</strong>才会在UDP&#x2F;应用层处理这个请求并做出响应。其他主机的UDP层会因为端口67未被使用而丢弃该数据报。0.0.0.0和255.255.255.255保证了广播能被发送并被所有IP栈接收，而端口67则确保了只有DHCP服务器应用会处理它。</p>
+<p>其他非DHCP主机不会运行67进程，自然也不会对<code>DHCPDISCOVER包</code>进行处理</p>
+<h1 id="“NIC-“-“网卡”"><a href="#“NIC-“-“网卡”" class="headerlink" title="“NIC “ “网卡”"></a>“NIC “ “网卡”</h1><p>链路层的主体部分是在网络适配器中实现的。网络适配器有时也称为网络接口卡</p>
+<h2 id="PCI-PCIe"><a href="#PCI-PCIe" class="headerlink" title="PCI &amp; PCIe"></a>PCI &amp; PCIe</h2><p>PCI Peripheral Component Interconnect  </p>
 <ul>
-<li>Destination-Path</li>
+<li>传统总线协议</li>
+<li>PCIe Peripheral Component Interconnect Express </li>
+<li>快速外设组件互连高速串行标准</li>
+<li>Express有快速、高速传输的含义</li>
+<li>两个都是总线协议。 由于对总线传输速度的需求增大，PCI被速度更快的PCIe替代。</li>
 </ul>
-<h1 id="Linux-Bash"><a href="#Linux-Bash" class="headerlink" title="Linux - Bash"></a>Linux - Bash</h1><h2 id="tar"><a href="#tar" class="headerlink" title="tar"></a>tar</h2>]]></content>
-      <categories>
-        <category>技术手册</category>
-      </categories>
-      <tags>
-        <tag>archieve</tag>
-        <tag>files</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>保研心得</title>
-    <url>/2025/07/01/%E4%BF%9D%E7%A0%94%E5%BF%83%E5%BE%97/</url>
-    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>其实这篇文章里的很多内容不适合公开。 因为说话是要负责任的嘛。</p>
-<p>想通过这篇文章回答很多曾经的焦虑，对比自己的成长。</p>
-<h1 id="回忆录"><a href="#回忆录" class="headerlink" title="回忆录"></a>回忆录</h1><h2 id="惊艳我的团队-实验室"><a href="#惊艳我的团队-实验室" class="headerlink" title="惊艳我的团队&#x2F;实验室"></a>惊艳我的团队&#x2F;实验室</h2><p>UESTC mobile<br>BNU AI阵容很强，很多海归<br>SYSU AI阵容很强<br>XJTU<br>西北工大</p>
-<h2 id="痛点"><a href="#痛点" class="headerlink" title="痛点"></a>痛点</h2><p>没有提前联系导师。申请BNU的AI需要在志愿中指明导师。显然，这需要你和教授提前联系。不然成功率很低。 我在报名截至的前一天还没有和导师邮件联系。</p>
-<p>（中山CS）直博要两封专家推荐信。 副教授以上而且要计算机相关学科。高数老师还不行。临时准备很难受的。</p>
-<h1 id="感慨"><a href="#感慨" class="headerlink" title="感慨"></a>感慨</h1><h2 id="文书"><a href="#文书" class="headerlink" title="文书"></a>文书</h2><p>从一开始我就对自己很不抱自信。看了绿裙里的一些帖子，觉得自己不会被xxx…xxx…xxx接收。准备也是徒劳。<br>慢慢的看了师资介绍里的专家们，燃起了读研的冲动。又认真地准备材料<br>其实，保研夏令营就是一种磨砺。 这是一个很宝贵的锻炼机会。 端平心态，认真准备每一个投递。</p>
-<h2 id="选专业"><a href="#选专业" class="headerlink" title="选专业"></a>选专业</h2><p>一开始有很多方向可以报。 到后来隐约觉得“摇摆不定”不好。 到最后：有书读就行，只要能做，就有意义。  </p>
-<p>我想很多同学和我一样，热爱技术，但在本科并没有在某一个方向取得特别突出的成绩或者某个方向了解得尤为深入。 大部分本科生无法对一个领域的研究现状有全面的认识。 所以，会有“啥都能报，啥都能做”的感觉。 我认为这才是正常本科生应该有的状态。说实话，绝大多数学校（双非、211）在本科并不会让学生花太多时间研究一个课题，就算有也是在大四毕设阶段。 大一到大三主要还是学知识、通识教育。 如果在大一到大三这三年没进入课题组搞科研，很难肯定自己的科研水平如何。</p>
-<p>所以，结论是：不必太纠结于方向。 如果你觉得某个方向符合你的口味，就报。<br>以下是我和白耀辉教授交流的总结：</p>
-<ul>
-<li>不只有热门专业（大部分老师在研究的、经常出现的关键词）具有研究价值。很多时候你认为没有价值、很抽象的keyword, field。只是因为你没有做进去，你不了解。 而那些你以为你会感兴趣的，当你从事相关研究的时候，你发现他其实很枯燥。 甚至非常卷，因为专业壁垒低，谁都能快速入门。<ul>
-<li>拿CV方向为例。</li>
-</ul>
-</li>
-<li>不只有热门专业好找工作。 一个方向你做得好，照样会有大厂的xxx实验室重金聘请你。前提是你研究成果很多。</li>
-<li>去一个好学校有助于你找工作。 <ul>
-<li>实际上，在一个双非学校不代表没有前途。在保研、逛学校的过程中，我看到了很多用心“经营”夏令营的学校。 我还看到很多双非院校，请到了很优秀的老师，发表了很多有价值的成果。 虽然大多数好学生不一定会选择双非学校读研。但我认为，人才是可以培养的：当你有一个不放弃你的好导师加上学院提供的经济支持。 双非也能出高手。 之后再用点老师的人脉，照样可以去很优秀的企业。 还是那句话：你在研究生干出的成果，和你学校的title同等重要。</li>
-</ul>
-</li>
-</ul>
-<p>当然，也有部分同学有梦想的职业，于是读研也往同一个方向投。比如我的好朋友就希望以后从事游戏设计，读研就常关注数字媒体专业、计算机图形学。 </p>
-<h1 id="最后：Advice-for-“大一就想baoyan”"><a href="#最后：Advice-for-“大一就想baoyan”" class="headerlink" title="最后：Advice for “大一就想baoyan”"></a>最后：Advice for “大一就想baoyan”</h1><ul>
-<li>看绿裙的帖子。 知道哪些奖有重量级，哪些则是水奖</li>
-<li>卯足了劲考第一，不要问为什么。</li>
-<li>学有余力水篇文章出来。很多985研&#x2F;直博很看重论文&#x2F;软著&#x2F;专利成果。</li>
-</ul>
-<h2 id="如果你是高中生"><a href="#如果你是高中生" class="headerlink" title="如果你是高中生"></a>如果你是高中生</h2><ul>
-<li>专心听讲。考一个好大学&#x2F;读一个好专业 -&gt; 有一个好title<ul>
-<li>当你能到一个好大学，你直接联系你的任课老师，读他的研究生。省巨多事情</li>
-</ul>
-</li>
-</ul>
-]]></content>
-  </entry>
-  <entry>
-    <title>uv常用命令</title>
-    <url>/2025/07/05/uv/</url>
-    <content><![CDATA[<p>从此，我在linux, windows都用UV管理虚拟环境。 1. 快。 2.目录简洁。 3. 指令简单<br>记录一下，UV可以用scoop安装。</p>
-<p>当前目录创建虚拟环境<br><code>uv venv [venvName]</code>我一般喜欢用<code>.venv</code></p>
-<p>激活虚拟环境<br><code>source .venv/Script/activate</code></p>
-<p>linux是<code>source .venv/bin/activate</code></p>
-<p>在虚拟环境安装依赖xxx<br><code>uv pip install xxx</code></p>
+<p>以前经常问的问题：DHCP服务器</p>
+<p>说说我脑中的DHCP Server</p>
 ]]></content>
       <categories>
-        <category>技术手册</category>
+        <category>复习笔记</category>
       </categories>
       <tags>
-        <tag>uv</tag>
+        <tag>计网</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>约定式提交</title>
-    <url>/2025/07/07/%E7%BA%A6%E5%AE%9A%E5%BC%8F%E6%8F%90%E4%BA%A4/</url>
-    <content><![CDATA[]]></content>
   </entry>
 </search>
