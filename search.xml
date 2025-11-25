@@ -1,32 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>ADB教程</title>
-    <url>/2025/07/07/ADB%E6%95%99%E7%A8%8B/</url>
-    <content><![CDATA[<h1 id="常用功能"><a href="#常用功能" class="headerlink" title="常用功能"></a>常用功能</h1><h2 id="刷机领域"><a href="#刷机领域" class="headerlink" title="刷机领域"></a>刷机领域</h2><ul>
-<li>进入fastboot mode</li>
-</ul>
-<h2 id="玩机领域"><a href="#玩机领域" class="headerlink" title="玩机领域"></a>玩机领域</h2>]]></content>
-      <categories>
-        <category>命令集</category>
-      </categories>
-      <tags>
-        <tag>ADB</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>AI时代的思考（1）-- 思维和讨论</title>
-    <url>/2025/04/11/AI%E6%97%B6%E4%BB%A3%E7%9A%84%E6%80%9D%E8%80%83%EF%BC%881%EF%BC%89-%E6%80%9D%E7%BB%B4%E5%92%8C%E8%AE%A8%E8%AE%BA/</url>
-    <content><![CDATA[<p>和朋友聊一个经济学问题——为什么美国可以持续向外输出美元，维持巨大的财政赤字。而中国不可以。其实，我期待能和他一步步挖出财政支出和资本收入等核心概念。但聊着聊着，他就回应：“我也是三脚猫功夫，你问问ChatGPT呗”。类似的对话和其他朋友也有过。<br>　　“ChatGPT, DeepSeek”这些大语言模型成为了人们日常聊天的主角。 你问了DeepSeek吗？<br>　　似乎这些LLM是知识的象征，他们的观点都是对的。 的确，通过优质的网页内容、大量的科学数据训练出的LLM不论是表达能力还是专业性、实战性都吊打大部分本科生。<br>　　但是这和聊天有什么关系？我和你聊天的目的是为了得到一个正确的答案吗？我想要的只不过是你的理解，你的解释。<br>　　基于我和你的交情、来来往往的招呼和交流，我可以很轻松地接受你的语言风格——我们曾经一起开车旅行，畅聊中我知道你是一个说话不清不楚大大咧咧的人。基于我对你的认知能力的了解，我很容易接受你对问题的表述——你平常用词就是这个风格，你的知识储备就是说这样的话。<br>　　但是，这些感觉在我和DeepSeek, 豆包这样的“Knowledge Cluster”对话则没有。<br>　　我联想不到我们曾经一起做过的事儿，AI传递给我的message也只不过是那一段干巴巴的文字。的确，我可以让他说得生动，讲得比老师还要好。我也可以很轻松地得到正确答案。但是，这只是短暂的捡起一个不属于你的理解。<br>　　我已经习惯了在课堂上学习知识，习惯了通过和朋友不断探讨得到智慧的果实。我认为，两个人，在对问题的理解从不清晰的状态，经过交流合作、通过传统的查资料和DIY一些小实验来验证自己的想法，最终得出合理自洽的结论结合自己的表述系统科学地解释问题（哪怕和真实情况有出入）——这才是学习本该有的过程。<br>　　AI的确很强大，提升了我们的效率。但思维的产生和锻炼需要时间、需要磨练和沉淀。我们不能因为AI工具越来越“好使”，就丢弃了最开始交流讨论、独立思考的能力。<br>　　未来的人类文明必将到达新高度。我希望那是一个有思维活力的文明，而不是被AI禁锢、思维陈腐、缺乏创意、懒惰的文明。</p>
-]]></content>
-      <categories>
-        <category>生活感悟</category>
-      </categories>
-      <tags>
-        <tag>日记</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Linux Journey</title>
     <url>/2025/04/23/Linux-Journey/</url>
     <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>我第一次接触Linux，我和Linux的故事：从装系统、做项目、无数次“入坑”又“弃坑”。最终又成功登上正轨的学习感悟。 总结了优质的学习资源以及使用方法，更重要的：新手应该避开哪些问题。<br>如果你赶时间，直接看TakeAway。给出了一套简洁、无门槛的学习指南<br>不包含：装系统的细节</p>
@@ -58,6 +32,48 @@
       </tags>
   </entry>
   <entry>
+    <title>WindowsLinux化</title>
+    <url>/2025/06/08/WindowsLinux%E5%8C%96/</url>
+    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>主要记录了编写脚本文件的技术。</p>
+<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>Linux系统运行脚本管理很方便，make install命令就能安装好软件，可以在任位置指使用指令.<br>但Windows就没那么方便了。要手动把脚本添加到Path。 因此，我在D盘新建了一个文件夹mytools，存放所有的常用exe,bat脚本,.cmd,ps1，还可以添加python脚本封装成cmd脚本文件。目前我已经把.yt-dlp.exe, danmuku2ass.cmd（内有python xxx&#x2F;xxx&#x2F;xxx&#x2F;…&#x2F;danmuku2ass.py %* 命令）, 然后在Path环境变量中添加D:\mytools路径，这样就可以在任意位置使用这些脚本了。</p>
+<blockquote>
+<p>当然，使用Scoop包管理器安装的软件（如git, jdk, maven,…）也可以达到在任何路径下运行命令（我会专门出一篇博客介绍scoop</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>整活</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>ADB教程</title>
+    <url>/2025/07/07/ADB%E6%95%99%E7%A8%8B/</url>
+    <content><![CDATA[<h1 id="常用功能"><a href="#常用功能" class="headerlink" title="常用功能"></a>常用功能</h1><h2 id="刷机领域"><a href="#刷机领域" class="headerlink" title="刷机领域"></a>刷机领域</h2><ul>
+<li>进入fastboot mode</li>
+</ul>
+<h2 id="玩机领域"><a href="#玩机领域" class="headerlink" title="玩机领域"></a>玩机领域</h2>]]></content>
+      <categories>
+        <category>命令集</category>
+      </categories>
+      <tags>
+        <tag>ADB</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>AI时代的思考（1）-- 思维和讨论</title>
+    <url>/2025/04/11/AI%E6%97%B6%E4%BB%A3%E7%9A%84%E6%80%9D%E8%80%83%EF%BC%881%EF%BC%89-%E6%80%9D%E7%BB%B4%E5%92%8C%E8%AE%A8%E8%AE%BA/</url>
+    <content><![CDATA[<p>和朋友聊一个经济学问题——为什么美国可以持续向外输出美元，维持巨大的财政赤字。而中国不可以。其实，我期待能和他一步步挖出财政支出和资本收入等核心概念。但聊着聊着，他就回应：“我也是三脚猫功夫，你问问ChatGPT呗”。类似的对话和其他朋友也有过。<br>　　“ChatGPT, DeepSeek”这些大语言模型成为了人们日常聊天的主角。 你问了DeepSeek吗？<br>　　似乎这些LLM是知识的象征，他们的观点都是对的。 的确，通过优质的网页内容、大量的科学数据训练出的LLM不论是表达能力还是专业性、实战性都吊打大部分本科生。<br>　　但是这和聊天有什么关系？我和你聊天的目的是为了得到一个正确的答案吗？我想要的只不过是你的理解，你的解释。<br>　　基于我和你的交情、来来往往的招呼和交流，我可以很轻松地接受你的语言风格——我们曾经一起开车旅行，畅聊中我知道你是一个说话不清不楚大大咧咧的人。基于我对你的认知能力的了解，我很容易接受你对问题的表述——你平常用词就是这个风格，你的知识储备就是说这样的话。<br>　　但是，这些感觉在我和DeepSeek, 豆包这样的“Knowledge Cluster”对话则没有。<br>　　我联想不到我们曾经一起做过的事儿，AI传递给我的message也只不过是那一段干巴巴的文字。的确，我可以让他说得生动，讲得比老师还要好。我也可以很轻松地得到正确答案。但是，这只是短暂的捡起一个不属于你的理解。<br>　　我已经习惯了在课堂上学习知识，习惯了通过和朋友不断探讨得到智慧的果实。我认为，两个人，在对问题的理解从不清晰的状态，经过交流合作、通过传统的查资料和DIY一些小实验来验证自己的想法，最终得出合理自洽的结论结合自己的表述系统科学地解释问题（哪怕和真实情况有出入）——这才是学习本该有的过程。<br>　　AI的确很强大，提升了我们的效率。但思维的产生和锻炼需要时间、需要磨练和沉淀。我们不能因为AI工具越来越“好使”，就丢弃了最开始交流讨论、独立思考的能力。<br>　　未来的人类文明必将到达新高度。我希望那是一个有思维活力的文明，而不是被AI禁锢、思维陈腐、缺乏创意、懒惰的文明。</p>
+]]></content>
+      <categories>
+        <category>生活感悟</category>
+      </categories>
+      <tags>
+        <tag>日记</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Cpp Journey</title>
     <url>/2025/04/23/Cpp-Journey/</url>
     <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>本文属于我的“学习路线”系列文章。 介绍了自认为成功且有一定效率的学习方法。 本文会介绍笔者的入门C++的过程（学习时长&amp;成果），推荐一套可靠的方法，分享有用的资源。本文还总结了学习C++容易遇到的问题</p>
@@ -79,22 +95,6 @@
       </tags>
   </entry>
   <entry>
-    <title>WindowsLinux化</title>
-    <url>/2025/06/08/WindowsLinux%E5%8C%96/</url>
-    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>主要记录了编写脚本文件的技术。</p>
-<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>Linux系统运行脚本管理很方便，make install命令就能安装好软件，可以在任位置指使用指令.<br>但Windows就没那么方便了。要手动把脚本添加到Path。 因此，我在D盘新建了一个文件夹mytools，存放所有的常用exe,bat脚本,.cmd,ps1，还可以添加python脚本封装成cmd脚本文件。目前我已经把.yt-dlp.exe, danmuku2ass.cmd（内有python xxx&#x2F;xxx&#x2F;xxx&#x2F;…&#x2F;danmuku2ass.py %* 命令）, 然后在Path环境变量中添加D:\mytools路径，这样就可以在任意位置使用这些脚本了。</p>
-<blockquote>
-<p>当然，使用Scoop包管理器安装的软件（如git, jdk, maven,…）也可以达到在任何路径下运行命令（我会专门出一篇博客介绍scoop</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>整活</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Python Journey</title>
     <url>/2025/04/23/Python-Journey/</url>
     <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>python其实是一门很简单易学的语言。 但是很多人依然学着头疼。 考虑到每个人的情况不同，本文主要面向没有太多项目经历但对计算机有了解（知道OOP，学过C&#x2F;Java…）的小白。<br>本文推荐了学习资源，介绍了我入门的过程。分析了导致python学习效果不好的原因（personal）。</p>
@@ -105,6 +105,19 @@
       <tags>
         <tag>Programming</tag>
         <tag>Python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>不一样的Git教程 —— GIT基础设置</title>
+    <url>/2025/04/19/gitconcepts/</url>
+    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>本文希望科普git的重要概念以更好地帮助你使用git。 看完本篇内容（git基础）你将方便地用git完成个人项目，但想管理团队，还需要更多的知识</p>
+<p>重点： 明白四个stage的概念。明白push, pull, commit, pull request的中文含义<br>非重点： 记指令的语法（因为github desktop完美替代了初学者所需的操作）</p>
+<h2 id="grocery"><a href="#grocery" class="headerlink" title="grocery"></a>grocery</h2>]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>GIT</tag>
       </tags>
   </entry>
   <entry>
@@ -137,30 +150,6 @@
       <tags>
         <tag>日记</tag>
         <tag>SDR入门</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>ffmpeg常用命令</title>
-    <url>/2025/07/04/ffmpeg%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
-    <content><![CDATA[<ol>
-<li><p>简单的剪辑，一刀切</p>
-</li>
-<li><p>插入英文字幕</p>
-</li>
-<li><p>为视频、音频文件插入thumbnail（封面）</p>
-</li>
-<li><p>合并音视频文件</p>
-</li>
-<li><p>剪辑<br>ffmpeg -i inputfile.mp4 -c copy -t xx:xx:xx -o outputname.mp4</p>
-</li>
-</ol>
-<p>常用参数：<br>-t 00:01:30：保留从开头到 1 分 30 秒的内容（按你的需求调整时间）<br>-c copy：直接复制流，无需重新编码（速度极快，质量无损）<br>-i 指定输入文件<br>-o output 指定输出文件</p>
-]]></content>
-      <categories>
-        <category>技术手册</category>
-      </categories>
-      <tags>
-        <tag>ffmpeg</tag>
       </tags>
   </entry>
   <entry>
@@ -229,10 +218,28 @@
       </tags>
   </entry>
   <entry>
-    <title></title>
-    <url>/2025/07/19/how-to-type-formula/</url>
-    <content><![CDATA[<p>$$<br>\sum_{i&#x3D;1}^{n}(X_i - \bar{X})^2 &#x3D; \sum_{i&#x3D;1}^{n}(X_i - \mu)^2 - n(\bar{X} - \mu)^2<br>$$</p>
+    <title>ffmpeg常用命令</title>
+    <url>/2025/07/04/ffmpeg%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
+    <content><![CDATA[<ol>
+<li><p>简单的剪辑，一刀切</p>
+</li>
+<li><p>插入英文字幕</p>
+</li>
+<li><p>为视频、音频文件插入thumbnail（封面）</p>
+</li>
+<li><p>合并音视频文件</p>
+</li>
+<li><p>剪辑<br>ffmpeg -i inputfile.mp4 -c copy -t xx:xx:xx -o outputname.mp4</p>
+</li>
+</ol>
+<p>常用参数：<br>-t 00:01:30：保留从开头到 1 分 30 秒的内容（按你的需求调整时间）<br>-c copy：直接复制流，无需重新编码（速度极快，质量无损）<br>-i 指定输入文件<br>-o output 指定输出文件</p>
 ]]></content>
+      <categories>
+        <category>技术手册</category>
+      </categories>
+      <tags>
+        <tag>ffmpeg</tag>
+      </tags>
   </entry>
   <entry>
     <title>二进制</title>
@@ -264,140 +271,10 @@
 ]]></content>
   </entry>
   <entry>
-    <title>git常用命令</title>
-    <url>/2025/07/05/git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>不一样的Git教程 —— GIT基础设置</title>
-    <url>/2025/04/19/gitconcepts/</url>
-    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>本文希望科普git的重要概念以更好地帮助你使用git。 看完本篇内容（git基础）你将方便地用git完成个人项目，但想管理团队，还需要更多的知识</p>
-<p>重点： 明白四个stage的概念。明白push, pull, commit, pull request的中文含义<br>非重点： 记指令的语法（因为github desktop完美替代了初学者所需的操作）</p>
-<h2 id="grocery"><a href="#grocery" class="headerlink" title="grocery"></a>grocery</h2>]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>GIT</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>ssh入门</title>
-    <url>/2025/04/29/ssh%E5%85%A5%E9%97%A8/</url>
-    <content><![CDATA[<h1 id="take-away-knowledge-concept"><a href="#take-away-knowledge-concept" class="headerlink" title="take away knowledge &amp; concept"></a>take away knowledge &amp; concept</h1><p>对于private repo, 即便是clone,也需要ssh</p>
-<p>ssh-keygen命令生成的<strong>两份文件</strong>：私钥和公钥（.pub）。你要把public key交给github</p>
-<p>每一次 clone &#x2F; push的Authentification过程：<br>github服务器给你的机器发公钥。 你的机器上<code>～/.ssh/</code>路径下存了唯一的私钥与之对应。即完成身份验证。</p>
-<h2 id="glossary"><a href="#glossary" class="headerlink" title="glossary"></a>glossary</h2><p>SSH： secure shell protocal</p>
-<h1 id="github场景-S1：增添新密码"><a href="#github场景-S1：增添新密码" class="headerlink" title="github场景-S1：增添新密码"></a>github场景-S1：增添新密码</h1><ul>
-<li>当你的项目团队有多个成员，你作为项目的owner，需要为你的团队成员设置SSH，这样他们才能在他们的电脑上更新项目（clone, push）</li>
-<li>还有一个情况，你有多台工作本，你需要为每一台机器上添加SSH，并在个人g-hub账户添加public key</li>
-</ul>
-<h2 id="background-and-task"><a href="#background-and-task" class="headerlink" title="background and task:"></a>background and task:</h2><p>linux + Windows 共同运营hexo blog. Add _post to repo, clone on git</p>
-<h2 id="过程记录（）"><a href="#过程记录（）" class="headerlink" title="过程记录（）"></a>过程记录（）</h2><ol>
-<li>最开始用https协议下载private repo代码失败。遂该用ssh。<code>git clone git@github.com:Optimushimeself/blogsource.git</code>自然报错。因为还没在我的github账号中配置本机的SSH。</li>
-<li>ssh-keygen <code>tyrone@Matrix:~/.ssh$ ssh-keygen -t [加密算法] -f [sshfileName]</code> t: type. github使用<code>ed25519</code>。 passphrase口令为空。自然也没关<code>ssh-agent</code>之类的“高级功能”。</li>
-<li>ssh-keygen得到两个文件，.pub后缀是公钥，扔到<code>github-&gt;setting-&gt;SSH&amp;GPG Keys</code></li>
-<li>（不知道是否靠谱）遇到一些代理问题，调成了全局代理，创建<code>~/.ssh/config</code>。重新运行<code>git clone git@github.com:OptimusHimself/blogsource.git</code>，中途谈了一个是否信任（老熟人了），无脑yes，最后成功克隆项目。</li>
-</ol>
-<h2 id="问题-故障记录"><a href="#问题-故障记录" class="headerlink" title="问题&#x2F;故障记录"></a>问题&#x2F;故障记录</h2><figure class="highlight livecodeserver"><table><tr><td class="code"><pre><code class="hljs livecodeserver">\\ 网络问题？<br>Cloning <span class="hljs-keyword">into</span> <span class="hljs-string">&#x27;blogsource&#x27;</span>...<br>kex_exchange_identification: <span class="hljs-built_in">read</span>: Connection reset <span class="hljs-keyword">by</span> peer<br>Connection reset <span class="hljs-keyword">by</span> <span class="hljs-number">20.205</span><span class="hljs-number">.243</span><span class="hljs-number">.166</span> port <span class="hljs-number">22</span><br>fatal: Could <span class="hljs-keyword">not</span> <span class="hljs-built_in">read</span> <span class="hljs-built_in">from</span> remote repository.<br><br>Please make sure you have <span class="hljs-keyword">the</span> correct access rights<br><span class="hljs-keyword">and</span> <span class="hljs-keyword">the</span> repository exists.<br></code></pre></td></tr></table></figure>
-
-<h1 id="github场景-S2：原来的私钥丢失or忘记passphrase"><a href="#github场景-S2：原来的私钥丢失or忘记passphrase" class="headerlink" title="github场景-S2：原来的私钥丢失or忘记passphrase()"></a>github场景-S2：原来的私钥丢失or忘记passphrase()</h1><p>这就是我为什么建议小白们最开始学习没必要设置passphrase,因为你会忘掉。 不过，只要能记得自己github账号的密码，问题都不大～<br>打开github网站，<code>github-&gt;setting-&gt;SSH&amp;GPG Keys</code>删掉你之前创建的钥匙，重新走一遍 <strong>github场景-S1</strong></p>
-<h1 id="使用ssh登陆服务器：传文件，训练模型…"><a href="#使用ssh登陆服务器：传文件，训练模型…" class="headerlink" title="使用ssh登陆服务器：传文件，训练模型…."></a>使用ssh登陆服务器：传文件，训练模型….</h1>]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>SSH</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>程序员科普：JSON、XML、YAML 三种数据格式的由来、应用与对比</title>
-    <url>/2025/05/19/dance-with-yaml/</url>
-    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>在前后端开发、配置管理、API 通信等领域，我们常常接触到三种主流的数据格式：JSON、XML 和 YAML。虽然它们的目标都是「让数据结构易于存储和传输」，但随着时代发展与技术演进，它们逐渐走上了不同的道路。本文将从历史演变、应用场景出发，结合语法特征，帮你快速理解这三种格式各自的定位与优劣。</p>
-<blockquote>
-<p>YAML ain’t markup language<br>ain’t markup language 度过xml的应该对markup lang都有些畏惧<br>所以，从这个名字就强调了YAML文件阅读友好，语义简洁的特点。</p>
-</blockquote>
-<h2 id="我为什么单独抽时间写一篇关于基础文件格式的科普文？"><a href="#我为什么单独抽时间写一篇关于基础文件格式的科普文？" class="headerlink" title="我为什么单独抽时间写一篇关于基础文件格式的科普文？"></a>我为什么单独抽时间写一篇关于基础<strong>文件格式</strong>的科普文？</h2><blockquote>
-<p>我认为，对于开发者而言，经验取决于你见过多少文件，写过多少代码，开发过多少项目。 从某个更具象的方面来说，则是你对一个文件格式的理解有多深。</p>
-<blockquote>
-<p>比方说，当开发&#x2F;阅读一个Verilog项目，你除了知道源文件的文件格式是.v， 你还知道你当前工作的文件,逻辑上遵循什么结构<strong>而不只是verilog语法本身</strong>，而这就体现工程师软件设计的功底。<br>再比方说， 一个C项目,你看到Makefile,就能想到它的作用. 你拿到一个.xml,你有自己的阅读习惯.</p>
-</blockquote>
-</blockquote>
-<h1 id="Mark-up-Language"><a href="#Mark-up-Language" class="headerlink" title="Mark up Language"></a>Mark up Language</h1><h2 id="简单问题快答"><a href="#简单问题快答" class="headerlink" title="简单问题快答"></a>简单问题快答</h2><ol>
-<li>这个概念哪儿来的？</li>
-</ol>
-<p>Web1.0 为排版而生。说到排版,想到:LaTex, HTML,…..<br>实现上，浏览器底层代码对标记语言文件<strong>按语法规则</strong>解析。</p>
-<ol start="2">
-<li>标记语言长什么样？</li>
-</ol>
-<ul>
-<li>再怎么说,和源代码文件一样,他是一个文本文件. 只不过和纯粹的.txt相比,有规范的语法.</li>
-<li>可以简单的认为，含尖括号语法的就是标记语言。代表: <ul>
-<li>HTML（ Hpyer Text Markup Language ）</li>
-<li>XML （ eXtensible Markup Language ）</li>
-</ul>
-</li>
-</ul>
-<h2 id="瞎编的两个故事"><a href="#瞎编的两个故事" class="headerlink" title="瞎编的两个故事"></a>瞎编的两个故事</h2><p>1.标记语言和HTML,XML的那段历史</p>
-<p>最早的互联网全是静态网页。就是大片的文字放到网上供人们浏览。而没有交互性。<br>标记语言也是在这个行情下诞生的，通过标记的方式，让浏览器渲染出：有排版（居中、左对齐、….）、各种花哨字体、加粗和颜色、在特定位置呈现文字等功能的文字。<br>标记语言什么语法不重要，重点是，浏览器的底层有一个parser为用户呈现完美渲染后的网页</p>
-<ol start="2">
-<li>聊聊<a href="https://daringfireball.net/projects/markdown/basics">Markdown</a>：</li>
-</ol>
-<ul>
-<li>从标记语言的功能上看，Markdown算是标记语言，而且Markdown file 兼容HTML语法，</li>
-<li>从名字上认为Markdown是一种标记语言，也不矛盾。英文上 mark-up 就是用尖括号标签来表注。 mark-down只不过是用更简洁的符号来实现<strong>文本排版、文字强调</strong>等功能。至于名字的由来，估计是作者调皮了一下。</li>
-<li><a href="https://daringfireball.net/projects/markdown/">markdown作者</a>：约翰格鲁伯，perl解析器. （好，上面也说了markdown is a popular markup language….</li>
-</ul>
-<h1 id="一、趣味知识：起源与发展"><a href="#一、趣味知识：起源与发展" class="headerlink" title="一、趣味知识：起源与发展"></a>一、趣味知识：起源与发展</h1><table>
-<thead>
-<tr>
-<th></th>
-<th></th>
-<th></th>
-</tr>
-</thead>
-<tbody><tr>
-<td>格式</td>
-<td>出现时间</td>
-<td>主要背景与用途</td>
-</tr>
-<tr>
-<td>XML</td>
-<td>1998</td>
-<td>为了解决 HTML 无法表示结构化数据的问题，适合数据存档、文档结构描述。</td>
-</tr>
-<tr>
-<td>JSON</td>
-<td>2001</td>
-<td>JavaScript 中的轻量数据交换格式，随着 AJAX 崛起而成为 Web 首选。</td>
-</tr>
-<tr>
-<td>YAML</td>
-<td>2004</td>
-<td>Yet Another Markup Language，语法更清晰，主要用于配置文件和 DevOps 场景。</td>
-</tr>
-</tbody></table>
-<ol>
-<li><p>XML：曾经的霸主<br>XML最初是为了扩展 HTML 的表达能力，<strong>使得数据能像文档一样有结构、有语义</strong>。由于它高度结构化、支持复杂嵌套、具备数据验证机制（如 DTD&#x2F;XSD），曾一度在 SOAP 协议、早期 Web 服务和企业系统中广泛使用。</p>
-</li>
-<li><p>JSON：现代 Web 的基石<br>随着 JavaScript 和 AJAX 的流行，JSON（JavaScript Object Notation）凭借轻量、直观、<strong>易解析</strong>的优势迅速取代 XML，成为<strong>前后端通信的标准格式</strong>，尤其适用于<strong>API数据传输</strong>。</p>
-</li>
-<li><p>YAML：简洁的配置王者<br>YAML 诞生之初就是为了人类友好，<strong>语法极简、可读性极强</strong>，因此<strong>非常适合写配置文件</strong>。你可以在 Docker、Kubernetes、GitHub Actions 等 DevOps 工具中频繁看到它的身影。</p>
-</li>
-</ol>
-<h1 id="二、语法要点"><a href="#二、语法要点" class="headerlink" title="二、语法要点"></a>二、语法要点</h1><h2 id="文件后缀名"><a href="#文件后缀名" class="headerlink" title="文件后缀名"></a>文件后缀名</h2><h2 id="注释"><a href="#注释" class="headerlink" title="注释"></a>注释</h2><ol>
-<li>XML <!-- 把我注了吧 --></li>
-<li>json无注释</li>
-<li>YAML 使用<code>#</code></li>
-</ol>
-<h2 id="json特点："><a href="#json特点：" class="headerlink" title="json特点："></a>json特点：</h2><p>整体用一个大括号包住，Python键值对。 键用string <code>&quot;&quot;</code>，值可以是：<code>string</code>, <code>list []</code> <code>dictionary</code></p>
-<h2 id="serialization"><a href="#serialization" class="headerlink" title="serialization"></a>serialization</h2>]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>file format</tag>
-      </tags>
+    <title></title>
+    <url>/2025/07/19/how-to-type-formula/</url>
+    <content><![CDATA[<p>$$<br>\sum_{i&#x3D;1}^{n}(X_i - \bar{X})^2 &#x3D; \sum_{i&#x3D;1}^{n}(X_i - \mu)^2 - n(\bar{X} - \mu)^2<br>$$</p>
+]]></content>
   </entry>
   <entry>
     <title>uv常用命令</title>
@@ -415,180 +292,6 @@
       </categories>
       <tags>
         <tag>uv</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>unzip命令</title>
-    <url>/2025/07/04/unzip%E5%91%BD%E4%BB%A4/</url>
-    <content><![CDATA[<h1 id="Windows-powershell"><a href="#Windows-powershell" class="headerlink" title="Windows - powershell"></a>Windows - powershell</h1><p>Expand-Archieve</p>
-<ul>
-<li>Destination-Path</li>
-</ul>
-<h1 id="Linux-Bash"><a href="#Linux-Bash" class="headerlink" title="Linux - Bash"></a>Linux - Bash</h1><h2 id="tar"><a href="#tar" class="headerlink" title="tar"></a>tar</h2>]]></content>
-      <categories>
-        <category>命令集</category>
-      </categories>
-      <tags>
-        <tag>archieve</tag>
-        <tag>files</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>保研心得</title>
-    <url>/2025/07/01/%E4%BF%9D%E7%A0%94%E5%BF%83%E5%BE%97/</url>
-    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>其实这篇文章里的很多内容不适合公开。 因为说话是要负责任的嘛。</p>
-<p>想通过这篇文章回答很多曾经的焦虑，对比自己的成长。</p>
-<h1 id="回忆录"><a href="#回忆录" class="headerlink" title="回忆录"></a>回忆录</h1><h2 id="惊艳我的团队-实验室"><a href="#惊艳我的团队-实验室" class="headerlink" title="惊艳我的团队&#x2F;实验室"></a>惊艳我的团队&#x2F;实验室</h2><p>UESTC mobile<br>BNU AI阵容很强，很多海归<br>SYSU AI阵容很强<br>XJTU<br>西北工大</p>
-<h2 id="痛点"><a href="#痛点" class="headerlink" title="痛点"></a>痛点</h2><p>没有提前联系导师。申请BNU的AI需要在志愿中指明导师。显然，这需要你和教授提前联系。不然成功率很低。 我在报名截至的前一天还没有和导师邮件联系。</p>
-<p>（中山CS）直博要两封专家推荐信。 副教授以上而且要计算机相关学科。高数老师还不行。临时准备很难受的。</p>
-<h1 id="感慨"><a href="#感慨" class="headerlink" title="感慨"></a>感慨</h1><h2 id="文书"><a href="#文书" class="headerlink" title="文书"></a>文书</h2><p>从一开始我就对自己很不抱自信。看了绿裙里的一些帖子，觉得自己不会被xxx…xxx…xxx接收。准备也是徒劳。<br>慢慢的看了师资介绍里的专家们，燃起了读研的冲动。又认真地准备材料<br>其实，保研夏令营就是一种磨砺。 这是一个很宝贵的锻炼机会。 端平心态，认真准备每一个投递。</p>
-<h2 id="选专业"><a href="#选专业" class="headerlink" title="选专业"></a>选专业</h2><p>一开始有很多方向可以报。 到后来隐约觉得“摇摆不定”不好。 到最后：有书读就行，只要能做，就有意义。  </p>
-<p>我想很多同学和我一样，热爱技术，但在本科并没有在某一个方向取得特别突出的成绩或者某个方向了解得尤为深入。 大部分本科生无法对一个领域的研究现状有全面的认识。 所以，会有“啥都能报，啥都能做”的感觉。 我认为这才是正常本科生应该有的状态。说实话，绝大多数学校（双非、211）在本科并不会让学生花太多时间研究一个课题，就算有也是在大四毕设阶段。 大一到大三主要还是学知识、通识教育。 如果在大一到大三这三年没进入课题组搞科研，很难肯定自己的科研水平如何。</p>
-<p>所以，结论是：不必太纠结于方向。 如果你觉得某个方向符合你的口味，就报。<br>以下是我和白耀辉教授交流的总结：</p>
-<ul>
-<li>不只有热门专业（大部分老师在研究的、经常出现的关键词）具有研究价值。很多时候你认为没有价值、很抽象的keyword, field。只是因为你没有做进去，你不了解。 而那些你以为你会感兴趣的，当你从事相关研究的时候，你发现他其实很枯燥。 甚至非常卷，因为专业壁垒低，谁都能快速入门。<ul>
-<li>拿CV方向为例。</li>
-</ul>
-</li>
-<li>不只有热门专业好找工作。 一个方向你做得好，照样会有大厂的xxx实验室重金聘请你。前提是你研究成果很多。</li>
-<li>去一个好学校有助于你找工作。 <ul>
-<li>实际上，在一个双非学校不代表没有前途。在保研、逛学校的过程中，我看到了很多用心“经营”夏令营的学校。 我还看到很多双非院校，请到了很优秀的老师，发表了很多有价值的成果。 虽然大多数好学生不一定会选择双非学校读研。但我认为，人才是可以培养的：当你有一个不放弃你的好导师加上学院提供的经济支持。 双非也能出高手。 之后再用点老师的人脉，照样可以去很优秀的企业。 还是那句话：你在研究生干出的成果，和你学校的title同等重要。</li>
-</ul>
-</li>
-</ul>
-<p>当然，也有部分同学有梦想的职业，于是读研也往同一个方向投。比如我的好朋友就希望以后从事游戏设计，读研就常关注数字媒体专业、计算机图形学。 </p>
-<h1 id="最后：Advice-for-“大一就想baoyan”"><a href="#最后：Advice-for-“大一就想baoyan”" class="headerlink" title="最后：Advice for “大一就想baoyan”"></a>最后：Advice for “大一就想baoyan”</h1><ul>
-<li>看绿裙的帖子。 知道哪些奖有重量级，哪些则是水奖</li>
-<li>卯足了劲考第一，不要问为什么。</li>
-<li>学有余力水篇文章出来。很多985研&#x2F;直博很看重论文&#x2F;软著&#x2F;专利成果。</li>
-</ul>
-<h2 id="如果你是高中生"><a href="#如果你是高中生" class="headerlink" title="如果你是高中生"></a>如果你是高中生</h2><ul>
-<li>专心听讲。考一个好大学&#x2F;读一个好专业 -&gt; 有一个好title<ul>
-<li>当你能到一个好大学，你直接联系你的任课老师，读他的研究生。省巨多事情</li>
-</ul>
-</li>
-</ul>
-]]></content>
-  </entry>
-  <entry>
-    <title>刷机心得</title>
-    <url>/2025/07/25/%E5%88%B7%E6%9C%BA%E5%BF%83%E5%BE%97/</url>
-    <content><![CDATA[<h1 id="梳理1-Ace-3-Pro的“刷机”方案"><a href="#梳理1-Ace-3-Pro的“刷机”方案" class="headerlink" title="梳理1+ Ace 3 Pro的“刷机”方案"></a>梳理1+ Ace 3 Pro的“刷机”方案</h1><h2 id="重要说明"><a href="#重要说明" class="headerlink" title="重要说明"></a>重要说明</h2><ul>
-<li><p>这里说的刷机：只做到了利用 “KenerlSU Hook” 得到设备 Root 权限——当然也是当下比较常见的语意。<br><strong>并没有换第三方ROM</strong>，如 <a href="https://wiki.lineageos.org/devices/">Lineage OS</a>。原因：在我发现 boot.img 的版本和设备型号 &#x2F; ROM 不匹配会让手机变砖后，我决定<strong>拿完 root 就老实</strong>。 </p>
-</li>
-<li><p>Root 方案: KernelSU, 性质都一样（使用LSPosed管理权限）          &#x2F;&#x2F; Magisk尝试了，可能是ColorOS版本太新，Magisk还不支持</p>
-</li>
-<li><p>系统：安卓14及以上。原厂ROM（Color OS 15） 内核版本Linux6 + &#x2F;&#x2F;意味着不能支持“Recovery&#x2F;TWRP” Root方案</p>
-</li>
-</ul>
-<h2 id="第一步：解BL锁。"><a href="#第一步：解BL锁。" class="headerlink" title="第一步：解BL锁。"></a>第一步：解BL锁。</h2><p> 之后会讲BL锁是什么以及为什么必须解开</p>
-<blockquote>
-<p>这一步的关键角色： 一个能解BL的手机。 一台有ADB工具的电脑（其实手机也可以），一根数据线。</p>
-<blockquote>
-<p>tips: 大侠阿木的刷机工具箱就相当于是对ADB的用户友好的封装。而且集成了很多有用的功能。可以说刷机小白必备。而且，（我猜）这款工具适用于其他能解BL锁的手机</p>
-</blockquote>
-</blockquote>
-<p>解BL锁有两种做法，步骤都很简单。</p>
-<ol>
-<li>使用大侠阿木的工具箱。 一键解锁。</li>
-<li>使用ADB命令。 自己网上查：xxx设备 解BL锁。</li>
-</ol>
-<p>额外说明：</p>
-<ul>
-<li>解BL锁本身不难。只要设备能解BL锁。 </li>
-<li>第一步成功的标志：重启手机，你可以看到第一个页面（启动页面）出现类似：device unlocked, orange mode之类字样。</li>
-</ul>
-<h2 id="第二步：-magisk打补丁-Hook"><a href="#第二步：-magisk打补丁-Hook" class="headerlink" title="第二步： magisk打补丁&#x2F;Hook"></a>第二步： magisk打补丁&#x2F;Hook</h2><blockquote>
-<p>关键角色：同样，一台有ADB工具的电脑。 当前系统的ROM（.zip格式）。解了BL锁的手机并安装magisk</p>
-</blockquote>
-<p>流程&#x2F;原理： </p>
-<ol>
-<li>下载当前设备ROM</li>
-<li>从中得到boot.img（未修改）。 </li>
-<li>用magisk修改boot.img。 </li>
-<li>ADB环节：用ADB工具将修改过的boot.img刷入另一个启动分区。并设置设备从该分区启动。</li>
-</ol>
-<p>P.S. KernelSU&#x2F;Magisk等等 Root方案 使用大侠阿木的工具箱都可以一键搞定<br>tips： </p>
-<ol>
-<li>下载ROM一定要仔细比对是不是和当前系统完全一致。 不只是大版本号，后面的数字、字符串也要一样！！相信我！</li>
-<li>下载的ROM是zip格式。里面不一定带有boot.img。 你需要用到payload-dumper. 具体怎么用去读文档。 </li>
-<li>因为KernelSU在Android OS运行，你需要boot.img上传到手机上。 打开magisk,选中放boot.img的路径。 你应该可以在相同路径下得到要给修补后的boot.img</li>
-<li>useful commands：<br>查看当前启动分区：<code>fastboot getvar current-slot</code><br>把修补后的boot.img刷写到另一个分区 <code>fastboot flash boot_a kernerlSU-patched-boot.img</code><br>修改默认boot分区： <code>fastboot --set-active=a</code></li>
-</ol>
-<p>说明<br>如果成功了，打开Magisk(面具App)，显示“已激活”。说明root成功。接下来就是安装一些模块让root隐身。让应用程序检查不出设备root的痕迹。</p>
-<h2 id="第二步：但是KernelSU"><a href="#第二步：但是KernelSU" class="headerlink" title="第二步：但是KernelSU"></a>第二步：但是KernelSU</h2><blockquote>
-</blockquote>
-<p>for 小白：1+工具箱一键搞定。<br>步骤&#x2F;原理：</p>
-<h2 id="第三步：-KernelSU安装Zygisk等模块，更好的隐藏root"><a href="#第三步：-KernelSU安装Zygisk等模块，更好的隐藏root" class="headerlink" title="第三步： KernelSU安装Zygisk等模块，更好的隐藏root"></a>第三步： KernelSU安装Zygisk等模块，更好的隐藏root</h2><h2 id="菜逼的唠嗑"><a href="#菜逼的唠嗑" class="headerlink" title="菜逼的唠嗑"></a>菜逼的唠嗑</h2><p>所谓的组合键是用来进入fastboot模式的。完全可以用ADB来实现<br><code>adb devices</code><br><code>adb reboot bootloader</code><br><code>fastboot devices</code>  可以看到成功进入fastboot mode</p>
-<p>聊聊KernelSU：个人感觉比Magisk强大，易于使用。 因为在工具箱使用中发现Magisk root并不成功。而KernelSU一键解决了</p>
-<p>你常听到的boot, recovery mode, fastboot mode, TWRP:<br>似乎是Android 8 之后就开始采用“boot_a boot_b”滚动更新的方案了。 当你的手机系统（color OS 14）发布新版本(Color OS 15)。他会在a分区保留当前的Color OS 14的boot.img, 把Color OS 15的boot.img下载到b分区。 当你确认更新系统，install Color OS 15, 下一次启动将使用boot_b分区</p>
-<p>给新手的建议：<br>刷机这事吧，难也不难。教程一堆，10年前就有很多前辈玩得明明白白了。 但碎片化严重，大堆专业术语，没搞明白原理很可能看着手机变砖。<br>关键是要搞清楚你的设备获取root权限的原理。 KernelSU， magisk的原理。这篇博客并没有用心的介绍每个技术名词的百科。 一方面是自己的知识深度和表达能力的限制。另一方面是想留给各位探索。 个人认为：整活多少伴随一段知识积累的过程。</p>
-<p>担心变砖？<br>没有必要因为这份顾虑阻碍了前进。<br>就算变砖了也一定能修好的。相信我，不难。你可以试试下载正确版本的ROM，把boot.img刷到boot_a, boot_b. （fastboot flash boot_a boot_b IMG-PATH）</p>
-<p>不要随便更新系统，除非看到有人把LSPosed做好了</p>
-<h2 id="Resources"><a href="#Resources" class="headerlink" title="Resources"></a>Resources</h2><p><a href="https://optool.daxiaamu.com/optool/">https://optool.daxiaamu.com/optool/</a>   一加全能工具箱(PC端使用)<br><a href="https://yun.daxiaamu.com/OnePlus_Roms/">https://yun.daxiaamu.com/OnePlus_Roms/</a> 我目前知道的官方ROM的唯一渠道<br><a href="https://github.com/ssut/payload-dumper-go">https://github.com/ssut/payload-dumper-go</a>  An android OTA payload dumper written in Go.<br>KernelSU<br>LSPosed </p>
-]]></content>
-  </entry>
-  <entry>
-    <title>博客新主题-Fluid入门体验</title>
-    <url>/2025/06/27/%E5%8D%9A%E5%AE%A2%E6%96%B0%E4%B8%BB%E9%A2%98-Fluid%E5%85%A5%E9%97%A8%E4%BD%93%E9%AA%8C/</url>
-    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>安装、更新与卸载。 &amp; 配置<br>特色功能：</p>
-<ul>
-<li>index_img</li>
-<li>打字机 &amp; slogan</li>
-<li>背景图</li>
-</ul>
-<p>文章：</p>
-<ul>
-<li>LaTex</li>
-<li>Mermaid</li>
-<li>组图</li>
-</ul>
-<h1 id="主题管理"><a href="#主题管理" class="headerlink" title="主题管理"></a>主题管理</h1><p>第一次安装next主题，没有用NPM，直接下的源码包。放到了themes文件夹里。这样做的坏处是：如果要更新新版的next要下载新版的源码包。重新放在thmems文件夹。更可怕的是：原来的_config.yml(next的)可能和新版的不兼容。又要重新写一遍。<br>删除方法很简单：直接把thmem&#x2F;next删掉就好了</p>
-<p>所以这次装fluid学聪明了。使用npm安装<code>npm  install --save hexo-theme-fluid</code></p>
-<ul>
-<li>如果要更新的话<ul>
-<li><code>npm outdated</code>查看可安装的包</li>
-<li><code>npm update hexo-theme-fluid</code> update~</li>
-</ul>
-</li>
-<li>如果要删除主题&#x2F;包<ul>
-<li><code>npm uninstall hexo-theme-fluid</code></li>
-</ul>
-</li>
-</ul>
-<p>我有两个用心配置的主题：Fluid, Next(gemini) 如果一个看腻了，想换一个主题。easy. 在_config.yml theme属性的值改掉就好</p>
-<h1 id="可怕的image"><a href="#可怕的image" class="headerlink" title="可怕的image"></a>可怕的image</h1><h2 id="index-img"><a href="#index-img" class="headerlink" title="index_img"></a>index_img</h2><p>可以给首页的每一条博客插入一个图片。在Fluid中被定义为<code>index_img</code>属性。 需要放在front-matter<br>fluid所有的图片的相对路径在<code>hexo-theme-fluid/source/</code>下。<br>所以<code>index_img</code>应该填的值应该以<code>/img</code>开头。例如<code>img/example.jpg</code> </p>
-<blockquote>
-<p>感觉这挺麻烦的。 不仅要在<code>hexo-theme-fluid/source/</code>这个奇怪的路径下管理资源。<br>当 default_index_img 和 index_img 都为空时，该文章在首页将不显示图片。 default_index_img在_config.fluid.yml设置<br>所有的图片路径都是相对于<code>hexo-theme-fluid/source/</code>, md语法：<code>![NAME](PATH)</code></p>
-</blockquote>
-<h2 id="banner-img"><a href="#banner-img" class="headerlink" title="banner_img"></a>banner_img</h2><p>英语中 banner的意思是：横幅<br>banner image 是每一个网页顶部的大图</p>
-<h1 id="slogan"><a href="#slogan" class="headerlink" title="slogan"></a>slogan</h1><p>进入友链页，打字机的默认输出是：友链。 但是可以改成其他的内容，比如:<em>春风桃李一杯酒</em><br>还有关于页，我们也可以把冰冷的输出“关于”。改成“A Foodie, A Hacker, A Ganster”</p>
-<p>设置友链打字机输出：<br>_config.fluid.yml 找到links的配置，添加属性：<code>subtitle</code>，值 “桃李春风一杯酒”<br>设置友链打字机输出：<br>about 的 index.md，frontend添加subtitle属性</p>
-<h1 id="背景图"><a href="#背景图" class="headerlink" title="背景图"></a>背景图</h1><p>友链页、关于页、标题页、分类页的默认背景都是Fluid的默认图片：Tower. 能不能把他们换成一个系列的呢？比如全套的漫威英雄？或者钢铁侠的机甲。</p>
-<h1 id="边角料"><a href="#边角料" class="headerlink" title="边角料"></a>边角料</h1><h2 id="整体字体"><a href="#整体字体" class="headerlink" title="整体字体"></a>整体字体</h2><p>默认字体太丑了。 我喜欢落霞孤鹜，思源宋体也不错。</p>
-<h2 id="footer"><a href="#footer" class="headerlink" title="footer"></a>footer</h2><p>默认是Hexo love Fluid<br>可以把Hexo 和 Fluid改掉（如果你有女朋友，你女朋友刚好也有一个Blog嘿嘿</p>
-<h2 id="首页更多icons"><a href="#首页更多icons" class="headerlink" title="首页更多icons"></a>首页更多icons</h2><h2 id=""><a href="#" class="headerlink" title=""></a></h2>]]></content>
-  </entry>
-  <entry>
-    <title>人生规划</title>
-    <url>/2025/06/30/%E4%BA%BA%E7%94%9F%E8%A7%84%E5%88%92/</url>
-    <content><![CDATA[<p>近况介绍：<br>从6.20考完期末到今天差不多有两周的时间。 我没有成为大三下想象中的：“学各种感兴趣的知识、DIY&#x2F;复刻有趣的项目”。而是整天开着微信，关注各个高校的保研信息。这没错，当务之急确实是找到未来的研究方向。我也逐渐适应了上午下午关注保研申请、晚上放松&#x2F;学习知识的工作模式。</p>
-<p>虽然有事忙，但我还是相比以前放松了很多。可以说在申请读研的事上不总是100%投入。 我看了很多改变我对自己的认识的内容，包括南大jyy2025的OS课程，诺伯特·维纳写的控制论，鬼灭之刃无限列车篇的最后一集、游郭篇的最后一集，回顾精彩的战斗场景、炎柱说的话， zhan哥对学历的看法-回应网上讽刺学历无用的言论；也和一些正能量的老师同学亲人交流了自己的情况和未来的规划。这些杂乱的内容和我没劲的生活联系在一起。才有了这篇博客。</p>
-<p>我忽然意识到，即便我投入了很多时间在学习技术而非游戏、恋爱、逛街、刷手机这些所谓不正经的事业。 我依然认为自己是一个没有目标的人。 或者说，自己不擅长调动自己的毅力——只在有意思的东西面前投入时间，而没有长远的规划。</p>
-<h1 id="读研、博-职业规划"><a href="#读研、博-职业规划" class="headerlink" title="读研、博&amp;职业规划"></a>读研、博&amp;职业规划</h1><p>读博是必然。打造自己的技术壁垒从而获取能显著提升人生物质层面舒适度的薪资<br>假如我成功保研HUST<br>我要积极参加学术会议。 多多去听正能量的人的发言。</p>
-<p>我想研究一套AI和硬件交互的协议。 AI可以安全地管理所有的硬件。就像钢铁侠的JARVIS一样。 有生之年如果能见证贾维斯的诞生，也是圆梦了。</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>保研时期的我</title>
-    <url>/2025/03/20/%E4%BF%9D%E7%A0%94%E6%97%B6%E6%9C%9F%E7%9A%84%E6%88%91/</url>
-    <content><![CDATA[<p>保研圈，不乏激烈的竞争。在这个圈子里，我看到了可敬的对手，看到了绿群里的大佬，也坚定了我的梦想。我的愿望是到名校和更好的老师、同学、师兄师姐们交流学习。我相信，只要保研到我的梦校浙大、进入到研究小组中，就一定能进步、学习更多的专业技能。以后就能做更多有价值的事情。<br>但最近，我变得有些紧张，我担心我的简历还不够好，算法题刷得还不够多，没有论文背景，“套磁“也没人肯收我。我一直在攀比，生怕把学习专业课而不是卷所谓的那些算法、论文是在浪费时间。<br>我还纠结自己适合什么专业，能读什么专业。是偏向研究底层的方向（计算机架构、分布式系统、网络）还是前沿的应用方向（软件开发、AI）。对各个行业都略懂一二的我对自己说，都行，哪个要我就去哪儿。但不管在哪个领域，我做的，一定是有挑战性的工作！<br>说回时间分配的事情，我不想太卷课外的那些技术。 专业知识一定是第一位的。先不说以后会不会读通信、计网这块的研究生；我从IoT出来的，别人问我一个通信相关的概念而我却毫无直觉，真觉得丢人——就这还读研。 所以说，如果以后有老师觉得我简历上的研究经历不如别人突出，请看看我的专业课成绩、对专业知识的理解。<br>本科培养出来的，就不应该是什么研究精英，而是一个通识了专业领域各个方面的，有知识的人。路还很长，研究生阶段，你不可能有这样泡馆、看专业书籍、一步步推演理论的时间。<br>对于保研竞争这一块，我相信船到桥头自然直，熬过这一段，你一定会在学习课外知识的时候更有感悟。我还坚信阿德勒心理学，一切都是目的驱动的。潇洒自如、倾听自己的内心吧，真到要你做重大选择的节骨眼上了，你也一定能适应的。</p>
-]]></content>
-      <categories>
-        <category>生活感悟</category>
-      </categories>
-      <tags>
-        <tag>日记</tag>
       </tags>
   </entry>
   <entry>
@@ -764,6 +467,359 @@
       </tags>
   </entry>
   <entry>
+    <title>保研心得</title>
+    <url>/2025/07/01/%E4%BF%9D%E7%A0%94%E5%BF%83%E5%BE%97/</url>
+    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>其实这篇文章里的很多内容不适合公开。 因为说话是要负责任的嘛。</p>
+<p>想通过这篇文章回答很多曾经的焦虑，对比自己的成长。</p>
+<h1 id="回忆录"><a href="#回忆录" class="headerlink" title="回忆录"></a>回忆录</h1><h2 id="惊艳我的团队-实验室"><a href="#惊艳我的团队-实验室" class="headerlink" title="惊艳我的团队&#x2F;实验室"></a>惊艳我的团队&#x2F;实验室</h2><p>UESTC mobile<br>BNU AI阵容很强，很多海归<br>SYSU AI阵容很强<br>XJTU<br>西北工大</p>
+<h2 id="痛点"><a href="#痛点" class="headerlink" title="痛点"></a>痛点</h2><p>没有提前联系导师。申请BNU的AI需要在志愿中指明导师。显然，这需要你和教授提前联系。不然成功率很低。 我在报名截至的前一天还没有和导师邮件联系。</p>
+<p>（中山CS）直博要两封专家推荐信。 副教授以上而且要计算机相关学科。高数老师还不行。临时准备很难受的。</p>
+<h1 id="感慨"><a href="#感慨" class="headerlink" title="感慨"></a>感慨</h1><h2 id="文书"><a href="#文书" class="headerlink" title="文书"></a>文书</h2><p>从一开始我就对自己很不抱自信。看了绿裙里的一些帖子，觉得自己不会被xxx…xxx…xxx接收。准备也是徒劳。<br>慢慢的看了师资介绍里的专家们，燃起了读研的冲动。又认真地准备材料<br>其实，保研夏令营就是一种磨砺。 这是一个很宝贵的锻炼机会。 端平心态，认真准备每一个投递。</p>
+<h2 id="选专业"><a href="#选专业" class="headerlink" title="选专业"></a>选专业</h2><p>一开始有很多方向可以报。 到后来隐约觉得“摇摆不定”不好。 到最后：有书读就行，只要能做，就有意义。  </p>
+<p>我想很多同学和我一样，热爱技术，但在本科并没有在某一个方向取得特别突出的成绩或者某个方向了解得尤为深入。 大部分本科生无法对一个领域的研究现状有全面的认识。 所以，会有“啥都能报，啥都能做”的感觉。 我认为这才是正常本科生应该有的状态。说实话，绝大多数学校（双非、211）在本科并不会让学生花太多时间研究一个课题，就算有也是在大四毕设阶段。 大一到大三主要还是学知识、通识教育。 如果在大一到大三这三年没进入课题组搞科研，很难肯定自己的科研水平如何。</p>
+<p>所以，结论是：不必太纠结于方向。 如果你觉得某个方向符合你的口味，就报。<br>以下是我和白耀辉教授交流的总结：</p>
+<ul>
+<li>不只有热门专业（大部分老师在研究的、经常出现的关键词）具有研究价值。很多时候你认为没有价值、很抽象的keyword, field。只是因为你没有做进去，你不了解。 而那些你以为你会感兴趣的，当你从事相关研究的时候，你发现他其实很枯燥。 甚至非常卷，因为专业壁垒低，谁都能快速入门。<ul>
+<li>拿CV方向为例。</li>
+</ul>
+</li>
+<li>不只有热门专业好找工作。 一个方向你做得好，照样会有大厂的xxx实验室重金聘请你。前提是你研究成果很多。</li>
+<li>去一个好学校有助于你找工作。 <ul>
+<li>实际上，在一个双非学校不代表没有前途。在保研、逛学校的过程中，我看到了很多用心“经营”夏令营的学校。 我还看到很多双非院校，请到了很优秀的老师，发表了很多有价值的成果。 虽然大多数好学生不一定会选择双非学校读研。但我认为，人才是可以培养的：当你有一个不放弃你的好导师加上学院提供的经济支持。 双非也能出高手。 之后再用点老师的人脉，照样可以去很优秀的企业。 还是那句话：你在研究生干出的成果，和你学校的title同等重要。</li>
+</ul>
+</li>
+</ul>
+<p>当然，也有部分同学有梦想的职业，于是读研也往同一个方向投。比如我的好朋友就希望以后从事游戏设计，读研就常关注数字媒体专业、计算机图形学。 </p>
+<h1 id="最后：Advice-for-“大一就想baoyan”"><a href="#最后：Advice-for-“大一就想baoyan”" class="headerlink" title="最后：Advice for “大一就想baoyan”"></a>最后：Advice for “大一就想baoyan”</h1><ul>
+<li>看绿裙的帖子。 知道哪些奖有重量级，哪些则是水奖</li>
+<li>卯足了劲考第一，不要问为什么。</li>
+<li>学有余力水篇文章出来。很多985研&#x2F;直博很看重论文&#x2F;软著&#x2F;专利成果。</li>
+</ul>
+<h2 id="如果你是高中生"><a href="#如果你是高中生" class="headerlink" title="如果你是高中生"></a>如果你是高中生</h2><ul>
+<li>专心听讲。考一个好大学&#x2F;读一个好专业 -&gt; 有一个好title<ul>
+<li>当你能到一个好大学，你直接联系你的任课老师，读他的研究生。省巨多事情</li>
+</ul>
+</li>
+</ul>
+]]></content>
+  </entry>
+  <entry>
+    <title>git常用命令</title>
+    <url>/2025/07/05/git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>人生规划</title>
+    <url>/2025/06/30/%E4%BA%BA%E7%94%9F%E8%A7%84%E5%88%92/</url>
+    <content><![CDATA[<p>近况介绍：<br>从6.20考完期末到今天差不多有两周的时间。 我没有成为大三下想象中的：“学各种感兴趣的知识、DIY&#x2F;复刻有趣的项目”。而是整天开着微信，关注各个高校的保研信息。这没错，当务之急确实是找到未来的研究方向。我也逐渐适应了上午下午关注保研申请、晚上放松&#x2F;学习知识的工作模式。</p>
+<p>虽然有事忙，但我还是相比以前放松了很多。可以说在申请读研的事上不总是100%投入。 我看了很多改变我对自己的认识的内容，包括南大jyy2025的OS课程，诺伯特·维纳写的控制论，鬼灭之刃无限列车篇的最后一集、游郭篇的最后一集，回顾精彩的战斗场景、炎柱说的话， zhan哥对学历的看法-回应网上讽刺学历无用的言论；也和一些正能量的老师同学亲人交流了自己的情况和未来的规划。这些杂乱的内容和我没劲的生活联系在一起。才有了这篇博客。</p>
+<p>我忽然意识到，即便我投入了很多时间在学习技术而非游戏、恋爱、逛街、刷手机这些所谓不正经的事业。 我依然认为自己是一个没有目标的人。 或者说，自己不擅长调动自己的毅力——只在有意思的东西面前投入时间，而没有长远的规划。</p>
+<h1 id="读研、博-职业规划"><a href="#读研、博-职业规划" class="headerlink" title="读研、博&amp;职业规划"></a>读研、博&amp;职业规划</h1><p>读博是必然。打造自己的技术壁垒从而获取能显著提升人生物质层面舒适度的薪资<br>假如我成功保研HUST<br>我要积极参加学术会议。 多多去听正能量的人的发言。</p>
+<p>我想研究一套AI和硬件交互的协议。 AI可以安全地管理所有的硬件。就像钢铁侠的JARVIS一样。 有生之年如果能见证贾维斯的诞生，也是圆梦了。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>博客新主题-Fluid入门体验</title>
+    <url>/2025/06/27/%E5%8D%9A%E5%AE%A2%E6%96%B0%E4%B8%BB%E9%A2%98-Fluid%E5%85%A5%E9%97%A8%E4%BD%93%E9%AA%8C/</url>
+    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>安装、更新与卸载。 &amp; 配置<br>特色功能：</p>
+<ul>
+<li>index_img</li>
+<li>打字机 &amp; slogan</li>
+<li>背景图</li>
+</ul>
+<p>文章：</p>
+<ul>
+<li>LaTex</li>
+<li>Mermaid</li>
+<li>组图</li>
+</ul>
+<h1 id="主题管理"><a href="#主题管理" class="headerlink" title="主题管理"></a>主题管理</h1><p>第一次安装next主题，没有用NPM，直接下的源码包。放到了themes文件夹里。这样做的坏处是：如果要更新新版的next要下载新版的源码包。重新放在thmems文件夹。更可怕的是：原来的_config.yml(next的)可能和新版的不兼容。又要重新写一遍。<br>删除方法很简单：直接把thmem&#x2F;next删掉就好了</p>
+<p>所以这次装fluid学聪明了。使用npm安装<code>npm  install --save hexo-theme-fluid</code></p>
+<ul>
+<li>如果要更新的话<ul>
+<li><code>npm outdated</code>查看可安装的包</li>
+<li><code>npm update hexo-theme-fluid</code> update~</li>
+</ul>
+</li>
+<li>如果要删除主题&#x2F;包<ul>
+<li><code>npm uninstall hexo-theme-fluid</code></li>
+</ul>
+</li>
+</ul>
+<p>我有两个用心配置的主题：Fluid, Next(gemini) 如果一个看腻了，想换一个主题。easy. 在_config.yml theme属性的值改掉就好</p>
+<h1 id="可怕的image"><a href="#可怕的image" class="headerlink" title="可怕的image"></a>可怕的image</h1><h2 id="index-img"><a href="#index-img" class="headerlink" title="index_img"></a>index_img</h2><p>可以给首页的每一条博客插入一个图片。在Fluid中被定义为<code>index_img</code>属性。 需要放在front-matter<br>fluid所有的图片的相对路径在<code>hexo-theme-fluid/source/</code>下。<br>所以<code>index_img</code>应该填的值应该以<code>/img</code>开头。例如<code>img/example.jpg</code> </p>
+<blockquote>
+<p>感觉这挺麻烦的。 不仅要在<code>hexo-theme-fluid/source/</code>这个奇怪的路径下管理资源。<br>当 default_index_img 和 index_img 都为空时，该文章在首页将不显示图片。 default_index_img在_config.fluid.yml设置<br>所有的图片路径都是相对于<code>hexo-theme-fluid/source/</code>, md语法：<code>![NAME](PATH)</code></p>
+</blockquote>
+<h2 id="banner-img"><a href="#banner-img" class="headerlink" title="banner_img"></a>banner_img</h2><p>英语中 banner的意思是：横幅<br>banner image 是每一个网页顶部的大图</p>
+<h1 id="slogan"><a href="#slogan" class="headerlink" title="slogan"></a>slogan</h1><p>进入友链页，打字机的默认输出是：友链。 但是可以改成其他的内容，比如:<em>春风桃李一杯酒</em><br>还有关于页，我们也可以把冰冷的输出“关于”。改成“A Foodie, A Hacker, A Ganster”</p>
+<p>设置友链打字机输出：<br>_config.fluid.yml 找到links的配置，添加属性：<code>subtitle</code>，值 “桃李春风一杯酒”<br>设置友链打字机输出：<br>about 的 index.md，frontend添加subtitle属性</p>
+<h1 id="背景图"><a href="#背景图" class="headerlink" title="背景图"></a>背景图</h1><p>友链页、关于页、标题页、分类页的默认背景都是Fluid的默认图片：Tower. 能不能把他们换成一个系列的呢？比如全套的漫威英雄？或者钢铁侠的机甲。</p>
+<h1 id="边角料"><a href="#边角料" class="headerlink" title="边角料"></a>边角料</h1><h2 id="整体字体"><a href="#整体字体" class="headerlink" title="整体字体"></a>整体字体</h2><p>默认字体太丑了。 我喜欢落霞孤鹜，思源宋体也不错。</p>
+<h2 id="footer"><a href="#footer" class="headerlink" title="footer"></a>footer</h2><p>默认是Hexo love Fluid<br>可以把Hexo 和 Fluid改掉（如果你有女朋友，你女朋友刚好也有一个Blog嘿嘿</p>
+<h2 id="首页更多icons"><a href="#首页更多icons" class="headerlink" title="首页更多icons"></a>首页更多icons</h2><h2 id=""><a href="#" class="headerlink" title=""></a></h2>]]></content>
+  </entry>
+  <entry>
+    <title>刷机心得</title>
+    <url>/2025/07/25/%E5%88%B7%E6%9C%BA%E5%BF%83%E5%BE%97/</url>
+    <content><![CDATA[<h1 id="梳理1-Ace-3-Pro的“刷机”方案"><a href="#梳理1-Ace-3-Pro的“刷机”方案" class="headerlink" title="梳理1+ Ace 3 Pro的“刷机”方案"></a>梳理1+ Ace 3 Pro的“刷机”方案</h1><h2 id="重要说明"><a href="#重要说明" class="headerlink" title="重要说明"></a>重要说明</h2><ul>
+<li><p>这里说的刷机：只做到了利用 “KenerlSU Hook” 得到设备 Root 权限——当然也是当下比较常见的语意。<br><strong>并没有换第三方ROM</strong>，如 <a href="https://wiki.lineageos.org/devices/">Lineage OS</a>。原因：在我发现 boot.img 的版本和设备型号 &#x2F; ROM 不匹配会让手机变砖后，我决定<strong>拿完 root 就老实</strong>。 </p>
+</li>
+<li><p>Root 方案: KernelSU, 性质都一样（使用LSPosed管理权限）          &#x2F;&#x2F; Magisk尝试了，可能是ColorOS版本太新，Magisk还不支持</p>
+</li>
+<li><p>系统：安卓14及以上。原厂ROM（Color OS 15） 内核版本Linux6 + &#x2F;&#x2F;意味着不能支持“Recovery&#x2F;TWRP” Root方案</p>
+</li>
+</ul>
+<h2 id="第一步：解BL锁。"><a href="#第一步：解BL锁。" class="headerlink" title="第一步：解BL锁。"></a>第一步：解BL锁。</h2><p> 之后会讲BL锁是什么以及为什么必须解开</p>
+<blockquote>
+<p>这一步的关键角色： 一个能解BL的手机。 一台有ADB工具的电脑（其实手机也可以），一根数据线。</p>
+<blockquote>
+<p>tips: 大侠阿木的刷机工具箱就相当于是对ADB的用户友好的封装。而且集成了很多有用的功能。可以说刷机小白必备。而且，（我猜）这款工具适用于其他能解BL锁的手机</p>
+</blockquote>
+</blockquote>
+<p>解BL锁有两种做法，步骤都很简单。</p>
+<ol>
+<li>使用大侠阿木的工具箱。 一键解锁。</li>
+<li>使用ADB命令。 自己网上查：xxx设备 解BL锁。</li>
+</ol>
+<p>额外说明：</p>
+<ul>
+<li>解BL锁本身不难。只要设备能解BL锁。 </li>
+<li>第一步成功的标志：重启手机，你可以看到第一个页面（启动页面）出现类似：device unlocked, orange mode之类字样。</li>
+</ul>
+<h2 id="第二步：-magisk打补丁-Hook"><a href="#第二步：-magisk打补丁-Hook" class="headerlink" title="第二步： magisk打补丁&#x2F;Hook"></a>第二步： magisk打补丁&#x2F;Hook</h2><blockquote>
+<p>关键角色：同样，一台有ADB工具的电脑。 当前系统的ROM（.zip格式）。解了BL锁的手机并安装magisk</p>
+</blockquote>
+<p>流程&#x2F;原理： </p>
+<ol>
+<li>下载当前设备ROM</li>
+<li>从中得到boot.img（未修改）。 </li>
+<li>用magisk修改boot.img。 </li>
+<li>ADB环节：用ADB工具将修改过的boot.img刷入另一个启动分区。并设置设备从该分区启动。</li>
+</ol>
+<p>P.S. KernelSU&#x2F;Magisk等等 Root方案 使用大侠阿木的工具箱都可以一键搞定<br>tips： </p>
+<ol>
+<li>下载ROM一定要仔细比对是不是和当前系统完全一致。 不只是大版本号，后面的数字、字符串也要一样！！相信我！</li>
+<li>下载的ROM是zip格式。里面不一定带有boot.img。 你需要用到payload-dumper. 具体怎么用去读文档。 </li>
+<li>因为KernelSU在Android OS运行，你需要boot.img上传到手机上。 打开magisk,选中放boot.img的路径。 你应该可以在相同路径下得到要给修补后的boot.img</li>
+<li>useful commands：<br>查看当前启动分区：<code>fastboot getvar current-slot</code><br>把修补后的boot.img刷写到另一个分区 <code>fastboot flash boot_a kernerlSU-patched-boot.img</code><br>修改默认boot分区： <code>fastboot --set-active=a</code></li>
+</ol>
+<p>说明<br>如果成功了，打开Magisk(面具App)，显示“已激活”。说明root成功。接下来就是安装一些模块让root隐身。让应用程序检查不出设备root的痕迹。</p>
+<h2 id="第二步：但是KernelSU"><a href="#第二步：但是KernelSU" class="headerlink" title="第二步：但是KernelSU"></a>第二步：但是KernelSU</h2><blockquote>
+</blockquote>
+<p>for 小白：1+工具箱一键搞定。<br>步骤&#x2F;原理：</p>
+<h2 id="第三步：-KernelSU安装Zygisk等模块，更好的隐藏root"><a href="#第三步：-KernelSU安装Zygisk等模块，更好的隐藏root" class="headerlink" title="第三步： KernelSU安装Zygisk等模块，更好的隐藏root"></a>第三步： KernelSU安装Zygisk等模块，更好的隐藏root</h2><h2 id="菜逼的唠嗑"><a href="#菜逼的唠嗑" class="headerlink" title="菜逼的唠嗑"></a>菜逼的唠嗑</h2><p>所谓的组合键是用来进入fastboot模式的。完全可以用ADB来实现<br><code>adb devices</code><br><code>adb reboot bootloader</code><br><code>fastboot devices</code>  可以看到成功进入fastboot mode</p>
+<p>聊聊KernelSU：个人感觉比Magisk强大，易于使用。 因为在工具箱使用中发现Magisk root并不成功。而KernelSU一键解决了</p>
+<p>你常听到的boot, recovery mode, fastboot mode, TWRP:<br>似乎是Android 8 之后就开始采用“boot_a boot_b”滚动更新的方案了。 当你的手机系统（color OS 14）发布新版本(Color OS 15)。他会在a分区保留当前的Color OS 14的boot.img, 把Color OS 15的boot.img下载到b分区。 当你确认更新系统，install Color OS 15, 下一次启动将使用boot_b分区</p>
+<p>给新手的建议：<br>刷机这事吧，难也不难。教程一堆，10年前就有很多前辈玩得明明白白了。 但碎片化严重，大堆专业术语，没搞明白原理很可能看着手机变砖。<br>关键是要搞清楚你的设备获取root权限的原理。 KernelSU， magisk的原理。这篇博客并没有用心的介绍每个技术名词的百科。 一方面是自己的知识深度和表达能力的限制。另一方面是想留给各位探索。 个人认为：整活多少伴随一段知识积累的过程。</p>
+<p>担心变砖？<br>没有必要因为这份顾虑阻碍了前进。<br>就算变砖了也一定能修好的。相信我，不难。你可以试试下载正确版本的ROM，把boot.img刷到boot_a, boot_b. （fastboot flash boot_a boot_b IMG-PATH）</p>
+<p>不要随便更新系统，除非看到有人把LSPosed做好了</p>
+<h2 id="Resources"><a href="#Resources" class="headerlink" title="Resources"></a>Resources</h2><p><a href="https://optool.daxiaamu.com/optool/">https://optool.daxiaamu.com/optool/</a>   一加全能工具箱(PC端使用)<br><a href="https://yun.daxiaamu.com/OnePlus_Roms/">https://yun.daxiaamu.com/OnePlus_Roms/</a> 我目前知道的官方ROM的唯一渠道<br><a href="https://github.com/ssut/payload-dumper-go">https://github.com/ssut/payload-dumper-go</a>  An android OTA payload dumper written in Go.<br>KernelSU<br>LSPosed </p>
+]]></content>
+  </entry>
+  <entry>
+    <title>ssh入门</title>
+    <url>/2025/04/29/ssh%E5%85%A5%E9%97%A8/</url>
+    <content><![CDATA[<h1 id="take-away-knowledge-concept"><a href="#take-away-knowledge-concept" class="headerlink" title="take away knowledge &amp; concept"></a>take away knowledge &amp; concept</h1><p>对于private repo, 即便是clone,也需要ssh</p>
+<p>ssh-keygen命令生成的<strong>两份文件</strong>：私钥和公钥（.pub）。你要把public key交给github</p>
+<p>每一次 clone &#x2F; push的Authentification过程：<br>github服务器给你的机器发公钥。 你的机器上<code>～/.ssh/</code>路径下存了唯一的私钥与之对应。即完成身份验证。</p>
+<h2 id="glossary"><a href="#glossary" class="headerlink" title="glossary"></a>glossary</h2><p>SSH： secure shell protocal</p>
+<h1 id="github场景-S1：增添新密码"><a href="#github场景-S1：增添新密码" class="headerlink" title="github场景-S1：增添新密码"></a>github场景-S1：增添新密码</h1><ul>
+<li>当你的项目团队有多个成员，你作为项目的owner，需要为你的团队成员设置SSH，这样他们才能在他们的电脑上更新项目（clone, push）</li>
+<li>还有一个情况，你有多台工作本，你需要为每一台机器上添加SSH，并在个人g-hub账户添加public key</li>
+</ul>
+<h2 id="background-and-task"><a href="#background-and-task" class="headerlink" title="background and task:"></a>background and task:</h2><p>linux + Windows 共同运营hexo blog. Add _post to repo, clone on git</p>
+<h2 id="过程记录（）"><a href="#过程记录（）" class="headerlink" title="过程记录（）"></a>过程记录（）</h2><ol>
+<li>最开始用https协议下载private repo代码失败。遂该用ssh。<code>git clone git@github.com:Optimushimeself/blogsource.git</code>自然报错。因为还没在我的github账号中配置本机的SSH。</li>
+<li>ssh-keygen <code>tyrone@Matrix:~/.ssh$ ssh-keygen -t [加密算法] -f [sshfileName]</code> t: type. github使用<code>ed25519</code>。 passphrase口令为空。自然也没关<code>ssh-agent</code>之类的“高级功能”。</li>
+<li>ssh-keygen得到两个文件，.pub后缀是公钥，扔到<code>github-&gt;setting-&gt;SSH&amp;GPG Keys</code></li>
+<li>（不知道是否靠谱）遇到一些代理问题，调成了全局代理，创建<code>~/.ssh/config</code>。重新运行<code>git clone git@github.com:OptimusHimself/blogsource.git</code>，中途谈了一个是否信任（老熟人了），无脑yes，最后成功克隆项目。</li>
+</ol>
+<h2 id="问题-故障记录"><a href="#问题-故障记录" class="headerlink" title="问题&#x2F;故障记录"></a>问题&#x2F;故障记录</h2><figure class="highlight livecodeserver"><table><tr><td class="code"><pre><code class="hljs livecodeserver">\\ 网络问题？<br>Cloning <span class="hljs-keyword">into</span> <span class="hljs-string">&#x27;blogsource&#x27;</span>...<br>kex_exchange_identification: <span class="hljs-built_in">read</span>: Connection reset <span class="hljs-keyword">by</span> peer<br>Connection reset <span class="hljs-keyword">by</span> <span class="hljs-number">20.205</span><span class="hljs-number">.243</span><span class="hljs-number">.166</span> port <span class="hljs-number">22</span><br>fatal: Could <span class="hljs-keyword">not</span> <span class="hljs-built_in">read</span> <span class="hljs-built_in">from</span> remote repository.<br><br>Please make sure you have <span class="hljs-keyword">the</span> correct access rights<br><span class="hljs-keyword">and</span> <span class="hljs-keyword">the</span> repository exists.<br></code></pre></td></tr></table></figure>
+
+<h1 id="github场景-S2：原来的私钥丢失or忘记passphrase"><a href="#github场景-S2：原来的私钥丢失or忘记passphrase" class="headerlink" title="github场景-S2：原来的私钥丢失or忘记passphrase()"></a>github场景-S2：原来的私钥丢失or忘记passphrase()</h1><p>这就是我为什么建议小白们最开始学习没必要设置passphrase,因为你会忘掉。 不过，只要能记得自己github账号的密码，问题都不大～<br>打开github网站，<code>github-&gt;setting-&gt;SSH&amp;GPG Keys</code>删掉你之前创建的钥匙，重新走一遍 <strong>github场景-S1</strong></p>
+<h1 id="使用ssh登陆服务器：传文件，训练模型…"><a href="#使用ssh登陆服务器：传文件，训练模型…" class="headerlink" title="使用ssh登陆服务器：传文件，训练模型…."></a>使用ssh登陆服务器：传文件，训练模型….</h1>]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>SSH</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>unzip命令</title>
+    <url>/2025/07/04/unzip%E5%91%BD%E4%BB%A4/</url>
+    <content><![CDATA[<h1 id="Windows-powershell"><a href="#Windows-powershell" class="headerlink" title="Windows - powershell"></a>Windows - powershell</h1><p>Expand-Archieve</p>
+<ul>
+<li>Destination-Path</li>
+</ul>
+<h1 id="Linux-Bash"><a href="#Linux-Bash" class="headerlink" title="Linux - Bash"></a>Linux - Bash</h1><h2 id="tar"><a href="#tar" class="headerlink" title="tar"></a>tar</h2>]]></content>
+      <categories>
+        <category>命令集</category>
+      </categories>
+      <tags>
+        <tag>archieve</tag>
+        <tag>files</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>在hexo博客中插入图片(方案汇总)</title>
+    <url>/2025/03/09/%E5%9C%A8hexo%E5%8D%9A%E5%AE%A2%E4%B8%AD%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E3%80%90%E6%96%B9%E6%A1%88%E6%B1%87%E6%80%BB%E3%80%91/</url>
+    <content><![CDATA[<h1 id="放弃的方案："><a href="#放弃的方案：" class="headerlink" title="放弃的方案："></a>放弃的方案：</h1><h2 id="原生的-hexo-add-on-hexo-asset"><a href="#原生的-hexo-add-on-hexo-asset" class="headerlink" title="原生的 hexo add on: hexo-asset"></a>原生的 hexo add on: hexo-asset</h2><p><code>post_asset_folder: false #true</code></p>
+<ul>
+<li>语法格式恶心，既不是 md 也不是 HTML，自带的一种渲染格式</li>
+<li>尝试多次未成功</li>
+</ul>
+<h1 id="能使用的方案："><a href="#能使用的方案：" class="headerlink" title="能使用的方案："></a>能使用的方案：</h1><h2 id="PicX-GitHub作图床"><a href="#PicX-GitHub作图床" class="headerlink" title="PicX GitHub作图床"></a>PicX GitHub作图床</h2><h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><ul>
+<li>gitbub 有一个叫做 picx 的项目, 是一个网站，你可以往它的官网上传（本机的）图，会自动生成一个链接赋值到剪切板上。</li>
+<li>特点：手动在 blog md file 里放 html img 标签； 支持使用 GitHub 图床（own repo，free）等其他图床</li>
+</ul>
+<h3 id="优缺点"><a href="#优缺点" class="headerlink" title="优缺点"></a>优缺点</h3><ul>
+<li>优点： PicX 自动生成图片 url, 完全免费（薅微软 Github 服务器的羊毛）</li>
+<li>不足：无法在写博客粘贴图片的时候自动生成链接。需要手动写 HTML img 标签。图多了有些麻烦，容易找不到链接。<br>Links：<a href="https://picx.xpoet.cn/#/settings">PicX 在线服务</a>； <a href="https://picx-docs.xpoet.cn/usage-guide/get-start.html">官方使用教程</a>；<a href="https://github.com/XPoet/picx">GitHub 仓库地址</a></li>
+</ul>
+<p>e.g. url generate by pix<br><a href="https://github.com/OptimusHimself/picx-images-hosting/raw/master/%E5%BD%97%E6%98%9F%E8%BD%A8%E8%BF%B9.esnsejhpw.webp">https://github.com/OptimusHimself/picx-images-hosting/raw/master/彗星轨迹.esnsejhpw.webp</a><br>e.g. &lt;img&gt; tag<br>&lt;img src&#x3D;”<a href="https://github.com/OptimusHimself/picx-images-hosting/raw/master/%E5%BD%97%E6%98%9F%E8%BD%A8%E8%BF%B9.esnsejhpw.webp">https://github.com/OptimusHimself/picx-images-hosting/raw/master/彗星轨迹.esnsejhpw.webp</a>“ alt&#x3D;”sorry about that”&gt;</p>
+<blockquote>
+<p>img alt 参数：Specifies an alternate text for an image</p>
+</blockquote>
+<h2 id="外国图床"><a href="#外国图床" class="headerlink" title="外国图床"></a>外国图床</h2><p><a href="https://postimages.org/">postimage</a><br><a href="https://sm.ms/">sm.ms</a> </p>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>保研时期的我</title>
+    <url>/2025/03/20/%E4%BF%9D%E7%A0%94%E6%97%B6%E6%9C%9F%E7%9A%84%E6%88%91/</url>
+    <content><![CDATA[<p>保研圈，不乏激烈的竞争。在这个圈子里，我看到了可敬的对手，看到了绿群里的大佬，也坚定了我的梦想。我的愿望是到名校和更好的老师、同学、师兄师姐们交流学习。我相信，只要保研到我的梦校浙大、进入到研究小组中，就一定能进步、学习更多的专业技能。以后就能做更多有价值的事情。<br>但最近，我变得有些紧张，我担心我的简历还不够好，算法题刷得还不够多，没有论文背景，“套磁“也没人肯收我。我一直在攀比，生怕把学习专业课而不是卷所谓的那些算法、论文是在浪费时间。<br>我还纠结自己适合什么专业，能读什么专业。是偏向研究底层的方向（计算机架构、分布式系统、网络）还是前沿的应用方向（软件开发、AI）。对各个行业都略懂一二的我对自己说，都行，哪个要我就去哪儿。但不管在哪个领域，我做的，一定是有挑战性的工作！<br>说回时间分配的事情，我不想太卷课外的那些技术。 专业知识一定是第一位的。先不说以后会不会读通信、计网这块的研究生；我从IoT出来的，别人问我一个通信相关的概念而我却毫无直觉，真觉得丢人——就这还读研。 所以说，如果以后有老师觉得我简历上的研究经历不如别人突出，请看看我的专业课成绩、对专业知识的理解。<br>本科培养出来的，就不应该是什么研究精英，而是一个通识了专业领域各个方面的，有知识的人。路还很长，研究生阶段，你不可能有这样泡馆、看专业书籍、一步步推演理论的时间。<br>对于保研竞争这一块，我相信船到桥头自然直，熬过这一段，你一定会在学习课外知识的时候更有感悟。我还坚信阿德勒心理学，一切都是目的驱动的。潇洒自如、倾听自己的内心吧，真到要你做重大选择的节骨眼上了，你也一定能适应的。</p>
+]]></content>
+      <categories>
+        <category>生活感悟</category>
+      </categories>
+      <tags>
+        <tag>日记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>大学找对象方案</title>
+    <url>/2025/09/06/%E5%A4%A7%E5%AD%A6%E6%89%BE%E5%AF%B9%E8%B1%A1%E6%96%B9%E6%A1%88/</url>
+    <content><![CDATA[<p>好久没写博客了，写一篇水着玩玩</p>
+<p>一个人在外地上大学，是否希望找一个对象，生活上有一个陪伴，学习上互相鼓励？探寻了多个伴侣之间的恋爱故事，我发现，想和一个约上会，需要合适的机遇。<br>你可以等。但是，你都来找攻略了，自然是不想等的。假如你已经看上了一个人。尤其是，你觉得ta也可能喜欢你。你还知道她是xxx学院，几年级，是否具备谈起来的条件。以下是方法：<br>去食堂的时候，不要带手机、也不要带校园卡。当你看到她时，你就礼貌地说：“同学，我没带校园卡，可以帮我刷一下吗？我wx转给你”。等她刷完，你不好意思地说：同学，我手机没带。可以记一下我wx号吗？</p>
+<p>认识我的人，看了这篇文章可能会说：tyrone，真没想到你也会想这些东西。<br>拜托，我也是人，也是个直男。有想追的女生不过分吧。至于我为什么能想到这个方法。Emmm，可能是保研期间疯狂陶瓷，和老师打交道多了，懂了些人情世故？锻炼了胆量？</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>程序员科普：JSON、XML、YAML 三种数据格式的由来、应用与对比</title>
+    <url>/2025/05/19/dance-with-yaml/</url>
+    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>在前后端开发、配置管理、API 通信等领域，我们常常接触到三种主流的数据格式：JSON、XML 和 YAML。虽然它们的目标都是「让数据结构易于存储和传输」，但随着时代发展与技术演进，它们逐渐走上了不同的道路。本文将从历史演变、应用场景出发，结合语法特征，帮你快速理解这三种格式各自的定位与优劣。</p>
+<blockquote>
+<p>YAML ain’t markup language<br>ain’t markup language 度过xml的应该对markup lang都有些畏惧<br>所以，从这个名字就强调了YAML文件阅读友好，语义简洁的特点。</p>
+</blockquote>
+<h2 id="我为什么单独抽时间写一篇关于基础文件格式的科普文？"><a href="#我为什么单独抽时间写一篇关于基础文件格式的科普文？" class="headerlink" title="我为什么单独抽时间写一篇关于基础文件格式的科普文？"></a>我为什么单独抽时间写一篇关于基础<strong>文件格式</strong>的科普文？</h2><blockquote>
+<p>我认为，对于开发者而言，经验取决于你见过多少文件，写过多少代码，开发过多少项目。 从某个更具象的方面来说，则是你对一个文件格式的理解有多深。</p>
+<blockquote>
+<p>比方说，当开发&#x2F;阅读一个Verilog项目，你除了知道源文件的文件格式是.v， 你还知道你当前工作的文件,逻辑上遵循什么结构<strong>而不只是verilog语法本身</strong>，而这就体现工程师软件设计的功底。<br>再比方说， 一个C项目,你看到Makefile,就能想到它的作用. 你拿到一个.xml,你有自己的阅读习惯.</p>
+</blockquote>
+</blockquote>
+<h1 id="Mark-up-Language"><a href="#Mark-up-Language" class="headerlink" title="Mark up Language"></a>Mark up Language</h1><h2 id="简单问题快答"><a href="#简单问题快答" class="headerlink" title="简单问题快答"></a>简单问题快答</h2><ol>
+<li>这个概念哪儿来的？</li>
+</ol>
+<p>Web1.0 为排版而生。说到排版,想到:LaTex, HTML,…..<br>实现上，浏览器底层代码对标记语言文件<strong>按语法规则</strong>解析。</p>
+<ol start="2">
+<li>标记语言长什么样？</li>
+</ol>
+<ul>
+<li>再怎么说,和源代码文件一样,他是一个文本文件. 只不过和纯粹的.txt相比,有规范的语法.</li>
+<li>可以简单的认为，含尖括号语法的就是标记语言。代表: <ul>
+<li>HTML（ Hpyer Text Markup Language ）</li>
+<li>XML （ eXtensible Markup Language ）</li>
+</ul>
+</li>
+</ul>
+<h2 id="瞎编的两个故事"><a href="#瞎编的两个故事" class="headerlink" title="瞎编的两个故事"></a>瞎编的两个故事</h2><p>1.标记语言和HTML,XML的那段历史</p>
+<p>最早的互联网全是静态网页。就是大片的文字放到网上供人们浏览。而没有交互性。<br>标记语言也是在这个行情下诞生的，通过标记的方式，让浏览器渲染出：有排版（居中、左对齐、….）、各种花哨字体、加粗和颜色、在特定位置呈现文字等功能的文字。<br>标记语言什么语法不重要，重点是，浏览器的底层有一个parser为用户呈现完美渲染后的网页</p>
+<ol start="2">
+<li>聊聊<a href="https://daringfireball.net/projects/markdown/basics">Markdown</a>：</li>
+</ol>
+<ul>
+<li>从标记语言的功能上看，Markdown算是标记语言，而且Markdown file 兼容HTML语法，</li>
+<li>从名字上认为Markdown是一种标记语言，也不矛盾。英文上 mark-up 就是用尖括号标签来表注。 mark-down只不过是用更简洁的符号来实现<strong>文本排版、文字强调</strong>等功能。至于名字的由来，估计是作者调皮了一下。</li>
+<li><a href="https://daringfireball.net/projects/markdown/">markdown作者</a>：约翰格鲁伯，perl解析器. （好，上面也说了markdown is a popular markup language….</li>
+</ul>
+<h1 id="一、趣味知识：起源与发展"><a href="#一、趣味知识：起源与发展" class="headerlink" title="一、趣味知识：起源与发展"></a>一、趣味知识：起源与发展</h1><table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>格式</td>
+<td>出现时间</td>
+<td>主要背景与用途</td>
+</tr>
+<tr>
+<td>XML</td>
+<td>1998</td>
+<td>为了解决 HTML 无法表示结构化数据的问题，适合数据存档、文档结构描述。</td>
+</tr>
+<tr>
+<td>JSON</td>
+<td>2001</td>
+<td>JavaScript 中的轻量数据交换格式，随着 AJAX 崛起而成为 Web 首选。</td>
+</tr>
+<tr>
+<td>YAML</td>
+<td>2004</td>
+<td>Yet Another Markup Language，语法更清晰，主要用于配置文件和 DevOps 场景。</td>
+</tr>
+</tbody></table>
+<ol>
+<li><p>XML：曾经的霸主<br>XML最初是为了扩展 HTML 的表达能力，<strong>使得数据能像文档一样有结构、有语义</strong>。由于它高度结构化、支持复杂嵌套、具备数据验证机制（如 DTD&#x2F;XSD），曾一度在 SOAP 协议、早期 Web 服务和企业系统中广泛使用。</p>
+</li>
+<li><p>JSON：现代 Web 的基石<br>随着 JavaScript 和 AJAX 的流行，JSON（JavaScript Object Notation）凭借轻量、直观、<strong>易解析</strong>的优势迅速取代 XML，成为<strong>前后端通信的标准格式</strong>，尤其适用于<strong>API数据传输</strong>。</p>
+</li>
+<li><p>YAML：简洁的配置王者<br>YAML 诞生之初就是为了人类友好，<strong>语法极简、可读性极强</strong>，因此<strong>非常适合写配置文件</strong>。你可以在 Docker、Kubernetes、GitHub Actions 等 DevOps 工具中频繁看到它的身影。</p>
+</li>
+</ol>
+<h1 id="二、语法要点"><a href="#二、语法要点" class="headerlink" title="二、语法要点"></a>二、语法要点</h1><h2 id="文件后缀名"><a href="#文件后缀名" class="headerlink" title="文件后缀名"></a>文件后缀名</h2><h2 id="注释"><a href="#注释" class="headerlink" title="注释"></a>注释</h2><ol>
+<li>XML <!-- 把我注了吧 --></li>
+<li>json无注释</li>
+<li>YAML 使用<code>#</code></li>
+</ol>
+<h2 id="json特点："><a href="#json特点：" class="headerlink" title="json特点："></a>json特点：</h2><p>整体用一个大括号包住，Python键值对。 键用string <code>&quot;&quot;</code>，值可以是：<code>string</code>, <code>list []</code> <code>dictionary</code></p>
+<h2 id="serialization"><a href="#serialization" class="headerlink" title="serialization"></a>serialization</h2>]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>file format</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>我的A证</title>
+    <url>/2025/04/24/%E6%88%91%E7%9A%84A%E8%AF%81/</url>
+    <content><![CDATA[<img src="https://github.com/OptimusHimself/picx-images-hosting/raw/master/执照.8ojy22apde.jpg" alt="A证"  />
+
+<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>记录笔者考A证的时间线。还有给新手的建议（不包括复习）<br>以下，中国无线电协会业余电台操作证书叫做操作证。 中国人民共和国无线电台执照叫做（无线）电台执照。</p>
+<h1 id="时间线"><a href="#时间线" class="headerlink" title="时间线"></a>时间线</h1><p>4.19 考试<br>4.24 上网查看，通过了。<br>5.12 拿到操作证。验机、填表、申请电台执照。<br>5.30.执照通过 (其实执照上的有效期是5.22起，北京无线电协会的通知会晚一点儿)<br>6.4 申请邮寄执照<br>6.6 终于拿到邮寄的执照啦！（今天是我生日！）<code>BD1BBU</code></p>
+<h1 id="Q-A"><a href="#Q-A" class="headerlink" title="Q&amp;A"></a>Q&amp;A</h1><p>达到什么条件才可以“发射”？<br>有操作证，有电台执照。 很好理解，用电台就像开车。 首先，要有驾照（A操作证）。然后你的车要有车牌，就像你用的电台需要一个电台号、执照。就像交通系统的监管对象是路行驶的车而不是驾驶的人。摄像头先抓的是违规的车、再去扣驾驶员的分&#x2F;吊销他的执照。同样地，无线电管理系统也是监视违规的电台，其次再去惩罚操作员。</p>
+<h1 id="tips"><a href="#tips" class="headerlink" title="tips"></a>tips</h1><ul>
+<li>个人认为三天，每天准备4h就够了。</li>
+<li>看到当地无线电协会发的通知里没有自己的名字不要担心是自己没考过。可能那就不是你那波的考试情况。</li>
+<li>出了成绩就可以去验机啦！不要等到拿到操作证再去验机。<br>原因：早点验机，操作证和无线电台执照一起拿。<br>要区分A操作证、执照和其组织的关系。操作证是你当地的协会给你颁发的。而执照的合法单位是中国人民共和国工业和信息化部。前者需要通过考试，后者需要通过考试且拿符合标准的设备到当地无线电协会验机。<br>我傻傻以为操作证上就会有呼号。。结果后面看到一串长长的操作证ID就感觉不对劲。</li>
+</ul>
+]]></content>
+      <tags>
+        <tag>日记</tag>
+        <tag>HAM</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>博客运营（一）</title>
     <url>/2025/01/15/%E5%8D%9A%E5%AE%A2%E8%BF%90%E8%90%A5%EF%BC%88%E4%B8%80%EF%BC%89/</url>
     <content><![CDATA[<h1 id="在哪运营hexo-博客？在哪个路径下、用哪个shell、运行Shell指令"><a href="#在哪运营hexo-博客？在哪个路径下、用哪个shell、运行Shell指令" class="headerlink" title="在哪运营hexo 博客？在哪个路径下、用哪个shell、运行Shell指令"></a>在哪运营hexo 博客？在哪个路径下、用哪个shell、运行Shell指令</h1><p>答：在你的博客文件夹下，右键：git bash here. </p>
@@ -800,22 +856,203 @@
       </tags>
   </entry>
   <entry>
-    <title>我的A证</title>
-    <url>/2025/04/24/%E6%88%91%E7%9A%84A%E8%AF%81/</url>
-    <content><![CDATA[<img src="https://github.com/OptimusHimself/picx-images-hosting/raw/master/执照.8ojy22apde.jpg" alt="A证"  />
-
-<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>记录笔者考A证的时间线。还有给新手的建议（不包括复习）<br>以下，中国无线电协会业余电台操作证书叫做操作证。 中国人民共和国无线电台执照叫做（无线）电台执照。</p>
-<h1 id="时间线"><a href="#时间线" class="headerlink" title="时间线"></a>时间线</h1><p>4.19 考试<br>4.24 上网查看，通过了。<br>5.12 拿到操作证。验机、填表、申请电台执照。<br>5.30.执照通过 (其实执照上的有效期是5.22起，北京无线电协会的通知会晚一点儿)<br>6.4 申请邮寄执照<br>6.6 终于拿到邮寄的执照啦！（今天是我生日！）<code>BD1BBU</code></p>
-<h1 id="Q-A"><a href="#Q-A" class="headerlink" title="Q&amp;A"></a>Q&amp;A</h1><p>达到什么条件才可以“发射”？<br>有操作证，有电台执照。 很好理解，用电台就像开车。 首先，要有驾照（A操作证）。然后你的车要有车牌，就像你用的电台需要一个电台号、执照。就像交通系统的监管对象是路行驶的车而不是驾驶的人。摄像头先抓的是违规的车、再去扣驾驶员的分&#x2F;吊销他的执照。同样地，无线电管理系统也是监视违规的电台，其次再去惩罚操作员。</p>
-<h1 id="tips"><a href="#tips" class="headerlink" title="tips"></a>tips</h1><ul>
-<li>个人认为三天，每天准备4h就够了。</li>
-<li>看到当地无线电协会发的通知里没有自己的名字不要担心是自己没考过。可能那就不是你那波的考试情况。</li>
-<li>出了成绩就可以去验机啦！不要等到拿到操作证再去验机。<br>原因：早点验机，操作证和无线电台执照一起拿。<br>要区分A操作证、执照和其组织的关系。操作证是你当地的协会给你颁发的。而执照的合法单位是中国人民共和国工业和信息化部。前者需要通过考试，后者需要通过考试且拿符合标准的设备到当地无线电协会验机。<br>我傻傻以为操作证上就会有呼号。。结果后面看到一串长长的操作证ID就感觉不对劲。</li>
+    <title>约定式提交</title>
+    <url>/2025/07/07/%E7%BA%A6%E5%AE%9A%E5%BC%8F%E6%8F%90%E4%BA%A4/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>张大厨的食谱</title>
+    <url>/2025/11/25/%E5%BC%A0%E5%A4%A7%E5%8E%A8%E7%9A%84%E9%A3%9F%E8%B0%B1/</url>
+    <content><![CDATA[<h1 id="饼、面、早餐"><a href="#饼、面、早餐" class="headerlink" title="饼、面、早餐"></a>饼、面、早餐</h1><h2 id="简易早餐：鸡蛋面"><a href="#简易早餐：鸡蛋面" class="headerlink" title="简易早餐：鸡蛋面"></a>简易早餐：鸡蛋面</h2><h2 id="如果是煮烫皮丝，可以先用水泡一下。牛肉卷先用清水去掉血水配料：大蒜叶、香菜、小葱关键！先调好汤料。鸡蛋煮久了没关系。我们的核心原则是：将面煮熟的过程中，吸足汤料的味道。-如果煎好鸡蛋不调好汤底，那最开始吸的汤都是没味道的。之后再调味就没效果了。-先调味还有一个好处就是可以尝汤的味道。-调味可以加一点小米辣、耗油、生抽、黑胡椒粉、盐、生抽。"><a href="#如果是煮烫皮丝，可以先用水泡一下。牛肉卷先用清水去掉血水配料：大蒜叶、香菜、小葱关键！先调好汤料。鸡蛋煮久了没关系。我们的核心原则是：将面煮熟的过程中，吸足汤料的味道。-如果煎好鸡蛋不调好汤底，那最开始吸的汤都是没味道的。之后再调味就没效果了。-先调味还有一个好处就是可以尝汤的味道。-调味可以加一点小米辣、耗油、生抽、黑胡椒粉、盐、生抽。" class="headerlink" title="如果是煮烫皮丝，可以先用水泡一下。牛肉卷先用清水去掉血水配料：大蒜叶、香菜、小葱关键！先调好汤料。鸡蛋煮久了没关系。我们的核心原则是：将面煮熟的过程中，吸足汤料的味道。- 如果煎好鸡蛋不调好汤底，那最开始吸的汤都是没味道的。之后再调味就没效果了。- 先调味还有一个好处就是可以尝汤的味道。- 调味可以加一点小米辣、耗油、生抽、黑胡椒粉、盐、生抽。"></a>如果是煮烫皮丝，可以先用水泡一下。<br>牛肉卷先用清水去掉血水<br>配料：<strong>大蒜叶、香菜</strong>、小葱<br>关键！先调好汤料。鸡蛋煮久了没关系。我们的核心原则是：将面煮熟的过程中，吸足汤料的味道。<br>- 如果煎好鸡蛋不调好汤底，那最开始吸的汤都是没味道的。之后再调味就没效果了。<br>- 先调味还有一个好处就是可以尝汤的味道。<br>- 调味可以加一点小米辣、耗油、生抽、黑胡椒粉、盐、生抽。</h2><h2 id="简餐：鸡蛋水饼"><a href="#简餐：鸡蛋水饼" class="headerlink" title="简餐：鸡蛋水饼"></a>简餐：鸡蛋水饼</h2><p>面粉和水 1：4，打入两个鸡蛋，加葱花、十三香。搅拌。<br>热锅放油、两勺面糊一个饼。</p>
+<h2 id="如意水饺"><a href="#如意水饺" class="headerlink" title="如意水饺"></a>如意水饺</h2><h3 id="汤的调味"><a href="#汤的调味" class="headerlink" title="汤的调味"></a>汤的调味</h3><p>放盐很重要！<br>可以在汤里加点虾皮、葱花、香菜、香油<br>最后<strong>可以煮点生菜~~~~</strong></p>
+<h2 id="油泼面"><a href="#油泼面" class="headerlink" title="油泼面"></a>油泼面</h2><p>不适合单人食。因为自己全程弄下来要很长时间<br>但如果你愿意冷冻保存煮好的土豆和豆芽，就可以省很多时间。</p>
+<p>烧开水、煮豆芽和土豆  5min<br>用开水烫番茄、切番茄  1min<br>把番茄炒出汁水  2min<br>刷锅  1min<br>把锅烧干、炒鸡蛋、借着倒入番茄炒码子  5min<br>刷锅 1min<br>煮面 5min<br>装盘<br>热油、浇在辣椒面上 &#x2F;&#x2F;油和辣椒面的量极难把控</p>
+<hr>
+<h1 id="蒸菜、白灼"><a href="#蒸菜、白灼" class="headerlink" title="蒸菜、白灼"></a>蒸菜、白灼</h1><p>最适合新人，极其省事，也不需要记得中途放调料。按着食谱做就行。</p>
+<h2 id="冬瓜虫草花桑拿鸡"><a href="#冬瓜虫草花桑拿鸡" class="headerlink" title="冬瓜虫草花桑拿鸡"></a>冬瓜虫草花桑拿鸡</h2><h3 id="预处理"><a href="#预处理" class="headerlink" title="预处理"></a>预处理</h3><p>鸡腿肉去骨切片<br>鸡肉的腌制：<br>    10g 生抽、耗油15g、红枣10g、姜片5g、红葱头15g、<br>    盐2g，糖3g，胡椒粉2g，味精2g<br>    花生油10g，淀粉5g</p>
+<h3 id="开火"><a href="#开火" class="headerlink" title="开火"></a>开火</h3><p>一点油，冬瓜铺底</p>
+<p>注：红葱头就是指<del>洋葱里面的那一点芯</del> 专门一种植物，干葱、珠葱</p>
+<h2 id="海带丝"><a href="#海带丝" class="headerlink" title="海带丝"></a>海带丝</h2><h2 id="白灼大虾"><a href="#白灼大虾" class="headerlink" title="白灼大虾"></a>白灼大虾</h2><p>虾用淀粉水洗一下<br>用啤酒煮</p>
+<ul>
+<li>万能海鲜蘸料：<strong>小米辣、蒜末、小葱、香菜</strong>, 生抽、陈醋、香油、白糖</li>
 </ul>
-]]></content>
+<h2 id="白灼罗马生菜"><a href="#白灼罗马生菜" class="headerlink" title="白灼罗马生菜"></a>白灼罗马生菜</h2><p>酱料: 3勺生抽  3勺蒸鱼豉油<br>像这样最后手动加盐的菜可以满满加酱，尝一下味道有没有偏咸再考虑接着加。<br>我总喜欢让整盘菜都看起来有色泽就想不停浇酱汁。纯酱油很咸，若让它裹满生菜就完了，齁咸。</p>
+<h2 id="清蒸多宝鱼"><a href="#清蒸多宝鱼" class="headerlink" title="清蒸多宝鱼"></a>清蒸多宝鱼</h2><p>多宝鱼的清洗：花刀，加料酒、醋、盐、淀粉，浸泡10min<br>水开蒸6min，蒸的时候可以喷一点油。（有些直接放一勺猪油），蒸完把盘里的水倒掉<br>上面放葱丝（可以用小葱也可以大葱），红椒丝。淋上热油。</p>
+<p>我认为这道菜的关键是：蒸鱼豉油的量</p>
+<h2 id="水蒸蛋"><a href="#水蒸蛋" class="headerlink" title="水蒸蛋"></a>水蒸蛋</h2><p>1：2.5 明显地比1：3 稠很多。我更喜欢吃1：3。1：2.5也好吃<br>一般的话，2个蛋，6杯水。注：一杯即半个蛋壳</p>
+<h1 id="素菜"><a href="#素菜" class="headerlink" title="素菜"></a>素菜</h1><p>有大蒜，用油炒香。再用来炒菜。绝对好吃。如果有猪油，那更好了。<br>炒好素菜能给新手极大的成就感。<br>不需要过多的调料。不必想象调什么万能酱料，盐和鸡精足矣。</p>
+<h2 id="酸辣手撕包菜"><a href="#酸辣手撕包菜" class="headerlink" title="酸辣手撕包菜"></a>酸辣手撕包菜</h2><h3 id="预备"><a href="#预备" class="headerlink" title="预备"></a>预备</h3><p><strong>香料</strong>：准备 5-6粒大蒜籽（切厚片) ；干辣椒段（按口味加）。<br>提前调料汁：两勺耗油、一勺生抽、陈醋5g 白糖2g（Option，耗油本身有甜味） &#x2F;&#x2F;为了让菜更脆，炒太久不好吃</p>
+<h4 id="包菜的处理"><a href="#包菜的处理" class="headerlink" title="包菜的处理"></a>包菜的处理</h4><p>包菜根拿刀拍两下，片薄。</p>
+<h3 id="开火-1"><a href="#开火-1" class="headerlink" title="开火"></a>开火</h3><p>小技巧：油先炸一下花椒，捞出。可以用漏网兜着。有花椒香味且花椒的颜色变深变暗捞出。 &#x2F;&#x2F;花椒不能久炸。<br>炸完花椒的油用来炸香料——注意，油温不能过高。建议用余温炸<br>下包菜。开大火。爆炒2min左右。等包菜变嫩变软，下碗汁，翻炒几下（20s）出锅。</p>
+<h2 id="红菜柳"><a href="#红菜柳" class="headerlink" title="红菜柳"></a>红菜柳</h2><p>推荐配菜：咸腊肉（肥瘦5：5）、猪油 &#x2F;&#x2F;任何蔬菜加上猪油都很好吃</p>
+<h3 id="预处理："><a href="#预处理：" class="headerlink" title="预处理："></a>预处理：</h3><p>切滚刀。不要切段。 叶子也可以放进去炒。<br>根茎部分可以用刨皮刀刨一点皮。</p>
+<h3 id="tips"><a href="#tips" class="headerlink" title="tips"></a>tips</h3><ul>
+<li>可以用菜籽油，红菜柳的味道掩盖不住。</li>
+<li>经过实验，不焯水很好吃。</li>
+<li>块不要切得过大。太碎了也不好</li>
+</ul>
+<h2 id="素炒扁豆"><a href="#素炒扁豆" class="headerlink" title="素炒扁豆"></a>素炒扁豆</h2><p>还没形成成熟的做法哈哈哈哈</p>
+<h2 id="西兰花"><a href="#西兰花" class="headerlink" title="西兰花"></a>西兰花</h2><p>先焯水。焯水可加盐、油。不加也没啥大问题。<br>依旧是大蒜炒香。放西兰花。翻炒。 &#x2F;&#x2F;<strong>有条件搭配一点胡萝卜片，黑木耳。</strong><br>调味：在鸡精、盐的基础上，<strong>再加入耗油、还有勾芡会更好吃。</strong></p>
+<h2 id="红烧冬瓜"><a href="#红烧冬瓜" class="headerlink" title="红烧冬瓜"></a>红烧冬瓜</h2><p>冬瓜还有一个红烧做法<br>和冬瓜炒肉不同点是<br>切块<br>不变的用油煎。倒开水前先用酱油、老抽上色。收汁以后放耗油。</p>
+<h2 id="炝炒土豆丝"><a href="#炝炒土豆丝" class="headerlink" title="炝炒土豆丝"></a>炝炒土豆丝</h2><p>预处理：切好了土豆丝用水泡一下。有些人泡的时候会加醋。<br>油热放干辣椒段、大蒜末、煎一会儿淋入生抽调味 &#x2F;&#x2F;注：干辣椒段提前泡水，不容易焦。炸干辣椒的油温不宜过高。控制200度以下。<br>放土豆丝，撒盐、味精。放入青辣椒丝。炒2min。淋白醋炒20s &#x2F;&#x2F;</p>
+<h3 id="tips-1"><a href="#tips-1" class="headerlink" title="tips"></a>tips</h3><p>一个人两餐饭，330g土豆就够了。大概两个中等偏小的土豆。</p>
+<h2 id="虎皮辣椒"><a href="#虎皮辣椒" class="headerlink" title="虎皮辣椒"></a>虎皮辣椒</h2><h2 id="素炒藕片"><a href="#素炒藕片" class="headerlink" title="素炒藕片"></a>素炒藕片</h2><ul>
+<li>做莲藕不需要勾芡，自带红薯淀粉 &#x2F;&#x2F;土豆丝也一样</li>
+<li>莲藕和土豆丝一样要<strong>提前泡一下水</strong>。但不建议焯水。 泡水也可以防止藕片发黑——多酚类被氧化。</li>
+<li>炒莲藕不建议用铁锅。铁会和多酚类物质反应。</li>
+<li>不建议放蒜，可以放姜 &#x2F;&#x2F;放了姜之后的味道还挺不错的</li>
+<li><strong>可以放一些红椒片和青椒片点缀</strong></li>
+<li>多次加少量清水翻炒1min加点盐和半勺醋调味 &#x2F;&#x2F; 我加了一勺也很不错，炒得时间不用很长，不然就不脆了。这种汁水没有什么味道的蔬菜可以夹点生</li>
+</ul>
+<h2 id="素炒菠菜-佛手青-青菜-苋菜"><a href="#素炒菠菜-佛手青-青菜-苋菜" class="headerlink" title="素炒菠菜&#x2F;佛手青&#x2F;青菜&#x2F;苋菜"></a>素炒菠菜&#x2F;佛手青&#x2F;青菜&#x2F;苋菜</h2><p>蒜加够了就好吃。<br>图省事的话，调味只用盐和味精 &#x2F;&#x2F;已通过实验验证，很好吃</p>
+<h3 id="tips-2"><a href="#tips-2" class="headerlink" title="tips"></a>tips</h3><p>炒青菜可以分两部分。把根茎段先炒熟，再放叶子。放完叶子炒30s，放盐、鸡精调味。翻炒30s出锅。这样炒出来的蔬菜口感均衡。不会根茎部分有生感。</p>
+<ul>
+<li>炒蔬菜这个赛道区分高手和菜鸟就是看炒出来的口感。蔬菜本身的汁水太多、没炒熟，或者炒得太熟、炒化了都不好。</li>
+</ul>
+<h1 id="花荤、口味小炒菜"><a href="#花荤、口味小炒菜" class="headerlink" title="花荤、口味小炒菜"></a>花荤、口味小炒菜</h1><h2 id="猪血"><a href="#猪血" class="headerlink" title="猪血"></a>猪血</h2><h2 id="小炒鸡胗-蒜苔炒鸡胗"><a href="#小炒鸡胗-蒜苔炒鸡胗" class="headerlink" title="小炒鸡胗&#x2F;蒜苔炒鸡胗"></a>小炒鸡胗&#x2F;蒜苔炒鸡胗</h2><h3 id="鸡胗的处理："><a href="#鸡胗的处理：" class="headerlink" title="鸡胗的处理："></a>鸡胗的处理：</h3><p>切之前，用盐和淀粉搓洗。买10个。<br>切成片；加葱姜水、盐、腌制10min<br>挑出葱姜、沥干水分</p>
+<ul>
+<li>如果是冷冻过的鸡胗，炒之前要焯水</li>
+</ul>
+<h3 id="佐料："><a href="#佐料：" class="headerlink" title="佐料："></a>佐料：</h3><p>姜片、蒜籽拍碎。青红辣椒切成小片。<br>酸味：泡辣椒剁碎。&#x2F;&#x2F;可以加酸豆角</p>
+<h3 id="热锅"><a href="#热锅" class="headerlink" title="热锅"></a>热锅</h3><p>高油温煸炒出鸡胗的水分；加高度白酒进一步去腥增香。捞出备用<br>另起锅下猪油，爆香佐料。炒香后下蒜苔。加盐白糖、味精、淋生抽。炒到起皱皮，微微发粘 &#x2F;&#x2F;中途如果觉得干了可以淋点水润一润<br>加鸡胗、青红辣椒，炒 2min  &#x2F;&#x2F; tips，炒的时候感觉颜色不够可以放老抽上色，让菜更有食欲</p>
+<h2 id="冬瓜炒肉"><a href="#冬瓜炒肉" class="headerlink" title="冬瓜炒肉"></a>冬瓜炒肉</h2><h3 id="前期准备"><a href="#前期准备" class="headerlink" title="前期准备"></a>前期准备</h3><p>香料：拍碎的蒜籽、青红椒碎、小葱段。<br>冬瓜切成<strong>两个硬币厚</strong>的薄片</p>
+<h3 id="开火-2"><a href="#开火-2" class="headerlink" title="开火"></a>开火</h3><p>Step 1，油煎冬瓜至9成熟：油锅下入冬瓜先煎炒一下。炒到微微发蔫，<strong>放少许盐给冬瓜入底味</strong>。冬瓜炒至八九成熟盛出。<br>Step 2： 炼猪油+炒香料+料酒生抽调味：另起锅，五花肉炒香，炒出油脂。<strong>下香料。接着下料酒、生抽</strong> &#x2F;&#x2F; 注意这里的顺序<br>Step 3冬瓜回锅，大火翻炒1min30s ; <strong>一点盐，糖，一点老抽上色</strong> ，接着炒30s<br>Step 4 (Option but important): 出锅前撒一点葱花  </p>
+<h2 id="海带结炖肉（辣椒、肉）"><a href="#海带结炖肉（辣椒、肉）" class="headerlink" title="海带结炖肉（辣椒、肉）"></a>海带结炖肉（辣椒、肉）</h2><h3 id="前期准备-1"><a href="#前期准备-1" class="headerlink" title="前期准备"></a>前期准备</h3><p>佐料：</p>
+<ul>
+<li>小米辣、大蒜拍碎、姜</li>
+<li>青辣椒切小块。本地薄皮辣椒。&#x2F;&#x2F;比杭椒短、粗</li>
+<li>大蒜叶的处理：美食强喜欢拍碎然后切小。出锅前放<br>海带的选用以及处理：</li>
+<li>可以用海带结；也可以把大片的海带切成长方形厚片</li>
+<li>切好后的海带用清水漂洗几遍。去除盐分。</li>
+<li>焯水1min去除盐分、粘液</li>
+</ul>
+<h3 id="开火-3"><a href="#开火-3" class="headerlink" title="开火"></a>开火</h3><p><strong>Step 1， 准备好虎皮辣椒</strong>：倒点油。把辣椒炒到微微起皱。炒出虎皮拿出备用<br><strong>Step 2，炼猪油同时煸炒香料</strong>：油锅先放姜、再放五花肉。炒出五花肉的油脂以后放大蒜、小米辣<br><strong>Step 3 下海带，调味</strong>：炒出香味，倒入海带。倒黄酒、生抽调味。&#x2F;&#x2F;我觉得可以炒肉的时候倒花雕酒。或者这里用料酒。<br><strong>Step 4: 转小火炖煮</strong>: 加水。调味用盐、白糖、味精、胡椒粉。放老抽上色。转小火盖上盖子焖8min<br><strong>Step 5，虎皮辣椒回锅</strong>：: 开盖、放虎皮辣椒，大火收汁<br><strong>Step 6: 出锅前的动作</strong> <strong>出锅前沿锅边浇点醋</strong>, 接着，放入切碎的大蒜叶——点睛之笔</p>
+<p>tips：</p>
+<ol>
+<li>厚海带不好入味，<strong>要加水焖一下</strong>。用小火焖8min</li>
+<li><strong>炒过的辣椒特别吸味</strong></li>
+<li>盖盖小火炖煮、开盖大火收汁</li>
+</ol>
+<h2 id="酸豆角炒肉末"><a href="#酸豆角炒肉末" class="headerlink" title="酸豆角炒肉末"></a>酸豆角炒肉末</h2><h2 id="腐竹红烧肉"><a href="#腐竹红烧肉" class="headerlink" title="腐竹红烧肉"></a>腐竹红烧肉</h2><p>大体分两步。先要把肉炖好，把腐竹丢进去炖<br>泡腐竹不是什么难事。这里讲讲煎肥肉的关键。<br>买来的五花肉可以先煎再切小块也可以先切块再煎。 如果打算吃大块的红烧肉可以先煎。 &#x2F;&#x2F; 如果肉的量少可以借助筷子翻面煎肉。<br>可以先用清水洗，吸干水分。也可以不要这一步 &#x2F;&#x2F;待实验</p>
+<ul>
+<li>这里说说先煎再切。简单清洗。<br>先煎皮，再把剩下几个面煎至金黄。&#x2F;&#x2F;里面不一定熟了，我们也不要求。</li>
+<li>煎皮不需要放油。最后。锅底会有猪油。</li>
+<li>用猪油炒糖色</li>
+<li>炒好糖色把肉、香料（八角桂皮）放进去。加点儿酱油炒1min加开水炖一会儿。网上说1h，我觉得15min可以</li>
+<li>之后就可以下腐竹啦~，放点酱油调调味。</li>
+</ul>
+<h2 id="炒糖色也很讲究-建议新手-可以切长条丁。-炒糖色用水炒，一变色久放肉。不一定非得等到大气泡"><a href="#炒糖色也很讲究-建议新手-可以切长条丁。-炒糖色用水炒，一变色久放肉。不一定非得等到大气泡" class="headerlink" title="&#x2F;&#x2F; 炒糖色也很讲究### 建议新手- 可以切长条丁。- 炒糖色用水炒，一变色久放肉。不一定非得等到大气泡"></a>&#x2F;&#x2F; 炒糖色也很讲究<br>### 建议新手<br>- 可以切长条丁。<br>- 炒糖色用水炒，一变色久放肉。不一定非得等到大气泡</h2><h2 id="鱿鱼丝"><a href="#鱿鱼丝" class="headerlink" title="鱿鱼丝"></a>鱿鱼丝</h2><p>神仙配菜：韭菜、青红椒<br>神仙调味：孜然粉、干辣椒<br>有人把须直接焯水，有人喜欢先用醋、淀粉、热水泡一下以清洗鱿鱼。用人用万能的葱姜水腌制。<br>总之腌制后备用。<br>热锅放蒜末、葱末。</p>
+<h2 id="麻婆豆腐"><a href="#麻婆豆腐" class="headerlink" title="麻婆豆腐"></a>麻婆豆腐</h2><p>食材选择：嫩豆腐、<strong>猪肉末（3分肥）</strong><br>切肉末、切豆腐块、切葱花 &#x2F;&#x2F;姜末、蒜末备好<br>提前准备好调料汁：一汤勺水（150ml），一勺生抽、半勺老抽、一点糖。不需要太多生抽因为郫县豆酱就是盐。</p>
+<p>先煮豆腐，去除豆腥味：开水加点盐，下豆腐，煮2-3min，盛出到盘中备用<br>炒肉末：下油炒肉末，炒到变色推到锅边，炒豆豉和豆瓣酱，在下葱末、姜末、蒜末。别忘了放辣椒粉！</p>
+<ul>
+<li>炒豆瓣酱要转小火。郫县豆酱加1勺半<br>烧制豆腐：加入调料汁，下豆腐</li>
+<li>分三次勾芡&#x2F;&#x2F;没发现什么学问</li>
+<li>出锅前撒剩余葱花和“现磨花椒粉”</li>
+</ul>
+<h2 id="茭白炒肉"><a href="#茭白炒肉" class="headerlink" title="茭白炒肉"></a>茭白炒肉</h2><p>备菜：可以加一些<strong>木耳丝、青辣椒丝</strong>，用肉丝、肉片都可以<br>茭白切丝、焯水去草酸。水再次沸腾就好了 &#x2F;&#x2F;可以借机高一点生姜水</p>
+<ul>
+<li>茭白为什么切丝？新手刀工不好，切片有薄有厚。有些厚的茭白炒出来里面夹生，没入味</li>
+</ul>
+<p>用肉丝里的汁炒蔬菜。在炒蔬菜的过程调味。</p>
+<ul>
+<li>首先肉已经腌制过，是有味道的</li>
+<li><strong>提前把蔬菜炒入味，避免后续炒太久。</strong></li>
+</ul>
+<h2 id="咖喱土豆鸡肉"><a href="#咖喱土豆鸡肉" class="headerlink" title="咖喱土豆鸡肉"></a>咖喱土豆鸡肉</h2><p>预处理：土豆丁和胡萝卜丁提前煮软。<br>鸡肉用葱姜水腌制。去腥味。</p>
+<p>先放洋葱丝炒软；下土豆丁、胡萝卜丁 炒两分钟；下鸡腿肉炒至变色<br>加水煮，水开放咖喱<br>中途可以放芝士&#x2F;牛奶&#x2F;三花淡奶</p>
+<p>点评：</p>
+<ul>
+<li>这个菜不需要什么调味料。你可以在炒的时候放适量盐、酱油、耗油。也可以不放。</li>
+<li>没有腥味的鸡肉。口感软糯的土豆是加分项。</li>
+</ul>
+<h2 id="花菜炒肉"><a href="#花菜炒肉" class="headerlink" title="花菜炒肉"></a>花菜炒肉</h2><p>花菜掰成小块，用盐浸泡 &#x2F;&#x2F; 一定要均匀的小块。保证熟度统一。<br>肉选用五花肉。&#x2F;&#x2F;Option: 提前用葱姜水去腥<br>先把五花肉煸出油，&#x2F;&#x2F; 小细节：炒至5成熟加大蒜末，炒的时候淋酱油，着色<br>花菜初加工：用煸出的猪油炒断生（可能要炒蛮久，花菜不容易熟）。 &#x2F;&#x2F;法二： 飞点水焖2min<br>加剩下的猪油&#x2F; 加油：炒<strong>葱段、干辣椒、大蒜瓣</strong>。下入炒过的五花肉、花菜。大火爆炒。</p>
+<p>小技巧：最后（快起锅前）来一圈增鲜<br>可选配料：青红辣椒</p>
+<h2 id="平菇炒肉"><a href="#平菇炒肉" class="headerlink" title="平菇炒肉"></a>平菇炒肉</h2><p>这道菜不能加水。平菇本身含大量水分。炒两下就冒汁。</p>
+<h2 id="蒜蓉爆大虾"><a href="#蒜蓉爆大虾" class="headerlink" title="蒜蓉爆大虾"></a>蒜蓉爆大虾</h2><h2 id="肉末茄子：茄子先蒸后煎才是王道"><a href="#肉末茄子：茄子先蒸后煎才是王道" class="headerlink" title="肉末茄子：茄子先蒸后煎才是王道"></a>肉末茄子：茄子先蒸后煎才是王道</h2><p>可以用细长的茄子切滚刀<br>也可以用粗大一点点茄子切成条。不要切得太细，不然煮一下就没了。对半切然后可以切条了。</p>
+<p><del>用盐分拌茄子，杀出水分。把水挤干，再用水清洗。</del><strong>加玉米淀粉拌一下</strong><br>热油炒一下茄子，盛出茄子  &#x2F;&#x2F;一定要把茄子炒软，别急急忙忙就成出来了。<br>炒肉末<br>酱汁就在万能料汁上随便加点 &#x2F;&#x2F;这道菜重点不在酱汁多讲究。而是茄子炒软，泡出盐分。还有切得好。<br><strong>调味：盐、白糖、味精、胡椒粉</strong></p>
+<h2 id="红烧排骨"><a href="#红烧排骨" class="headerlink" title="红烧排骨"></a>红烧排骨</h2><h2 id="家烧龙头鱼（小炒）"><a href="#家烧龙头鱼（小炒）" class="headerlink" title="家烧龙头鱼（小炒）"></a>家烧龙头鱼（小炒）</h2><p>也叫豆腐鱼、水潺，还有人叫九肚鱼</p>
+<p>tips：<br>萝卜干、酸菜可以用来调味。</p>
+<p>炒香蒜末、小米辣、萝卜干、姜末下入调好的料汁，煮开，下豆腐、鱼煮开就行。可以勾芡</p>
+<h2 id="砂锅焗豆腐鱼"><a href="#砂锅焗豆腐鱼" class="headerlink" title="砂锅焗豆腐鱼"></a>砂锅焗豆腐鱼</h2><h3 id="预处理：-1"><a href="#预处理：-1" class="headerlink" title="预处理："></a>预处理：</h3><ol>
+<li>切掉头，去掉肚，切掉鱼鳍、鱼尾。斜刀切成两段。 &#x2F;&#x2F; 这里要一点刀技。能把脏器取出来。</li>
+<li>用清水把鱼肉抓洗干净，另一方面，起到了去腥的作用</li>
+<li>沥干并腌制：花雕酒、生抽、胡椒粉;  20min</li>
+</ol>
+<h3 id="开火-4"><a href="#开火-4" class="headerlink" title="开火"></a>开火</h3><p>Step 1 锅底料：油锅下大蒜粒、姜粒，煎出香味放洋葱片  &#x2F;&#x2F;注：大蒜粒对半切<br>Step 2 下鱼肉：放入腌好的鱼段，<strong>铺平</strong>，盖盖焗 3min<br>tips:<br>全程不加水——豆腐鱼含水。也不用放调料<br>开盖撒上葱花</p>
+<h1 id="汤、汤菜"><a href="#汤、汤菜" class="headerlink" title="汤、汤菜"></a>汤、汤菜</h1><h2 id="西红柿肉丸汤"><a href="#西红柿肉丸汤" class="headerlink" title="西红柿肉丸汤"></a>西红柿肉丸汤</h2><p>肉馅的制备见“做饭技巧”篇<br>西红柿汤，西红柿的处理：</p>
+<ul>
+<li>切丁最好。</li>
+<li>炒软再加水。炒的时候可以加点水。完全炒化再倒大量水<br>pro: 可以加点蚕豆、泡发的木耳</li>
+</ul>
+<h2 id="番茄粉丝虾滑煲"><a href="#番茄粉丝虾滑煲" class="headerlink" title="番茄粉丝虾滑煲"></a>番茄粉丝虾滑煲</h2><h2 id="排骨汤"><a href="#排骨汤" class="headerlink" title="排骨汤"></a>排骨汤</h2><h2 id="平菇鸡蛋汤"><a href="#平菇鸡蛋汤" class="headerlink" title="平菇鸡蛋汤"></a>平菇鸡蛋汤</h2><p>平菇（200g）撕成小朵，蟹味菇。不用焯水——平菇本身含大量水，焯水会流失鲜味。<br>配料：葱花、枸杞、紫菜。虾皮可有可无，吃不出来。不要放榨菜<br>调味：盐、鸡精、香油、白胡椒粉<br>可选配菜：小青菜叶子、枸杞、<strong>粉丝</strong></p>
+<h2 id="咖喱牛腩"><a href="#咖喱牛腩" class="headerlink" title="咖喱牛腩"></a>咖喱牛腩</h2><h3 id="牛腩-各种大肉（排骨、羊排）的处理方法"><a href="#牛腩-各种大肉（排骨、羊排）的处理方法" class="headerlink" title="牛腩&#x2F;各种大肉（排骨、羊排）的处理方法"></a>牛腩&#x2F;各种大肉（排骨、羊排）的处理方法</h3><p>牛腩切大块冷水下锅，加大葱、姜、料酒<br>水开、撇去浮沫、捞起来<br>锅里加油先炒葱姜还有洋葱，炒香倒焯好水的牛腩<br>加生抽、酱油、耗油<strong>炒香</strong><br>炒香<strong>加开水</strong><br>给一点胡椒粉和山楂–软化肉质<br>煮1h，加胡萝卜块、土豆块煮15min<br>加咖喱块收汁<br>放点椰浆</p>
+<h1 id="蛋炒饭"><a href="#蛋炒饭" class="headerlink" title="蛋炒饭"></a>蛋炒饭</h1><h3 id="提前备好"><a href="#提前备好" class="headerlink" title="提前备好"></a>提前备好</h3><ul>
+<li>酱料：一勺盐、一勺鸡精、一勺生抽、半勺老抽、耗油、</li>
+<li>腌肉：料酒、白胡椒粉、水淀粉</li>
+</ul>
+<hr>
+<ul>
+<li>先炒鸡蛋盛出(一个人吃一个就够了)</li>
+<li><strong>加葱白爆香</strong>炒肉末  &#x2F;&#x2F;不用放大蒜子、小米辣<ul>
+<li><strong>升级版</strong>可以在这一步放点<strong>小虾仁、干贝丝&#x2F;广式腊肠切丁&#x2F;火腿肠丁</strong></li>
+</ul>
+</li>
+<li>肉末变色放蔬菜丁</li>
+<li>迅速放米饭 &#x2F;&#x2F;因为蔬菜提前煮熟了</li>
+<li>下酱料翻炒3min</li>
+<li>放之前炒好的鸡蛋碎</li>
+<li>放灵魂老干妈！</li>
+<li>30s 出锅</li>
+</ul>
+<h3 id="tips-3"><a href="#tips-3" class="headerlink" title="tips"></a>tips</h3><ul>
+<li>经过实验。一碗饭配<strong>一个蛋足够</strong></li>
+<li>提前用手rua匀米饭和蛋液炒出来也很好吃，而且更省事</li>
+<li>握铲子手法：不要握顶端，不好控制幅度，容易把米粒翻到锅外。建议握下面一点。</li>
+<li>最简易：加点酱油、橄榄菜、老干妈就很有味了。再来一根金铜锣火腿肠</li>
+</ul>
+<h1 id="空气炸锅美食"><a href="#空气炸锅美食" class="headerlink" title="空气炸锅美食"></a>空气炸锅美食</h1><h2 id="烤羊肉块-空气炸锅"><a href="#烤羊肉块-空气炸锅" class="headerlink" title="烤羊肉块(空气炸锅)"></a>烤羊肉块(空气炸锅)</h2><h3 id="预处理-1"><a href="#预处理-1" class="headerlink" title="预处理"></a>预处理</h3><ul>
+<li>买肉：羊腿肉最佳、羊里脊。切成 2-3cm的块</li>
+<li>羊肉冷水浸泡 30min —— 泡出血水</li>
+<li>腌肉：<strong>料酒、生姜、洋葱丝</strong>、加点食用油（橄榄油最好）和盐、生抽&#x2F;&#x2F;冰箱腌制1小时以上晚上</li>
+</ul>
+<hr>
+<p>先烤10min，什么都不加<br>加孜然粉（半勺多）、辣椒粉（半勺）。<strong>翻拌一下</strong> 继续烤8min<br>最后两分钟，加入白芝麻</p>
+<p>注意：如果用竹签串起来了。竹签要先用水泡30min，防止烤焦<br>撒粉要均匀。炸锅容易漏粉</p>
+<h2 id="烤羊排（空气炸锅）"><a href="#烤羊排（空气炸锅）" class="headerlink" title="烤羊排（空气炸锅）"></a>烤羊排（空气炸锅）</h2><h2 id="羊排洗净擦干，用刀背在肉厚的地方轻轻拍松腌制：黑胡椒-盐、耗油、生抽、油、蒜末-片（2瓣）-咸度的把控！-冷藏腌制1h以上"><a href="#羊排洗净擦干，用刀背在肉厚的地方轻轻拍松腌制：黑胡椒-盐、耗油、生抽、油、蒜末-片（2瓣）-咸度的把控！-冷藏腌制1h以上" class="headerlink" title="羊排洗净擦干，用刀背在肉厚的地方轻轻拍松腌制：黑胡椒&amp;盐、耗油、生抽、油、蒜末&#x2F;片（2瓣） &#x2F;&#x2F;咸度的把控！    冷藏腌制1h以上
+    "></a>羊排洗净擦干，用<strong>刀背在肉厚的地方轻轻拍松</strong><br>腌制：黑胡椒&amp;盐、耗油、生抽、油、蒜末&#x2F;片（2瓣） &#x2F;&#x2F;咸度的把控！<br>    冷藏腌制1h以上
+    </h2><p>空气炸锅-肉类模式<br>中途翻个面<br>烤好后、关掉电源。让羊排在锅内静置3-5min</p>
+<h2 id="奥尔良烤翅"><a href="#奥尔良烤翅" class="headerlink" title="奥尔良烤翅"></a>奥尔良烤翅</h2><h3 id="重点—腌料："><a href="#重点—腌料：" class="headerlink" title="重点—腌料："></a>重点—腌料：</h3><ul>
+<li>奥尔良风味：奥尔良粉：水&#x3D;1：2.5左右<ul>
+<li>3~4个鸡翅：两勺粉+5勺水</li>
+</ul>
+</li>
+<li>烧烤味：</li>
+</ul>
+<p>鸡翅切花刀，可以切深一点<br>洗净，用厨房纸擦干<br>冰箱里腌制一晚上<br>空气炸锅“鸡翅”模式</p>
+<h1 id="油炸"><a href="#油炸" class="headerlink" title="油炸"></a>油炸</h1><h2 id="椒盐豆腐鱼（炸）"><a href="#椒盐豆腐鱼（炸）" class="headerlink" title="椒盐豆腐鱼（炸）"></a><a href="https://www.bilibili.com/video/BV1H2p1eUEdk/">椒盐豆腐鱼（炸）</a></h2><h3 id="前期准备-2"><a href="#前期准备-2" class="headerlink" title="前期准备"></a>前期准备</h3><h4 id="鱼的处理："><a href="#鱼的处理：" class="headerlink" title="鱼的处理："></a>鱼的处理：</h4><ul>
+<li>去头去尾, 背上开一刀去掉脊骨。去骨后一分为二  &#x2F;&#x2F;多看几遍视频</li>
+<li>清水冲洗两遍、控水（可用厨房纸巾）。&#x2F;&#x2F;方便上浆、入味</li>
+<li>腌制（15min）：盐、鸡精、黄酒、葱段、姜片</li>
+</ul>
+<h4 id="脆皮糊的制备："><a href="#脆皮糊的制备：" class="headerlink" title="脆皮糊的制备："></a>脆皮糊的制备：</h4><p>低筋面粉60g 土豆淀粉 50g，泡打粉 3g，盐3g，半个鸡蛋液，温水 60g，搅拌均匀<br>最后加入3g花生油，再次搅拌 &#x2F;&#x2F;可以观察到小气泡</p>
+<h3 id="开火-5"><a href="#开火-5" class="headerlink" title="开火"></a>开火</h3><ul>
+<li>腌制好的鱼挑出葱姜</li>
+<li>裹鱼之前撒干淀粉。锁住水分。</li>
+<li>用碗边刮掉多余的面糊</li>
+</ul>
+<ol>
+<li>倒多点油，油温3-4成热（100-140度）——油温宁可低不可以高<br> 变得金黄可以捞出控油（让鱼块在漏勺上滴油）&#x2F;&#x2F;此时电磁炉可以按下暂停</li>
+<li>全部炸完后，复炸！<br>油温升至6成热（150-180），依旧是分批放进去炸！用6成炸  &#x2F;&#x2F;感觉有难度了hhh</li>
+</ol>
+<p>tips:<br>电磁炉油炸模式：60 100 130 160 180<br>4成就用100&#x2F;130<br>6成就用160&#x2F;180</p>
+<h3 id="最后一步，锦上添花"><a href="#最后一步，锦上添花" class="headerlink" title="最后一步，锦上添花"></a>最后一步，锦上添花</h3><p>其实复炸后的鱼块就可以吃了。<br>得到鱼块的完成品还可以调味<br>一丢丢油倒入（红&#x2F;青辣椒丁、蒜末、葱白、洋葱丁）<br>出香味后，加入椒盐，放入豆腐鱼</p>
+<h1 id="煎"><a href="#煎" class="headerlink" title="煎"></a>煎</h1><h2 id="牛排"><a href="#牛排" class="headerlink" title="牛排"></a>牛排</h2><h2 id="三文鱼排"><a href="#三文鱼排" class="headerlink" title="三文鱼排"></a>三文鱼排</h2>]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
       <tags>
-        <tag>日记</tag>
-        <tag>HAM</tag>
+        <tag>美食</tag>
+        <tag>生活</tag>
       </tags>
   </entry>
   <entry>
@@ -857,66 +1094,11 @@
       </tags>
   </entry>
   <entry>
-    <title>在hexo博客中插入图片(方案汇总)</title>
-    <url>/2025/03/09/%E5%9C%A8hexo%E5%8D%9A%E5%AE%A2%E4%B8%AD%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E3%80%90%E6%96%B9%E6%A1%88%E6%B1%87%E6%80%BB%E3%80%91/</url>
-    <content><![CDATA[<h1 id="放弃的方案："><a href="#放弃的方案：" class="headerlink" title="放弃的方案："></a>放弃的方案：</h1><h2 id="原生的-hexo-add-on-hexo-asset"><a href="#原生的-hexo-add-on-hexo-asset" class="headerlink" title="原生的 hexo add on: hexo-asset"></a>原生的 hexo add on: hexo-asset</h2><p><code>post_asset_folder: false #true</code></p>
-<ul>
-<li>语法格式恶心，既不是 md 也不是 HTML，自带的一种渲染格式</li>
-<li>尝试多次未成功</li>
-</ul>
-<h1 id="能使用的方案："><a href="#能使用的方案：" class="headerlink" title="能使用的方案："></a>能使用的方案：</h1><h2 id="PicX-GitHub作图床"><a href="#PicX-GitHub作图床" class="headerlink" title="PicX GitHub作图床"></a>PicX GitHub作图床</h2><h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><ul>
-<li>gitbub 有一个叫做 picx 的项目, 是一个网站，你可以往它的官网上传（本机的）图，会自动生成一个链接赋值到剪切板上。</li>
-<li>特点：手动在 blog md file 里放 html img 标签； 支持使用 GitHub 图床（own repo，free）等其他图床</li>
-</ul>
-<h3 id="优缺点"><a href="#优缺点" class="headerlink" title="优缺点"></a>优缺点</h3><ul>
-<li>优点： PicX 自动生成图片 url, 完全免费（薅微软 Github 服务器的羊毛）</li>
-<li>不足：无法在写博客粘贴图片的时候自动生成链接。需要手动写 HTML img 标签。图多了有些麻烦，容易找不到链接。<br>Links：<a href="https://picx.xpoet.cn/#/settings">PicX 在线服务</a>； <a href="https://picx-docs.xpoet.cn/usage-guide/get-start.html">官方使用教程</a>；<a href="https://github.com/XPoet/picx">GitHub 仓库地址</a></li>
-</ul>
-<p>e.g. url generate by pix<br><a href="https://github.com/OptimusHimself/picx-images-hosting/raw/master/%E5%BD%97%E6%98%9F%E8%BD%A8%E8%BF%B9.esnsejhpw.webp">https://github.com/OptimusHimself/picx-images-hosting/raw/master/彗星轨迹.esnsejhpw.webp</a><br>e.g. &lt;img&gt; tag<br>&lt;img src&#x3D;”<a href="https://github.com/OptimusHimself/picx-images-hosting/raw/master/%E5%BD%97%E6%98%9F%E8%BD%A8%E8%BF%B9.esnsejhpw.webp">https://github.com/OptimusHimself/picx-images-hosting/raw/master/彗星轨迹.esnsejhpw.webp</a>“ alt&#x3D;”sorry about that”&gt;</p>
-<blockquote>
-<p>img alt 参数：Specifies an alternate text for an image</p>
-</blockquote>
-<h2 id="外国图床"><a href="#外国图床" class="headerlink" title="外国图床"></a>外国图床</h2><p><a href="https://postimages.org/">postimage</a><br><a href="https://sm.ms/">sm.ms</a> </p>
+    <title>爆改乐视电视</title>
+    <url>/2025/07/12/%E7%88%86%E6%94%B9%E4%B9%90%E8%A7%86%E7%94%B5%E8%A7%86/</url>
+    <content><![CDATA[<p>3 音量减， 音量加， 频道减， 频道加</p>
+<p><a href="https://www.znds.com/tv-1068755-1-1.html">开发者模式按键</a></p>
 ]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>考前突击方案</title>
-    <url>/2025/06/27/%E8%80%83%E5%89%8D%E7%AA%81%E5%87%BB%E6%96%B9%E6%A1%88/</url>
-    <content><![CDATA[<p>趁着刚经历完考前突击，总结几点经验（方法+误区）。实现：对一门即便学期内没怎么去上课的学科，也能在最后通过高效的方法取得不错的成绩。</p>
-<p>发现物联网工程（其他工科类的专业应该也一样）。大一大二很多零零碎碎的基础课，瞎学。进入大三后，很多专业课内容相互关联。为彼此提供基础。因此，常常学得一头雾水。或者说，再有了其他学科的基础会得到更大的启发。因此，把所有课程留到最后学未尝不是坏事。平时可以多关注兴趣、做科研而专业课的学习则集中在期末，把相关的知识一网打尽，即高效也能产出综合性强的结论，岂不美哉？<br>所以这其实更像一份大三大四的学习方案。<br>例子：DSP，SS，CT，WS都是通信原理领域的重要学科。主题涉及傅里叶变换(时频转换),xxx transform， information theory等。可以说，你不学一门也能学另一门。但是你如果有一门学得很吃力，那么换一门依然会面对学不透的问题。因为你缺失了知识背景。</p>
-<p>省流：整体方案很简单：</p>
-<ol>
-<li>明确<strong>要用的资源</strong>： 课件&#x2F;书本为主（90%） 其他教材为辅。 AI是你的好朋友，多讨论。</li>
-<li>明确<strong>工具</strong>：各个工具使用场景<br>最后，投入时间学就完了</li>
-</ol>
-<h1 id="资源"><a href="#资源" class="headerlink" title="资源"></a>资源</h1><p>如果学校发了一本好教材。完全可以扔掉教辅。</p>
-<p>高效的学习不在于你抄了多少笔记，看了多少网页，问了多少AI，读了多少本书。 而是给你一个课件，你能<strong>静下心来看，在草稿纸上涂画</strong>。<strong>试图不借助询问他人&#x2F;AI，自己理解书本的意思</strong>。 是你能<strong>从有限的文本中，挖出多少自己定义的概念</strong></p>
-<h1 id="“提前复习”的“提前”"><a href="#“提前复习”的“提前”" class="headerlink" title="“提前复习”的“提前”"></a>“提前复习”的“提前”</h1><p>吃过了亏后，我明白了提前复习的意义：不只是怕来不及。而是留出更多深入学习一门学科的时间。整理笔记&#x2F;blog的时间。<br>大三下期末周的惨案：</p>
-<ol>
-<li><p>考完无线系统，次日即CA。但考完WS的我无心学习，在看漫威。 后面早起复习CA。有三道大题不会。也没多少时间。这是大三下最大的事故。<br>这告诉我们：提前量很重要，你不能指望自己有用不完的精力。 你要考虑到：考完每一场自己需要放松的时间。</p>
-</li>
-<li><p>复习时间太少了。 2周复习6门科目（在这之前在写小组作业。其中有很多门都没有踏踏实实地学过一遍（听课+所有作业&#x2F;lab&#x2F;quiz有把握）。如数据库、CT、DSP、CA、CN、WS。 我期望的复习状态是：下午能游个泳、晚上能写个博客留下有用的知识。能留出时间昨晚该做的题目，而不是打印出来却没时间看。</p>
-</li>
-<li><p>学习WS noise一章。一直用的word记录<br>吭哧吭哧几个小时过去了也才学了一半的课件，大量时间浪费在编辑公式和Ctrl + F搜索。用纸🖊就不存在这样的事故。</p>
-</li>
-</ol>
-<h1 id="草稿本-黑笔"><a href="#草稿本-黑笔" class="headerlink" title="草稿本+黑笔"></a>草稿本+黑笔</h1><p>这是最快，<strong>最有效</strong>的推进度的方案！真的！</p>
-<p>使用草稿本书写取代在电脑上写（如Word）。我曾喜欢把课件里的重要内容各种highlight, copy&amp;paste, retyping. 但事实证明这<strong>不如写纸上记得深刻</strong>，也不如写纸上方便（查阅、查找、反复编辑）<br>尤其是推导一些公式的时候。 注意：公式往往是最重要的内容。 记住，基于电子的复制粘贴虽然便利了信息的收集，但记忆这类工作，往往要<strong>Get Hands Dirty</strong></p>
-<h2 id="想留下精美笔记怎么办？"><a href="#想留下精美笔记怎么办？" class="headerlink" title="想留下精美笔记怎么办？"></a>想留下精美笔记怎么办？</h2><p>番外篇<br>之所以有时想用Word，Joplin这些软件记录课件的内容和自己的心得，是想留下学懂知识的愉快的回忆，保留当时的骄傲感。也有助于之后的复习~。但是，记笔记取决于你是否为自己准备了充分的复习时间。保证当天的进度</p>
-<p><strong>复盘</strong>的时间很重要。 比推进度更加重要。当你意识到自己有一些模棱两可的知识、公式。那就是需要复盘了。 你需要一张新的纸，把知识串起来。重要的推导也不能省略。<br>例<br>在复习CT时（其实是第一次学）。我的复盘过程是：用手机备忘录整理相关联的章节。把零零散散的Chap11 Chap12 Chap13 …. Chap21 划归到各个板块。 每个板块提出的重要理论（比如如何保证xxx）、工程方法（接收机模型）、还有例题。<br>还有WS，会把出现过的和某一个术语<strong>相关的几个模型&#x2F;图像放在一起比对</strong>。 比如多种接收机模型，pro版本。画在一张纸上。你就能精准掌握Receiver的概念。同理Receiver，还有噪声模型。</p>
-<h1 id="练题！"><a href="#练题！" class="headerlink" title="练题！"></a>练题！</h1><p>课本&#x2F;课件例题 &gt; 原题 &gt;&gt; 纯看理论、不做题</p>
-<p>例题和原题真的很重要。 尤其要掌握书本上的例题、 推导过程。  </p>
-<p>一个好的做题方案是<strong>使用VSC + jupyter + Copilot</strong>。 用python帮你算还能留下各个变量。 这个过程还能培养命名习惯。</p>
-]]></content>
-      <tags>
-        <tag>学习方法</tag>
-      </tags>
   </entry>
   <entry>
     <title>和仲敖的SDR日记</title>
@@ -962,16 +1144,107 @@
       </tags>
   </entry>
   <entry>
-    <title>约定式提交</title>
-    <url>/2025/07/07/%E7%BA%A6%E5%AE%9A%E5%BC%8F%E6%8F%90%E4%BA%A4/</url>
-    <content><![CDATA[]]></content>
+    <title>计网学习笔记</title>
+    <url>/2025/06/16/%E8%AE%A1%E7%BD%91%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>屎一样的笔记。</p>
+<blockquote>
+<p>我希望这辈子能挖到一个21世纪的网络漏洞。</p>
+</blockquote>
+<h1 id="DHCP服务器"><a href="#DHCP服务器" class="headerlink" title="DHCP服务器"></a>DHCP服务器</h1><p>为什么host广播用的<code>DHCPDISCOVER包</code>，能被DHCP服务器收到并处理，为什么<code>源IP</code>必须是<code>0.0.0.0</code> <code>目的IP</code>必须是<code>255.255.255.255</code>？</p>
+<h2 id="特殊IP地址"><a href="#特殊IP地址" class="headerlink" title="特殊IP地址"></a>特殊IP地址</h2><p>DHCPDISCOVER广播包会被<strong>同一网段上所有主机的IP协议栈</strong>接收，<strong>但只有运行着DHCP服务器软件并监听UDP端口67的主机</strong>才会在UDP&#x2F;应用层处理这个请求并做出响应。其他主机的UDP层会因为端口67未被使用而丢弃该数据报。0.0.0.0和255.255.255.255保证了广播能被发送并被所有IP栈接收，而端口67则确保了只有DHCP服务器应用会处理它。</p>
+<p>其他非DHCP主机不会运行67进程，自然也不会对<code>DHCPDISCOVER包</code>进行处理</p>
+<h1 id="“NIC-“-“网卡”"><a href="#“NIC-“-“网卡”" class="headerlink" title="“NIC “ “网卡”"></a>“NIC “ “网卡”</h1><p>链路层的主体部分是在网络适配器中实现的。网络适配器有时也称为网络接口卡</p>
+<h2 id="PCI-PCIe"><a href="#PCI-PCIe" class="headerlink" title="PCI &amp; PCIe"></a>PCI &amp; PCIe</h2><p>PCI Peripheral Component Interconnect  </p>
+<ul>
+<li>传统总线协议</li>
+<li>PCIe Peripheral Component Interconnect Express </li>
+<li>快速外设组件互连高速串行标准</li>
+<li>Express有快速、高速传输的含义</li>
+<li>两个都是总线协议。 由于对总线传输速度的需求增大，PCI被速度更快的PCIe替代。</li>
+</ul>
+<p>以前经常问的问题：DHCP服务器</p>
+<p>说说我脑中的DHCP Server</p>
+]]></content>
+      <categories>
+        <category>复习笔记</category>
+      </categories>
+      <tags>
+        <tag>计网</tag>
+      </tags>
   </entry>
   <entry>
-    <title>爆改乐视电视</title>
-    <url>/2025/07/12/%E7%88%86%E6%94%B9%E4%B9%90%E8%A7%86%E7%94%B5%E8%A7%86/</url>
-    <content><![CDATA[<p>3 音量减， 音量加， 频道减， 频道加</p>
-<p><a href="https://www.znds.com/tv-1068755-1-1.html">开发者模式按键</a></p>
+    <title>Books Recommandation</title>
+    <url>/2025/03/25/%E9%98%85%E8%AF%BB%E6%8E%A8%E8%8D%90/</url>
+    <content><![CDATA[<p>这是一个来自IoT专业理工男整理的书单。我从读大学之后开始热爱读书、算是对各类书籍都感兴趣。在这之前，很少阅读课外书籍。这份清单涵盖了我阅读过的并且其中的某些片段为我留下了深刻印象、并对我的学习生活、个人修养产生过积极影响的书籍（真的，读书很神奇，你会因为梳理的内容做出很多改变，哪怕有些只有一个月。<br>AI时代获取信息变得容易，但是读书依然不可替代。<br>我为每本书留下了一些摘抄或者感想，可以当作这本书的精彩部分。 之后会有专门的分区记录每一本书的读后感。</p>
+<h1 id="高端科普、社会知识类"><a href="#高端科普、社会知识类" class="headerlink" title="高端科普、社会知识类"></a>高端科普、社会知识类</h1><p>通过读大师的作品，品味伟大的成就，从精品里学习，开阔了你的视野。从精粹中学到的思维方式让你在成事、看热点问题、社会上的宏观问题带来更新颖的思维方式。<br>阅读这类作品，需要结合自身经历思考、留记录</p>
+<h2 id="科学中国人系列杂志"><a href="#科学中国人系列杂志" class="headerlink" title="科学中国人系列杂志"></a>科学中国人系列杂志</h2><p>我的阅读背景：<br>我于2025.3月（大三下），在图书馆的杂志区，接触科学中国人。 这一段时间，我焦虑于保研专业的选择，人工智能革命浪潮加上种种AI的炒作下，好像计算机专业的不去研究AI以后就找不到工作、或者没有实在的薪水。有时在一些众说纷纭的媒体听闻：26岁的某某某在大厂担任AI领军任务；没天赋别碰AI、别取卷算法，种种之类。其实，在我尝试学习Andrej Karpathy的课程后我就对AI有研究自信，但没太火热的兴趣。 我也接受以后不主攻AI。但心里总希望有些支撑我的观点。草草读完，我豁然开朗，研究不分高低贵贱，不要带着功利选择视野；何必走计算机？计算机外也有很多有价值的科研天地；不要基于未经审核的只言片语规划未来。<br>作品评价：中国科学主管，在我国高级知识分子群体（两院院士）有着良好声誉<br>定位：中国科教界热点、大牛人物（科学家、科技型企业家、教学科研单位高层管理人员）故事，最新科研动态<br>每一期都会挑出几位顶级的科学家介绍他们的经历。还会用简短的文字科普新兴的技术。最后一页有精美的图片或者推荐的阅读资料。<br>通过阅读这套杂志，你可以清楚地感受到中国顶流的科研水平，各大高校的成果，你会对研究生、博士生、教授的工作有更清楚的认识。这本书不会介绍基础知识，和你的本科课本不同。但是一定能打开你的视野，给想走科研道路的自己更详细的学业、职业生涯规划。<br>如果你还在纠结留学还是国内读研、不清楚这个世界上有哪些有价值的研究以及想了解我国的科研能力到底什么水平，强烈推荐你看看这套书籍。如果你还未高中毕业，想规划自己未来的研究道路，相信有一定科学基础的你也能从这本书中看到未来的事业。</p>
+<h2 id="脉络-吴军"><a href="#脉络-吴军" class="headerlink" title="脉络  吴军"></a>脉络  吴军</h2><p>大三上学期（国庆假期）<br>历史、社会、未来</p>
+<h2 id="浪潮之巅-吴军"><a href="#浪潮之巅-吴军" class="headerlink" title="浪潮之巅 吴军"></a>浪潮之巅 吴军</h2><p>还没读完，但绝对值得一读。</p>
+<h2 id="黑客与画家-保罗·格雷厄姆（YCombinator创始人）"><a href="#黑客与画家-保罗·格雷厄姆（YCombinator创始人）" class="headerlink" title="黑客与画家  保罗·格雷厄姆（YCombinator创始人）"></a>黑客与画家  保罗·格雷厄姆（YCombinator创始人）</h2><p>阮一峰大佬翻译<br>全书分为三部分<br>本书是保罗整理的“散文集”。包含了他对IT行业&#x2F;创业的思考</p>
+<h2 id="Just-For-Fun-只是为了好玩（Linus-Trovalds）"><a href="#Just-For-Fun-只是为了好玩（Linus-Trovalds）" class="headerlink" title="Just For Fun 只是为了好玩（Linus Trovalds）"></a>Just For Fun 只是为了好玩（Linus Trovalds）</h2><p>本书是Linus的个人传记。非常非常有趣。值得你的空闲时间。</p>
+<h1 id="中外小说、散文"><a href="#中外小说、散文" class="headerlink" title="中外小说、散文"></a>中外小说、散文</h1><p>阅读，可以是一种放松的过程。本节记录书本概述&amp;我喜欢的句子。</p>
+<h2 id="读是一种幸福-梁晓声"><a href="#读是一种幸福-梁晓声" class="headerlink" title="读是一种幸福 梁晓声"></a>读是一种幸福 梁晓声</h2><p>这是梁晓声先生的散文集，是我第一次读到的作品。我喜欢他的文章，那有血有肉的文字读起来没有压力，总是让我感动。<br>记录了他儿时那个年代的故事。有文革背景下的人物。有和他的哥哥、母亲的故事，还有他当父亲有趣的亲子经历。<br>后来，我知道他的代表作，《人世间》超长篇小说；第一次追剧也是这部小说改，剧中的人物正是他的家庭生活的缩影。</p>
+<h2 id="夜火车-徐则臣"><a href="#夜火车-徐则臣" class="headerlink" title="夜火车  徐则臣"></a>夜火车  徐则臣</h2><p>感谢善良勇敢的木年、孝顺有爱的新治；让我在大学这个浮躁的小社会收获滋养，做一个踏实善良的人。</p>
+<blockquote>
+</blockquote>
+<h2 id="海边的卡夫卡-村上春树"><a href="#海边的卡夫卡-村上春树" class="headerlink" title="海边的卡夫卡  村上春树"></a>海边的卡夫卡  村上春树</h2><p>小说的开篇就很有意思，16岁自律男生的独自生存。故事中的情节不断点燃我的探险激情。我也想走出校园，看看这个世界！于是，就有了大二暑假河北秦皇岛的独自旅行。</p>
+<blockquote>
+<p>这往下你必须成为世界上最顽强的十五岁少年，不管怎么样。因为除此之外这世界上没有你赖以存活之路，为此你自己一定要理解真正的顽强是怎么回事。</p>
+<p>如果有意，我可以除掉父亲（以我现在的力气，决非什么难事），也可从记忆中将母亲抹消。可是我无法将两人的遗传因子从身上驱逐干净。如果我想驱逐，只能驱逐我自身。<br>我们大家都在持续失去种种宝贵的东西，这是生存的一个意义。</p>
+</blockquote>
+<h2 id="潮骚-三岛由纪夫"><a href="#潮骚-三岛由纪夫" class="headerlink" title="潮骚 三岛由纪夫"></a>潮骚 三岛由纪夫</h2><p>我欣赏三岛由纪夫那细致的人物刻画能力。用精细的语言雕刻人物的动作、心理、神态。每次重读他的作品，我都会感叹，怎么能有如此强大的表述能力。</p>
+<blockquote>
+<p><em>摘抄</em><br>年轻人感到包围着他的丰饶的大自然与他自身，是一种无上的调和。他觉得自己的深呼吸，是仿造大自然的肉眼看不见的东西的一部分，它深深渗透到年轻人的体内深处。他所听见的潮骚，仿佛是海的巨大的潮流，与他体内沸腾的热血的潮流调和起来了。新治平日并不特别需要音乐，但大自然本身一定充满着音乐的需要。</p>
+<p>新治的身边是广袤的大海，但他并不憧憬纵横四海的虚幻梦想。对渔夫来说，海的概念与农民拥有的土地相近。海是生活的场所，是庄稼地，形状不定的白色穗波代替了稻穗和麦浪在敏感的湛蓝色软土上不停摇摆着。 尽管如此，年轻人结束了这天的捕捞工作，望着白色货轮行驶在水平线上的晚霞前，心里却怀着不可思议的感动。世界张开了在过去难以想象的巨大怀抱，从彼方通近。这未知世界的形象如远雷一般，从天际轰鸣而来，又消逝而去。 在船头甲板上，一只小小的海星已经干瘪了。年轻人坐在船头，将视线挪离晚霞，轻摇了摇扎着白色厚毛巾的头。 </p>
+</blockquote>
+<h1 id="心理学"><a href="#心理学" class="headerlink" title="心理学"></a>心理学</h1><h2 id="亲密关系-Intimate-Relationships-罗兰·米勒"><a href="#亲密关系-Intimate-Relationships-罗兰·米勒" class="headerlink" title="亲密关系 Intimate Relationships 罗兰·米勒"></a><a href="https://book.douban.com/subject/36787449/">亲密关系</a> Intimate Relationships 罗兰·米勒</h2><p>与其说这是书，不如说这是一份研究报告。<br>这本书教会了如何有效沟通。不仅是和恋人、亲人，还有和同学朋友讲道理时，也会采取书中的模式——你心平气和地说，我耐心听，我不打断。等你说完了我再说。我听到了你的想法，我陈述你的想法——当我的理解与你的想法一致时，我做到了共情。我认真地道歉，讲道理。</p>
+<p>我认为这本书适合每一个大学生阅读。</p>
+<h2 id="休息力-韩-李时炯"><a href="#休息力-韩-李时炯" class="headerlink" title="休息力  [韩]李时炯"></a><a href="https://book.douban.com/subject/36394549/">休息力</a>  [韩]李时炯</h2><p>本书不同于大多经验类的帖子、脑科学作品，有很多科学元素。从科学原理出发，解释人之所以疲劳、效率低等日常问题还有心理、身体疾病的源头，结合来自仙村康复中心的治疗方案，告诉读者长寿，让大脑保持健康的秘密。教会我们科学地工作。<br>这本书让我产生了保护好的大脑的意识。更高效地调整自己的工作状态，让我更加从容地面对瓶颈期，而不是堕落、沮丧。</p>
+<h1 id="计算机专业入门科普读物"><a href="#计算机专业入门科普读物" class="headerlink" title="计算机专业入门科普读物"></a>计算机专业入门科普读物</h1><h2 id="《CPU通识课》-龙芯中科"><a href="#《CPU通识课》-龙芯中科" class="headerlink" title="《CPU通识课》 龙芯中科"></a>《CPU通识课》 龙芯中科</h2><p>适合CS, IoT，等有对计算机底层知识 how computer work问题感兴趣的童鞋阅读。开阔了商业视野。偏向CPU、ISA简史。</p>
+<h2 id="《普林斯顿大学计算机公开课》"><a href="#《普林斯顿大学计算机公开课》" class="headerlink" title="《普林斯顿大学计算机公开课》"></a>《普林斯顿大学计算机公开课》</h2><p>适合刚进入大学的计算机专业学生阅读。</p>
+<h2 id="《控制论》-by-Norbert-Wiener"><a href="#《控制论》-by-Norbert-Wiener" class="headerlink" title="《控制论》 by Norbert Wiener"></a><a href="https://book.douban.com/subject/2356843/">《控制论》</a> by Norbert Wiener</h2><p>全名：Cybernetics or Control and Communication in the Animal and the Machine<br>首先，作者一定可以刷新你对神童的定义。<br>什么是控制论？<br>通信的理论。 非线性、目的论的思考方式。</p>
+<p>控制论给后世带来的影响：<br>在天才维纳提出控制论后，产生很多新学科。把控制论的通信思想、哲学思考方式用在其他学科，如心理学、生物科学，延伸出了新的研究方向。<br>控制论是信息时代的理论，计算机网络，网络安全的英文名也采用cyber前缀</p>
+<h1 id="通信"><a href="#通信" class="headerlink" title="通信"></a>通信</h1><h2 id="业余无线电-童效勇"><a href="#业余无线电-童效勇" class="headerlink" title="业余无线电 童效勇"></a>业余无线电 童效勇</h2><p>这本书考证必备读物。很棒的HAM入门读物。</p>
 ]]></content>
+      <categories>
+        <category>好物推荐</category>
+      </categories>
+      <tags>
+        <tag>资源分享</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>考前突击方案</title>
+    <url>/2025/06/27/%E8%80%83%E5%89%8D%E7%AA%81%E5%87%BB%E6%96%B9%E6%A1%88/</url>
+    <content><![CDATA[<p>趁着刚经历完考前突击，总结几点经验（方法+误区）。实现：对一门即便学期内没怎么去上课的学科，也能在最后通过高效的方法取得不错的成绩。</p>
+<p>发现物联网工程（其他工科类的专业应该也一样）。大一大二很多零零碎碎的基础课，瞎学。进入大三后，很多专业课内容相互关联。为彼此提供基础。因此，常常学得一头雾水。或者说，再有了其他学科的基础会得到更大的启发。因此，把所有课程留到最后学未尝不是坏事。平时可以多关注兴趣、做科研而专业课的学习则集中在期末，把相关的知识一网打尽，即高效也能产出综合性强的结论，岂不美哉？<br>所以这其实更像一份大三大四的学习方案。<br>例子：DSP，SS，CT，WS都是通信原理领域的重要学科。主题涉及傅里叶变换(时频转换),xxx transform， information theory等。可以说，你不学一门也能学另一门。但是你如果有一门学得很吃力，那么换一门依然会面对学不透的问题。因为你缺失了知识背景。</p>
+<p>省流：整体方案很简单：</p>
+<ol>
+<li>明确<strong>要用的资源</strong>： 课件&#x2F;书本为主（90%） 其他教材为辅。 AI是你的好朋友，多讨论。</li>
+<li>明确<strong>工具</strong>：各个工具使用场景<br>最后，投入时间学就完了</li>
+</ol>
+<h1 id="资源"><a href="#资源" class="headerlink" title="资源"></a>资源</h1><p>如果学校发了一本好教材。完全可以扔掉教辅。</p>
+<p>高效的学习不在于你抄了多少笔记，看了多少网页，问了多少AI，读了多少本书。 而是给你一个课件，你能<strong>静下心来看，在草稿纸上涂画</strong>。<strong>试图不借助询问他人&#x2F;AI，自己理解书本的意思</strong>。 是你能<strong>从有限的文本中，挖出多少自己定义的概念</strong></p>
+<h1 id="“提前复习”的“提前”"><a href="#“提前复习”的“提前”" class="headerlink" title="“提前复习”的“提前”"></a>“提前复习”的“提前”</h1><p>吃过了亏后，我明白了提前复习的意义：不只是怕来不及。而是留出更多深入学习一门学科的时间。整理笔记&#x2F;blog的时间。<br>大三下期末周的惨案：</p>
+<ol>
+<li><p>考完无线系统，次日即CA。但考完WS的我无心学习，在看漫威。 后面早起复习CA。有三道大题不会。也没多少时间。这是大三下最大的事故。<br>这告诉我们：提前量很重要，你不能指望自己有用不完的精力。 你要考虑到：考完每一场自己需要放松的时间。</p>
+</li>
+<li><p>复习时间太少了。 2周复习6门科目（在这之前在写小组作业。其中有很多门都没有踏踏实实地学过一遍（听课+所有作业&#x2F;lab&#x2F;quiz有把握）。如数据库、CT、DSP、CA、CN、WS。 我期望的复习状态是：下午能游个泳、晚上能写个博客留下有用的知识。能留出时间昨晚该做的题目，而不是打印出来却没时间看。</p>
+</li>
+<li><p>学习WS noise一章。一直用的word记录<br>吭哧吭哧几个小时过去了也才学了一半的课件，大量时间浪费在编辑公式和Ctrl + F搜索。用纸🖊就不存在这样的事故。</p>
+</li>
+</ol>
+<h1 id="草稿本-黑笔"><a href="#草稿本-黑笔" class="headerlink" title="草稿本+黑笔"></a>草稿本+黑笔</h1><p>这是最快，<strong>最有效</strong>的推进度的方案！真的！</p>
+<p>使用草稿本书写取代在电脑上写（如Word）。我曾喜欢把课件里的重要内容各种highlight, copy&amp;paste, retyping. 但事实证明这<strong>不如写纸上记得深刻</strong>，也不如写纸上方便（查阅、查找、反复编辑）<br>尤其是推导一些公式的时候。 注意：公式往往是最重要的内容。 记住，基于电子的复制粘贴虽然便利了信息的收集，但记忆这类工作，往往要<strong>Get Hands Dirty</strong></p>
+<h2 id="想留下精美笔记怎么办？"><a href="#想留下精美笔记怎么办？" class="headerlink" title="想留下精美笔记怎么办？"></a>想留下精美笔记怎么办？</h2><p>番外篇<br>之所以有时想用Word，Joplin这些软件记录课件的内容和自己的心得，是想留下学懂知识的愉快的回忆，保留当时的骄傲感。也有助于之后的复习~。但是，记笔记取决于你是否为自己准备了充分的复习时间。保证当天的进度</p>
+<p><strong>复盘</strong>的时间很重要。 比推进度更加重要。当你意识到自己有一些模棱两可的知识、公式。那就是需要复盘了。 你需要一张新的纸，把知识串起来。重要的推导也不能省略。<br>例<br>在复习CT时（其实是第一次学）。我的复盘过程是：用手机备忘录整理相关联的章节。把零零散散的Chap11 Chap12 Chap13 …. Chap21 划归到各个板块。 每个板块提出的重要理论（比如如何保证xxx）、工程方法（接收机模型）、还有例题。<br>还有WS，会把出现过的和某一个术语<strong>相关的几个模型&#x2F;图像放在一起比对</strong>。 比如多种接收机模型，pro版本。画在一张纸上。你就能精准掌握Receiver的概念。同理Receiver，还有噪声模型。</p>
+<h1 id="练题！"><a href="#练题！" class="headerlink" title="练题！"></a>练题！</h1><p>课本&#x2F;课件例题 &gt; 原题 &gt;&gt; 纯看理论、不做题</p>
+<p>例题和原题真的很重要。 尤其要掌握书本上的例题、 推导过程。  </p>
+<p>一个好的做题方案是<strong>使用VSC + jupyter + Copilot</strong>。 用python帮你算还能留下各个变量。 这个过程还能培养命名习惯。</p>
+]]></content>
+      <tags>
+        <tag>学习方法</tag>
+      </tags>
   </entry>
   <entry>
     <title>认识前后端</title>
@@ -1017,83 +1290,5 @@
       <tags>
         <tag>Web开发</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>Books Recommandation</title>
-    <url>/2025/03/25/%E9%98%85%E8%AF%BB%E6%8E%A8%E8%8D%90/</url>
-    <content><![CDATA[<p>这是一个来自IoT专业理工男整理的书单。我从读大学之后开始热爱读书、算是对各类书籍都感兴趣。在这之前，很少阅读课外书籍。这份清单涵盖了我阅读过的并且其中的某些片段为我留下了深刻印象、并对我的学习生活、个人修养产生过积极影响的书籍（真的，读书很神奇，你会因为梳理的内容做出很多改变，哪怕有些只有一个月。<br>AI时代获取信息变得容易，但是读书依然不可替代。<br>我为每本书留下了一些摘抄或者感想，可以当作这本书的精彩部分。 之后会有专门的分区记录每一本书的读后感。</p>
-<h1 id="高端科普、社会知识类"><a href="#高端科普、社会知识类" class="headerlink" title="高端科普、社会知识类"></a>高端科普、社会知识类</h1><p>通过读大师的作品，品味伟大的成就，从精品里学习，开阔了你的视野。从精粹中学到的思维方式让你在成事、看热点问题、社会上的宏观问题带来更新颖的思维方式。<br>阅读这类作品，需要结合自身经历思考、留记录</p>
-<h2 id="科学中国人系列杂志"><a href="#科学中国人系列杂志" class="headerlink" title="科学中国人系列杂志"></a>科学中国人系列杂志</h2><p>我的阅读背景：<br>我于2025.3月（大三下），在图书馆的杂志区，接触科学中国人。 这一段时间，我焦虑于保研专业的选择，人工智能革命浪潮加上种种AI的炒作下，好像计算机专业的不去研究AI以后就找不到工作、或者没有实在的薪水。有时在一些众说纷纭的媒体听闻：26岁的某某某在大厂担任AI领军任务；没天赋别碰AI、别取卷算法，种种之类。其实，在我尝试学习Andrej Karpathy的课程后我就对AI有研究自信，但没太火热的兴趣。 我也接受以后不主攻AI。但心里总希望有些支撑我的观点。草草读完，我豁然开朗，研究不分高低贵贱，不要带着功利选择视野；何必走计算机？计算机外也有很多有价值的科研天地；不要基于未经审核的只言片语规划未来。<br>作品评价：中国科学主管，在我国高级知识分子群体（两院院士）有着良好声誉<br>定位：中国科教界热点、大牛人物（科学家、科技型企业家、教学科研单位高层管理人员）故事，最新科研动态<br>每一期都会挑出几位顶级的科学家介绍他们的经历。还会用简短的文字科普新兴的技术。最后一页有精美的图片或者推荐的阅读资料。<br>通过阅读这套杂志，你可以清楚地感受到中国顶流的科研水平，各大高校的成果，你会对研究生、博士生、教授的工作有更清楚的认识。这本书不会介绍基础知识，和你的本科课本不同。但是一定能打开你的视野，给想走科研道路的自己更详细的学业、职业生涯规划。<br>如果你还在纠结留学还是国内读研、不清楚这个世界上有哪些有价值的研究以及想了解我国的科研能力到底什么水平，强烈推荐你看看这套书籍。如果你还未高中毕业，想规划自己未来的研究道路，相信有一定科学基础的你也能从这本书中看到未来的事业。</p>
-<h2 id="脉络-吴军"><a href="#脉络-吴军" class="headerlink" title="脉络  吴军"></a>脉络  吴军</h2><p>大三上学期（国庆假期）<br>历史、社会、未来</p>
-<h2 id="浪潮之巅-吴军"><a href="#浪潮之巅-吴军" class="headerlink" title="浪潮之巅 吴军"></a>浪潮之巅 吴军</h2><p>还没读完，但绝对值得一读。</p>
-<h2 id="黑客与画家-保罗·格雷厄姆（YCombinator创始人）"><a href="#黑客与画家-保罗·格雷厄姆（YCombinator创始人）" class="headerlink" title="黑客与画家  保罗·格雷厄姆（YCombinator创始人）"></a>黑客与画家  保罗·格雷厄姆（YCombinator创始人）</h2><p>阮一峰大佬翻译<br>全书分为三部分<br>本书是保罗整理的“散文集”。包含了他对IT行业&#x2F;创业的思考</p>
-<h2 id="Just-For-Fun-只是为了好玩（Linus-Trovalds）"><a href="#Just-For-Fun-只是为了好玩（Linus-Trovalds）" class="headerlink" title="Just For Fun 只是为了好玩（Linus Trovalds）"></a>Just For Fun 只是为了好玩（Linus Trovalds）</h2><p>本书是Linus的个人传记。非常非常有趣。值得你的空闲时间。</p>
-<h1 id="中外小说、散文"><a href="#中外小说、散文" class="headerlink" title="中外小说、散文"></a>中外小说、散文</h1><p>阅读，可以是一种放松的过程。本节记录书本概述&amp;我喜欢的句子。</p>
-<h2 id="读是一种幸福-梁晓声"><a href="#读是一种幸福-梁晓声" class="headerlink" title="读是一种幸福 梁晓声"></a>读是一种幸福 梁晓声</h2><p>这是梁晓声先生的散文集，是我第一次读到的作品。我喜欢他的文章，那有血有肉的文字读起来没有压力，总是让我感动。<br>记录了他儿时那个年代的故事。有文革背景下的人物。有和他的哥哥、母亲的故事，还有他当父亲有趣的亲子经历。<br>后来，我知道他的代表作，《人世间》超长篇小说；第一次追剧也是这部小说改，剧中的人物正是他的家庭生活的缩影。</p>
-<h2 id="夜火车-徐则臣"><a href="#夜火车-徐则臣" class="headerlink" title="夜火车  徐则臣"></a>夜火车  徐则臣</h2><p>感谢善良勇敢的木年、孝顺有爱的新治；让我在大学这个浮躁的小社会收获滋养，做一个踏实善良的人。</p>
-<blockquote>
-</blockquote>
-<h2 id="海边的卡夫卡-村上春树"><a href="#海边的卡夫卡-村上春树" class="headerlink" title="海边的卡夫卡  村上春树"></a>海边的卡夫卡  村上春树</h2><p>小说的开篇就很有意思，16岁自律男生的独自生存。故事中的情节不断点燃我的探险激情。我也想走出校园，看看这个世界！于是，就有了大二暑假河北秦皇岛的独自旅行。</p>
-<blockquote>
-<p>这往下你必须成为世界上最顽强的十五岁少年，不管怎么样。因为除此之外这世界上没有你赖以存活之路，为此你自己一定要理解真正的顽强是怎么回事。</p>
-<p>如果有意，我可以除掉父亲（以我现在的力气，决非什么难事），也可从记忆中将母亲抹消。可是我无法将两人的遗传因子从身上驱逐干净。如果我想驱逐，只能驱逐我自身。<br>我们大家都在持续失去种种宝贵的东西，这是生存的一个意义。</p>
-</blockquote>
-<h2 id="潮骚-三岛由纪夫"><a href="#潮骚-三岛由纪夫" class="headerlink" title="潮骚 三岛由纪夫"></a>潮骚 三岛由纪夫</h2><p>我欣赏三岛由纪夫那细致的人物刻画能力。用精细的语言雕刻人物的动作、心理、神态。每次重读他的作品，我都会感叹，怎么能有如此强大的表述能力。</p>
-<blockquote>
-<p><em>摘抄</em><br>年轻人感到包围着他的丰饶的大自然与他自身，是一种无上的调和。他觉得自己的深呼吸，是仿造大自然的肉眼看不见的东西的一部分，它深深渗透到年轻人的体内深处。他所听见的潮骚，仿佛是海的巨大的潮流，与他体内沸腾的热血的潮流调和起来了。新治平日并不特别需要音乐，但大自然本身一定充满着音乐的需要。</p>
-<p>新治的身边是广袤的大海，但他并不憧憬纵横四海的虚幻梦想。对渔夫来说，海的概念与农民拥有的土地相近。海是生活的场所，是庄稼地，形状不定的白色穗波代替了稻穗和麦浪在敏感的湛蓝色软土上不停摇摆着。 尽管如此，年轻人结束了这天的捕捞工作，望着白色货轮行驶在水平线上的晚霞前，心里却怀着不可思议的感动。世界张开了在过去难以想象的巨大怀抱，从彼方通近。这未知世界的形象如远雷一般，从天际轰鸣而来，又消逝而去。 在船头甲板上，一只小小的海星已经干瘪了。年轻人坐在船头，将视线挪离晚霞，轻摇了摇扎着白色厚毛巾的头。 </p>
-</blockquote>
-<h1 id="心理学"><a href="#心理学" class="headerlink" title="心理学"></a>心理学</h1><h2 id="亲密关系-Intimate-Relationships-罗兰·米勒"><a href="#亲密关系-Intimate-Relationships-罗兰·米勒" class="headerlink" title="亲密关系 Intimate Relationships 罗兰·米勒"></a><a href="https://book.douban.com/subject/36787449/">亲密关系</a> Intimate Relationships 罗兰·米勒</h2><p>与其说这是书，不如说这是一份研究报告。<br>这本书教会了如何有效沟通。不仅是和恋人、亲人，还有和同学朋友讲道理时，也会采取书中的模式——你心平气和地说，我耐心听，我不打断。等你说完了我再说。我听到了你的想法，我陈述你的想法——当我的理解与你的想法一致时，我做到了共情。我认真地道歉，讲道理。</p>
-<p>我认为这本书适合每一个大学生阅读。</p>
-<h2 id="休息力-韩-李时炯"><a href="#休息力-韩-李时炯" class="headerlink" title="休息力  [韩]李时炯"></a><a href="https://book.douban.com/subject/36394549/">休息力</a>  [韩]李时炯</h2><p>本书不同于大多经验类的帖子、脑科学作品，有很多科学元素。从科学原理出发，解释人之所以疲劳、效率低等日常问题还有心理、身体疾病的源头，结合来自仙村康复中心的治疗方案，告诉读者长寿，让大脑保持健康的秘密。教会我们科学地工作。<br>这本书让我产生了保护好的大脑的意识。更高效地调整自己的工作状态，让我更加从容地面对瓶颈期，而不是堕落、沮丧。</p>
-<h1 id="计算机专业入门科普读物"><a href="#计算机专业入门科普读物" class="headerlink" title="计算机专业入门科普读物"></a>计算机专业入门科普读物</h1><h2 id="《CPU通识课》-龙芯中科"><a href="#《CPU通识课》-龙芯中科" class="headerlink" title="《CPU通识课》 龙芯中科"></a>《CPU通识课》 龙芯中科</h2><p>适合CS, IoT，等有对计算机底层知识 how computer work问题感兴趣的童鞋阅读。开阔了商业视野。偏向CPU、ISA简史。</p>
-<h2 id="《普林斯顿大学计算机公开课》"><a href="#《普林斯顿大学计算机公开课》" class="headerlink" title="《普林斯顿大学计算机公开课》"></a>《普林斯顿大学计算机公开课》</h2><p>适合刚进入大学的计算机专业学生阅读。</p>
-<h2 id="《控制论》-by-Norbert-Wiener"><a href="#《控制论》-by-Norbert-Wiener" class="headerlink" title="《控制论》 by Norbert Wiener"></a><a href="https://book.douban.com/subject/2356843/">《控制论》</a> by Norbert Wiener</h2><p>全名：Cybernetics or Control and Communication in the Animal and the Machine<br>首先，作者一定可以刷新你对神童的定义。<br>什么是控制论？<br>通信的理论。 非线性、目的论的思考方式。</p>
-<p>控制论给后世带来的影响：<br>在天才维纳提出控制论后，产生很多新学科。把控制论的通信思想、哲学思考方式用在其他学科，如心理学、生物科学，延伸出了新的研究方向。<br>控制论是信息时代的理论，计算机网络，网络安全的英文名也采用cyber前缀</p>
-<h1 id="通信"><a href="#通信" class="headerlink" title="通信"></a>通信</h1><h2 id="业余无线电-童效勇"><a href="#业余无线电-童效勇" class="headerlink" title="业余无线电 童效勇"></a>业余无线电 童效勇</h2><p>这本书考证必备读物。很棒的HAM入门读物。</p>
-]]></content>
-      <categories>
-        <category>好物推荐</category>
-      </categories>
-      <tags>
-        <tag>资源分享</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>计网学习笔记</title>
-    <url>/2025/06/16/%E8%AE%A1%E7%BD%91%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>屎一样的笔记。</p>
-<blockquote>
-<p>我希望这辈子能挖到一个21世纪的网络漏洞。</p>
-</blockquote>
-<h1 id="DHCP服务器"><a href="#DHCP服务器" class="headerlink" title="DHCP服务器"></a>DHCP服务器</h1><p>为什么host广播用的<code>DHCPDISCOVER包</code>，能被DHCP服务器收到并处理，为什么<code>源IP</code>必须是<code>0.0.0.0</code> <code>目的IP</code>必须是<code>255.255.255.255</code>？</p>
-<h2 id="特殊IP地址"><a href="#特殊IP地址" class="headerlink" title="特殊IP地址"></a>特殊IP地址</h2><p>DHCPDISCOVER广播包会被<strong>同一网段上所有主机的IP协议栈</strong>接收，<strong>但只有运行着DHCP服务器软件并监听UDP端口67的主机</strong>才会在UDP&#x2F;应用层处理这个请求并做出响应。其他主机的UDP层会因为端口67未被使用而丢弃该数据报。0.0.0.0和255.255.255.255保证了广播能被发送并被所有IP栈接收，而端口67则确保了只有DHCP服务器应用会处理它。</p>
-<p>其他非DHCP主机不会运行67进程，自然也不会对<code>DHCPDISCOVER包</code>进行处理</p>
-<h1 id="“NIC-“-“网卡”"><a href="#“NIC-“-“网卡”" class="headerlink" title="“NIC “ “网卡”"></a>“NIC “ “网卡”</h1><p>链路层的主体部分是在网络适配器中实现的。网络适配器有时也称为网络接口卡</p>
-<h2 id="PCI-PCIe"><a href="#PCI-PCIe" class="headerlink" title="PCI &amp; PCIe"></a>PCI &amp; PCIe</h2><p>PCI Peripheral Component Interconnect  </p>
-<ul>
-<li>传统总线协议</li>
-<li>PCIe Peripheral Component Interconnect Express </li>
-<li>快速外设组件互连高速串行标准</li>
-<li>Express有快速、高速传输的含义</li>
-<li>两个都是总线协议。 由于对总线传输速度的需求增大，PCI被速度更快的PCIe替代。</li>
-</ul>
-<p>以前经常问的问题：DHCP服务器</p>
-<p>说说我脑中的DHCP Server</p>
-]]></content>
-      <categories>
-        <category>复习笔记</category>
-      </categories>
-      <tags>
-        <tag>计网</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>大学找对象方案</title>
-    <url>/2025/09/06/%E5%A4%A7%E5%AD%A6%E6%89%BE%E5%AF%B9%E8%B1%A1%E6%96%B9%E6%A1%88/</url>
-    <content><![CDATA[<p>好久没写博客了，写一篇水着玩玩</p>
-<p>一个人在外地上大学，是否希望找一个对象，生活上有一个陪伴，学习上互相鼓励？探寻了多个伴侣之间的恋爱故事，我发现，想和一个约上会，需要合适的机遇。<br>你可以等。但是，你都来找攻略了，自然是不想等的。假如你已经看上了一个人。尤其是，你觉得ta也可能喜欢你。你还知道她是xxx学院，几年级，是否具备谈起来的条件。以下是方法：<br>去食堂的时候，不要带手机、也不要带校园卡。当你看到她时，你就礼貌地说：“同学，我没带校园卡，可以帮我刷一下吗？我wx转给你”。等她刷完，你不好意思地说：同学，我手机没带。可以记一下我wx号吗？</p>
-<p>认识我的人，看了这篇文章可能会说：tyrone，真没想到你也会想这些东西。<br>拜托，我也是人，也是个直男。有想追的女生不过分吧。至于我为什么能想到这个方法。Emmm，可能是保研期间疯狂陶瓷，和老师打交道多了，懂了些人情世故？锻炼了胆量？</p>
-]]></content>
   </entry>
 </search>
