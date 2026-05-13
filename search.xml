@@ -1,53 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Linux Journey</title>
-    <url>/2025/04/23/Linux-Journey/</url>
-    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>我第一次接触Linux，我和Linux的故事：从装系统、做项目、无数次“入坑”又“弃坑”。最终又成功登上正轨的学习感悟。 总结了优质的学习资源以及使用方法，更重要的：新手应该避开哪些问题。<br>如果你赶时间，直接看TakeAway。给出了一套简洁、无门槛的学习指南<br>不包含：装系统的细节</p>
-<h1 id="我和Linux的故事"><a href="#我和Linux的故事" class="headerlink" title="我和Linux的故事"></a>我和Linux的故事</h1><ul>
-<li>初次接触：</li>
-<li>开始使用：</li>
-<li>弃坑原因：</li>
-<li>发现好书，自信满满。止步于WSL2</li>
-<li></li>
-</ul>
-<h1 id="关于选什么系统"><a href="#关于选什么系统" class="headerlink" title="关于选什么系统"></a>关于选什么系统</h1><p>推荐使用：Zorin</p>
-<p>WSL2为什么不行</p>
-<h1 id="不要做的-应该放下的思绪："><a href="#不要做的-应该放下的思绪：" class="headerlink" title="不要做的&#x2F;应该放下的思绪："></a>不要做的&#x2F;应该放下的思绪：</h1><p>障碍：</p>
-<ol>
-<li>纠结用什么系统</li>
-<li>上手就装炫酷的软件，玩各种配置。</li>
-<li>看不起基础的Text-Fu（文本操作&#x2F;路径导航的功夫）</li>
-</ol>
-<ul>
-<li>追求有挑战的事情，没有一条线路。 这是一个体系，很复杂，信息量很庞大。靠“遇到问题即Chat”是学不好的。你需要慢下来记笔记，专门花时间研究。</li>
-</ul>
-<h1 id="takeaway"><a href="#takeaway" class="headerlink" title="takeaway"></a>takeaway</h1><p>买一台新电脑或者zorin&#x2F;whatever双系统<br>装vsc, 搞定科学上网（clash-verge）<br>跟着linux journey边做记录边实验边学<br>好了</p>
-]]></content>
-      <categories>
-        <category>学习路线</category>
-      </categories>
-      <tags>
-        <tag>Linux</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>WindowsLinux化</title>
-    <url>/2025/06/08/WindowsLinux%E5%8C%96/</url>
-    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>主要记录了编写脚本文件的技术。</p>
-<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>Linux系统运行脚本管理很方便，make install命令就能安装好软件，可以在任位置指使用指令.<br>但Windows就没那么方便了。要手动把脚本添加到Path。 因此，我在D盘新建了一个文件夹mytools，存放所有的常用exe,bat脚本,.cmd,ps1，还可以添加python脚本封装成cmd脚本文件。目前我已经把.yt-dlp.exe, danmuku2ass.cmd（内有python xxx&#x2F;xxx&#x2F;xxx&#x2F;…&#x2F;danmuku2ass.py %* 命令）, 然后在Path环境变量中添加D:\mytools路径，这样就可以在任意位置使用这些脚本了。</p>
-<blockquote>
-<p>当然，使用Scoop包管理器安装的软件（如git, jdk, maven,…）也可以达到在任何路径下运行命令（我会专门出一篇博客介绍scoop</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>整活</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>ADB教程</title>
     <url>/2025/07/07/ADB%E6%95%99%E7%A8%8B/</url>
     <content><![CDATA[<h1 id="常用功能"><a href="#常用功能" class="headerlink" title="常用功能"></a>常用功能</h1><h2 id="刷机领域"><a href="#刷机领域" class="headerlink" title="刷机领域"></a>刷机领域</h2><ul>
@@ -95,6 +48,37 @@
       </tags>
   </entry>
   <entry>
+    <title>Linux Journey</title>
+    <url>/2025/04/23/Linux-Journey/</url>
+    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>我第一次接触Linux，我和Linux的故事：从装系统、做项目、无数次“入坑”又“弃坑”。最终又成功登上正轨的学习感悟。 总结了优质的学习资源以及使用方法，更重要的：新手应该避开哪些问题。<br>如果你赶时间，直接看TakeAway。给出了一套简洁、无门槛的学习指南<br>不包含：装系统的细节</p>
+<h1 id="我和Linux的故事"><a href="#我和Linux的故事" class="headerlink" title="我和Linux的故事"></a>我和Linux的故事</h1><ul>
+<li>初次接触：</li>
+<li>开始使用：</li>
+<li>弃坑原因：</li>
+<li>发现好书，自信满满。止步于WSL2</li>
+<li></li>
+</ul>
+<h1 id="关于选什么系统"><a href="#关于选什么系统" class="headerlink" title="关于选什么系统"></a>关于选什么系统</h1><p>推荐使用：Zorin</p>
+<p>WSL2为什么不行</p>
+<h1 id="不要做的-应该放下的思绪："><a href="#不要做的-应该放下的思绪：" class="headerlink" title="不要做的&#x2F;应该放下的思绪："></a>不要做的&#x2F;应该放下的思绪：</h1><p>障碍：</p>
+<ol>
+<li>纠结用什么系统</li>
+<li>上手就装炫酷的软件，玩各种配置。</li>
+<li>看不起基础的Text-Fu（文本操作&#x2F;路径导航的功夫）</li>
+</ol>
+<ul>
+<li>追求有挑战的事情，没有一条线路。 这是一个体系，很复杂，信息量很庞大。靠“遇到问题即Chat”是学不好的。你需要慢下来记笔记，专门花时间研究。</li>
+</ul>
+<h1 id="takeaway"><a href="#takeaway" class="headerlink" title="takeaway"></a>takeaway</h1><p>买一台新电脑或者zorin&#x2F;whatever双系统<br>装vsc, 搞定科学上网（clash-verge）<br>跟着linux journey边做记录边实验边学<br>好了</p>
+]]></content>
+      <categories>
+        <category>学习路线</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Python Journey</title>
     <url>/2025/04/23/Python-Journey/</url>
     <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>python其实是一门很简单易学的语言。 但是很多人依然学着头疼。 考虑到每个人的情况不同，本文主要面向没有太多项目经历但对计算机有了解（知道OOP，学过C&#x2F;Java…）的小白。<br>本文推荐了学习资源，介绍了我入门的过程。分析了导致python学习效果不好的原因（personal）。</p>
@@ -108,48 +92,19 @@
       </tags>
   </entry>
   <entry>
-    <title>不一样的Git教程 —— GIT基础设置</title>
-    <url>/2025/04/19/gitconcepts/</url>
-    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>本文希望科普git的重要概念以更好地帮助你使用git。 看完本篇内容（git基础）你将方便地用git完成个人项目，但想管理团队，还需要更多的知识</p>
-<p>重点： 明白四个stage的概念。明白push, pull, commit, pull request的中文含义<br>非重点： 记指令的语法（因为github desktop完美替代了初学者所需的操作）</p>
-<h2 id="grocery"><a href="#grocery" class="headerlink" title="grocery"></a>grocery</h2>]]></content>
+    <title>WindowsLinux化</title>
+    <url>/2025/06/08/WindowsLinux%E5%8C%96/</url>
+    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>主要记录了编写脚本文件的技术。</p>
+<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>Linux系统运行脚本管理很方便，make install命令就能安装好软件，可以在任位置指使用指令.<br>但Windows就没那么方便了。要手动把脚本添加到Path。 因此，我在D盘新建了一个文件夹mytools，存放所有的常用exe,bat脚本,.cmd,ps1，还可以添加python脚本封装成cmd脚本文件。目前我已经把.yt-dlp.exe, danmuku2ass.cmd（内有python xxx&#x2F;xxx&#x2F;xxx&#x2F;…&#x2F;danmuku2ass.py %* 命令）, 然后在Path环境变量中添加D:\mytools路径，这样就可以在任意位置使用这些脚本了。</p>
+<blockquote>
+<p>当然，使用Scoop包管理器安装的软件（如git, jdk, maven,…）也可以达到在任何路径下运行命令（我会专门出一篇博客介绍scoop</p>
+</blockquote>
+]]></content>
       <categories>
         <category>教程</category>
       </categories>
       <tags>
-        <tag>GIT</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>大兴追音记</title>
-    <url>/2025/04/03/daxing/</url>
-    <content><![CDATA[<p>本文记录了和<a href="https://github.com/Daydreamer114">WZA</a>的第二次SDR整活儿的经历。蹲在大兴机厂附近的农场收听塔台和机长的对话。</p>
-<img src="https://github.com/OptimusHimself/picx-images-hosting/raw/master/landing.8l0b7r1ro1.jpg" alt="daxing airport">
-从SDR入手，我们就用它收听了汽车电台并计划在清明假期前一天，去机场听听电波。  
-
-<p><a href="https://chat.deepseek.com/a/chat/s/3b69e504-22ff-4657-ab10-91f73dda7f10">d2sk</a></p>
-<h1 id="Wireless-SDR"><a href="#Wireless-SDR" class="headerlink" title="Wireless &amp; SDR"></a>Wireless &amp; SDR</h1><h2 id="RF-Gain"><a href="#RF-Gain" class="headerlink" title="RF Gain:"></a>RF Gain:</h2><p>在监听飞机通信时，合理调整<strong>RF增益（射频增益）</strong> 和其他参数可以显著改善音质</p>
-<p>降白噪  </p>
-<p>我们常光顾的频段：  </p>
-<p>为什么要不停的换频段  </p>
-<p>带宽的选择：<br>我们花了很长时间设置带宽，DeepSeek推荐的25000Hz噪音太多了。后来用11000Hz的带宽收听。</p>
-<h2 id="dBFS"><a href="#dBFS" class="headerlink" title="dBFS"></a>dBFS</h2><p><strong>dBFS</strong>（Decibels relative to Full Scale，全量程分贝）是用来表示信号强度的<strong>相对电平单位</strong>，它描述的是当前信号幅度相对于ADC（模数转换器）的<strong>最大可量化电平</strong>的比例关系。</p>
-<h3 id="dBFS的物理意义"><a href="#dBFS的物理意义" class="headerlink" title="dBFS的物理意义"></a><strong>dBFS的物理意义</strong></h3><ul>
-<li><strong>参考点（0 dBFS）</strong>：代表ADC能处理的最大信号电平（即数字信号的满量程值），超过这个值会发生<strong>削波（Clipping）</strong>，导致信号失真。</li>
-<li><strong>负值（如-80 dBFS）</strong>：表示当前信号比满量程低多少分贝</li>
-</ul>
-<h1 id="Misc"><a href="#Misc" class="headerlink" title="Misc"></a>Misc</h1><p>选地址的挑战： 我们要选一个离机厂近、能停车、最好人不多的地方。经验丰富的Driver Wang不一会儿就搜到了一个附近的农场。</p>
-<p>飞机的声音：在空中的某一位置，从起飞到头顶上方的某个阶段，开始听到飞机的轰鸣声。但是掠过一段距离后，又听不到。不知道是什么原理  </p>
-<p>机场周围的声音  </p>
-<p>巡逻的车子  </p>
-<p>机厂附近独有的快乐： 每隔3分钟就能看到一架飞机从头顶飞过的感觉。  </p>
-<h1 id="民航知识"><a href="#民航知识" class="headerlink" title="民航知识"></a>民航知识</h1>]]></content>
-      <categories>
-        <category>整活</category>
-      </categories>
-      <tags>
-        <tag>日记</tag>
-        <tag>SDR入门</tag>
+        <tag>整活</tag>
       </tags>
   </entry>
   <entry>
@@ -218,6 +173,116 @@
       </tags>
   </entry>
   <entry>
+    <title>二进制</title>
+    <url>/2025/06/15/binary/</url>
+    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>有些碎片知识老是忘，放在blog里吧！</p>
+<ul>
+<li>求反码的十进制数</li>
+<li>大端序、小端序</li>
+<li></li>
+</ul>
+<h1 id="2’s-complement"><a href="#2’s-complement" class="headerlink" title="2’s complement"></a>2’s complement</h1><h2 id="场景"><a href="#场景" class="headerlink" title="场景"></a>场景</h2><p>给出1打头的2’s complement，问你是负多少<br>首先，我起码知道是负的，但老想不起来该怎么<strong>算“负多少”</strong>这个问题</p>
+<h2 id="方法："><a href="#方法：" class="headerlink" title="方法："></a>方法：</h2><p>记住2’s complement转换成<strong>“多少”的规则</strong></p>
+<p><strong>全部反码，得到一个0大头的数。</strong></p>
+<p><strong>将这个正数 “+1”，你就得到了 “多少”  (多少&#x3D;&#x3D;&#x3D;你要的结果)</strong></p>
+<h1 id="端序"><a href="#端序" class="headerlink" title="端序"></a>端序</h1>]]></content>
+      <categories>
+        <category>复习笔记</category>
+      </categories>
+      <tags>
+        <tag>二进制</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>程序员科普：JSON、XML、YAML 三种数据格式的由来、应用与对比</title>
+    <url>/2025/05/19/dance-with-yaml/</url>
+    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>在前后端开发、配置管理、API 通信等领域，我们常常接触到三种主流的数据格式：JSON、XML 和 YAML。虽然它们的目标都是「让数据结构易于存储和传输」，但随着时代发展与技术演进，它们逐渐走上了不同的道路。本文将从历史演变、应用场景出发，结合语法特征，帮你快速理解这三种格式各自的定位与优劣。</p>
+<blockquote>
+<p>YAML ain’t markup language<br>ain’t markup language 度过xml的应该对markup lang都有些畏惧<br>所以，从这个名字就强调了YAML文件阅读友好，语义简洁的特点。</p>
+</blockquote>
+<h2 id="我为什么单独抽时间写一篇关于基础文件格式的科普文？"><a href="#我为什么单独抽时间写一篇关于基础文件格式的科普文？" class="headerlink" title="我为什么单独抽时间写一篇关于基础文件格式的科普文？"></a>我为什么单独抽时间写一篇关于基础<strong>文件格式</strong>的科普文？</h2><blockquote>
+<p>我认为，对于开发者而言，经验取决于你见过多少文件，写过多少代码，开发过多少项目。 从某个更具象的方面来说，则是你对一个文件格式的理解有多深。</p>
+<blockquote>
+<p>比方说，当开发&#x2F;阅读一个Verilog项目，你除了知道源文件的文件格式是.v， 你还知道你当前工作的文件,逻辑上遵循什么结构<strong>而不只是verilog语法本身</strong>，而这就体现工程师软件设计的功底。<br>再比方说， 一个C项目,你看到Makefile,就能想到它的作用. 你拿到一个.xml,你有自己的阅读习惯.</p>
+</blockquote>
+</blockquote>
+<h1 id="Mark-up-Language"><a href="#Mark-up-Language" class="headerlink" title="Mark up Language"></a>Mark up Language</h1><h2 id="简单问题快答"><a href="#简单问题快答" class="headerlink" title="简单问题快答"></a>简单问题快答</h2><ol>
+<li>这个概念哪儿来的？</li>
+</ol>
+<p>Web1.0 为排版而生。说到排版,想到:LaTex, HTML,…..<br>实现上，浏览器底层代码对标记语言文件<strong>按语法规则</strong>解析。</p>
+<ol start="2">
+<li>标记语言长什么样？</li>
+</ol>
+<ul>
+<li>再怎么说,和源代码文件一样,他是一个文本文件. 只不过和纯粹的.txt相比,有规范的语法.</li>
+<li>可以简单的认为，含尖括号语法的就是标记语言。代表: <ul>
+<li>HTML（ Hpyer Text Markup Language ）</li>
+<li>XML （ eXtensible Markup Language ）</li>
+</ul>
+</li>
+</ul>
+<h2 id="瞎编的两个故事"><a href="#瞎编的两个故事" class="headerlink" title="瞎编的两个故事"></a>瞎编的两个故事</h2><p>1.标记语言和HTML,XML的那段历史</p>
+<p>最早的互联网全是静态网页。就是大片的文字放到网上供人们浏览。而没有交互性。<br>标记语言也是在这个行情下诞生的，通过标记的方式，让浏览器渲染出：有排版（居中、左对齐、….）、各种花哨字体、加粗和颜色、在特定位置呈现文字等功能的文字。<br>标记语言什么语法不重要，重点是，浏览器的底层有一个parser为用户呈现完美渲染后的网页</p>
+<ol start="2">
+<li>聊聊<a href="https://daringfireball.net/projects/markdown/basics">Markdown</a>：</li>
+</ol>
+<ul>
+<li>从标记语言的功能上看，Markdown算是标记语言，而且Markdown file 兼容HTML语法，</li>
+<li>从名字上认为Markdown是一种标记语言，也不矛盾。英文上 mark-up 就是用尖括号标签来表注。 mark-down只不过是用更简洁的符号来实现<strong>文本排版、文字强调</strong>等功能。至于名字的由来，估计是作者调皮了一下。</li>
+<li><a href="https://daringfireball.net/projects/markdown/">markdown作者</a>：约翰格鲁伯，perl解析器. （好，上面也说了markdown is a popular markup language….</li>
+</ul>
+<h1 id="一、趣味知识：起源与发展"><a href="#一、趣味知识：起源与发展" class="headerlink" title="一、趣味知识：起源与发展"></a>一、趣味知识：起源与发展</h1><table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>格式</td>
+<td>出现时间</td>
+<td>主要背景与用途</td>
+</tr>
+<tr>
+<td>XML</td>
+<td>1998</td>
+<td>为了解决 HTML 无法表示结构化数据的问题，适合数据存档、文档结构描述。</td>
+</tr>
+<tr>
+<td>JSON</td>
+<td>2001</td>
+<td>JavaScript 中的轻量数据交换格式，随着 AJAX 崛起而成为 Web 首选。</td>
+</tr>
+<tr>
+<td>YAML</td>
+<td>2004</td>
+<td>Yet Another Markup Language，语法更清晰，主要用于配置文件和 DevOps 场景。</td>
+</tr>
+</tbody></table>
+<ol>
+<li><p>XML：曾经的霸主<br>XML最初是为了扩展 HTML 的表达能力，<strong>使得数据能像文档一样有结构、有语义</strong>。由于它高度结构化、支持复杂嵌套、具备数据验证机制（如 DTD&#x2F;XSD），曾一度在 SOAP 协议、早期 Web 服务和企业系统中广泛使用。</p>
+</li>
+<li><p>JSON：现代 Web 的基石<br>随着 JavaScript 和 AJAX 的流行，JSON（JavaScript Object Notation）凭借轻量、直观、<strong>易解析</strong>的优势迅速取代 XML，成为<strong>前后端通信的标准格式</strong>，尤其适用于<strong>API数据传输</strong>。</p>
+</li>
+<li><p>YAML：简洁的配置王者<br>YAML 诞生之初就是为了人类友好，<strong>语法极简、可读性极强</strong>，因此<strong>非常适合写配置文件</strong>。你可以在 Docker、Kubernetes、GitHub Actions 等 DevOps 工具中频繁看到它的身影。</p>
+</li>
+</ol>
+<h1 id="二、语法要点"><a href="#二、语法要点" class="headerlink" title="二、语法要点"></a>二、语法要点</h1><h2 id="文件后缀名"><a href="#文件后缀名" class="headerlink" title="文件后缀名"></a>文件后缀名</h2><h2 id="注释"><a href="#注释" class="headerlink" title="注释"></a>注释</h2><ol>
+<li>XML <!-- 把我注了吧 --></li>
+<li>json无注释</li>
+<li>YAML 使用<code>#</code></li>
+</ol>
+<h2 id="json特点："><a href="#json特点：" class="headerlink" title="json特点："></a>json特点：</h2><p>整体用一个大括号包住，Python键值对。 键用string <code>&quot;&quot;</code>，值可以是：<code>string</code>, <code>list []</code> <code>dictionary</code></p>
+<h2 id="serialization"><a href="#serialization" class="headerlink" title="serialization"></a>serialization</h2>]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>file format</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>ffmpeg常用命令</title>
     <url>/2025/07/04/ffmpeg%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
     <content><![CDATA[<ol>
@@ -242,39 +307,105 @@
       </tags>
   </entry>
   <entry>
-    <title>二进制</title>
-    <url>/2025/06/15/binary/</url>
-    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>有些碎片知识老是忘，放在blog里吧！</p>
-<ul>
-<li>求反码的十进制数</li>
-<li>大端序、小端序</li>
-<li></li>
-</ul>
-<h1 id="2’s-complement"><a href="#2’s-complement" class="headerlink" title="2’s complement"></a>2’s complement</h1><h2 id="场景"><a href="#场景" class="headerlink" title="场景"></a>场景</h2><p>给出1打头的2’s complement，问你是负多少<br>首先，我起码知道是负的，但老想不起来该怎么<strong>算“负多少”</strong>这个问题</p>
-<h2 id="方法："><a href="#方法：" class="headerlink" title="方法："></a>方法：</h2><p>记住2’s complement转换成<strong>“多少”的规则</strong></p>
-<p><strong>全部反码，得到一个0大头的数。</strong></p>
-<p><strong>将这个正数 “+1”，你就得到了 “多少”  (多少&#x3D;&#x3D;&#x3D;你要的结果)</strong></p>
-<h1 id="端序"><a href="#端序" class="headerlink" title="端序"></a>端序</h1>]]></content>
+    <title>不一样的Git教程 —— GIT基础设置</title>
+    <url>/2025/04/19/gitconcepts/</url>
+    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>本文希望科普git的重要概念以更好地帮助你使用git。 看完本篇内容（git基础）你将方便地用git完成个人项目，但想管理团队，还需要更多的知识</p>
+<p>重点： 明白四个stage的概念。明白push, pull, commit, pull request的中文含义<br>非重点： 记指令的语法（因为github desktop完美替代了初学者所需的操作）</p>
+<h2 id="grocery"><a href="#grocery" class="headerlink" title="grocery"></a>grocery</h2>]]></content>
       <categories>
-        <category>复习笔记</category>
+        <category>教程</category>
       </categories>
       <tags>
-        <tag>二进制</tag>
+        <tag>GIT</tag>
       </tags>
   </entry>
   <entry>
-    <title>jyy课堂笔记</title>
-    <url>/2025/06/30/jyy%E8%AF%BE%E5%A0%82%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<p>jyy的课件做得很好。但是听jyy的课我从不看标题。 只听他的内容，因为他懂的太多了，即便有标题，他也时常即兴起来拓展了很多偏离标题但是启发我的内容。</p>
-<p>听jyy的课不止能获取新知识、听到高效的学习方法。 他的课堂有一种长者的关怀，我从中吸收正能量。原本对很多事情感到不自信、畏惧开始。在补充完正能量后，又对计算机知识充满热情。我想，即便我本科毕业后、从事研究生、博士生的研究工作，遇到瓶颈时也可以拿出他最新的视频看一看、学一学。</p>
-<p>第一节课jyy用大量的例子鼓励我们使用AI，尤其是在学习他的OS课程中。谈到Academic Integrity他还说了一个不一样的观点：我们可以在遇到问题时使用AI。 但你不能把整个问题丢给他。这门课的Policy是让学生学到技能。当你意识到这一点，监督自己使用AI的方式，你就做到了“学术诚信”。 ————我醒悟到曾经用偷懒，把全部问题丢给AI快速取得分数的愚蠢。我不仅没有学到这门课的知识，也浪费了探索AI prompt的机会。</p>
-]]></content>
+    <title>大兴追音记</title>
+    <url>/2025/04/03/daxing/</url>
+    <content><![CDATA[<p>本文记录了和<a href="https://github.com/Daydreamer114">WZA</a>的第二次SDR整活儿的经历。蹲在大兴机厂附近的农场收听塔台和机长的对话。</p>
+<img src="https://github.com/OptimusHimself/picx-images-hosting/raw/master/landing.8l0b7r1ro1.jpg" alt="daxing airport">
+从SDR入手，我们就用它收听了汽车电台并计划在清明假期前一天，去机场听听电波。  
+
+<p><a href="https://chat.deepseek.com/a/chat/s/3b69e504-22ff-4657-ab10-91f73dda7f10">d2sk</a></p>
+<h1 id="Wireless-SDR"><a href="#Wireless-SDR" class="headerlink" title="Wireless &amp; SDR"></a>Wireless &amp; SDR</h1><h2 id="RF-Gain"><a href="#RF-Gain" class="headerlink" title="RF Gain:"></a>RF Gain:</h2><p>在监听飞机通信时，合理调整<strong>RF增益（射频增益）</strong> 和其他参数可以显著改善音质</p>
+<p>降白噪  </p>
+<p>我们常光顾的频段：  </p>
+<p>为什么要不停的换频段  </p>
+<p>带宽的选择：<br>我们花了很长时间设置带宽，DeepSeek推荐的25000Hz噪音太多了。后来用11000Hz的带宽收听。</p>
+<h2 id="dBFS"><a href="#dBFS" class="headerlink" title="dBFS"></a>dBFS</h2><p><strong>dBFS</strong>（Decibels relative to Full Scale，全量程分贝）是用来表示信号强度的<strong>相对电平单位</strong>，它描述的是当前信号幅度相对于ADC（模数转换器）的<strong>最大可量化电平</strong>的比例关系。</p>
+<h3 id="dBFS的物理意义"><a href="#dBFS的物理意义" class="headerlink" title="dBFS的物理意义"></a><strong>dBFS的物理意义</strong></h3><ul>
+<li><strong>参考点（0 dBFS）</strong>：代表ADC能处理的最大信号电平（即数字信号的满量程值），超过这个值会发生<strong>削波（Clipping）</strong>，导致信号失真。</li>
+<li><strong>负值（如-80 dBFS）</strong>：表示当前信号比满量程低多少分贝</li>
+</ul>
+<h1 id="Misc"><a href="#Misc" class="headerlink" title="Misc"></a>Misc</h1><p>选地址的挑战： 我们要选一个离机厂近、能停车、最好人不多的地方。经验丰富的Driver Wang不一会儿就搜到了一个附近的农场。</p>
+<p>飞机的声音：在空中的某一位置，从起飞到头顶上方的某个阶段，开始听到飞机的轰鸣声。但是掠过一段距离后，又听不到。不知道是什么原理  </p>
+<p>机场周围的声音  </p>
+<p>巡逻的车子  </p>
+<p>机厂附近独有的快乐： 每隔3分钟就能看到一架飞机从头顶飞过的感觉。  </p>
+<h1 id="民航知识"><a href="#民航知识" class="headerlink" title="民航知识"></a>民航知识</h1>]]></content>
+      <categories>
+        <category>整活</category>
+      </categories>
+      <tags>
+        <tag>日记</tag>
+        <tag>SDR入门</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>git常用命令</title>
+    <url>/2025/07/05/git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
+    <content><![CDATA[]]></content>
   </entry>
   <entry>
     <title></title>
     <url>/2025/07/19/how-to-type-formula/</url>
     <content><![CDATA[<p>$$<br>\sum_{i&#x3D;1}^{n}(X_i - \bar{X})^2 &#x3D; \sum_{i&#x3D;1}^{n}(X_i - \mu)^2 - n(\bar{X} - \mu)^2<br>$$</p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>unzip命令</title>
+    <url>/2025/07/04/unzip%E5%91%BD%E4%BB%A4/</url>
+    <content><![CDATA[<h1 id="Windows-powershell"><a href="#Windows-powershell" class="headerlink" title="Windows - powershell"></a>Windows - powershell</h1><p>Expand-Archieve</p>
+<ul>
+<li>Destination-Path</li>
+</ul>
+<h1 id="Linux-Bash"><a href="#Linux-Bash" class="headerlink" title="Linux - Bash"></a>Linux - Bash</h1><h2 id="tar"><a href="#tar" class="headerlink" title="tar"></a>tar</h2>]]></content>
+      <categories>
+        <category>命令集</category>
+      </categories>
+      <tags>
+        <tag>archieve</tag>
+        <tag>files</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>ssh入门</title>
+    <url>/2025/04/29/ssh%E5%85%A5%E9%97%A8/</url>
+    <content><![CDATA[<h1 id="take-away-knowledge-concept"><a href="#take-away-knowledge-concept" class="headerlink" title="take away knowledge &amp; concept"></a>take away knowledge &amp; concept</h1><p>对于private repo, 即便是clone,也需要ssh</p>
+<p>ssh-keygen命令生成的<strong>两份文件</strong>：私钥和公钥（.pub）。你要把public key交给github</p>
+<p>每一次 clone &#x2F; push的Authentification过程：<br>github服务器给你的机器发公钥。 你的机器上<code>～/.ssh/</code>路径下存了唯一的私钥与之对应。即完成身份验证。</p>
+<h2 id="glossary"><a href="#glossary" class="headerlink" title="glossary"></a>glossary</h2><p>SSH： secure shell protocal</p>
+<h1 id="github场景-S1：增添新密码"><a href="#github场景-S1：增添新密码" class="headerlink" title="github场景-S1：增添新密码"></a>github场景-S1：增添新密码</h1><ul>
+<li>当你的项目团队有多个成员，你作为项目的owner，需要为你的团队成员设置SSH，这样他们才能在他们的电脑上更新项目（clone, push）</li>
+<li>还有一个情况，你有多台工作本，你需要为每一台机器上添加SSH，并在个人g-hub账户添加public key</li>
+</ul>
+<h2 id="background-and-task"><a href="#background-and-task" class="headerlink" title="background and task:"></a>background and task:</h2><p>linux + Windows 共同运营hexo blog. Add _post to repo, clone on git</p>
+<h2 id="过程记录（）"><a href="#过程记录（）" class="headerlink" title="过程记录（）"></a>过程记录（）</h2><ol>
+<li>最开始用https协议下载private repo代码失败。遂该用ssh。<code>git clone git@github.com:Optimushimeself/blogsource.git</code>自然报错。因为还没在我的github账号中配置本机的SSH。</li>
+<li>ssh-keygen <code>tyrone@Matrix:~/.ssh$ ssh-keygen -t [加密算法] -f [sshfileName]</code> t: type. github使用<code>ed25519</code>。 passphrase口令为空。自然也没关<code>ssh-agent</code>之类的“高级功能”。</li>
+<li>ssh-keygen得到两个文件，.pub后缀是公钥，扔到<code>github-&gt;setting-&gt;SSH&amp;GPG Keys</code></li>
+<li>（不知道是否靠谱）遇到一些代理问题，调成了全局代理，创建<code>~/.ssh/config</code>。重新运行<code>git clone git@github.com:OptimusHimself/blogsource.git</code>，中途谈了一个是否信任（老熟人了），无脑yes，最后成功克隆项目。</li>
+</ol>
+<h2 id="问题-故障记录"><a href="#问题-故障记录" class="headerlink" title="问题&#x2F;故障记录"></a>问题&#x2F;故障记录</h2><figure class="highlight livecodeserver"><table><tr><td class="code"><pre><code class="hljs livecodeserver">\\ 网络问题？<br>Cloning <span class="hljs-keyword">into</span> <span class="hljs-string">&#x27;blogsource&#x27;</span>...<br>kex_exchange_identification: <span class="hljs-built_in">read</span>: Connection reset <span class="hljs-keyword">by</span> peer<br>Connection reset <span class="hljs-keyword">by</span> <span class="hljs-number">20.205</span><span class="hljs-number">.243</span><span class="hljs-number">.166</span> port <span class="hljs-number">22</span><br>fatal: Could <span class="hljs-keyword">not</span> <span class="hljs-built_in">read</span> <span class="hljs-built_in">from</span> remote repository.<br><br>Please make sure you have <span class="hljs-keyword">the</span> correct access rights<br><span class="hljs-keyword">and</span> <span class="hljs-keyword">the</span> repository exists.<br></code></pre></td></tr></table></figure>
+
+<h1 id="github场景-S2：原来的私钥丢失or忘记passphrase"><a href="#github场景-S2：原来的私钥丢失or忘记passphrase" class="headerlink" title="github场景-S2：原来的私钥丢失or忘记passphrase()"></a>github场景-S2：原来的私钥丢失or忘记passphrase()</h1><p>这就是我为什么建议小白们最开始学习没必要设置passphrase,因为你会忘掉。 不过，只要能记得自己github账号的密码，问题都不大～<br>打开github网站，<code>github-&gt;setting-&gt;SSH&amp;GPG Keys</code>删掉你之前创建的钥匙，重新走一遍 <strong>github场景-S1</strong></p>
+<h1 id="使用ssh登陆服务器：传文件，训练模型…"><a href="#使用ssh登陆服务器：传文件，训练模型…" class="headerlink" title="使用ssh登陆服务器：传文件，训练模型…."></a>使用ssh登陆服务器：传文件，训练模型….</h1>]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>SSH</tag>
+      </tags>
   </entry>
   <entry>
     <title>uv常用命令</title>
@@ -505,9 +636,16 @@
 ]]></content>
   </entry>
   <entry>
-    <title>git常用命令</title>
-    <url>/2025/07/05/git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
-    <content><![CDATA[]]></content>
+    <title>保研时期的我</title>
+    <url>/2025/03/20/%E4%BF%9D%E7%A0%94%E6%97%B6%E6%9C%9F%E7%9A%84%E6%88%91/</url>
+    <content><![CDATA[<p>保研圈，不乏激烈的竞争。在这个圈子里，我看到了可敬的对手，看到了绿群里的大佬，也坚定了我的梦想。我的愿望是到名校和更好的老师、同学、师兄师姐们交流学习。我相信，只要保研到我的梦校浙大、进入到研究小组中，就一定能进步、学习更多的专业技能。以后就能做更多有价值的事情。<br>但最近，我变得有些紧张，我担心我的简历还不够好，算法题刷得还不够多，没有论文背景，“套磁“也没人肯收我。我一直在攀比，生怕把学习专业课而不是卷所谓的那些算法、论文是在浪费时间。<br>我还纠结自己适合什么专业，能读什么专业。是偏向研究底层的方向（计算机架构、分布式系统、网络）还是前沿的应用方向（软件开发、AI）。对各个行业都略懂一二的我对自己说，都行，哪个要我就去哪儿。但不管在哪个领域，我做的，一定是有挑战性的工作！<br>说回时间分配的事情，我不想太卷课外的那些技术。 专业知识一定是第一位的。先不说以后会不会读通信、计网这块的研究生；我从IoT出来的，别人问我一个通信相关的概念而我却毫无直觉，真觉得丢人——就这还读研。 所以说，如果以后有老师觉得我简历上的研究经历不如别人突出，请看看我的专业课成绩、对专业知识的理解。<br>本科培养出来的，就不应该是什么研究精英，而是一个通识了专业领域各个方面的，有知识的人。路还很长，研究生阶段，你不可能有这样泡馆、看专业书籍、一步步推演理论的时间。<br>对于保研竞争这一块，我相信船到桥头自然直，熬过这一段，你一定会在学习课外知识的时候更有感悟。我还坚信阿德勒心理学，一切都是目的驱动的。潇洒自如、倾听自己的内心吧，真到要你做重大选择的节骨眼上了，你也一定能适应的。</p>
+]]></content>
+      <categories>
+        <category>生活感悟</category>
+      </categories>
+      <tags>
+        <tag>日记</tag>
+      </tags>
   </entry>
   <entry>
     <title>人生规划</title>
@@ -518,47 +656,6 @@
 <h1 id="读研、博-职业规划"><a href="#读研、博-职业规划" class="headerlink" title="读研、博&amp;职业规划"></a>读研、博&amp;职业规划</h1><p>读博是必然。打造自己的技术壁垒从而获取能显著提升人生物质层面舒适度的薪资<br>假如我成功保研HUST<br>我要积极参加学术会议。 多多去听正能量的人的发言。</p>
 <p>我想研究一套AI和硬件交互的协议。 AI可以安全地管理所有的硬件。就像钢铁侠的JARVIS一样。 有生之年如果能见证贾维斯的诞生，也是圆梦了。</p>
 ]]></content>
-  </entry>
-  <entry>
-    <title>博客新主题-Fluid入门体验</title>
-    <url>/2025/06/27/%E5%8D%9A%E5%AE%A2%E6%96%B0%E4%B8%BB%E9%A2%98-Fluid%E5%85%A5%E9%97%A8%E4%BD%93%E9%AA%8C/</url>
-    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>安装、更新与卸载。 &amp; 配置<br>特色功能：</p>
-<ul>
-<li>index_img</li>
-<li>打字机 &amp; slogan</li>
-<li>背景图</li>
-</ul>
-<p>文章：</p>
-<ul>
-<li>LaTex</li>
-<li>Mermaid</li>
-<li>组图</li>
-</ul>
-<h1 id="主题管理"><a href="#主题管理" class="headerlink" title="主题管理"></a>主题管理</h1><p>第一次安装next主题，没有用NPM，直接下的源码包。放到了themes文件夹里。这样做的坏处是：如果要更新新版的next要下载新版的源码包。重新放在thmems文件夹。更可怕的是：原来的_config.yml(next的)可能和新版的不兼容。又要重新写一遍。<br>删除方法很简单：直接把thmem&#x2F;next删掉就好了</p>
-<p>所以这次装fluid学聪明了。使用npm安装<code>npm  install --save hexo-theme-fluid</code></p>
-<ul>
-<li>如果要更新的话<ul>
-<li><code>npm outdated</code>查看可安装的包</li>
-<li><code>npm update hexo-theme-fluid</code> update~</li>
-</ul>
-</li>
-<li>如果要删除主题&#x2F;包<ul>
-<li><code>npm uninstall hexo-theme-fluid</code></li>
-</ul>
-</li>
-</ul>
-<p>我有两个用心配置的主题：Fluid, Next(gemini) 如果一个看腻了，想换一个主题。easy. 在_config.yml theme属性的值改掉就好</p>
-<h1 id="可怕的image"><a href="#可怕的image" class="headerlink" title="可怕的image"></a>可怕的image</h1><h2 id="index-img"><a href="#index-img" class="headerlink" title="index_img"></a>index_img</h2><p>可以给首页的每一条博客插入一个图片。在Fluid中被定义为<code>index_img</code>属性。 需要放在front-matter<br>fluid所有的图片的相对路径在<code>hexo-theme-fluid/source/</code>下。<br>所以<code>index_img</code>应该填的值应该以<code>/img</code>开头。例如<code>img/example.jpg</code> </p>
-<blockquote>
-<p>感觉这挺麻烦的。 不仅要在<code>hexo-theme-fluid/source/</code>这个奇怪的路径下管理资源。<br>当 default_index_img 和 index_img 都为空时，该文章在首页将不显示图片。 default_index_img在_config.fluid.yml设置<br>所有的图片路径都是相对于<code>hexo-theme-fluid/source/</code>, md语法：<code>![NAME](PATH)</code></p>
-</blockquote>
-<h2 id="banner-img"><a href="#banner-img" class="headerlink" title="banner_img"></a>banner_img</h2><p>英语中 banner的意思是：横幅<br>banner image 是每一个网页顶部的大图</p>
-<h1 id="slogan"><a href="#slogan" class="headerlink" title="slogan"></a>slogan</h1><p>进入友链页，打字机的默认输出是：友链。 但是可以改成其他的内容，比如:<em>春风桃李一杯酒</em><br>还有关于页，我们也可以把冰冷的输出“关于”。改成“A Foodie, A Hacker, A Ganster”</p>
-<p>设置友链打字机输出：<br>_config.fluid.yml 找到links的配置，添加属性：<code>subtitle</code>，值 “桃李春风一杯酒”<br>设置友链打字机输出：<br>about 的 index.md，frontend添加subtitle属性</p>
-<h1 id="背景图"><a href="#背景图" class="headerlink" title="背景图"></a>背景图</h1><p>友链页、关于页、标题页、分类页的默认背景都是Fluid的默认图片：Tower. 能不能把他们换成一个系列的呢？比如全套的漫威英雄？或者钢铁侠的机甲。</p>
-<h1 id="边角料"><a href="#边角料" class="headerlink" title="边角料"></a>边角料</h1><h2 id="整体字体"><a href="#整体字体" class="headerlink" title="整体字体"></a>整体字体</h2><p>默认字体太丑了。 我喜欢落霞孤鹜，思源宋体也不错。</p>
-<h2 id="footer"><a href="#footer" class="headerlink" title="footer"></a>footer</h2><p>默认是Hexo love Fluid<br>可以把Hexo 和 Fluid改掉（如果你有女朋友，你女朋友刚好也有一个Blog嘿嘿</p>
-<h2 id="首页更多icons"><a href="#首页更多icons" class="headerlink" title="首页更多icons"></a>首页更多icons</h2><h2 id=""><a href="#" class="headerlink" title=""></a></h2>]]></content>
   </entry>
   <entry>
     <title>刷机心得</title>
@@ -619,205 +716,57 @@
 ]]></content>
   </entry>
   <entry>
-    <title>ssh入门</title>
-    <url>/2025/04/29/ssh%E5%85%A5%E9%97%A8/</url>
-    <content><![CDATA[<h1 id="take-away-knowledge-concept"><a href="#take-away-knowledge-concept" class="headerlink" title="take away knowledge &amp; concept"></a>take away knowledge &amp; concept</h1><p>对于private repo, 即便是clone,也需要ssh</p>
-<p>ssh-keygen命令生成的<strong>两份文件</strong>：私钥和公钥（.pub）。你要把public key交给github</p>
-<p>每一次 clone &#x2F; push的Authentification过程：<br>github服务器给你的机器发公钥。 你的机器上<code>～/.ssh/</code>路径下存了唯一的私钥与之对应。即完成身份验证。</p>
-<h2 id="glossary"><a href="#glossary" class="headerlink" title="glossary"></a>glossary</h2><p>SSH： secure shell protocal</p>
-<h1 id="github场景-S1：增添新密码"><a href="#github场景-S1：增添新密码" class="headerlink" title="github场景-S1：增添新密码"></a>github场景-S1：增添新密码</h1><ul>
-<li>当你的项目团队有多个成员，你作为项目的owner，需要为你的团队成员设置SSH，这样他们才能在他们的电脑上更新项目（clone, push）</li>
-<li>还有一个情况，你有多台工作本，你需要为每一台机器上添加SSH，并在个人g-hub账户添加public key</li>
-</ul>
-<h2 id="background-and-task"><a href="#background-and-task" class="headerlink" title="background and task:"></a>background and task:</h2><p>linux + Windows 共同运营hexo blog. Add _post to repo, clone on git</p>
-<h2 id="过程记录（）"><a href="#过程记录（）" class="headerlink" title="过程记录（）"></a>过程记录（）</h2><ol>
-<li>最开始用https协议下载private repo代码失败。遂该用ssh。<code>git clone git@github.com:Optimushimeself/blogsource.git</code>自然报错。因为还没在我的github账号中配置本机的SSH。</li>
-<li>ssh-keygen <code>tyrone@Matrix:~/.ssh$ ssh-keygen -t [加密算法] -f [sshfileName]</code> t: type. github使用<code>ed25519</code>。 passphrase口令为空。自然也没关<code>ssh-agent</code>之类的“高级功能”。</li>
-<li>ssh-keygen得到两个文件，.pub后缀是公钥，扔到<code>github-&gt;setting-&gt;SSH&amp;GPG Keys</code></li>
-<li>（不知道是否靠谱）遇到一些代理问题，调成了全局代理，创建<code>~/.ssh/config</code>。重新运行<code>git clone git@github.com:OptimusHimself/blogsource.git</code>，中途谈了一个是否信任（老熟人了），无脑yes，最后成功克隆项目。</li>
-</ol>
-<h2 id="问题-故障记录"><a href="#问题-故障记录" class="headerlink" title="问题&#x2F;故障记录"></a>问题&#x2F;故障记录</h2><figure class="highlight livecodeserver"><table><tr><td class="code"><pre><code class="hljs livecodeserver">\\ 网络问题？<br>Cloning <span class="hljs-keyword">into</span> <span class="hljs-string">&#x27;blogsource&#x27;</span>...<br>kex_exchange_identification: <span class="hljs-built_in">read</span>: Connection reset <span class="hljs-keyword">by</span> peer<br>Connection reset <span class="hljs-keyword">by</span> <span class="hljs-number">20.205</span><span class="hljs-number">.243</span><span class="hljs-number">.166</span> port <span class="hljs-number">22</span><br>fatal: Could <span class="hljs-keyword">not</span> <span class="hljs-built_in">read</span> <span class="hljs-built_in">from</span> remote repository.<br><br>Please make sure you have <span class="hljs-keyword">the</span> correct access rights<br><span class="hljs-keyword">and</span> <span class="hljs-keyword">the</span> repository exists.<br></code></pre></td></tr></table></figure>
-
-<h1 id="github场景-S2：原来的私钥丢失or忘记passphrase"><a href="#github场景-S2：原来的私钥丢失or忘记passphrase" class="headerlink" title="github场景-S2：原来的私钥丢失or忘记passphrase()"></a>github场景-S2：原来的私钥丢失or忘记passphrase()</h1><p>这就是我为什么建议小白们最开始学习没必要设置passphrase,因为你会忘掉。 不过，只要能记得自己github账号的密码，问题都不大～<br>打开github网站，<code>github-&gt;setting-&gt;SSH&amp;GPG Keys</code>删掉你之前创建的钥匙，重新走一遍 <strong>github场景-S1</strong></p>
-<h1 id="使用ssh登陆服务器：传文件，训练模型…"><a href="#使用ssh登陆服务器：传文件，训练模型…" class="headerlink" title="使用ssh登陆服务器：传文件，训练模型…."></a>使用ssh登陆服务器：传文件，训练模型….</h1>]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>SSH</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>unzip命令</title>
-    <url>/2025/07/04/unzip%E5%91%BD%E4%BB%A4/</url>
-    <content><![CDATA[<h1 id="Windows-powershell"><a href="#Windows-powershell" class="headerlink" title="Windows - powershell"></a>Windows - powershell</h1><p>Expand-Archieve</p>
+    <title>博客新主题-Fluid入门体验</title>
+    <url>/2025/06/27/%E5%8D%9A%E5%AE%A2%E6%96%B0%E4%B8%BB%E9%A2%98-Fluid%E5%85%A5%E9%97%A8%E4%BD%93%E9%AA%8C/</url>
+    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>安装、更新与卸载。 &amp; 配置<br>特色功能：</p>
 <ul>
-<li>Destination-Path</li>
+<li>index_img</li>
+<li>打字机 &amp; slogan</li>
+<li>背景图</li>
 </ul>
-<h1 id="Linux-Bash"><a href="#Linux-Bash" class="headerlink" title="Linux - Bash"></a>Linux - Bash</h1><h2 id="tar"><a href="#tar" class="headerlink" title="tar"></a>tar</h2>]]></content>
-      <categories>
-        <category>命令集</category>
-      </categories>
-      <tags>
-        <tag>archieve</tag>
-        <tag>files</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>在hexo博客中插入图片(方案汇总)</title>
-    <url>/2025/03/09/%E5%9C%A8hexo%E5%8D%9A%E5%AE%A2%E4%B8%AD%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E3%80%90%E6%96%B9%E6%A1%88%E6%B1%87%E6%80%BB%E3%80%91/</url>
-    <content><![CDATA[<h1 id="放弃的方案："><a href="#放弃的方案：" class="headerlink" title="放弃的方案："></a>放弃的方案：</h1><h2 id="原生的-hexo-add-on-hexo-asset"><a href="#原生的-hexo-add-on-hexo-asset" class="headerlink" title="原生的 hexo add on: hexo-asset"></a>原生的 hexo add on: hexo-asset</h2><p><code>post_asset_folder: false #true</code></p>
+<p>文章：</p>
 <ul>
-<li>语法格式恶心，既不是 md 也不是 HTML，自带的一种渲染格式</li>
-<li>尝试多次未成功</li>
+<li>LaTex</li>
+<li>Mermaid</li>
+<li>组图</li>
 </ul>
-<h1 id="能使用的方案："><a href="#能使用的方案：" class="headerlink" title="能使用的方案："></a>能使用的方案：</h1><h2 id="PicX-GitHub作图床"><a href="#PicX-GitHub作图床" class="headerlink" title="PicX GitHub作图床"></a>PicX GitHub作图床</h2><h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><ul>
-<li>gitbub 有一个叫做 picx 的项目, 是一个网站，你可以往它的官网上传（本机的）图，会自动生成一个链接赋值到剪切板上。</li>
-<li>特点：手动在 blog md file 里放 html img 标签； 支持使用 GitHub 图床（own repo，free）等其他图床</li>
+<h1 id="主题管理"><a href="#主题管理" class="headerlink" title="主题管理"></a>主题管理</h1><p>第一次安装next主题，没有用NPM，直接下的源码包。放到了themes文件夹里。这样做的坏处是：如果要更新新版的next要下载新版的源码包。重新放在thmems文件夹。更可怕的是：原来的_config.yml(next的)可能和新版的不兼容。又要重新写一遍。<br>删除方法很简单：直接把thmem&#x2F;next删掉就好了</p>
+<p>所以这次装fluid学聪明了。使用npm安装<code>npm  install --save hexo-theme-fluid</code></p>
+<ul>
+<li>如果要更新的话<ul>
+<li><code>npm outdated</code>查看可安装的包</li>
+<li><code>npm update hexo-theme-fluid</code> update~</li>
 </ul>
-<h3 id="优缺点"><a href="#优缺点" class="headerlink" title="优缺点"></a>优缺点</h3><ul>
-<li>优点： PicX 自动生成图片 url, 完全免费（薅微软 Github 服务器的羊毛）</li>
-<li>不足：无法在写博客粘贴图片的时候自动生成链接。需要手动写 HTML img 标签。图多了有些麻烦，容易找不到链接。<br>Links：<a href="https://picx.xpoet.cn/#/settings">PicX 在线服务</a>； <a href="https://picx-docs.xpoet.cn/usage-guide/get-start.html">官方使用教程</a>；<a href="https://github.com/XPoet/picx">GitHub 仓库地址</a></li>
+</li>
+<li>如果要删除主题&#x2F;包<ul>
+<li><code>npm uninstall hexo-theme-fluid</code></li>
 </ul>
-<p>e.g. url generate by pix<br><a href="https://github.com/OptimusHimself/picx-images-hosting/raw/master/%E5%BD%97%E6%98%9F%E8%BD%A8%E8%BF%B9.esnsejhpw.webp">https://github.com/OptimusHimself/picx-images-hosting/raw/master/彗星轨迹.esnsejhpw.webp</a><br>e.g. &lt;img&gt; tag<br>&lt;img src&#x3D;”<a href="https://github.com/OptimusHimself/picx-images-hosting/raw/master/%E5%BD%97%E6%98%9F%E8%BD%A8%E8%BF%B9.esnsejhpw.webp">https://github.com/OptimusHimself/picx-images-hosting/raw/master/彗星轨迹.esnsejhpw.webp</a>“ alt&#x3D;”sorry about that”&gt;</p>
+</li>
+</ul>
+<p>我有两个用心配置的主题：Fluid, Next(gemini) 如果一个看腻了，想换一个主题。easy. 在_config.yml theme属性的值改掉就好</p>
+<h1 id="可怕的image"><a href="#可怕的image" class="headerlink" title="可怕的image"></a>可怕的image</h1><h2 id="index-img"><a href="#index-img" class="headerlink" title="index_img"></a>index_img</h2><p>可以给首页的每一条博客插入一个图片。在Fluid中被定义为<code>index_img</code>属性。 需要放在front-matter<br>fluid所有的图片的相对路径在<code>hexo-theme-fluid/source/</code>下。<br>所以<code>index_img</code>应该填的值应该以<code>/img</code>开头。例如<code>img/example.jpg</code> </p>
 <blockquote>
-<p>img alt 参数：Specifies an alternate text for an image</p>
+<p>感觉这挺麻烦的。 不仅要在<code>hexo-theme-fluid/source/</code>这个奇怪的路径下管理资源。<br>当 default_index_img 和 index_img 都为空时，该文章在首页将不显示图片。 default_index_img在_config.fluid.yml设置<br>所有的图片路径都是相对于<code>hexo-theme-fluid/source/</code>, md语法：<code>![NAME](PATH)</code></p>
 </blockquote>
-<h2 id="外国图床"><a href="#外国图床" class="headerlink" title="外国图床"></a>外国图床</h2><p><a href="https://postimages.org/">postimage</a><br><a href="https://sm.ms/">sm.ms</a> </p>
+<h2 id="banner-img"><a href="#banner-img" class="headerlink" title="banner_img"></a>banner_img</h2><p>英语中 banner的意思是：横幅<br>banner image 是每一个网页顶部的大图</p>
+<h1 id="slogan"><a href="#slogan" class="headerlink" title="slogan"></a>slogan</h1><p>进入友链页，打字机的默认输出是：友链。 但是可以改成其他的内容，比如:<em>春风桃李一杯酒</em><br>还有关于页，我们也可以把冰冷的输出“关于”。改成“A Foodie, A Hacker, A Ganster”</p>
+<p>设置友链打字机输出：<br>_config.fluid.yml 找到links的配置，添加属性：<code>subtitle</code>，值 “桃李春风一杯酒”<br>设置友链打字机输出：<br>about 的 index.md，frontend添加subtitle属性</p>
+<h1 id="背景图"><a href="#背景图" class="headerlink" title="背景图"></a>背景图</h1><p>友链页、关于页、标题页、分类页的默认背景都是Fluid的默认图片：Tower. 能不能把他们换成一个系列的呢？比如全套的漫威英雄？或者钢铁侠的机甲。</p>
+<h1 id="边角料"><a href="#边角料" class="headerlink" title="边角料"></a>边角料</h1><h2 id="整体字体"><a href="#整体字体" class="headerlink" title="整体字体"></a>整体字体</h2><p>默认字体太丑了。 我喜欢落霞孤鹜，思源宋体也不错。</p>
+<h2 id="footer"><a href="#footer" class="headerlink" title="footer"></a>footer</h2><p>默认是Hexo love Fluid<br>可以把Hexo 和 Fluid改掉（如果你有女朋友，你女朋友刚好也有一个Blog嘿嘿</p>
+<h2 id="首页更多icons"><a href="#首页更多icons" class="headerlink" title="首页更多icons"></a>首页更多icons</h2><h2 id=""><a href="#" class="headerlink" title=""></a></h2>]]></content>
+  </entry>
+  <entry>
+    <title>办公软件使用技巧</title>
+    <url>/2025/12/12/%E5%8A%9E%E5%85%AC%E8%BD%AF%E4%BB%B6%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/</url>
+    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>知道一些办公类软件可以事半功倍。如PDF阅读器，PS, 编辑器。</p>
+<h1 id="Adobe-Acrobat-PC"><a href="#Adobe-Acrobat-PC" class="headerlink" title="Adobe Acrobat PC"></a>Adobe Acrobat PC</h1><p>双击标签可以重命名 &#x2F;&#x2F;单击就是跳转<br>ctrl + A： 全选标签并删除</p>
 ]]></content>
       <categories>
         <category>教程</category>
       </categories>
       <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>保研时期的我</title>
-    <url>/2025/03/20/%E4%BF%9D%E7%A0%94%E6%97%B6%E6%9C%9F%E7%9A%84%E6%88%91/</url>
-    <content><![CDATA[<p>保研圈，不乏激烈的竞争。在这个圈子里，我看到了可敬的对手，看到了绿群里的大佬，也坚定了我的梦想。我的愿望是到名校和更好的老师、同学、师兄师姐们交流学习。我相信，只要保研到我的梦校浙大、进入到研究小组中，就一定能进步、学习更多的专业技能。以后就能做更多有价值的事情。<br>但最近，我变得有些紧张，我担心我的简历还不够好，算法题刷得还不够多，没有论文背景，“套磁“也没人肯收我。我一直在攀比，生怕把学习专业课而不是卷所谓的那些算法、论文是在浪费时间。<br>我还纠结自己适合什么专业，能读什么专业。是偏向研究底层的方向（计算机架构、分布式系统、网络）还是前沿的应用方向（软件开发、AI）。对各个行业都略懂一二的我对自己说，都行，哪个要我就去哪儿。但不管在哪个领域，我做的，一定是有挑战性的工作！<br>说回时间分配的事情，我不想太卷课外的那些技术。 专业知识一定是第一位的。先不说以后会不会读通信、计网这块的研究生；我从IoT出来的，别人问我一个通信相关的概念而我却毫无直觉，真觉得丢人——就这还读研。 所以说，如果以后有老师觉得我简历上的研究经历不如别人突出，请看看我的专业课成绩、对专业知识的理解。<br>本科培养出来的，就不应该是什么研究精英，而是一个通识了专业领域各个方面的，有知识的人。路还很长，研究生阶段，你不可能有这样泡馆、看专业书籍、一步步推演理论的时间。<br>对于保研竞争这一块，我相信船到桥头自然直，熬过这一段，你一定会在学习课外知识的时候更有感悟。我还坚信阿德勒心理学，一切都是目的驱动的。潇洒自如、倾听自己的内心吧，真到要你做重大选择的节骨眼上了，你也一定能适应的。</p>
-]]></content>
-      <categories>
-        <category>生活感悟</category>
-      </categories>
-      <tags>
-        <tag>日记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>大学找对象方案</title>
-    <url>/2025/09/06/%E5%A4%A7%E5%AD%A6%E6%89%BE%E5%AF%B9%E8%B1%A1%E6%96%B9%E6%A1%88/</url>
-    <content><![CDATA[<p>好久没写博客了，写一篇水着玩玩</p>
-<p>一个人在外地上大学，是否希望找一个对象，生活上有一个陪伴，学习上互相鼓励？探寻了多个伴侣之间的恋爱故事，我发现，想和一个约上会，需要合适的机遇。<br>你可以等。但是，你都来找攻略了，自然是不想等的。假如你已经看上了一个人。尤其是，你觉得ta也可能喜欢你。你还知道她是xxx学院，几年级，是否具备谈起来的条件。以下是方法：<br>去食堂的时候，不要带手机、也不要带校园卡。当你看到她时，你就礼貌地说：“同学，我没带校园卡，可以帮我刷一下吗？我wx转给你”。等她刷完，你不好意思地说：同学，我手机没带。可以记一下我wx号吗？</p>
-<p>认识我的人，看了这篇文章可能会说：tyrone，真没想到你也会想这些东西。<br>拜托，我也是人，也是个直男。有想追的女生不过分吧。至于我为什么能想到这个方法。Emmm，可能是保研期间疯狂陶瓷，和老师打交道多了，懂了些人情世故？锻炼了胆量？</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>程序员科普：JSON、XML、YAML 三种数据格式的由来、应用与对比</title>
-    <url>/2025/05/19/dance-with-yaml/</url>
-    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>在前后端开发、配置管理、API 通信等领域，我们常常接触到三种主流的数据格式：JSON、XML 和 YAML。虽然它们的目标都是「让数据结构易于存储和传输」，但随着时代发展与技术演进，它们逐渐走上了不同的道路。本文将从历史演变、应用场景出发，结合语法特征，帮你快速理解这三种格式各自的定位与优劣。</p>
-<blockquote>
-<p>YAML ain’t markup language<br>ain’t markup language 度过xml的应该对markup lang都有些畏惧<br>所以，从这个名字就强调了YAML文件阅读友好，语义简洁的特点。</p>
-</blockquote>
-<h2 id="我为什么单独抽时间写一篇关于基础文件格式的科普文？"><a href="#我为什么单独抽时间写一篇关于基础文件格式的科普文？" class="headerlink" title="我为什么单独抽时间写一篇关于基础文件格式的科普文？"></a>我为什么单独抽时间写一篇关于基础<strong>文件格式</strong>的科普文？</h2><blockquote>
-<p>我认为，对于开发者而言，经验取决于你见过多少文件，写过多少代码，开发过多少项目。 从某个更具象的方面来说，则是你对一个文件格式的理解有多深。</p>
-<blockquote>
-<p>比方说，当开发&#x2F;阅读一个Verilog项目，你除了知道源文件的文件格式是.v， 你还知道你当前工作的文件,逻辑上遵循什么结构<strong>而不只是verilog语法本身</strong>，而这就体现工程师软件设计的功底。<br>再比方说， 一个C项目,你看到Makefile,就能想到它的作用. 你拿到一个.xml,你有自己的阅读习惯.</p>
-</blockquote>
-</blockquote>
-<h1 id="Mark-up-Language"><a href="#Mark-up-Language" class="headerlink" title="Mark up Language"></a>Mark up Language</h1><h2 id="简单问题快答"><a href="#简单问题快答" class="headerlink" title="简单问题快答"></a>简单问题快答</h2><ol>
-<li>这个概念哪儿来的？</li>
-</ol>
-<p>Web1.0 为排版而生。说到排版,想到:LaTex, HTML,…..<br>实现上，浏览器底层代码对标记语言文件<strong>按语法规则</strong>解析。</p>
-<ol start="2">
-<li>标记语言长什么样？</li>
-</ol>
-<ul>
-<li>再怎么说,和源代码文件一样,他是一个文本文件. 只不过和纯粹的.txt相比,有规范的语法.</li>
-<li>可以简单的认为，含尖括号语法的就是标记语言。代表: <ul>
-<li>HTML（ Hpyer Text Markup Language ）</li>
-<li>XML （ eXtensible Markup Language ）</li>
-</ul>
-</li>
-</ul>
-<h2 id="瞎编的两个故事"><a href="#瞎编的两个故事" class="headerlink" title="瞎编的两个故事"></a>瞎编的两个故事</h2><p>1.标记语言和HTML,XML的那段历史</p>
-<p>最早的互联网全是静态网页。就是大片的文字放到网上供人们浏览。而没有交互性。<br>标记语言也是在这个行情下诞生的，通过标记的方式，让浏览器渲染出：有排版（居中、左对齐、….）、各种花哨字体、加粗和颜色、在特定位置呈现文字等功能的文字。<br>标记语言什么语法不重要，重点是，浏览器的底层有一个parser为用户呈现完美渲染后的网页</p>
-<ol start="2">
-<li>聊聊<a href="https://daringfireball.net/projects/markdown/basics">Markdown</a>：</li>
-</ol>
-<ul>
-<li>从标记语言的功能上看，Markdown算是标记语言，而且Markdown file 兼容HTML语法，</li>
-<li>从名字上认为Markdown是一种标记语言，也不矛盾。英文上 mark-up 就是用尖括号标签来表注。 mark-down只不过是用更简洁的符号来实现<strong>文本排版、文字强调</strong>等功能。至于名字的由来，估计是作者调皮了一下。</li>
-<li><a href="https://daringfireball.net/projects/markdown/">markdown作者</a>：约翰格鲁伯，perl解析器. （好，上面也说了markdown is a popular markup language….</li>
-</ul>
-<h1 id="一、趣味知识：起源与发展"><a href="#一、趣味知识：起源与发展" class="headerlink" title="一、趣味知识：起源与发展"></a>一、趣味知识：起源与发展</h1><table>
-<thead>
-<tr>
-<th></th>
-<th></th>
-<th></th>
-</tr>
-</thead>
-<tbody><tr>
-<td>格式</td>
-<td>出现时间</td>
-<td>主要背景与用途</td>
-</tr>
-<tr>
-<td>XML</td>
-<td>1998</td>
-<td>为了解决 HTML 无法表示结构化数据的问题，适合数据存档、文档结构描述。</td>
-</tr>
-<tr>
-<td>JSON</td>
-<td>2001</td>
-<td>JavaScript 中的轻量数据交换格式，随着 AJAX 崛起而成为 Web 首选。</td>
-</tr>
-<tr>
-<td>YAML</td>
-<td>2004</td>
-<td>Yet Another Markup Language，语法更清晰，主要用于配置文件和 DevOps 场景。</td>
-</tr>
-</tbody></table>
-<ol>
-<li><p>XML：曾经的霸主<br>XML最初是为了扩展 HTML 的表达能力，<strong>使得数据能像文档一样有结构、有语义</strong>。由于它高度结构化、支持复杂嵌套、具备数据验证机制（如 DTD&#x2F;XSD），曾一度在 SOAP 协议、早期 Web 服务和企业系统中广泛使用。</p>
-</li>
-<li><p>JSON：现代 Web 的基石<br>随着 JavaScript 和 AJAX 的流行，JSON（JavaScript Object Notation）凭借轻量、直观、<strong>易解析</strong>的优势迅速取代 XML，成为<strong>前后端通信的标准格式</strong>，尤其适用于<strong>API数据传输</strong>。</p>
-</li>
-<li><p>YAML：简洁的配置王者<br>YAML 诞生之初就是为了人类友好，<strong>语法极简、可读性极强</strong>，因此<strong>非常适合写配置文件</strong>。你可以在 Docker、Kubernetes、GitHub Actions 等 DevOps 工具中频繁看到它的身影。</p>
-</li>
-</ol>
-<h1 id="二、语法要点"><a href="#二、语法要点" class="headerlink" title="二、语法要点"></a>二、语法要点</h1><h2 id="文件后缀名"><a href="#文件后缀名" class="headerlink" title="文件后缀名"></a>文件后缀名</h2><h2 id="注释"><a href="#注释" class="headerlink" title="注释"></a>注释</h2><ol>
-<li>XML <!-- 把我注了吧 --></li>
-<li>json无注释</li>
-<li>YAML 使用<code>#</code></li>
-</ol>
-<h2 id="json特点："><a href="#json特点：" class="headerlink" title="json特点："></a>json特点：</h2><p>整体用一个大括号包住，Python键值对。 键用string <code>&quot;&quot;</code>，值可以是：<code>string</code>, <code>list []</code> <code>dictionary</code></p>
-<h2 id="serialization"><a href="#serialization" class="headerlink" title="serialization"></a>serialization</h2>]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>file format</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>我的A证</title>
-    <url>/2025/04/24/%E6%88%91%E7%9A%84A%E8%AF%81/</url>
-    <content><![CDATA[<img src="https://github.com/OptimusHimself/picx-images-hosting/raw/master/执照.8ojy22apde.jpg" alt="A证"  />
-
-<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>记录笔者考A证的时间线。还有给新手的建议（不包括复习）<br>以下，中国无线电协会业余电台操作证书叫做操作证。 中国人民共和国无线电台执照叫做（无线）电台执照。</p>
-<h1 id="时间线"><a href="#时间线" class="headerlink" title="时间线"></a>时间线</h1><p>4.19 考试<br>4.24 上网查看，通过了。<br>5.12 拿到操作证。验机、填表、申请电台执照。<br>5.30.执照通过 (其实执照上的有效期是5.22起，北京无线电协会的通知会晚一点儿)<br>6.4 申请邮寄执照<br>6.6 终于拿到邮寄的执照啦！（今天是我生日！）<code>BD1BBU</code></p>
-<h1 id="Q-A"><a href="#Q-A" class="headerlink" title="Q&amp;A"></a>Q&amp;A</h1><p>达到什么条件才可以“发射”？<br>有操作证，有电台执照。 很好理解，用电台就像开车。 首先，要有驾照（A操作证）。然后你的车要有车牌，就像你用的电台需要一个电台号、执照。就像交通系统的监管对象是路行驶的车而不是驾驶的人。摄像头先抓的是违规的车、再去扣驾驶员的分&#x2F;吊销他的执照。同样地，无线电管理系统也是监视违规的电台，其次再去惩罚操作员。</p>
-<h1 id="tips"><a href="#tips" class="headerlink" title="tips"></a>tips</h1><ul>
-<li>个人认为三天，每天准备4h就够了。</li>
-<li>看到当地无线电协会发的通知里没有自己的名字不要担心是自己没考过。可能那就不是你那波的考试情况。</li>
-<li>出了成绩就可以去验机啦！不要等到拿到操作证再去验机。<br>原因：早点验机，操作证和无线电台执照一起拿。<br>要区分A操作证、执照和其组织的关系。操作证是你当地的协会给你颁发的。而执照的合法单位是中国人民共和国工业和信息化部。前者需要通过考试，后者需要通过考试且拿符合标准的设备到当地无线电协会验机。<br>我傻傻以为操作证上就会有呼号。。结果后面看到一串长长的操作证ID就感觉不对劲。</li>
-</ul>
-]]></content>
-      <tags>
-        <tag>日记</tag>
-        <tag>HAM</tag>
+        <tag>软件</tag>
       </tags>
   </entry>
   <entry>
@@ -857,9 +806,224 @@
       </tags>
   </entry>
   <entry>
-    <title>约定式提交</title>
-    <url>/2025/07/07/%E7%BA%A6%E5%AE%9A%E5%BC%8F%E6%8F%90%E4%BA%A4/</url>
-    <content><![CDATA[]]></content>
+    <title>和仲敖的SDR日记</title>
+    <url>/2025/03/25/%E5%92%8C%E4%BB%B2%E6%95%96%E7%9A%84SDR%E6%97%A5%E8%AE%B0/</url>
+    <content><![CDATA[<p> 下午逃课和仲敖玩SDR，收听了北京汽车广播。在日记里，我想记下几个难忘的瞬间。</p>
+<img src="https://github.com/OptimusHimself/picx-images-hosting/raw/master/radioandsun.webp" alt="BJUT环能楼楼顶的风景" >
+1仲敖问Deepseek北京电台的信息，然后说：切98，98有音乐！  
+
+<p>2 仲敖生病了依然陪我开箱，陪我安装，搞软件。 非常有耐心地陪我读文档、装软件，今天的成功，离不开我这位好朋友。  </p>
+<p>3 争论SDR# 软件上Bandwidth功能的实现原理，我认为是主板给滤波器发送信号调控硬件中的BPF，而仲敖坚持认为是软件对天线收到的所有信号进行处理。我们用一餐饭打赌，仲敖后来输了。    </p>
+<p>4 起初这条懒狗还不愿意陪我拿快递（当时挺失望的，同时也理解他生病的状态）。不过，后来在我的哄骗下还是一块去了。最后，我问他后悔走“那么多”路去拿快递吗？他表示这份体验很值得（我心里美滋滋的，要是没他陪我，我也玩不到那么好）。他甚至还想上京哈高速上玩，到首都机场听飞行员通信的频段。被我劝住了。我们计划清明前夕一块去，顺便下馆子。  </p>
+<p>5 本人手贱，把SDR# 上预设的bandwidth &#x3D; 200,000改成了2,000，结果什么都听不清。两个小白还以为是地方不够空旷，搬到一个新地方（环能楼顶层）去，结果依然啥也听不清。后来我把bandwidth又调回20万。你懂吧，当时我兴奋地扇自己耳光。替四教5层删的，冤枉你了。  </p>
+<p>6 不愧是C++ 代码王，看教程的时候，我总是有很多模棱两可的地方磨磨唧唧的。而身边的实战派总能帮我过滤掉无用信息，有这么一个果断但又不乏耐心的人陪伴，整活成为我的快乐<br>7 爸爸糖的香蕉味吐司挺好吃的。某人硬吹evian阿尔卑斯的水比农夫山泉的好，斥巨资购买。在我看来，骨子里的癖好是无法改变的。当然，和这位北京小哥成为好朋友完全不是看重这些所谓的“品味”。<br>8 守门员出生的仲敖怕天线摔地上，冲过去护着的样子。很可爱也有些滑稽。<br>今天，我们从开箱到听到FM广播。书本上的死知识：抽象的数学符号、老师随手画的频谱出现在我们眼前。我们不清楚为什么2000的带宽听到的消息信息量那么低，而200,000、180,000就正合适，调成300,000噪声就太多了。我们也不懂天线知识，不知道为什么短天线比长天线收听效果差，我们真的不懂EM wave是咋传播的，我们只知道信号是从西边（海淀）传来的，打开羊角天线，指向日落的方向就能听到音乐。<br>希望和仲敖在SDR的世界中收获更多的兴趣和乐趣。也希望在这个小玩意的引领下，DSP，communication theory, wireless communication三大module取得Aplus!</p>
+]]></content>
+      <categories>
+        <category>整活</category>
+      </categories>
+      <tags>
+        <tag>日记</tag>
+        <tag>SDR入门</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>烹饪小知识</title>
+    <url>/2026/04/28/%E5%81%9A%E9%A5%AD%E6%8A%80%E5%B7%A7-%E5%B8%B8%E8%AF%86/</url>
+    <content><![CDATA[<p>想整理一些新手小白下厨房的一些前置知识；<br>从配菜的烹饪到高效规律饮食方案</p>
+<h1 id="趣味知识"><a href="#趣味知识" class="headerlink" title="趣味知识"></a>趣味知识</h1><h2 id="为什么叫刺身"><a href="#为什么叫刺身" class="headerlink" title="为什么叫刺身"></a>为什么叫刺身</h2><p>首先刺身本质上是生食鱼虾贝类。早在我国战国时期就有。唐朝兴盛。<br>刺身这一表述来源日本。因为打回来很多种鱼，为了方便食客辨认，</p>
+<p>煲汤的时候，大火把水烧沸，永远不要在开大火的时候盖盖子！会冒出来，然后汤溢出来，灶台上、灶台下面、燃气灶的网，非常非常乱！</p>
+<h2 id="鸡精的使用-调味料"><a href="#鸡精的使用-调味料" class="headerlink" title="鸡精的使用 &amp; 调味料"></a>鸡精的使用 &amp; 调味料</h2><p>鸡精要后放！高温下鸡精味道散得快。最后起锅、关了火放。搅拌搅拌~<br>炒菜放调味料（鸡精、各种香味粉、酱油、蚝油）是很明智的。他们鲜味足而钠含量比盐低。这对健康很好。盐和调味料辅佐既能做出更好吃的菜而且保证健康~</p>
+<h2 id="撇浮沫"><a href="#撇浮沫" class="headerlink" title="撇浮沫"></a>撇浮沫</h2><p>新鲜的肉（冰箱冷藏、短暂冷冻) 不建议焯水！浮沫可撇可不撇。无毒。<br>浮沫本质是：血红蛋白、脂肪、组织液。之所以看着那个（恶心）颜色，是因为血红蛋白氧化。</p>
+<p>为什么肉类不建议长期冷冻。因为氧化了啊。所以冷冻要密封！</p>
+<h1 id="食材知识"><a href="#食材知识" class="headerlink" title="食材知识"></a>食材知识</h1><h2 id="避雷酱料"><a href="#避雷酱料" class="headerlink" title="避雷酱料"></a>避雷酱料</h2><p>没有兑水的花生酱、芝麻酱，很少会吃。热量高。实用性不如炼乳<br>韩式辣酱。使用场景很好。</p>
+<h2 id="超级食材"><a href="#超级食材" class="headerlink" title="超级食材"></a>超级食材</h2><p>鸡肝。3块钱一斤，<br>100g蛋白质含量跟鸡心一样多。脂肪含量远低于鸡心。但是胆固醇偏高。</p>
+<h2 id="芋头"><a href="#芋头" class="headerlink" title="芋头"></a>芋头</h2><ul>
+<li>荔浦芋头很贵。</li>
+<li>小圆芋可以煮着吃</li>
+</ul>
+<h2 id="豆腐"><a href="#豆腐" class="headerlink" title="豆腐"></a>豆腐</h2><h2 id="牛肉部位科普"><a href="#牛肉部位科普" class="headerlink" title="牛肉部位科普"></a>牛肉部位科普</h2><p><a href="https://www.bilibili.com/video/BV1YXm4BUEeX/">牛的 35 个部位</a></p>
+<h2 id="猪肉部位科普–你需要知道的肉摊知识"><a href="#猪肉部位科普–你需要知道的肉摊知识" class="headerlink" title="猪肉部位科普–你需要知道的肉摊知识"></a>猪肉部位科普–你需要知道的肉摊知识</h2><p>主要有三类南豆腐、北豆腐、内酯豆腐<br>南豆腐也叫嫩豆腐，适合做汤、麻婆豆腐。<br>北豆腐就是老豆腐，蛋白质含量高。适合炖着吃、红烧。适合做饺子馅<br>内酯豆腐：最嫩，可以生吃，拌葱吃</p>
+<h2 id="香干、酱干"><a href="#香干、酱干" class="headerlink" title="香干、酱干"></a>香干、酱干</h2><h2 id="三文鱼"><a href="#三文鱼" class="headerlink" title="三文鱼"></a>三文鱼</h2><p>三文鱼是我国对大西洋鲑等鲑鱼的统称。<br>我们常吃的大西洋鲑的特征：橙红色的肉，有白色的脂肪线。</p>
+<h2 id="香椿"><a href="#香椿" class="headerlink" title="香椿"></a>香椿</h2><p>你买到的香椿都是一捆捆的<br>现切掉根部，再煮</p>
+<h2 id="西葫芦："><a href="#西葫芦：" class="headerlink" title="西葫芦："></a>西葫芦：</h2><p>水分很多。超之前可以拿盐演出水分。也可以提前炒一炒。炒去一些水分。<br>如果切片冷冻过，那解冻以后要挤干水分再拿去炒菜。不然会有一锅水。冻过以后的西葫芦更多的是脆。</p>
+<p>牛肉小炒菜做法：<br>牛肉适合和什么蔬菜做小炒菜</p>
+<p>橄榄油可以怎么用？<br>橄榄油可以用来炒鸡肉</p>
+<p>榨菜？<br>洋葱：</p>
+<ul>
+<li>咖喱鸡更适合用白洋葱，好看。</li>
+<li>紫洋葱可以用来炒牛羊肉、烤肉。</li>
+</ul>
+<h2 id="挑选蔬菜："><a href="#挑选蔬菜：" class="headerlink" title="挑选蔬菜："></a>挑选蔬菜：</h2><p>干香菇：调花纹多的</p>
+<h2 id="火锅涮菜时间"><a href="#火锅涮菜时间" class="headerlink" title="火锅涮菜时间"></a>火锅涮菜时间</h2><p>吊龙 15s<br>毛肚 10-15s<br>肥牛 午餐肉 20s<br>鱼丸、牛肉丸子  5min<br>鸭血、鹌鹑蛋 10min<br>冬瓜、笋 2min<br>山药 藕片 土豆片 3min<br>娃娃菜</p>
+<h1 id="杂"><a href="#杂" class="headerlink" title="杂"></a>杂</h1><ul>
+<li>滚刀法：滚的不是刀的部分，而是食物的部分</li>
+<li>腌肉和去腥</li>
+<li>面粉：高筋、中筋、低筋指的是蛋白质含量对应着“劲道”程度</li>
+</ul>
+<h3 id="汤"><a href="#汤" class="headerlink" title="汤"></a>汤</h3><p>煮汤先放盐，汤会更清澈。如果怕咸，也要先放一部分，后面再补盐。<br>大火煮更快熟风味更浓，汤会变白。小火则更清澈。</p>
+<ul>
+<li><a href="https://www.bilibili.com/video/BV1tTLDzyEsY/">炖汤先加盐，还是后加盐？一个简单的问题又费我大半个月的劲儿。</a></li>
+<li><a href="https://www.bilibili.com/video/BV1R3odYwEbG/">烹饪基础问题：大火与小火。都是100度了，那不都一样吗？</a></li>
+</ul>
+<h2 id="鲜味调味品"><a href="#鲜味调味品" class="headerlink" title="鲜味调味品"></a>鲜味调味品</h2><p><a href="https://www.bilibili.com/video/BV1b9wjeZEMS/">味大，无需多盐。鲜味调味品综述</a></p>
+<h3 id="买菜妙招"><a href="#买菜妙招" class="headerlink" title="买菜妙招"></a>买菜妙招</h3><p>买菜是一场博弈，不要光看着铺子有什么。因为很多新鲜、刚到的菜老板还没有摆出来。<br>跟老板说你想要什么菜。比方说，有没有红点的西红柿，我我看别人家的好红，之类的话。<br>偶尔老板也会说，新到了 xxx 菜，给你拿点。但概率不大，她也很忙没空招呼你。</p>
+<h3 id="煮饭："><a href="#煮饭：" class="headerlink" title="煮饭："></a>煮饭：</h3><p>强烈建议每个人厨师都有一个称。按照人口数量煮饭！我和爸爸吃80g，妈妈吃70g。230g生米</p>
+<ul>
+<li>煮杂粮米建议提前用水泡 5-10min再开电饭煲煮饭。不然煮出来很硬。很干。口感不好</li>
+<li>白米饭水放到位了就行，不需要提前泡发。<br>  白米饭吸水率：<br>  杂粮米吸水率：</li>
+</ul>
+<h3 id="冰箱常客"><a href="#冰箱常客" class="headerlink" title="冰箱常客"></a>冰箱常客</h3><h4 id="新鲜蔬菜："><a href="#新鲜蔬菜：" class="headerlink" title="新鲜蔬菜："></a>新鲜蔬菜：</h4><ul>
+<li>红辣椒（美人椒、甜椒）、青辣椒（杭椒、线椒）&#x2F;&#x2F;做配菜用，素炒藕、豆角这些菜放一些很好看</li>
+<li>韭菜；蒜苗</li>
+</ul>
+<h4 id="腌菜："><a href="#腌菜：" class="headerlink" title="腌菜："></a>腌菜：</h4><p>橄榄菜<br>泡小米辣（提供酸辣味）<br>酸豆角、萝卜干</p>
+<h3 id="去虾线"><a href="#去虾线" class="headerlink" title="去虾线"></a>去虾线</h3><p>这里科普一下虾有哪些部位<br>Step1: 给活虾去除活性：冷冻 5-10min。</p>
+<h4 id="方法一：徒手"><a href="#方法一：徒手" class="headerlink" title="方法一：徒手"></a>方法一：徒手</h4><p>弯折虾头虾身，挤压虾头：挤出虾包（胃、脏器），抽出虾线（肠、含代谢物）<br>注：腹部的黑线是“虾筋”，虾的腹部动脉。不需要处理</p>
+<h4 id="方法二：-用剪刀"><a href="#方法二：-用剪刀" class="headerlink" title="方法二： 用剪刀"></a>方法二： 用剪刀</h4><p>剪掉虾头部的尖枪。用剪刀挑出胃袋 <a href="https://www.bilibili.com/video/BV1d8411R7Bc?trackid=web_related_0.router-related-2206146-vhnjg.1763557507591.893">link</a><br>用剪刀剪开虾背，挑虾线</p>
+<p>尾部的虾线去不干净：<br>挤压虾尾，把奥里给挤出来<br>把虾尾中间的叶子拔掉，带出虾肠</p>
+<h3 id="洗内脏的方法："><a href="#洗内脏的方法：" class="headerlink" title="洗内脏的方法："></a>洗内脏的方法：</h3><h4 id="适用于：大肠、猪肚、鸡胗"><a href="#适用于：大肠、猪肚、鸡胗" class="headerlink" title="适用于：大肠、猪肚、鸡胗"></a>适用于：大肠、猪肚、鸡胗</h4><p>剪刀剪去猪肚里的肥油。<br>多加面粉、盐、白醋。想象是搓衣服——把粘液搓干净，</p>
+<h4 id="猪肝"><a href="#猪肝" class="headerlink" title="猪肝"></a>猪肝</h4><p>切片后洗<br>加淀粉，黄酒（淀粉可以用面粉代替，黄酒可以用啤酒、料酒代替<br>搓出血水<br>不断用清水冲洗，直到清澈</p>
+<p>烹饪猪肝要严格控水。洗完猪肝要沥干水分+用手攥干+用厨房纸吸水<br>腌制：盐、胡椒粉、蚝油、淀粉；最后用食用油拌一下更嫩滑</p>
+<p>两根大葱斜着切。葱白葱绿下锅时间不同，分开摆放<br>碗汁：盐、白胡椒、味精、<strong>黄酒</strong>、<strong>米醋</strong>、少许玉米淀粉拌匀</p>
+<h3 id="蒸菜垫"><a href="#蒸菜垫" class="headerlink" title="蒸菜垫"></a>蒸菜垫</h3><p>家里没微波炉，可用电磁炉炒热，也可以买个<strong>蒸垫（如果只有炒锅，建议买矮一点的蒸垫）</strong>。 &#x2F;&#x2F;<strong>蒸菜不需要洗锅、铲~ 美滋滋</strong></p>
+<h3 id="别忘记煮饭"><a href="#别忘记煮饭" class="headerlink" title="别忘记煮饭"></a>别忘记煮饭</h3><p>在备菜阶段就把饭煮了</p>
+<h3 id="解冻肉类"><a href="#解冻肉类" class="headerlink" title="解冻肉类"></a>解冻肉类</h3><p>解冻肉类：吃完晚饭大概8点，就放冷藏。用一个盘子拖着，防止水漏一冰箱</p>
+<h3 id="切洋葱如何不辣眼睛"><a href="#切洋葱如何不辣眼睛" class="headerlink" title="切洋葱如何不辣眼睛"></a>切洋葱如何不辣眼睛</h3><p>刀沾水，<strong>嘴巴里含水（实测有效）。</strong></p>
+<h3 id="用盛饭的碗试喝"><a href="#用盛饭的碗试喝" class="headerlink" title="用盛饭的碗试喝"></a>用盛饭的碗试喝</h3><p>做平菇蛋汤，从锅里捞一铲就放嘴里，嘴巴被烫出泡了，好几天没消——以后试喝汤有没有盐，<strong>用一个勺盛出来喝</strong>。</p>
+<h3 id="鸡肉腥味来源与解决"><a href="#鸡肉腥味来源与解决" class="headerlink" title="鸡肉腥味来源与解决"></a>鸡肉腥味来源与解决</h3><h4 id="去除肉腥味："><a href="#去除肉腥味：" class="headerlink" title="去除肉腥味："></a>去除肉腥味：</h4><ul>
+<li>用清水浸泡。 <strong>一定不能用自来水！！！有细菌</strong></li>
+</ul>
+<h3 id="洗锅"><a href="#洗锅" class="headerlink" title="洗锅"></a>洗锅</h3><p>如果煮面条粘锅了，和煮米饭粘锅一个道理。你就拿水泡就行。面粉淀粉泡水以后很容易铲下来。</p>
+<h1 id="食材保鲜计划"><a href="#食材保鲜计划" class="headerlink" title="食材保鲜计划"></a>食材保鲜计划</h1><h2 id="蔬菜篇"><a href="#蔬菜篇" class="headerlink" title="蔬菜篇"></a>蔬菜篇</h2><p>冷冻的香葱、香菜——特别好用<br>豌豆、玉米粒、胡萝卜丁——同样的，煮熟加点盐和油。<br>胡萝卜丁别煮的太软了，最好中间带一点生硬度<br>大葱：洗净、切段。不需要焯水。</p>
+<h2 id="生肉"><a href="#生肉" class="headerlink" title="生肉"></a>生肉</h2><p>一次处理半斤配肉，分两餐吃掉。省第二天的时间和生姜水<br>然后再试着加2两半</p>
+<h2 id="熟食"><a href="#熟食" class="headerlink" title="熟食"></a>熟食</h2><p>盖一个保鲜膜放冰箱</p>
+<h2 id="冷藏猪油"><a href="#冷藏猪油" class="headerlink" title="冷藏猪油"></a>冷藏猪油</h2><p>在有了保险盒，这个想法变得简单</p>
+<h1 id="通用烹饪技巧-意识"><a href="#通用烹饪技巧-意识" class="headerlink" title="通用烹饪技巧&amp;意识"></a>通用烹饪技巧&amp;意识</h1><h2 id="你的配菜、佐料朋友"><a href="#你的配菜、佐料朋友" class="headerlink" title="你的配菜、佐料朋友"></a>你的配菜、佐料朋友</h2><p>干辣椒用剪刀剪成细丝可以很好的去除辣椒籽</p>
+<h3 id="屡试不爽的佐料"><a href="#屡试不爽的佐料" class="headerlink" title="屡试不爽的佐料"></a>屡试不爽的佐料</h3><h3 id="用五颜六色的配菜换一换工厂调味料"><a href="#用五颜六色的配菜换一换工厂调味料" class="headerlink" title="用五颜六色的配菜换一换工厂调味料"></a>用五颜六色的配菜换一换工厂调味料</h3><h3 id="煮面条"><a href="#煮面条" class="headerlink" title="煮面条"></a>煮面条</h3><p>煮熟了以后要保存：<br>捞出来放点油搅拌匀</p>
+<h2 id="油-混着用"><a href="#油-混着用" class="headerlink" title="油 &amp; 混着用"></a>油 &amp; 混着用</h2><p>菜籽油+猪油，炒出的菜更香。炒肉、炒肝脏都可以</p>
+<h2 id="不锁水就缩水"><a href="#不锁水就缩水" class="headerlink" title="不锁水就缩水"></a>不锁水就缩水</h2><p>煎带鱼没有用淀粉保护，全散掉了。肉也严重缩水，导致不够吃。</p>
+<h2 id="腌肉"><a href="#腌肉" class="headerlink" title="腌肉"></a>腌肉</h2><p>先腌，后加淀粉抓拌</p>
+<h2 id="油温"><a href="#油温" class="headerlink" title="油温"></a>油温</h2><h3 id="一、油温-“层热”-的通用划分（家用炒锅参考）"><a href="#一、油温-“层热”-的通用划分（家用炒锅参考）" class="headerlink" title="一、油温 “层热” 的通用划分（家用炒锅参考）"></a>一、油温 “层热” 的通用划分（家用炒锅参考）</h3><table>
+<thead>
+<tr>
+<th>层数</th>
+<th>温度范围</th>
+<th>直观判断特征</th>
+<th>核心用途</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>一二层热</td>
+<td>60℃-90℃</td>
+<td>锅壁微微发热，油面平静无波纹，无油烟</td>
+<td>滑锅、腌制食材打底、熬葱油 &#x2F; 酱汁</td>
+</tr>
+<tr>
+<td>三四层热</td>
+<td>100℃-140℃</td>
+<td>油面开始轻微波动，有细小气泡缓慢上升，靠近能闻到油香，无明显油烟；插入筷子，筷子周围会冒出细密小气泡（不剧烈）</td>
+<td>滑炒、炸制半成品、煎制、爆香小料（如红葱头、蒜末）</td>
+</tr>
+<tr>
+<td>五六层热</td>
+<td>150℃-180℃</td>
+<td>油面明显翻滚，有大量气泡，油烟开始冒出；筷子插入会快速涌泡，食材下锅会立刻浮起并产生密集小泡</td>
+<td><strong>复炸</strong>、炸酥脆类食材（如花生米、油条）</td>
+</tr>
+<tr>
+<td>七八层热</td>
+<td>190℃以上</td>
+<td>油面剧烈沸腾，浓烟滚滚，油色变深</td>
+<td>紧急炝锅（极少用，易糊锅、产生有害物质）</td>
+</tr>
+</tbody></table>
+<h2 id="跟着美食强老师学到的放料技巧"><a href="#跟着美食强老师学到的放料技巧" class="headerlink" title="跟着美食强老师学到的放料技巧"></a>跟着美食强老师学到的放料技巧</h2><p>炒五花肉（炼猪油）+香料；</p>
+<ol>
+<li>生姜 &amp; 五花肉 —— 大火</li>
+<li>干辣椒、大蒜、小米辣 —— 中小火</li>
+<li>料酒 &amp; 生抽 &#x2F;&#x2F;倒入诸油锅</li>
+<li>全部翻炒了1min, 再放盐、糖、鸡精  &#x2F;&#x2F; 粉状调料也不会急着放，不知道为何</li>
+<li>锅边醋 &#x2F;&#x2F;醋不会很早放<br>&#x2F;&#x2F; 不知道这样子能不能去腥味</li>
+</ol>
+<h2 id="炸蒜头油"><a href="#炸蒜头油" class="headerlink" title="炸蒜头油"></a>炸蒜头油</h2><p>注：蒜头油，指的就是炸完大蒜籽的油。用来做菜很好吃。炸好了可以冷藏保存2周<br>原料：大蒜子；菜籽油&#x2F;花生油<br>大蒜子切碎。可以那盐腌一下去腥。&#x2F;&#x2F;有人会用水泡，再沥干。<br>火候是关键。目标是把蒜末炸制金黄。可以分离储存蒜酥和蒜头油，也可以一起储存。&#x2F;&#x2F;要学会转小火，用油的余温继续炸制。</p>
+<p>包括了煎虾油、牛腩的预处理、调味</p>
+<h2 id="肉馅"><a href="#肉馅" class="headerlink" title="肉馅"></a>肉馅</h2><p>难点在于让肉馅有粘性。好出形状<br>一斤肉配2两葱姜水，放一点玉米淀粉（不可以多放，影响口感）<br>用大碗顺着一个方向搅拌</p>
+<h2 id="煎虾油"><a href="#煎虾油" class="headerlink" title="煎虾油"></a>煎虾油</h2><ul>
+<li>用于煲粥、煮汤</li>
+<li>头部的处理——剪掉尖刺。去掉虾胃。</li>
+</ul>
+<h2 id="牛腩焯水"><a href="#牛腩焯水" class="headerlink" title="牛腩焯水"></a>牛腩焯水</h2><h2 id="炒糖色诀窍"><a href="#炒糖色诀窍" class="headerlink" title="炒糖色诀窍"></a>炒糖色诀窍</h2><p>怎样避免炒出来发苦。</p>
+<h2 id="爆香"><a href="#爆香" class="headerlink" title="爆香"></a>爆香</h2><h3 id="爆香干辣椒时的注意事项"><a href="#爆香干辣椒时的注意事项" class="headerlink" title="爆香干辣椒时的注意事项"></a>爆香干辣椒时的注意事项</h3><h3 id="八角桂皮香叶-vs-十三香"><a href="#八角桂皮香叶-vs-十三香" class="headerlink" title="八角桂皮香叶 vs 十三香"></a>八角桂皮香叶 vs 十三香</h3><h3 id="姜蒜先爆香再炒肉还是先煎肉再放姜蒜增香？区别在哪？"><a href="#姜蒜先爆香再炒肉还是先煎肉再放姜蒜增香？区别在哪？" class="headerlink" title="姜蒜先爆香再炒肉还是先煎肉再放姜蒜增香？区别在哪？"></a>姜蒜先爆香再炒肉还是先煎肉再放姜蒜增香？区别在哪？</h3><h3 id="十三香"><a href="#十三香" class="headerlink" title="十三香"></a>十三香</h3><p>里面没盐</p>
+<h1 id="厨具"><a href="#厨具" class="headerlink" title="厨具"></a>厨具</h1><h2 id="磨刀"><a href="#磨刀" class="headerlink" title="磨刀"></a>磨刀</h2><h2 id="煮锅"><a href="#煮锅" class="headerlink" title="煮锅"></a>煮锅</h2><p><strong>煮面条、米粉这样有淀粉的最好用不粘锅</strong>。不要用铁盆，除非你愿意守在旁边一直搅拌。而且搅拌得很到位才行！我曾有两次使用铁盆煮面条、粉丝。结果都把盆底的粉丝烧糊了。黑色的糊是淀粉高温碳化形成的。非常难去除。要用钢丝球这类硬刷才可以去除，丝瓜烙、海绵都不行。用醋泡也不行<br>个人感觉铁盆传热效率比不粘锅要好。所以会<strong>用铁盆烧洗脚水、煮鸡蛋。</strong></p>
+<h3 id="鸡腿去骨"><a href="#鸡腿去骨" class="headerlink" title="鸡腿去骨"></a>鸡腿去骨</h3><p>用剪刀剪</p>
+<h3 id="切肉丝"><a href="#切肉丝" class="headerlink" title="切肉丝"></a>切肉丝</h3><p>嫩肉没有着力点，可以放冷冻，冻到半硬不硬的状态<br>先片成片，再切丝</p>
+]]></content>
+      <categories>
+        <category>才艺</category>
+      </categories>
+      <tags>
+        <tag>烹饪</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>在hexo博客中插入图片(方案汇总)</title>
+    <url>/2025/03/09/%E5%9C%A8hexo%E5%8D%9A%E5%AE%A2%E4%B8%AD%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E3%80%90%E6%96%B9%E6%A1%88%E6%B1%87%E6%80%BB%E3%80%91/</url>
+    <content><![CDATA[<h1 id="放弃的方案："><a href="#放弃的方案：" class="headerlink" title="放弃的方案："></a>放弃的方案：</h1><h2 id="原生的-hexo-add-on-hexo-asset"><a href="#原生的-hexo-add-on-hexo-asset" class="headerlink" title="原生的 hexo add on: hexo-asset"></a>原生的 hexo add on: hexo-asset</h2><p><code>post_asset_folder: false #true</code></p>
+<ul>
+<li>语法格式恶心，既不是 md 也不是 HTML，自带的一种渲染格式</li>
+<li>尝试多次未成功</li>
+</ul>
+<h1 id="能使用的方案："><a href="#能使用的方案：" class="headerlink" title="能使用的方案："></a>能使用的方案：</h1><h2 id="PicX-GitHub作图床"><a href="#PicX-GitHub作图床" class="headerlink" title="PicX GitHub作图床"></a>PicX GitHub作图床</h2><h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><ul>
+<li>gitbub 有一个叫做 picx 的项目, 是一个网站，你可以往它的官网上传（本机的）图，会自动生成一个链接赋值到剪切板上。</li>
+<li>特点：手动在 blog md file 里放 html img 标签； 支持使用 GitHub 图床（own repo，free）等其他图床</li>
+</ul>
+<h3 id="优缺点"><a href="#优缺点" class="headerlink" title="优缺点"></a>优缺点</h3><ul>
+<li>优点： PicX 自动生成图片 url, 完全免费（薅微软 Github 服务器的羊毛）</li>
+<li>不足：无法在写博客粘贴图片的时候自动生成链接。需要手动写 HTML img 标签。图多了有些麻烦，容易找不到链接。<br>Links：<a href="https://picx.xpoet.cn/#/settings">PicX 在线服务</a>； <a href="https://picx-docs.xpoet.cn/usage-guide/get-start.html">官方使用教程</a>；<a href="https://github.com/XPoet/picx">GitHub 仓库地址</a></li>
+</ul>
+<p>e.g. url generate by pix<br><a href="https://github.com/OptimusHimself/picx-images-hosting/raw/master/%E5%BD%97%E6%98%9F%E8%BD%A8%E8%BF%B9.esnsejhpw.webp">https://github.com/OptimusHimself/picx-images-hosting/raw/master/彗星轨迹.esnsejhpw.webp</a><br>e.g. &lt;img&gt; tag<br>&lt;img src&#x3D;”<a href="https://github.com/OptimusHimself/picx-images-hosting/raw/master/%E5%BD%97%E6%98%9F%E8%BD%A8%E8%BF%B9.esnsejhpw.webp">https://github.com/OptimusHimself/picx-images-hosting/raw/master/彗星轨迹.esnsejhpw.webp</a>“ alt&#x3D;”sorry about that”&gt;</p>
+<blockquote>
+<p>img alt 参数：Specifies an alternate text for an image</p>
+</blockquote>
+<h2 id="外国图床"><a href="#外国图床" class="headerlink" title="外国图床"></a>外国图床</h2><p><a href="https://postimages.org/">postimage</a><br><a href="https://sm.ms/">sm.ms</a> </p>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>jyy课堂笔记</title>
+    <url>/2025/06/30/jyy%E8%AF%BE%E5%A0%82%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<p>jyy的课件做得很好。但是听jyy的课我从不看标题。 只听他的内容，因为他懂的太多了，即便有标题，他也时常即兴起来拓展了很多偏离标题但是启发我的内容。</p>
+<p>听jyy的课不止能获取新知识、听到高效的学习方法。 他的课堂有一种长者的关怀，我从中吸收正能量。原本对很多事情感到不自信、畏惧开始。在补充完正能量后，又对计算机知识充满热情。我想，即便我本科毕业后、从事研究生、博士生的研究工作，遇到瓶颈时也可以拿出他最新的视频看一看、学一学。</p>
+<p>第一节课jyy用大量的例子鼓励我们使用AI，尤其是在学习他的OS课程中。谈到Academic Integrity他还说了一个不一样的观点：我们可以在遇到问题时使用AI。 但你不能把整个问题丢给他。这门课的Policy是让学生学到技能。当你意识到这一点，监督自己使用AI的方式，你就做到了“学术诚信”。 ————我醒悟到曾经用偷懒，把全部问题丢给AI快速取得分数的愚蠢。我不仅没有学到这门课的知识，也浪费了探索AI prompt的机会。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>大学找对象方案</title>
+    <url>/2025/09/06/%E5%A4%A7%E5%AD%A6%E6%89%BE%E5%AF%B9%E8%B1%A1%E6%96%B9%E6%A1%88/</url>
+    <content><![CDATA[<p>好久没写博客了，写一篇水着玩玩</p>
+<p>一个人在外地上大学，是否希望找一个对象，生活上有一个陪伴，学习上互相鼓励？探寻了多个伴侣之间的恋爱故事，我发现，想和一个约上会，需要合适的机遇。<br>你可以等。但是，你都来找攻略了，自然是不想等的。假如你已经看上了一个人。尤其是，你觉得ta也可能喜欢你。你还知道她是xxx学院，几年级，是否具备谈起来的条件。以下是方法：<br>去食堂的时候，不要带手机、也不要带校园卡。当你看到她时，你就礼貌地说：“同学，我没带校园卡，可以帮我刷一下吗？我wx转给你”。等她刷完，你不好意思地说：同学，我手机没带。可以记一下我wx号吗？</p>
+<p>认识我的人，看了这篇文章可能会说：tyrone，真没想到你也会想这些东西。<br>拜托，我也是人，也是个直男。有想追的女生不过分吧。至于我为什么能想到这个方法。Emmm，可能是保研期间疯狂陶瓷，和老师打交道多了，懂了些人情世故？锻炼了胆量？</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>手台入门教程</title>
+    <url>/2025/06/08/%E6%89%8B%E5%8F%B0%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/</url>
+    <content><![CDATA[<blockquote>
+<p>令我印象最深刻的经历，就是用Scan扫到中继的信号，听友台们的信号。在不知道亚音、频差的情况下傻乎乎的念：CQ CQ CQ, 这里是BD1BBU呼叫。Bravo Delta One Bravo Bravo Uniform 请求插入。 然后每一个人理我。 ——好家伙，啥都不会就干中继了🤣</p>
+</blockquote>
+<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>认识UVK6的按键：F键、菜单键<br>认识菜单的常用功能：存储信道；设置上、下行亚音；设置频差；Scan功能<br>实操：寻找中继台的高效办法，</p>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>HAM</tag>
+      </tags>
   </entry>
   <entry>
     <title>张大厨家的菜谱</title>
@@ -1192,19 +1356,119 @@
       </tags>
   </entry>
   <entry>
-    <title>手台入门教程</title>
-    <url>/2025/06/08/%E6%89%8B%E5%8F%B0%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/</url>
-    <content><![CDATA[<blockquote>
-<p>令我印象最深刻的经历，就是用Scan扫到中继的信号，听友台们的信号。在不知道亚音、频差的情况下傻乎乎的念：CQ CQ CQ, 这里是BD1BBU呼叫。Bravo Delta One Bravo Bravo Uniform 请求插入。 然后每一个人理我。 ——好家伙，啥都不会就干中继了🤣</p>
-</blockquote>
-<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>认识UVK6的按键：F键、菜单键<br>认识菜单的常用功能：存储信道；设置上、下行亚音；设置频差；Scan功能<br>实操：寻找中继台的高效办法，</p>
+    <title>我的A证</title>
+    <url>/2025/04/24/%E6%88%91%E7%9A%84A%E8%AF%81/</url>
+    <content><![CDATA[<img src="https://github.com/OptimusHimself/picx-images-hosting/raw/master/执照.8ojy22apde.jpg" alt="A证"  />
+
+<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>记录笔者考A证的时间线。还有给新手的建议（不包括复习）<br>以下，中国无线电协会业余电台操作证书叫做操作证。 中国人民共和国无线电台执照叫做（无线）电台执照。</p>
+<h1 id="时间线"><a href="#时间线" class="headerlink" title="时间线"></a>时间线</h1><p>4.19 考试<br>4.24 上网查看，通过了。<br>5.12 拿到操作证。验机、填表、申请电台执照。<br>5.30.执照通过 (其实执照上的有效期是5.22起，北京无线电协会的通知会晚一点儿)<br>6.4 申请邮寄执照<br>6.6 终于拿到邮寄的执照啦！（今天是我生日！）<code>BD1BBU</code></p>
+<h1 id="Q-A"><a href="#Q-A" class="headerlink" title="Q&amp;A"></a>Q&amp;A</h1><p>达到什么条件才可以“发射”？<br>有操作证，有电台执照。 很好理解，用电台就像开车。 首先，要有驾照（A操作证）。然后你的车要有车牌，就像你用的电台需要一个电台号、执照。就像交通系统的监管对象是路行驶的车而不是驾驶的人。摄像头先抓的是违规的车、再去扣驾驶员的分&#x2F;吊销他的执照。同样地，无线电管理系统也是监视违规的电台，其次再去惩罚操作员。</p>
+<h1 id="tips"><a href="#tips" class="headerlink" title="tips"></a>tips</h1><ul>
+<li>个人认为三天，每天准备4h就够了。</li>
+<li>看到当地无线电协会发的通知里没有自己的名字不要担心是自己没考过。可能那就不是你那波的考试情况。</li>
+<li>出了成绩就可以去验机啦！不要等到拿到操作证再去验机。<br>原因：早点验机，操作证和无线电台执照一起拿。<br>要区分A操作证、执照和其组织的关系。操作证是你当地的协会给你颁发的。而执照的合法单位是中国人民共和国工业和信息化部。前者需要通过考试，后者需要通过考试且拿符合标准的设备到当地无线电协会验机。<br>我傻傻以为操作证上就会有呼号。。结果后面看到一串长长的操作证ID就感觉不对劲。</li>
+</ul>
 ]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
       <tags>
+        <tag>日记</tag>
         <tag>HAM</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>插入图片</title>
+    <url>/2026/05/08/%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/</url>
+    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>这篇博客本是用来测试的。内容非常杂乱。好在它发挥了她的价值，记录了测试结果，也让我发现了规律。</p>
+<h1 id="在文章中添加图片的方法。注：图片源于本地，不是绝对-url"><a href="#在文章中添加图片的方法。注：图片源于本地，不是绝对-url" class="headerlink" title="在文章中添加图片的方法。注：图片源于本地，不是绝对 url"></a>在文章中添加图片的方法。注：图片源于本地，不是绝对 url</h1><p>在 source 下创建 img 文件夹。把图片复制进去。<br>在文章中：路径为： &#x2F;img&#x2F;image.png 不是 source&#x2F;img&#x2F;image.png</p>
+<ul>
+<li>路径名不要用反斜杠！！！</li>
+<li>是 &#x2F;img&#x2F;name.png 不是 img&#x2F;name.png 斜杠不能少！</li>
+</ul>
+<p><img src="/img/%E8%8D%92%E9%87%8E%E6%9C%BA%E5%99%A8%E4%BA%BA.png" alt="成功的复制: 荒野机器人"></p>
+<p><img src="/img/fluid%E6%96%87%E7%AB%A0%E5%86%85%E5%AE%B9%E5%9B%BE%E7%89%87%E8%AF%AD%E6%B3%95%E8%A7%84%E5%88%99.png" alt="成功的复制：fluid文章内容图片语法规则.png"></p>
+<p><img src="/%5Cimg%5Cfluid%E6%96%87%E7%AB%A0%E5%86%85%E5%AE%B9%E5%9B%BE%E7%89%87%E8%AF%AD%E6%B3%95%E8%A7%84%E5%88%99.png" alt="失败的复制：fluid文章内容图片语法规则.png——路径语法不支持反斜杠"><br>说明一下：路径语法用反斜杠经 hexo s 测试，可以在浏览器正常显示。但是部署到 github 上却不可以显示图片。<br><img src="/source/img/fluid%E6%96%87%E7%AB%A0%E5%86%85%E5%AE%B9%E5%9B%BE%E7%89%87%E8%AF%AD%E6%B3%95%E8%A7%84%E5%88%99.png" alt="失败的复制：fluid文章内容图片语法规则.png——要遵守的相对路径"></p>
+<p><img src="/TyroneOp2025-03-21_00-12-59-1.png" alt="失败的复制1"></p>
+<p>c:\Users\Optimus\Pictures\TyroneOp2025-03-21_00-12-59.png</p>
+<p><img src="/TyroneOp2025-03-21_00-12-59-2.png" alt="失败的复制2"></p>
+<h1 id="探索更多图片功能："><a href="#探索更多图片功能：" class="headerlink" title="探索更多图片功能："></a>探索更多图片功能：</h1><p>一、文章页顶部大图</p>
+<ul>
+<li>使用 banner_img 字段，语法依然是 <img src="/fluid%E4%B8%93%E5%B1%9E%E7%9B%B8%E5%AF%B9%E8%B7%AF%E5%BE%84%E8%A7%84%E5%88%99" alt="alt"></li>
+<li>为了便于管理。你可以在 source&#x2F;img 在新建 banner_img 文件夹。<br><img src="/img/banner_img/%E8%82%8C%E8%82%89%E7%94%B7.jpg" alt="肌肉男！"></li>
+</ul>
+<p>二、 文章在首页的封面图</p>
+<ul>
+<li>使用 index_img 字段，语法同上<br><img src="/img/index_img/youthsearching.jpg" alt="i walk the sun by myself"></li>
+</ul>
+<h1 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h1><p>以前的我太可爱了，跟着教程找 source，结果找到这个路径<code>node_modules\hexo-theme-fluid\source</code>下了</p>
+<ul>
+<li>人家说的明明是：<code>E:\Blogs\source\img</code>，我拐了一大个弯： <code>E:\Blogs\node_modules\hexo-theme-fluid\source\img </code></li>
+</ul>
+<p>也是在今天的探索后，我对静态博客框架的态度更加明朗——原来，塞个图片也不是那么难！幻想以后图文并茂的博客（美滋滋！）<br>曾今有蛮长一段时间因为繁琐的操作，笔记都用知乎。yysy，知乎除了有内容监管，其他也挺好。多端可编辑。适合新手。总之，我将回归静态博客，提升博客内容质量。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>期末复习技巧</title>
+    <url>/2025/12/12/%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0%E6%8A%80%E5%B7%A7/</url>
+    <content><![CDATA[<h1 id="CoT"><a href="#CoT" class="headerlink" title="CoT:"></a>CoT:</h1><h2 id="有考题的科目"><a href="#有考题的科目" class="headerlink" title="有考题的科目"></a>有考题的科目</h2><p>先静下心看考题。判断出核心考点</p>
+<h2 id="没有考题的科目"><a href="#没有考题的科目" class="headerlink" title="没有考题的科目"></a>没有考题的科目</h2><p>以不变应万变。 我们突击都是从问题出发复习。先搞懂每个主题最核心的问题。总不可能一节课学了100个核心算法吧。</p>
+<p>利用两个显示屏：都是 landscape—水平放置</p>
+<ol>
+<li>复习 WSN （没有考题）的状态：</li>
+</ol>
+<ul>
+<li>副屏: <ul>
+<li>豆包及内置浏览器浏览器查网页、查单词，看思维导图</li>
+</ul>
+</li>
+<li>主屏: <ul>
+<li>adobe: PDF课件 &#x2F;&#x2F; 一页页过；做笔记、commet，highligh</li>
+<li>obsidian 草稿本，进一步整理笔记（术语、考题）</li>
+</ul>
+</li>
+</ul>
+<ol start="2">
+<li><p>若复习有考题的学科，如 DC<br>副屏不变，主屏开一个 Chrome, 把考题 Pdf 专门放浏览器看</p>
+</li>
+<li><p>如果课件是 PPT 不是 pdf<br>那就把主屏的 adobe 改成 powerpoint</p>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>学习方法</category>
+      </categories>
+      <tags>
+        <tag>期末图集</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>爆改乐视电视</title>
+    <url>/2025/07/12/%E7%88%86%E6%94%B9%E4%B9%90%E8%A7%86%E7%94%B5%E8%A7%86/</url>
+    <content><![CDATA[<p>3 音量减， 音量加， 频道减， 频道加</p>
+<p><a href="https://www.znds.com/tv-1068755-1-1.html">开发者模式按键</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>摸底-提问</title>
+    <url>/2025/11/27/%E6%91%B8%E5%BA%95-%E6%8F%90%E9%97%AE/</url>
+    <content><![CDATA[<p>以下内容仅供娱乐。记录一下自己现在的知识水平（最近的学习有些被动了，</p>
+<p>一、测试一个人的<strong>计算机综合水平</strong>，你只需要问：<br>尽可能仔细地描述按下笔记本开机键到亮屏、进入系统以及进入系统之后的30s，电脑内部发生的事情。<br>给他足够的时间。你听他提到了哪些术语(grub, fstab, kernel….)，中间会不会分类讨论展开讲比如按下xxx按键可以进入xxx模式，大概就知道他懂得多深。</p>
+<p>二、测试一个人<strong>对前后端开发的理解</strong>有多深，你只需要问：<br>从手机屏幕点击微信图标到搜索联系人meipo，发送消息、接收消息。这些过程你的手机和服务器都做了什么。</p>
+<p>三、测试一个人<strong>计算机网络基础普及程度</strong>：<br>（这个我比较菜，我可能会考：DHCP联网的全过程。再考一些交叉问题：浏览器访问 github 全过程。</p>
+<p>四、linux 玩得六不六<br>（我也刚接触没多久），可能会问和包管理器相关的内容。再考考 LFS 的内容。再考一个怎么退出 vim（</p>
+<p>五、大模型与深度学习 &#x2F;&#x2F;这个我更没发言权，我还想起当时在北理工珠海校区被按地摩擦。。。</p>
+<ol>
+<li><p>我会问，大模型的幻觉现象。（其实我自己也不是很清楚</p>
+</li>
+<li><p>当前大模型有什么问题，是什么原因导致的。<br>我会说，当你给了多个关键词和一个需求时，大模型不太能判断这几个关键词和目标组成的逻辑网是否成立，是否会遇到阻碍。</p>
+</li>
+<li><p>偏工程性的话，我会问：阐述“在 deepseek.chat.com 发送一段文字，到浏览器出现AI的回复”这个一过程中，服务器和你的浏览器干了什么。</p>
+</li>
+</ol>
+]]></content>
+  </entry>
+  <entry>
+    <title>约定式提交</title>
+    <url>/2025/07/07/%E7%BA%A6%E5%AE%9A%E5%BC%8F%E6%8F%90%E4%BA%A4/</url>
+    <content><![CDATA[]]></content>
   </entry>
   <entry>
     <title>科学上网</title>
@@ -1227,126 +1491,6 @@
       </categories>
       <tags>
         <tag>Clash Proxy Server</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>爆改乐视电视</title>
-    <url>/2025/07/12/%E7%88%86%E6%94%B9%E4%B9%90%E8%A7%86%E7%94%B5%E8%A7%86/</url>
-    <content><![CDATA[<p>3 音量减， 音量加， 频道减， 频道加</p>
-<p><a href="https://www.znds.com/tv-1068755-1-1.html">开发者模式按键</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>和仲敖的SDR日记</title>
-    <url>/2025/03/25/%E5%92%8C%E4%BB%B2%E6%95%96%E7%9A%84SDR%E6%97%A5%E8%AE%B0/</url>
-    <content><![CDATA[<p> 下午逃课和仲敖玩SDR，收听了北京汽车广播。在日记里，我想记下几个难忘的瞬间。</p>
-<img src="https://github.com/OptimusHimself/picx-images-hosting/raw/master/radioandsun.webp" alt="BJUT环能楼楼顶的风景" >
-1仲敖问Deepseek北京电台的信息，然后说：切98，98有音乐！  
-
-<p>2 仲敖生病了依然陪我开箱，陪我安装，搞软件。 非常有耐心地陪我读文档、装软件，今天的成功，离不开我这位好朋友。  </p>
-<p>3 争论SDR# 软件上Bandwidth功能的实现原理，我认为是主板给滤波器发送信号调控硬件中的BPF，而仲敖坚持认为是软件对天线收到的所有信号进行处理。我们用一餐饭打赌，仲敖后来输了。    </p>
-<p>4 起初这条懒狗还不愿意陪我拿快递（当时挺失望的，同时也理解他生病的状态）。不过，后来在我的哄骗下还是一块去了。最后，我问他后悔走“那么多”路去拿快递吗？他表示这份体验很值得（我心里美滋滋的，要是没他陪我，我也玩不到那么好）。他甚至还想上京哈高速上玩，到首都机场听飞行员通信的频段。被我劝住了。我们计划清明前夕一块去，顺便下馆子。  </p>
-<p>5 本人手贱，把SDR# 上预设的bandwidth &#x3D; 200,000改成了2,000，结果什么都听不清。两个小白还以为是地方不够空旷，搬到一个新地方（环能楼顶层）去，结果依然啥也听不清。后来我把bandwidth又调回20万。你懂吧，当时我兴奋地扇自己耳光。替四教5层删的，冤枉你了。  </p>
-<p>6 不愧是C++ 代码王，看教程的时候，我总是有很多模棱两可的地方磨磨唧唧的。而身边的实战派总能帮我过滤掉无用信息，有这么一个果断但又不乏耐心的人陪伴，整活成为我的快乐<br>7 爸爸糖的香蕉味吐司挺好吃的。某人硬吹evian阿尔卑斯的水比农夫山泉的好，斥巨资购买。在我看来，骨子里的癖好是无法改变的。当然，和这位北京小哥成为好朋友完全不是看重这些所谓的“品味”。<br>8 守门员出生的仲敖怕天线摔地上，冲过去护着的样子。很可爱也有些滑稽。<br>今天，我们从开箱到听到FM广播。书本上的死知识：抽象的数学符号、老师随手画的频谱出现在我们眼前。我们不清楚为什么2000的带宽听到的消息信息量那么低，而200,000、180,000就正合适，调成300,000噪声就太多了。我们也不懂天线知识，不知道为什么短天线比长天线收听效果差，我们真的不懂EM wave是咋传播的，我们只知道信号是从西边（海淀）传来的，打开羊角天线，指向日落的方向就能听到音乐。<br>希望和仲敖在SDR的世界中收获更多的兴趣和乐趣。也希望在这个小玩意的引领下，DSP，communication theory, wireless communication三大module取得Aplus!</p>
-]]></content>
-      <categories>
-        <category>整活</category>
-      </categories>
-      <tags>
-        <tag>日记</tag>
-        <tag>SDR入门</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>论持久战</title>
-    <url>/2025/03/21/%E8%AE%BA%E6%8C%81%E4%B9%85%E6%88%98/</url>
-    <content><![CDATA[<p>从午休后到晚上10点，我全身心投入在模拟通信系统的调制技术的学习中。这是一次伟大的学习过程，因为我学会了“持久”。 我喜欢学习，但我的学习方法不算高效，或者说，在此之前，我没有一个通用的“学习思维”。 我能学好某些知识，归功于我擅长找好的教材、课程，从优质资源中汲取知识。但这只是途径问题，找好的教材是学习的第一步，属于“捷径方法论”。而现在要讨论的是：利用资源和规划时间。因为这一块工作没有做好，会让你在一个领域的开始阶段举步维艰，被那些“懂学习”的人拉开差距。我反思，为什么我作为一个CS专业的学生，到大三了才进入程序设计的全盛、兴趣爆棚的学习状态。慢热，真的好吗？</p>
-<p>拿通信原理这门课来说。要了解通信系统的运作需要很多前置知识：信息论——通信工程里讨论的bit和CS里常说的bit可不是一个概念；还有对通信系统的建模，对信道简单建模。总之，这门课的“原始积累、老本”几乎是0。而学校的教材、课程对于入门小白来说是很难摸得着头脑的。看讲义、课件时，突然蹦出一个你从未见过的公式、符号是很令人头疼的。</p>
-<p>以前，我在学新东西的时候总希望眼前的一切在脑中make sense, 好像有了某般instinct就等同于学会了，可以接下去学了。而要是没有那道“电弧”、通透的感觉，就是没学会。这还不够，不懂学习方法的我还会发脾气：这教材真差劲，不学了！老师讲得真烂，简直就是天书、不听了！于是连续3~4词旷课，等火烧眉毛了再咬着牙学。还有一类情况是，遇到了以前的知识，比方说研究调制信号的spetrum时用到了一点傅里叶变换。一些死扣牛角尖的想法就是，“哎呀，上学期信号与系统里教的傅里叶变换又忘了、我肯定学不下去了，连基础都没有，干脆等几天再学吧，先复习复习傅里叶变换”。可实际上，并没有行动，因为这个想法太空了，复习哪些部分？傅里叶变换那么多性质，真要复习全，三天三夜差不多。有时，你只是脑子里蹦出了知识图谱的一个小标签，就恐吓自己、转移自己的视线。从阿德勒的目的论来看，一切都目的就是不想接触新概念，因为你知道培养自己形成新的概念离不开痛苦、离不开旧思想的碰撞，进而想通过给自己设障达到偷懒、逃避的目的。</p>
-<p>我相信，有不少人也是和我有类似毛病的。只不过我这块特别严重。</p>
-<p>说说我现在的状态。</p>
-<p>上新课听到不懂的不再深究。一方面，你是初学者，你不可能短时间体会这个符号从过去被科学家发明出来，因为什么英文含义被写成这样，你也不可能短时间从只言片语体会到这个公式的来历，你需要练习，研究电路，物理意义你需要看更多的书来联想到更多的知识。另一方面，你真的需要在这个时间点知道那么多吗？正确的做法是，短暂思考后标注问题，问问自己前后的东西能不能自洽，换句话说，书上有没有硬刷错误。对你没看错，我的意思就是，有没有数学上，或者和过去的印象是否匹配。你只需要验证，告诉自己：</p>
-<p>“这大概是对的——这一项加这一项系数没问题，合并同类项等基本运算正确，可能我不知道为什么这么算，但我先接着听。”</p>
-<p>“傅里叶变换我有些不熟悉了……哎不管了，先记着cos(t)转到频域上是两根棍，好像没啥毛病。具体什么含义、为什么做傅里叶变换……老师也没讲、他也不一定讲的清。那我继续看。”</p>
-<p>出现什么新符号、新推演就告诉自己“哦，这有个新符号啊，它叫做……虽然我不知道为什么叫这个抽象玩意儿。”“为什么在通信系统里，做完A operation，就做B。老师说这个方法的优点是……，那就是吧，管他呢”。</p>
-<p>和老师、书本过进度，揭开这个系统的面纱。总之，你要学会减轻自己的思维负担。遇到不懂的东西，立刻告诉自己：“问题不大，没啥大不了的。”难道不是吗？生活中，哪有那么多事儿?</p>
-<p>我相信，好的资料为你拓宽视野，给你一个很好的认知基础，知道学习的路线。很多时候，这足够支撑你“无痛、轻微疼痛”即可入门一个领域。而有些时候，问题稍微复杂了些，每一步都带来很多未知面。这个时候就换一个思维，不要硬刚而是缓下来，换成“持久、不内耗、果断清晰”的思维。我认为，这是一个高效学习者的能力。</p>
-]]></content>
-      <categories>
-        <category>生活感悟</category>
-      </categories>
-      <tags>
-        <tag>学习方法</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>计网学习笔记</title>
-    <url>/2025/06/16/%E8%AE%A1%E7%BD%91%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>屎一样的笔记。</p>
-<blockquote>
-<p>我希望这辈子能挖到一个21世纪的网络漏洞。</p>
-</blockquote>
-<h1 id="DHCP服务器"><a href="#DHCP服务器" class="headerlink" title="DHCP服务器"></a>DHCP服务器</h1><p>为什么host广播用的<code>DHCPDISCOVER包</code>，能被DHCP服务器收到并处理，为什么<code>源IP</code>必须是<code>0.0.0.0</code> <code>目的IP</code>必须是<code>255.255.255.255</code>？</p>
-<h2 id="特殊IP地址"><a href="#特殊IP地址" class="headerlink" title="特殊IP地址"></a>特殊IP地址</h2><p>DHCPDISCOVER广播包会被<strong>同一网段上所有主机的IP协议栈</strong>接收，<strong>但只有运行着DHCP服务器软件并监听UDP端口67的主机</strong>才会在UDP&#x2F;应用层处理这个请求并做出响应。其他主机的UDP层会因为端口67未被使用而丢弃该数据报。0.0.0.0和255.255.255.255保证了广播能被发送并被所有IP栈接收，而端口67则确保了只有DHCP服务器应用会处理它。</p>
-<p>其他非DHCP主机不会运行67进程，自然也不会对<code>DHCPDISCOVER包</code>进行处理</p>
-<h1 id="“NIC-“-“网卡”"><a href="#“NIC-“-“网卡”" class="headerlink" title="“NIC “ “网卡”"></a>“NIC “ “网卡”</h1><p>链路层的主体部分是在网络适配器中实现的。网络适配器有时也称为网络接口卡</p>
-<h2 id="PCI-PCIe"><a href="#PCI-PCIe" class="headerlink" title="PCI &amp; PCIe"></a>PCI &amp; PCIe</h2><p>PCI Peripheral Component Interconnect  </p>
-<ul>
-<li>传统总线协议</li>
-<li>PCIe Peripheral Component Interconnect Express </li>
-<li>快速外设组件互连高速串行标准</li>
-<li>Express有快速、高速传输的含义</li>
-<li>两个都是总线协议。 由于对总线传输速度的需求增大，PCI被速度更快的PCIe替代。</li>
-</ul>
-<p>以前经常问的问题：DHCP服务器</p>
-<p>说说我脑中的DHCP Server</p>
-]]></content>
-      <categories>
-        <category>复习笔记</category>
-      </categories>
-      <tags>
-        <tag>计网</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Books Recommandation</title>
-    <url>/2025/03/25/%E9%98%85%E8%AF%BB%E6%8E%A8%E8%8D%90/</url>
-    <content><![CDATA[<p>这是一个来自IoT专业理工男整理的书单。我从读大学之后开始热爱读书、算是对各类书籍都感兴趣。在这之前，很少阅读课外书籍。这份清单涵盖了我阅读过的并且其中的某些片段为我留下了深刻印象、并对我的学习生活、个人修养产生过积极影响的书籍（真的，读书很神奇，你会因为梳理的内容做出很多改变，哪怕有些只有一个月。<br>AI时代获取信息变得容易，但是读书依然不可替代。<br>我为每本书留下了一些摘抄或者感想，可以当作这本书的精彩部分。 之后会有专门的分区记录每一本书的读后感。</p>
-<h1 id="高端科普、社会知识类"><a href="#高端科普、社会知识类" class="headerlink" title="高端科普、社会知识类"></a>高端科普、社会知识类</h1><p>通过读大师的作品，品味伟大的成就，从精品里学习，开阔了你的视野。从精粹中学到的思维方式让你在成事、看热点问题、社会上的宏观问题带来更新颖的思维方式。<br>阅读这类作品，需要结合自身经历思考、留记录</p>
-<h2 id="科学中国人系列杂志"><a href="#科学中国人系列杂志" class="headerlink" title="科学中国人系列杂志"></a>科学中国人系列杂志</h2><p>我的阅读背景：<br>我于2025.3月（大三下），在图书馆的杂志区，接触科学中国人。 这一段时间，我焦虑于保研专业的选择，人工智能革命浪潮加上种种AI的炒作下，好像计算机专业的不去研究AI以后就找不到工作、或者没有实在的薪水。有时在一些众说纷纭的媒体听闻：26岁的某某某在大厂担任AI领军任务；没天赋别碰AI、别取卷算法，种种之类。其实，在我尝试学习Andrej Karpathy的课程后我就对AI有研究自信，但没太火热的兴趣。 我也接受以后不主攻AI。但心里总希望有些支撑我的观点。草草读完，我豁然开朗，研究不分高低贵贱，不要带着功利选择视野；何必走计算机？计算机外也有很多有价值的科研天地；不要基于未经审核的只言片语规划未来。<br>作品评价：中国科学主管，在我国高级知识分子群体（两院院士）有着良好声誉<br>定位：中国科教界热点、大牛人物（科学家、科技型企业家、教学科研单位高层管理人员）故事，最新科研动态<br>每一期都会挑出几位顶级的科学家介绍他们的经历。还会用简短的文字科普新兴的技术。最后一页有精美的图片或者推荐的阅读资料。<br>通过阅读这套杂志，你可以清楚地感受到中国顶流的科研水平，各大高校的成果，你会对研究生、博士生、教授的工作有更清楚的认识。这本书不会介绍基础知识，和你的本科课本不同。但是一定能打开你的视野，给想走科研道路的自己更详细的学业、职业生涯规划。<br>如果你还在纠结留学还是国内读研、不清楚这个世界上有哪些有价值的研究以及想了解我国的科研能力到底什么水平，强烈推荐你看看这套书籍。如果你还未高中毕业，想规划自己未来的研究道路，相信有一定科学基础的你也能从这本书中看到未来的事业。</p>
-<h2 id="脉络-吴军"><a href="#脉络-吴军" class="headerlink" title="脉络  吴军"></a>脉络  吴军</h2><p>大三上学期（国庆假期）<br>历史、社会、未来</p>
-<h2 id="浪潮之巅-吴军"><a href="#浪潮之巅-吴军" class="headerlink" title="浪潮之巅 吴军"></a>浪潮之巅 吴军</h2><p>还没读完，但绝对值得一读。</p>
-<h2 id="黑客与画家-保罗·格雷厄姆（YCombinator创始人）"><a href="#黑客与画家-保罗·格雷厄姆（YCombinator创始人）" class="headerlink" title="黑客与画家  保罗·格雷厄姆（YCombinator创始人）"></a>黑客与画家  保罗·格雷厄姆（YCombinator创始人）</h2><p>阮一峰大佬翻译<br>全书分为三部分<br>本书是保罗整理的“散文集”。包含了他对IT行业&#x2F;创业的思考</p>
-<h2 id="Just-For-Fun-只是为了好玩（Linus-Trovalds）"><a href="#Just-For-Fun-只是为了好玩（Linus-Trovalds）" class="headerlink" title="Just For Fun 只是为了好玩（Linus Trovalds）"></a>Just For Fun 只是为了好玩（Linus Trovalds）</h2><p>本书是Linus的个人传记。非常非常有趣。值得你的空闲时间。</p>
-<h1 id="中外小说、散文"><a href="#中外小说、散文" class="headerlink" title="中外小说、散文"></a>中外小说、散文</h1><p>阅读，可以是一种放松的过程。本节记录书本概述&amp;我喜欢的句子。</p>
-<h2 id="读是一种幸福-梁晓声"><a href="#读是一种幸福-梁晓声" class="headerlink" title="读是一种幸福 梁晓声"></a>读是一种幸福 梁晓声</h2><p>这是梁晓声先生的散文集，是我第一次读到的作品。我喜欢他的文章，那有血有肉的文字读起来没有压力，总是让我感动。<br>记录了他儿时那个年代的故事。有文革背景下的人物。有和他的哥哥、母亲的故事，还有他当父亲有趣的亲子经历。<br>后来，我知道他的代表作，《人世间》超长篇小说；第一次追剧也是这部小说改，剧中的人物正是他的家庭生活的缩影。</p>
-<h2 id="夜火车-徐则臣"><a href="#夜火车-徐则臣" class="headerlink" title="夜火车  徐则臣"></a>夜火车  徐则臣</h2><p>感谢善良勇敢的木年、孝顺有爱的新治；让我在大学这个浮躁的小社会收获滋养，做一个踏实善良的人。</p>
-<blockquote>
-</blockquote>
-<h2 id="海边的卡夫卡-村上春树"><a href="#海边的卡夫卡-村上春树" class="headerlink" title="海边的卡夫卡  村上春树"></a>海边的卡夫卡  村上春树</h2><p>小说的开篇就很有意思，16岁自律男生的独自生存。故事中的情节不断点燃我的探险激情。我也想走出校园，看看这个世界！于是，就有了大二暑假河北秦皇岛的独自旅行。</p>
-<blockquote>
-<p>这往下你必须成为世界上最顽强的十五岁少年，不管怎么样。因为除此之外这世界上没有你赖以存活之路，为此你自己一定要理解真正的顽强是怎么回事。</p>
-<p>如果有意，我可以除掉父亲（以我现在的力气，决非什么难事），也可从记忆中将母亲抹消。可是我无法将两人的遗传因子从身上驱逐干净。如果我想驱逐，只能驱逐我自身。<br>我们大家都在持续失去种种宝贵的东西，这是生存的一个意义。</p>
-</blockquote>
-<h2 id="潮骚-三岛由纪夫"><a href="#潮骚-三岛由纪夫" class="headerlink" title="潮骚 三岛由纪夫"></a>潮骚 三岛由纪夫</h2><p>我欣赏三岛由纪夫那细致的人物刻画能力。用精细的语言雕刻人物的动作、心理、神态。每次重读他的作品，我都会感叹，怎么能有如此强大的表述能力。</p>
-<blockquote>
-<p><em>摘抄</em><br>年轻人感到包围着他的丰饶的大自然与他自身，是一种无上的调和。他觉得自己的深呼吸，是仿造大自然的肉眼看不见的东西的一部分，它深深渗透到年轻人的体内深处。他所听见的潮骚，仿佛是海的巨大的潮流，与他体内沸腾的热血的潮流调和起来了。新治平日并不特别需要音乐，但大自然本身一定充满着音乐的需要。</p>
-<p>新治的身边是广袤的大海，但他并不憧憬纵横四海的虚幻梦想。对渔夫来说，海的概念与农民拥有的土地相近。海是生活的场所，是庄稼地，形状不定的白色穗波代替了稻穗和麦浪在敏感的湛蓝色软土上不停摇摆着。 尽管如此，年轻人结束了这天的捕捞工作，望着白色货轮行驶在水平线上的晚霞前，心里却怀着不可思议的感动。世界张开了在过去难以想象的巨大怀抱，从彼方通近。这未知世界的形象如远雷一般，从天际轰鸣而来，又消逝而去。 在船头甲板上，一只小小的海星已经干瘪了。年轻人坐在船头，将视线挪离晚霞，轻摇了摇扎着白色厚毛巾的头。 </p>
-</blockquote>
-<h1 id="心理学"><a href="#心理学" class="headerlink" title="心理学"></a>心理学</h1><h2 id="亲密关系-Intimate-Relationships-罗兰·米勒"><a href="#亲密关系-Intimate-Relationships-罗兰·米勒" class="headerlink" title="亲密关系 Intimate Relationships 罗兰·米勒"></a><a href="https://book.douban.com/subject/36787449/">亲密关系</a> Intimate Relationships 罗兰·米勒</h2><p>与其说这是书，不如说这是一份研究报告。<br>这本书教会了如何有效沟通。不仅是和恋人、亲人，还有和同学朋友讲道理时，也会采取书中的模式——你心平气和地说，我耐心听，我不打断。等你说完了我再说。我听到了你的想法，我陈述你的想法——当我的理解与你的想法一致时，我做到了共情。我认真地道歉，讲道理。</p>
-<p>我认为这本书适合每一个大学生阅读。</p>
-<h2 id="休息力-韩-李时炯"><a href="#休息力-韩-李时炯" class="headerlink" title="休息力  [韩]李时炯"></a><a href="https://book.douban.com/subject/36394549/">休息力</a>  [韩]李时炯</h2><p>本书不同于大多经验类的帖子、脑科学作品，有很多科学元素。从科学原理出发，解释人之所以疲劳、效率低等日常问题还有心理、身体疾病的源头，结合来自仙村康复中心的治疗方案，告诉读者长寿，让大脑保持健康的秘密。教会我们科学地工作。<br>这本书让我产生了保护好的大脑的意识。更高效地调整自己的工作状态，让我更加从容地面对瓶颈期，而不是堕落、沮丧。</p>
-<h1 id="计算机专业入门科普读物"><a href="#计算机专业入门科普读物" class="headerlink" title="计算机专业入门科普读物"></a>计算机专业入门科普读物</h1><h2 id="《CPU通识课》-龙芯中科"><a href="#《CPU通识课》-龙芯中科" class="headerlink" title="《CPU通识课》 龙芯中科"></a>《CPU通识课》 龙芯中科</h2><p>适合CS, IoT，等有对计算机底层知识 how computer work问题感兴趣的童鞋阅读。开阔了商业视野。偏向CPU、ISA简史。</p>
-<h2 id="《普林斯顿大学计算机公开课》"><a href="#《普林斯顿大学计算机公开课》" class="headerlink" title="《普林斯顿大学计算机公开课》"></a>《普林斯顿大学计算机公开课》</h2><p>适合刚进入大学的计算机专业学生阅读。</p>
-<h2 id="《控制论》-by-Norbert-Wiener"><a href="#《控制论》-by-Norbert-Wiener" class="headerlink" title="《控制论》 by Norbert Wiener"></a><a href="https://book.douban.com/subject/2356843/">《控制论》</a> by Norbert Wiener</h2><p>全名：Cybernetics or Control and Communication in the Animal and the Machine<br>首先，作者一定可以刷新你对神童的定义。<br>什么是控制论？<br>通信的理论。 非线性、目的论的思考方式。</p>
-<p>控制论给后世带来的影响：<br>在天才维纳提出控制论后，产生很多新学科。把控制论的通信思想、哲学思考方式用在其他学科，如心理学、生物科学，延伸出了新的研究方向。<br>控制论是信息时代的理论，计算机网络，网络安全的英文名也采用cyber前缀</p>
-<h1 id="通信"><a href="#通信" class="headerlink" title="通信"></a>通信</h1><h2 id="业余无线电-童效勇"><a href="#业余无线电-童效勇" class="headerlink" title="业余无线电 童效勇"></a>业余无线电 童效勇</h2><p>这本书考证必备读物。很棒的HAM入门读物。</p>
-]]></content>
-      <categories>
-        <category>好物推荐</category>
-      </categories>
-      <tags>
-        <tag>资源分享</tag>
       </tags>
   </entry>
   <entry>
@@ -1428,208 +1572,95 @@
       </tags>
   </entry>
   <entry>
-    <title>摸底-提问</title>
-    <url>/2025/11/27/%E6%91%B8%E5%BA%95-%E6%8F%90%E9%97%AE/</url>
-    <content><![CDATA[<p>以下内容仅供娱乐。记录一下自己现在的知识水平（最近的学习有些被动了，</p>
-<p>一、测试一个人的<strong>计算机综合水平</strong>，你只需要问：<br>尽可能仔细地描述按下笔记本开机键到亮屏、进入系统以及进入系统之后的30s，电脑内部发生的事情。<br>给他足够的时间。你听他提到了哪些术语(grub, fstab, kernel….)，中间会不会分类讨论展开讲比如按下xxx按键可以进入xxx模式，大概就知道他懂得多深。</p>
-<p>二、测试一个人<strong>对前后端开发的理解</strong>有多深，你只需要问：<br>从手机屏幕点击微信图标到搜索联系人meipo，发送消息、接收消息。这些过程你的手机和服务器都做了什么。</p>
-<p>三、测试一个人<strong>计算机网络基础普及程度</strong>：<br>（这个我比较菜，我可能会考：DHCP联网的全过程。再考一些交叉问题：浏览器访问 github 全过程。</p>
-<p>四、linux 玩得六不六<br>（我也刚接触没多久），可能会问和包管理器相关的内容。再考考 LFS 的内容。再考一个怎么退出 vim（</p>
-<p>五、大模型与深度学习 &#x2F;&#x2F;这个我更没发言权，我还想起当时在北理工珠海校区被按地摩擦。。。</p>
-<ol>
-<li><p>我会问，大模型的幻觉现象。（其实我自己也不是很清楚</p>
-</li>
-<li><p>当前大模型有什么问题，是什么原因导致的。<br>我会说，当你给了多个关键词和一个需求时，大模型不太能判断这几个关键词和目标组成的逻辑网是否成立，是否会遇到阻碍。</p>
-</li>
-<li><p>偏工程性的话，我会问：阐述“在 deepseek.chat.com 发送一段文字，到浏览器出现AI的回复”这个一过程中，服务器和你的浏览器干了什么。</p>
-</li>
-</ol>
-]]></content>
-  </entry>
-  <entry>
-    <title>办公软件使用技巧</title>
-    <url>/2025/12/12/%E5%8A%9E%E5%85%AC%E8%BD%AF%E4%BB%B6%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/</url>
-    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>知道一些办公类软件可以事半功倍。如PDF阅读器，PS, 编辑器。</p>
-<h1 id="Adobe-Acrobat-PC"><a href="#Adobe-Acrobat-PC" class="headerlink" title="Adobe Acrobat PC"></a>Adobe Acrobat PC</h1><p>双击标签可以重命名 &#x2F;&#x2F;单击就是跳转<br>ctrl + A： 全选标签并删除</p>
+    <title>计网学习笔记</title>
+    <url>/2025/06/16/%E8%AE%A1%E7%BD%91%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>屎一样的笔记。</p>
+<blockquote>
+<p>我希望这辈子能挖到一个21世纪的网络漏洞。</p>
+</blockquote>
+<h1 id="DHCP服务器"><a href="#DHCP服务器" class="headerlink" title="DHCP服务器"></a>DHCP服务器</h1><p>为什么host广播用的<code>DHCPDISCOVER包</code>，能被DHCP服务器收到并处理，为什么<code>源IP</code>必须是<code>0.0.0.0</code> <code>目的IP</code>必须是<code>255.255.255.255</code>？</p>
+<h2 id="特殊IP地址"><a href="#特殊IP地址" class="headerlink" title="特殊IP地址"></a>特殊IP地址</h2><p>DHCPDISCOVER广播包会被<strong>同一网段上所有主机的IP协议栈</strong>接收，<strong>但只有运行着DHCP服务器软件并监听UDP端口67的主机</strong>才会在UDP&#x2F;应用层处理这个请求并做出响应。其他主机的UDP层会因为端口67未被使用而丢弃该数据报。0.0.0.0和255.255.255.255保证了广播能被发送并被所有IP栈接收，而端口67则确保了只有DHCP服务器应用会处理它。</p>
+<p>其他非DHCP主机不会运行67进程，自然也不会对<code>DHCPDISCOVER包</code>进行处理</p>
+<h1 id="“NIC-“-“网卡”"><a href="#“NIC-“-“网卡”" class="headerlink" title="“NIC “ “网卡”"></a>“NIC “ “网卡”</h1><p>链路层的主体部分是在网络适配器中实现的。网络适配器有时也称为网络接口卡</p>
+<h2 id="PCI-PCIe"><a href="#PCI-PCIe" class="headerlink" title="PCI &amp; PCIe"></a>PCI &amp; PCIe</h2><p>PCI Peripheral Component Interconnect  </p>
+<ul>
+<li>传统总线协议</li>
+<li>PCIe Peripheral Component Interconnect Express </li>
+<li>快速外设组件互连高速串行标准</li>
+<li>Express有快速、高速传输的含义</li>
+<li>两个都是总线协议。 由于对总线传输速度的需求增大，PCI被速度更快的PCIe替代。</li>
+</ul>
+<p>以前经常问的问题：DHCP服务器</p>
+<p>说说我脑中的DHCP Server</p>
 ]]></content>
       <categories>
-        <category>教程</category>
+        <category>复习笔记</category>
       </categories>
       <tags>
-        <tag>软件</tag>
+        <tag>计网</tag>
       </tags>
   </entry>
   <entry>
-    <title>期末复习技巧</title>
-    <url>/2025/12/12/%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0%E6%8A%80%E5%B7%A7/</url>
-    <content><![CDATA[<h1 id="CoT"><a href="#CoT" class="headerlink" title="CoT:"></a>CoT:</h1><h2 id="有考题的科目"><a href="#有考题的科目" class="headerlink" title="有考题的科目"></a>有考题的科目</h2><p>先静下心看考题。判断出核心考点</p>
-<h2 id="没有考题的科目"><a href="#没有考题的科目" class="headerlink" title="没有考题的科目"></a>没有考题的科目</h2><p>以不变应万变。 我们突击都是从问题出发复习。先搞懂每个主题最核心的问题。总不可能一节课学了100个核心算法吧。</p>
-<p>利用两个显示屏：都是 landscape—水平放置</p>
-<ol>
-<li>复习 WSN （没有考题）的状态：</li>
-</ol>
-<ul>
-<li>副屏: <ul>
-<li>豆包及内置浏览器浏览器查网页、查单词，看思维导图</li>
-</ul>
-</li>
-<li>主屏: <ul>
-<li>adobe: PDF课件 &#x2F;&#x2F; 一页页过；做笔记、commet，highligh</li>
-<li>obsidian 草稿本，进一步整理笔记（术语、考题）</li>
-</ul>
-</li>
-</ul>
-<ol start="2">
-<li><p>若复习有考题的学科，如 DC<br>副屏不变，主屏开一个 Chrome, 把考题 Pdf 专门放浏览器看</p>
-</li>
-<li><p>如果课件是 PPT 不是 pdf<br>那就把主屏的 adobe 改成 powerpoint</p>
-</li>
-</ol>
+    <title>论持久战</title>
+    <url>/2025/03/21/%E8%AE%BA%E6%8C%81%E4%B9%85%E6%88%98/</url>
+    <content><![CDATA[<p>从午休后到晚上10点，我全身心投入在模拟通信系统的调制技术的学习中。这是一次伟大的学习过程，因为我学会了“持久”。 我喜欢学习，但我的学习方法不算高效，或者说，在此之前，我没有一个通用的“学习思维”。 我能学好某些知识，归功于我擅长找好的教材、课程，从优质资源中汲取知识。但这只是途径问题，找好的教材是学习的第一步，属于“捷径方法论”。而现在要讨论的是：利用资源和规划时间。因为这一块工作没有做好，会让你在一个领域的开始阶段举步维艰，被那些“懂学习”的人拉开差距。我反思，为什么我作为一个CS专业的学生，到大三了才进入程序设计的全盛、兴趣爆棚的学习状态。慢热，真的好吗？</p>
+<p>拿通信原理这门课来说。要了解通信系统的运作需要很多前置知识：信息论——通信工程里讨论的bit和CS里常说的bit可不是一个概念；还有对通信系统的建模，对信道简单建模。总之，这门课的“原始积累、老本”几乎是0。而学校的教材、课程对于入门小白来说是很难摸得着头脑的。看讲义、课件时，突然蹦出一个你从未见过的公式、符号是很令人头疼的。</p>
+<p>以前，我在学新东西的时候总希望眼前的一切在脑中make sense, 好像有了某般instinct就等同于学会了，可以接下去学了。而要是没有那道“电弧”、通透的感觉，就是没学会。这还不够，不懂学习方法的我还会发脾气：这教材真差劲，不学了！老师讲得真烂，简直就是天书、不听了！于是连续3~4词旷课，等火烧眉毛了再咬着牙学。还有一类情况是，遇到了以前的知识，比方说研究调制信号的spetrum时用到了一点傅里叶变换。一些死扣牛角尖的想法就是，“哎呀，上学期信号与系统里教的傅里叶变换又忘了、我肯定学不下去了，连基础都没有，干脆等几天再学吧，先复习复习傅里叶变换”。可实际上，并没有行动，因为这个想法太空了，复习哪些部分？傅里叶变换那么多性质，真要复习全，三天三夜差不多。有时，你只是脑子里蹦出了知识图谱的一个小标签，就恐吓自己、转移自己的视线。从阿德勒的目的论来看，一切都目的就是不想接触新概念，因为你知道培养自己形成新的概念离不开痛苦、离不开旧思想的碰撞，进而想通过给自己设障达到偷懒、逃避的目的。</p>
+<p>我相信，有不少人也是和我有类似毛病的。只不过我这块特别严重。</p>
+<p>说说我现在的状态。</p>
+<p>上新课听到不懂的不再深究。一方面，你是初学者，你不可能短时间体会这个符号从过去被科学家发明出来，因为什么英文含义被写成这样，你也不可能短时间从只言片语体会到这个公式的来历，你需要练习，研究电路，物理意义你需要看更多的书来联想到更多的知识。另一方面，你真的需要在这个时间点知道那么多吗？正确的做法是，短暂思考后标注问题，问问自己前后的东西能不能自洽，换句话说，书上有没有硬刷错误。对你没看错，我的意思就是，有没有数学上，或者和过去的印象是否匹配。你只需要验证，告诉自己：</p>
+<p>“这大概是对的——这一项加这一项系数没问题，合并同类项等基本运算正确，可能我不知道为什么这么算，但我先接着听。”</p>
+<p>“傅里叶变换我有些不熟悉了……哎不管了，先记着cos(t)转到频域上是两根棍，好像没啥毛病。具体什么含义、为什么做傅里叶变换……老师也没讲、他也不一定讲的清。那我继续看。”</p>
+<p>出现什么新符号、新推演就告诉自己“哦，这有个新符号啊，它叫做……虽然我不知道为什么叫这个抽象玩意儿。”“为什么在通信系统里，做完A operation，就做B。老师说这个方法的优点是……，那就是吧，管他呢”。</p>
+<p>和老师、书本过进度，揭开这个系统的面纱。总之，你要学会减轻自己的思维负担。遇到不懂的东西，立刻告诉自己：“问题不大，没啥大不了的。”难道不是吗？生活中，哪有那么多事儿?</p>
+<p>我相信，好的资料为你拓宽视野，给你一个很好的认知基础，知道学习的路线。很多时候，这足够支撑你“无痛、轻微疼痛”即可入门一个领域。而有些时候，问题稍微复杂了些，每一步都带来很多未知面。这个时候就换一个思维，不要硬刚而是缓下来，换成“持久、不内耗、果断清晰”的思维。我认为，这是一个高效学习者的能力。</p>
 ]]></content>
       <categories>
-        <category>学习方法</category>
+        <category>生活感悟</category>
       </categories>
       <tags>
-        <tag>期末图集</tag>
+        <tag>学习方法</tag>
       </tags>
   </entry>
   <entry>
-    <title>烹饪小知识</title>
-    <url>/2026/04/28/%E5%81%9A%E9%A5%AD%E6%8A%80%E5%B7%A7-%E5%B8%B8%E8%AF%86/</url>
-    <content><![CDATA[<p>想整理一些新手小白下厨房的一些前置知识；<br>从配菜的烹饪到高效规律饮食方案</p>
-<h1 id="趣味知识"><a href="#趣味知识" class="headerlink" title="趣味知识"></a>趣味知识</h1><h2 id="为什么叫刺身"><a href="#为什么叫刺身" class="headerlink" title="为什么叫刺身"></a>为什么叫刺身</h2><p>首先刺身本质上是生食鱼虾贝类。早在我国战国时期就有。唐朝兴盛。<br>刺身这一表述来源日本。因为打回来很多种鱼，为了方便食客辨认，</p>
-<p>煲汤的时候，大火把水烧沸，永远不要在开大火的时候盖盖子！会冒出来，然后汤溢出来，灶台上、灶台下面、燃气灶的网，非常非常乱！</p>
-<h2 id="鸡精的使用-调味料"><a href="#鸡精的使用-调味料" class="headerlink" title="鸡精的使用 &amp; 调味料"></a>鸡精的使用 &amp; 调味料</h2><p>鸡精要后放！高温下鸡精味道散得快。最后起锅、关了火放。搅拌搅拌~<br>炒菜放调味料（鸡精、各种香味粉、酱油、蚝油）是很明智的。他们鲜味足而钠含量比盐低。这对健康很好。盐和调味料辅佐既能做出更好吃的菜而且保证健康~</p>
-<h2 id="撇浮沫"><a href="#撇浮沫" class="headerlink" title="撇浮沫"></a>撇浮沫</h2><p>新鲜的肉（冰箱冷藏、短暂冷冻) 不建议焯水！浮沫可撇可不撇。无毒。<br>浮沫本质是：血红蛋白、脂肪、组织液。之所以看着那个（恶心）颜色，是因为血红蛋白氧化。</p>
-<p>为什么肉类不建议长期冷冻。因为氧化了啊。所以冷冻要密封！</p>
-<h1 id="食材知识"><a href="#食材知识" class="headerlink" title="食材知识"></a>食材知识</h1><h2 id="避雷酱料"><a href="#避雷酱料" class="headerlink" title="避雷酱料"></a>避雷酱料</h2><p>没有兑水的花生酱、芝麻酱，很少会吃。热量高。实用性不如炼乳<br>韩式辣酱。使用场景很好。</p>
-<h2 id="超级食材"><a href="#超级食材" class="headerlink" title="超级食材"></a>超级食材</h2><p>鸡肝。3块钱一斤，<br>100g蛋白质含量跟鸡心一样多。脂肪含量远低于鸡心。但是胆固醇偏高。</p>
-<h2 id="芋头"><a href="#芋头" class="headerlink" title="芋头"></a>芋头</h2><ul>
-<li>荔浦芋头很贵。</li>
-<li>小圆芋可以煮着吃</li>
-</ul>
-<h2 id="豆腐"><a href="#豆腐" class="headerlink" title="豆腐"></a>豆腐</h2><h2 id="牛肉部位科普"><a href="#牛肉部位科普" class="headerlink" title="牛肉部位科普"></a>牛肉部位科普</h2><p><a href="https://www.bilibili.com/video/BV1YXm4BUEeX/">牛的 35 个部位</a></p>
-<h2 id="猪肉部位科普–你需要知道的肉摊知识"><a href="#猪肉部位科普–你需要知道的肉摊知识" class="headerlink" title="猪肉部位科普–你需要知道的肉摊知识"></a>猪肉部位科普–你需要知道的肉摊知识</h2><p>主要有三类南豆腐、北豆腐、内酯豆腐<br>南豆腐也叫嫩豆腐，适合做汤、麻婆豆腐。<br>北豆腐就是老豆腐，蛋白质含量高。适合炖着吃、红烧。适合做饺子馅<br>内酯豆腐：最嫩，可以生吃，拌葱吃</p>
-<h2 id="香干、酱干"><a href="#香干、酱干" class="headerlink" title="香干、酱干"></a>香干、酱干</h2><h2 id="三文鱼"><a href="#三文鱼" class="headerlink" title="三文鱼"></a>三文鱼</h2><p>三文鱼是我国对大西洋鲑等鲑鱼的统称。<br>我们常吃的大西洋鲑的特征：橙红色的肉，有白色的脂肪线。</p>
-<h2 id="香椿"><a href="#香椿" class="headerlink" title="香椿"></a>香椿</h2><p>你买到的香椿都是一捆捆的<br>现切掉根部，再煮</p>
-<h2 id="西葫芦："><a href="#西葫芦：" class="headerlink" title="西葫芦："></a>西葫芦：</h2><p>水分很多。超之前可以拿盐演出水分。也可以提前炒一炒。炒去一些水分。<br>如果切片冷冻过，那解冻以后要挤干水分再拿去炒菜。不然会有一锅水。冻过以后的西葫芦更多的是脆。</p>
-<p>牛肉小炒菜做法：<br>牛肉适合和什么蔬菜做小炒菜</p>
-<p>橄榄油可以怎么用？<br>橄榄油可以用来炒鸡肉</p>
-<p>榨菜？<br>洋葱：</p>
-<ul>
-<li>咖喱鸡更适合用白洋葱，好看。</li>
-<li>紫洋葱可以用来炒牛羊肉、烤肉。</li>
-</ul>
-<h2 id="挑选蔬菜："><a href="#挑选蔬菜：" class="headerlink" title="挑选蔬菜："></a>挑选蔬菜：</h2><p>干香菇：调花纹多的</p>
-<h2 id="火锅涮菜时间"><a href="#火锅涮菜时间" class="headerlink" title="火锅涮菜时间"></a>火锅涮菜时间</h2><p>吊龙 15s<br>毛肚 10-15s<br>肥牛 午餐肉 20s<br>鱼丸、牛肉丸子  5min<br>鸭血、鹌鹑蛋 10min<br>冬瓜、笋 2min<br>山药 藕片 土豆片 3min<br>娃娃菜</p>
-<h1 id="杂"><a href="#杂" class="headerlink" title="杂"></a>杂</h1><ul>
-<li>滚刀法：滚的不是刀的部分，而是食物的部分</li>
-<li>腌肉和去腥</li>
-<li>面粉：高筋、中筋、低筋指的是蛋白质含量对应着“劲道”程度</li>
-</ul>
-<h3 id="汤"><a href="#汤" class="headerlink" title="汤"></a>汤</h3><p>煮汤先放盐，汤会更清澈。如果怕咸，也要先放一部分，后面再补盐。<br>大火煮更快熟风味更浓，汤会变白。小火则更清澈。</p>
-<ul>
-<li><a href="https://www.bilibili.com/video/BV1tTLDzyEsY/">炖汤先加盐，还是后加盐？一个简单的问题又费我大半个月的劲儿。</a></li>
-<li><a href="https://www.bilibili.com/video/BV1R3odYwEbG/">烹饪基础问题：大火与小火。都是100度了，那不都一样吗？</a></li>
-</ul>
-<h2 id="鲜味调味品"><a href="#鲜味调味品" class="headerlink" title="鲜味调味品"></a>鲜味调味品</h2><p><a href="https://www.bilibili.com/video/BV1b9wjeZEMS/">味大，无需多盐。鲜味调味品综述</a></p>
-<h3 id="买菜妙招"><a href="#买菜妙招" class="headerlink" title="买菜妙招"></a>买菜妙招</h3><p>买菜是一场博弈，不要光看着铺子有什么。因为很多新鲜、刚到的菜老板还没有摆出来。<br>跟老板说你想要什么菜。比方说，有没有红点的西红柿，我我看别人家的好红，之类的话。<br>偶尔老板也会说，新到了 xxx 菜，给你拿点。但概率不大，她也很忙没空招呼你。</p>
-<h3 id="煮饭："><a href="#煮饭：" class="headerlink" title="煮饭："></a>煮饭：</h3><p>强烈建议每个人厨师都有一个称。按照人口数量煮饭！我和爸爸吃80g，妈妈吃70g。230g生米</p>
-<ul>
-<li>煮杂粮米建议提前用水泡 5-10min再开电饭煲煮饭。不然煮出来很硬。很干。口感不好</li>
-<li>白米饭水放到位了就行，不需要提前泡发。<br>  白米饭吸水率：<br>  杂粮米吸水率：</li>
-</ul>
-<h3 id="冰箱常客"><a href="#冰箱常客" class="headerlink" title="冰箱常客"></a>冰箱常客</h3><h4 id="新鲜蔬菜："><a href="#新鲜蔬菜：" class="headerlink" title="新鲜蔬菜："></a>新鲜蔬菜：</h4><ul>
-<li>红辣椒（美人椒、甜椒）、青辣椒（杭椒、线椒）&#x2F;&#x2F;做配菜用，素炒藕、豆角这些菜放一些很好看</li>
-<li>韭菜；蒜苗</li>
-</ul>
-<h4 id="腌菜："><a href="#腌菜：" class="headerlink" title="腌菜："></a>腌菜：</h4><p>橄榄菜<br>泡小米辣（提供酸辣味）<br>酸豆角、萝卜干</p>
-<h3 id="去虾线"><a href="#去虾线" class="headerlink" title="去虾线"></a>去虾线</h3><p>这里科普一下虾有哪些部位<br>Step1: 给活虾去除活性：冷冻 5-10min。</p>
-<h4 id="方法一：徒手"><a href="#方法一：徒手" class="headerlink" title="方法一：徒手"></a>方法一：徒手</h4><p>弯折虾头虾身，挤压虾头：挤出虾包（胃、脏器），抽出虾线（肠、含代谢物）<br>注：腹部的黑线是“虾筋”，虾的腹部动脉。不需要处理</p>
-<h4 id="方法二：-用剪刀"><a href="#方法二：-用剪刀" class="headerlink" title="方法二： 用剪刀"></a>方法二： 用剪刀</h4><p>剪掉虾头部的尖枪。用剪刀挑出胃袋 <a href="https://www.bilibili.com/video/BV1d8411R7Bc?trackid=web_related_0.router-related-2206146-vhnjg.1763557507591.893">link</a><br>用剪刀剪开虾背，挑虾线</p>
-<p>尾部的虾线去不干净：<br>挤压虾尾，把奥里给挤出来<br>把虾尾中间的叶子拔掉，带出虾肠</p>
-<h3 id="洗内脏的方法："><a href="#洗内脏的方法：" class="headerlink" title="洗内脏的方法："></a>洗内脏的方法：</h3><h4 id="适用于：大肠、猪肚、鸡胗"><a href="#适用于：大肠、猪肚、鸡胗" class="headerlink" title="适用于：大肠、猪肚、鸡胗"></a>适用于：大肠、猪肚、鸡胗</h4><p>剪刀剪去猪肚里的肥油。<br>多加面粉、盐、白醋。想象是搓衣服——把粘液搓干净，</p>
-<h4 id="猪肝"><a href="#猪肝" class="headerlink" title="猪肝"></a>猪肝</h4><p>切片后洗<br>加淀粉，黄酒（淀粉可以用面粉代替，黄酒可以用啤酒、料酒代替<br>搓出血水<br>不断用清水冲洗，直到清澈</p>
-<p>烹饪猪肝要严格控水。洗完猪肝要沥干水分+用手攥干+用厨房纸吸水<br>腌制：盐、胡椒粉、蚝油、淀粉；最后用食用油拌一下更嫩滑</p>
-<p>两根大葱斜着切。葱白葱绿下锅时间不同，分开摆放<br>碗汁：盐、白胡椒、味精、<strong>黄酒</strong>、<strong>米醋</strong>、少许玉米淀粉拌匀</p>
-<h3 id="蒸菜垫"><a href="#蒸菜垫" class="headerlink" title="蒸菜垫"></a>蒸菜垫</h3><p>家里没微波炉，可用电磁炉炒热，也可以买个<strong>蒸垫（如果只有炒锅，建议买矮一点的蒸垫）</strong>。 &#x2F;&#x2F;<strong>蒸菜不需要洗锅、铲~ 美滋滋</strong></p>
-<h3 id="别忘记煮饭"><a href="#别忘记煮饭" class="headerlink" title="别忘记煮饭"></a>别忘记煮饭</h3><p>在备菜阶段就把饭煮了</p>
-<h3 id="解冻肉类"><a href="#解冻肉类" class="headerlink" title="解冻肉类"></a>解冻肉类</h3><p>解冻肉类：吃完晚饭大概8点，就放冷藏。用一个盘子拖着，防止水漏一冰箱</p>
-<h3 id="切洋葱如何不辣眼睛"><a href="#切洋葱如何不辣眼睛" class="headerlink" title="切洋葱如何不辣眼睛"></a>切洋葱如何不辣眼睛</h3><p>刀沾水，<strong>嘴巴里含水（实测有效）。</strong></p>
-<h3 id="用盛饭的碗试喝"><a href="#用盛饭的碗试喝" class="headerlink" title="用盛饭的碗试喝"></a>用盛饭的碗试喝</h3><p>做平菇蛋汤，从锅里捞一铲就放嘴里，嘴巴被烫出泡了，好几天没消——以后试喝汤有没有盐，<strong>用一个勺盛出来喝</strong>。</p>
-<h3 id="鸡肉腥味来源与解决"><a href="#鸡肉腥味来源与解决" class="headerlink" title="鸡肉腥味来源与解决"></a>鸡肉腥味来源与解决</h3><h4 id="去除肉腥味："><a href="#去除肉腥味：" class="headerlink" title="去除肉腥味："></a>去除肉腥味：</h4><ul>
-<li>用清水浸泡。 <strong>一定不能用自来水！！！有细菌</strong></li>
-</ul>
-<h3 id="洗锅"><a href="#洗锅" class="headerlink" title="洗锅"></a>洗锅</h3><p>如果煮面条粘锅了，和煮米饭粘锅一个道理。你就拿水泡就行。面粉淀粉泡水以后很容易铲下来。</p>
-<h1 id="食材保鲜计划"><a href="#食材保鲜计划" class="headerlink" title="食材保鲜计划"></a>食材保鲜计划</h1><h2 id="蔬菜篇"><a href="#蔬菜篇" class="headerlink" title="蔬菜篇"></a>蔬菜篇</h2><p>冷冻的香葱、香菜——特别好用<br>豌豆、玉米粒、胡萝卜丁——同样的，煮熟加点盐和油。<br>胡萝卜丁别煮的太软了，最好中间带一点生硬度<br>大葱：洗净、切段。不需要焯水。</p>
-<h2 id="生肉"><a href="#生肉" class="headerlink" title="生肉"></a>生肉</h2><p>一次处理半斤配肉，分两餐吃掉。省第二天的时间和生姜水<br>然后再试着加2两半</p>
-<h2 id="熟食"><a href="#熟食" class="headerlink" title="熟食"></a>熟食</h2><p>盖一个保鲜膜放冰箱</p>
-<h2 id="冷藏猪油"><a href="#冷藏猪油" class="headerlink" title="冷藏猪油"></a>冷藏猪油</h2><p>在有了保险盒，这个想法变得简单</p>
-<h1 id="通用烹饪技巧-意识"><a href="#通用烹饪技巧-意识" class="headerlink" title="通用烹饪技巧&amp;意识"></a>通用烹饪技巧&amp;意识</h1><h2 id="你的配菜、佐料朋友"><a href="#你的配菜、佐料朋友" class="headerlink" title="你的配菜、佐料朋友"></a>你的配菜、佐料朋友</h2><p>干辣椒用剪刀剪成细丝可以很好的去除辣椒籽</p>
-<h3 id="屡试不爽的佐料"><a href="#屡试不爽的佐料" class="headerlink" title="屡试不爽的佐料"></a>屡试不爽的佐料</h3><h3 id="用五颜六色的配菜换一换工厂调味料"><a href="#用五颜六色的配菜换一换工厂调味料" class="headerlink" title="用五颜六色的配菜换一换工厂调味料"></a>用五颜六色的配菜换一换工厂调味料</h3><h3 id="煮面条"><a href="#煮面条" class="headerlink" title="煮面条"></a>煮面条</h3><p>煮熟了以后要保存：<br>捞出来放点油搅拌匀</p>
-<h2 id="油-混着用"><a href="#油-混着用" class="headerlink" title="油 &amp; 混着用"></a>油 &amp; 混着用</h2><p>菜籽油+猪油，炒出的菜更香。炒肉、炒肝脏都可以</p>
-<h2 id="不锁水就缩水"><a href="#不锁水就缩水" class="headerlink" title="不锁水就缩水"></a>不锁水就缩水</h2><p>煎带鱼没有用淀粉保护，全散掉了。肉也严重缩水，导致不够吃。</p>
-<h2 id="腌肉"><a href="#腌肉" class="headerlink" title="腌肉"></a>腌肉</h2><p>先腌，后加淀粉抓拌</p>
-<h2 id="油温"><a href="#油温" class="headerlink" title="油温"></a>油温</h2><h3 id="一、油温-“层热”-的通用划分（家用炒锅参考）"><a href="#一、油温-“层热”-的通用划分（家用炒锅参考）" class="headerlink" title="一、油温 “层热” 的通用划分（家用炒锅参考）"></a>一、油温 “层热” 的通用划分（家用炒锅参考）</h3><table>
-<thead>
-<tr>
-<th>层数</th>
-<th>温度范围</th>
-<th>直观判断特征</th>
-<th>核心用途</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>一二层热</td>
-<td>60℃-90℃</td>
-<td>锅壁微微发热，油面平静无波纹，无油烟</td>
-<td>滑锅、腌制食材打底、熬葱油 &#x2F; 酱汁</td>
-</tr>
-<tr>
-<td>三四层热</td>
-<td>100℃-140℃</td>
-<td>油面开始轻微波动，有细小气泡缓慢上升，靠近能闻到油香，无明显油烟；插入筷子，筷子周围会冒出细密小气泡（不剧烈）</td>
-<td>滑炒、炸制半成品、煎制、爆香小料（如红葱头、蒜末）</td>
-</tr>
-<tr>
-<td>五六层热</td>
-<td>150℃-180℃</td>
-<td>油面明显翻滚，有大量气泡，油烟开始冒出；筷子插入会快速涌泡，食材下锅会立刻浮起并产生密集小泡</td>
-<td><strong>复炸</strong>、炸酥脆类食材（如花生米、油条）</td>
-</tr>
-<tr>
-<td>七八层热</td>
-<td>190℃以上</td>
-<td>油面剧烈沸腾，浓烟滚滚，油色变深</td>
-<td>紧急炝锅（极少用，易糊锅、产生有害物质）</td>
-</tr>
-</tbody></table>
-<h2 id="跟着美食强老师学到的放料技巧"><a href="#跟着美食强老师学到的放料技巧" class="headerlink" title="跟着美食强老师学到的放料技巧"></a>跟着美食强老师学到的放料技巧</h2><p>炒五花肉（炼猪油）+香料；</p>
-<ol>
-<li>生姜 &amp; 五花肉 —— 大火</li>
-<li>干辣椒、大蒜、小米辣 —— 中小火</li>
-<li>料酒 &amp; 生抽 &#x2F;&#x2F;倒入诸油锅</li>
-<li>全部翻炒了1min, 再放盐、糖、鸡精  &#x2F;&#x2F; 粉状调料也不会急着放，不知道为何</li>
-<li>锅边醋 &#x2F;&#x2F;醋不会很早放<br>&#x2F;&#x2F; 不知道这样子能不能去腥味</li>
-</ol>
-<h2 id="炸蒜头油"><a href="#炸蒜头油" class="headerlink" title="炸蒜头油"></a>炸蒜头油</h2><p>注：蒜头油，指的就是炸完大蒜籽的油。用来做菜很好吃。炸好了可以冷藏保存2周<br>原料：大蒜子；菜籽油&#x2F;花生油<br>大蒜子切碎。可以那盐腌一下去腥。&#x2F;&#x2F;有人会用水泡，再沥干。<br>火候是关键。目标是把蒜末炸制金黄。可以分离储存蒜酥和蒜头油，也可以一起储存。&#x2F;&#x2F;要学会转小火，用油的余温继续炸制。</p>
-<p>包括了煎虾油、牛腩的预处理、调味</p>
-<h2 id="肉馅"><a href="#肉馅" class="headerlink" title="肉馅"></a>肉馅</h2><p>难点在于让肉馅有粘性。好出形状<br>一斤肉配2两葱姜水，放一点玉米淀粉（不可以多放，影响口感）<br>用大碗顺着一个方向搅拌</p>
-<h2 id="煎虾油"><a href="#煎虾油" class="headerlink" title="煎虾油"></a>煎虾油</h2><ul>
-<li>用于煲粥、煮汤</li>
-<li>头部的处理——剪掉尖刺。去掉虾胃。</li>
-</ul>
-<h2 id="牛腩焯水"><a href="#牛腩焯水" class="headerlink" title="牛腩焯水"></a>牛腩焯水</h2><h2 id="炒糖色诀窍"><a href="#炒糖色诀窍" class="headerlink" title="炒糖色诀窍"></a>炒糖色诀窍</h2><p>怎样避免炒出来发苦。</p>
-<h2 id="爆香"><a href="#爆香" class="headerlink" title="爆香"></a>爆香</h2><h3 id="爆香干辣椒时的注意事项"><a href="#爆香干辣椒时的注意事项" class="headerlink" title="爆香干辣椒时的注意事项"></a>爆香干辣椒时的注意事项</h3><h3 id="八角桂皮香叶-vs-十三香"><a href="#八角桂皮香叶-vs-十三香" class="headerlink" title="八角桂皮香叶 vs 十三香"></a>八角桂皮香叶 vs 十三香</h3><h3 id="姜蒜先爆香再炒肉还是先煎肉再放姜蒜增香？区别在哪？"><a href="#姜蒜先爆香再炒肉还是先煎肉再放姜蒜增香？区别在哪？" class="headerlink" title="姜蒜先爆香再炒肉还是先煎肉再放姜蒜增香？区别在哪？"></a>姜蒜先爆香再炒肉还是先煎肉再放姜蒜增香？区别在哪？</h3><h3 id="十三香"><a href="#十三香" class="headerlink" title="十三香"></a>十三香</h3><p>里面没盐</p>
-<h1 id="厨具"><a href="#厨具" class="headerlink" title="厨具"></a>厨具</h1><h2 id="磨刀"><a href="#磨刀" class="headerlink" title="磨刀"></a>磨刀</h2><h2 id="煮锅"><a href="#煮锅" class="headerlink" title="煮锅"></a>煮锅</h2><p><strong>煮面条、米粉这样有淀粉的最好用不粘锅</strong>。不要用铁盆，除非你愿意守在旁边一直搅拌。而且搅拌得很到位才行！我曾有两次使用铁盆煮面条、粉丝。结果都把盆底的粉丝烧糊了。黑色的糊是淀粉高温碳化形成的。非常难去除。要用钢丝球这类硬刷才可以去除，丝瓜烙、海绵都不行。用醋泡也不行<br>个人感觉铁盆传热效率比不粘锅要好。所以会<strong>用铁盆烧洗脚水、煮鸡蛋。</strong></p>
-<h3 id="鸡腿去骨"><a href="#鸡腿去骨" class="headerlink" title="鸡腿去骨"></a>鸡腿去骨</h3><p>用剪刀剪</p>
-<h3 id="切肉丝"><a href="#切肉丝" class="headerlink" title="切肉丝"></a>切肉丝</h3><p>嫩肉没有着力点，可以放冷冻，冻到半硬不硬的状态<br>先片成片，再切丝</p>
+    <title>Books Recommandation</title>
+    <url>/2025/03/25/%E9%98%85%E8%AF%BB%E6%8E%A8%E8%8D%90/</url>
+    <content><![CDATA[<p>这是一个来自IoT专业理工男整理的书单。我从读大学之后开始热爱读书、算是对各类书籍都感兴趣。在这之前，很少阅读课外书籍。这份清单涵盖了我阅读过的并且其中的某些片段为我留下了深刻印象、并对我的学习生活、个人修养产生过积极影响的书籍（真的，读书很神奇，你会因为梳理的内容做出很多改变，哪怕有些只有一个月。<br>AI时代获取信息变得容易，但是读书依然不可替代。<br>我为每本书留下了一些摘抄或者感想，可以当作这本书的精彩部分。 之后会有专门的分区记录每一本书的读后感。</p>
+<h1 id="高端科普、社会知识类"><a href="#高端科普、社会知识类" class="headerlink" title="高端科普、社会知识类"></a>高端科普、社会知识类</h1><p>通过读大师的作品，品味伟大的成就，从精品里学习，开阔了你的视野。从精粹中学到的思维方式让你在成事、看热点问题、社会上的宏观问题带来更新颖的思维方式。<br>阅读这类作品，需要结合自身经历思考、留记录</p>
+<h2 id="科学中国人系列杂志"><a href="#科学中国人系列杂志" class="headerlink" title="科学中国人系列杂志"></a>科学中国人系列杂志</h2><p>我的阅读背景：<br>我于2025.3月（大三下），在图书馆的杂志区，接触科学中国人。 这一段时间，我焦虑于保研专业的选择，人工智能革命浪潮加上种种AI的炒作下，好像计算机专业的不去研究AI以后就找不到工作、或者没有实在的薪水。有时在一些众说纷纭的媒体听闻：26岁的某某某在大厂担任AI领军任务；没天赋别碰AI、别取卷算法，种种之类。其实，在我尝试学习Andrej Karpathy的课程后我就对AI有研究自信，但没太火热的兴趣。 我也接受以后不主攻AI。但心里总希望有些支撑我的观点。草草读完，我豁然开朗，研究不分高低贵贱，不要带着功利选择视野；何必走计算机？计算机外也有很多有价值的科研天地；不要基于未经审核的只言片语规划未来。<br>作品评价：中国科学主管，在我国高级知识分子群体（两院院士）有着良好声誉<br>定位：中国科教界热点、大牛人物（科学家、科技型企业家、教学科研单位高层管理人员）故事，最新科研动态<br>每一期都会挑出几位顶级的科学家介绍他们的经历。还会用简短的文字科普新兴的技术。最后一页有精美的图片或者推荐的阅读资料。<br>通过阅读这套杂志，你可以清楚地感受到中国顶流的科研水平，各大高校的成果，你会对研究生、博士生、教授的工作有更清楚的认识。这本书不会介绍基础知识，和你的本科课本不同。但是一定能打开你的视野，给想走科研道路的自己更详细的学业、职业生涯规划。<br>如果你还在纠结留学还是国内读研、不清楚这个世界上有哪些有价值的研究以及想了解我国的科研能力到底什么水平，强烈推荐你看看这套书籍。如果你还未高中毕业，想规划自己未来的研究道路，相信有一定科学基础的你也能从这本书中看到未来的事业。</p>
+<h2 id="脉络-吴军"><a href="#脉络-吴军" class="headerlink" title="脉络  吴军"></a>脉络  吴军</h2><p>大三上学期（国庆假期）<br>历史、社会、未来</p>
+<h2 id="浪潮之巅-吴军"><a href="#浪潮之巅-吴军" class="headerlink" title="浪潮之巅 吴军"></a>浪潮之巅 吴军</h2><p>还没读完，但绝对值得一读。</p>
+<h2 id="黑客与画家-保罗·格雷厄姆（YCombinator创始人）"><a href="#黑客与画家-保罗·格雷厄姆（YCombinator创始人）" class="headerlink" title="黑客与画家  保罗·格雷厄姆（YCombinator创始人）"></a>黑客与画家  保罗·格雷厄姆（YCombinator创始人）</h2><p>阮一峰大佬翻译<br>全书分为三部分<br>本书是保罗整理的“散文集”。包含了他对IT行业&#x2F;创业的思考</p>
+<h2 id="Just-For-Fun-只是为了好玩（Linus-Trovalds）"><a href="#Just-For-Fun-只是为了好玩（Linus-Trovalds）" class="headerlink" title="Just For Fun 只是为了好玩（Linus Trovalds）"></a>Just For Fun 只是为了好玩（Linus Trovalds）</h2><p>本书是Linus的个人传记。非常非常有趣。值得你的空闲时间。</p>
+<h1 id="中外小说、散文"><a href="#中外小说、散文" class="headerlink" title="中外小说、散文"></a>中外小说、散文</h1><p>阅读，可以是一种放松的过程。本节记录书本概述&amp;我喜欢的句子。</p>
+<h2 id="读是一种幸福-梁晓声"><a href="#读是一种幸福-梁晓声" class="headerlink" title="读是一种幸福 梁晓声"></a>读是一种幸福 梁晓声</h2><p>这是梁晓声先生的散文集，是我第一次读到的作品。我喜欢他的文章，那有血有肉的文字读起来没有压力，总是让我感动。<br>记录了他儿时那个年代的故事。有文革背景下的人物。有和他的哥哥、母亲的故事，还有他当父亲有趣的亲子经历。<br>后来，我知道他的代表作，《人世间》超长篇小说；第一次追剧也是这部小说改，剧中的人物正是他的家庭生活的缩影。</p>
+<h2 id="夜火车-徐则臣"><a href="#夜火车-徐则臣" class="headerlink" title="夜火车  徐则臣"></a>夜火车  徐则臣</h2><p>感谢善良勇敢的木年、孝顺有爱的新治；让我在大学这个浮躁的小社会收获滋养，做一个踏实善良的人。</p>
+<blockquote>
+</blockquote>
+<h2 id="海边的卡夫卡-村上春树"><a href="#海边的卡夫卡-村上春树" class="headerlink" title="海边的卡夫卡  村上春树"></a>海边的卡夫卡  村上春树</h2><p>小说的开篇就很有意思，16岁自律男生的独自生存。故事中的情节不断点燃我的探险激情。我也想走出校园，看看这个世界！于是，就有了大二暑假河北秦皇岛的独自旅行。</p>
+<blockquote>
+<p>这往下你必须成为世界上最顽强的十五岁少年，不管怎么样。因为除此之外这世界上没有你赖以存活之路，为此你自己一定要理解真正的顽强是怎么回事。</p>
+<p>如果有意，我可以除掉父亲（以我现在的力气，决非什么难事），也可从记忆中将母亲抹消。可是我无法将两人的遗传因子从身上驱逐干净。如果我想驱逐，只能驱逐我自身。<br>我们大家都在持续失去种种宝贵的东西，这是生存的一个意义。</p>
+</blockquote>
+<h2 id="潮骚-三岛由纪夫"><a href="#潮骚-三岛由纪夫" class="headerlink" title="潮骚 三岛由纪夫"></a>潮骚 三岛由纪夫</h2><p>我欣赏三岛由纪夫那细致的人物刻画能力。用精细的语言雕刻人物的动作、心理、神态。每次重读他的作品，我都会感叹，怎么能有如此强大的表述能力。</p>
+<blockquote>
+<p><em>摘抄</em><br>年轻人感到包围着他的丰饶的大自然与他自身，是一种无上的调和。他觉得自己的深呼吸，是仿造大自然的肉眼看不见的东西的一部分，它深深渗透到年轻人的体内深处。他所听见的潮骚，仿佛是海的巨大的潮流，与他体内沸腾的热血的潮流调和起来了。新治平日并不特别需要音乐，但大自然本身一定充满着音乐的需要。</p>
+<p>新治的身边是广袤的大海，但他并不憧憬纵横四海的虚幻梦想。对渔夫来说，海的概念与农民拥有的土地相近。海是生活的场所，是庄稼地，形状不定的白色穗波代替了稻穗和麦浪在敏感的湛蓝色软土上不停摇摆着。 尽管如此，年轻人结束了这天的捕捞工作，望着白色货轮行驶在水平线上的晚霞前，心里却怀着不可思议的感动。世界张开了在过去难以想象的巨大怀抱，从彼方通近。这未知世界的形象如远雷一般，从天际轰鸣而来，又消逝而去。 在船头甲板上，一只小小的海星已经干瘪了。年轻人坐在船头，将视线挪离晚霞，轻摇了摇扎着白色厚毛巾的头。 </p>
+</blockquote>
+<h1 id="心理学"><a href="#心理学" class="headerlink" title="心理学"></a>心理学</h1><h2 id="亲密关系-Intimate-Relationships-罗兰·米勒"><a href="#亲密关系-Intimate-Relationships-罗兰·米勒" class="headerlink" title="亲密关系 Intimate Relationships 罗兰·米勒"></a><a href="https://book.douban.com/subject/36787449/">亲密关系</a> Intimate Relationships 罗兰·米勒</h2><p>与其说这是书，不如说这是一份研究报告。<br>这本书教会了如何有效沟通。不仅是和恋人、亲人，还有和同学朋友讲道理时，也会采取书中的模式——你心平气和地说，我耐心听，我不打断。等你说完了我再说。我听到了你的想法，我陈述你的想法——当我的理解与你的想法一致时，我做到了共情。我认真地道歉，讲道理。</p>
+<p>我认为这本书适合每一个大学生阅读。</p>
+<h2 id="休息力-韩-李时炯"><a href="#休息力-韩-李时炯" class="headerlink" title="休息力  [韩]李时炯"></a><a href="https://book.douban.com/subject/36394549/">休息力</a>  [韩]李时炯</h2><p>本书不同于大多经验类的帖子、脑科学作品，有很多科学元素。从科学原理出发，解释人之所以疲劳、效率低等日常问题还有心理、身体疾病的源头，结合来自仙村康复中心的治疗方案，告诉读者长寿，让大脑保持健康的秘密。教会我们科学地工作。<br>这本书让我产生了保护好的大脑的意识。更高效地调整自己的工作状态，让我更加从容地面对瓶颈期，而不是堕落、沮丧。</p>
+<h1 id="计算机专业入门科普读物"><a href="#计算机专业入门科普读物" class="headerlink" title="计算机专业入门科普读物"></a>计算机专业入门科普读物</h1><h2 id="《CPU通识课》-龙芯中科"><a href="#《CPU通识课》-龙芯中科" class="headerlink" title="《CPU通识课》 龙芯中科"></a>《CPU通识课》 龙芯中科</h2><p>适合CS, IoT，等有对计算机底层知识 how computer work问题感兴趣的童鞋阅读。开阔了商业视野。偏向CPU、ISA简史。</p>
+<h2 id="《普林斯顿大学计算机公开课》"><a href="#《普林斯顿大学计算机公开课》" class="headerlink" title="《普林斯顿大学计算机公开课》"></a>《普林斯顿大学计算机公开课》</h2><p>适合刚进入大学的计算机专业学生阅读。</p>
+<h2 id="《控制论》-by-Norbert-Wiener"><a href="#《控制论》-by-Norbert-Wiener" class="headerlink" title="《控制论》 by Norbert Wiener"></a><a href="https://book.douban.com/subject/2356843/">《控制论》</a> by Norbert Wiener</h2><p>全名：Cybernetics or Control and Communication in the Animal and the Machine<br>首先，作者一定可以刷新你对神童的定义。<br>什么是控制论？<br>通信的理论。 非线性、目的论的思考方式。</p>
+<p>控制论给后世带来的影响：<br>在天才维纳提出控制论后，产生很多新学科。把控制论的通信思想、哲学思考方式用在其他学科，如心理学、生物科学，延伸出了新的研究方向。<br>控制论是信息时代的理论，计算机网络，网络安全的英文名也采用cyber前缀</p>
+<h1 id="通信"><a href="#通信" class="headerlink" title="通信"></a>通信</h1><h2 id="业余无线电-童效勇"><a href="#业余无线电-童效勇" class="headerlink" title="业余无线电 童效勇"></a>业余无线电 童效勇</h2><p>这本书考证必备读物。很棒的HAM入门读物。</p>
 ]]></content>
       <categories>
-        <category>才艺</category>
+        <category>好物推荐</category>
       </categories>
       <tags>
-        <tag>烹饪</tag>
+        <tag>资源分享</tag>
       </tags>
   </entry>
   <entry>
@@ -1643,36 +1674,5 @@
       <tags>
         <tag>博客</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>插入图片</title>
-    <url>/2026/05/08/%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/</url>
-    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>这篇博客本是用来测试的。内容非常杂乱。好在它发挥了她的价值，记录了测试结果，也让我发现了规律。</p>
-<h1 id="在文章中添加图片的方法。注：图片源于本地，不是绝对-url"><a href="#在文章中添加图片的方法。注：图片源于本地，不是绝对-url" class="headerlink" title="在文章中添加图片的方法。注：图片源于本地，不是绝对 url"></a>在文章中添加图片的方法。注：图片源于本地，不是绝对 url</h1><p>在 source 下创建 img 文件夹。把图片复制进去。<br>在文章中：路径为： &#x2F;img&#x2F;image.png 不是 source&#x2F;img&#x2F;image.png</p>
-<ul>
-<li>路径名不要用反斜杠！！！</li>
-<li>是 &#x2F;img&#x2F;name.png 不是 img&#x2F;name.png 斜杠不能少！</li>
-</ul>
-<p><img src="/img/%E8%8D%92%E9%87%8E%E6%9C%BA%E5%99%A8%E4%BA%BA.png" alt="成功的复制: 荒野机器人"></p>
-<p><img src="/img/fluid%E6%96%87%E7%AB%A0%E5%86%85%E5%AE%B9%E5%9B%BE%E7%89%87%E8%AF%AD%E6%B3%95%E8%A7%84%E5%88%99.png" alt="成功的复制：fluid文章内容图片语法规则.png"></p>
-<p><img src="/%5Cimg%5Cfluid%E6%96%87%E7%AB%A0%E5%86%85%E5%AE%B9%E5%9B%BE%E7%89%87%E8%AF%AD%E6%B3%95%E8%A7%84%E5%88%99.png" alt="失败的复制：fluid文章内容图片语法规则.png——路径语法不支持反斜杠"><br>说明一下：路径语法用反斜杠经 hexo s 测试，可以在浏览器正常显示。但是部署到 github 上却不可以显示图片。<br><img src="/source/img/fluid%E6%96%87%E7%AB%A0%E5%86%85%E5%AE%B9%E5%9B%BE%E7%89%87%E8%AF%AD%E6%B3%95%E8%A7%84%E5%88%99.png" alt="失败的复制：fluid文章内容图片语法规则.png——要遵守的相对路径"></p>
-<p><img src="/TyroneOp2025-03-21_00-12-59-1.png" alt="失败的复制1"></p>
-<p>c:\Users\Optimus\Pictures\TyroneOp2025-03-21_00-12-59.png</p>
-<p><img src="/TyroneOp2025-03-21_00-12-59-2.png" alt="失败的复制2"></p>
-<h1 id="探索更多图片功能："><a href="#探索更多图片功能：" class="headerlink" title="探索更多图片功能："></a>探索更多图片功能：</h1><p>一、文章页顶部大图</p>
-<ul>
-<li>使用 banner_img 字段，语法依然是 <img src="/fluid%E4%B8%93%E5%B1%9E%E7%9B%B8%E5%AF%B9%E8%B7%AF%E5%BE%84%E8%A7%84%E5%88%99" alt="alt"></li>
-<li>为了便于管理。你可以在 source&#x2F;img 在新建 banner_img 文件夹。<br><img src="/img/banner_img/%E8%82%8C%E8%82%89%E7%94%B7.jpg" alt="肌肉男！"></li>
-</ul>
-<p>二、 文章在首页的封面图</p>
-<ul>
-<li>使用 index_img 字段，语法同上<br><img src="/img/index_img/youthsearching.jpg" alt="i walk the sun by myself"></li>
-</ul>
-<h1 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h1><p>以前的我太可爱了，跟着教程找 source，结果找到这个路径<code>node_modules\hexo-theme-fluid\source</code>下了</p>
-<ul>
-<li>人家说的明明是：<code>E:\Blogs\source\img</code>，我拐了一大个弯： <code>E:\Blogs\node_modules\hexo-theme-fluid\source\img </code></li>
-</ul>
-<p>也是在今天的探索后，我对静态博客框架的态度更加明朗——原来，塞个图片也不是那么难！幻想以后图文并茂的博客（美滋滋！）<br>曾今有蛮长一段时间因为繁琐的操作，笔记都用知乎。yysy，知乎除了有内容监管，其他也挺好。多端可编辑。适合新手。总之，我将回归静态博客，提升博客内容质量。</p>
-]]></content>
   </entry>
 </search>
