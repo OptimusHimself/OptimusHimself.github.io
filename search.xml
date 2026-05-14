@@ -15,18 +15,6 @@
       </tags>
   </entry>
   <entry>
-    <title>AI时代的思考（1）-- 思维和讨论</title>
-    <url>/2025/04/11/AI%E6%97%B6%E4%BB%A3%E7%9A%84%E6%80%9D%E8%80%83%EF%BC%881%EF%BC%89-%E6%80%9D%E7%BB%B4%E5%92%8C%E8%AE%A8%E8%AE%BA/</url>
-    <content><![CDATA[<p>和朋友聊一个经济学问题——为什么美国可以持续向外输出美元，维持巨大的财政赤字。而中国不可以。其实，我期待能和他一步步挖出财政支出和资本收入等核心概念。但聊着聊着，他就回应：“我也是三脚猫功夫，你问问ChatGPT呗”。类似的对话和其他朋友也有过。<br>　　“ChatGPT, DeepSeek”这些大语言模型成为了人们日常聊天的主角。 你问了DeepSeek吗？<br>　　似乎这些LLM是知识的象征，他们的观点都是对的。 的确，通过优质的网页内容、大量的科学数据训练出的LLM不论是表达能力还是专业性、实战性都吊打大部分本科生。<br>　　但是这和聊天有什么关系？我和你聊天的目的是为了得到一个正确的答案吗？我想要的只不过是你的理解，你的解释。<br>　　基于我和你的交情、来来往往的招呼和交流，我可以很轻松地接受你的语言风格——我们曾经一起开车旅行，畅聊中我知道你是一个说话不清不楚大大咧咧的人。基于我对你的认知能力的了解，我很容易接受你对问题的表述——你平常用词就是这个风格，你的知识储备就是说这样的话。<br>　　但是，这些感觉在我和DeepSeek, 豆包这样的“Knowledge Cluster”对话则没有。<br>　　我联想不到我们曾经一起做过的事儿，AI传递给我的message也只不过是那一段干巴巴的文字。的确，我可以让他说得生动，讲得比老师还要好。我也可以很轻松地得到正确答案。但是，这只是短暂的捡起一个不属于你的理解。<br>　　我已经习惯了在课堂上学习知识，习惯了通过和朋友不断探讨得到智慧的果实。我认为，两个人，在对问题的理解从不清晰的状态，经过交流合作、通过传统的查资料和DIY一些小实验来验证自己的想法，最终得出合理自洽的结论结合自己的表述系统科学地解释问题（哪怕和真实情况有出入）——这才是学习本该有的过程。<br>　　AI的确很强大，提升了我们的效率。但思维的产生和锻炼需要时间、需要磨练和沉淀。我们不能因为AI工具越来越“好使”，就丢弃了最开始交流讨论、独立思考的能力。<br>　　未来的人类文明必将到达新高度。我希望那是一个有思维活力的文明，而不是被AI禁锢、思维陈腐、缺乏创意、懒惰的文明。</p>
-]]></content>
-      <categories>
-        <category>生活感悟</category>
-      </categories>
-      <tags>
-        <tag>日记</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Cpp Journey</title>
     <url>/2025/04/23/Cpp-Journey/</url>
     <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>本文属于我的“学习路线”系列文章。 介绍了自认为成功且有一定效率的学习方法。 本文会介绍笔者的入门C++的过程（学习时长&amp;成果），推荐一套可靠的方法，分享有用的资源。本文还总结了学习C++容易遇到的问题</p>
@@ -45,6 +33,18 @@
       <tags>
         <tag>Programming</tag>
         <tag>C++</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>AI时代的思考（1）-- 思维和讨论</title>
+    <url>/2025/04/11/AI%E6%97%B6%E4%BB%A3%E7%9A%84%E6%80%9D%E8%80%83%EF%BC%881%EF%BC%89-%E6%80%9D%E7%BB%B4%E5%92%8C%E8%AE%A8%E8%AE%BA/</url>
+    <content><![CDATA[<p>和朋友聊一个经济学问题——为什么美国可以持续向外输出美元，维持巨大的财政赤字。而中国不可以。其实，我期待能和他一步步挖出财政支出和资本收入等核心概念。但聊着聊着，他就回应：“我也是三脚猫功夫，你问问ChatGPT呗”。类似的对话和其他朋友也有过。<br>　　“ChatGPT, DeepSeek”这些大语言模型成为了人们日常聊天的主角。 你问了DeepSeek吗？<br>　　似乎这些LLM是知识的象征，他们的观点都是对的。 的确，通过优质的网页内容、大量的科学数据训练出的LLM不论是表达能力还是专业性、实战性都吊打大部分本科生。<br>　　但是这和聊天有什么关系？我和你聊天的目的是为了得到一个正确的答案吗？我想要的只不过是你的理解，你的解释。<br>　　基于我和你的交情、来来往往的招呼和交流，我可以很轻松地接受你的语言风格——我们曾经一起开车旅行，畅聊中我知道你是一个说话不清不楚大大咧咧的人。基于我对你的认知能力的了解，我很容易接受你对问题的表述——你平常用词就是这个风格，你的知识储备就是说这样的话。<br>　　但是，这些感觉在我和DeepSeek, 豆包这样的“Knowledge Cluster”对话则没有。<br>　　我联想不到我们曾经一起做过的事儿，AI传递给我的message也只不过是那一段干巴巴的文字。的确，我可以让他说得生动，讲得比老师还要好。我也可以很轻松地得到正确答案。但是，这只是短暂的捡起一个不属于你的理解。<br>　　我已经习惯了在课堂上学习知识，习惯了通过和朋友不断探讨得到智慧的果实。我认为，两个人，在对问题的理解从不清晰的状态，经过交流合作、通过传统的查资料和DIY一些小实验来验证自己的想法，最终得出合理自洽的结论结合自己的表述系统科学地解释问题（哪怕和真实情况有出入）——这才是学习本该有的过程。<br>　　AI的确很强大，提升了我们的效率。但思维的产生和锻炼需要时间、需要磨练和沉淀。我们不能因为AI工具越来越“好使”，就丢弃了最开始交流讨论、独立思考的能力。<br>　　未来的人类文明必将到达新高度。我希望那是一个有思维活力的文明，而不是被AI禁锢、思维陈腐、缺乏创意、懒惰的文明。</p>
+]]></content>
+      <categories>
+        <category>生活感悟</category>
+      </categories>
+      <tags>
+        <tag>日记</tag>
       </tags>
   </entry>
   <entry>
@@ -89,6 +89,27 @@
       <tags>
         <tag>Programming</tag>
         <tag>Python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>二进制</title>
+    <url>/2025/06/15/binary/</url>
+    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>有些碎片知识老是忘，放在blog里吧！</p>
+<ul>
+<li>求反码的十进制数</li>
+<li>大端序、小端序</li>
+<li></li>
+</ul>
+<h1 id="2’s-complement"><a href="#2’s-complement" class="headerlink" title="2’s complement"></a>2’s complement</h1><h2 id="场景"><a href="#场景" class="headerlink" title="场景"></a>场景</h2><p>给出1打头的2’s complement，问你是负多少<br>首先，我起码知道是负的，但老想不起来该怎么<strong>算“负多少”</strong>这个问题</p>
+<h2 id="方法："><a href="#方法：" class="headerlink" title="方法："></a>方法：</h2><p>记住2’s complement转换成<strong>“多少”的规则</strong></p>
+<p><strong>全部反码，得到一个0大头的数。</strong></p>
+<p><strong>将这个正数 “+1”，你就得到了 “多少”  (多少&#x3D;&#x3D;&#x3D;你要的结果)</strong></p>
+<h1 id="端序"><a href="#端序" class="headerlink" title="端序"></a>端序</h1>]]></content>
+      <categories>
+        <category>复习笔记</category>
+      </categories>
+      <tags>
+        <tag>二进制</tag>
       </tags>
   </entry>
   <entry>
@@ -170,27 +191,6 @@
       </categories>
       <tags>
         <tag>AI</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>二进制</title>
-    <url>/2025/06/15/binary/</url>
-    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>有些碎片知识老是忘，放在blog里吧！</p>
-<ul>
-<li>求反码的十进制数</li>
-<li>大端序、小端序</li>
-<li></li>
-</ul>
-<h1 id="2’s-complement"><a href="#2’s-complement" class="headerlink" title="2’s complement"></a>2’s complement</h1><h2 id="场景"><a href="#场景" class="headerlink" title="场景"></a>场景</h2><p>给出1打头的2’s complement，问你是负多少<br>首先，我起码知道是负的，但老想不起来该怎么<strong>算“负多少”</strong>这个问题</p>
-<h2 id="方法："><a href="#方法：" class="headerlink" title="方法："></a>方法：</h2><p>记住2’s complement转换成<strong>“多少”的规则</strong></p>
-<p><strong>全部反码，得到一个0大头的数。</strong></p>
-<p><strong>将这个正数 “+1”，你就得到了 “多少”  (多少&#x3D;&#x3D;&#x3D;你要的结果)</strong></p>
-<h1 id="端序"><a href="#端序" class="headerlink" title="端序"></a>端序</h1>]]></content>
-      <categories>
-        <category>复习笔记</category>
-      </categories>
-      <tags>
-        <tag>二进制</tag>
       </tags>
   </entry>
   <entry>
@@ -283,6 +283,38 @@
       </tags>
   </entry>
   <entry>
+    <title>大兴追音记</title>
+    <url>/2025/04/03/daxing/</url>
+    <content><![CDATA[<p>本文记录了和<a href="https://github.com/Daydreamer114">WZA</a>的第二次SDR整活儿的经历。蹲在大兴机厂附近的农场收听塔台和机长的对话。</p>
+<img src="https://github.com/OptimusHimself/picx-images-hosting/raw/master/landing.8l0b7r1ro1.jpg" alt="daxing airport">
+从SDR入手，我们就用它收听了汽车电台并计划在清明假期前一天，去机场听听电波。  
+
+<p><a href="https://chat.deepseek.com/a/chat/s/3b69e504-22ff-4657-ab10-91f73dda7f10">d2sk</a></p>
+<h1 id="Wireless-SDR"><a href="#Wireless-SDR" class="headerlink" title="Wireless &amp; SDR"></a>Wireless &amp; SDR</h1><h2 id="RF-Gain"><a href="#RF-Gain" class="headerlink" title="RF Gain:"></a>RF Gain:</h2><p>在监听飞机通信时，合理调整<strong>RF增益（射频增益）</strong> 和其他参数可以显著改善音质</p>
+<p>降白噪  </p>
+<p>我们常光顾的频段：  </p>
+<p>为什么要不停的换频段  </p>
+<p>带宽的选择：<br>我们花了很长时间设置带宽，DeepSeek推荐的25000Hz噪音太多了。后来用11000Hz的带宽收听。</p>
+<h2 id="dBFS"><a href="#dBFS" class="headerlink" title="dBFS"></a>dBFS</h2><p><strong>dBFS</strong>（Decibels relative to Full Scale，全量程分贝）是用来表示信号强度的<strong>相对电平单位</strong>，它描述的是当前信号幅度相对于ADC（模数转换器）的<strong>最大可量化电平</strong>的比例关系。</p>
+<h3 id="dBFS的物理意义"><a href="#dBFS的物理意义" class="headerlink" title="dBFS的物理意义"></a><strong>dBFS的物理意义</strong></h3><ul>
+<li><strong>参考点（0 dBFS）</strong>：代表ADC能处理的最大信号电平（即数字信号的满量程值），超过这个值会发生<strong>削波（Clipping）</strong>，导致信号失真。</li>
+<li><strong>负值（如-80 dBFS）</strong>：表示当前信号比满量程低多少分贝</li>
+</ul>
+<h1 id="Misc"><a href="#Misc" class="headerlink" title="Misc"></a>Misc</h1><p>选地址的挑战： 我们要选一个离机厂近、能停车、最好人不多的地方。经验丰富的Driver Wang不一会儿就搜到了一个附近的农场。</p>
+<p>飞机的声音：在空中的某一位置，从起飞到头顶上方的某个阶段，开始听到飞机的轰鸣声。但是掠过一段距离后，又听不到。不知道是什么原理  </p>
+<p>机场周围的声音  </p>
+<p>巡逻的车子  </p>
+<p>机厂附近独有的快乐： 每隔3分钟就能看到一架飞机从头顶飞过的感觉。  </p>
+<h1 id="民航知识"><a href="#民航知识" class="headerlink" title="民航知识"></a>民航知识</h1>]]></content>
+      <categories>
+        <category>整活</category>
+      </categories>
+      <tags>
+        <tag>日记</tag>
+        <tag>SDR入门</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>ffmpeg常用命令</title>
     <url>/2025/07/04/ffmpeg%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
     <content><![CDATA[<ol>
@@ -320,38 +352,6 @@
       </tags>
   </entry>
   <entry>
-    <title>大兴追音记</title>
-    <url>/2025/04/03/daxing/</url>
-    <content><![CDATA[<p>本文记录了和<a href="https://github.com/Daydreamer114">WZA</a>的第二次SDR整活儿的经历。蹲在大兴机厂附近的农场收听塔台和机长的对话。</p>
-<img src="https://github.com/OptimusHimself/picx-images-hosting/raw/master/landing.8l0b7r1ro1.jpg" alt="daxing airport">
-从SDR入手，我们就用它收听了汽车电台并计划在清明假期前一天，去机场听听电波。  
-
-<p><a href="https://chat.deepseek.com/a/chat/s/3b69e504-22ff-4657-ab10-91f73dda7f10">d2sk</a></p>
-<h1 id="Wireless-SDR"><a href="#Wireless-SDR" class="headerlink" title="Wireless &amp; SDR"></a>Wireless &amp; SDR</h1><h2 id="RF-Gain"><a href="#RF-Gain" class="headerlink" title="RF Gain:"></a>RF Gain:</h2><p>在监听飞机通信时，合理调整<strong>RF增益（射频增益）</strong> 和其他参数可以显著改善音质</p>
-<p>降白噪  </p>
-<p>我们常光顾的频段：  </p>
-<p>为什么要不停的换频段  </p>
-<p>带宽的选择：<br>我们花了很长时间设置带宽，DeepSeek推荐的25000Hz噪音太多了。后来用11000Hz的带宽收听。</p>
-<h2 id="dBFS"><a href="#dBFS" class="headerlink" title="dBFS"></a>dBFS</h2><p><strong>dBFS</strong>（Decibels relative to Full Scale，全量程分贝）是用来表示信号强度的<strong>相对电平单位</strong>，它描述的是当前信号幅度相对于ADC（模数转换器）的<strong>最大可量化电平</strong>的比例关系。</p>
-<h3 id="dBFS的物理意义"><a href="#dBFS的物理意义" class="headerlink" title="dBFS的物理意义"></a><strong>dBFS的物理意义</strong></h3><ul>
-<li><strong>参考点（0 dBFS）</strong>：代表ADC能处理的最大信号电平（即数字信号的满量程值），超过这个值会发生<strong>削波（Clipping）</strong>，导致信号失真。</li>
-<li><strong>负值（如-80 dBFS）</strong>：表示当前信号比满量程低多少分贝</li>
-</ul>
-<h1 id="Misc"><a href="#Misc" class="headerlink" title="Misc"></a>Misc</h1><p>选地址的挑战： 我们要选一个离机厂近、能停车、最好人不多的地方。经验丰富的Driver Wang不一会儿就搜到了一个附近的农场。</p>
-<p>飞机的声音：在空中的某一位置，从起飞到头顶上方的某个阶段，开始听到飞机的轰鸣声。但是掠过一段距离后，又听不到。不知道是什么原理  </p>
-<p>机场周围的声音  </p>
-<p>巡逻的车子  </p>
-<p>机厂附近独有的快乐： 每隔3分钟就能看到一架飞机从头顶飞过的感觉。  </p>
-<h1 id="民航知识"><a href="#民航知识" class="headerlink" title="民航知识"></a>民航知识</h1>]]></content>
-      <categories>
-        <category>整活</category>
-      </categories>
-      <tags>
-        <tag>日记</tag>
-        <tag>SDR入门</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>git常用命令</title>
     <url>/2025/07/05/git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
     <content><![CDATA[]]></content>
@@ -363,20 +363,12 @@
 ]]></content>
   </entry>
   <entry>
-    <title>unzip命令</title>
-    <url>/2025/07/04/unzip%E5%91%BD%E4%BB%A4/</url>
-    <content><![CDATA[<h1 id="Windows-powershell"><a href="#Windows-powershell" class="headerlink" title="Windows - powershell"></a>Windows - powershell</h1><p>Expand-Archieve</p>
-<ul>
-<li>Destination-Path</li>
-</ul>
-<h1 id="Linux-Bash"><a href="#Linux-Bash" class="headerlink" title="Linux - Bash"></a>Linux - Bash</h1><h2 id="tar"><a href="#tar" class="headerlink" title="tar"></a>tar</h2>]]></content>
-      <categories>
-        <category>命令集</category>
-      </categories>
-      <tags>
-        <tag>archieve</tag>
-        <tag>files</tag>
-      </tags>
+    <title>jyy课堂笔记</title>
+    <url>/2025/06/30/jyy%E8%AF%BE%E5%A0%82%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<p>jyy的课件做得很好。但是听jyy的课我从不看标题。 只听他的内容，因为他懂的太多了，即便有标题，他也时常即兴起来拓展了很多偏离标题但是启发我的内容。</p>
+<p>听jyy的课不止能获取新知识、听到高效的学习方法。 他的课堂有一种长者的关怀，我从中吸收正能量。原本对很多事情感到不自信、畏惧开始。在补充完正能量后，又对计算机知识充满热情。我想，即便我本科毕业后、从事研究生、博士生的研究工作，遇到瓶颈时也可以拿出他最新的视频看一看、学一学。</p>
+<p>第一节课jyy用大量的例子鼓励我们使用AI，尤其是在学习他的OS课程中。谈到Academic Integrity他还说了一个不一样的观点：我们可以在遇到问题时使用AI。 但你不能把整个问题丢给他。这门课的Policy是让学生学到技能。当你意识到这一点，监督自己使用AI的方式，你就做到了“学术诚信”。 ————我醒悟到曾经用偷懒，把全部问题丢给AI快速取得分数的愚蠢。我不仅没有学到这门课的知识，也浪费了探索AI prompt的机会。</p>
+]]></content>
   </entry>
   <entry>
     <title>ssh入门</title>
@@ -405,6 +397,22 @@
       </categories>
       <tags>
         <tag>SSH</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>unzip命令</title>
+    <url>/2025/07/04/unzip%E5%91%BD%E4%BB%A4/</url>
+    <content><![CDATA[<h1 id="Windows-powershell"><a href="#Windows-powershell" class="headerlink" title="Windows - powershell"></a>Windows - powershell</h1><p>Expand-Archieve</p>
+<ul>
+<li>Destination-Path</li>
+</ul>
+<h1 id="Linux-Bash"><a href="#Linux-Bash" class="headerlink" title="Linux - Bash"></a>Linux - Bash</h1><h2 id="tar"><a href="#tar" class="headerlink" title="tar"></a>tar</h2>]]></content>
+      <categories>
+        <category>命令集</category>
+      </categories>
+      <tags>
+        <tag>archieve</tag>
+        <tag>files</tag>
       </tags>
   </entry>
   <entry>
@@ -599,6 +607,16 @@
       </tags>
   </entry>
   <entry>
+    <title>人生规划</title>
+    <url>/2025/06/30/%E4%BA%BA%E7%94%9F%E8%A7%84%E5%88%92/</url>
+    <content><![CDATA[<p>近况介绍：<br>从6.20考完期末到今天差不多有两周的时间。 我没有成为大三下想象中的：“学各种感兴趣的知识、DIY&#x2F;复刻有趣的项目”。而是整天开着微信，关注各个高校的保研信息。这没错，当务之急确实是找到未来的研究方向。我也逐渐适应了上午下午关注保研申请、晚上放松&#x2F;学习知识的工作模式。</p>
+<p>虽然有事忙，但我还是相比以前放松了很多。可以说在申请读研的事上不总是100%投入。 我看了很多改变我对自己的认识的内容，包括南大jyy2025的OS课程，诺伯特·维纳写的控制论，鬼灭之刃无限列车篇的最后一集、游郭篇的最后一集，回顾精彩的战斗场景、炎柱说的话， zhan哥对学历的看法-回应网上讽刺学历无用的言论；也和一些正能量的老师同学亲人交流了自己的情况和未来的规划。这些杂乱的内容和我没劲的生活联系在一起。才有了这篇博客。</p>
+<p>我忽然意识到，即便我投入了很多时间在学习技术而非游戏、恋爱、逛街、刷手机这些所谓不正经的事业。 我依然认为自己是一个没有目标的人。 或者说，自己不擅长调动自己的毅力——只在有意思的东西面前投入时间，而没有长远的规划。</p>
+<h1 id="读研、博-职业规划"><a href="#读研、博-职业规划" class="headerlink" title="读研、博&amp;职业规划"></a>读研、博&amp;职业规划</h1><p>读博是必然。打造自己的技术壁垒从而获取能显著提升人生物质层面舒适度的薪资<br>假如我成功保研HUST<br>我要积极参加学术会议。 多多去听正能量的人的发言。</p>
+<p>我想研究一套AI和硬件交互的协议。 AI可以安全地管理所有的硬件。就像钢铁侠的JARVIS一样。 有生之年如果能见证贾维斯的诞生，也是圆梦了。</p>
+]]></content>
+  </entry>
+  <entry>
     <title>保研心得</title>
     <url>/2025/07/01/%E4%BF%9D%E7%A0%94%E5%BF%83%E5%BE%97/</url>
     <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>其实这篇文章里的很多内容不适合公开。 因为说话是要负责任的嘛。</p>
@@ -645,185 +663,6 @@
       </categories>
       <tags>
         <tag>日记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>人生规划</title>
-    <url>/2025/06/30/%E4%BA%BA%E7%94%9F%E8%A7%84%E5%88%92/</url>
-    <content><![CDATA[<p>近况介绍：<br>从6.20考完期末到今天差不多有两周的时间。 我没有成为大三下想象中的：“学各种感兴趣的知识、DIY&#x2F;复刻有趣的项目”。而是整天开着微信，关注各个高校的保研信息。这没错，当务之急确实是找到未来的研究方向。我也逐渐适应了上午下午关注保研申请、晚上放松&#x2F;学习知识的工作模式。</p>
-<p>虽然有事忙，但我还是相比以前放松了很多。可以说在申请读研的事上不总是100%投入。 我看了很多改变我对自己的认识的内容，包括南大jyy2025的OS课程，诺伯特·维纳写的控制论，鬼灭之刃无限列车篇的最后一集、游郭篇的最后一集，回顾精彩的战斗场景、炎柱说的话， zhan哥对学历的看法-回应网上讽刺学历无用的言论；也和一些正能量的老师同学亲人交流了自己的情况和未来的规划。这些杂乱的内容和我没劲的生活联系在一起。才有了这篇博客。</p>
-<p>我忽然意识到，即便我投入了很多时间在学习技术而非游戏、恋爱、逛街、刷手机这些所谓不正经的事业。 我依然认为自己是一个没有目标的人。 或者说，自己不擅长调动自己的毅力——只在有意思的东西面前投入时间，而没有长远的规划。</p>
-<h1 id="读研、博-职业规划"><a href="#读研、博-职业规划" class="headerlink" title="读研、博&amp;职业规划"></a>读研、博&amp;职业规划</h1><p>读博是必然。打造自己的技术壁垒从而获取能显著提升人生物质层面舒适度的薪资<br>假如我成功保研HUST<br>我要积极参加学术会议。 多多去听正能量的人的发言。</p>
-<p>我想研究一套AI和硬件交互的协议。 AI可以安全地管理所有的硬件。就像钢铁侠的JARVIS一样。 有生之年如果能见证贾维斯的诞生，也是圆梦了。</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>刷机心得</title>
-    <url>/2025/07/25/%E5%88%B7%E6%9C%BA%E5%BF%83%E5%BE%97/</url>
-    <content><![CDATA[<h1 id="梳理1-Ace-3-Pro的“刷机”方案"><a href="#梳理1-Ace-3-Pro的“刷机”方案" class="headerlink" title="梳理1+ Ace 3 Pro的“刷机”方案"></a>梳理1+ Ace 3 Pro的“刷机”方案</h1><h2 id="重要说明"><a href="#重要说明" class="headerlink" title="重要说明"></a>重要说明</h2><ul>
-<li><p>这里说的刷机：只做到了利用 “KenerlSU Hook” 得到设备 Root 权限——当然也是当下比较常见的语意。<br><strong>并没有换第三方ROM</strong>，如 <a href="https://wiki.lineageos.org/devices/">Lineage OS</a>。原因：在我发现 boot.img 的版本和设备型号 &#x2F; ROM 不匹配会让手机变砖后，我决定<strong>拿完 root 就老实</strong>。 </p>
-</li>
-<li><p>Root 方案: KernelSU, 性质都一样（使用LSPosed管理权限）          &#x2F;&#x2F; Magisk尝试了，可能是ColorOS版本太新，Magisk还不支持</p>
-</li>
-<li><p>系统：安卓14及以上。原厂ROM（Color OS 15） 内核版本Linux6 + &#x2F;&#x2F;意味着不能支持“Recovery&#x2F;TWRP” Root方案</p>
-</li>
-</ul>
-<h2 id="第一步：解BL锁。"><a href="#第一步：解BL锁。" class="headerlink" title="第一步：解BL锁。"></a>第一步：解BL锁。</h2><p> 之后会讲BL锁是什么以及为什么必须解开</p>
-<blockquote>
-<p>这一步的关键角色： 一个能解BL的手机。 一台有ADB工具的电脑（其实手机也可以），一根数据线。</p>
-<blockquote>
-<p>tips: 大侠阿木的刷机工具箱就相当于是对ADB的用户友好的封装。而且集成了很多有用的功能。可以说刷机小白必备。而且，（我猜）这款工具适用于其他能解BL锁的手机</p>
-</blockquote>
-</blockquote>
-<p>解BL锁有两种做法，步骤都很简单。</p>
-<ol>
-<li>使用大侠阿木的工具箱。 一键解锁。</li>
-<li>使用ADB命令。 自己网上查：xxx设备 解BL锁。</li>
-</ol>
-<p>额外说明：</p>
-<ul>
-<li>解BL锁本身不难。只要设备能解BL锁。 </li>
-<li>第一步成功的标志：重启手机，你可以看到第一个页面（启动页面）出现类似：device unlocked, orange mode之类字样。</li>
-</ul>
-<h2 id="第二步：-magisk打补丁-Hook"><a href="#第二步：-magisk打补丁-Hook" class="headerlink" title="第二步： magisk打补丁&#x2F;Hook"></a>第二步： magisk打补丁&#x2F;Hook</h2><blockquote>
-<p>关键角色：同样，一台有ADB工具的电脑。 当前系统的ROM（.zip格式）。解了BL锁的手机并安装magisk</p>
-</blockquote>
-<p>流程&#x2F;原理： </p>
-<ol>
-<li>下载当前设备ROM</li>
-<li>从中得到boot.img（未修改）。 </li>
-<li>用magisk修改boot.img。 </li>
-<li>ADB环节：用ADB工具将修改过的boot.img刷入另一个启动分区。并设置设备从该分区启动。</li>
-</ol>
-<p>P.S. KernelSU&#x2F;Magisk等等 Root方案 使用大侠阿木的工具箱都可以一键搞定<br>tips： </p>
-<ol>
-<li>下载ROM一定要仔细比对是不是和当前系统完全一致。 不只是大版本号，后面的数字、字符串也要一样！！相信我！</li>
-<li>下载的ROM是zip格式。里面不一定带有boot.img。 你需要用到payload-dumper. 具体怎么用去读文档。 </li>
-<li>因为KernelSU在Android OS运行，你需要boot.img上传到手机上。 打开magisk,选中放boot.img的路径。 你应该可以在相同路径下得到要给修补后的boot.img</li>
-<li>useful commands：<br>查看当前启动分区：<code>fastboot getvar current-slot</code><br>把修补后的boot.img刷写到另一个分区 <code>fastboot flash boot_a kernerlSU-patched-boot.img</code><br>修改默认boot分区： <code>fastboot --set-active=a</code></li>
-</ol>
-<p>说明<br>如果成功了，打开Magisk(面具App)，显示“已激活”。说明root成功。接下来就是安装一些模块让root隐身。让应用程序检查不出设备root的痕迹。</p>
-<h2 id="第二步：但是KernelSU"><a href="#第二步：但是KernelSU" class="headerlink" title="第二步：但是KernelSU"></a>第二步：但是KernelSU</h2><blockquote>
-</blockquote>
-<p>for 小白：1+工具箱一键搞定。<br>步骤&#x2F;原理：</p>
-<h2 id="第三步：-KernelSU安装Zygisk等模块，更好的隐藏root"><a href="#第三步：-KernelSU安装Zygisk等模块，更好的隐藏root" class="headerlink" title="第三步： KernelSU安装Zygisk等模块，更好的隐藏root"></a>第三步： KernelSU安装Zygisk等模块，更好的隐藏root</h2><h2 id="菜逼的唠嗑"><a href="#菜逼的唠嗑" class="headerlink" title="菜逼的唠嗑"></a>菜逼的唠嗑</h2><p>所谓的组合键是用来进入fastboot模式的。完全可以用ADB来实现<br><code>adb devices</code><br><code>adb reboot bootloader</code><br><code>fastboot devices</code>  可以看到成功进入fastboot mode</p>
-<p>聊聊KernelSU：个人感觉比Magisk强大，易于使用。 因为在工具箱使用中发现Magisk root并不成功。而KernelSU一键解决了</p>
-<p>你常听到的boot, recovery mode, fastboot mode, TWRP:<br>似乎是Android 8 之后就开始采用“boot_a boot_b”滚动更新的方案了。 当你的手机系统（color OS 14）发布新版本(Color OS 15)。他会在a分区保留当前的Color OS 14的boot.img, 把Color OS 15的boot.img下载到b分区。 当你确认更新系统，install Color OS 15, 下一次启动将使用boot_b分区</p>
-<p>给新手的建议：<br>刷机这事吧，难也不难。教程一堆，10年前就有很多前辈玩得明明白白了。 但碎片化严重，大堆专业术语，没搞明白原理很可能看着手机变砖。<br>关键是要搞清楚你的设备获取root权限的原理。 KernelSU， magisk的原理。这篇博客并没有用心的介绍每个技术名词的百科。 一方面是自己的知识深度和表达能力的限制。另一方面是想留给各位探索。 个人认为：整活多少伴随一段知识积累的过程。</p>
-<p>担心变砖？<br>没有必要因为这份顾虑阻碍了前进。<br>就算变砖了也一定能修好的。相信我，不难。你可以试试下载正确版本的ROM，把boot.img刷到boot_a, boot_b. （fastboot flash boot_a boot_b IMG-PATH）</p>
-<p>不要随便更新系统，除非看到有人把LSPosed做好了</p>
-<h2 id="Resources"><a href="#Resources" class="headerlink" title="Resources"></a>Resources</h2><p><a href="https://optool.daxiaamu.com/optool/">https://optool.daxiaamu.com/optool/</a>   一加全能工具箱(PC端使用)<br><a href="https://yun.daxiaamu.com/OnePlus_Roms/">https://yun.daxiaamu.com/OnePlus_Roms/</a> 我目前知道的官方ROM的唯一渠道<br><a href="https://github.com/ssut/payload-dumper-go">https://github.com/ssut/payload-dumper-go</a>  An android OTA payload dumper written in Go.<br>KernelSU<br>LSPosed </p>
-]]></content>
-  </entry>
-  <entry>
-    <title>博客新主题-Fluid入门体验</title>
-    <url>/2025/06/27/%E5%8D%9A%E5%AE%A2%E6%96%B0%E4%B8%BB%E9%A2%98-Fluid%E5%85%A5%E9%97%A8%E4%BD%93%E9%AA%8C/</url>
-    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>安装、更新与卸载。 &amp; 配置<br>特色功能：</p>
-<ul>
-<li>index_img</li>
-<li>打字机 &amp; slogan</li>
-<li>背景图</li>
-</ul>
-<p>文章：</p>
-<ul>
-<li>LaTex</li>
-<li>Mermaid</li>
-<li>组图</li>
-</ul>
-<h1 id="主题管理"><a href="#主题管理" class="headerlink" title="主题管理"></a>主题管理</h1><p>第一次安装next主题，没有用NPM，直接下的源码包。放到了themes文件夹里。这样做的坏处是：如果要更新新版的next要下载新版的源码包。重新放在thmems文件夹。更可怕的是：原来的_config.yml(next的)可能和新版的不兼容。又要重新写一遍。<br>删除方法很简单：直接把thmem&#x2F;next删掉就好了</p>
-<p>所以这次装fluid学聪明了。使用npm安装<code>npm  install --save hexo-theme-fluid</code></p>
-<ul>
-<li>如果要更新的话<ul>
-<li><code>npm outdated</code>查看可安装的包</li>
-<li><code>npm update hexo-theme-fluid</code> update~</li>
-</ul>
-</li>
-<li>如果要删除主题&#x2F;包<ul>
-<li><code>npm uninstall hexo-theme-fluid</code></li>
-</ul>
-</li>
-</ul>
-<p>我有两个用心配置的主题：Fluid, Next(gemini) 如果一个看腻了，想换一个主题。easy. 在_config.yml theme属性的值改掉就好</p>
-<h1 id="可怕的image"><a href="#可怕的image" class="headerlink" title="可怕的image"></a>可怕的image</h1><h2 id="index-img"><a href="#index-img" class="headerlink" title="index_img"></a>index_img</h2><p>可以给首页的每一条博客插入一个图片。在Fluid中被定义为<code>index_img</code>属性。 需要放在front-matter<br>fluid所有的图片的相对路径在<code>hexo-theme-fluid/source/</code>下。<br>所以<code>index_img</code>应该填的值应该以<code>/img</code>开头。例如<code>img/example.jpg</code> </p>
-<blockquote>
-<p>感觉这挺麻烦的。 不仅要在<code>hexo-theme-fluid/source/</code>这个奇怪的路径下管理资源。<br>当 default_index_img 和 index_img 都为空时，该文章在首页将不显示图片。 default_index_img在_config.fluid.yml设置<br>所有的图片路径都是相对于<code>hexo-theme-fluid/source/</code>, md语法：<code>![NAME](PATH)</code></p>
-</blockquote>
-<h2 id="banner-img"><a href="#banner-img" class="headerlink" title="banner_img"></a>banner_img</h2><p>英语中 banner的意思是：横幅<br>banner image 是每一个网页顶部的大图</p>
-<h1 id="slogan"><a href="#slogan" class="headerlink" title="slogan"></a>slogan</h1><p>进入友链页，打字机的默认输出是：友链。 但是可以改成其他的内容，比如:<em>春风桃李一杯酒</em><br>还有关于页，我们也可以把冰冷的输出“关于”。改成“A Foodie, A Hacker, A Ganster”</p>
-<p>设置友链打字机输出：<br>_config.fluid.yml 找到links的配置，添加属性：<code>subtitle</code>，值 “桃李春风一杯酒”<br>设置友链打字机输出：<br>about 的 index.md，frontend添加subtitle属性</p>
-<h1 id="背景图"><a href="#背景图" class="headerlink" title="背景图"></a>背景图</h1><p>友链页、关于页、标题页、分类页的默认背景都是Fluid的默认图片：Tower. 能不能把他们换成一个系列的呢？比如全套的漫威英雄？或者钢铁侠的机甲。</p>
-<h1 id="边角料"><a href="#边角料" class="headerlink" title="边角料"></a>边角料</h1><h2 id="整体字体"><a href="#整体字体" class="headerlink" title="整体字体"></a>整体字体</h2><p>默认字体太丑了。 我喜欢落霞孤鹜，思源宋体也不错。</p>
-<h2 id="footer"><a href="#footer" class="headerlink" title="footer"></a>footer</h2><p>默认是Hexo love Fluid<br>可以把Hexo 和 Fluid改掉（如果你有女朋友，你女朋友刚好也有一个Blog嘿嘿</p>
-<h2 id="首页更多icons"><a href="#首页更多icons" class="headerlink" title="首页更多icons"></a>首页更多icons</h2><h2 id=""><a href="#" class="headerlink" title=""></a></h2>]]></content>
-  </entry>
-  <entry>
-    <title>办公软件使用技巧</title>
-    <url>/2025/12/12/%E5%8A%9E%E5%85%AC%E8%BD%AF%E4%BB%B6%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/</url>
-    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>知道一些办公类软件可以事半功倍。如PDF阅读器，PS, 编辑器。</p>
-<h1 id="Adobe-Acrobat-PC"><a href="#Adobe-Acrobat-PC" class="headerlink" title="Adobe Acrobat PC"></a>Adobe Acrobat PC</h1><p>双击标签可以重命名 &#x2F;&#x2F;单击就是跳转<br>ctrl + A： 全选标签并删除</p>
-]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>软件</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>博客运营（一）</title>
-    <url>/2025/01/15/%E5%8D%9A%E5%AE%A2%E8%BF%90%E8%90%A5%EF%BC%88%E4%B8%80%EF%BC%89/</url>
-    <content><![CDATA[<h1 id="在哪运营hexo-博客？在哪个路径下、用哪个shell、运行Shell指令"><a href="#在哪运营hexo-博客？在哪个路径下、用哪个shell、运行Shell指令" class="headerlink" title="在哪运营hexo 博客？在哪个路径下、用哪个shell、运行Shell指令"></a>在哪运营hexo 博客？在哪个路径下、用哪个shell、运行Shell指令</h1><p>答：在你的博客文件夹下，右键：git bash here. </p>
-<p>我喜欢git bash shell. 因为它支持: &amp;&amp; 运算符，可以连贯的执行操作。把一连串shell commands视作一个整体。</p>
-<p>很神奇的是，不管在哪打开，只要是&#x2F;Blog路径下，就可以执行和hexo有关的指令。我想是因为把Node添加到了环境变量的缘故。</p>
-<p>&nbsp;</p>
-<h1 id="常用的指令"><a href="#常用的指令" class="headerlink" title="常用的指令"></a>常用的指令</h1><ul>
-<li>新建一篇博客 file.md:  hexo new “Your_blog_title”   &#x2F;&#x2F;执行这行指令会生成一个md文件在_post下。附带了日期。</li>
-<li>hexo new page  Your_blog_name &#x2F;&#x2F;有没有引号都可以。  &#x2F;&#x2F;执行这行指令会生成一个index.md文件在_post&#x2F;Your_blod_name下</li>
-<li>hexo clean. 清理</li>
-</ul>
-<p>&nbsp;</p>
-<h1 id="我发hexo博客的工作流："><a href="#我发hexo博客的工作流：" class="headerlink" title="我发hexo博客的工作流："></a>我发hexo博客的工作流：</h1><p>Step 1：用Joplin写博客。  &#x2F;&#x2F;Joplin简直神器，不多bibi</p>
-<p>Step 2：将写完后的博客导出成md文件：NewPost.md。 &#x2F;&#x2F;Joplin支持导出为markdown。直接导到你的Blog文件夹里。如果有图片：最好导入到_post&#x2F;images. 这样更好管理博客里用的图片路径。</p>
-<p>Step 3：在hexo创建新的博客：hexo new page “Blog_title” . 执行指令会发现_post文件夹下多了一个Blog_tilte.md</p>
-<p>Step 4：把NewPost.md里的内容复制到Blog_title.md.  用VSCode修改：标题、格式、Anything you want。</p>
-<ul>
-<li><input checked="" disabled="" type="checkbox"> 为什么要“多此一举”？</li>
-</ul>
-<p>Joplin的文件不是纯文本。直接粘到VScode里的Blog_title.md 可能忽略图片。会把html css元素带进去。</p>
-<p>缺点，每次在joplin上修改了都要重新导出，所以，隔一段时间再发出更省事。</p>
-<p>VScode推荐装md相关插件：Markdonw All in One, Markdown Preview Enhanced. markdownlint</p>
-<p>Step 5：本地浏览博客，检查、做进一步美化。</p>
-<p>hexo clean   </p>
-<p>hexo g &amp;&amp; hexo s</p>
-<p>Step 6: 修改至满意后运行 hexo d. 将本地的博客上传至网站（github Page，…..）。</p>
-<p>&nbsp;</p>
-]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>和仲敖的SDR日记</title>
-    <url>/2025/03/25/%E5%92%8C%E4%BB%B2%E6%95%96%E7%9A%84SDR%E6%97%A5%E8%AE%B0/</url>
-    <content><![CDATA[<p> 下午逃课和仲敖玩SDR，收听了北京汽车广播。在日记里，我想记下几个难忘的瞬间。</p>
-<img src="https://github.com/OptimusHimself/picx-images-hosting/raw/master/radioandsun.webp" alt="BJUT环能楼楼顶的风景" >
-1仲敖问Deepseek北京电台的信息，然后说：切98，98有音乐！  
-
-<p>2 仲敖生病了依然陪我开箱，陪我安装，搞软件。 非常有耐心地陪我读文档、装软件，今天的成功，离不开我这位好朋友。  </p>
-<p>3 争论SDR# 软件上Bandwidth功能的实现原理，我认为是主板给滤波器发送信号调控硬件中的BPF，而仲敖坚持认为是软件对天线收到的所有信号进行处理。我们用一餐饭打赌，仲敖后来输了。    </p>
-<p>4 起初这条懒狗还不愿意陪我拿快递（当时挺失望的，同时也理解他生病的状态）。不过，后来在我的哄骗下还是一块去了。最后，我问他后悔走“那么多”路去拿快递吗？他表示这份体验很值得（我心里美滋滋的，要是没他陪我，我也玩不到那么好）。他甚至还想上京哈高速上玩，到首都机场听飞行员通信的频段。被我劝住了。我们计划清明前夕一块去，顺便下馆子。  </p>
-<p>5 本人手贱，把SDR# 上预设的bandwidth &#x3D; 200,000改成了2,000，结果什么都听不清。两个小白还以为是地方不够空旷，搬到一个新地方（环能楼顶层）去，结果依然啥也听不清。后来我把bandwidth又调回20万。你懂吧，当时我兴奋地扇自己耳光。替四教5层删的，冤枉你了。  </p>
-<p>6 不愧是C++ 代码王，看教程的时候，我总是有很多模棱两可的地方磨磨唧唧的。而身边的实战派总能帮我过滤掉无用信息，有这么一个果断但又不乏耐心的人陪伴，整活成为我的快乐<br>7 爸爸糖的香蕉味吐司挺好吃的。某人硬吹evian阿尔卑斯的水比农夫山泉的好，斥巨资购买。在我看来，骨子里的癖好是无法改变的。当然，和这位北京小哥成为好朋友完全不是看重这些所谓的“品味”。<br>8 守门员出生的仲敖怕天线摔地上，冲过去护着的样子。很可爱也有些滑稽。<br>今天，我们从开箱到听到FM广播。书本上的死知识：抽象的数学符号、老师随手画的频谱出现在我们眼前。我们不清楚为什么2000的带宽听到的消息信息量那么低，而200,000、180,000就正合适，调成300,000噪声就太多了。我们也不懂天线知识，不知道为什么短天线比长天线收听效果差，我们真的不懂EM wave是咋传播的，我们只知道信号是从西边（海淀）传来的，打开羊角天线，指向日落的方向就能听到音乐。<br>希望和仲敖在SDR的世界中收获更多的兴趣和乐趣。也希望在这个小玩意的引领下，DSP，communication theory, wireless communication三大module取得Aplus!</p>
-]]></content>
-      <categories>
-        <category>整活</category>
-      </categories>
-      <tags>
-        <tag>日记</tag>
-        <tag>SDR入门</tag>
       </tags>
   </entry>
   <entry>
@@ -966,6 +805,175 @@
       </tags>
   </entry>
   <entry>
+    <title>刷机心得</title>
+    <url>/2025/07/25/%E5%88%B7%E6%9C%BA%E5%BF%83%E5%BE%97/</url>
+    <content><![CDATA[<h1 id="梳理1-Ace-3-Pro的“刷机”方案"><a href="#梳理1-Ace-3-Pro的“刷机”方案" class="headerlink" title="梳理1+ Ace 3 Pro的“刷机”方案"></a>梳理1+ Ace 3 Pro的“刷机”方案</h1><h2 id="重要说明"><a href="#重要说明" class="headerlink" title="重要说明"></a>重要说明</h2><ul>
+<li><p>这里说的刷机：只做到了利用 “KenerlSU Hook” 得到设备 Root 权限——当然也是当下比较常见的语意。<br><strong>并没有换第三方ROM</strong>，如 <a href="https://wiki.lineageos.org/devices/">Lineage OS</a>。原因：在我发现 boot.img 的版本和设备型号 &#x2F; ROM 不匹配会让手机变砖后，我决定<strong>拿完 root 就老实</strong>。 </p>
+</li>
+<li><p>Root 方案: KernelSU, 性质都一样（使用LSPosed管理权限）          &#x2F;&#x2F; Magisk尝试了，可能是ColorOS版本太新，Magisk还不支持</p>
+</li>
+<li><p>系统：安卓14及以上。原厂ROM（Color OS 15） 内核版本Linux6 + &#x2F;&#x2F;意味着不能支持“Recovery&#x2F;TWRP” Root方案</p>
+</li>
+</ul>
+<h2 id="第一步：解BL锁。"><a href="#第一步：解BL锁。" class="headerlink" title="第一步：解BL锁。"></a>第一步：解BL锁。</h2><p> 之后会讲BL锁是什么以及为什么必须解开</p>
+<blockquote>
+<p>这一步的关键角色： 一个能解BL的手机。 一台有ADB工具的电脑（其实手机也可以），一根数据线。</p>
+<blockquote>
+<p>tips: 大侠阿木的刷机工具箱就相当于是对ADB的用户友好的封装。而且集成了很多有用的功能。可以说刷机小白必备。而且，（我猜）这款工具适用于其他能解BL锁的手机</p>
+</blockquote>
+</blockquote>
+<p>解BL锁有两种做法，步骤都很简单。</p>
+<ol>
+<li>使用大侠阿木的工具箱。 一键解锁。</li>
+<li>使用ADB命令。 自己网上查：xxx设备 解BL锁。</li>
+</ol>
+<p>额外说明：</p>
+<ul>
+<li>解BL锁本身不难。只要设备能解BL锁。 </li>
+<li>第一步成功的标志：重启手机，你可以看到第一个页面（启动页面）出现类似：device unlocked, orange mode之类字样。</li>
+</ul>
+<h2 id="第二步：-magisk打补丁-Hook"><a href="#第二步：-magisk打补丁-Hook" class="headerlink" title="第二步： magisk打补丁&#x2F;Hook"></a>第二步： magisk打补丁&#x2F;Hook</h2><blockquote>
+<p>关键角色：同样，一台有ADB工具的电脑。 当前系统的ROM（.zip格式）。解了BL锁的手机并安装magisk</p>
+</blockquote>
+<p>流程&#x2F;原理： </p>
+<ol>
+<li>下载当前设备ROM</li>
+<li>从中得到boot.img（未修改）。 </li>
+<li>用magisk修改boot.img。 </li>
+<li>ADB环节：用ADB工具将修改过的boot.img刷入另一个启动分区。并设置设备从该分区启动。</li>
+</ol>
+<p>P.S. KernelSU&#x2F;Magisk等等 Root方案 使用大侠阿木的工具箱都可以一键搞定<br>tips： </p>
+<ol>
+<li>下载ROM一定要仔细比对是不是和当前系统完全一致。 不只是大版本号，后面的数字、字符串也要一样！！相信我！</li>
+<li>下载的ROM是zip格式。里面不一定带有boot.img。 你需要用到payload-dumper. 具体怎么用去读文档。 </li>
+<li>因为KernelSU在Android OS运行，你需要boot.img上传到手机上。 打开magisk,选中放boot.img的路径。 你应该可以在相同路径下得到要给修补后的boot.img</li>
+<li>useful commands：<br>查看当前启动分区：<code>fastboot getvar current-slot</code><br>把修补后的boot.img刷写到另一个分区 <code>fastboot flash boot_a kernerlSU-patched-boot.img</code><br>修改默认boot分区： <code>fastboot --set-active=a</code></li>
+</ol>
+<p>说明<br>如果成功了，打开Magisk(面具App)，显示“已激活”。说明root成功。接下来就是安装一些模块让root隐身。让应用程序检查不出设备root的痕迹。</p>
+<h2 id="第二步：但是KernelSU"><a href="#第二步：但是KernelSU" class="headerlink" title="第二步：但是KernelSU"></a>第二步：但是KernelSU</h2><blockquote>
+</blockquote>
+<p>for 小白：1+工具箱一键搞定。<br>步骤&#x2F;原理：</p>
+<h2 id="第三步：-KernelSU安装Zygisk等模块，更好的隐藏root"><a href="#第三步：-KernelSU安装Zygisk等模块，更好的隐藏root" class="headerlink" title="第三步： KernelSU安装Zygisk等模块，更好的隐藏root"></a>第三步： KernelSU安装Zygisk等模块，更好的隐藏root</h2><h2 id="菜逼的唠嗑"><a href="#菜逼的唠嗑" class="headerlink" title="菜逼的唠嗑"></a>菜逼的唠嗑</h2><p>所谓的组合键是用来进入fastboot模式的。完全可以用ADB来实现<br><code>adb devices</code><br><code>adb reboot bootloader</code><br><code>fastboot devices</code>  可以看到成功进入fastboot mode</p>
+<p>聊聊KernelSU：个人感觉比Magisk强大，易于使用。 因为在工具箱使用中发现Magisk root并不成功。而KernelSU一键解决了</p>
+<p>你常听到的boot, recovery mode, fastboot mode, TWRP:<br>似乎是Android 8 之后就开始采用“boot_a boot_b”滚动更新的方案了。 当你的手机系统（color OS 14）发布新版本(Color OS 15)。他会在a分区保留当前的Color OS 14的boot.img, 把Color OS 15的boot.img下载到b分区。 当你确认更新系统，install Color OS 15, 下一次启动将使用boot_b分区</p>
+<p>给新手的建议：<br>刷机这事吧，难也不难。教程一堆，10年前就有很多前辈玩得明明白白了。 但碎片化严重，大堆专业术语，没搞明白原理很可能看着手机变砖。<br>关键是要搞清楚你的设备获取root权限的原理。 KernelSU， magisk的原理。这篇博客并没有用心的介绍每个技术名词的百科。 一方面是自己的知识深度和表达能力的限制。另一方面是想留给各位探索。 个人认为：整活多少伴随一段知识积累的过程。</p>
+<p>担心变砖？<br>没有必要因为这份顾虑阻碍了前进。<br>就算变砖了也一定能修好的。相信我，不难。你可以试试下载正确版本的ROM，把boot.img刷到boot_a, boot_b. （fastboot flash boot_a boot_b IMG-PATH）</p>
+<p>不要随便更新系统，除非看到有人把LSPosed做好了</p>
+<h2 id="Resources"><a href="#Resources" class="headerlink" title="Resources"></a>Resources</h2><p><a href="https://optool.daxiaamu.com/optool/">https://optool.daxiaamu.com/optool/</a>   一加全能工具箱(PC端使用)<br><a href="https://yun.daxiaamu.com/OnePlus_Roms/">https://yun.daxiaamu.com/OnePlus_Roms/</a> 我目前知道的官方ROM的唯一渠道<br><a href="https://github.com/ssut/payload-dumper-go">https://github.com/ssut/payload-dumper-go</a>  An android OTA payload dumper written in Go.<br>KernelSU<br>LSPosed </p>
+]]></content>
+  </entry>
+  <entry>
+    <title>办公软件使用技巧</title>
+    <url>/2025/12/12/%E5%8A%9E%E5%85%AC%E8%BD%AF%E4%BB%B6%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/</url>
+    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>知道一些办公类软件可以事半功倍。如PDF阅读器，PS, 编辑器。</p>
+<h1 id="Adobe-Acrobat-PC"><a href="#Adobe-Acrobat-PC" class="headerlink" title="Adobe Acrobat PC"></a>Adobe Acrobat PC</h1><p>双击标签可以重命名 &#x2F;&#x2F;单击就是跳转<br>ctrl + A： 全选标签并删除</p>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>软件</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>博客新主题-Fluid入门体验</title>
+    <url>/2025/06/27/%E5%8D%9A%E5%AE%A2%E6%96%B0%E4%B8%BB%E9%A2%98-Fluid%E5%85%A5%E9%97%A8%E4%BD%93%E9%AA%8C/</url>
+    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>安装、更新与卸载。 &amp; 配置<br>特色功能：</p>
+<ul>
+<li>index_img</li>
+<li>打字机 &amp; slogan</li>
+<li>背景图</li>
+</ul>
+<p>文章：</p>
+<ul>
+<li>LaTex</li>
+<li>Mermaid</li>
+<li>组图</li>
+</ul>
+<h1 id="主题管理"><a href="#主题管理" class="headerlink" title="主题管理"></a>主题管理</h1><p>第一次安装next主题，没有用NPM，直接下的源码包。放到了themes文件夹里。这样做的坏处是：如果要更新新版的next要下载新版的源码包。重新放在thmems文件夹。更可怕的是：原来的_config.yml(next的)可能和新版的不兼容。又要重新写一遍。<br>删除方法很简单：直接把thmem&#x2F;next删掉就好了</p>
+<p>所以这次装fluid学聪明了。使用npm安装<code>npm  install --save hexo-theme-fluid</code></p>
+<ul>
+<li>如果要更新的话<ul>
+<li><code>npm outdated</code>查看可安装的包</li>
+<li><code>npm update hexo-theme-fluid</code> update~</li>
+</ul>
+</li>
+<li>如果要删除主题&#x2F;包<ul>
+<li><code>npm uninstall hexo-theme-fluid</code></li>
+</ul>
+</li>
+</ul>
+<p>我有两个用心配置的主题：Fluid, Next(gemini) 如果一个看腻了，想换一个主题。easy. 在_config.yml theme属性的值改掉就好</p>
+<h1 id="可怕的image"><a href="#可怕的image" class="headerlink" title="可怕的image"></a>可怕的image</h1><h2 id="index-img"><a href="#index-img" class="headerlink" title="index_img"></a>index_img</h2><p>可以给首页的每一条博客插入一个图片。在Fluid中被定义为<code>index_img</code>属性。 需要放在front-matter<br>fluid所有的图片的相对路径在<code>hexo-theme-fluid/source/</code>下。<br>所以<code>index_img</code>应该填的值应该以<code>/img</code>开头。例如<code>img/example.jpg</code> </p>
+<blockquote>
+<p>感觉这挺麻烦的。 不仅要在<code>hexo-theme-fluid/source/</code>这个奇怪的路径下管理资源。<br>当 default_index_img 和 index_img 都为空时，该文章在首页将不显示图片。 default_index_img在_config.fluid.yml设置<br>所有的图片路径都是相对于<code>hexo-theme-fluid/source/</code>, md语法：<code>![NAME](PATH)</code></p>
+</blockquote>
+<h2 id="banner-img"><a href="#banner-img" class="headerlink" title="banner_img"></a>banner_img</h2><p>英语中 banner的意思是：横幅<br>banner image 是每一个网页顶部的大图</p>
+<h1 id="slogan"><a href="#slogan" class="headerlink" title="slogan"></a>slogan</h1><p>进入友链页，打字机的默认输出是：友链。 但是可以改成其他的内容，比如:<em>春风桃李一杯酒</em><br>还有关于页，我们也可以把冰冷的输出“关于”。改成“A Foodie, A Hacker, A Ganster”</p>
+<p>设置友链打字机输出：<br>_config.fluid.yml 找到links的配置，添加属性：<code>subtitle</code>，值 “桃李春风一杯酒”<br>设置友链打字机输出：<br>about 的 index.md，frontend添加subtitle属性</p>
+<h1 id="背景图"><a href="#背景图" class="headerlink" title="背景图"></a>背景图</h1><p>友链页、关于页、标题页、分类页的默认背景都是Fluid的默认图片：Tower. 能不能把他们换成一个系列的呢？比如全套的漫威英雄？或者钢铁侠的机甲。</p>
+<h1 id="边角料"><a href="#边角料" class="headerlink" title="边角料"></a>边角料</h1><h2 id="整体字体"><a href="#整体字体" class="headerlink" title="整体字体"></a>整体字体</h2><p>默认字体太丑了。 我喜欢落霞孤鹜，思源宋体也不错。</p>
+<h2 id="footer"><a href="#footer" class="headerlink" title="footer"></a>footer</h2><p>默认是Hexo love Fluid<br>可以把Hexo 和 Fluid改掉（如果你有女朋友，你女朋友刚好也有一个Blog嘿嘿</p>
+<h2 id="首页更多icons"><a href="#首页更多icons" class="headerlink" title="首页更多icons"></a>首页更多icons</h2><h2 id=""><a href="#" class="headerlink" title=""></a></h2>]]></content>
+  </entry>
+  <entry>
+    <title>博客运营（一）</title>
+    <url>/2025/01/15/%E5%8D%9A%E5%AE%A2%E8%BF%90%E8%90%A5%EF%BC%88%E4%B8%80%EF%BC%89/</url>
+    <content><![CDATA[<h1 id="在哪运营hexo-博客？在哪个路径下、用哪个shell、运行Shell指令"><a href="#在哪运营hexo-博客？在哪个路径下、用哪个shell、运行Shell指令" class="headerlink" title="在哪运营hexo 博客？在哪个路径下、用哪个shell、运行Shell指令"></a>在哪运营hexo 博客？在哪个路径下、用哪个shell、运行Shell指令</h1><p>答：在你的博客文件夹下，右键：git bash here. </p>
+<p>我喜欢git bash shell. 因为它支持: &amp;&amp; 运算符，可以连贯的执行操作。把一连串shell commands视作一个整体。</p>
+<p>很神奇的是，不管在哪打开，只要是&#x2F;Blog路径下，就可以执行和hexo有关的指令。我想是因为把Node添加到了环境变量的缘故。</p>
+<p>&nbsp;</p>
+<h1 id="常用的指令"><a href="#常用的指令" class="headerlink" title="常用的指令"></a>常用的指令</h1><ul>
+<li>新建一篇博客 file.md:  hexo new “Your_blog_title”   &#x2F;&#x2F;执行这行指令会生成一个md文件在_post下。附带了日期。</li>
+<li>hexo new page  Your_blog_name &#x2F;&#x2F;有没有引号都可以。  &#x2F;&#x2F;执行这行指令会生成一个index.md文件在_post&#x2F;Your_blod_name下</li>
+<li>hexo clean. 清理</li>
+</ul>
+<p>&nbsp;</p>
+<h1 id="我发hexo博客的工作流："><a href="#我发hexo博客的工作流：" class="headerlink" title="我发hexo博客的工作流："></a>我发hexo博客的工作流：</h1><p>Step 1：用Joplin写博客。  &#x2F;&#x2F;Joplin简直神器，不多bibi</p>
+<p>Step 2：将写完后的博客导出成md文件：NewPost.md。 &#x2F;&#x2F;Joplin支持导出为markdown。直接导到你的Blog文件夹里。如果有图片：最好导入到_post&#x2F;images. 这样更好管理博客里用的图片路径。</p>
+<p>Step 3：在hexo创建新的博客：hexo new page “Blog_title” . 执行指令会发现_post文件夹下多了一个Blog_tilte.md</p>
+<p>Step 4：把NewPost.md里的内容复制到Blog_title.md.  用VSCode修改：标题、格式、Anything you want。</p>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> 为什么要“多此一举”？</li>
+</ul>
+<p>Joplin的文件不是纯文本。直接粘到VScode里的Blog_title.md 可能忽略图片。会把html css元素带进去。</p>
+<p>缺点，每次在joplin上修改了都要重新导出，所以，隔一段时间再发出更省事。</p>
+<p>VScode推荐装md相关插件：Markdonw All in One, Markdown Preview Enhanced. markdownlint</p>
+<p>Step 5：本地浏览博客，检查、做进一步美化。</p>
+<p>hexo clean   </p>
+<p>hexo g &amp;&amp; hexo s</p>
+<p>Step 6: 修改至满意后运行 hexo d. 将本地的博客上传至网站（github Page，…..）。</p>
+<p>&nbsp;</p>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>和仲敖的SDR日记</title>
+    <url>/2025/03/25/%E5%92%8C%E4%BB%B2%E6%95%96%E7%9A%84SDR%E6%97%A5%E8%AE%B0/</url>
+    <content><![CDATA[<p> 下午逃课和仲敖玩SDR，收听了北京汽车广播。在日记里，我想记下几个难忘的瞬间。</p>
+<img src="https://github.com/OptimusHimself/picx-images-hosting/raw/master/radioandsun.webp" alt="BJUT环能楼楼顶的风景" >
+1仲敖问Deepseek北京电台的信息，然后说：切98，98有音乐！  
+
+<p>2 仲敖生病了依然陪我开箱，陪我安装，搞软件。 非常有耐心地陪我读文档、装软件，今天的成功，离不开我这位好朋友。  </p>
+<p>3 争论SDR# 软件上Bandwidth功能的实现原理，我认为是主板给滤波器发送信号调控硬件中的BPF，而仲敖坚持认为是软件对天线收到的所有信号进行处理。我们用一餐饭打赌，仲敖后来输了。    </p>
+<p>4 起初这条懒狗还不愿意陪我拿快递（当时挺失望的，同时也理解他生病的状态）。不过，后来在我的哄骗下还是一块去了。最后，我问他后悔走“那么多”路去拿快递吗？他表示这份体验很值得（我心里美滋滋的，要是没他陪我，我也玩不到那么好）。他甚至还想上京哈高速上玩，到首都机场听飞行员通信的频段。被我劝住了。我们计划清明前夕一块去，顺便下馆子。  </p>
+<p>5 本人手贱，把SDR# 上预设的bandwidth &#x3D; 200,000改成了2,000，结果什么都听不清。两个小白还以为是地方不够空旷，搬到一个新地方（环能楼顶层）去，结果依然啥也听不清。后来我把bandwidth又调回20万。你懂吧，当时我兴奋地扇自己耳光。替四教5层删的，冤枉你了。  </p>
+<p>6 不愧是C++ 代码王，看教程的时候，我总是有很多模棱两可的地方磨磨唧唧的。而身边的实战派总能帮我过滤掉无用信息，有这么一个果断但又不乏耐心的人陪伴，整活成为我的快乐<br>7 爸爸糖的香蕉味吐司挺好吃的。某人硬吹evian阿尔卑斯的水比农夫山泉的好，斥巨资购买。在我看来，骨子里的癖好是无法改变的。当然，和这位北京小哥成为好朋友完全不是看重这些所谓的“品味”。<br>8 守门员出生的仲敖怕天线摔地上，冲过去护着的样子。很可爱也有些滑稽。<br>今天，我们从开箱到听到FM广播。书本上的死知识：抽象的数学符号、老师随手画的频谱出现在我们眼前。我们不清楚为什么2000的带宽听到的消息信息量那么低，而200,000、180,000就正合适，调成300,000噪声就太多了。我们也不懂天线知识，不知道为什么短天线比长天线收听效果差，我们真的不懂EM wave是咋传播的，我们只知道信号是从西边（海淀）传来的，打开羊角天线，指向日落的方向就能听到音乐。<br>希望和仲敖在SDR的世界中收获更多的兴趣和乐趣。也希望在这个小玩意的引领下，DSP，communication theory, wireless communication三大module取得Aplus!</p>
+]]></content>
+      <categories>
+        <category>整活</category>
+      </categories>
+      <tags>
+        <tag>日记</tag>
+        <tag>SDR入门</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>在hexo博客中插入图片(方案汇总)</title>
     <url>/2025/03/09/%E5%9C%A8hexo%E5%8D%9A%E5%AE%A2%E4%B8%AD%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E3%80%90%E6%96%B9%E6%A1%88%E6%B1%87%E6%80%BB%E3%80%91/</url>
     <content><![CDATA[<h1 id="放弃的方案："><a href="#放弃的方案：" class="headerlink" title="放弃的方案："></a>放弃的方案：</h1><h2 id="原生的-hexo-add-on-hexo-asset"><a href="#原生的-hexo-add-on-hexo-asset" class="headerlink" title="原生的 hexo add on: hexo-asset"></a>原生的 hexo add on: hexo-asset</h2><p><code>post_asset_folder: false #true</code></p>
@@ -995,35 +1003,12 @@
       </tags>
   </entry>
   <entry>
-    <title>jyy课堂笔记</title>
-    <url>/2025/06/30/jyy%E8%AF%BE%E5%A0%82%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<p>jyy的课件做得很好。但是听jyy的课我从不看标题。 只听他的内容，因为他懂的太多了，即便有标题，他也时常即兴起来拓展了很多偏离标题但是启发我的内容。</p>
-<p>听jyy的课不止能获取新知识、听到高效的学习方法。 他的课堂有一种长者的关怀，我从中吸收正能量。原本对很多事情感到不自信、畏惧开始。在补充完正能量后，又对计算机知识充满热情。我想，即便我本科毕业后、从事研究生、博士生的研究工作，遇到瓶颈时也可以拿出他最新的视频看一看、学一学。</p>
-<p>第一节课jyy用大量的例子鼓励我们使用AI，尤其是在学习他的OS课程中。谈到Academic Integrity他还说了一个不一样的观点：我们可以在遇到问题时使用AI。 但你不能把整个问题丢给他。这门课的Policy是让学生学到技能。当你意识到这一点，监督自己使用AI的方式，你就做到了“学术诚信”。 ————我醒悟到曾经用偷懒，把全部问题丢给AI快速取得分数的愚蠢。我不仅没有学到这门课的知识，也浪费了探索AI prompt的机会。</p>
-]]></content>
-  </entry>
-  <entry>
     <title>大学找对象方案</title>
     <url>/2025/09/06/%E5%A4%A7%E5%AD%A6%E6%89%BE%E5%AF%B9%E8%B1%A1%E6%96%B9%E6%A1%88/</url>
     <content><![CDATA[<p>好久没写博客了，写一篇水着玩玩</p>
 <p>一个人在外地上大学，是否希望找一个对象，生活上有一个陪伴，学习上互相鼓励？探寻了多个伴侣之间的恋爱故事，我发现，想和一个约上会，需要合适的机遇。<br>你可以等。但是，你都来找攻略了，自然是不想等的。假如你已经看上了一个人。尤其是，你觉得ta也可能喜欢你。你还知道她是xxx学院，几年级，是否具备谈起来的条件。以下是方法：<br>去食堂的时候，不要带手机、也不要带校园卡。当你看到她时，你就礼貌地说：“同学，我没带校园卡，可以帮我刷一下吗？我wx转给你”。等她刷完，你不好意思地说：同学，我手机没带。可以记一下我wx号吗？</p>
 <p>认识我的人，看了这篇文章可能会说：tyrone，真没想到你也会想这些东西。<br>拜托，我也是人，也是个直男。有想追的女生不过分吧。至于我为什么能想到这个方法。Emmm，可能是保研期间疯狂陶瓷，和老师打交道多了，懂了些人情世故？锻炼了胆量？</p>
 ]]></content>
-  </entry>
-  <entry>
-    <title>手台入门教程</title>
-    <url>/2025/06/08/%E6%89%8B%E5%8F%B0%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/</url>
-    <content><![CDATA[<blockquote>
-<p>令我印象最深刻的经历，就是用Scan扫到中继的信号，听友台们的信号。在不知道亚音、频差的情况下傻乎乎的念：CQ CQ CQ, 这里是BD1BBU呼叫。Bravo Delta One Bravo Bravo Uniform 请求插入。 然后每一个人理我。 ——好家伙，啥都不会就干中继了🤣</p>
-</blockquote>
-<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>认识UVK6的按键：F键、菜单键<br>认识菜单的常用功能：存储信道；设置上、下行亚音；设置频差；Scan功能<br>实操：寻找中继台的高效办法，</p>
-]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>HAM</tag>
-      </tags>
   </entry>
   <entry>
     <title>张大厨家的菜谱</title>
@@ -1375,6 +1360,21 @@
       </tags>
   </entry>
   <entry>
+    <title>手台入门教程</title>
+    <url>/2025/06/08/%E6%89%8B%E5%8F%B0%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/</url>
+    <content><![CDATA[<blockquote>
+<p>令我印象最深刻的经历，就是用Scan扫到中继的信号，听友台们的信号。在不知道亚音、频差的情况下傻乎乎的念：CQ CQ CQ, 这里是BD1BBU呼叫。Bravo Delta One Bravo Bravo Uniform 请求插入。 然后每一个人理我。 ——好家伙，啥都不会就干中继了🤣</p>
+</blockquote>
+<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>认识UVK6的按键：F键、菜单键<br>认识菜单的常用功能：存储信道；设置上、下行亚音；设置频差；Scan功能<br>实操：寻找中继台的高效办法，</p>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>HAM</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>插入图片</title>
     <url>/2026/05/08/%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/</url>
     <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>这篇博客本是用来测试的。内容非常杂乱。好在它发挥了她的价值，记录了测试结果，也让我发现了规律。</p>
@@ -1403,6 +1403,25 @@
 <li>人家说的明明是：<code>E:\Blogs\source\img</code>，我拐了一大个弯： <code>E:\Blogs\node_modules\hexo-theme-fluid\source\img </code></li>
 </ul>
 <p>也是在今天的探索后，我对静态博客框架的态度更加明朗——原来，塞个图片也不是那么难！幻想以后图文并茂的博客（美滋滋！）<br>曾今有蛮长一段时间因为繁琐的操作，笔记都用知乎。yysy，知乎除了有内容监管，其他也挺好。多端可编辑。适合新手。总之，我将回归静态博客，提升博客内容质量。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>摸底-提问</title>
+    <url>/2025/11/27/%E6%91%B8%E5%BA%95-%E6%8F%90%E9%97%AE/</url>
+    <content><![CDATA[<p>以下内容仅供娱乐。记录一下自己现在的知识水平（最近的学习有些被动了，</p>
+<p>一、测试一个人的<strong>计算机综合水平</strong>，你只需要问：<br>尽可能仔细地描述按下笔记本开机键到亮屏、进入系统以及进入系统之后的30s，电脑内部发生的事情。<br>给他足够的时间。你听他提到了哪些术语(grub, fstab, kernel….)，中间会不会分类讨论展开讲比如按下xxx按键可以进入xxx模式，大概就知道他懂得多深。</p>
+<p>二、测试一个人<strong>对前后端开发的理解</strong>有多深，你只需要问：<br>从手机屏幕点击微信图标到搜索联系人meipo，发送消息、接收消息。这些过程你的手机和服务器都做了什么。</p>
+<p>三、测试一个人<strong>计算机网络基础普及程度</strong>：<br>（这个我比较菜，我可能会考：DHCP联网的全过程。再考一些交叉问题：浏览器访问 github 全过程。</p>
+<p>四、linux 玩得六不六<br>（我也刚接触没多久），可能会问和包管理器相关的内容。再考考 LFS 的内容。再考一个怎么退出 vim（</p>
+<p>五、大模型与深度学习 &#x2F;&#x2F;这个我更没发言权，我还想起当时在北理工珠海校区被按地摩擦。。。</p>
+<ol>
+<li><p>我会问，大模型的幻觉现象。（其实我自己也不是很清楚</p>
+</li>
+<li><p>当前大模型有什么问题，是什么原因导致的。<br>我会说，当你给了多个关键词和一个需求时，大模型不太能判断这几个关键词和目标组成的逻辑网是否成立，是否会遇到阻碍。</p>
+</li>
+<li><p>偏工程性的话，我会问：阐述“在 deepseek.chat.com 发送一段文字，到浏览器出现AI的回复”这个一过程中，服务器和你的浏览器干了什么。</p>
+</li>
+</ol>
 ]]></content>
   </entry>
   <entry>
@@ -1447,30 +1466,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>摸底-提问</title>
-    <url>/2025/11/27/%E6%91%B8%E5%BA%95-%E6%8F%90%E9%97%AE/</url>
-    <content><![CDATA[<p>以下内容仅供娱乐。记录一下自己现在的知识水平（最近的学习有些被动了，</p>
-<p>一、测试一个人的<strong>计算机综合水平</strong>，你只需要问：<br>尽可能仔细地描述按下笔记本开机键到亮屏、进入系统以及进入系统之后的30s，电脑内部发生的事情。<br>给他足够的时间。你听他提到了哪些术语(grub, fstab, kernel….)，中间会不会分类讨论展开讲比如按下xxx按键可以进入xxx模式，大概就知道他懂得多深。</p>
-<p>二、测试一个人<strong>对前后端开发的理解</strong>有多深，你只需要问：<br>从手机屏幕点击微信图标到搜索联系人meipo，发送消息、接收消息。这些过程你的手机和服务器都做了什么。</p>
-<p>三、测试一个人<strong>计算机网络基础普及程度</strong>：<br>（这个我比较菜，我可能会考：DHCP联网的全过程。再考一些交叉问题：浏览器访问 github 全过程。</p>
-<p>四、linux 玩得六不六<br>（我也刚接触没多久），可能会问和包管理器相关的内容。再考考 LFS 的内容。再考一个怎么退出 vim（</p>
-<p>五、大模型与深度学习 &#x2F;&#x2F;这个我更没发言权，我还想起当时在北理工珠海校区被按地摩擦。。。</p>
-<ol>
-<li><p>我会问，大模型的幻觉现象。（其实我自己也不是很清楚</p>
-</li>
-<li><p>当前大模型有什么问题，是什么原因导致的。<br>我会说，当你给了多个关键词和一个需求时，大模型不太能判断这几个关键词和目标组成的逻辑网是否成立，是否会遇到阻碍。</p>
-</li>
-<li><p>偏工程性的话，我会问：阐述“在 deepseek.chat.com 发送一段文字，到浏览器出现AI的回复”这个一过程中，服务器和你的浏览器干了什么。</p>
-</li>
-</ol>
-]]></content>
-  </entry>
-  <entry>
-    <title>约定式提交</title>
-    <url>/2025/07/07/%E7%BA%A6%E5%AE%9A%E5%BC%8F%E6%8F%90%E4%BA%A4/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
     <title>科学上网</title>
     <url>/2025/04/29/%E7%94%A8%E5%A5%BD%E4%BB%A3%E7%90%86/</url>
     <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>重要内容：<strong>代理软件常用功能</strong>的解释，整活常见涉及到的Proxy命令<br>不会包含的内容：1.推荐机场 2.代理软件的推荐</p>
@@ -1492,6 +1487,11 @@
       <tags>
         <tag>Clash Proxy Server</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>约定式提交</title>
+    <url>/2025/07/07/%E7%BA%A6%E5%AE%9A%E5%BC%8F%E6%8F%90%E4%BA%A4/</url>
+    <content><![CDATA[]]></content>
   </entry>
   <entry>
     <title>考前突击方案</title>
@@ -1524,6 +1524,35 @@
 ]]></content>
       <tags>
         <tag>学习方法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>计网学习笔记</title>
+    <url>/2025/06/16/%E8%AE%A1%E7%BD%91%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>屎一样的笔记。</p>
+<blockquote>
+<p>我希望这辈子能挖到一个21世纪的网络漏洞。</p>
+</blockquote>
+<h1 id="DHCP服务器"><a href="#DHCP服务器" class="headerlink" title="DHCP服务器"></a>DHCP服务器</h1><p>为什么host广播用的<code>DHCPDISCOVER包</code>，能被DHCP服务器收到并处理，为什么<code>源IP</code>必须是<code>0.0.0.0</code> <code>目的IP</code>必须是<code>255.255.255.255</code>？</p>
+<h2 id="特殊IP地址"><a href="#特殊IP地址" class="headerlink" title="特殊IP地址"></a>特殊IP地址</h2><p>DHCPDISCOVER广播包会被<strong>同一网段上所有主机的IP协议栈</strong>接收，<strong>但只有运行着DHCP服务器软件并监听UDP端口67的主机</strong>才会在UDP&#x2F;应用层处理这个请求并做出响应。其他主机的UDP层会因为端口67未被使用而丢弃该数据报。0.0.0.0和255.255.255.255保证了广播能被发送并被所有IP栈接收，而端口67则确保了只有DHCP服务器应用会处理它。</p>
+<p>其他非DHCP主机不会运行67进程，自然也不会对<code>DHCPDISCOVER包</code>进行处理</p>
+<h1 id="“NIC-“-“网卡”"><a href="#“NIC-“-“网卡”" class="headerlink" title="“NIC “ “网卡”"></a>“NIC “ “网卡”</h1><p>链路层的主体部分是在网络适配器中实现的。网络适配器有时也称为网络接口卡</p>
+<h2 id="PCI-PCIe"><a href="#PCI-PCIe" class="headerlink" title="PCI &amp; PCIe"></a>PCI &amp; PCIe</h2><p>PCI Peripheral Component Interconnect  </p>
+<ul>
+<li>传统总线协议</li>
+<li>PCIe Peripheral Component Interconnect Express </li>
+<li>快速外设组件互连高速串行标准</li>
+<li>Express有快速、高速传输的含义</li>
+<li>两个都是总线协议。 由于对总线传输速度的需求增大，PCI被速度更快的PCIe替代。</li>
+</ul>
+<p>以前经常问的问题：DHCP服务器</p>
+<p>说说我脑中的DHCP Server</p>
+]]></content>
+      <categories>
+        <category>复习笔记</category>
+      </categories>
+      <tags>
+        <tag>计网</tag>
       </tags>
   </entry>
   <entry>
@@ -1572,35 +1601,6 @@
       </tags>
   </entry>
   <entry>
-    <title>计网学习笔记</title>
-    <url>/2025/06/16/%E8%AE%A1%E7%BD%91%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>屎一样的笔记。</p>
-<blockquote>
-<p>我希望这辈子能挖到一个21世纪的网络漏洞。</p>
-</blockquote>
-<h1 id="DHCP服务器"><a href="#DHCP服务器" class="headerlink" title="DHCP服务器"></a>DHCP服务器</h1><p>为什么host广播用的<code>DHCPDISCOVER包</code>，能被DHCP服务器收到并处理，为什么<code>源IP</code>必须是<code>0.0.0.0</code> <code>目的IP</code>必须是<code>255.255.255.255</code>？</p>
-<h2 id="特殊IP地址"><a href="#特殊IP地址" class="headerlink" title="特殊IP地址"></a>特殊IP地址</h2><p>DHCPDISCOVER广播包会被<strong>同一网段上所有主机的IP协议栈</strong>接收，<strong>但只有运行着DHCP服务器软件并监听UDP端口67的主机</strong>才会在UDP&#x2F;应用层处理这个请求并做出响应。其他主机的UDP层会因为端口67未被使用而丢弃该数据报。0.0.0.0和255.255.255.255保证了广播能被发送并被所有IP栈接收，而端口67则确保了只有DHCP服务器应用会处理它。</p>
-<p>其他非DHCP主机不会运行67进程，自然也不会对<code>DHCPDISCOVER包</code>进行处理</p>
-<h1 id="“NIC-“-“网卡”"><a href="#“NIC-“-“网卡”" class="headerlink" title="“NIC “ “网卡”"></a>“NIC “ “网卡”</h1><p>链路层的主体部分是在网络适配器中实现的。网络适配器有时也称为网络接口卡</p>
-<h2 id="PCI-PCIe"><a href="#PCI-PCIe" class="headerlink" title="PCI &amp; PCIe"></a>PCI &amp; PCIe</h2><p>PCI Peripheral Component Interconnect  </p>
-<ul>
-<li>传统总线协议</li>
-<li>PCIe Peripheral Component Interconnect Express </li>
-<li>快速外设组件互连高速串行标准</li>
-<li>Express有快速、高速传输的含义</li>
-<li>两个都是总线协议。 由于对总线传输速度的需求增大，PCI被速度更快的PCIe替代。</li>
-</ul>
-<p>以前经常问的问题：DHCP服务器</p>
-<p>说说我脑中的DHCP Server</p>
-]]></content>
-      <categories>
-        <category>复习笔记</category>
-      </categories>
-      <tags>
-        <tag>计网</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>论持久战</title>
     <url>/2025/03/21/%E8%AE%BA%E6%8C%81%E4%B9%85%E6%88%98/</url>
     <content><![CDATA[<p>从午休后到晚上10点，我全身心投入在模拟通信系统的调制技术的学习中。这是一次伟大的学习过程，因为我学会了“持久”。 我喜欢学习，但我的学习方法不算高效，或者说，在此之前，我没有一个通用的“学习思维”。 我能学好某些知识，归功于我擅长找好的教材、课程，从优质资源中汲取知识。但这只是途径问题，找好的教材是学习的第一步，属于“捷径方法论”。而现在要讨论的是：利用资源和规划时间。因为这一块工作没有做好，会让你在一个领域的开始阶段举步维艰，被那些“懂学习”的人拉开差距。我反思，为什么我作为一个CS专业的学生，到大三了才进入程序设计的全盛、兴趣爆棚的学习状态。慢热，真的好吗？</p>
@@ -1620,6 +1620,18 @@
       </categories>
       <tags>
         <tag>学习方法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>静态博客迁移方案</title>
+    <url>/2026/05/08/%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E8%BF%81%E7%A7%BB%E6%96%B9%E6%A1%88/</url>
+    <content><![CDATA[<p>目前博客遇到的问题：<br>如果有两台工作电脑，都要运营博客，该怎么同步本地的文件？<br>插入图片复杂</p>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>博客</tag>
       </tags>
   </entry>
   <entry>
@@ -1661,18 +1673,6 @@
       </categories>
       <tags>
         <tag>资源分享</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>静态博客迁移方案</title>
-    <url>/2026/05/08/%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E8%BF%81%E7%A7%BB%E6%96%B9%E6%A1%88/</url>
-    <content><![CDATA[<p>目前博客遇到的问题：<br>如果有两台工作电脑，都要运营博客，该怎么同步本地的文件？<br>插入图片复杂</p>
-]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>博客</tag>
       </tags>
   </entry>
 </search>

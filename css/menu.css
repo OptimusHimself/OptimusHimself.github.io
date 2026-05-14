@@ -1,169 +1,957 @@
-/* ===== 菜单页面样式 ===== */
+/* ===== Omakase 菜单页面 — 日式动漫风格 ===== */
+/* 灵感来源: 千与千寻 · 孤独的美食家 · 夏目友人帳 · 日常 · 摇曳露营 */
 
-/* 菜单容器 */
-.menu-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px 0;
+/* ========== 1. 字体引入与变量 ========== */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700;900&family=ZCOOL+KuaiLe&family=Ma+Shan+Zheng&display=swap');
+
+:root {
+  /* 日式配色 */
+  --washi-white: #f5f0e8;
+  --warm-white: #fffdf7;
+  --wood-brown: #8b4513;
+  --lantern-red: #c94040;
+  --lantern-red-light: #e05a5a;
+  --natsume-green: #2d6a4f;
+  --natsume-green-light: #40916c;
+  --noren-blue: #1a5276;
+  --noren-blue-light: #2980b9;
+  --golden: #e2a84b;
+  --golden-light: #f5c77e;
+  --campfire-orange: #d4764a;
+  --ink-black: #2c2c2c;
+  --washi-shadow: rgba(139, 69, 19, 0.12);
+  --washi-shadow-hover: rgba(139, 69, 19, 0.2);
+
+  /* 字体 */
+  --font-japanese: 'Noto Serif JP', 'Hiragino Mincho ProN', 'SimSun', 'STSong', serif;
+  --font-handwrite: 'ZCOOL KuaiLe', 'Ma Shan Zheng', 'KaiTi', cursive;
+
+  /* 暗色模式覆写 (由 JS 控制 data-user-color-scheme) */
 }
 
-/* 菜单分类标题 */
-.menu-category {
-  margin-bottom: 40px;
-}
-
-.menu-category-title {
-  font-size: 1.8rem;
-  font-weight: 700;
-  color: var(--post-heading-color, #1a202c);
-  margin-bottom: 24px;
-  padding-bottom: 12px;
-  border-bottom: 3px solid #e2a84b;
+/* ========== 2. 页面全局氛围 ========== */
+.page-omakase {
+  background-color: var(--washi-white);
+  background-image:
+    /* 模拟和纸纤维纹理 */
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 2px,
+      rgba(139, 69, 19, 0.02) 2px,
+      rgba(139, 69, 19, 0.02) 4px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      transparent,
+      transparent 3px,
+      rgba(139, 69, 19, 0.015) 3px,
+      rgba(139, 69, 19, 0.015) 6px
+    );
+  background-blend-mode: multiply;
   position: relative;
+  min-height: 100vh;
+}
+
+/* 暗色模式适配 */
+[data-user-color-scheme="dark"] .page-omakase {
+  background-color: #1a1a24;
+  background-image:
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 2px,
+      rgba(255, 255, 255, 0.015) 2px,
+      rgba(255, 255, 255, 0.015) 4px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      transparent,
+      transparent 3px,
+      rgba(255, 255, 255, 0.01) 3px,
+      rgba(255, 255, 255, 0.01) 6px
+    );
+}
+
+/* ========== 3. 暖帘横幅 (Noren Banner) ========== */
+.noren-banner {
+  position: relative;
+  width: 100%;
+  height: 160px;
+  margin-bottom: 30px;
+  overflow: hidden;
+  border-radius: 12px;
+  background: linear-gradient(
+    135deg,
+    var(--noren-blue) 0%,
+    #1e3a5f 50%,
+    var(--noren-blue) 100%
+  );
   display: flex;
   align-items: center;
+  justify-content: center;
+}
+
+/* 暖帘条纹 */
+.noren-banner::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    90deg,
+    transparent 0px,
+    transparent 24px,
+    rgba(255, 255, 255, 0.06) 24px,
+    rgba(255, 255, 255, 0.06) 26px
+  );
+}
+
+/* 暖帘垂帘效果 */
+.noren-stripes {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  pointer-events: none;
+}
+
+.noren-stripe {
+  width: 60px;
+  background: linear-gradient(
+    180deg,
+    var(--noren-blue-light) 0%,
+    var(--noren-blue) 15%,
+    var(--noren-blue) 100%
+  );
+  opacity: 0.3;
+  transform: translateY(-2px);
+}
+
+/* 横幅标题 */
+.noren-title {
+  position: relative;
+  z-index: 2;
+  font-family: var(--font-japanese);
+  font-size: 2.8rem;
+  font-weight: 900;
+  color: #fff;
+  text-shadow:
+    0 2px 12px rgba(0, 0, 0, 0.3),
+    0 0 40px rgba(255, 255, 255, 0.1);
+  letter-spacing: 0.15em;
+  text-align: center;
+  line-height: 1.3;
+}
+
+.noren-subtitle {
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 400;
+  font-family: var(--font-handwrite);
+  letter-spacing: 0.3em;
+  opacity: 0.85;
+  margin-top: 6px;
+}
+
+/* 横幅右下角灯笼装饰 */
+.noren-banner .lantern-deco {
+  position: absolute;
+  right: 30px;
+  bottom: -20px;
+  font-size: 3rem;
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
+  animation: lanternSwing 3s ease-in-out infinite;
+  transform-origin: top center;
+}
+
+@keyframes lanternSwing {
+  0%, 100% { transform: rotate(-2deg); }
+  50% { transform: rotate(2deg); }
+}
+
+/* 暗色模式暖帘 */
+[data-user-color-scheme="dark"] .noren-banner {
+  background: linear-gradient(
+    135deg,
+    #0f1f33 0%,
+    #162a44 50%,
+    #0f1f33 100%
+  );
+}
+
+/* ========== 4. 目录导航 / Outline ========== */
+.menu-outline {
+  max-width: 1200px;
+  margin: 0 auto 30px;
+  padding: 20px 25px;
+  background: var(--warm-white);
+  border-radius: 14px;
+  box-shadow:
+    0 2px 12px var(--washi-shadow),
+    inset 0 0 0 1px rgba(139, 69, 19, 0.06);
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.menu-outline:hover {
+  box-shadow:
+    0 4px 20px var(--washi-shadow-hover),
+    inset 0 0 0 1px rgba(226, 168, 75, 0.1);
+}
+
+.menu-outline-title {
+  font-family: var(--font-japanese);
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--wood-brown);
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  letter-spacing: 0.06em;
+}
+
+/* 暖帘小装饰线 */
+.menu-outline-title::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    var(--golden),
+    var(--natsume-green-light),
+    transparent 90%
+  );
+  margin-left: 10px;
+}
+
+.menu-outline-items {
+  display: flex;
+  flex-wrap: wrap;
   gap: 10px;
 }
 
+.menu-outline-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 18px;
+  background: rgba(139, 69, 19, 0.04);
+  border: 1px solid rgba(139, 69, 19, 0.08);
+  border-radius: 25px;
+  font-family: var(--font-japanese);
+  font-size: 0.92rem;
+  font-weight: 500;
+  color: var(--wood-brown);
+  text-decoration: none;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+  letter-spacing: 0.04em;
+}
+
+.menu-outline-item:hover {
+  background: linear-gradient(135deg, var(--lantern-red), var(--campfire-orange));
+  color: #fff;
+  border-color: transparent;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(201, 64, 64, 0.25);
+  text-decoration: none;
+}
+
+.menu-outline-item:active {
+  transform: translateY(0);
+}
+
+/* 暗色模式 Outline */
+[data-user-color-scheme="dark"] .menu-outline {
+  background: #2a2a3a;
+  box-shadow:
+    0 2px 12px rgba(0, 0, 0, 0.3),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.05);
+}
+
+[data-user-color-scheme="dark"] .menu-outline-title {
+  color: var(--golden-light);
+}
+
+[data-user-color-scheme="dark"] .menu-outline-item {
+  background: rgba(255, 255, 255, 0.04);
+  border-color: rgba(255, 255, 255, 0.08);
+  color: #ccc;
+}
+
+[data-user-color-scheme="dark"] .menu-outline-item:hover {
+  background: linear-gradient(135deg, var(--lantern-red), var(--campfire-orange));
+  color: #fff;
+  border-color: transparent;
+}
+
+/* 移动端 Outline */
+@media (max-width: 768px) {
+  .menu-outline {
+    padding: 15px 18px;
+  }
+
+  .menu-outline-items {
+    gap: 8px;
+  }
+
+  .menu-outline-item {
+    font-size: 0.82rem;
+    padding: 6px 14px;
+  }
+}
+
+/* ========== 5. 分类标题 ========== */
+.menu-category-title {
+  font-family: var(--font-japanese);
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--wood-brown);
+  margin-bottom: 24px;
+  padding-bottom: 14px;
+  border-bottom: none;
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  letter-spacing: 0.08em;
+}
+
+/* 分类标题下的和风装饰线 */
 .menu-category-title::after {
   content: '';
   position: absolute;
-  bottom: -3px;
+  bottom: 0;
   left: 0;
-  width: 60px;
+  width: 100%;
   height: 3px;
-  background: linear-gradient(90deg, #e2a84b, #f5c77e);
+  background: linear-gradient(
+    90deg,
+    var(--lantern-red) 0%,
+    var(--golden) 40%,
+    var(--natsume-green) 70%,
+    transparent 100%
+  );
+  border-radius: 2px;
 }
 
-/* 菜单网格 */
-.menu-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 24px;
+/* 分类标题前的和风小图标（用文字 emoji + css 叠加） */
+.menu-category-title::before {
+  content: '🏮';
+  font-size: 1.4rem;
+  filter: drop-shadow(0 1px 3px rgba(0,0,0,0.1));
 }
 
-/* 菜单卡片 */
-.menu-card {
-  background: var(--board-color, #fff);
-  border-radius: 16px;
-  overflow: hidden;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+/* 不同分类不同图标 */
+.menu-category-title[data-icon="main"]::before { content: '🍳'; }
+.menu-category-title[data-icon="side"]::before { content: '🥗'; }
+.menu-category-title[data-icon="soup"]::before { content: '🥣'; }
+.menu-category-title[data-icon="dessert"]::before { content: '🍰'; }
+
+/* 暗色模式分类标题 */
+[data-user-color-scheme="dark"] .menu-category-title {
+  color: var(--golden-light);
+}
+
+/* ========== 5. 菜单容器与网格 ========== */
+.menu-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 15px 60px;
   position: relative;
 }
 
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 28px;
+  margin-bottom: 40px;
+}
+
+/* ========== 6. 卡片 ========== */
+.menu-card {
+  background: var(--warm-white);
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow:
+    0 2px 12px var(--washi-shadow),
+    inset 0 0 0 1px rgba(139, 69, 19, 0.06);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  opacity: 0;
+  animation: fadeInUp 0.6s ease forwards;
+}
+
+/* 日式边框装饰 - 四角 */
+.menu-card::before {
+  content: '';
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: 20px;
+  height: 20px;
+  border-top: 2px solid var(--golden);
+  border-left: 2px solid var(--golden);
+  z-index: 2;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.menu-card::after {
+  content: '';
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  width: 20px;
+  height: 20px;
+  border-bottom: 2px solid var(--golden);
+  border-right: 2px solid var(--golden);
+  z-index: 2;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
 .menu-card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+  transform: translateY(-8px);
+  box-shadow:
+    0 12px 40px var(--washi-shadow-hover),
+    0 0 0 1px rgba(226, 168, 75, 0.15);
+}
+
+.menu-card:hover::before,
+.menu-card:hover::after {
+  opacity: 1;
 }
 
 /* 卡片图片 */
-.menu-card-image {
-  width: 100%;
-  height: 220px;
-  object-fit: cover;
-  display: block;
-  transition: transform 0.5s ease;
-}
-
-.menu-card:hover .menu-card-image {
-  transform: scale(1.08);
-}
-
 .menu-card-image-wrapper {
   overflow: hidden;
   position: relative;
 }
 
-/* 图片上的标签 */
+.menu-card-image {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.6s ease, filter 0.4s ease;
+}
+
+.menu-card:hover .menu-card-image {
+  transform: scale(1.12);
+  filter: brightness(1.08) saturate(1.05);
+}
+
+/* 图片仿《孤独的美食家》暖光 vignette 效果 */
+.menu-card-image-wrapper::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    ellipse at center,
+    transparent 50%,
+    rgba(0, 0, 0, 0.15) 100%
+  );
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.menu-card:hover .menu-card-image-wrapper::after {
+  opacity: 0.4;
+}
+
+/* 标签 Badge */
 .menu-card-badge {
   position: absolute;
   top: 12px;
   right: 12px;
-  background: rgba(226, 168, 75, 0.9);
+  background: linear-gradient(135deg, var(--lantern-red), var(--campfire-orange));
   color: #fff;
-  padding: 4px 12px;
+  padding: 5px 14px;
   border-radius: 20px;
   font-size: 0.75rem;
-  font-weight: 600;
-  backdrop-filter: blur(4px);
+  font-weight: 700;
+  font-family: var(--font-handwrite);
+  letter-spacing: 0.05em;
+  box-shadow: 0 2px 8px rgba(201, 64, 64, 0.3);
+  z-index: 3;
 }
 
 /* 卡片内容 */
 .menu-card-body {
-  padding: 18px 20px 22px;
+  padding: 18px 22px 22px;
 }
 
 .menu-card-title {
-  font-size: 1.2rem;
+  font-family: var(--font-japanese);
+  font-size: 1.25rem;
   font-weight: 700;
-  color: var(--post-heading-color, #1a202c);
+  color: var(--wood-brown);
   margin: 0 0 8px 0;
   line-height: 1.4;
+  letter-spacing: 0.04em;
 }
 
 .menu-card-desc {
-  font-size: 0.9rem;
-  color: var(--sec-text-color, #718096);
-  line-height: 1.6;
+  font-size: 0.88rem;
+  color: #5a5a5a;
+  line-height: 1.7;
   margin: 0;
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
+  font-family: 'Georgia', 'Noto Serif SC', serif;
 }
 
-/* 卡片底部信息 */
+/* 卡片底部 */
 .menu-card-footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-top: 14px;
   padding-top: 14px;
-  border-top: 1px solid var(--line-color, #eaecef);
+  border-top: 1px dashed rgba(139, 69, 19, 0.15);
 }
 
 .menu-card-tag {
   font-size: 0.75rem;
-  color: var(--sec-text-color, #718096);
-  background: var(--button-hover-bg-color, #f2f3f5);
-  padding: 3px 10px;
+  color: #666;
+  background: rgba(139, 69, 19, 0.06);
+  padding: 3px 12px;
   border-radius: 12px;
+  font-family: var(--font-handwrite);
+  letter-spacing: 0.03em;
+  transition: all 0.3s ease;
 }
 
-/* 特色推荐卡片 - 突出显示 */
+.menu-card:hover .menu-card-tag {
+  background: rgba(226, 168, 75, 0.15);
+  color: var(--wood-brown);
+}
+
+/* ========== 7. 特色推荐卡片 ========== */
 .menu-card.featured {
   grid-column: span 2;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  background: linear-gradient(135deg, var(--warm-white), #fdf6ee);
+  border: 1px solid rgba(226, 168, 75, 0.2);
 }
 
 .menu-card.featured .menu-card-image {
   height: 100%;
-  min-height: 280px;
+  min-height: 300px;
 }
 
 .menu-card.featured .menu-card-body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 30px;
+  padding: 30px 35px;
 }
 
 .menu-card.featured .menu-card-title {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
+  color: var(--lantern-red);
 }
 
 .menu-card.featured .menu-card-desc {
   -webkit-line-clamp: 4;
   font-size: 1rem;
+  color: #4a4a4a;
 }
 
-/* 响应式 */
+/* 推荐卡片金边 */
+.menu-card.featured::before,
+.menu-card.featured::after {
+  border-color: var(--lantern-red);
+  opacity: 0.8;
+}
+
+/* ========== 8. 樱花飘落动画 ========== */
+.sakura-container {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9999;
+  overflow: hidden;
+}
+
+.sakura-petal {
+  position: absolute;
+  top: -30px;
+  width: 14px;
+  height: 14px;
+  background: radial-gradient(
+    ellipse at 30% 30%,
+    rgba(255, 182, 193, 0.6),
+    rgba(255, 150, 170, 0.3)
+  );
+  border-radius: 50% 0 50% 0;
+  opacity: 0;
+  animation: sakuraFall linear infinite;
+}
+
+@keyframes sakuraFall {
+  0% {
+    opacity: 0;
+    transform: translateY(0) rotate(0deg) scale(0.6);
+  }
+  5% {
+    opacity: 0.6;
+  }
+  85% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(100vh) rotate(720deg) scale(0.3);
+  }
+}
+
+.sakura-petal:nth-child(1) { left: 5%; width: 12px; height: 12px; animation-duration: 10s; animation-delay: 0s; }
+.sakura-petal:nth-child(2) { left: 15%; width: 10px; height: 10px; animation-duration: 12s; animation-delay: 2s; }
+.sakura-petal:nth-child(3) { left: 25%; width: 14px; height: 14px; animation-duration: 8s; animation-delay: 4s; }
+.sakura-petal:nth-child(4) { left: 40%; width: 11px; height: 11px; animation-duration: 11s; animation-delay: 1s; }
+.sakura-petal:nth-child(5) { left: 55%; width: 13px; height: 13px; animation-duration: 9s; animation-delay: 3s; }
+.sakura-petal:nth-child(6) { left: 70%; width: 10px; height: 10px; animation-duration: 13s; animation-delay: 5s; }
+.sakura-petal:nth-child(7) { left: 82%; width: 12px; height: 12px; animation-duration: 10s; animation-delay: 6s; }
+.sakura-petal:nth-child(8) { left: 92%; width: 9px; height: 9px; animation-duration: 11s; animation-delay: 3.5s; }
+.sakura-petal:nth-child(9) { left: 35%; width: 11px; height: 11px; animation-duration: 14s; animation-delay: 7s; }
+.sakura-petal:nth-child(10) { left: 65%; width: 13px; height: 13px; animation-duration: 9s; animation-delay: 8s; }
+
+/* ========== 9. 页面底部 - 富士山剪影 & 无脸男彩蛋 ========== */
+.omakase-footer {
+  position: relative;
+  width: 100%;
+  height: 160px;
+  margin-top: 40px;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+/* 富士山剪影 */
+.mt-fuji {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 300px;
+  height: 120px;
+  background: linear-gradient(
+    180deg,
+    rgba(44, 44, 44, 0.06) 0%,
+    rgba(44, 44, 44, 0.1) 100%
+  );
+  clip-path: polygon(
+    50% 0%,
+    65% 35%,
+    75% 40%,
+    85% 55%,
+    100% 100%,
+    0% 100%,
+    15% 55%,
+    25% 40%,
+    35% 35%
+  );
+  opacity: 0.5;
+}
+
+/* 富士山雪顶 */
+.mt-fuji::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 30px;
+  background: rgba(255, 255, 255, 0.15);
+  clip-path: polygon(50% 0%, 80% 100%, 20% 100%);
+}
+
+/* 远山层叠 */
+.mt-fuji-back {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-55%);
+  width: 400px;
+  height: 80px;
+  background: rgba(44, 44, 44, 0.04);
+  clip-path: polygon(
+    0% 100%,
+    20% 50%,
+    40% 65%,
+    60% 40%,
+    80% 60%,
+    100% 30%,
+    100% 100%
+  );
+  opacity: 0.4;
+}
+
+/* 无脸男彩蛋 */
+.kaonashi-egg {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 60px;
+  cursor: pointer;
+  pointer-events: auto;
+  z-index: 100;
+  opacity: 0.3;
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.kaonashi-egg:hover {
+  opacity: 0.8;
+  transform: scale(1.3) translateY(-10px);
+}
+
+/* 无脸男 SVG 面具 */
+.kaonashi-mask {
+  width: 100%;
+  height: 100%;
+  fill: none;
+  stroke: var(--ink-black);
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.kaonashi-egg:hover .kaonashi-mask {
+  stroke: var(--lantern-red);
+}
+
+/* 无脸男跳出提示 */
+.kaonashi-tooltip {
+  position: absolute;
+  bottom: 70px;
+  right: -10px;
+  background: var(--warm-white);
+  border: 1px solid rgba(139, 69, 19, 0.15);
+  border-radius: 8px;
+  padding: 6px 12px;
+  font-size: 0.75rem;
+  font-family: var(--font-handwrite);
+  color: var(--wood-brown);
+  white-space: nowrap;
+  opacity: 0;
+  transform: translateY(5px);
+  transition: all 0.3s ease;
+  pointer-events: none;
+  box-shadow: 0 2px 8px var(--washi-shadow);
+}
+
+.kaonashi-egg:hover .kaonashi-tooltip {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ========== 10. 黑暗模式适配 ========== */
+[data-user-color-scheme="dark"] .menu-card {
+  background: #2a2a3a;
+  box-shadow:
+    0 2px 12px rgba(0, 0, 0, 0.3),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.05);
+}
+
+[data-user-color-scheme="dark"] .menu-card:hover {
+  box-shadow:
+    0 12px 40px rgba(0, 0, 0, 0.5),
+    0 0 0 1px rgba(226, 168, 75, 0.15);
+}
+
+[data-user-color-scheme="dark"] .menu-card-title {
+  color: var(--golden-light);
+}
+
+[data-user-color-scheme="dark"] .menu-card-desc {
+  color: #b0b0b0;
+}
+
+[data-user-color-scheme="dark"] .menu-card-tag {
+  background: rgba(255, 255, 255, 0.05);
+  color: #aaa;
+}
+
+[data-user-color-scheme="dark"] .menu-card:hover .menu-card-tag {
+  background: rgba(226, 168, 75, 0.12);
+  color: var(--golden-light);
+}
+
+[data-user-color-scheme="dark"] .menu-card.featured {
+  background: linear-gradient(135deg, #2a2a3a, #222233);
+}
+
+[data-user-color-scheme="dark"] .menu-card::before,
+[data-user-color-scheme="dark"] .menu-card::after {
+  border-color: var(--golden);
+  opacity: 0.3;
+}
+
+[data-user-color-scheme="dark"] .menu-card:hover::before,
+[data-user-color-scheme="dark"] .menu-card:hover::after {
+  opacity: 0.6;
+}
+
+[data-user-color-scheme="dark"] .mt-fuji {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.03) 0%,
+    rgba(255, 255, 255, 0.06) 100%
+  );
+  opacity: 0.3;
+}
+
+[data-user-color-scheme="dark"] .mt-fuji-back {
+  background: rgba(255, 255, 255, 0.03);
+  opacity: 0.2;
+}
+
+[data-user-color-scheme="dark"] .sakura-petal {
+  background: radial-gradient(
+    ellipse at 30% 30%,
+    rgba(255, 150, 170, 0.15),
+    rgba(255, 100, 130, 0.08)
+  );
+}
+
+[data-user-color-scheme="dark"] .kaonashi-mask {
+  stroke: rgba(255, 255, 255, 0.3);
+}
+
+[data-user-color-scheme="dark"] .menu-card-badge {
+  box-shadow: 0 2px 8px rgba(201, 64, 64, 0.2);
+}
+
+/* ========== 11. 蝉鸣氛围 (CSS 音频视觉暗示) ========== */
+.cicada-bg {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  font-size: 1.2rem;
+  opacity: 0.12;
+  pointer-events: none;
+  z-index: 1;
+  animation: cicadaPulse 4s ease-in-out infinite;
+  font-family: var(--font-handwrite);
+}
+
+@keyframes cicadaPulse {
+  0%, 100% { opacity: 0.08; transform: scale(1); }
+  50% { opacity: 0.18; transform: scale(1.05); }
+}
+
+[data-user-color-scheme="dark"] .cicada-bg {
+  opacity: 0.06;
+}
+
+/* ========== 12. 入场动画 ========== */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.menu-card:nth-child(1) { animation-delay: 0.02s; }
+.menu-card:nth-child(2) { animation-delay: 0.04s; }
+.menu-card:nth-child(3) { animation-delay: 0.06s; }
+.menu-card:nth-child(4) { animation-delay: 0.08s; }
+.menu-card:nth-child(5) { animation-delay: 0.10s; }
+.menu-card:nth-child(6) { animation-delay: 0.12s; }
+.menu-card:nth-child(7) { animation-delay: 0.14s; }
+.menu-card:nth-child(8) { animation-delay: 0.16s; }
+.menu-card:nth-child(9) { animation-delay: 0.18s; }
+.menu-card:nth-child(10) { animation-delay: 0.20s; }
+.menu-card:nth-child(11) { animation-delay: 0.22s; }
+.menu-card:nth-child(12) { animation-delay: 0.24s; }
+.menu-card:nth-child(13) { animation-delay: 0.26s; }
+.menu-card:nth-child(14) { animation-delay: 0.28s; }
+.menu-card:nth-child(15) { animation-delay: 0.30s; }
+.menu-card:nth-child(16) { animation-delay: 0.32s; }
+.menu-card:nth-child(17) { animation-delay: 0.34s; }
+.menu-card:nth-child(18) { animation-delay: 0.36s; }
+.menu-card:nth-child(19) { animation-delay: 0.38s; }
+.menu-card:nth-child(20) { animation-delay: 0.40s; }
+.menu-card:nth-child(21) { animation-delay: 0.42s; }
+.menu-card:nth-child(22) { animation-delay: 0.44s; }
+.menu-card:nth-child(23) { animation-delay: 0.46s; }
+.menu-card:nth-child(24) { animation-delay: 0.48s; }
+.menu-card:nth-child(25) { animation-delay: 0.50s; }
+.menu-card:nth-child(26) { animation-delay: 0.52s; }
+.menu-card:nth-child(27) { animation-delay: 0.54s; }
+.menu-card:nth-child(28) { animation-delay: 0.56s; }
+.menu-card:nth-child(29) { animation-delay: 0.58s; }
+.menu-card:nth-child(30) { animation-delay: 0.60s; }
+.menu-card:nth-child(31) { animation-delay: 0.62s; }
+.menu-card:nth-child(32) { animation-delay: 0.64s; }
+.menu-card:nth-child(33) { animation-delay: 0.66s; }
+.menu-card:nth-child(34) { animation-delay: 0.68s; }
+.menu-card:nth-child(35) { animation-delay: 0.70s; }
+.menu-card:nth-child(36) { animation-delay: 0.72s; }
+.menu-card:nth-child(37) { animation-delay: 0.74s; }
+.menu-card:nth-child(38) { animation-delay: 0.76s; }
+.menu-card:nth-child(39) { animation-delay: 0.78s; }
+.menu-card:nth-child(40) { animation-delay: 0.80s; }
+.menu-card:nth-child(41) { animation-delay: 0.82s; }
+.menu-card:nth-child(42) { animation-delay: 0.84s; }
+.menu-card:nth-child(43) { animation-delay: 0.86s; }
+.menu-card:nth-child(44) { animation-delay: 0.88s; }
+.menu-card:nth-child(45) { animation-delay: 0.90s; }
+.menu-card:nth-child(46) { animation-delay: 0.92s; }
+.menu-card:nth-child(47) { animation-delay: 0.94s; }
+.menu-card:nth-child(48) { animation-delay: 0.96s; }
+.menu-card:nth-child(49) { animation-delay: 0.98s; }
+.menu-card:nth-child(50) { animation-delay: 1.00s; }
+.menu-card:nth-child(51) { animation-delay: 1.02s; }
+.menu-card:nth-child(52) { animation-delay: 1.04s; }
+.menu-card:nth-child(53) { animation-delay: 1.06s; }
+.menu-card:nth-child(54) { animation-delay: 1.08s; }
+.menu-card:nth-child(55) { animation-delay: 1.10s; }
+.menu-card:nth-child(56) { animation-delay: 1.12s; }
+.menu-card:nth-child(57) { animation-delay: 1.14s; }
+.menu-card:nth-child(58) { animation-delay: 1.16s; }
+.menu-card:nth-child(59) { animation-delay: 1.18s; }
+.menu-card:nth-child(60) { animation-delay: 1.20s; }
+.menu-card:nth-child(61) { animation-delay: 1.22s; }
+
+/* ========== 13. 响应式 ========== */
 @media (max-width: 768px) {
+  .noren-banner {
+    height: 120px;
+  }
+
+  .noren-title {
+    font-size: 2rem;
+  }
+
+  .noren-subtitle {
+    font-size: 0.8rem;
+  }
+
+  .noren-banner .lantern-deco {
+    right: 15px;
+    font-size: 2rem;
+    bottom: -15px;
+  }
+
   .menu-grid {
     grid-template-columns: 1fr;
-    gap: 18px;
+    gap: 20px;
   }
 
   .menu-card.featured {
@@ -192,47 +980,34 @@
   .menu-category-title {
     font-size: 1.4rem;
   }
-}
 
-/* 暗色模式适配 */
-[data-user-color-scheme="dark"] .menu-card {
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
-}
-
-[data-user-color-scheme="dark"] .menu-card:hover {
-  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.5);
-}
-
-[data-user-color-scheme="dark"] .menu-card-badge {
-  background: rgba(226, 168, 75, 0.7);
-}
-
-/* 加载动画 */
-.menu-card {
-  opacity: 0;
-  animation: fadeInUp 0.5s ease forwards;
-}
-
-.menu-card:nth-child(1) { animation-delay: 0.05s; }
-.menu-card:nth-child(2) { animation-delay: 0.1s; }
-.menu-card:nth-child(3) { animation-delay: 0.15s; }
-.menu-card:nth-child(4) { animation-delay: 0.2s; }
-.menu-card:nth-child(5) { animation-delay: 0.25s; }
-.menu-card:nth-child(6) { animation-delay: 0.3s; }
-.menu-card:nth-child(7) { animation-delay: 0.35s; }
-.menu-card:nth-child(8) { animation-delay: 0.4s; }
-.menu-card:nth-child(9) { animation-delay: 0.45s; }
-.menu-card:nth-child(10) { animation-delay: 0.5s; }
-.menu-card:nth-child(11) { animation-delay: 0.55s; }
-.menu-card:nth-child(12) { animation-delay: 0.6s; }
-
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(30px);
+  .menu-card-image {
+    height: 180px;
   }
-  to {
-    opacity: 1;
-    transform: translateY(0);
+
+  .mt-fuji {
+    width: 200px;
+    height: 80px;
+  }
+
+  .mt-fuji-back {
+    width: 280px;
+    height: 55px;
+  }
+
+  .omakase-footer {
+    height: 100px;
+  }
+
+  .kaonashi-egg {
+    width: 36px;
+    height: 44px;
+    bottom: 10px;
+    right: 10px;
+    opacity: 0.2;
+  }
+
+  .sakura-container {
+    display: none;
   }
 }
