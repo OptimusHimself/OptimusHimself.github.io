@@ -266,10 +266,15 @@
    * ============================================================ */
   renderOrderPopup();
 
-  // 等待 audio.js 加载完毕并拿到歌单
-  if (window.omakaseAudio && window.omakaseAudio.ready) {
-    window.omakaseAudio.ready(function () {
-      updateMusicUI();
-    });
+  // 等待 audio.js 加载完毕
+  if (window.omakaseAudio) {
+    updateMusicUI();
+  } else {
+    var checkAudio = setInterval(function () {
+      if (window.omakaseAudio) {
+        updateMusicUI();
+        clearInterval(checkAudio);
+      }
+    }, 200);
   }
 })();
