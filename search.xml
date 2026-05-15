@@ -15,6 +15,18 @@
       </tags>
   </entry>
   <entry>
+    <title>AI时代的思考（1）-- 思维和讨论</title>
+    <url>/2025/04/11/AI%E6%97%B6%E4%BB%A3%E7%9A%84%E6%80%9D%E8%80%83%EF%BC%881%EF%BC%89-%E6%80%9D%E7%BB%B4%E5%92%8C%E8%AE%A8%E8%AE%BA/</url>
+    <content><![CDATA[<p>和朋友聊一个经济学问题——为什么美国可以持续向外输出美元，维持巨大的财政赤字。而中国不可以。其实，我期待能和他一步步挖出财政支出和资本收入等核心概念。但聊着聊着，他就回应：“我也是三脚猫功夫，你问问ChatGPT呗”。类似的对话和其他朋友也有过。<br>　　“ChatGPT, DeepSeek”这些大语言模型成为了人们日常聊天的主角。 你问了DeepSeek吗？<br>　　似乎这些LLM是知识的象征，他们的观点都是对的。 的确，通过优质的网页内容、大量的科学数据训练出的LLM不论是表达能力还是专业性、实战性都吊打大部分本科生。<br>　　但是这和聊天有什么关系？我和你聊天的目的是为了得到一个正确的答案吗？我想要的只不过是你的理解，你的解释。<br>　　基于我和你的交情、来来往往的招呼和交流，我可以很轻松地接受你的语言风格——我们曾经一起开车旅行，畅聊中我知道你是一个说话不清不楚大大咧咧的人。基于我对你的认知能力的了解，我很容易接受你对问题的表述——你平常用词就是这个风格，你的知识储备就是说这样的话。<br>　　但是，这些感觉在我和DeepSeek, 豆包这样的“Knowledge Cluster”对话则没有。<br>　　我联想不到我们曾经一起做过的事儿，AI传递给我的message也只不过是那一段干巴巴的文字。的确，我可以让他说得生动，讲得比老师还要好。我也可以很轻松地得到正确答案。但是，这只是短暂的捡起一个不属于你的理解。<br>　　我已经习惯了在课堂上学习知识，习惯了通过和朋友不断探讨得到智慧的果实。我认为，两个人，在对问题的理解从不清晰的状态，经过交流合作、通过传统的查资料和DIY一些小实验来验证自己的想法，最终得出合理自洽的结论结合自己的表述系统科学地解释问题（哪怕和真实情况有出入）——这才是学习本该有的过程。<br>　　AI的确很强大，提升了我们的效率。但思维的产生和锻炼需要时间、需要磨练和沉淀。我们不能因为AI工具越来越“好使”，就丢弃了最开始交流讨论、独立思考的能力。<br>　　未来的人类文明必将到达新高度。我希望那是一个有思维活力的文明，而不是被AI禁锢、思维陈腐、缺乏创意、懒惰的文明。</p>
+]]></content>
+      <categories>
+        <category>生活感悟</category>
+      </categories>
+      <tags>
+        <tag>日记</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Cpp Journey</title>
     <url>/2025/04/23/Cpp-Journey/</url>
     <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>本文属于我的“学习路线”系列文章。 介绍了自认为成功且有一定效率的学习方法。 本文会介绍笔者的入门C++的过程（学习时长&amp;成果），推荐一套可靠的方法，分享有用的资源。本文还总结了学习C++容易遇到的问题</p>
@@ -67,28 +79,19 @@
       </tags>
   </entry>
   <entry>
-    <title>Python Journey</title>
-    <url>/2025/04/23/Python-Journey/</url>
-    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>python其实是一门很简单易学的语言。 但是很多人依然学着头疼。 考虑到每个人的情况不同，本文主要面向没有太多项目经历但对计算机有了解（知道OOP，学过C&#x2F;Java…）的小白。<br>本文推荐了学习资源，介绍了我入门的过程。分析了导致python学习效果不好的原因（personal）。</p>
+    <title>WindowsLinux化</title>
+    <url>/2025/06/08/WindowsLinux%E5%8C%96/</url>
+    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>主要记录了编写脚本文件的技术。</p>
+<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>Linux系统运行脚本管理很方便，make install命令就能安装好软件，可以在任位置指使用指令.<br>但Windows就没那么方便了。要手动把脚本添加到Path。 因此，我在D盘新建了一个文件夹mytools，存放所有的常用exe,bat脚本,.cmd,ps1，还可以添加python脚本封装成cmd脚本文件。目前我已经把.yt-dlp.exe, danmuku2ass.cmd（内有python xxx&#x2F;xxx&#x2F;xxx&#x2F;…&#x2F;danmuku2ass.py %* 命令）, 然后在Path环境变量中添加D:\mytools路径，这样就可以在任意位置使用这些脚本了。</p>
+<blockquote>
+<p>当然，使用Scoop包管理器安装的软件（如git, jdk, maven,…）也可以达到在任何路径下运行命令（我会专门出一篇博客介绍scoop</p>
+</blockquote>
 ]]></content>
       <categories>
-        <category>学习路线</category>
+        <category>教程</category>
       </categories>
       <tags>
-        <tag>Programming</tag>
-        <tag>Python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>AI时代的思考（1）-- 思维和讨论</title>
-    <url>/2025/04/11/AI%E6%97%B6%E4%BB%A3%E7%9A%84%E6%80%9D%E8%80%83%EF%BC%881%EF%BC%89-%E6%80%9D%E7%BB%B4%E5%92%8C%E8%AE%A8%E8%AE%BA/</url>
-    <content><![CDATA[<p>和朋友聊一个经济学问题——为什么美国可以持续向外输出美元，维持巨大的财政赤字。而中国不可以。其实，我期待能和他一步步挖出财政支出和资本收入等核心概念。但聊着聊着，他就回应：“我也是三脚猫功夫，你问问ChatGPT呗”。类似的对话和其他朋友也有过。<br>　　“ChatGPT, DeepSeek”这些大语言模型成为了人们日常聊天的主角。 你问了DeepSeek吗？<br>　　似乎这些LLM是知识的象征，他们的观点都是对的。 的确，通过优质的网页内容、大量的科学数据训练出的LLM不论是表达能力还是专业性、实战性都吊打大部分本科生。<br>　　但是这和聊天有什么关系？我和你聊天的目的是为了得到一个正确的答案吗？我想要的只不过是你的理解，你的解释。<br>　　基于我和你的交情、来来往往的招呼和交流，我可以很轻松地接受你的语言风格——我们曾经一起开车旅行，畅聊中我知道你是一个说话不清不楚大大咧咧的人。基于我对你的认知能力的了解，我很容易接受你对问题的表述——你平常用词就是这个风格，你的知识储备就是说这样的话。<br>　　但是，这些感觉在我和DeepSeek, 豆包这样的“Knowledge Cluster”对话则没有。<br>　　我联想不到我们曾经一起做过的事儿，AI传递给我的message也只不过是那一段干巴巴的文字。的确，我可以让他说得生动，讲得比老师还要好。我也可以很轻松地得到正确答案。但是，这只是短暂的捡起一个不属于你的理解。<br>　　我已经习惯了在课堂上学习知识，习惯了通过和朋友不断探讨得到智慧的果实。我认为，两个人，在对问题的理解从不清晰的状态，经过交流合作、通过传统的查资料和DIY一些小实验来验证自己的想法，最终得出合理自洽的结论结合自己的表述系统科学地解释问题（哪怕和真实情况有出入）——这才是学习本该有的过程。<br>　　AI的确很强大，提升了我们的效率。但思维的产生和锻炼需要时间、需要磨练和沉淀。我们不能因为AI工具越来越“好使”，就丢弃了最开始交流讨论、独立思考的能力。<br>　　未来的人类文明必将到达新高度。我希望那是一个有思维活力的文明，而不是被AI禁锢、思维陈腐、缺乏创意、懒惰的文明。</p>
-]]></content>
-      <categories>
-        <category>生活感悟</category>
-      </categories>
-      <tags>
-        <tag>日记</tag>
+        <tag>整活</tag>
       </tags>
   </entry>
   <entry>
@@ -113,19 +116,16 @@
       </tags>
   </entry>
   <entry>
-    <title>WindowsLinux化</title>
-    <url>/2025/06/08/WindowsLinux%E5%8C%96/</url>
-    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>主要记录了编写脚本文件的技术。</p>
-<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>Linux系统运行脚本管理很方便，make install命令就能安装好软件，可以在任位置指使用指令.<br>但Windows就没那么方便了。要手动把脚本添加到Path。 因此，我在D盘新建了一个文件夹mytools，存放所有的常用exe,bat脚本,.cmd,ps1，还可以添加python脚本封装成cmd脚本文件。目前我已经把.yt-dlp.exe, danmuku2ass.cmd（内有python xxx&#x2F;xxx&#x2F;xxx&#x2F;…&#x2F;danmuku2ass.py %* 命令）, 然后在Path环境变量中添加D:\mytools路径，这样就可以在任意位置使用这些脚本了。</p>
-<blockquote>
-<p>当然，使用Scoop包管理器安装的软件（如git, jdk, maven,…）也可以达到在任何路径下运行命令（我会专门出一篇博客介绍scoop</p>
-</blockquote>
+    <title>Python Journey</title>
+    <url>/2025/04/23/Python-Journey/</url>
+    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>python其实是一门很简单易学的语言。 但是很多人依然学着头疼。 考虑到每个人的情况不同，本文主要面向没有太多项目经历但对计算机有了解（知道OOP，学过C&#x2F;Java…）的小白。<br>本文推荐了学习资源，介绍了我入门的过程。分析了导致python学习效果不好的原因（personal）。</p>
 ]]></content>
       <categories>
-        <category>教程</category>
+        <category>学习路线</category>
       </categories>
       <tags>
-        <tag>整活</tag>
+        <tag>Programming</tag>
+        <tag>Python</tag>
       </tags>
   </entry>
   <entry>
@@ -226,6 +226,48 @@
       </tags>
   </entry>
   <entry>
+    <title>ffmpeg常用命令</title>
+    <url>/2025/07/04/ffmpeg%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
+    <content><![CDATA[<ol>
+<li><p>简单的剪辑，一刀切</p>
+</li>
+<li><p>插入英文字幕</p>
+</li>
+<li><p>为视频、音频文件插入thumbnail（封面）</p>
+</li>
+<li><p>合并音视频文件</p>
+</li>
+<li><p>剪辑<br>ffmpeg -i inputfile.mp4 -c copy -t xx:xx:xx -o outputname.mp4</p>
+</li>
+</ol>
+<p>常用参数：<br>-t 00:01:30：保留从开头到 1 分 30 秒的内容（按你的需求调整时间）<br>-c copy：直接复制流，无需重新编码（速度极快，质量无损）<br>-i 指定输入文件<br>-o output 指定输出文件</p>
+]]></content>
+      <categories>
+        <category>技术手册</category>
+      </categories>
+      <tags>
+        <tag>ffmpeg</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>git常用命令</title>
+    <url>/2025/07/05/git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>不一样的Git教程 —— GIT基础设置</title>
+    <url>/2025/04/19/gitconcepts/</url>
+    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>本文希望科普git的重要概念以更好地帮助你使用git。 看完本篇内容（git基础）你将方便地用git完成个人项目，但想管理团队，还需要更多的知识</p>
+<p>重点： 明白四个stage的概念。明白push, pull, commit, pull request的中文含义<br>非重点： 记指令的语法（因为github desktop完美替代了初学者所需的操作）</p>
+<h2 id="grocery"><a href="#grocery" class="headerlink" title="grocery"></a>grocery</h2>]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>GIT</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>程序员科普：JSON、XML、YAML 三种数据格式的由来、应用与对比</title>
     <url>/2025/05/19/dance-with-yaml/</url>
     <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>在前后端开发、配置管理、API 通信等领域，我们常常接触到三种主流的数据格式：JSON、XML 和 YAML。虽然它们的目标都是「让数据结构易于存储和传输」，但随着时代发展与技术演进，它们逐渐走上了不同的道路。本文将从历史演变、应用场景出发，结合语法特征，帮你快速理解这三种格式各自的定位与优劣。</p>
@@ -315,62 +357,6 @@
       </tags>
   </entry>
   <entry>
-    <title>ffmpeg常用命令</title>
-    <url>/2025/07/04/ffmpeg%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
-    <content><![CDATA[<ol>
-<li><p>简单的剪辑，一刀切</p>
-</li>
-<li><p>插入英文字幕</p>
-</li>
-<li><p>为视频、音频文件插入thumbnail（封面）</p>
-</li>
-<li><p>合并音视频文件</p>
-</li>
-<li><p>剪辑<br>ffmpeg -i inputfile.mp4 -c copy -t xx:xx:xx -o outputname.mp4</p>
-</li>
-</ol>
-<p>常用参数：<br>-t 00:01:30：保留从开头到 1 分 30 秒的内容（按你的需求调整时间）<br>-c copy：直接复制流，无需重新编码（速度极快，质量无损）<br>-i 指定输入文件<br>-o output 指定输出文件</p>
-]]></content>
-      <categories>
-        <category>技术手册</category>
-      </categories>
-      <tags>
-        <tag>ffmpeg</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>不一样的Git教程 —— GIT基础设置</title>
-    <url>/2025/04/19/gitconcepts/</url>
-    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>本文希望科普git的重要概念以更好地帮助你使用git。 看完本篇内容（git基础）你将方便地用git完成个人项目，但想管理团队，还需要更多的知识</p>
-<p>重点： 明白四个stage的概念。明白push, pull, commit, pull request的中文含义<br>非重点： 记指令的语法（因为github desktop完美替代了初学者所需的操作）</p>
-<h2 id="grocery"><a href="#grocery" class="headerlink" title="grocery"></a>grocery</h2>]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>GIT</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>git常用命令</title>
-    <url>/2025/07/05/git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title></title>
-    <url>/2025/07/19/how-to-type-formula/</url>
-    <content><![CDATA[<p>$$<br>\sum_{i&#x3D;1}^{n}(X_i - \bar{X})^2 &#x3D; \sum_{i&#x3D;1}^{n}(X_i - \mu)^2 - n(\bar{X} - \mu)^2<br>$$</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>jyy课堂笔记</title>
-    <url>/2025/06/30/jyy%E8%AF%BE%E5%A0%82%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<p>jyy的课件做得很好。但是听jyy的课我从不看标题。 只听他的内容，因为他懂的太多了，即便有标题，他也时常即兴起来拓展了很多偏离标题但是启发我的内容。</p>
-<p>听jyy的课不止能获取新知识、听到高效的学习方法。 他的课堂有一种长者的关怀，我从中吸收正能量。原本对很多事情感到不自信、畏惧开始。在补充完正能量后，又对计算机知识充满热情。我想，即便我本科毕业后、从事研究生、博士生的研究工作，遇到瓶颈时也可以拿出他最新的视频看一看、学一学。</p>
-<p>第一节课jyy用大量的例子鼓励我们使用AI，尤其是在学习他的OS课程中。谈到Academic Integrity他还说了一个不一样的观点：我们可以在遇到问题时使用AI。 但你不能把整个问题丢给他。这门课的Policy是让学生学到技能。当你意识到这一点，监督自己使用AI的方式，你就做到了“学术诚信”。 ————我醒悟到曾经用偷懒，把全部问题丢给AI快速取得分数的愚蠢。我不仅没有学到这门课的知识，也浪费了探索AI prompt的机会。</p>
-]]></content>
-  </entry>
-  <entry>
     <title>ssh入门</title>
     <url>/2025/04/29/ssh%E5%85%A5%E9%97%A8/</url>
     <content><![CDATA[<h1 id="take-away-knowledge-concept"><a href="#take-away-knowledge-concept" class="headerlink" title="take away knowledge &amp; concept"></a>take away knowledge &amp; concept</h1><p>对于private repo, 即便是clone,也需要ssh</p>
@@ -400,6 +386,19 @@
       </tags>
   </entry>
   <entry>
+    <title>jyy课堂笔记</title>
+    <url>/2025/06/30/jyy%E8%AF%BE%E5%A0%82%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<p>jyy的课件做得很好。但是听jyy的课我从不看标题。 只听他的内容，因为他懂的太多了，即便有标题，他也时常即兴起来拓展了很多偏离标题但是启发我的内容。</p>
+<p>听jyy的课不止能获取新知识、听到高效的学习方法。 他的课堂有一种长者的关怀，我从中吸收正能量。原本对很多事情感到不自信、畏惧开始。在补充完正能量后，又对计算机知识充满热情。我想，即便我本科毕业后、从事研究生、博士生的研究工作，遇到瓶颈时也可以拿出他最新的视频看一看、学一学。</p>
+<p>第一节课jyy用大量的例子鼓励我们使用AI，尤其是在学习他的OS课程中。谈到Academic Integrity他还说了一个不一样的观点：我们可以在遇到问题时使用AI。 但你不能把整个问题丢给他。这门课的Policy是让学生学到技能。当你意识到这一点，监督自己使用AI的方式，你就做到了“学术诚信”。 ————我醒悟到曾经用偷懒，把全部问题丢给AI快速取得分数的愚蠢。我不仅没有学到这门课的知识，也浪费了探索AI prompt的机会。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>the-one-i-loved</title>
+    <url>/2026/05/15/the-one-i-loved/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title>unzip命令</title>
     <url>/2025/07/04/unzip%E5%91%BD%E4%BB%A4/</url>
     <content><![CDATA[<h1 id="Windows-powershell"><a href="#Windows-powershell" class="headerlink" title="Windows - powershell"></a>Windows - powershell</h1><p>Expand-Archieve</p>
@@ -416,14 +415,23 @@
       </tags>
   </entry>
   <entry>
-    <title>人生规划</title>
-    <url>/2025/06/30/%E4%BA%BA%E7%94%9F%E8%A7%84%E5%88%92/</url>
-    <content><![CDATA[<p>近况介绍：<br>从6.20考完期末到今天差不多有两周的时间。 我没有成为大三下想象中的：“学各种感兴趣的知识、DIY&#x2F;复刻有趣的项目”。而是整天开着微信，关注各个高校的保研信息。这没错，当务之急确实是找到未来的研究方向。我也逐渐适应了上午下午关注保研申请、晚上放松&#x2F;学习知识的工作模式。</p>
-<p>虽然有事忙，但我还是相比以前放松了很多。可以说在申请读研的事上不总是100%投入。 我看了很多改变我对自己的认识的内容，包括南大jyy2025的OS课程，诺伯特·维纳写的控制论，鬼灭之刃无限列车篇的最后一集、游郭篇的最后一集，回顾精彩的战斗场景、炎柱说的话， zhan哥对学历的看法-回应网上讽刺学历无用的言论；也和一些正能量的老师同学亲人交流了自己的情况和未来的规划。这些杂乱的内容和我没劲的生活联系在一起。才有了这篇博客。</p>
-<p>我忽然意识到，即便我投入了很多时间在学习技术而非游戏、恋爱、逛街、刷手机这些所谓不正经的事业。 我依然认为自己是一个没有目标的人。 或者说，自己不擅长调动自己的毅力——只在有意思的东西面前投入时间，而没有长远的规划。</p>
-<h1 id="读研、博-职业规划"><a href="#读研、博-职业规划" class="headerlink" title="读研、博&amp;职业规划"></a>读研、博&amp;职业规划</h1><p>读博是必然。打造自己的技术壁垒从而获取能显著提升人生物质层面舒适度的薪资<br>假如我成功保研HUST<br>我要积极参加学术会议。 多多去听正能量的人的发言。</p>
-<p>我想研究一套AI和硬件交互的协议。 AI可以安全地管理所有的硬件。就像钢铁侠的JARVIS一样。 有生之年如果能见证贾维斯的诞生，也是圆梦了。</p>
+    <title>uv常用命令</title>
+    <url>/2025/07/05/uv/</url>
+    <content><![CDATA[<p>从此，我在linux, windows都用UV管理虚拟环境。 1. 快。 2.目录简洁。 3. 指令简单<br>记录一下，UV可以用scoop安装。</p>
+<h1 id="常用case–配置环境"><a href="#常用case–配置环境" class="headerlink" title="常用case–配置环境"></a>常用case–配置环境</h1><h2 id="自己搭建项目：创venv"><a href="#自己搭建项目：创venv" class="headerlink" title="自己搭建项目：创venv"></a>自己搭建项目：创venv</h2><p>当前目录创建虚拟环境<br><code>uv venv [venvName]</code>我一般喜欢用<code>.venv</code><br>    <code>uv venv --python 3.11 .venv</code>  指定解释器版本<br>激活虚拟环境<br><code>source .venv/Script/activate</code></p>
+<p>linux是<code>source .venv/bin/activate</code></p>
+<p>在虚拟环境安装依赖xxx<br><code>uv pip install xxx</code></p>
+<p>提前看有哪些 python解释器版本<br>uv python list</p>
+<h2 id="复刻别人的环境"><a href="#复刻别人的环境" class="headerlink" title="复刻别人的环境"></a>复刻别人的环境</h2><p>克隆项目会发现里面有uv.lock文件或者requirements.txt文件<br>虽然也可以通过通用的创venv的方式配环境。但<code>uv sync</code>才是uv的奥义之处。</p>
+<p>使用<code>uv sync</code>的好处：<br>通过<code>uv lock</code>自动帮你匹配适应requirements.txt里头的依赖的python版本。而不是自己瞎蒙一个python版本</p>
+<h1 id="网络管理"><a href="#网络管理" class="headerlink" title="网络管理"></a>网络管理</h1><p>当前网络情况分析：</p>
 ]]></content>
+      <categories>
+        <category>命令集</category>
+      </categories>
+      <tags>
+        <tag>uv</tag>
+      </tags>
   </entry>
   <entry>
     <title>保研心得</title>
@@ -461,6 +469,34 @@
 </li>
 </ul>
 ]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/2025/07/19/how-to-type-formula/</url>
+    <content><![CDATA[<p>$$<br>\sum_{i&#x3D;1}^{n}(X_i - \bar{X})^2 &#x3D; \sum_{i&#x3D;1}^{n}(X_i - \mu)^2 - n(\bar{X} - \mu)^2<br>$$</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>人生规划</title>
+    <url>/2025/06/30/%E4%BA%BA%E7%94%9F%E8%A7%84%E5%88%92/</url>
+    <content><![CDATA[<p>近况介绍：<br>从6.20考完期末到今天差不多有两周的时间。 我没有成为大三下想象中的：“学各种感兴趣的知识、DIY&#x2F;复刻有趣的项目”。而是整天开着微信，关注各个高校的保研信息。这没错，当务之急确实是找到未来的研究方向。我也逐渐适应了上午下午关注保研申请、晚上放松&#x2F;学习知识的工作模式。</p>
+<p>虽然有事忙，但我还是相比以前放松了很多。可以说在申请读研的事上不总是100%投入。 我看了很多改变我对自己的认识的内容，包括南大jyy2025的OS课程，诺伯特·维纳写的控制论，鬼灭之刃无限列车篇的最后一集、游郭篇的最后一集，回顾精彩的战斗场景、炎柱说的话， zhan哥对学历的看法-回应网上讽刺学历无用的言论；也和一些正能量的老师同学亲人交流了自己的情况和未来的规划。这些杂乱的内容和我没劲的生活联系在一起。才有了这篇博客。</p>
+<p>我忽然意识到，即便我投入了很多时间在学习技术而非游戏、恋爱、逛街、刷手机这些所谓不正经的事业。 我依然认为自己是一个没有目标的人。 或者说，自己不擅长调动自己的毅力——只在有意思的东西面前投入时间，而没有长远的规划。</p>
+<h1 id="读研、博-职业规划"><a href="#读研、博-职业规划" class="headerlink" title="读研、博&amp;职业规划"></a>读研、博&amp;职业规划</h1><p>读博是必然。打造自己的技术壁垒从而获取能显著提升人生物质层面舒适度的薪资<br>假如我成功保研HUST<br>我要积极参加学术会议。 多多去听正能量的人的发言。</p>
+<p>我想研究一套AI和硬件交互的协议。 AI可以安全地管理所有的硬件。就像钢铁侠的JARVIS一样。 有生之年如果能见证贾维斯的诞生，也是圆梦了。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>保研时期的我</title>
+    <url>/2025/03/20/%E4%BF%9D%E7%A0%94%E6%97%B6%E6%9C%9F%E7%9A%84%E6%88%91/</url>
+    <content><![CDATA[<p>保研圈，不乏激烈的竞争。在这个圈子里，我看到了可敬的对手，看到了绿群里的大佬，也坚定了我的梦想。我的愿望是到名校和更好的老师、同学、师兄师姐们交流学习。我相信，只要保研到我的梦校浙大、进入到研究小组中，就一定能进步、学习更多的专业技能。以后就能做更多有价值的事情。<br>但最近，我变得有些紧张，我担心我的简历还不够好，算法题刷得还不够多，没有论文背景，“套磁“也没人肯收我。我一直在攀比，生怕把学习专业课而不是卷所谓的那些算法、论文是在浪费时间。<br>我还纠结自己适合什么专业，能读什么专业。是偏向研究底层的方向（计算机架构、分布式系统、网络）还是前沿的应用方向（软件开发、AI）。对各个行业都略懂一二的我对自己说，都行，哪个要我就去哪儿。但不管在哪个领域，我做的，一定是有挑战性的工作！<br>说回时间分配的事情，我不想太卷课外的那些技术。 专业知识一定是第一位的。先不说以后会不会读通信、计网这块的研究生；我从IoT出来的，别人问我一个通信相关的概念而我却毫无直觉，真觉得丢人——就这还读研。 所以说，如果以后有老师觉得我简历上的研究经历不如别人突出，请看看我的专业课成绩、对专业知识的理解。<br>本科培养出来的，就不应该是什么研究精英，而是一个通识了专业领域各个方面的，有知识的人。路还很长，研究生阶段，你不可能有这样泡馆、看专业书籍、一步步推演理论的时间。<br>对于保研竞争这一块，我相信船到桥头自然直，熬过这一段，你一定会在学习课外知识的时候更有感悟。我还坚信阿德勒心理学，一切都是目的驱动的。潇洒自如、倾听自己的内心吧，真到要你做重大选择的节骨眼上了，你也一定能适应的。</p>
+]]></content>
+      <categories>
+        <category>生活感悟</category>
+      </categories>
+      <tags>
+        <tag>日记</tag>
+      </tags>
   </entry>
   <entry>
     <title>ytb-dl使用教程</title>
@@ -635,95 +671,6 @@
       </tags>
   </entry>
   <entry>
-    <title>保研时期的我</title>
-    <url>/2025/03/20/%E4%BF%9D%E7%A0%94%E6%97%B6%E6%9C%9F%E7%9A%84%E6%88%91/</url>
-    <content><![CDATA[<p>保研圈，不乏激烈的竞争。在这个圈子里，我看到了可敬的对手，看到了绿群里的大佬，也坚定了我的梦想。我的愿望是到名校和更好的老师、同学、师兄师姐们交流学习。我相信，只要保研到我的梦校浙大、进入到研究小组中，就一定能进步、学习更多的专业技能。以后就能做更多有价值的事情。<br>但最近，我变得有些紧张，我担心我的简历还不够好，算法题刷得还不够多，没有论文背景，“套磁“也没人肯收我。我一直在攀比，生怕把学习专业课而不是卷所谓的那些算法、论文是在浪费时间。<br>我还纠结自己适合什么专业，能读什么专业。是偏向研究底层的方向（计算机架构、分布式系统、网络）还是前沿的应用方向（软件开发、AI）。对各个行业都略懂一二的我对自己说，都行，哪个要我就去哪儿。但不管在哪个领域，我做的，一定是有挑战性的工作！<br>说回时间分配的事情，我不想太卷课外的那些技术。 专业知识一定是第一位的。先不说以后会不会读通信、计网这块的研究生；我从IoT出来的，别人问我一个通信相关的概念而我却毫无直觉，真觉得丢人——就这还读研。 所以说，如果以后有老师觉得我简历上的研究经历不如别人突出，请看看我的专业课成绩、对专业知识的理解。<br>本科培养出来的，就不应该是什么研究精英，而是一个通识了专业领域各个方面的，有知识的人。路还很长，研究生阶段，你不可能有这样泡馆、看专业书籍、一步步推演理论的时间。<br>对于保研竞争这一块，我相信船到桥头自然直，熬过这一段，你一定会在学习课外知识的时候更有感悟。我还坚信阿德勒心理学，一切都是目的驱动的。潇洒自如、倾听自己的内心吧，真到要你做重大选择的节骨眼上了，你也一定能适应的。</p>
-]]></content>
-      <categories>
-        <category>生活感悟</category>
-      </categories>
-      <tags>
-        <tag>日记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>uv常用命令</title>
-    <url>/2025/07/05/uv/</url>
-    <content><![CDATA[<p>从此，我在linux, windows都用UV管理虚拟环境。 1. 快。 2.目录简洁。 3. 指令简单<br>记录一下，UV可以用scoop安装。</p>
-<h1 id="常用case–配置环境"><a href="#常用case–配置环境" class="headerlink" title="常用case–配置环境"></a>常用case–配置环境</h1><h2 id="自己搭建项目：创venv"><a href="#自己搭建项目：创venv" class="headerlink" title="自己搭建项目：创venv"></a>自己搭建项目：创venv</h2><p>当前目录创建虚拟环境<br><code>uv venv [venvName]</code>我一般喜欢用<code>.venv</code><br>    <code>uv venv --python 3.11 .venv</code>  指定解释器版本<br>激活虚拟环境<br><code>source .venv/Script/activate</code></p>
-<p>linux是<code>source .venv/bin/activate</code></p>
-<p>在虚拟环境安装依赖xxx<br><code>uv pip install xxx</code></p>
-<p>提前看有哪些 python解释器版本<br>uv python list</p>
-<h2 id="复刻别人的环境"><a href="#复刻别人的环境" class="headerlink" title="复刻别人的环境"></a>复刻别人的环境</h2><p>克隆项目会发现里面有uv.lock文件或者requirements.txt文件<br>虽然也可以通过通用的创venv的方式配环境。但<code>uv sync</code>才是uv的奥义之处。</p>
-<p>使用<code>uv sync</code>的好处：<br>通过<code>uv lock</code>自动帮你匹配适应requirements.txt里头的依赖的python版本。而不是自己瞎蒙一个python版本</p>
-<h1 id="网络管理"><a href="#网络管理" class="headerlink" title="网络管理"></a>网络管理</h1><p>当前网络情况分析：</p>
-]]></content>
-      <categories>
-        <category>命令集</category>
-      </categories>
-      <tags>
-        <tag>uv</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>刷机心得</title>
-    <url>/2025/07/25/%E5%88%B7%E6%9C%BA%E5%BF%83%E5%BE%97/</url>
-    <content><![CDATA[<h1 id="梳理1-Ace-3-Pro的“刷机”方案"><a href="#梳理1-Ace-3-Pro的“刷机”方案" class="headerlink" title="梳理1+ Ace 3 Pro的“刷机”方案"></a>梳理1+ Ace 3 Pro的“刷机”方案</h1><h2 id="重要说明"><a href="#重要说明" class="headerlink" title="重要说明"></a>重要说明</h2><ul>
-<li><p>这里说的刷机：只做到了利用 “KenerlSU Hook” 得到设备 Root 权限——当然也是当下比较常见的语意。<br><strong>并没有换第三方ROM</strong>，如 <a href="https://wiki.lineageos.org/devices/">Lineage OS</a>。原因：在我发现 boot.img 的版本和设备型号 &#x2F; ROM 不匹配会让手机变砖后，我决定<strong>拿完 root 就老实</strong>。 </p>
-</li>
-<li><p>Root 方案: KernelSU, 性质都一样（使用LSPosed管理权限）          &#x2F;&#x2F; Magisk尝试了，可能是ColorOS版本太新，Magisk还不支持</p>
-</li>
-<li><p>系统：安卓14及以上。原厂ROM（Color OS 15） 内核版本Linux6 + &#x2F;&#x2F;意味着不能支持“Recovery&#x2F;TWRP” Root方案</p>
-</li>
-</ul>
-<h2 id="第一步：解BL锁。"><a href="#第一步：解BL锁。" class="headerlink" title="第一步：解BL锁。"></a>第一步：解BL锁。</h2><p> 之后会讲BL锁是什么以及为什么必须解开</p>
-<blockquote>
-<p>这一步的关键角色： 一个能解BL的手机。 一台有ADB工具的电脑（其实手机也可以），一根数据线。</p>
-<blockquote>
-<p>tips: 大侠阿木的刷机工具箱就相当于是对ADB的用户友好的封装。而且集成了很多有用的功能。可以说刷机小白必备。而且，（我猜）这款工具适用于其他能解BL锁的手机</p>
-</blockquote>
-</blockquote>
-<p>解BL锁有两种做法，步骤都很简单。</p>
-<ol>
-<li>使用大侠阿木的工具箱。 一键解锁。</li>
-<li>使用ADB命令。 自己网上查：xxx设备 解BL锁。</li>
-</ol>
-<p>额外说明：</p>
-<ul>
-<li>解BL锁本身不难。只要设备能解BL锁。 </li>
-<li>第一步成功的标志：重启手机，你可以看到第一个页面（启动页面）出现类似：device unlocked, orange mode之类字样。</li>
-</ul>
-<h2 id="第二步：-magisk打补丁-Hook"><a href="#第二步：-magisk打补丁-Hook" class="headerlink" title="第二步： magisk打补丁&#x2F;Hook"></a>第二步： magisk打补丁&#x2F;Hook</h2><blockquote>
-<p>关键角色：同样，一台有ADB工具的电脑。 当前系统的ROM（.zip格式）。解了BL锁的手机并安装magisk</p>
-</blockquote>
-<p>流程&#x2F;原理： </p>
-<ol>
-<li>下载当前设备ROM</li>
-<li>从中得到boot.img（未修改）。 </li>
-<li>用magisk修改boot.img。 </li>
-<li>ADB环节：用ADB工具将修改过的boot.img刷入另一个启动分区。并设置设备从该分区启动。</li>
-</ol>
-<p>P.S. KernelSU&#x2F;Magisk等等 Root方案 使用大侠阿木的工具箱都可以一键搞定<br>tips： </p>
-<ol>
-<li>下载ROM一定要仔细比对是不是和当前系统完全一致。 不只是大版本号，后面的数字、字符串也要一样！！相信我！</li>
-<li>下载的ROM是zip格式。里面不一定带有boot.img。 你需要用到payload-dumper. 具体怎么用去读文档。 </li>
-<li>因为KernelSU在Android OS运行，你需要boot.img上传到手机上。 打开magisk,选中放boot.img的路径。 你应该可以在相同路径下得到要给修补后的boot.img</li>
-<li>useful commands：<br>查看当前启动分区：<code>fastboot getvar current-slot</code><br>把修补后的boot.img刷写到另一个分区 <code>fastboot flash boot_a kernerlSU-patched-boot.img</code><br>修改默认boot分区： <code>fastboot --set-active=a</code></li>
-</ol>
-<p>说明<br>如果成功了，打开Magisk(面具App)，显示“已激活”。说明root成功。接下来就是安装一些模块让root隐身。让应用程序检查不出设备root的痕迹。</p>
-<h2 id="第二步：但是KernelSU"><a href="#第二步：但是KernelSU" class="headerlink" title="第二步：但是KernelSU"></a>第二步：但是KernelSU</h2><blockquote>
-</blockquote>
-<p>for 小白：1+工具箱一键搞定。<br>步骤&#x2F;原理：</p>
-<h2 id="第三步：-KernelSU安装Zygisk等模块，更好的隐藏root"><a href="#第三步：-KernelSU安装Zygisk等模块，更好的隐藏root" class="headerlink" title="第三步： KernelSU安装Zygisk等模块，更好的隐藏root"></a>第三步： KernelSU安装Zygisk等模块，更好的隐藏root</h2><h2 id="菜逼的唠嗑"><a href="#菜逼的唠嗑" class="headerlink" title="菜逼的唠嗑"></a>菜逼的唠嗑</h2><p>所谓的组合键是用来进入fastboot模式的。完全可以用ADB来实现<br><code>adb devices</code><br><code>adb reboot bootloader</code><br><code>fastboot devices</code>  可以看到成功进入fastboot mode</p>
-<p>聊聊KernelSU：个人感觉比Magisk强大，易于使用。 因为在工具箱使用中发现Magisk root并不成功。而KernelSU一键解决了</p>
-<p>你常听到的boot, recovery mode, fastboot mode, TWRP:<br>似乎是Android 8 之后就开始采用“boot_a boot_b”滚动更新的方案了。 当你的手机系统（color OS 14）发布新版本(Color OS 15)。他会在a分区保留当前的Color OS 14的boot.img, 把Color OS 15的boot.img下载到b分区。 当你确认更新系统，install Color OS 15, 下一次启动将使用boot_b分区</p>
-<p>给新手的建议：<br>刷机这事吧，难也不难。教程一堆，10年前就有很多前辈玩得明明白白了。 但碎片化严重，大堆专业术语，没搞明白原理很可能看着手机变砖。<br>关键是要搞清楚你的设备获取root权限的原理。 KernelSU， magisk的原理。这篇博客并没有用心的介绍每个技术名词的百科。 一方面是自己的知识深度和表达能力的限制。另一方面是想留给各位探索。 个人认为：整活多少伴随一段知识积累的过程。</p>
-<p>担心变砖？<br>没有必要因为这份顾虑阻碍了前进。<br>就算变砖了也一定能修好的。相信我，不难。你可以试试下载正确版本的ROM，把boot.img刷到boot_a, boot_b. （fastboot flash boot_a boot_b IMG-PATH）</p>
-<p>不要随便更新系统，除非看到有人把LSPosed做好了</p>
-<h2 id="Resources"><a href="#Resources" class="headerlink" title="Resources"></a>Resources</h2><p><a href="https://optool.daxiaamu.com/optool/">https://optool.daxiaamu.com/optool/</a>   一加全能工具箱(PC端使用)<br><a href="https://yun.daxiaamu.com/OnePlus_Roms/">https://yun.daxiaamu.com/OnePlus_Roms/</a> 我目前知道的官方ROM的唯一渠道<br><a href="https://github.com/ssut/payload-dumper-go">https://github.com/ssut/payload-dumper-go</a>  An android OTA payload dumper written in Go.<br>KernelSU<br>LSPosed </p>
-]]></content>
-  </entry>
-  <entry>
     <title>烹饪小知识</title>
     <url>/2026/04/28/%E5%81%9A%E9%A5%AD%E6%8A%80%E5%B7%A7-%E5%B8%B8%E8%AF%86/</url>
     <content><![CDATA[<p>想整理一些新手小白下厨房的一些前置知识；<br>从配菜的烹饪到高效规律饮食方案</p>
@@ -863,6 +810,64 @@
       </tags>
   </entry>
   <entry>
+    <title>刷机心得</title>
+    <url>/2025/07/25/%E5%88%B7%E6%9C%BA%E5%BF%83%E5%BE%97/</url>
+    <content><![CDATA[<h1 id="梳理1-Ace-3-Pro的“刷机”方案"><a href="#梳理1-Ace-3-Pro的“刷机”方案" class="headerlink" title="梳理1+ Ace 3 Pro的“刷机”方案"></a>梳理1+ Ace 3 Pro的“刷机”方案</h1><h2 id="重要说明"><a href="#重要说明" class="headerlink" title="重要说明"></a>重要说明</h2><ul>
+<li><p>这里说的刷机：只做到了利用 “KenerlSU Hook” 得到设备 Root 权限——当然也是当下比较常见的语意。<br><strong>并没有换第三方ROM</strong>，如 <a href="https://wiki.lineageos.org/devices/">Lineage OS</a>。原因：在我发现 boot.img 的版本和设备型号 &#x2F; ROM 不匹配会让手机变砖后，我决定<strong>拿完 root 就老实</strong>。 </p>
+</li>
+<li><p>Root 方案: KernelSU, 性质都一样（使用LSPosed管理权限）          &#x2F;&#x2F; Magisk尝试了，可能是ColorOS版本太新，Magisk还不支持</p>
+</li>
+<li><p>系统：安卓14及以上。原厂ROM（Color OS 15） 内核版本Linux6 + &#x2F;&#x2F;意味着不能支持“Recovery&#x2F;TWRP” Root方案</p>
+</li>
+</ul>
+<h2 id="第一步：解BL锁。"><a href="#第一步：解BL锁。" class="headerlink" title="第一步：解BL锁。"></a>第一步：解BL锁。</h2><p> 之后会讲BL锁是什么以及为什么必须解开</p>
+<blockquote>
+<p>这一步的关键角色： 一个能解BL的手机。 一台有ADB工具的电脑（其实手机也可以），一根数据线。</p>
+<blockquote>
+<p>tips: 大侠阿木的刷机工具箱就相当于是对ADB的用户友好的封装。而且集成了很多有用的功能。可以说刷机小白必备。而且，（我猜）这款工具适用于其他能解BL锁的手机</p>
+</blockquote>
+</blockquote>
+<p>解BL锁有两种做法，步骤都很简单。</p>
+<ol>
+<li>使用大侠阿木的工具箱。 一键解锁。</li>
+<li>使用ADB命令。 自己网上查：xxx设备 解BL锁。</li>
+</ol>
+<p>额外说明：</p>
+<ul>
+<li>解BL锁本身不难。只要设备能解BL锁。 </li>
+<li>第一步成功的标志：重启手机，你可以看到第一个页面（启动页面）出现类似：device unlocked, orange mode之类字样。</li>
+</ul>
+<h2 id="第二步：-magisk打补丁-Hook"><a href="#第二步：-magisk打补丁-Hook" class="headerlink" title="第二步： magisk打补丁&#x2F;Hook"></a>第二步： magisk打补丁&#x2F;Hook</h2><blockquote>
+<p>关键角色：同样，一台有ADB工具的电脑。 当前系统的ROM（.zip格式）。解了BL锁的手机并安装magisk</p>
+</blockquote>
+<p>流程&#x2F;原理： </p>
+<ol>
+<li>下载当前设备ROM</li>
+<li>从中得到boot.img（未修改）。 </li>
+<li>用magisk修改boot.img。 </li>
+<li>ADB环节：用ADB工具将修改过的boot.img刷入另一个启动分区。并设置设备从该分区启动。</li>
+</ol>
+<p>P.S. KernelSU&#x2F;Magisk等等 Root方案 使用大侠阿木的工具箱都可以一键搞定<br>tips： </p>
+<ol>
+<li>下载ROM一定要仔细比对是不是和当前系统完全一致。 不只是大版本号，后面的数字、字符串也要一样！！相信我！</li>
+<li>下载的ROM是zip格式。里面不一定带有boot.img。 你需要用到payload-dumper. 具体怎么用去读文档。 </li>
+<li>因为KernelSU在Android OS运行，你需要boot.img上传到手机上。 打开magisk,选中放boot.img的路径。 你应该可以在相同路径下得到要给修补后的boot.img</li>
+<li>useful commands：<br>查看当前启动分区：<code>fastboot getvar current-slot</code><br>把修补后的boot.img刷写到另一个分区 <code>fastboot flash boot_a kernerlSU-patched-boot.img</code><br>修改默认boot分区： <code>fastboot --set-active=a</code></li>
+</ol>
+<p>说明<br>如果成功了，打开Magisk(面具App)，显示“已激活”。说明root成功。接下来就是安装一些模块让root隐身。让应用程序检查不出设备root的痕迹。</p>
+<h2 id="第二步：但是KernelSU"><a href="#第二步：但是KernelSU" class="headerlink" title="第二步：但是KernelSU"></a>第二步：但是KernelSU</h2><blockquote>
+</blockquote>
+<p>for 小白：1+工具箱一键搞定。<br>步骤&#x2F;原理：</p>
+<h2 id="第三步：-KernelSU安装Zygisk等模块，更好的隐藏root"><a href="#第三步：-KernelSU安装Zygisk等模块，更好的隐藏root" class="headerlink" title="第三步： KernelSU安装Zygisk等模块，更好的隐藏root"></a>第三步： KernelSU安装Zygisk等模块，更好的隐藏root</h2><h2 id="菜逼的唠嗑"><a href="#菜逼的唠嗑" class="headerlink" title="菜逼的唠嗑"></a>菜逼的唠嗑</h2><p>所谓的组合键是用来进入fastboot模式的。完全可以用ADB来实现<br><code>adb devices</code><br><code>adb reboot bootloader</code><br><code>fastboot devices</code>  可以看到成功进入fastboot mode</p>
+<p>聊聊KernelSU：个人感觉比Magisk强大，易于使用。 因为在工具箱使用中发现Magisk root并不成功。而KernelSU一键解决了</p>
+<p>你常听到的boot, recovery mode, fastboot mode, TWRP:<br>似乎是Android 8 之后就开始采用“boot_a boot_b”滚动更新的方案了。 当你的手机系统（color OS 14）发布新版本(Color OS 15)。他会在a分区保留当前的Color OS 14的boot.img, 把Color OS 15的boot.img下载到b分区。 当你确认更新系统，install Color OS 15, 下一次启动将使用boot_b分区</p>
+<p>给新手的建议：<br>刷机这事吧，难也不难。教程一堆，10年前就有很多前辈玩得明明白白了。 但碎片化严重，大堆专业术语，没搞明白原理很可能看着手机变砖。<br>关键是要搞清楚你的设备获取root权限的原理。 KernelSU， magisk的原理。这篇博客并没有用心的介绍每个技术名词的百科。 一方面是自己的知识深度和表达能力的限制。另一方面是想留给各位探索。 个人认为：整活多少伴随一段知识积累的过程。</p>
+<p>担心变砖？<br>没有必要因为这份顾虑阻碍了前进。<br>就算变砖了也一定能修好的。相信我，不难。你可以试试下载正确版本的ROM，把boot.img刷到boot_a, boot_b. （fastboot flash boot_a boot_b IMG-PATH）</p>
+<p>不要随便更新系统，除非看到有人把LSPosed做好了</p>
+<h2 id="Resources"><a href="#Resources" class="headerlink" title="Resources"></a>Resources</h2><p><a href="https://optool.daxiaamu.com/optool/">https://optool.daxiaamu.com/optool/</a>   一加全能工具箱(PC端使用)<br><a href="https://yun.daxiaamu.com/OnePlus_Roms/">https://yun.daxiaamu.com/OnePlus_Roms/</a> 我目前知道的官方ROM的唯一渠道<br><a href="https://github.com/ssut/payload-dumper-go">https://github.com/ssut/payload-dumper-go</a>  An android OTA payload dumper written in Go.<br>KernelSU<br>LSPosed </p>
+]]></content>
+  </entry>
+  <entry>
     <title>办公软件使用技巧</title>
     <url>/2025/12/12/%E5%8A%9E%E5%85%AC%E8%BD%AF%E4%BB%B6%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/</url>
     <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>知道一些办公类软件可以事半功倍。如PDF阅读器，PS, 编辑器。</p>
@@ -873,27 +878,6 @@
       </categories>
       <tags>
         <tag>软件</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>和仲敖的SDR日记</title>
-    <url>/2025/03/25/%E5%92%8C%E4%BB%B2%E6%95%96%E7%9A%84SDR%E6%97%A5%E8%AE%B0/</url>
-    <content><![CDATA[<p> 下午逃课和仲敖玩SDR，收听了北京汽车广播。在日记里，我想记下几个难忘的瞬间。</p>
-<img src="https://github.com/OptimusHimself/picx-images-hosting/raw/master/radioandsun.webp" alt="BJUT环能楼楼顶的风景" >
-1仲敖问Deepseek北京电台的信息，然后说：切98，98有音乐！  
-
-<p>2 仲敖生病了依然陪我开箱，陪我安装，搞软件。 非常有耐心地陪我读文档、装软件，今天的成功，离不开我这位好朋友。  </p>
-<p>3 争论SDR# 软件上Bandwidth功能的实现原理，我认为是主板给滤波器发送信号调控硬件中的BPF，而仲敖坚持认为是软件对天线收到的所有信号进行处理。我们用一餐饭打赌，仲敖后来输了。    </p>
-<p>4 起初这条懒狗还不愿意陪我拿快递（当时挺失望的，同时也理解他生病的状态）。不过，后来在我的哄骗下还是一块去了。最后，我问他后悔走“那么多”路去拿快递吗？他表示这份体验很值得（我心里美滋滋的，要是没他陪我，我也玩不到那么好）。他甚至还想上京哈高速上玩，到首都机场听飞行员通信的频段。被我劝住了。我们计划清明前夕一块去，顺便下馆子。  </p>
-<p>5 本人手贱，把SDR# 上预设的bandwidth &#x3D; 200,000改成了2,000，结果什么都听不清。两个小白还以为是地方不够空旷，搬到一个新地方（环能楼顶层）去，结果依然啥也听不清。后来我把bandwidth又调回20万。你懂吧，当时我兴奋地扇自己耳光。替四教5层删的，冤枉你了。  </p>
-<p>6 不愧是C++ 代码王，看教程的时候，我总是有很多模棱两可的地方磨磨唧唧的。而身边的实战派总能帮我过滤掉无用信息，有这么一个果断但又不乏耐心的人陪伴，整活成为我的快乐<br>7 爸爸糖的香蕉味吐司挺好吃的。某人硬吹evian阿尔卑斯的水比农夫山泉的好，斥巨资购买。在我看来，骨子里的癖好是无法改变的。当然，和这位北京小哥成为好朋友完全不是看重这些所谓的“品味”。<br>8 守门员出生的仲敖怕天线摔地上，冲过去护着的样子。很可爱也有些滑稽。<br>今天，我们从开箱到听到FM广播。书本上的死知识：抽象的数学符号、老师随手画的频谱出现在我们眼前。我们不清楚为什么2000的带宽听到的消息信息量那么低，而200,000、180,000就正合适，调成300,000噪声就太多了。我们也不懂天线知识，不知道为什么短天线比长天线收听效果差，我们真的不懂EM wave是咋传播的，我们只知道信号是从西边（海淀）传来的，打开羊角天线，指向日落的方向就能听到音乐。<br>希望和仲敖在SDR的世界中收获更多的兴趣和乐趣。也希望在这个小玩意的引领下，DSP，communication theory, wireless communication三大module取得Aplus!</p>
-]]></content>
-      <categories>
-        <category>整活</category>
-      </categories>
-      <tags>
-        <tag>日记</tag>
-        <tag>SDR入门</tag>
       </tags>
   </entry>
   <entry>
@@ -930,6 +914,27 @@
       </categories>
       <tags>
         <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>和仲敖的SDR日记</title>
+    <url>/2025/03/25/%E5%92%8C%E4%BB%B2%E6%95%96%E7%9A%84SDR%E6%97%A5%E8%AE%B0/</url>
+    <content><![CDATA[<p> 下午逃课和仲敖玩SDR，收听了北京汽车广播。在日记里，我想记下几个难忘的瞬间。</p>
+<img src="https://github.com/OptimusHimself/picx-images-hosting/raw/master/radioandsun.webp" alt="BJUT环能楼楼顶的风景" >
+1仲敖问Deepseek北京电台的信息，然后说：切98，98有音乐！  
+
+<p>2 仲敖生病了依然陪我开箱，陪我安装，搞软件。 非常有耐心地陪我读文档、装软件，今天的成功，离不开我这位好朋友。  </p>
+<p>3 争论SDR# 软件上Bandwidth功能的实现原理，我认为是主板给滤波器发送信号调控硬件中的BPF，而仲敖坚持认为是软件对天线收到的所有信号进行处理。我们用一餐饭打赌，仲敖后来输了。    </p>
+<p>4 起初这条懒狗还不愿意陪我拿快递（当时挺失望的，同时也理解他生病的状态）。不过，后来在我的哄骗下还是一块去了。最后，我问他后悔走“那么多”路去拿快递吗？他表示这份体验很值得（我心里美滋滋的，要是没他陪我，我也玩不到那么好）。他甚至还想上京哈高速上玩，到首都机场听飞行员通信的频段。被我劝住了。我们计划清明前夕一块去，顺便下馆子。  </p>
+<p>5 本人手贱，把SDR# 上预设的bandwidth &#x3D; 200,000改成了2,000，结果什么都听不清。两个小白还以为是地方不够空旷，搬到一个新地方（环能楼顶层）去，结果依然啥也听不清。后来我把bandwidth又调回20万。你懂吧，当时我兴奋地扇自己耳光。替四教5层删的，冤枉你了。  </p>
+<p>6 不愧是C++ 代码王，看教程的时候，我总是有很多模棱两可的地方磨磨唧唧的。而身边的实战派总能帮我过滤掉无用信息，有这么一个果断但又不乏耐心的人陪伴，整活成为我的快乐<br>7 爸爸糖的香蕉味吐司挺好吃的。某人硬吹evian阿尔卑斯的水比农夫山泉的好，斥巨资购买。在我看来，骨子里的癖好是无法改变的。当然，和这位北京小哥成为好朋友完全不是看重这些所谓的“品味”。<br>8 守门员出生的仲敖怕天线摔地上，冲过去护着的样子。很可爱也有些滑稽。<br>今天，我们从开箱到听到FM广播。书本上的死知识：抽象的数学符号、老师随手画的频谱出现在我们眼前。我们不清楚为什么2000的带宽听到的消息信息量那么低，而200,000、180,000就正合适，调成300,000噪声就太多了。我们也不懂天线知识，不知道为什么短天线比长天线收听效果差，我们真的不懂EM wave是咋传播的，我们只知道信号是从西边（海淀）传来的，打开羊角天线，指向日落的方向就能听到音乐。<br>希望和仲敖在SDR的世界中收获更多的兴趣和乐趣。也希望在这个小玩意的引领下，DSP，communication theory, wireless communication三大module取得Aplus!</p>
+]]></content>
+      <categories>
+        <category>整活</category>
+      </categories>
+      <tags>
+        <tag>日记</tag>
+        <tag>SDR入门</tag>
       </tags>
   </entry>
   <entry>
@@ -974,6 +979,14 @@
 <h2 id="首页更多icons"><a href="#首页更多icons" class="headerlink" title="首页更多icons"></a>首页更多icons</h2><h2 id=""><a href="#" class="headerlink" title=""></a></h2>]]></content>
   </entry>
   <entry>
+    <title>大学找对象方案</title>
+    <url>/2025/09/06/%E5%A4%A7%E5%AD%A6%E6%89%BE%E5%AF%B9%E8%B1%A1%E6%96%B9%E6%A1%88/</url>
+    <content><![CDATA[<p>好久没写博客了，写一篇水着玩玩</p>
+<p>一个人在外地上大学，是否希望找一个对象，生活上有一个陪伴，学习上互相鼓励？探寻了多个伴侣之间的恋爱故事，我发现，想和一个约上会，需要合适的机遇。<br>你可以等。但是，你都来找攻略了，自然是不想等的。假如你已经看上了一个人。尤其是，你觉得ta也可能喜欢你。你还知道她是xxx学院，几年级，是否具备谈起来的条件。以下是方法：<br>去食堂的时候，不要带手机、也不要带校园卡。当你看到她时，你就礼貌地说：“同学，我没带校园卡，可以帮我刷一下吗？我wx转给你”。等她刷完，你不好意思地说：同学，我手机没带。可以记一下我wx号吗？</p>
+<p>认识我的人，看了这篇文章可能会说：tyrone，真没想到你也会想这些东西。<br>拜托，我也是人，也是个直男。有想追的女生不过分吧。至于我为什么能想到这个方法。Emmm，可能是保研期间疯狂陶瓷，和老师打交道多了，懂了些人情世故？锻炼了胆量？</p>
+]]></content>
+  </entry>
+  <entry>
     <title>在hexo博客中插入图片(方案汇总)</title>
     <url>/2025/03/09/%E5%9C%A8hexo%E5%8D%9A%E5%AE%A2%E4%B8%AD%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E3%80%90%E6%96%B9%E6%A1%88%E6%B1%87%E6%80%BB%E3%80%91/</url>
     <content><![CDATA[<h1 id="放弃的方案："><a href="#放弃的方案：" class="headerlink" title="放弃的方案："></a>放弃的方案：</h1><h2 id="原生的-hexo-add-on-hexo-asset"><a href="#原生的-hexo-add-on-hexo-asset" class="headerlink" title="原生的 hexo add on: hexo-asset"></a>原生的 hexo add on: hexo-asset</h2><p><code>post_asset_folder: false #true</code></p>
@@ -1003,29 +1016,17 @@
       </tags>
   </entry>
   <entry>
-    <title>大学找对象方案</title>
-    <url>/2025/09/06/%E5%A4%A7%E5%AD%A6%E6%89%BE%E5%AF%B9%E8%B1%A1%E6%96%B9%E6%A1%88/</url>
-    <content><![CDATA[<p>好久没写博客了，写一篇水着玩玩</p>
-<p>一个人在外地上大学，是否希望找一个对象，生活上有一个陪伴，学习上互相鼓励？探寻了多个伴侣之间的恋爱故事，我发现，想和一个约上会，需要合适的机遇。<br>你可以等。但是，你都来找攻略了，自然是不想等的。假如你已经看上了一个人。尤其是，你觉得ta也可能喜欢你。你还知道她是xxx学院，几年级，是否具备谈起来的条件。以下是方法：<br>去食堂的时候，不要带手机、也不要带校园卡。当你看到她时，你就礼貌地说：“同学，我没带校园卡，可以帮我刷一下吗？我wx转给你”。等她刷完，你不好意思地说：同学，我手机没带。可以记一下我wx号吗？</p>
-<p>认识我的人，看了这篇文章可能会说：tyrone，真没想到你也会想这些东西。<br>拜托，我也是人，也是个直男。有想追的女生不过分吧。至于我为什么能想到这个方法。Emmm，可能是保研期间疯狂陶瓷，和老师打交道多了，懂了些人情世故？锻炼了胆量？</p>
+    <title>手台入门教程</title>
+    <url>/2025/06/08/%E6%89%8B%E5%8F%B0%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/</url>
+    <content><![CDATA[<blockquote>
+<p>令我印象最深刻的经历，就是用Scan扫到中继的信号，听友台们的信号。在不知道亚音、频差的情况下傻乎乎的念：CQ CQ CQ, 这里是BD1BBU呼叫。Bravo Delta One Bravo Bravo Uniform 请求插入。 然后每一个人理我。 ——好家伙，啥都不会就干中继了🤣</p>
+</blockquote>
+<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>认识UVK6的按键：F键、菜单键<br>认识菜单的常用功能：存储信道；设置上、下行亚音；设置频差；Scan功能<br>实操：寻找中继台的高效办法，</p>
 ]]></content>
-  </entry>
-  <entry>
-    <title>我的A证</title>
-    <url>/2025/04/24/%E6%88%91%E7%9A%84A%E8%AF%81/</url>
-    <content><![CDATA[<img src="https://github.com/OptimusHimself/picx-images-hosting/raw/master/执照.8ojy22apde.jpg" alt="A证"  />
-
-<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>记录笔者考A证的时间线。还有给新手的建议（不包括复习）<br>以下，中国无线电协会业余电台操作证书叫做操作证。 中国人民共和国无线电台执照叫做（无线）电台执照。</p>
-<h1 id="时间线"><a href="#时间线" class="headerlink" title="时间线"></a>时间线</h1><p>4.19 考试<br>4.24 上网查看，通过了。<br>5.12 拿到操作证。验机、填表、申请电台执照。<br>5.30.执照通过 (其实执照上的有效期是5.22起，北京无线电协会的通知会晚一点儿)<br>6.4 申请邮寄执照<br>6.6 终于拿到邮寄的执照啦！（今天是我生日！）<code>BD1BBU</code></p>
-<h1 id="Q-A"><a href="#Q-A" class="headerlink" title="Q&amp;A"></a>Q&amp;A</h1><p>达到什么条件才可以“发射”？<br>有操作证，有电台执照。 很好理解，用电台就像开车。 首先，要有驾照（A操作证）。然后你的车要有车牌，就像你用的电台需要一个电台号、执照。就像交通系统的监管对象是路行驶的车而不是驾驶的人。摄像头先抓的是违规的车、再去扣驾驶员的分&#x2F;吊销他的执照。同样地，无线电管理系统也是监视违规的电台，其次再去惩罚操作员。</p>
-<h1 id="tips"><a href="#tips" class="headerlink" title="tips"></a>tips</h1><ul>
-<li>个人认为三天，每天准备4h就够了。</li>
-<li>看到当地无线电协会发的通知里没有自己的名字不要担心是自己没考过。可能那就不是你那波的考试情况。</li>
-<li>出了成绩就可以去验机啦！不要等到拿到操作证再去验机。<br>原因：早点验机，操作证和无线电台执照一起拿。<br>要区分A操作证、执照和其组织的关系。操作证是你当地的协会给你颁发的。而执照的合法单位是中国人民共和国工业和信息化部。前者需要通过考试，后者需要通过考试且拿符合标准的设备到当地无线电协会验机。<br>我傻傻以为操作证上就会有呼号。。结果后面看到一串长长的操作证ID就感觉不对劲。</li>
-</ul>
-]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
       <tags>
-        <tag>日记</tag>
         <tag>HAM</tag>
       </tags>
   </entry>
@@ -1360,19 +1361,42 @@
       </tags>
   </entry>
   <entry>
-    <title>手台入门教程</title>
-    <url>/2025/06/08/%E6%89%8B%E5%8F%B0%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/</url>
-    <content><![CDATA[<blockquote>
-<p>令我印象最深刻的经历，就是用Scan扫到中继的信号，听友台们的信号。在不知道亚音、频差的情况下傻乎乎的念：CQ CQ CQ, 这里是BD1BBU呼叫。Bravo Delta One Bravo Bravo Uniform 请求插入。 然后每一个人理我。 ——好家伙，啥都不会就干中继了🤣</p>
-</blockquote>
-<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>认识UVK6的按键：F键、菜单键<br>认识菜单的常用功能：存储信道；设置上、下行亚音；设置频差；Scan功能<br>实操：寻找中继台的高效办法，</p>
+    <title>我的A证</title>
+    <url>/2025/04/24/%E6%88%91%E7%9A%84A%E8%AF%81/</url>
+    <content><![CDATA[<img src="https://github.com/OptimusHimself/picx-images-hosting/raw/master/执照.8ojy22apde.jpg" alt="A证"  />
+
+<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>记录笔者考A证的时间线。还有给新手的建议（不包括复习）<br>以下，中国无线电协会业余电台操作证书叫做操作证。 中国人民共和国无线电台执照叫做（无线）电台执照。</p>
+<h1 id="时间线"><a href="#时间线" class="headerlink" title="时间线"></a>时间线</h1><p>4.19 考试<br>4.24 上网查看，通过了。<br>5.12 拿到操作证。验机、填表、申请电台执照。<br>5.30.执照通过 (其实执照上的有效期是5.22起，北京无线电协会的通知会晚一点儿)<br>6.4 申请邮寄执照<br>6.6 终于拿到邮寄的执照啦！（今天是我生日！）<code>BD1BBU</code></p>
+<h1 id="Q-A"><a href="#Q-A" class="headerlink" title="Q&amp;A"></a>Q&amp;A</h1><p>达到什么条件才可以“发射”？<br>有操作证，有电台执照。 很好理解，用电台就像开车。 首先，要有驾照（A操作证）。然后你的车要有车牌，就像你用的电台需要一个电台号、执照。就像交通系统的监管对象是路行驶的车而不是驾驶的人。摄像头先抓的是违规的车、再去扣驾驶员的分&#x2F;吊销他的执照。同样地，无线电管理系统也是监视违规的电台，其次再去惩罚操作员。</p>
+<h1 id="tips"><a href="#tips" class="headerlink" title="tips"></a>tips</h1><ul>
+<li>个人认为三天，每天准备4h就够了。</li>
+<li>看到当地无线电协会发的通知里没有自己的名字不要担心是自己没考过。可能那就不是你那波的考试情况。</li>
+<li>出了成绩就可以去验机啦！不要等到拿到操作证再去验机。<br>原因：早点验机，操作证和无线电台执照一起拿。<br>要区分A操作证、执照和其组织的关系。操作证是你当地的协会给你颁发的。而执照的合法单位是中国人民共和国工业和信息化部。前者需要通过考试，后者需要通过考试且拿符合标准的设备到当地无线电协会验机。<br>我傻傻以为操作证上就会有呼号。。结果后面看到一串长长的操作证ID就感觉不对劲。</li>
+</ul>
 ]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
       <tags>
+        <tag>日记</tag>
         <tag>HAM</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>摸底-提问</title>
+    <url>/2025/11/27/%E6%91%B8%E5%BA%95-%E6%8F%90%E9%97%AE/</url>
+    <content><![CDATA[<p>以下内容仅供娱乐。记录一下自己现在的知识水平（最近的学习有些被动了，</p>
+<p>一、测试一个人的<strong>计算机综合水平</strong>，你只需要问：<br>尽可能仔细地描述按下笔记本开机键到亮屏、进入系统以及进入系统之后的30s，电脑内部发生的事情。<br>给他足够的时间。你听他提到了哪些术语(grub, fstab, kernel….)，中间会不会分类讨论展开讲比如按下xxx按键可以进入xxx模式，大概就知道他懂得多深。</p>
+<p>二、测试一个人<strong>对前后端开发的理解</strong>有多深，你只需要问：<br>从手机屏幕点击微信图标到搜索联系人meipo，发送消息、接收消息。这些过程你的手机和服务器都做了什么。</p>
+<p>三、测试一个人<strong>计算机网络基础普及程度</strong>：<br>（这个我比较菜，我可能会考：DHCP联网的全过程。再考一些交叉问题：浏览器访问 github 全过程。</p>
+<p>四、linux 玩得六不六<br>（我也刚接触没多久），可能会问和包管理器相关的内容。再考考 LFS 的内容。再考一个怎么退出 vim（</p>
+<p>五、大模型与深度学习 &#x2F;&#x2F;这个我更没发言权，我还想起当时在北理工珠海校区被按地摩擦。。。</p>
+<ol>
+<li><p>我会问，大模型的幻觉现象。（其实我自己也不是很清楚</p>
+</li>
+<li><p>当前大模型有什么问题，是什么原因导致的。<br>我会说，当你给了多个关键词和一个需求时，大模型不太能判断这几个关键词和目标组成的逻辑网是否成立，是否会遇到阻碍。</p>
+</li>
+<li><p>偏工程性的话，我会问：阐述“在 deepseek.chat.com 发送一段文字，到浏览器出现AI的回复”这个一过程中，服务器和你的浏览器干了什么。</p>
+</li>
+</ol>
+]]></content>
   </entry>
   <entry>
     <title>插入图片</title>
@@ -1440,25 +1464,6 @@
       </tags>
   </entry>
   <entry>
-    <title>摸底-提问</title>
-    <url>/2025/11/27/%E6%91%B8%E5%BA%95-%E6%8F%90%E9%97%AE/</url>
-    <content><![CDATA[<p>以下内容仅供娱乐。记录一下自己现在的知识水平（最近的学习有些被动了，</p>
-<p>一、测试一个人的<strong>计算机综合水平</strong>，你只需要问：<br>尽可能仔细地描述按下笔记本开机键到亮屏、进入系统以及进入系统之后的30s，电脑内部发生的事情。<br>给他足够的时间。你听他提到了哪些术语(grub, fstab, kernel….)，中间会不会分类讨论展开讲比如按下xxx按键可以进入xxx模式，大概就知道他懂得多深。</p>
-<p>二、测试一个人<strong>对前后端开发的理解</strong>有多深，你只需要问：<br>从手机屏幕点击微信图标到搜索联系人meipo，发送消息、接收消息。这些过程你的手机和服务器都做了什么。</p>
-<p>三、测试一个人<strong>计算机网络基础普及程度</strong>：<br>（这个我比较菜，我可能会考：DHCP联网的全过程。再考一些交叉问题：浏览器访问 github 全过程。</p>
-<p>四、linux 玩得六不六<br>（我也刚接触没多久），可能会问和包管理器相关的内容。再考考 LFS 的内容。再考一个怎么退出 vim（</p>
-<p>五、大模型与深度学习 &#x2F;&#x2F;这个我更没发言权，我还想起当时在北理工珠海校区被按地摩擦。。。</p>
-<ol>
-<li><p>我会问，大模型的幻觉现象。（其实我自己也不是很清楚</p>
-</li>
-<li><p>当前大模型有什么问题，是什么原因导致的。<br>我会说，当你给了多个关键词和一个需求时，大模型不太能判断这几个关键词和目标组成的逻辑网是否成立，是否会遇到阻碍。</p>
-</li>
-<li><p>偏工程性的话，我会问：阐述“在 deepseek.chat.com 发送一段文字，到浏览器出现AI的回复”这个一过程中，服务器和你的浏览器干了什么。</p>
-</li>
-</ol>
-]]></content>
-  </entry>
-  <entry>
     <title>爆改乐视电视</title>
     <url>/2025/07/12/%E7%88%86%E6%94%B9%E4%B9%90%E8%A7%86%E7%94%B5%E8%A7%86/</url>
     <content><![CDATA[<p>3 音量减， 音量加， 频道减， 频道加</p>
@@ -1487,11 +1492,6 @@
       <tags>
         <tag>Clash Proxy Server</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>约定式提交</title>
-    <url>/2025/07/07/%E7%BA%A6%E5%AE%9A%E5%BC%8F%E6%8F%90%E4%BA%A4/</url>
-    <content><![CDATA[]]></content>
   </entry>
   <entry>
     <title>考前突击方案</title>
@@ -1556,6 +1556,11 @@
       </tags>
   </entry>
   <entry>
+    <title>约定式提交</title>
+    <url>/2025/07/07/%E7%BA%A6%E5%AE%9A%E5%BC%8F%E6%8F%90%E4%BA%A4/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title>认识前后端</title>
     <url>/2025/05/16/%E8%AE%A4%E8%AF%86%E5%89%8D%E5%90%8E%E7%AB%AF/</url>
     <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>我总是听到前端、后端、还有前后端<strong>分离</strong>。但说实话，从来没有好好体会这些词语的含义。<br>我希望能讲清楚哪些东西让人产生误解。（前后端这两个词就很容易产生误解。</p>
@@ -1601,28 +1606,6 @@
       </tags>
   </entry>
   <entry>
-    <title>论持久战</title>
-    <url>/2025/03/21/%E8%AE%BA%E6%8C%81%E4%B9%85%E6%88%98/</url>
-    <content><![CDATA[<p>从午休后到晚上10点，我全身心投入在模拟通信系统的调制技术的学习中。这是一次伟大的学习过程，因为我学会了“持久”。 我喜欢学习，但我的学习方法不算高效，或者说，在此之前，我没有一个通用的“学习思维”。 我能学好某些知识，归功于我擅长找好的教材、课程，从优质资源中汲取知识。但这只是途径问题，找好的教材是学习的第一步，属于“捷径方法论”。而现在要讨论的是：利用资源和规划时间。因为这一块工作没有做好，会让你在一个领域的开始阶段举步维艰，被那些“懂学习”的人拉开差距。我反思，为什么我作为一个CS专业的学生，到大三了才进入程序设计的全盛、兴趣爆棚的学习状态。慢热，真的好吗？</p>
-<p>拿通信原理这门课来说。要了解通信系统的运作需要很多前置知识：信息论——通信工程里讨论的bit和CS里常说的bit可不是一个概念；还有对通信系统的建模，对信道简单建模。总之，这门课的“原始积累、老本”几乎是0。而学校的教材、课程对于入门小白来说是很难摸得着头脑的。看讲义、课件时，突然蹦出一个你从未见过的公式、符号是很令人头疼的。</p>
-<p>以前，我在学新东西的时候总希望眼前的一切在脑中make sense, 好像有了某般instinct就等同于学会了，可以接下去学了。而要是没有那道“电弧”、通透的感觉，就是没学会。这还不够，不懂学习方法的我还会发脾气：这教材真差劲，不学了！老师讲得真烂，简直就是天书、不听了！于是连续3~4词旷课，等火烧眉毛了再咬着牙学。还有一类情况是，遇到了以前的知识，比方说研究调制信号的spetrum时用到了一点傅里叶变换。一些死扣牛角尖的想法就是，“哎呀，上学期信号与系统里教的傅里叶变换又忘了、我肯定学不下去了，连基础都没有，干脆等几天再学吧，先复习复习傅里叶变换”。可实际上，并没有行动，因为这个想法太空了，复习哪些部分？傅里叶变换那么多性质，真要复习全，三天三夜差不多。有时，你只是脑子里蹦出了知识图谱的一个小标签，就恐吓自己、转移自己的视线。从阿德勒的目的论来看，一切都目的就是不想接触新概念，因为你知道培养自己形成新的概念离不开痛苦、离不开旧思想的碰撞，进而想通过给自己设障达到偷懒、逃避的目的。</p>
-<p>我相信，有不少人也是和我有类似毛病的。只不过我这块特别严重。</p>
-<p>说说我现在的状态。</p>
-<p>上新课听到不懂的不再深究。一方面，你是初学者，你不可能短时间体会这个符号从过去被科学家发明出来，因为什么英文含义被写成这样，你也不可能短时间从只言片语体会到这个公式的来历，你需要练习，研究电路，物理意义你需要看更多的书来联想到更多的知识。另一方面，你真的需要在这个时间点知道那么多吗？正确的做法是，短暂思考后标注问题，问问自己前后的东西能不能自洽，换句话说，书上有没有硬刷错误。对你没看错，我的意思就是，有没有数学上，或者和过去的印象是否匹配。你只需要验证，告诉自己：</p>
-<p>“这大概是对的——这一项加这一项系数没问题，合并同类项等基本运算正确，可能我不知道为什么这么算，但我先接着听。”</p>
-<p>“傅里叶变换我有些不熟悉了……哎不管了，先记着cos(t)转到频域上是两根棍，好像没啥毛病。具体什么含义、为什么做傅里叶变换……老师也没讲、他也不一定讲的清。那我继续看。”</p>
-<p>出现什么新符号、新推演就告诉自己“哦，这有个新符号啊，它叫做……虽然我不知道为什么叫这个抽象玩意儿。”“为什么在通信系统里，做完A operation，就做B。老师说这个方法的优点是……，那就是吧，管他呢”。</p>
-<p>和老师、书本过进度，揭开这个系统的面纱。总之，你要学会减轻自己的思维负担。遇到不懂的东西，立刻告诉自己：“问题不大，没啥大不了的。”难道不是吗？生活中，哪有那么多事儿?</p>
-<p>我相信，好的资料为你拓宽视野，给你一个很好的认知基础，知道学习的路线。很多时候，这足够支撑你“无痛、轻微疼痛”即可入门一个领域。而有些时候，问题稍微复杂了些，每一步都带来很多未知面。这个时候就换一个思维，不要硬刚而是缓下来，换成“持久、不内耗、果断清晰”的思维。我认为，这是一个高效学习者的能力。</p>
-]]></content>
-      <categories>
-        <category>生活感悟</category>
-      </categories>
-      <tags>
-        <tag>学习方法</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Books Recommandation</title>
     <url>/2025/03/25/%E9%98%85%E8%AF%BB%E6%8E%A8%E8%8D%90/</url>
     <content><![CDATA[<p>这是一个来自IoT专业理工男整理的书单。我从读大学之后开始热爱读书、算是对各类书籍都感兴趣。在这之前，很少阅读课外书籍。这份清单涵盖了我阅读过的并且其中的某些片段为我留下了深刻印象、并对我的学习生活、个人修养产生过积极影响的书籍（真的，读书很神奇，你会因为梳理的内容做出很多改变，哪怕有些只有一个月。<br>AI时代获取信息变得容易，但是读书依然不可替代。<br>我为每本书留下了一些摘抄或者感想，可以当作这本书的精彩部分。 之后会有专门的分区记录每一本书的读后感。</p>
@@ -1661,6 +1644,28 @@
       </categories>
       <tags>
         <tag>资源分享</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>论持久战</title>
+    <url>/2025/03/21/%E8%AE%BA%E6%8C%81%E4%B9%85%E6%88%98/</url>
+    <content><![CDATA[<p>从午休后到晚上10点，我全身心投入在模拟通信系统的调制技术的学习中。这是一次伟大的学习过程，因为我学会了“持久”。 我喜欢学习，但我的学习方法不算高效，或者说，在此之前，我没有一个通用的“学习思维”。 我能学好某些知识，归功于我擅长找好的教材、课程，从优质资源中汲取知识。但这只是途径问题，找好的教材是学习的第一步，属于“捷径方法论”。而现在要讨论的是：利用资源和规划时间。因为这一块工作没有做好，会让你在一个领域的开始阶段举步维艰，被那些“懂学习”的人拉开差距。我反思，为什么我作为一个CS专业的学生，到大三了才进入程序设计的全盛、兴趣爆棚的学习状态。慢热，真的好吗？</p>
+<p>拿通信原理这门课来说。要了解通信系统的运作需要很多前置知识：信息论——通信工程里讨论的bit和CS里常说的bit可不是一个概念；还有对通信系统的建模，对信道简单建模。总之，这门课的“原始积累、老本”几乎是0。而学校的教材、课程对于入门小白来说是很难摸得着头脑的。看讲义、课件时，突然蹦出一个你从未见过的公式、符号是很令人头疼的。</p>
+<p>以前，我在学新东西的时候总希望眼前的一切在脑中make sense, 好像有了某般instinct就等同于学会了，可以接下去学了。而要是没有那道“电弧”、通透的感觉，就是没学会。这还不够，不懂学习方法的我还会发脾气：这教材真差劲，不学了！老师讲得真烂，简直就是天书、不听了！于是连续3~4词旷课，等火烧眉毛了再咬着牙学。还有一类情况是，遇到了以前的知识，比方说研究调制信号的spetrum时用到了一点傅里叶变换。一些死扣牛角尖的想法就是，“哎呀，上学期信号与系统里教的傅里叶变换又忘了、我肯定学不下去了，连基础都没有，干脆等几天再学吧，先复习复习傅里叶变换”。可实际上，并没有行动，因为这个想法太空了，复习哪些部分？傅里叶变换那么多性质，真要复习全，三天三夜差不多。有时，你只是脑子里蹦出了知识图谱的一个小标签，就恐吓自己、转移自己的视线。从阿德勒的目的论来看，一切都目的就是不想接触新概念，因为你知道培养自己形成新的概念离不开痛苦、离不开旧思想的碰撞，进而想通过给自己设障达到偷懒、逃避的目的。</p>
+<p>我相信，有不少人也是和我有类似毛病的。只不过我这块特别严重。</p>
+<p>说说我现在的状态。</p>
+<p>上新课听到不懂的不再深究。一方面，你是初学者，你不可能短时间体会这个符号从过去被科学家发明出来，因为什么英文含义被写成这样，你也不可能短时间从只言片语体会到这个公式的来历，你需要练习，研究电路，物理意义你需要看更多的书来联想到更多的知识。另一方面，你真的需要在这个时间点知道那么多吗？正确的做法是，短暂思考后标注问题，问问自己前后的东西能不能自洽，换句话说，书上有没有硬刷错误。对你没看错，我的意思就是，有没有数学上，或者和过去的印象是否匹配。你只需要验证，告诉自己：</p>
+<p>“这大概是对的——这一项加这一项系数没问题，合并同类项等基本运算正确，可能我不知道为什么这么算，但我先接着听。”</p>
+<p>“傅里叶变换我有些不熟悉了……哎不管了，先记着cos(t)转到频域上是两根棍，好像没啥毛病。具体什么含义、为什么做傅里叶变换……老师也没讲、他也不一定讲的清。那我继续看。”</p>
+<p>出现什么新符号、新推演就告诉自己“哦，这有个新符号啊，它叫做……虽然我不知道为什么叫这个抽象玩意儿。”“为什么在通信系统里，做完A operation，就做B。老师说这个方法的优点是……，那就是吧，管他呢”。</p>
+<p>和老师、书本过进度，揭开这个系统的面纱。总之，你要学会减轻自己的思维负担。遇到不懂的东西，立刻告诉自己：“问题不大，没啥大不了的。”难道不是吗？生活中，哪有那么多事儿?</p>
+<p>我相信，好的资料为你拓宽视野，给你一个很好的认知基础，知道学习的路线。很多时候，这足够支撑你“无痛、轻微疼痛”即可入门一个领域。而有些时候，问题稍微复杂了些，每一步都带来很多未知面。这个时候就换一个思维，不要硬刚而是缓下来，换成“持久、不内耗、果断清晰”的思维。我认为，这是一个高效学习者的能力。</p>
+]]></content>
+      <categories>
+        <category>生活感悟</category>
+      </categories>
+      <tags>
+        <tag>学习方法</tag>
       </tags>
   </entry>
   <entry>

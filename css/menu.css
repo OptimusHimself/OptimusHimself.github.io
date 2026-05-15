@@ -634,24 +634,20 @@
   }
 }
 
-/* ========== 卡片内图片滑动切换 (radio hack) ========== */
+/* ========== 卡片内图片滑动切换 (JS 驱动) ========== */
 .menu-card--swipe .menu-card-image-wrapper {
   position: relative;
   overflow: hidden;
 }
 
-.menu-card--swipe input[type="radio"] {
-  display: none;
-}
-
 .menu-card--swipe .swipe-track {
   display: flex;
   transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-  width: 200%;
+  width: calc(var(--swipe-count, 2) * 100%);
 }
 
 .menu-card--swipe .swipe-slide {
-  width: 50%;
+  width: calc(100% / var(--swipe-count, 2));
   flex-shrink: 0;
 }
 
@@ -662,19 +658,7 @@
   object-fit: contain;
 }
 
-/* 第1张 radio 选中 → track 不动 */
-#swipe-yaoji-1:checked ~ .swipe-track,
-#swipe-yuege-1:checked ~ .swipe-track {
-  transform: translateX(0);
-}
-
-/* 第2张 radio 选中 → 左移 50% */
-#swipe-yaoji-2:checked ~ .swipe-track,
-#swipe-yuege-2:checked ~ .swipe-track {
-  transform: translateX(-50%);
-}
-
-/* 圆点指示器 */
+/* 圆点指示器 (JS 控制 .active 类) */
 .menu-card--swipe .swipe-dots {
   position: absolute;
   bottom: 8px;
@@ -685,7 +669,7 @@
   z-index: 2;
 }
 
-.menu-card--swipe .swipe-dots label {
+.menu-card--swipe .swipe-dot {
   display: block;
   width: 8px;
   height: 8px;
@@ -696,20 +680,68 @@
   transition: background 0.3s, transform 0.3s;
 }
 
-.menu-card--swipe .swipe-dots label:hover {
+.menu-card--swipe .swipe-dot:hover {
   transform: scale(1.3);
 }
 
-#swipe-yaoji-1:checked ~ .swipe-dots label:nth-child(1),
-#swipe-yuege-1:checked ~ .swipe-dots label:nth-child(1) {
+.menu-card--swipe .swipe-dot.active {
   background: var(--lantern-red, #c94040);
   border-color: var(--lantern-red, #c94040);
 }
 
-#swipe-yaoji-2:checked ~ .swipe-dots label:nth-child(2),
-#swipe-yuege-2:checked ~ .swipe-dots label:nth-child(2) {
-  background: var(--lantern-red, #c94040);
-  border-color: var(--lantern-red, #c94040);
+/* 左右箭头按钮 */
+.menu-card--swipe .swipe-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.85);
+  border: 1.5px solid rgba(0,0,0,0.1);
+  color: var(--ink-black, #2c2c2c);
+  font-size: 1.2rem;
+  font-weight: 700;
+  cursor: pointer;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s, transform 0.3s, background 0.2s;
+  pointer-events: none;
+  line-height: 1;
+  user-select: none;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.12);
+}
+
+.menu-card--swipe .menu-card-image-wrapper:hover .swipe-arrow {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.menu-card--swipe .swipe-arrow:hover {
+  background: rgba(255,255,255,1);
+  transform: translateY(-50%) scale(1.1);
+}
+
+.menu-card--swipe .swipe-arrow:active {
+  transform: translateY(-50%) scale(0.95);
+}
+
+.menu-card--swipe .swipe-arrow--left {
+  left: 8px;
+}
+
+.menu-card--swipe .swipe-arrow--right {
+  right: 8px;
+}
+
+/* 移动端隐藏箭头（使用触摸滑动） */
+@media (pointer: coarse) {
+  .menu-card--swipe .swipe-arrow {
+    display: none !important;
+  }
 }
 
 /* badge 在滑动卡片中保持在图片上方 */
