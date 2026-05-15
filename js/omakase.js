@@ -32,6 +32,7 @@
   var orderCountHeader = document.getElementById('orderCountHeader');
   var orderListEl = document.getElementById('orderList');
   var nicknameInput = document.getElementById('nicknameInput');
+  var remarkInput = document.getElementById('remarkInput');
   var submitBtn = document.getElementById('submitBtn');
   var clearBtn = document.getElementById('clearBtn');
   var confirmBox = document.getElementById('confirmBox');
@@ -165,6 +166,8 @@
       var dishes = Array.from(orderList).join('\u3001');
       var nickname =
         (nicknameInput ? nicknameInput.value.trim() : '') || '\u533F\u540D\u98DF\u5BA2';
+      var remark =
+        (remarkInput ? remarkInput.value.trim() : '');
 
       var btn = submitBtn;
       if (!btn) return;
@@ -175,7 +178,7 @@
         var r = await fetch(FC_URL, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ dishes: dishes, nickname: nickname }),
+          body: JSON.stringify({ dishes: dishes, nickname: nickname, remark: remark }),
         });
         var d = await r.json();
 
@@ -187,6 +190,7 @@
           });
           renderOrderPopup();
           if (nicknameInput) nicknameInput.value = '';
+          if (remarkInput) remarkInput.value = '';
           closePopup();
         } else {
           alert('\u274C \u53D1\u9001\u5931\u8D25: ' + (d.msg || '\u672A\u77E5\u9519\u8BEF'));

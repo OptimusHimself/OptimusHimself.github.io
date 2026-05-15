@@ -908,6 +908,12 @@
   transition: border-color 0.2s;
 }
 
+.order-sidebar-remark {
+  resize: vertical;
+  min-height: 46px;
+  line-height: 1.5;
+}
+
 .order-sidebar-input:focus {
   border-color: var(--lantern-red);
 }

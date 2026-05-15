@@ -33,6 +33,9 @@
     'fifty-year spun.m4a',
     'stay alone.m4a',
     '绝对占有，相对自由.m4a',
+    '圣诞快乐 劳伦斯先生.m4a',
+    '从前慢.m4a',
+    'I Only Watch it for the Weather.m4a',
   ];
 
   var BASE = '/audio/omakase/';
@@ -82,23 +85,8 @@
     bgmAudio.loop = false;
     bgmAudio.addEventListener('ended', playEnded);
 
-    // 从第一首开始
+    // 从第一首开始 — 打开页面自动播放
     playByIndex(0);
-
-    // Autoplay 政策处理：第一次用户交互时恢复播放
-    var firstInteraction = function () {
-      if (bgmAudio.paused && !pausedByUser) {
-        bgmAudio.play().catch(function () {});
-      }
-      document.removeEventListener('click', firstInteraction);
-      document.removeEventListener('touchstart', firstInteraction);
-      document.removeEventListener('keydown', firstInteraction);
-    };
-    if (bgmAudio.paused && bgmAudio.readyState === 0) {
-      document.addEventListener('click', firstInteraction);
-      document.addEventListener('touchstart', firstInteraction);
-      document.addEventListener('keydown', firstInteraction);
-    }
   }
 
   /* ============================================================
