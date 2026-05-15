@@ -484,58 +484,6 @@
   background: linear-gradient(135deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.04) 100%);
 }
 
-/* 无脸男 Easter Egg */
-.kaonashi-egg {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  width: 44px;
-  height: 54px;
-  color: rgba(44, 44, 44, 0.15);
-  transition: all 0.3s;
-  cursor: pointer;
-  z-index: 9980;
-}
-
-.kaonashi-egg:hover {
-  color: var(--lantern-red);
-  transform: scale(1.15);
-}
-
-[data-user-color-scheme='dark'] .kaonashi-egg {
-  color: rgba(255,255,255,0.15);
-}
-
-[data-user-color-scheme='dark'] .kaonashi-egg:hover {
-  color: var(--golden);
-}
-
-.kaonashi-tooltip {
-  position: absolute;
-  bottom: 100%;
-  left: 50%;
-  transform: translateX(-50%);
-  font-family: var(--font-japanese);
-  font-size: 0.7rem;
-  white-space: nowrap;
-  color: var(--wood-brown);
-  background: rgba(245, 240, 232, 0.9);
-  padding: 2px 8px;
-  border-radius: 4px;
-  opacity: 0;
-  transition: opacity 0.3s;
-  pointer-events: none;
-}
-
-.kaonashi-egg:hover .kaonashi-tooltip {
-  opacity: 1;
-}
-
-[data-user-color-scheme='dark'] .kaonashi-tooltip {
-  background: rgba(26, 26, 46, 0.9);
-  color: #ccc;
-}
-
 /* ========== 11. 响应式设计 ========== */
 @media (max-width: 980px) {
   .menu-outline {
@@ -619,14 +567,6 @@
 
   .omakase-footer {
     height: 100px;
-  }
-
-  .kaonashi-egg {
-    width: 36px;
-    height: 44px;
-    bottom: 10px;
-    right: 10px;
-    opacity: 0.2;
   }
 
   .sakura-container {
@@ -1045,6 +985,32 @@
   background: rgba(226, 168, 75, 0.1);
 }
 
+/* 确认区（内联在弹窗底部） */
+.order-sidebar-confirm {
+  padding: 4px 0 2px;
+  text-align: center;
+}
+.order-sidebar-confirm .confirm-text {
+  margin: 0 0 6px;
+  font-family: var(--font-handwrite);
+  font-size: 0.95rem;
+  color: var(--lantern-red);
+}
+.order-sidebar-confirm .confirm-btns {
+  display: flex;
+  gap: 8px;
+}
+.order-sidebar-confirm .confirm-yes {
+  flex: 1;
+}
+.order-sidebar-confirm .confirm-no {
+  flex: 1;
+}
+
+[data-user-color-scheme='dark'] .order-sidebar-confirm .confirm-text {
+  color: var(--golden-light);
+}
+
 /* ========== 15. 响应式：移动端弹窗适配 ========== */
 @media (max-width: 768px) {
   .order-sidebar {
@@ -1059,4 +1025,128 @@
     height: 48px;
     font-size: 1.2rem;
   }
+
+  /* 移动端下音乐按钮放大一点 */
+  .music-float-btn {
+    bottom: 120px;
+    left: 14px;
+    width: 48px;
+    height: 48px;
+    font-size: 1.2rem;
+  }
+  .music-panel {
+    bottom: 174px;
+    left: 14px;
+  }
+}
+
+/* ========== 16. 音乐播放器 ========== */
+/* 浮动按钮 */
+.music-float-btn {
+  position: fixed;
+  z-index: 999;
+  bottom: 90px;
+  left: 20px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: none;
+  background: var(--bg-card, #fff);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+  color: var(--lantern-red, #c94040);
+  line-height: 1;
+}
+.music-float-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+}
+.music-float-btn:active {
+  transform: scale(0.95);
+}
+
+[data-user-color-scheme='dark'] .music-float-btn {
+  background: #2c2c2c;
+  color: var(--golden-light, #e2a84b);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+}
+
+/* 控制面板 */
+.music-panel {
+  position: fixed;
+  z-index: 998;
+  bottom: 140px;
+  left: 20px;
+  background: var(--bg-card, #fff);
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  padding: 10px 14px;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  min-width: 140px;
+  transition: opacity 0.25s, transform 0.25s;
+  transform-origin: bottom left;
+}
+.music-panel.visible {
+  display: flex;
+}
+
+[data-user-color-scheme='dark'] .music-panel {
+  background: #2c2c2c;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.music-panel-track {
+  font-size: 0.8rem;
+  color: #888;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 120px;
+}
+
+[data-user-color-scheme='dark'] .music-panel-track {
+  color: #aaa;
+}
+
+.music-panel-controls {
+  display: flex;
+  gap: 8px;
+}
+
+.music-panel-btn {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: transparent;
+  cursor: pointer;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s, border-color 0.2s;
+  color: #555;
+  line-height: 1;
+  padding: 0;
+}
+.music-panel-btn:hover {
+  background: rgba(0, 0, 0, 0.05);
+  border-color: rgba(0, 0, 0, 0.2);
+}
+
+[data-user-color-scheme='dark'] .music-panel-btn {
+  color: #ccc;
+  border-color: rgba(255, 255, 255, 0.15);
+}
+[data-user-color-scheme='dark'] .music-panel-btn:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.3);
 }
