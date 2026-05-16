@@ -120,10 +120,8 @@
     if (confirmBox) confirmBox.style.display = 'none';
   }
 
-  // 点击浮动按钮 → 打开
-  if (cartFloatBtn) {
-    cartFloatBtn.addEventListener('click', openPopup);
-  }
+  // 点击浮动按钮 → 打开（拖拽功能接管此交互，此处不再直接绑定）
+  // 由 makeDraggable 中的点击检测触发 openPopup
 
   // 点击遮罩 → 关闭
   if (orderOverlay) {
@@ -214,22 +212,19 @@
   /* ============================================================
    * 7. 音乐播放器控制
    * ============================================================ */
-  if (musicFloatBtn) {
-    musicFloatBtn.addEventListener('click', function () {
-      if (musicPanel) {
-        // 只展开/收起面板，不播放/暂停
-        musicPanel.classList.toggle('visible');
-        // 如果 audio 还没加载，动态加载 audio.js
-        if (!window.omakaseAudio) {
-          var s = document.createElement('script');
-          s.src = '/js/audio.js';
-          s.onload = function () {
-            if (window.omakaseAudio) updateMusicUI();
-          };
-          document.head.appendChild(s);
-        }
+  // 音乐按钮点击由 makeDraggable 中的点击检测触发
+  function toggleMusicPanel() {
+    if (musicPanel) {
+      musicPanel.classList.toggle('visible');
+      if (!window.omakaseAudio) {
+        var s = document.createElement('script');
+        s.src = '/js/audio.js';
+        s.onload = function () {
+          if (window.omakaseAudio) updateMusicUI();
+        };
+        document.head.appendChild(s);
       }
-    });
+    }
   }
 
   if (musicPlayBtn) {
@@ -266,7 +261,104 @@
   }
 
   /* ============================================================
-   * 8. 初始化渲染
+   * 8. 浮动按钮拖拽功能
+   * ============================================================ */
+  function makeDraggable(btn) {
+    if (!btn) return;
+
+    var isDragging = false;
+    var startX, startY, origLeft, origTop;
+    var panel = null;
+
+    // 音乐按钮关联的面板
+    if (btn === musicFloatBtn) {
+      panel = musicPanel;
+    }
+
+    function onStart(e) {
+      // 只响应主按钮（左键 / 触摸主触点）
+      if (e.button !== undefined && e.button !== 0) return;
+
+      isDragging = false;
+
+      var rect = btn.getBoundingClientRect();
+
+      // 将定位从 right/bottom 转为 left/top
+      var cs = getComputedStyle(btn);
+      var leftVal = cs.left;
+      var topVal = cs.top;
+
+      if (leftVal === 'auto' || topVal === 'auto' || btn.style.left === '') {
+        origLeft = rect.left;
+        origTop = rect.top;
+      } else {
+        origLeft = parseFloat(leftVal) || rect.left;
+        origTop = parseFloat(topVal) || rect.top;
+      }
+
+      btn.style.left = origLeft + 'px';
+      btn.style.top = origTop + 'px';
+      btn.style.right = 'auto';
+      btn.style.bottom = 'auto';
+      btn.setPointerCapture(e.pointerId);
+      btn.addEventListener('pointermove', onMove);
+      btn.addEventListener('pointerup', onEnd);
+      btn.addEventListener('pointercancel', onEnd);
+
+      startX = e.clientX;
+      startY = e.clientY;
+
+      btn.classList.add('float-btn-dragging');
+    }
+
+    function onMove(e) {
+      var dx = e.clientX - startX;
+      var dy = e.clientY - startY;
+
+      if (Math.abs(dx) > 3 || Math.abs(dy) > 3) {
+        isDragging = true;
+      }
+
+      if (isDragging) {
+        btn.style.left = (origLeft + dx) + 'px';
+        btn.style.top = (origTop + dy) + 'px';
+
+        if (panel) {
+          var br = btn.getBoundingClientRect();
+          panel.style.left = br.left + 'px';
+          panel.style.top = (br.bottom + 8) + 'px';
+          panel.style.bottom = 'auto';
+          panel.style.right = 'auto';
+          panel.classList.add('dragged');
+        }
+      }
+    }
+
+    function onEnd() {
+      btn.classList.remove('float-btn-dragging');
+      btn.removeEventListener('pointermove', onMove);
+      btn.removeEventListener('pointerup', onEnd);
+      btn.removeEventListener('pointercancel', onEnd);
+
+      // 点击（非拖拽）→ 执行按钮功能
+      if (!isDragging) {
+        if (btn === cartFloatBtn) {
+          openPopup();
+        } else if (btn === musicFloatBtn) {
+          toggleMusicPanel();
+        }
+      }
+    }
+
+    btn.addEventListener('pointerdown', onStart);
+  }
+
+  // 对两个按钮启用拖拽
+  makeDraggable(cartFloatBtn);
+  makeDraggable(musicFloatBtn);
+
+  /* ============================================================
+   * 9. 初始化渲染
    * ============================================================ */
   renderOrderPopup();
 
