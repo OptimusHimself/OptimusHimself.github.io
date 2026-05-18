@@ -85,8 +85,8 @@
     bgmAudio.loop = false;
     bgmAudio.addEventListener('ended', playEnded);
 
-    // 从第一首开始 — 打开页面自动播放
-    playByIndex(0);
+    // 随机选一首作为起始，但保持歌单顺序不变
+    playByIndex(Math.floor(Math.random() * TRACKS.length));
   }
 
   /* ============================================================
