@@ -1880,4 +1880,489 @@
 <h1 id="关于邪修"><a href="#关于邪修" class="headerlink" title="关于邪修"></a>关于邪修</h1><h3 id="脑洞大开："><a href="#脑洞大开：" class="headerlink" title="脑洞大开："></a>脑洞大开：</h3><p>攀岩、跳舞 —— 可以看一些当地的妹子； （内蒙古：可以去体验射箭<br>附近的徒步圣地</p>
 ]]></content>
   </entry>
+  <entry>
+    <title>device-recon</title>
+    <url>/2026/09/16/device-recon/</url>
+    <content><![CDATA[<p>这是一次探索 agent 能力的尝试，我想用 claude code 和 deepseek v4 pro 模型看看我的手机当前装了哪些软件，还有底层的一些信息。<br>下面是它生成的报告</p>
+<h1 id="设备侦察报告-—-LineageOS-23-2-corvette"><a href="#设备侦察报告-—-LineageOS-23-2-corvette" class="headerlink" title="设备侦察报告 — LineageOS 23.2 &#x2F; corvette"></a>设备侦察报告 — LineageOS 23.2 &#x2F; corvette</h1><blockquote>
+<p>采集方式：Claude agent 通过 <code>adb</code> CLI 采集<br>采集时间：2026-09-16<br>采集时设备状态：未 root，ADB 已授权（<code>device</code>）</p>
+</blockquote>
+<hr>
+<h2 id="1-设备标识"><a href="#1-设备标识" class="headerlink" title="1. 设备标识"></a>1. 设备标识</h2><table>
+<thead>
+<tr>
+<th>项</th>
+<th>值</th>
+<th>采集命令</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>序列号</td>
+<td><code>fa6ab620</code></td>
+<td><code>adb devices -l</code></td>
+</tr>
+<tr>
+<td>型号</td>
+<td><code>PJX110</code></td>
+<td><code>getprop ro.product.model</code></td>
+</tr>
+<tr>
+<td>设备代号</td>
+<td><code>corvette</code></td>
+<td><code>getprop ro.lineage.device</code></td>
+</tr>
+<tr>
+<td>内部 device</td>
+<td><code>OP5D06L1</code></td>
+<td><code>adb devices -l</code></td>
+</tr>
+<tr>
+<td>ABI</td>
+<td><code>arm64-v8a</code></td>
+<td><code>getprop ro.product.cpu.abi</code></td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="2-系统-ROM"><a href="#2-系统-ROM" class="headerlink" title="2. 系统 &#x2F; ROM"></a>2. 系统 &#x2F; ROM</h2><table>
+<thead>
+<tr>
+<th>项</th>
+<th>值</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>ROM</td>
+<td>LineageOS</td>
+</tr>
+<tr>
+<td>版本</td>
+<td><code>23.2</code></td>
+</tr>
+<tr>
+<td>构建号</td>
+<td><code>23.2-20260720-NIGHTLY-corvette</code></td>
+</tr>
+<tr>
+<td>发布类型</td>
+<td><code>NIGHTLY</code></td>
+</tr>
+<tr>
+<td>构建 flavor</td>
+<td><code>lineage_corvette-userdebug</code></td>
+</tr>
+<tr>
+<td>构建类型</td>
+<td><code>userdebug</code></td>
+</tr>
+<tr>
+<td>Android 版本</td>
+<td>16</td>
+</tr>
+<tr>
+<td>API Level</td>
+<td>36</td>
+</tr>
+<tr>
+<td>构建日期</td>
+<td>2026-07-20</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="3-Root-与安全状态-★核心发现"><a href="#3-Root-与安全状态-★核心发现" class="headerlink" title="3. Root 与安全状态 ★核心发现"></a>3. Root 与安全状态 ★核心发现</h2><table>
+<thead>
+<tr>
+<th>属性</th>
+<th>值</th>
+<th>含义</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>ro.debuggable</code></td>
+<td><strong>0</strong></td>
+<td><strong><code>adb root</code> 被禁用</strong></td>
+</tr>
+<tr>
+<td><code>ro.secure</code></td>
+<td><code>1</code></td>
+<td>安全模式</td>
+</tr>
+<tr>
+<td><code>ro.adb.secure</code></td>
+<td><code>1</code></td>
+<td>ADB 授权校验开启</td>
+</tr>
+<tr>
+<td><code>persist.sys.root_access</code></td>
+<td>(空)</td>
+<td>未设置</td>
+</tr>
+<tr>
+<td><code>su</code> 二进制</td>
+<td>不存在</td>
+<td><code>command -v su</code> 无输出</td>
+</tr>
+<tr>
+<td>root 管理器</td>
+<td>无</td>
+<td>无 Magisk &#x2F; KernelSU &#x2F; APatch</td>
+</tr>
+<tr>
+<td><code>ro.boot.verifiedbootstate</code></td>
+<td><strong><code>orange</code></strong></td>
+<td><strong>引导加载程序已解锁</strong></td>
+</tr>
+<tr>
+<td><code>ro.boot.flash.locked</code></td>
+<td>(空)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>SELinux</td>
+<td><code>Enforcing</code></td>
+<td>—</td>
+</tr>
+</tbody></table>
+<h3 id="关键结论"><a href="#关键结论" class="headerlink" title="关键结论"></a>关键结论</h3><ol>
+<li><p><strong><code>adb root</code> 不可用</strong>。LineageOS 官方构建即使打着 <code>userdebug</code> 标签，也会刻意将<br>  <code>ro.debuggable</code> 置为 <code>0</code>。这与 AOSP 原生 <code>userdebug</code> 的默认行为不同——不要假设<br>  <code>ro.build.type=userdebug</code> 就等于 <code>adb root</code> 可用。</p>
+</li>
+<li><p><strong>BL 已解锁（<code>verifiedbootstate=orange</code>）</strong>。这是 root 流程中风险最高的一步<br>  （解锁会清空全盘数据），而该设备已跨过此门槛。意味着后续上 Magisk <strong>无需再次<br>  擦除数据</strong>。</p>
+</li>
+<li><p><strong>SELinux 为 Enforcing</strong>，root 后需处理策略，但 Magisk 会在 permissive 域内注入。</p>
+</li>
+</ol>
+<hr>
+<h2 id="4-应用清单"><a href="#4-应用清单" class="headerlink" title="4. 应用清单"></a>4. 应用清单</h2><p>统计口径：<code>pm list packages</code> 共 <strong>286</strong> 个包。</p>
+<h3 id="4-1-LineageOS-自带应用"><a href="#4-1-LineageOS-自带应用" class="headerlink" title="4.1 LineageOS 自带应用"></a>4.1 LineageOS 自带应用</h3><table>
+<thead>
+<tr>
+<th>包名</th>
+<th>应用</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>org.lineageos.aperture</code></td>
+<td>相机</td>
+</tr>
+<tr>
+<td><code>org.lineageos.glimpse</code></td>
+<td>图库</td>
+</tr>
+<tr>
+<td><code>org.lineageos.jelly</code></td>
+<td>浏览器（旧）</td>
+</tr>
+<tr>
+<td><code>org.lineageos.camelot</code></td>
+<td>浏览器（新）</td>
+</tr>
+<tr>
+<td><code>org.lineageos.etar</code></td>
+<td>日历</td>
+</tr>
+<tr>
+<td><code>org.lineageos.twelve</code></td>
+<td>音乐播放器</td>
+</tr>
+<tr>
+<td><code>org.lineageos.recorder</code></td>
+<td>录音机</td>
+</tr>
+<tr>
+<td><code>org.lineageos.audiofx</code></td>
+<td>音效均衡器</td>
+</tr>
+<tr>
+<td><code>org.lineageos.updater</code></td>
+<td>系统更新</td>
+</tr>
+<tr>
+<td><code>org.lineageos.lineageparts</code></td>
+<td>LineageOS 设置（Parts）</td>
+</tr>
+<tr>
+<td><code>org.lineageos.lineagesettings</code></td>
+<td>设置存储提供方</td>
+</tr>
+<tr>
+<td><code>org.lineageos.profiles</code></td>
+<td>情景模式</td>
+</tr>
+<tr>
+<td><code>org.lineageos.backgrounds</code></td>
+<td>壁纸</td>
+</tr>
+<tr>
+<td><code>org.lineageos.setupwizard</code></td>
+<td>开机向导</td>
+</tr>
+<tr>
+<td><code>org.lineageos.settings.device</code></td>
+<td>设备专属设置</td>
+</tr>
+<tr>
+<td><code>org.lineageos.settings.doze</code></td>
+<td>息屏手势</td>
+</tr>
+<tr>
+<td><code>org.lineageos.settingsconfig</code></td>
+<td>设置配置</td>
+</tr>
+<tr>
+<td><code>org.lineageos.overlay.customization.blacktheme</code></td>
+<td>深色主题覆盖层</td>
+</tr>
+<tr>
+<td><code>org.lineageos.overlay.font.googlesansflex</code></td>
+<td>Google Sans Flex 字体</td>
+</tr>
+</tbody></table>
+<h3 id="4-2-AOSP-系统基础应用"><a href="#4-2-AOSP-系统基础应用" class="headerlink" title="4.2 AOSP &#x2F; 系统基础应用"></a>4.2 AOSP &#x2F; 系统基础应用</h3><table>
+<thead>
+<tr>
+<th>包名</th>
+<th>应用</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>com.android.dialer</code></td>
+<td>电话</td>
+</tr>
+<tr>
+<td><code>com.android.contacts</code></td>
+<td>联系人</td>
+</tr>
+<tr>
+<td><code>com.android.messaging</code></td>
+<td>短信</td>
+</tr>
+<tr>
+<td><code>com.android.deskclock</code></td>
+<td>时钟</td>
+</tr>
+<tr>
+<td><code>com.android.calculator2</code></td>
+<td>计算器</td>
+</tr>
+<tr>
+<td><code>com.android.gallery3d</code></td>
+<td>图库（旧）</td>
+</tr>
+<tr>
+<td><code>com.android.launcher3</code></td>
+<td>Trebuchet 桌面</td>
+</tr>
+<tr>
+<td><code>com.android.inputmethod.latin</code></td>
+<td>AOSP 输入法</td>
+</tr>
+<tr>
+<td><code>com.android.documentsui</code></td>
+<td>文件</td>
+</tr>
+<tr>
+<td><code>com.android.settings</code></td>
+<td>设置</td>
+</tr>
+<tr>
+<td><code>com.android.systemui</code></td>
+<td>系统界面</td>
+</tr>
+<tr>
+<td><code>com.android.phone</code></td>
+<td>电话服务</td>
+</tr>
+<tr>
+<td><code>com.android.server.telecom</code></td>
+<td>通话服务</td>
+</tr>
+<tr>
+<td><code>com.android.printspooler</code></td>
+<td>打印后台</td>
+</tr>
+<tr>
+<td><code>com.android.wallpaper</code></td>
+<td>壁纸选择器</td>
+</tr>
+</tbody></table>
+<h3 id="4-3-附加组件"><a href="#4-3-附加组件" class="headerlink" title="4.3 附加组件"></a>4.3 附加组件</h3><table>
+<thead>
+<tr>
+<th>包名</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>com.stevesoltys.seedvault</code></td>
+<td>Seedvault 备份</td>
+</tr>
+<tr>
+<td><code>org.calyxos.backup.contacts</code></td>
+<td>联系人备份（CalyxOS 组件）</td>
+</tr>
+<tr>
+<td><code>org.protonaosp.deviceconfig</code></td>
+<td>ProtonAOSP 设备配置</td>
+</tr>
+</tbody></table>
+<h3 id="4-4-vendor-硬件相关"><a href="#4-4-vendor-硬件相关" class="headerlink" title="4.4 vendor &#x2F; 硬件相关"></a>4.4 vendor &#x2F; 硬件相关</h3><table>
+<thead>
+<tr>
+<th>包名</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>android.overlay.oplus</code> &#x2F; <code>.target</code></td>
+<td>OPPO &#x2F; 一加 覆盖层</td>
+</tr>
+<tr>
+<td><code>com.qualcomm.*</code></td>
+<td>高通：qcrilmsgtunnel &#x2F; cne &#x2F; telephonyservice &#x2F; timeservice &#x2F; uimGbaApp &#x2F; uimremoteclient &#x2F; uimremoteserver &#x2F; wfd.service</td>
+</tr>
+<tr>
+<td><code>com.qti.dpmserviceapp</code> &#x2F; <code>com.qti.qcc</code></td>
+<td>高通 QTI 组件</td>
+</tr>
+<tr>
+<td><code>vendor.qti.*</code></td>
+<td>iwlan &#x2F; imsdatachannel &#x2F; cacert.server</td>
+</tr>
+<tr>
+<td><code>org.codeaurora.ims</code></td>
+<td>IMS 实现</td>
+</tr>
+<tr>
+<td><code>com.tencent.soter.soterserver</code></td>
+<td>腾讯 SOTER（指纹支付支持）</td>
+</tr>
+<tr>
+<td><code>org.ifaa.aidl.manager</code></td>
+<td>IFAA 生物识别支付</td>
+</tr>
+<tr>
+<td><code>com.google.android.apps.googlecamera.fishfood</code></td>
+<td>Google 相机组件（vendor 带入）</td>
+</tr>
+</tbody></table>
+<h3 id="4-5-已禁用包"><a href="#4-5-已禁用包" class="headerlink" title="4.5 已禁用包"></a>4.5 已禁用包</h3><table>
+<thead>
+<tr>
+<th>包名</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>com.android.virtualization.terminal</code></td>
+<td>Android 16 Linux 终端</td>
+</tr>
+<tr>
+<td><code>com.android.devicelockcontroller</code></td>
+<td>设备锁控制器</td>
+</tr>
+</tbody></table>
+<h3 id="4-6-用户安装的第三方应用（63-个）"><a href="#4-6-用户安装的第三方应用（63-个）" class="headerlink" title="4.6 用户安装的第三方应用（63 个）"></a>4.6 用户安装的第三方应用（63 个）</h3><p><strong>国内常用（30）</strong></p>
+<figure class="highlight stylus"><table><tr><td class="code"><pre><code class="hljs stylus">com<span class="hljs-selector-class">.tencent</span><span class="hljs-selector-class">.mm</span>                        微信<br>com<span class="hljs-selector-class">.tencent</span><span class="hljs-selector-class">.mobileqq</span>                  QQ<br>com<span class="hljs-selector-class">.tencent</span><span class="hljs-selector-class">.wetype</span>                    微信输入法<br>com<span class="hljs-selector-class">.tencent</span><span class="hljs-selector-class">.wemeet</span><span class="hljs-selector-class">.app</span>                腾讯会议<br>com<span class="hljs-selector-class">.tencent</span><span class="hljs-selector-class">.android</span><span class="hljs-selector-class">.qqdownloader</span>      应用宝<br>com<span class="hljs-selector-class">.eg</span><span class="hljs-selector-class">.android</span><span class="hljs-selector-class">.AlipayGphone</span>           支付宝<br>com<span class="hljs-selector-class">.taobao</span><span class="hljs-selector-class">.taobao</span>                     淘宝<br>com<span class="hljs-selector-class">.taobao</span><span class="hljs-selector-class">.idlefish</span>                   闲鱼<br>com<span class="hljs-selector-class">.jingdong</span><span class="hljs-selector-class">.app</span><span class="hljs-selector-class">.mall</span>                 京东<br>com<span class="hljs-selector-class">.xingin</span><span class="hljs-selector-class">.xhs</span>                        小红书<br>com<span class="hljs-selector-class">.zhihu</span><span class="hljs-selector-class">.android</span>                     知乎<br>com<span class="hljs-selector-class">.sankuai</span><span class="hljs-selector-class">.meituan</span>                   美团<br>com<span class="hljs-selector-class">.dianping</span><span class="hljs-selector-class">.v1</span>                       大众点评<br>com<span class="hljs-selector-class">.autonavi</span><span class="hljs-selector-class">.minimap</span>                  高德地图<br>com<span class="hljs-selector-class">.ss</span><span class="hljs-selector-class">.android</span><span class="hljs-selector-class">.ugc</span><span class="hljs-selector-class">.aweme</span>              抖音<br>tv<span class="hljs-selector-class">.danmaku</span><span class="hljs-selector-class">.bili</span>                       哔哩哔哩<br>com<span class="hljs-selector-class">.youku</span><span class="hljs-selector-class">.phone</span>                       优酷<br>com<span class="hljs-selector-class">.netease</span><span class="hljs-selector-class">.cloudmusic</span>                网易云音乐<br>com<span class="hljs-selector-class">.netease</span><span class="hljs-selector-class">.mail</span>                      网易邮箱大师<br>com<span class="hljs-selector-class">.moji</span><span class="hljs-selector-class">.mjweather</span> / <span class="hljs-selector-class">.light</span>           墨迹天气（双版本）<br>com<span class="hljs-selector-class">.mt</span><span class="hljs-selector-class">.mtxx</span><span class="hljs-selector-class">.mtxx</span>                      美图秀秀<br>com<span class="hljs-selector-class">.coolapk</span><span class="hljs-selector-class">.market</span>                    酷安<br>com<span class="hljs-selector-class">.larus</span><span class="hljs-selector-class">.nova</span>                        豆包<br>com<span class="hljs-selector-class">.alibaba</span><span class="hljs-selector-class">.android</span><span class="hljs-selector-class">.rimet</span><span class="hljs-selector-class">.bitding</span>     钉钉<br>com<span class="hljs-selector-class">.MobileTicket</span>                      铁路 <span class="hljs-number">12306</span><br>com<span class="hljs-selector-class">.umetrip</span><span class="hljs-selector-class">.android</span><span class="hljs-selector-class">.msky</span><span class="hljs-selector-class">.app</span>          航旅纵横<br>com<span class="hljs-selector-class">.ct</span><span class="hljs-selector-class">.client</span>                         中国电信<br>com<span class="hljs-selector-class">.lolaage</span><span class="hljs-selector-class">.tbulu</span><span class="hljs-selector-class">.tools</span>               两步路户外助手<br>com<span class="hljs-selector-class">.niu</span><span class="hljs-selector-class">.cloud</span>                         小牛电动<br></code></pre></td></tr></table></figure>
+
+<p><strong>金融（2）</strong></p>
+<figure class="highlight stylus"><table><tr><td class="code"><pre><code class="hljs stylus">com<span class="hljs-selector-class">.icbc</span>                              工商银行<br>cmb<span class="hljs-selector-class">.pb</span>                                招商银行<br></code></pre></td></tr></table></figure>
+
+<p><strong>开源 &#x2F; F-Droid 系（20）</strong></p>
+<figure class="highlight stylus"><table><tr><td class="code"><pre><code class="hljs stylus">org<span class="hljs-selector-class">.fdroid</span><span class="hljs-selector-class">.fdroid</span>                     F-Droid<br>com<span class="hljs-selector-class">.looker</span><span class="hljs-selector-class">.droidify</span>                   Droidify<br>com<span class="hljs-selector-class">.aurora</span><span class="hljs-selector-class">.store</span>                      Aurora Store<br>org<span class="hljs-selector-class">.fcitx</span><span class="hljs-selector-class">.fcitx5</span><span class="hljs-selector-class">.android</span>              Fcitx5 输入法<br>com<span class="hljs-selector-class">.osfans</span><span class="hljs-selector-class">.trime</span>                      同文输入法 Trime<br>org<span class="hljs-selector-class">.mozilla</span><span class="hljs-selector-class">.fennec_fdroid</span>             Firefox (Fennec)<br>com<span class="hljs-selector-class">.junkfood</span><span class="hljs-selector-class">.seal</span>                     Seal（视频下载）<br>InfinityLoop1309<span class="hljs-selector-class">.NewPipeEnhanced</span>      NewPipe<br>com<span class="hljs-selector-class">.arslandaim</span><span class="hljs-selector-class">.playtube</span>               PlayTube<br>net<span class="hljs-selector-class">.gsantner</span><span class="hljs-selector-class">.markor</span>                   Markor（Markdown）<br>net<span class="hljs-selector-class">.sourceforge</span><span class="hljs-selector-class">.opencamera</span>            Open Camera<br>com<span class="hljs-selector-class">.kunzisoft</span><span class="hljs-selector-class">.keepass</span><span class="hljs-selector-class">.free</span>            KeePassDX<br>deckers<span class="hljs-selector-class">.thibault</span><span class="hljs-selector-class">.aves</span><span class="hljs-selector-class">.libre</span>           Aves Libre（图库）<br>org<span class="hljs-selector-class">.localsend</span><span class="hljs-selector-class">.localsend_app</span>           LocalSend<br>tk<span class="hljs-selector-class">.zwander</span><span class="hljs-selector-class">.lockscreenwidgets</span>          Lockscreen Widgets<br>org<span class="hljs-selector-class">.elnix</span><span class="hljs-selector-class">.dragonlauncher</span>              Dragon Launcher<br>com<span class="hljs-selector-class">.vishaltelangre</span><span class="hljs-selector-class">.nerdcalci</span>          NerdCalci<br>com<span class="hljs-selector-class">.dsalmun</span><span class="hljs-selector-class">.luxalarm</span>                   Lux Alarm<br>fr<span class="hljs-selector-class">.dzx</span><span class="hljs-selector-class">.audiosource</span>                    Audio Source<br>ru<span class="hljs-selector-class">.andr7e</span><span class="hljs-selector-class">.deviceinfohw</span>                Device Info HW<br></code></pre></td></tr></table></figure>
+
+<p><strong>其他（11）</strong></p>
+<figure class="highlight avrasm"><table><tr><td class="code"><pre><code class="hljs avrasm"><span class="hljs-keyword">com</span>.valvesoftware.steamlink           Steam Link<br><span class="hljs-keyword">com</span>.microsoft.office.outlook          Outlook<br><span class="hljs-keyword">com</span>.sony.playmemories.mobile          Sony PlayMemories<br><span class="hljs-keyword">com</span>.deepseek.chat                     DeepSeek<br>org.codeaurora.snapcam                Snapdragon Camera<br><span class="hljs-keyword">com</span>.mobilefork.hermesagent            ?<br><span class="hljs-keyword">com</span>.sdkdns.app                        ?<br><span class="hljs-keyword">com</span>.demonlab.lune                     ?<br><span class="hljs-keyword">com</span>.chinaath.szxd                     ?<br><span class="hljs-keyword">com</span>.jiaqifeng.hacki                   ?<br><span class="hljs-keyword">com</span>.streak.app                        Streak<br></code></pre></td></tr></table></figure>
+
+<blockquote>
+<p>注：标 <code>?</code> 的 5 个包未能从包名识别用途，待补充（用<br><code>adb shell dumpsys package &lt;pkg&gt; | grep -E &quot;versionName|firstInstallTime&quot;</code> 查证）。</p>
+</blockquote>
+<hr>
+<h2 id="5-对-process-prober-的能力边界结论"><a href="#5-对-process-prober-的能力边界结论" class="headerlink" title="5. 对 process-prober 的能力边界结论"></a>5. 对 process-prober 的能力边界结论</h2><p>当前身份为 <code>shell</code>（uid 2000），在 Android 16 + Enforcing 下：</p>
+<h3 id="无需-root-即可采集"><a href="#无需-root-即可采集" class="headerlink" title="无需 root 即可采集"></a>无需 root 即可采集</h3><table>
+<thead>
+<tr>
+<th>手段</th>
+<th>可获取</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>ps -A</code></td>
+<td>全量进程列表（PID &#x2F; USER &#x2F; NAME &#x2F; RSS）</td>
+</tr>
+<tr>
+<td><code>dumpsys activity processes</code></td>
+<td>进程 adj、oom_adj、状态、前台&#x2F;后台</td>
+</tr>
+<tr>
+<td><code>dumpsys meminfo</code></td>
+<td>单进程内存明细</td>
+</tr>
+<tr>
+<td><code>dumpsys procstats</code></td>
+<td>历史进程统计</td>
+</tr>
+<tr>
+<td><code>top</code></td>
+<td>实时 CPU 占用</td>
+</tr>
+<tr>
+<td><code>getprop</code> &#x2F; <code>dumpsys package</code></td>
+<td>系统与包元数据</td>
+</tr>
+</tbody></table>
+<h3 id="必须-root-才能采集"><a href="#必须-root-才能采集" class="headerlink" title="必须 root 才能采集"></a>必须 root 才能采集</h3><table>
+<thead>
+<tr>
+<th>目标</th>
+<th>受阻原因</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>其他应用 <code>/proc/&lt;pid&gt;/cmdline</code></td>
+<td>SELinux 域隔离</td>
+</tr>
+<tr>
+<td><code>/proc/&lt;pid&gt;/maps</code>、<code>environ</code></td>
+<td>SELinux <code>proc_*</code> 标签限制</td>
+</tr>
+<tr>
+<td><code>/proc/&lt;pid&gt;/stat</code>、<code>status</code> 详情</td>
+<td>同上</td>
+</tr>
+<tr>
+<td>其他应用数据目录</td>
+<td>文件权限 + SELinux</td>
+</tr>
+</tbody></table>
+<p><strong>结论</strong>：枚举进程 + 元数据可在纯 shell 下完成；<strong>读取原始 <code>/proc</code> 内容必须 root</strong>。</p>
+<hr>
+<h2 id="6-后续路线"><a href="#6-后续路线" class="headerlink" title="6. 后续路线"></a>6. 后续路线</h2><h3 id="路线-A-—-Magisk-root（推荐，成本最低）"><a href="#路线-A-—-Magisk-root（推荐，成本最低）" class="headerlink" title="路线 A — Magisk root（推荐，成本最低）"></a>路线 A — Magisk root（推荐，成本最低）</h3><p>前置条件已满足：<strong>BL 已解锁，无需擦数据</strong>。</p>
+<ol>
+<li>从已刷入的 LOS nightly 包中提取 <code>boot.img</code> &#x2F; <code>init_boot.img</code></li>
+<li>Magisk App 打补丁 → 生成 <code>magisk_patched-*.img</code></li>
+<li><code>fastboot flash init_boot magisk_patched-*.img</code></li>
+<li>重启，<code>adb shell su</code> 验证</li>
+</ol>
+<h3 id="路线-B-—-KernelSU"><a href="#路线-B-—-KernelSU" class="headerlink" title="路线 B — KernelSU"></a>路线 B — KernelSU</h3><p>需内核支持。LOS 官方内核大概率不含 KernelSU 补丁，需自行编译内核（GKI 设备可走<br>GKI 替换路线）。成本高于 Magisk。</p>
+<h3 id="路线-C-—-自编译-LOS（ro-debuggable-1）"><a href="#路线-C-—-自编译-LOS（ro-debuggable-1）" class="headerlink" title="路线 C — 自编译 LOS（ro.debuggable=1）"></a>路线 C — 自编译 LOS（<code>ro.debuggable=1</code>）</h3><p>本地已有 <code>los-playground</code> 目录。若后续要长期做底层开发，可自编译带<br><code>ro.debuggable=1</code> 的构建，从而启用 <code>adb root</code>，省去 Magisk 的注入层。<br>代价：源码 ~200GB + 数小时编译。</p>
+<h3 id="路线-D-—-纯-shell（零改动）"><a href="#路线-D-—-纯-shell（零改动）" class="headerlink" title="路线 D — 纯 shell（零改动）"></a>路线 D — 纯 shell（零改动）</h3><p>若 prober 仅需进程枚举与 dumpsys 元数据，可直接开始，无需任何 root 操作。</p>
+<hr>
+<h2 id="7-待办"><a href="#7-待办" class="headerlink" title="7. 待办"></a>7. 待办</h2><ul>
+<li><input disabled="" type="checkbox"> 实测纯 shell 下 <code>/proc/&lt;pid&gt;/*</code> 的实际可读性（逐文件确认，而非依赖经验判断）</li>
+<li><input disabled="" type="checkbox"> 查证 5 个未知第三方包的真实用途</li>
+<li><input disabled="" type="checkbox"> 决策 root 路线（A &#x2F; B &#x2F; C &#x2F; D）</li>
+<li><input disabled="" type="checkbox"> 确认 <code>init_boot</code> 与 <code>boot</code> 分区的实际布局（GKI 设备通常补丁 <code>init_boot</code>）</li>
+</ul>
+<hr>
+<h2 id="附：本次采集使用的命令"><a href="#附：本次采集使用的命令" class="headerlink" title="附：本次采集使用的命令"></a>附：本次采集使用的命令</h2><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">adb devices -l<br>adb shell getprop ro.product.model<br>adb shell getprop ro.build.version.release<br>adb shell getprop ro.build.version.sdk<br>adb shell getprop ro.product.cpu.abi<br>adb shell getprop ro.build.type<br>adb shell <span class="hljs-string">&quot;getprop | grep -iE &#x27;lineage|aosp|pixel&#x27;&quot;</span><br>adb shell pm list packages | <span class="hljs-built_in">wc</span> -l<br>adb shell pm list packages -3<br>adb shell pm list packages -s<br>adb shell pm list packages -d<br>adb shell getprop ro.debuggable<br>adb shell getprop ro.secure<br>adb shell getprop ro.adb.secure<br>adb shell getprop persist.sys.root_access<br>adb shell <span class="hljs-built_in">command</span> -v su<br>adb shell pm list packages | grep -iE <span class="hljs-string">&quot;magisk|kernelsu|superuser|apatch&quot;</span><br>adb shell getprop ro.boot.verifiedbootstate<br>adb shell getenforce<br></code></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>agent使用</category>
+      </categories>
+      <tags>
+        <tag>claudecode</tag>
+        <tag>adb</tag>
+        <tag>los</tag>
+        <tag>root</tag>
+      </tags>
+  </entry>
 </search>
